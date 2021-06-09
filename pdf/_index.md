@@ -23,7 +23,7 @@ Easy REST API to create, merge, split, sign & convert cloud PDF files using C# o
 Java REST SDK to generate, annotate, watermark, edit & export cloud-based PDF documents without Acrobat.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="/pdf/family" innerText="View All Cloud APIs" >}}
+{{< blocks/products/pf/center-button href="/pdf/family/" innerText="View All Cloud APIs" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 

@@ -274,25 +274,25 @@ url: /php
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/curl" imgSrc="/sdk/aspose_pdf-for-curl.png" platform="cURL" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/curl/" imgSrc="/sdk/aspose_pdf-for-curl.png" platform="cURL" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/net" imgSrc="/sdk/aspose_pdf-for-net.png" platform=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="/sdk/aspose_pdf-for-net.png" platform=".NET" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/java" imgSrc="/sdk/aspose_pdf-for-java.png" platform="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="/sdk/aspose_pdf-for-java.png" platform="Java" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/php" imgSrc="/sdk/aspose_pdf-for-php.png" platform="PHP" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/php/" imgSrc="/sdk/aspose_pdf-for-php.png" platform="PHP" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/android" imgSrc="/sdk/aspose_pdf-for-android.png" platform="Android" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/android/" imgSrc="/sdk/aspose_pdf-for-android.png" platform="Android" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/python" imgSrc="/sdk/aspose_pdf-for-python.png" platform="Python" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/python/" imgSrc="/sdk/aspose_pdf-for-python.png" platform="Python" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/ruby" imgSrc="/sdk/aspose_pdf-for-ruby.png" platform="Ruby" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/ruby/" imgSrc="/sdk/aspose_pdf-for-ruby.png" platform="Ruby" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/nodejs" imgSrc="/sdk/aspose_pdf-for-node.png" platform="Node.js" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/nodejs/" imgSrc="/sdk/aspose_pdf-for-node.png" platform="Node.js" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/swift" imgSrc="/sdk/aspose_pdf-for-swift.png" platform="Swift" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/swift/" imgSrc="/sdk/aspose_pdf-for-swift.png" platform="Swift" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/go" imgSrc="/sdk/aspose_pdf-for-go.png" platform="Go" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.png" platform="Go" >}}
 	
 {{< /blocks/products/pf/offers-section >}}
 

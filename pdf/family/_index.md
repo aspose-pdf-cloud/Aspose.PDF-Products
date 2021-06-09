@@ -11,43 +11,43 @@ url: /family
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.PDF Cloud APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud for cURL" imgSrc="/sdk/aspose_pdf-for-curl.png" productLink="/pdf/curl" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud for cURL" imgSrc="/sdk/aspose_pdf-for-curl.png" productLink="/pdf/curl/" >}}
 Fetch & edit, encrypt & convert PDF files in cloud using cURL via REST API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for .NET" imgSrc="/sdk/aspose_pdf-for-net.png" productLink="/pdf/net" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for .NET" imgSrc="/sdk/aspose_pdf-for-net.png" productLink="/pdf/net/" >}}
 Use C#, ASP.NET or other .NET language to create, merge, split & export cloud PDF docs.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Java" imgSrc="/sdk/aspose_pdf-for-java.png" productLink="/pdf/java" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Java" imgSrc="/sdk/aspose_pdf-for-java.png" productLink="/pdf/java/" >}}
 Easily develop PDF generator, converter & editor apps for cloud using Java REST SDK.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for PHP" imgSrc="/sdk/aspose_pdf-for-php.png" productLink="/pdf/php" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for PHP" imgSrc="/sdk/aspose_pdf-for-php.png" productLink="/pdf/php/" >}}
 Enable your cloud-based PHP apps to create PDF from scratch, modify, encrypt & export.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Android" imgSrc="/sdk/aspose_pdf-for-android.png" productLink="/pdf/android" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Android" imgSrc="/sdk/aspose_pdf-for-android.png" productLink="/pdf/android/" >}}
 Develop PDF creator, exporter, editor apps for mobile devices using Android cloud SDK.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Python" imgSrc="/sdk/aspose_pdf-for-python.png" productLink="/pdf/python" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Python" imgSrc="/sdk/aspose_pdf-for-python.png" productLink="/pdf/python/" >}}
 Enhance your Python applications to create & process PDF files in cloud via REST API.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Ruby" imgSrc="/sdk/aspose_pdf-for-ruby.png" productLink="/pdf/ruby" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Ruby" imgSrc="/sdk/aspose_pdf-for-ruby.png" productLink="/pdf/ruby/" >}}
 Seamlessly integrate PDF generation & manipulation features into your Ruby cloud apps.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Node.js" imgSrc="/sdk/aspose_pdf-for-node.png" productLink="/pdf/nodejs" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Node.js" imgSrc="/sdk/aspose_pdf-for-node.png" productLink="/pdf/python/" >}}
 Create cloud PDF files & work with editing, security, & conversion via Node.js SDK.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Swift" imgSrc="/sdk/aspose_pdf-for-swift.png" productLink="/pdf/swift" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Swift" imgSrc="/sdk/aspose_pdf-for-swift.png" productLink="/pdf/swift/" >}}
 Create or import PDF files in the cloud via Swift REST SDK & perform various operations.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Go" imgSrc="/sdk/aspose_pdf-for-go.png" productLink="/pdf/go" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Go" imgSrc="/sdk/aspose_pdf-for-go.png" productLink="/pdf/go/" >}}
 Enable your Go lang app code to utilize basic to advanced cloud PDF processing features.
 {{< /blocks/products/pf/product >}}
 
