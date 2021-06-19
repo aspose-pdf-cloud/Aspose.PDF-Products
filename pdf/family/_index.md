@@ -39,7 +39,7 @@ Enhance your Python applications to create & process PDF files in cloud via REST
 Seamlessly integrate PDF generation & manipulation features into your Ruby cloud apps.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Node.js" imgSrc="/sdk/aspose_pdf-for-node.png" productLink="/pdf/python/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Node.js" imgSrc="/sdk/aspose_pdf-for-node.png" productLink="/pdf/nodejs/" >}}
 Create cloud PDF files & work with editing, security, & conversion via Node.js SDK.
 {{< /blocks/products/pf/product >}}
 
