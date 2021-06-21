@@ -260,7 +260,6 @@ url: /php
 {{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.cloud/c/pdf" >}}
 {{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.cloud" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.cloud/category/pdf/" >}}
-{{< blocks/products/pf/slr-element name="Aspose.PDF Blog" href="https://blog.aspose.cloud/category/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud PHP SDK?" tabId="success-stories" >}}

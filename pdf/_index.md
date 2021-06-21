@@ -11,15 +11,15 @@ url: /
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.PDF Cloud APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud for cURL" imgSrc="/sdk/aspose_pdf-for-curl.png" >}}
+{{< blocks/products/pf/product productLink="pdf/curl/" pfName="Aspose.PDF" title="Cloud for cURL" imgSrc="/sdk/aspose_pdf-for-curl.png" >}}
 Call REST APIs via cURL commands to create, access & process PDF documents in the cloud.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for .NET" imgSrc="/sdk/aspose_pdf-for-net.png" >}}
+{{< blocks/products/pf/product productLink="pdf/net/" pfName="Aspose.PDF" title="Cloud SDK for .NET" imgSrc="/sdk/aspose_pdf-for-net.png" >}}
 Easy REST API to create, merge, split, sign & convert cloud PDF files using C# or other .NET languages.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Cloud SDK for Java" imgSrc="/sdk/aspose_pdf-for-java.png" >}}
+{{< blocks/products/pf/product productLink="pdf/java/" pfName="Aspose.PDF" title="Cloud SDK for Java" imgSrc="/sdk/aspose_pdf-for-java.png" >}}
 Java REST SDK to generate, annotate, watermark, edit & export cloud-based PDF documents without Acrobat.
 {{< /blocks/products/pf/product >}}
 
@@ -29,33 +29,33 @@ Java REST SDK to generate, annotate, watermark, edit & export cloud-based PDF do
 
 {{< blocks/products/pf/product-card-row title="Aspose.PDF On Premise APIs Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for " title="NET" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/net/" pfName="Aspose.PDF for " title="NET" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" >}}
 Develop C# or other .NET based native applications for desktop to generate, modify, protect & convert PDF files locally on your computer.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/java/" pfName="Aspose.PDF for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" >}}
 Enable your desktop-based Java applications to create & customize PDF documents locally on your machine without installing Adobe Acrobat.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/cpp/" pfName="Aspose.PDF for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" >}}
 On-premise C++ library to build PDF creator, editor & converter apps for processing PDF docs on desktop without any 3rd party software.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/center-button href="https://products.aspose.com/pdf/family" innerText="View All On Premise APIs" >}}
+{{< blocks/products/pf/center-button href="https://products.aspose.com/pdf/family/" innerText="View All On Premise APIs" >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 
 {{< blocks/products/pf/product-card-row title="Aspose.PDF Cross Platform Apps Include" >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF " title="Conversion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.app/pdf/conversion" pfName="Aspose.PDF " title="Conversion" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png" >}}
 Free PDF converter online app to convert PDF to DOC, DOCX, XLSX, PPTX, XML, XPS, EPUB, TEX, HTML, BMP, PNG, SVG, TIFF, JPG, & EMF formats.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF " title="Metadata" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.app/pdf/metadata" pfName="Aspose.PDF " title="Metadata" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png" >}}
 Free online PDF metadata extractor app to view PDF metadata properties in your browser. Save or send metadata output file as an email.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF " title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.app/pdf/viewer" pfName="Aspose.PDF " title="Viewer" imgSrc="https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png" >}}
 Free PDF Viewer online app to view PDF documents on any browser supported device. The PDF pages are displayed as images. 
 {{< /blocks/products/pf/product >}}
 
