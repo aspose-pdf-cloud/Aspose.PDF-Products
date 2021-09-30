@@ -29,15 +29,15 @@ Java REST SDK to generate, annotate, watermark, edit & export cloud-based PDF do
 
 {{< blocks/products/pf/product-card-row title="Aspose.PDF On Premise APIs Include" >}}
 
-{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/net/" pfName="Aspose.PDF for " title="NET" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-net.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/net/" pfName="Aspose.PDF for " title="NET" imgSrc="/product-logos/aspose_pdf-for-net.svg" >}}
 Develop C# or other .NET based native applications for desktop to generate, modify, protect & convert PDF files locally on your computer.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/java/" pfName="Aspose.PDF for " title="Java" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-java.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/java/" pfName="Aspose.PDF for " title="Java" imgSrc="/product-logos/aspose_pdf-for-java.svg" >}}
 Enable your desktop-based Java applications to create & customize PDF documents locally on your machine without installing Adobe Acrobat.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/cpp/" pfName="Aspose.PDF for " title="C++" imgSrc="https://www.aspose.cloud/templates/aspose/App_Themes/V3/images/pdf/272x272/aspose_pdf-for-cpp.png" >}}
+{{< blocks/products/pf/product productLink="https://products.aspose.com/pdf/cpp/" pfName="Aspose.PDF for " title="C++" imgSrc="/product-logos/aspose_pdf-for-cpp.svg" >}}
 On-premise C++ library to build PDF creator, editor & converter apps for processing PDF docs on desktop without any 3rd party software.
 {{< /blocks/products/pf/product >}}
 
