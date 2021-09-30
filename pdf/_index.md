@@ -6,20 +6,20 @@ url: /
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/family-upper-banner h1="PDF Document Generation & Processing Solution" h2="Native & Cloud REST APIs for developing desktop & cloud-based applications in your favorite language to create, edit & convert PDF files." logoImageSrc="/headers/aspose_pdf-brand.png" imageAlt="Aspose.PDF Product Family" >}}
+{{< blocks/products/pf/family-upper-banner h1="PDF Document Generation & Processing Solution" h2="Native & Cloud REST APIs for developing desktop & cloud-based applications in your favorite language to create, edit & convert PDF files." logoImageSrc="/headers/aspose_pdf-brand.svg" imageAlt="Aspose.PDF Product Family" >}}
 
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/product-card-row title="Aspose.PDF Cloud APIs Include" >}}
 
-{{< blocks/products/pf/product productLink="/pdf/curl/" pfName="Aspose.PDF" title="Cloud for cURL" imgSrc="/sdk/aspose_pdf-for-curl.png" >}}
+{{< blocks/products/pf/product productLink="/pdf/curl/" pfName="Aspose.PDF" title="Cloud for cURL" imgSrc="/sdk/aspose_pdf-for-curl.svg" >}}
 Call REST APIs via cURL commands to create, access & process PDF documents in the cloud.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product productLink="/pdf/net/" pfName="Aspose.PDF" title="Cloud SDK for .NET" imgSrc="/sdk/aspose_pdf-for-net.png" >}}
+{{< blocks/products/pf/product productLink="/pdf/net/" pfName="Aspose.PDF" title="Cloud SDK for .NET" imgSrc="/sdk/aspose_pdf-for-net.svg" >}}
 Easy REST API to create, merge, split, sign & convert cloud PDF files using C# or other .NET languages.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product productLink="/pdf/java/" pfName="Aspose.PDF" title="Cloud SDK for Java" imgSrc="/sdk/aspose_pdf-for-java.png" >}}
+{{< blocks/products/pf/product productLink="/pdf/java/" pfName="Aspose.PDF" title="Cloud SDK for Java" imgSrc="/sdk/aspose_pdf-for-java.svg" >}}
 Java REST SDK to generate, annotate, watermark, edit & export cloud-based PDF documents without Acrobat.
 {{< /blocks/products/pf/product >}}
 

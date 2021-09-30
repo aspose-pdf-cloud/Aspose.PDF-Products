@@ -6,11 +6,11 @@ url: /swift
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Build PDF Generator, Annotator & Converter Apps in Swift" h2="Swift cloud SDK to edit, merge, split, bookmark, sign, encrypt, annotate & export PDF documents hosted on the cloud." logoImageSrc="/headers/aspose_pdf-for-swift.png" pfName="Aspose.PDF" subTitlepfName="Cloud Swift SDK" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="Build PDF Generator, Annotator & Converter Apps in Swift" h2="Swift cloud SDK to edit, merge, split, bookmark, sign, encrypt, annotate & export PDF documents hosted on the cloud." logoImageSrc="/headers/aspose_pdf-for-swift.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Swift SDK" downloadUrl="" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Swift SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.png" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Swift SDK allows enhancing your cloud-based Swift apps to create new PDF pages in the cloud or generate cloud PDF documents by converting from various formats, such as JPEG, TIFF, SVG, PCL, XPS, XML, HTML, etc. You can also merge multiple PDF files into one cloud PDF document or split one Acrobat file to multiple smaller PDFs.</p>
@@ -37,7 +37,7 @@ url: /swift
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-swift.png" alt="Swift pdf Cloud"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Swift</footer></div>
+<div class="d1-logo"><img src="/sdk/aspose_pdf-for-swift.svg" alt="Swift pdf Cloud"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Swift</footer></div>
 <!--/logo--></div>
 <!--/diagram1-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -53,7 +53,7 @@ url: /swift
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-swift.png" alt="Swift Cloud for pdf"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Swift</footer></div>
+<div class="d1-logo"><img src="/sdk/aspose_pdf-for-swift.svg" alt="Swift Cloud for pdf"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Swift</footer></div>
 <!--/logo--></div>
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -273,25 +273,25 @@ url: /swift
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 
-    {{< blocks/products/pf/offers-section-item link="/pdf/curl/" imgSrc="/sdk/aspose_pdf-for-curl.png" platform="cURL" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/curl/" imgSrc="/sdk/aspose_pdf-for-curl.svg" platform="cURL" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="/sdk/aspose_pdf-for-net.png" platform=".NET" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="/sdk/aspose_pdf-for-net.svg" platform=".NET" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="/sdk/aspose_pdf-for-java.png" platform="Java" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="/sdk/aspose_pdf-for-java.svg" platform="Java" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/php/" imgSrc="/sdk/aspose_pdf-for-php.png" platform="PHP" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/php/" imgSrc="/sdk/aspose_pdf-for-php.svg" platform="PHP" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/android/" imgSrc="/sdk/aspose_pdf-for-android.png" platform="Android" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/android/" imgSrc="/sdk/aspose_pdf-for-android.svg" platform="Android" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/python/" imgSrc="/sdk/aspose_pdf-for-python.png" platform="Python" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/python/" imgSrc="/sdk/aspose_pdf-for-python.svg" platform="Python" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/ruby/" imgSrc="/sdk/aspose_pdf-for-ruby.png" platform="Ruby" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/ruby/" imgSrc="/sdk/aspose_pdf-for-ruby.svg" platform="Ruby" >}}
 	
-    {{< blocks/products/pf/offers-section-item link="/pdf/nodejs/" imgSrc="/sdk/aspose_pdf-for-node.png" platform="Node.js" >}}
+    {{< blocks/products/pf/offers-section-item link="/pdf/nodejs/" imgSrc="/sdk/aspose_pdf-for-node.svg" platform="Node.js" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/swift/" imgSrc="/sdk/aspose_pdf-for-swift.png" platform="Swift" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/swift/" imgSrc="/sdk/aspose_pdf-for-swift.svg" platform="Swift" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.png" platform="Go" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 	
 {{< /blocks/products/pf/offers-section >}}
 
