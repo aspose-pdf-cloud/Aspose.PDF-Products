@@ -3,7 +3,6 @@ title: Convert GIF to PDF via Cloud .NET SDK
 url: /net/conversion/gif-to-pdf/
 description: Sample code for GIF to PDF Cloud .NET SDK conversion. Use API example code for batch GIF files to PDF conversion with Aspose.PDF Cloud.
 lastmod: "2022-03-17"
-breadcrumbs: ["Products","Aspose.PDF","Cloud .NET SDK","GIF to PDF Conversion"]
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -43,14 +42,6 @@ breadcrumbs: ["Products","Aspose.PDF","Cloud .NET SDK","GIF to PDF Conversion"]
  Aspose.PDF Cloud developers can easily load & convert GIF files to PDF in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
-
-{{< blocks/products/pf/json-ld-howto howToName="How to convert GIF to PDF using Cloud .NET SDK" howToDesc="Sample code for GIF to PDF C# conversion."
-    stepName1="Create a Configuration object" stepText1="Create a new Configuration object with your Application Secret and Application Key"
-    stepName2="Create an object" stepText2="Create an object to connect to the Cloud API"
-    stepName3="Upload your document" stepText3="Upload your document file"
-    stepName4="Convert document" stepText4="Perform the conversion"
-    stepName5="Download the result" stepText5="Download and save the result"
->}}
 
 1. Create a new Configuration object with your Application Secret and Application Key
 1. Create an object to connect to the Cloud API

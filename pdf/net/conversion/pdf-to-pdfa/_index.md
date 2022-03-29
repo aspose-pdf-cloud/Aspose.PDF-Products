@@ -3,7 +3,6 @@ title: Convert PDF to PDF/A via Cloud .NET SDK
 url: /net/conversion/pdf-to-pdfa/ 
 description: Sample code for PDF to PDF/A C# conversion. Use API example code for batch PDF files to PDF/A conversion within VB.NET, Asp.NET or any .NET based application.
 lastmod: "2022-03-17"
-breadcrumbs: ["Products","Aspose.PDF","Cloud .NET SDK","PDF to PDF/A Conversion"]
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -43,12 +42,6 @@ breadcrumbs: ["Products","Aspose.PDF","Cloud .NET SDK","PDF to PDF/A Conversion"
  Aspose.PDF Cloud developers can easily load & convert PDF to PDF/A files in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
-
-{{< blocks/products/pf/json-ld-howto howToName="How to convert PDF to PDF/A using .NET" howToDesc="Sample code for PDF to PDF/A C# conversion."
-    stepName1="Initialize a Document" stepText1="Initialize a new Document"
-    stepName2="Load an Image" stepText2="Load input PDF image"
-    stepName3="Save PDF/A" stepText3="Finally, save the output PDF/A file"
->}}
 
 1. Create a new Configuration object with your Application Secret and Application Key
 1. Create an object to connect to the Cloud API

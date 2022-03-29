@@ -4,7 +4,6 @@ weight: 530
 url: /net/conversion/pdf-to-png/
 description: Sample code for PDF to PNG C# conversion. Use API example code for batch PDF files to PNG images conversion within VB.NET, Asp.NET or any .NET based application.
 lastmod: "2022-03-17"
-breadcrumbs: ["Products","Aspose.PDF","Cloud .NET SDK","PDF to PNG Conversion"]
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -44,14 +43,6 @@ breadcrumbs: ["Products","Aspose.PDF","Cloud .NET SDK","PDF to PNG Conversion"]
  Aspose.PDF Cloud developers can easily load & convert PDF to PNG files in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
-
-{{< blocks/products/pf/json-ld-howto howToName="How to convert PDF to PNG using Cloud .NET SDK" howToDesc="Sample code for PDF to PNG C# conversion."
-    stepName1="Create a Configuration object" stepText1="Create a new Configuration object with your Application Secret and Application Key"
-    stepName2="Create an object" stepText2="Create an object to connect to the Cloud API"
-    stepName3="Upload your document" stepText3="Upload your document file"
-    stepName4="Convert document" stepText4="Perform the conversion"
-    stepName5="Download the result" stepText5="Download and save the result"
->}}
 
 1. Create a new Configuration object with your Application Secret and Application Key
 1. Create an object to connect to the Cloud API
