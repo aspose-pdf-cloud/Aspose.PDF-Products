@@ -14,8 +14,11 @@ Aspose.PDF Cloud .NET SDK offers your cloud-based C# program to convert PDF to X
 
 {{% blocks/products/pf/feature-page-section  h2="Convert PDF to DOCX and More Formats" %}}
 
-First you should create a new Configuration object with your personal Application Secret and Application Key. Next,
-create an object to connect to the Cloud API. After, you can upload your document file. The next step is to convert the documents directly. Download and save the result.
++ Create a new Configuration object with your personal Application Secret and Application Key. 
++ Create an API Client object to connect to the Cloud API. 
++ Upload your document file. 
++ Call Cloud API to convert the documents directly. 
++ Download and save the result.
 {{% blocks/products/pf/feature-page-code h3="Cloud .NET SDK Code for PDF to DOCX Conversion" %}}
 
 ```cs
