@@ -166,6 +166,6 @@ public static void ConvertPDFtoXLSX()
 C# PDF API loads other multiple [formats](https://docs.aspose.cloud/pdf/supported-document-formats/) for manipulation and conversion. API loads the relevant supported format and save into the required format.
 {{% /blocks/products/pf/feature-page-section %}}
 
-{{< blocks/products/pf/feature-page-options pairs=" pdf-to-pptx epub-to-pdf html-to-pdf pdf-to-docx md-to-pdf pcl-to-pdf svg-to-pdf tex-to-pdf ps-to-pdf" >}}
+{{< blocks/products/pf/feature-page-options pairs="pdf-to-pptx epub-to-pdf html-to-pdf pdf-to-docx md-to-pdf pcl-to-pdf svg-to-pdf tex-to-pdf ps-to-pdf" >}}
 
 
