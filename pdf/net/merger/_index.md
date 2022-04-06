@@ -12,7 +12,7 @@ description: This topic explain you hoe to merge multiple PDF files using Aspose
 
 {{% blocks/products/pf/agp/content h2="How to Merge Multiple PDF Files Using C# Cloud API" %}}
 
- In order to convert BMP to PDF, we’ll use
+ In order to merge two PDF files we’ll use
  [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/)
  This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in C#, ASP.NET, or other .NET languages for various cloud platforms. Open
  [NuGet](https://www.nuget.org/packages/Aspose.Pdf-Cloud)
@@ -41,16 +41,16 @@ PM> Install-Package Aspose.Pdf-Cloud
 {{% blocks/products/pf/agp/text %}}
 
  A basic merging pdfs programmatically with
- [Aspose.PDF for .NET](https://products.aspose.cloud/pdf/net/)
+ [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/)
  APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
-+  Load all the PDF files with full path.
-+  Make one document as the base file
-+  Call the relevant method for concatenating and merging files one by one.
-+  Call the Save() method and pass the file name (full path) and format (PDF) as a parameter.
-+  Now you can open and use the PDF file in Microsoft Office, Adobe PDF or any other compatible program.
+1. Create a new Configuration object with your Application Secret and Key
+1. Create an object to connect to the Cloud API
+1. Upload your document file
+1. Perform the merging
+1. Download the result
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -70,6 +70,13 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="Merge Two PDF Files - C#" offSpacer="" %}}
 
 ```cs
+
+    internal static void MergePDF()
+    {
+     Aspose.Pdf.Cloud.Sdk.Model.FilesUploadResult uploadResult;
+    var localImageFileName = @"C:\Samples\sample.pdf";
+    var storageFileName1 = "sample1.pdf";
+    var storageFileName2 = "sample2.pdf";
 
     // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
     var config = new Configuration(AppSecret, AppKey);
@@ -91,6 +98,7 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
     var response = pdfApi.DownloadFile("merged-doc.pdf");
     response.CopyTo(System.IO.File.OpenWrite("merged-doc.pdf"));
     Console.WriteLine();
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -100,9 +108,9 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 <!-- aboutfile Starts -->
 
-{{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
+{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud .NET SDK" %}}
 
- Aspose.PDF API can be used for PDF document manipulation, parsing and concatenation within applications. One can create, modify, combine, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
 
 
 {{% /blocks/products/pf/agp/content %}}
