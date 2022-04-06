@@ -58,14 +58,12 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 {{% blocks/products/pf/agp/text %}}
 
-Before executing the code below, please make sure that you have the following prerequisites on your system.
+It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud .NET SDK.
+
++ .NET Framework 2.0 or later
++ JSON.NET
 
 {{% /blocks/products/pf/agp/text %}}
-
-- Microsoft Windows or a compatible OS with .NET Framework, .NET Core
-- Development environment like Microsoft Visual Studio
--  Include Aspose.PDF for .NET DLL reference in your project
--  Add namespace in relevant class
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -102,7 +100,7 @@ Before executing the code below, please make sure that you have the following pr
 
 <!-- aboutfile Starts -->
 
-    {{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
+{{% blocks/products/pf/agp/content h2="About Aspose.PDF for .NET API" %}}
 
  Aspose.PDF API can be used for PDF document manipulation, parsing and concatenation within applications. One can create, modify, combine, secure, print or save PDF to TXT, HTML, PCL, XFA, XML, XPS, EPUB, TEX, Images and more formats. Aspose.PDF is a standalone API and it does not depend on any software including Adobe Acrobat.
 
@@ -120,9 +118,9 @@ Before executing the code below, please make sure that you have the following pr
 {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
-        {{< /blocks/products/pf/agp/about-file-text >}}
+{{< /blocks/products/pf/agp/about-file-text >}}
 
-    {{< /blocks/products/pf/agp/about-file-section >}}
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 <!-- aboutfile Ends -->
 
