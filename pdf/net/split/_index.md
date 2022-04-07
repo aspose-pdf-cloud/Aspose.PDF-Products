@@ -78,13 +78,13 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
     var config = new Configuration(AppSecret, AppKey);
     var pdfApi = new PdfApi(config);
 
-        if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
-        {
-            using (var file = File.OpenRead(localImageFileName))
-        {
+    if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
+    {
+    using (var file = File.OpenRead(localImageFileName))
+    {
     var uploadResult = pdfApi.UploadFile(storageFileName, file);
         Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+    }
     }
     var response = pdfApi.PostSplitDocument(storageFileName);
 }
