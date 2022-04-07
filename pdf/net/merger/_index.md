@@ -80,22 +80,22 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
     var config = new Configuration(AppSecret, AppKey);
     var pdfApi = new PdfApi(config);
 
-        using (var file = File.OpenRead(localImageFileName))
-        {
-            uploadResult = pdfApi.UploadFile(storageFileName1, file);
-        }
-        pdfApi.CopyFile(storageFileName1, storageFileName2);
+    using (var file = File.OpenRead(localImageFileName))
+    {
+        uploadResult = pdfApi.UploadFile(storageFileName1, file);
+    }
+    pdfApi.CopyFile(storageFileName1, storageFileName2);
 
     var documentsToBeMerged = new List<string>()
-        {
-            storageFileName1, storageFileName2
-        };
+    {
+        storageFileName1, storageFileName2
+    };
     var documents = new Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments(documentsToBeMerged);
 
-        pdfApi.PutMergeDocuments("merged-doc.pdf", documents);
+    pdfApi.PutMergeDocuments("merged-doc.pdf", documents);
 
     var response = pdfApi.DownloadFile("merged-doc.pdf");
-        response.CopyTo(System.IO.File.OpenWrite("merged-doc.pdf"));
+    response.CopyTo(System.IO.File.OpenWrite("merged-doc.pdf"));
     Console.WriteLine();
 }
 ```
