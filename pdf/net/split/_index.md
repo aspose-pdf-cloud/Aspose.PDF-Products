@@ -24,7 +24,7 @@ description: This topic explain you how to split all or specific pages of a PDF 
 
 ```powershell
 
-PM> Install-Package Aspose.Pdf-Cloud 
+    PM> Install-Package Aspose.Pdf-Cloud 
 
 
 
