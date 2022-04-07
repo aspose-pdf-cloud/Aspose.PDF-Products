@@ -82,11 +82,11 @@ public static void RemoveFormField()
     var filesOnStorage = pdfApi.GetFilesList("");
     if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
     {
-        using (var file = File.OpenRead(localImageFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+    using (var file = File.OpenRead(localImageFileName))
+    {
+    var uploadResult = pdfApi.UploadFile(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
+    }
     }
 
     var response = pdfApi.DeleteField(storageFileName, "First Name");

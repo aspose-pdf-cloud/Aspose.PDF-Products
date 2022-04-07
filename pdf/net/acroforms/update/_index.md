@@ -82,19 +82,19 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
     var filesOnStorage = pdfApi.GetFilesList("");
     if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
     {
-        using (var file = File.OpenRead(localImageFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+    using (var file = File.OpenRead(localImageFileName))
+    {
+    var uploadResult = pdfApi.UploadFile(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
+    }
     }
     var fieldList = new List<Field>
     {
-        new Aspose.Pdf.Cloud.Sdk.Model.Field(
-                Name: "First Name",
-                Type: FieldType.Text,
-                Values: new List<string> { "James" },
-                Rect: new Rectangle(125, 735, 200, 752))
+    new Aspose.Pdf.Cloud.Sdk.Model.Field(
+        Name: "First Name",
+        Type: FieldType.Text,
+        Values: new List<string> { "James" },
+        Rect: new Rectangle(125, 735, 200, 752))
     };
 
     var fields = new Aspose.Pdf.Cloud.Sdk.Model.Fields(List: fieldList);
