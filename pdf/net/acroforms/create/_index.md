@@ -1,6 +1,6 @@
 ---
 title: Creating an AcroForm via Cloud .NET SDK 
-url: /net/acroform/create/
+url: /net/acro-forms/add/
 description: Aspose.PDF Cloud allows you to add Form Fields to a PDF Document. Check the C# source code to add fields and create AcroForms PDF file.
 lastmod: "2022-03-19"
 ---
@@ -82,11 +82,11 @@ public static void AddFormField()
     var filesOnStorage = pdfApi.GetFilesList("");
     if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
     {
-    using (var file = File.OpenRead(localImageFileName))
-    {
-    var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
+        using (var file = File.OpenRead(localImageFileName))
+        {
+        var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
     }
     var textBoxField = new Aspose.Pdf.Cloud.Sdk.Model.TextBoxField(PageIndex: 1)
     {

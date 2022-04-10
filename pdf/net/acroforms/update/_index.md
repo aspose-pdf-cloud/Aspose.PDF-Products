@@ -1,6 +1,6 @@
 ---
 title: Update Form Fields in PDF Document via Cloud .NET SDK 
-url: /net/acroform/update/
+url: /net/acro-forms/update/
 description: This topic shows you how to update all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2022-03-19"
 ---
@@ -72,7 +72,7 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows updating the AcroForms in PDF documents" offSpacer="" %}}
 
 ```cs
- public static void UpdateFormFields()
+public static void UpdateFormFields()
 {
     var localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
     var storageFileName = "StudentInfoFormElectronic.pdf";
@@ -82,19 +82,19 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
     var filesOnStorage = pdfApi.GetFilesList("");
     if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
     {
-    using (var file = File.OpenRead(localImageFileName))
-    {
-    var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
+        using (var file = File.OpenRead(localImageFileName))
+        {
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
     }
     var fieldList = new List<Field>
     {
-    new Aspose.Pdf.Cloud.Sdk.Model.Field(
-        Name: "First Name",
-        Type: FieldType.Text,
-        Values: new List<string> { "James" },
-        Rect: new Rectangle(125, 735, 200, 752))
+        new Aspose.Pdf.Cloud.Sdk.Model.Field(
+                Name: "First Name",
+                Type: FieldType.Text,
+                Values: new List<string> { "James" },
+                Rect: new Rectangle(125, 735, 200, 752))
     };
 
     var fields = new Aspose.Pdf.Cloud.Sdk.Model.Fields(List: fieldList);

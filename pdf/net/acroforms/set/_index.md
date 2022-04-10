@@ -1,6 +1,6 @@
 ---
 title: Set Form Fields from PDF Document via Cloud .NET SDK 
-url: /net/acroform/set/
+url: /net/acro-forms/set/
 description: This topic shows you how to set all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2022-03-19"
 ---
@@ -82,11 +82,11 @@ public static void SetFormField()
     var filesOnStorage = pdfApi.GetFilesList("");
     if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
     {
-    using (var file = File.OpenRead(localImageFileName))
-    {
-    var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
+        using (var file = File.OpenRead(localImageFileName))
+        {
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
     }
 
     var response = pdfApi.PutUpdateField(storageFileName, "First Name", new Aspose.Pdf.Cloud.Sdk.Model.Field(

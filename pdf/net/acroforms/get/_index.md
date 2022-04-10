@@ -1,6 +1,6 @@
 ---
 title: Get Form Fields from PDF Document via Cloud .NET SDK 
-url: /net/acroform/get/
+url: /net/acro-forms/get/
 description: This topic shows you how to get all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2022-03-19"
 ---
@@ -84,25 +84,25 @@ public static void GetFormFields()
 
     if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
     {
-    using (var file = File.OpenRead(localImageFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
+        using (var file = File.OpenRead(localImageFileName))
+        {
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
     }
 
     var response = pdfApi.GetFields(storageFileName);
     foreach (var item in response.Fields.List)
+    {
+        if (item.Type == Aspose.Pdf.Cloud.Sdk.Model.FieldType.List)
         {
-            if (item.Type == Aspose.Pdf.Cloud.Sdk.Model.FieldType.List)
-        {
-        Console.Write($"Name: [{item.Name}] Value:");
-        foreach (var listItem in item.Values)
-        {
-            Console.WriteLine($"{listItem} ");
+            Console.Write($"Name: [{item.Name}] Value:");
+            foreach (var listItem in item.Values)
+            {
+                Console.WriteLine($"{listItem} ");
+            }
         }
-        }
-            else
+        else
         {
             Console.WriteLine($"Name: [{item.Name}] Value: [{item.Values.FirstOrDefault()}]");
         }
