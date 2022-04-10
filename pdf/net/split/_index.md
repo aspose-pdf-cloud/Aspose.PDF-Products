@@ -70,9 +70,11 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="Split Single PDF File - C#" offSpacer="" %}}
 
 ```cs
+public static void SplitSinglePages()
 {
     var localImageFileName = @"C:\Samples\Sample-Document-01.pdf";
     var storageFileName = "Sample-Document-01.pdf";
+
 
     // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
     var config = new Configuration(AppSecret, AppKey);
@@ -80,12 +82,13 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
     if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
     {
-    using (var file = File.OpenRead(localImageFileName))
-    {
-    var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
+        using (var file = File.OpenRead(localImageFileName))
+        {
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
     }
-    }
+
     var response = pdfApi.PostSplitDocument(storageFileName);
 }
 ```
