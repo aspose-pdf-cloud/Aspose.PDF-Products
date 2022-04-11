@@ -51,8 +51,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Create a new Configuration object with your Application Secret and Key
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the creating
-1. Download the result
+1. Set desired property using PutSetProperty
+1. Download the result if needed
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
