@@ -26,10 +26,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```powershell
+```bash
 
      
-    NPM> $ npm install asposepdfcloud --save
+    npm install asposepdfcloud --save
      
      
 
