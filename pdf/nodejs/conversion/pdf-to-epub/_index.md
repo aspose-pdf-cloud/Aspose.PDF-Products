@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PDF to EPUB via Node.js SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PDF to EPUB via Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
