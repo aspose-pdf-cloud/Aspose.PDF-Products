@@ -68,8 +68,9 @@ url: /python/merge
 <br/>
 <div class="codeblock nf">
 <div class="codeheader">Merge 2 PDF documents</div>
-<pre data-nosnippet><code class="python hljs" >file_name_list = ['4pages.pdf', 'PdfWithImages2.pdf', 'marketing.pdf']
-        for file_name in file_name_list:
+<pre data-nosnippet><code class="python hljs" >
+    file_name_list = ['4pages.pdf', 'PdfWithImages2.pdf', 'marketing.pdf']
+    for file_name in file_name_list:
             self.uploadFile(file_name)
         
         result_name = 'MergingResult.pdf'
