@@ -88,7 +88,8 @@ url: /python/merge
         }
 
         response = self.pdf_api.put_merge_documents(result_name, **opts)
-        self.assertEqual(response.code, 200)</code></pre>
+        self.assertEqual(response.code, 200)
+</code></pre>
 </div>
 <br /><br /></div>
 </div>
