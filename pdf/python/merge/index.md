@@ -40,11 +40,11 @@ url: /python/merge
 <p>We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document merging options to meet their unique requirements.</p>
 <p>With our Python library you can:</p>
 <ul>
-<li>Combine as many documents as you like.</li>
-<li>Specify options on how to join documents together.</li>
-<li>Control how Header and Footers appear.</li>
-<li>Control how Page Numbering is handled.</li>
-<li>Control how Lists are handled.</li>
+<li>Combine PDF documents.</li>
+<li>Splitt PDF Files.</li>
+<li>Convert PDF to other formats, and vice versa.</li>
+<li>Manipulate Annotations.</li>
+<li>Work with Images in PDF, etc.</li>
 </ul>
 <p>You can try out our <a href="https://products.aspose.app/pdf/merger" target="_blank">free App</a> to merge PDF files online and test the functionality.</p>
 <h1>How to Merge a PDF in Python</h1>
