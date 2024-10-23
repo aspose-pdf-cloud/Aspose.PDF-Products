@@ -68,26 +68,26 @@ url: /python/merge
 <div class="codeblock nf">
 <div class="codeheader">Merge 2 PDF documents</div>
 <pre data-nosnippet><code class="python hljs" >
-      file_name_list = ['4pages.pdf', 'PdfWithImages2.pdf', 'marketing.pdf']
-      for file_name in file_name_list:
-            self.uploadFile(file_name)
-        
-        result_name = 'MergingResult.pdf'
+file_name_list = ['4pages.pdf', 'PdfWithImages2.pdf', 'marketing.pdf']
+for file_name in file_name_list:
+    self.uploadFile(file_name)
 
-        i = 0
-        for el in file_name_list:
-            file_name_list[i] = self.temp_folder + '/' + el
-            i += 1
+result_name = 'MergingResult.pdf'
 
-        merge_documents = asposepdfcloud.models.MergeDocuments(file_name_list)
+i = 0
+for el in file_name_list:
+    file_name_list[i] = self.temp_folder + '/' + el
+    i += 1
 
-        opts = {
-              "merge_documents" : merge_documents,
-              "folder" : self.temp_folder
-        }
+merge_documents = asposepdfcloud.models.MergeDocuments(file_name_list)
 
-        response = self.pdf_api.put_merge_documents(result_name, **opts)
-        self.assertEqual(response.code, 200)</code></pre>
+opts = {
+        "merge_documents" : merge_documents,
+        "folder" : self.temp_folder
+}
+
+response = self.pdf_api.put_merge_documents(result_name, **opts)
+self.assertEqual(response.code, 200)</code></pre>
 </div>
 <br /><br /></div>
 </div>
