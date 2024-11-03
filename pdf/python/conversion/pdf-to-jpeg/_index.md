@@ -43,18 +43,6 @@ This Cloud SDK assists Python programmers in developing cloud-based PDF creator,
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Import the package" offSpacer="true" %}}
-
-```bash
-
-     
-    import asposepdfcloud
-     
-     
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
 {{% /blocks/products/pf/agp/content %}}
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}

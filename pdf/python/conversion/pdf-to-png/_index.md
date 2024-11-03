@@ -39,18 +39,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Import the package" offSpacer="true" %}}
-
-```bash
-
-     
-    import asposepdfcloud
-     
-     
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
 {{% /blocks/products/pf/agp/content %}}
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
