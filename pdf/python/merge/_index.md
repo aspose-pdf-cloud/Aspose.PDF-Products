@@ -5,93 +5,153 @@ weight: 40
 url: /python/merge
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-<div id="fh">
-<div class="container">
-<div class="row">
-<h1>Merge PDF Documents in Python</h1>
-</div>
-</div>
-</div>
-<div class="wmh">
-<div class="container">
-<div class="row">
-<h1>Merge PDF Documents in Python</h1>
-</div>
-</div>
-</div>
-<div id="fm" data-nosnippet="">
-<div class="container">
-<div class="row">
-<p class="navbar-text"><a href="/pdf/family/">PDF Cloud</a> / <a id="sdk" href="/pdf/python/"> Python</a> / Merge</p>
-</div>
-</div>
-</div>
-<div class="wgray">
-<div class="container">
-<div class="row">
-<div class="w"><p>Now, managing and organizing documents is essential for businesses and individuals. Merging multiple PDF files into one document simplifies sharing, archiving, and printing. Whether you need to combine multiple reports, invoices, or contracts, merging PDFs offers a clean, organized solution. With Aspose Cloud Python Library, you can easily merge multiple PDF documents programmatically using the power of cloud computing. This guide will walk you through merging PDF files using Aspose's Cloud API in Python.</p>
-<h2>Why do I need to merge multiple PDF documents?</h2>
-<p>Combine multiple related documents into a single file for easy management. Merge invoices, receipts, or reports for a client into a single file for streamlined sharing. Reduce the number of files in storage by consolidating them into one compact document. Save time by automating the process of merging multiple files.</p>
-<h2>Merge PDFs with Python</h2>
-<p>The PDF Cloud Python SDK offers an easy-to-use and secure API for merging PDF files quickly and accurately, even when dealing with complex formatting. Instead of manually combining files, you can merge them in seconds with just a single method call from the Python SDK. There's no need to install additional software—document merging happens in the cloud, offloading the process from your local system and saving resources.</p>
-<p>To start, you should have Python and the <a href="https://pypi.org/project/asposepdfcloud/" target="_blank" rel="noopener">PDF Cloud Python SDK</a> installed on your system.</p>
-<h2>Combine Features and Capabilities</h2>
-<p>We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document merging options to meet their unique requirements.</p>
-<p>With our Python library you can:</p>
-<ul>
-<li>Combine PDF documents.</li>
-<li>Splitt PDF Files.</li>
-<li>Convert PDF to other formats, and vice versa.</li>
-<li>Manipulate Annotations.</li>
-<li>Work with Images in PDF, etc.</li>
-</ul>
-<p>You can try out our <a href="https://products.aspose.app/pdf/merger" target="_blank">free App</a> to merge PDF files online and test the functionality.</p>
-<h1>How to Merge a PDF in Python</h1>
-<ol>
-<li>Install <a href="https://pypi.org/project/asposepdfcloud/" target="_blank" rel="noopener">Python SDK</a>.</li>	<li>Go to the <a href="https://dashboard.aspose.cloud/" target="_blank">Aspose Cloud Dashboard</a>.</li>
-<li>Create <a href="https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account" target="_blank">a
-		new Account</a> to access all applications and services or Sign In to your account.
-	</li>
-<li>Click on <strong>Applications</strong> in the left menu to get <strong>Client Id</strong> and <strong>Client Secret</strong>.</li>
-<li>Check out the <a href="https://docs.aspose.cloud/pdf/merge-multiple-pdf-files/" target="_blank">Developer
-		Guide</a> to merge a PDF in Python.
-	</li>
-<li>Check out our <a href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python/" target="_blank">GitHub repository</a> for a complete API list along
-		with working examples.
-	</li>
-<li>Check out the <a href="https://reference.aspose.cloud/pdf/#/Merge" target="_blank">API Reference page</a>
-		for the description of APIs parameters.
-	</li>
-</ol>
-<br/>
-<div class="codeblock nf">
-<div class="codeheader">Merge 2 PDF documents</div>
-<pre data-nosnippet><code class="python hljs" >
-file_name_list = ['4pages.pdf', 'PdfWithImages2.pdf', 'marketing.pdf']
-for file_name in file_name_list:
-    self.uploadFile(file_name)
+{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
+{{< blocks/products/pf/upper-banner h1="Merge PDF Documents using Cloud API" h2="Merge two PDF files into one in Python Cloud API without the use of any software like Adobe PDF." logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="" pfName="Aspose.PDF" subTitlepfName="for Python" downloadUrl="" fileiconsmall1="PNG" fileiconsmall2="JPG" fileiconsmall3="BMP" fileiconsmall4="TIFF" fileiconsmall5="PDF" >}}
 
-result_name = 'MergingResult.pdf'
+{{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for Python" >}}
+{{< blocks/products/pf/sub-menu autoGeneratedVersion="true" logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" apiHomeLink="" codeSamplesLink="https://github.com/aspose-pdf-cloud" liveDemosLink="https://products.aspose.cloud/pdf/" docsLink="https://docs.aspose.cloud/pdf/" installationsDocsLink="https://docs.aspose.cloud/pdf/" nugetLink="https://www.nuget.org/packages/Aspose.Pdf-Cloud" nugetPackageName="" downloadAsLink="https://releases.aspose.cloud/pdf/python/" learnAsLink="https://docs.aspose.cloud/pdf/" apiReference="" mavenRepoLink="" >}}
 
-i = 0
-for el in file_name_list:
-    file_name_list[i] = self.temp_folder + '/' + el
-    i += 1
+{{% blocks/products/pf/agp/content h2="How to Merge two PDF Files Using Python Cloud API" %}}
 
-merge_documents = asposepdfcloud.models.MergeDocuments(file_name_list)
+Now, managing and organizing documents is essential for businesses and individuals. Merging multiple PDF files into one document simplifies sharing, archiving, and printing. Whether you need to combine multiple reports, invoices, or contracts, merging PDFs offers a clean, organized solution. With Aspose Cloud Python Library, you can easily merge multiple PDF documents programmatically using the power of cloud computing. This guide will walk you through merging PDF files using Aspose's Cloud API in Python.
 
-opts = {
-        "merge_documents" : merge_documents,
-        "folder" : self.temp_folder
-}
+**Why do I need to merge multiple PDF documents?**
 
-response = self.pdf_api.put_merge_documents(result_name, **opts)
-self.assertEqual(response.code, 200)</code></pre>
-</div>
-<br /><br /></div>
-</div>
-</div>
+Combine multiple related documents into a single file for easy management. Merge invoices, receipts, or reports for a client into a single file for streamlined sharing. Reduce the number of files in storage by consolidating them into one compact document. Save time by automating the process of merging multiple files.
+
+**Merge PDFs with Python**
+
+The PDF Cloud Python SDK offers an easy-to-use and secure API for merging PDF files quickly and accurately, even when dealing with complex formatting. Instead of manually combining files, you can merge them in seconds with just a single method call from the Python SDK. There's no need to install additional software—document merging happens in the cloud, offloading the process from your local system and saving resources.
+
+To start, you should have Python and the [PDF Cloud Python SDK](https://pypi.org/project/asposepdfcloud/) installed on your system.
+
+{{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
+
+```bash
+
+     
+    pip install git+https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python.git
+
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+
+```bash
+     
+    pip install asposepdfcloud
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% /blocks/products/pf/agp/content %}}
+
+{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF Files via Cloud Python SDK" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+ A basic merging pdfs programmatically with
+ [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
+ APIs can be done with just few lines of code.
+
+{{% /blocks/products/pf/agp/text %}}
+
+1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/).
+1. Go to the [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/).
+1. Create a new [Account](https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account) to access all applications and services or Sign In to your account.
+1. Click on Applications in the left menu to get Client Id and Client Secret.
+1. Check out the [Developer Guide](https://docs.aspose.cloud/pdf/merge-multiple-pdf-files/) to merge a PDF in Python.
+1. Check out our [GitHub repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python/) for a complete API list along with working examples.
+1. Check out the [API Reference page](https://reference.aspose.cloud/pdf/#/Merge) for the description of APIs parameters.
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK.
+
++ Python 2.7 and 3.4+
+
+{{% /blocks/products/pf/agp/text %}}
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/code-block title="Merge Two PDF Files - Python" offSpacer="" %}}
+
+```python
+
+	file_name_list = ['4pages.pdf', 'PdfWithImages2.pdf', 'marketing.pdf']
+	for file_name in file_name_list:
+		self.uploadFile(file_name)
+
+	result_name = 'MergingResult.pdf'
+
+	i = 0
+	for el in file_name_list:
+		file_name_list[i] = self.temp_folder + '/' + el
+		i += 1
+
+	merge_documents = asposepdfcloud.models.MergeDocuments(file_name_list)
+
+	opts = {
+			"merge_documents" : merge_documents,
+			"folder" : self.temp_folder
+	}
+
+	response = self.pdf_api.put_merge_documents(result_name, **opts)
+	self.assertEqual(response.code, 200)
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
+
+We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document merging options to meet their unique requirements.
+
+**With our Python library you can:**
+
++ Combine PDF documents.
++ Splitt PDF Files.
++ Convert PDF to other formats, and vice versa.
++ Manipulate Annotations.
++ Work with Images in PDF, etc.
++ You can try out our [free App](https://products.aspose.app/pdf/merger) to merge PDF files online and test the functionality.
+
+{{% /blocks/products/pf/agp/content %}}
+
+{{< /blocks/products/pf/agp/feature-section >}}
+
+
+<!-- aboutfile Starts -->
+
+{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud Python SDK" %}}
+
+A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. Python PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+
+
+{{% /blocks/products/pf/agp/content %}}
+
+{{< blocks/products/pf/agp/about-file-section >}}
+
+{{< blocks/products/pf/agp/demobox sectionTitle="Online PDF Merger Live Demos" sectionDescription="Merge PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/merger). The live demo has the following benefits" >}}
+{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
+{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
+{{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PDF files." >}}
+{{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+
+{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+
+{{< /blocks/products/pf/agp/about-file-text >}}
+
+{{< /blocks/products/pf/agp/about-file-section >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
@@ -136,5 +196,9 @@ self.assertEqual(response.code, 200)</code></pre>
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
 {{< /blocks/products/pf/offers-section >}}
+
+<!-- aboutfile Ends -->
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
