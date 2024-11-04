@@ -19,6 +19,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
  This Cloud SDK assists Python programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Python programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK. If the python package is hosted on Github, you can install directly from Github:
 
+{{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
+
 ```bash
 
      
@@ -26,6 +28,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 
 ```
+
+{{% /blocks/products/pf/agp/code-block %}}
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 

@@ -94,36 +94,6 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Split Range Document - Python" offSpacer="" %}}
-
-```python
-
-    file_name = '4pages.pdf'
-    self.uploadFile(file_name)
-    range_options = asposepdfcloud.models.SplitRangePdfOptions(
-        page_ranges=[
-            asposepdfcloud.models.PageRange(
-                to=2
-            ),
-            asposepdfcloud.models.PageRange(
-                _from=3
-            ),
-            asposepdfcloud.models.PageRange(
-                _from=2,
-                to=3
-            )
-        ]
-    )
-    opts = {
-        "options" : range_options,
-        "folder" : self.temp_folder
-    }
-    response = self.pdf_api.post_split_range_pdf_document(file_name, **opts)
-    self.assertEqual(response.code, 200)
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
 {{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
 
 We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document splitting options to meet their unique requirements.

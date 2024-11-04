@@ -79,28 +79,6 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/code-block title="Split Range Document - PHP" offSpacer="" %}}
-
-```php
-
-    $name = '4pages.pdf';
-    $this->uploadFile($name);
-    $pageRange1 = new Aspose\PDF\Model\PageRange();
-    $pageRange1->setTo(2);
-    $pageRange2 = new Aspose\PDF\Model\PageRange();
-    $pageRange2->setFrom(3);
-    $pageRange3 = new Aspose\PDF\Model\PageRange();
-    $pageRange3->setFrom(2);
-    $pageRange3->setTo(3);
-    $rangeOptions = new Aspose\PDF\Model\SplitRangePdfOptions();
-    $rangeOptions->setPageRanges([$pageRange1, $pageRange2, $pageRange3]);
-    $folder = $this->tempFolder;
-    $response = $this->pdfApi->postSplitRangePdfDocument($name, $rangeOptions, $storage = null, $folder);
-    $this->assertEquals(200, $response->getCode());
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
 {{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
 
 We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document splitting options to meet their unique requirements.
