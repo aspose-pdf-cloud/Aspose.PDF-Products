@@ -51,13 +51,13 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. 
-1. 
-1. 
-1. 
-1. 
-1. 
-1. 
+1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/).
+1. Go to the [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/).
+1. Create a new [Account](https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account) to access all applications and services or Sign In to your account.
+1. Click on Applications in the left menu to get Client Id and Client Secret.
+1. Check out the [Developer Guide](https://docs.aspose.cloud/pdf/developer-guide/) to remove metadata from PDF in Python.
+1. Check out our [GitHub repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python/) for a complete API list along with working examples.
+1. Check out the [API Reference page](https://reference.aspose.cloud/pdf/#/Document) for the description of APIs parameters.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -73,11 +73,31 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows removing Metadata in PDF documents - Python" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows removing Metadata from the PDF documents - Python" offSpacer="" %}}
 
 ```python
 
+    file_name = '4pages.pdf'
+    self.uploadFile(file_name)
 
+    # Define the date for metadata (if it's being used in further code)
+    date = '2024-10-27T09:59:52+02:00'
+
+    # Define XMP metadata with properties to be removed
+    metadata = asposepdfcloud.models.XmpMetadata(properties=[
+        # Remove the default property
+        asposepdfcloud.models.XmpMetadataProperty(key="CreatorTool"),
+        # Remove a user-defined property
+        asposepdfcloud.models.XmpMetadataProperty(key="dc:title"),
+    ])
+
+    # Send a request to update XMP metadata for the specified PDF
+    response = self.pdf_api.post_xmp_metadata(file_name, metadata, folder=self.temp_folder)
+    self.assertEqual(response.code, 200)
+
+    # Retrieve the updated XMP metadata in JSON format
+    response = self.pdf_api.get_xmp_metadata_json(file_name, folder=self.temp_folder)
+    self.assertEqual(2, len(response.properties))
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
