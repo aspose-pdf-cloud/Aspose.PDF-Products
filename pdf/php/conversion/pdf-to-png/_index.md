@@ -24,7 +24,6 @@ This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, an
 ```bash
 
     composer install
-    ./vendor/bin/phpunit
 
 ```
 

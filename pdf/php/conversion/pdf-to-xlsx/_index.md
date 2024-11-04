@@ -24,7 +24,6 @@ This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, an
 ```bash
 
     composer install
-    ./vendor/bin/phpunit
 
 ```
 
@@ -69,9 +68,8 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
     $this->uploadFile($name);
     
     $folder = $this->tempFolder;
-kw
-    $response = $this->pdfApi->getPdfInStorageToXls($name, null, null, null, null, $folder);
-    $this->assertNotNull($response);   
+
+    $response = $this->pdfApi->getPdfInStorageToXls($name, null, null, null, null, $folder);  
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
