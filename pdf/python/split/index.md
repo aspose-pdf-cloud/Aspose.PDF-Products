@@ -88,8 +88,6 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
     opts = {
             "folder" : self.temp_folder
     }
-    response = self.pdf_api.post_split_document(file_name, **opts)
-    self.assertEqual(response.code, 200)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

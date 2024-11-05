@@ -73,7 +73,6 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
     $this->uploadFile($name);
     $folder = $this->tempFolder;
     $response = $this->pdfApi->postSplitDocument($name, $format = null, $from = null, $to = null, $storage = null, $folder);
-    $this->assertEquals(200, $response->getCode());
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

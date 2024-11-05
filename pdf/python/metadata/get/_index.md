@@ -79,9 +79,6 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
     file_name = '4pages.pdf'
     self.uploadFile(file_name)
-
-    response = self.pdf_api.get_xmp_metadata_json(file_name, folder=self.temp_folder)
-    self.assertEqual(9, len(response.properties))
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

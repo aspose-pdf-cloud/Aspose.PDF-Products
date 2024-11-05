@@ -90,14 +90,6 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
         # Remove a user-defined property
         asposepdfcloud.models.XmpMetadataProperty(key="dc:title"),
     ])
-
-    # Send a request to update XMP metadata for the specified PDF
-    response = self.pdf_api.post_xmp_metadata(file_name, metadata, folder=self.temp_folder)
-    self.assertEqual(response.code, 200)
-
-    # Retrieve the updated XMP metadata in JSON format
-    response = self.pdf_api.get_xmp_metadata_json(file_name, folder=self.temp_folder)
-    self.assertEqual(2, len(response.properties))
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

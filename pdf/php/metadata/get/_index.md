@@ -69,8 +69,6 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
     $name = '4pages.pdf';
     $this->uploadFile($name);
-
-    $response = $this->pdfApi->getXmpMetadataJson($name, $this->tempFolder);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

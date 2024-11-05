@@ -79,12 +79,6 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
             new Aspose\PDF\Model\XmpMetadataProperty(array('key' => "dc:title")),
         )
     ));
-    
-    $response = $this->pdfApi->postXmpMetadata($name, $metadata, $this->tempFolder);
-    $this->assertEquals(200, $response->getCode());
-
-    $response = $this->pdfApi->getXmpMetadataJson($name, $this->tempFolder);
-    $this->assertEquals(9, count($response->getProperties()));
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
