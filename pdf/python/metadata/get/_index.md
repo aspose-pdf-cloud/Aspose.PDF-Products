@@ -1,7 +1,7 @@
 ---
 title: Get Metadata from PDF Document via Cloud Python SDK 
 url: /python/metadata/get/
-description: This topic shows you how to get all of the metadata from the PDF document using Aspose.PDF Cloud API in your applications.
+description: This topic shows you how to get all of the metadata from the PDF document using Aspose.PDF Cloud API and save as JSON.
 lastmod: "2024-03-19"
 ---
 
