@@ -1,5 +1,5 @@
 ---
-title: Get Form Fields from PDF Document via Cloud .NET SDK 
+title: Get Form Fields from PDF Document via Cloud .NET SDK
 url: /net/acro-forms/get/
 description: This topic shows you how to get all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2022-03-19"
@@ -140,6 +140,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 <!-- aboutfile Ends -->
 

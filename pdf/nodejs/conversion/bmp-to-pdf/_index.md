@@ -89,7 +89,7 @@ async function convertBMPtoPDF() {
     const pdfApi = new PdfApi(credentials.id, credentials.key);
     let fileData = fs.readFileSync(localImageFileName);
     try {
-        let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
+        const uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
         console.log(uploadResult.response.text);
     }
     catch (error) {
@@ -106,7 +106,7 @@ async function convertBMPtoPDF() {
     imageTemplatesRequest.imagesList = imageTemplateList;
 
     try {
-        let convertResult = await pdfApi.putImageInStorageToPdf("sample-bmp-to-pdf.pdf", imageTemplatesRequest);
+        const convertResult = await pdfApi.putImageInStorageToPdf("sample-bmp-to-pdf.pdf", imageTemplatesRequest);
         console.log(convertResult.response.text);
     } catch (error) {
         console.error(error.response.text);
