@@ -115,11 +115,11 @@ These SDKs are now fully supported. If you have any questions, see any bugs or h
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PDF Merger Live Demos" sectionDescription="Merge PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/merger). The live demo has the following benefits" >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Online PDF Splitter Live Demos" sectionDescription="Split PDF documents right now by visiting our [Live Demos website](https://products.aspose.com/pdf/net/splitter/). The live demo has the following benefits" >}}
 {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
 {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
 {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PDF files." >}}
-{{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be merged and concatenated instantly." >}}
+{{< blocks/products/pf/agp/democard icon="fa-download" text=" It will be splitted instantly." >}}
 
 {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
