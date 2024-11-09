@@ -48,7 +48,7 @@ If the python package is hosted on Github, you can install directly from Github:
 
 {{% blocks/products/pf/agp/text %}}
 
- A basic merging pdfs programmatically with
+ A basic adding watermark into pdfs programmatically with
  [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
  APIs can be done with just few lines of code.
 
@@ -106,14 +106,15 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
+{{% blocks/products/pf/agp/content h2="Watermarks in PDF" %}}
 
-We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document merging options to meet their unique requirements.
+Watermarks can deter unauthorized use or distribution by clearly marking the document with ownership or copyright information, protecting original content from being misused or redistributed without permission.
+In some cases, watermarks are added as a subtle design feature to enhance the look and feel of a document, providing a professional, polished appearance that reflects the brand identity.
 
 **With our Python library you can:**
 
 + Combine PDF documents.
-+ Splitt PDF Files.
++ Split PDF Files.
 + Convert PDF to other formats, and vice versa.
 + Manipulate Annotations.
 + Work with Images in PDF, etc.
@@ -147,6 +148,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}

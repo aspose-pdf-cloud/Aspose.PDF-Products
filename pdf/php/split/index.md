@@ -1,6 +1,6 @@
 ---
-title: Split single PDF Documents | PHP 
-description: Split single PDF Documents in PHP with Cloud API. 
+title: Split single PDF Documents | PHP
+description: Split single PDF Documents in PHP with Cloud API.
 weight: 40
 url: /php/split
 ---
@@ -77,11 +77,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
-
-We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document splitting options to meet their unique requirements.
-
-**With our PHP library you can:**
+{{% blocks/products/pf/agp/content h2="With our PHP library you can:" %}}
 
 + Add PDF document's header & footer in text or image format.
 + Add tables & stamps (text or image) to PDF documents.
@@ -127,6 +123,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}

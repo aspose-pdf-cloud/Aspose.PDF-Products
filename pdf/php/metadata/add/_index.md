@@ -1,5 +1,5 @@
 ---
-title: Adding Metadata via Cloud PHP SDK 
+title: Adding Metadata via Cloud PHP SDK
 url: /php/metadata/add/
 description: Aspose.PDF Cloud allows you to add a Metadata to a PDF Document. Check the PHP source code to add a Metadata into PDF file.
 lastmod: "2024-03-19"
@@ -15,7 +15,7 @@ lastmod: "2024-03-19"
 
 To create Metadata, we'll use
 [Aspose.PDF Cloud PHP SDK](https://products.aspose.cloud/pdf/php/)
-This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using PHP programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK. 
+This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using PHP programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -35,7 +35,7 @@ This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, an
 
 {{% blocks/products/pf/agp/text %}}
 
- A basic splitting pdfs programmatically with
+ A basic adding metadata into pdfs programmatically with
  [Aspose.PDF Cloud PHP SDK](https://products.aspose.cloud/pdf/php/)
  APIs can be done with just few lines of code.
 
@@ -83,9 +83,10 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
+{{% blocks/products/pf/agp/content h2="Work with Metadata in PDF" %}}
 
-We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document splitting options to meet their unique requirements.
+Working with metadata in PDF files is important. Metadata such as the title field, author and theme help classify documents, making it easier to manage large collections of documents by providing a quick overview of content without opening files.
+Metadata also improves file search by allowing you to search by keywords and attributes. This is particularly valuable in systems where the rapid retrieval of documents is essential.
 
 **With our PHP library you can:**
 
@@ -133,6 +134,7 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
