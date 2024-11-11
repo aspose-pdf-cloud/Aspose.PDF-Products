@@ -119,7 +119,7 @@ We offer top-tier document processing capabilities through our continually advan
 **With our Python library you can:**
 
 + Combine PDF documents.
-+ Splitt PDF Files.
++ Split PDF Files.
 + Convert PDF to other formats, and vice versa.
 + Manipulate Annotations.
 + Work with Images in PDF, etc.
@@ -153,6 +153,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}

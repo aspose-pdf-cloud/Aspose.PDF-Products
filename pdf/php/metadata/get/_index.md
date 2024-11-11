@@ -1,7 +1,7 @@
 ---
-title: Get Metadata from PDF Document via Cloud PHP SDK 
+title: Get Metadata from PDF Document via Cloud PHP SDK
 url: /php/metadata/get/
-description: This topic shows you how to get all of the metadata from the PDF document,and save as JSON, using Aspose.PDF Cloud API in your applications.
+description: This topic shows you how to get all of the metadata from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2024-03-19"
 ---
 
@@ -15,7 +15,7 @@ lastmod: "2024-03-19"
 
 To get Metadata, we'll use
 [Aspose.PDF Cloud PHP SDK](https://products.aspose.cloud/pdf/php/)
-This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using PHP programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK. 
+This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using PHP programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
@@ -35,7 +35,7 @@ This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, an
 
 {{% blocks/products/pf/agp/text %}}
 
- A basic splitting pdfs programmatically with
+ A basic getting metadata from pdfs programmatically with
  [Aspose.PDF Cloud PHP SDK](https://products.aspose.cloud/pdf/php/)
  APIs can be done with just few lines of code.
 
@@ -73,9 +73,10 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/content h2="Combine Features and Capabilities" %}}
+{{% blocks/products/pf/agp/content h2="Work with Metadata in PDF" %}}
 
-We offer top-tier document processing capabilities through our continually advancing Cloud SDKs, which support a variety of programming languages and major platforms. These tools empower developers to fully control and tailor document splitting options to meet their unique requirements.
+Working with metadata in PDF files is important. Metadata such as the title field, author and theme help classify documents, making it easier to manage large collections of documents by providing a quick overview of content without opening files.
+Metadata also improves file search by allowing you to search by keywords and attributes. This is particularly valuable in systems where the rapid retrieval of documents is essential.
 
 **With our PHP library you can:**
 
@@ -89,7 +90,7 @@ We offer top-tier document processing capabilities through our continually advan
 + Replace single or multiple instances of text on a PDF page or from the entire document.
 + Extensive support for converting PDF documents to various other file formats.
 + Extract various elements of PDF files & make PDF documents optimized.
-+ You can try out our [free App](https://products.aspose.app/pdf/metadata) to get metadata into PDF files online and test the functionality.
++ You can try out our [free App](https://products.aspose.app/pdf/metadata) to get metadata from PDF files online and test the functionality.
 
 {{% /blocks/products/pf/agp/content %}}
 
@@ -123,6 +124,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}

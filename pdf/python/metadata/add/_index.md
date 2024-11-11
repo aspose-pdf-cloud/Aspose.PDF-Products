@@ -1,5 +1,5 @@
 ---
-title: Adding Metadata via Cloud Python SDK 
+title: Add Metadata via Cloud Python SDK 
 url: /python/metadata/add/
 description: Aspose.PDF Cloud allows you to add a Metadata to a PDF Document. Check the Python source code to add a Metadata into PDF file.
 lastmod: "2024-03-19"
@@ -13,7 +13,7 @@ lastmod: "2024-03-19"
 
 {{% blocks/products/pf/agp/content h2="How to create Metadata via Cloud Python SDK " %}}
 
-To to create Metadata, we'll use
+To create Metadata, we'll use
 [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
 This Cloud SDK assists Python programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Python programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK. If the python package is hosted on Github, you can install directly from Github:
 
@@ -99,7 +99,7 @@ Metadata also improves file search by allowing you to search by keywords and att
 **With our Python library you can:**
 
 + Combine PDF documents.
-+ Splitt PDF Files.
++ Split PDF Files.
 + Convert PDF to other formats, and vice versa.
 + Manipulate Annotations.
 + Work with Images in PDF, etc.
@@ -124,7 +124,7 @@ A PDF Processing Library to create cross-platform applications with the ability 
 
 {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything" >}}
 {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code" >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text="Click Convert button. Your PDF files will be uploaded and will be converted to format." >}}
+{{< blocks/products/pf/agp/democard icon="fa-file-text" text="Click the button. Your PDF files will be uploaded and will be added the metadata." >}}
 {{< blocks/products/pf/agp/democard icon="fa-download" text=" Instantly get the download link for the resultant file" >}}
 
 {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
@@ -133,6 +133,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 <!-- aboutfile Ends -->
 

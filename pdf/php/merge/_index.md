@@ -1,6 +1,6 @@
 ---
-title: Merge several PDF Documents | PHP 
-description: Merge or combine multiple PDF Documents in PHP with Cloud API. 
+title: Merge several PDF Documents | PHP
+description: Merge or combine multiple PDF Documents in PHP with Cloud API.
 weight: 40
 url: /php/merge
 ---
@@ -150,6 +150,8 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 {{< /blocks/products/pf/agp/about-file-text >}}
 
 {{< /blocks/products/pf/agp/about-file-section >}}
+
+{{< /blocks/products/pf/agp/demobox >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
