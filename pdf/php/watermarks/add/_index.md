@@ -2,7 +2,7 @@
 title: Add Watermarks to PDF | PHP
 description: Add the watermarks to PDF documents via PHP with Cloud API.
 weight: 30
-url: /php/watermaks/add
+url: /php/watermaks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

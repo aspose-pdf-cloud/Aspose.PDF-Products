@@ -2,7 +2,7 @@
 title: Remove Watermarks from PDF | PHP
 description: Remove Watermarks from PDF documents via PHP with Cloud API.
 weight: 30
-url: /php/watermaks/remove
+url: /php/watermaks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
