@@ -2,7 +2,7 @@
 title: Add Watermarks to PDF | Python 
 description: Add the watermarks to PDF documents in Python with Cloud API. 
 weight: 30
-url: /python/watermaks/add
+url: /python/watermaks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

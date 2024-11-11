@@ -2,7 +2,7 @@
 title: Remove Watermarks from PDF | Python 
 description: Remove Watermarks from PDF documents via Python with Cloud API. 
 weight: 30
-url: /python/watermaks/remove
+url: /python/watermaks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
