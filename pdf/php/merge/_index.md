@@ -37,7 +37,7 @@ The PDF Cloud PHP SDK offers an easy-to-use and secure API for merging PDF files
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF Files via Cloud PHP SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF via Cloud PHP SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

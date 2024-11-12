@@ -2,7 +2,7 @@
 title: Split single PDF Documents | PHP
 description: Split single PDF Documents in PHP with Cloud API.
 weight: 40
-url: /php/split
+url: /php/split/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

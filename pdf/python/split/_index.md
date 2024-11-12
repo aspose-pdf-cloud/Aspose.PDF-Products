@@ -2,7 +2,7 @@
 title: Split single PDF Documents | Python 
 description: Split single PDF Documents in Python with Cloud API. 
 weight: 40
-url: /python/split
+url: /python/split/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

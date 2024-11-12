@@ -45,7 +45,7 @@ If the python package is hosted on Github, you can install directly from Github:
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Removing Watermarks from PDF Files via Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Removing Watermarks from PDF" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

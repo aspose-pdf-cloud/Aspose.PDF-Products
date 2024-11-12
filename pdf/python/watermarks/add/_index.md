@@ -44,7 +44,7 @@ If the python package is hosted on Github, you can install directly from Github:
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF Files via Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
