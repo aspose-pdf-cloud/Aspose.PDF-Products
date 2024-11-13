@@ -75,31 +75,44 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to PNG Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-async function convertPDFtoPNG() {
-    const localImageFileName = "C:\\Samples\\sample.pdf";
-    const storageImageFileName = "sample.pdf";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
-    try {
-        let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.response.text);
+    const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+
+    const api = new PdfApi("http://172.17.0.1:5000/v3.0");
+
+    // Set the document name.
+    const fileName = "4pages.pdf";
+    // Set the page number.
+    const pageNumber = 1;
+    // Set the width of coverted image.
+    const width = (595 / 2) | 0;
+    // Set the heigth of coverted image.
+    const heigth = (842 / 2) | 0;
+    // Use default storage.
+    const storage = null;
+    // Set document folder.
+    const folder = "Documents";
+    // Set no password.
+    const password = null;
+    // Set an extracted image folder.
+    const destFolder = "testOutput";
+
+    async function main()
+    {
+        // Swagger method definition available at
+        //     https://reference.aspose.cloud/pdf/#/Pages/GetPageConvertToPng
+        // Convert document page to Png image and return resulting file in response..
+        const response = await api.getPageConvertToPng(fileName, pageNumber, width, heigth, folder, storage, password);  
+        if (response.response.statusCode == 200)
+        {
+            console.log("OK");
+            // Write extracted image on disk.
+            fs.writeFileSync(destFolder + "/" + fileName + ".png", response.body);    
+        }
     }
 
-    try {
-        let convertResult = await pdfApi.getPageConvertToPng(storageImageFileName, 1);
-        fs.writeFileSync("sample.png",convertResult.body);
-    } catch (error) {
-        console.error(error.response.text);
-    }
-}
+    main();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

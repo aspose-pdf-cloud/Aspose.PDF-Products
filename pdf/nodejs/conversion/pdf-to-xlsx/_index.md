@@ -75,31 +75,53 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to XLSX Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-async function convertPDFtoXLSX() {
-    const localFileName = "C:\\Samples\\sample.pdf";
-    const storageFileName = "sample.pdf";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localFileName);
-    try {
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.response.text);
+    const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+
+    const fileName = "PdfWithImages2.pdf";
+    const api = new PdfApi("http://172.17.0.1:5000/v3.0");
+
+    // Detailed description of available parameters at 
+    //     https://reference.aspose.com/pdf/net/aspose.pdf/excelsaveoptions/
+
+    // Insert blank column at first.
+    const insertBlankColumnAtFirst = true;
+    // Save of each PDF page as separated worksheet.
+    const minimizeTheNumberOfWorksheets = false;
+    // Obsolete.
+    const scaleFactor = null;
+    // Columns division will independent for each page.
+    const uniformWorksheets = true;
+    // Set root folder.
+    const folder = null;
+    // Set default storage.
+    const storage = null;
+    // Set pdf document password.
+    const password = null;
+
+    async function main()
+    {
+        // Swagger method definition available at
+        //     https://reference.aspose.cloud/pdf/#/Convert/GetPdfInStorageToXlsx
+        // Converts PDF document (located on storage) to XLSX format and returns resulting file in response content
+        const result = await api.getPdfInStorageToXlsx(fileName,
+            insertBlankColumnAtFirst,
+            minimizeTheNumberOfWorksheets,
+            scaleFactor,
+            uniformWorksheets, 
+            folder,
+            storage,
+            password);
+
+        if (result.response.statusCode == 200)
+        {
+            fs.writeFileSync("testOutput/" + fileName + ".xlsx", result.body)
+            console.log("OK");
+        }
     }
 
-    try {
-        let convertResult = await pdfApi.getPdfInStorageToXlsx(storageFileName);
-        fs.writeFileSync("sample.xlx", convertResult.body);
-    } catch (error) {
-        console.error(error.response.text);
-    }
-}
+    main();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
