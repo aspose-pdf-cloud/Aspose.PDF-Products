@@ -1,6 +1,6 @@
 ---
 title: Replace attachments in PDF documents via Aspose.Pdf Cloud Python SDK
-url: /nodejs/attachments/
+url: /python/attachments/replace
 description: Sample code for replacing attachments in PDF document using Cloud Python SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Python SDK.
 lastmod: "2024-10-29"
 ---

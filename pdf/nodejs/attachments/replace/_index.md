@@ -1,6 +1,6 @@
 ---
 title: Replace attachments in PDF documents via Aspose.Pdf Cloud Node.js SDK
-url: /nodejs/attachments/
+url: /nodejs/attachments/replace
 description: Sample code for replacing attachments in PDF document using Cloud Node.js SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Node.js SDK.
 lastmod: "2024-10-29"
 ---
