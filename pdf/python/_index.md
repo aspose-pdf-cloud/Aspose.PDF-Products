@@ -90,12 +90,12 @@ url: /python
     <p class="col-lg-10">
         Add text and image stamps to documents
             <ul>
-                <li>working with <a href="images/index.html">images</a>:
+                <li>working with <a href="images">images</a>:
                     <ul>
-                        <li><a href="images/get/index.html">select images</a></li>
-                        <li><a href="images/update/index.html">update images</a></li>
-                        <li><a href="images/add/index.html">append images</a></li>
-                        <li><a href="images/remove/index.html">remove images</a></li>
+                        <li><a href="images/getl">select images</a></li>
+                        <li><a href="images/update">update images</a></li>
+                        <li><a href="images/add">append images</a></li>
+                        <li><a href="images/remove">remove images</a></li>
                     </ul>
                 </li>
             </ul>
@@ -154,13 +154,13 @@ url: /python
     <em class="fa fa-tag ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-        Read and download document <a href="attachments/index.html">attachments</a>
+        Read and download document <a href="attachments">attachments</a>
             <ul>
                 <li>attachments:
                     <ul>
-                        <li><a href="attachments/get/index.html">get</a></li>
-                        <li><a href="attachments/add/index.html">append</a></li>
-                        <li><a href="attachments/replace/index.html">replace</a></li>
+                        <li><a href="attachments/get">get</a></li>
+                        <li><a href="attachments/add">append</a></li>
+                        <li><a href="attachments/replace">replace</a></li>
                     </ul>
                 </li>
             </ul>
