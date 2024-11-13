@@ -88,8 +88,18 @@ url: /php
     <em class="fa fa-file ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Add text and image stamps to documents
-    </p>
+        Add text and image stamps to documents
+            <ul>
+                <li>working with <a href="images">images</a>:
+                    <ul>
+                        <li><a href="images/get">select images</a></li>
+                        <li><a href="images/update">update images</a></li>
+                        <li><a href="images/add">append images</a></li>
+                        <li><a href="images/remove">remove images</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2">
@@ -144,8 +154,17 @@ url: /php
     <em class="fa fa-tag ico-blue fa-2x col-lg-2">
     </em>
     <p class="col-lg-10">
-     Read and download document attachments
-    </p>
+        Read and download document <a href="attachments">attachments</a>
+            <ul>
+                <li>attachments:
+                    <ul>
+                        <li><a href="attachments/get">get</a></li>
+                        <li><a href="attachments/add">append</a></li>
+                        <li><a href="attachments/replace">replace</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-pencil ico-blue fa-2x col-lg-2">
