@@ -47,7 +47,7 @@ To start, you should have Python and the [PDF Cloud Python SDK](https://pypi.org
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF Files via Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF via Cloud Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

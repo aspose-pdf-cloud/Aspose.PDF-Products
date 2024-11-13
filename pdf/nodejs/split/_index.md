@@ -38,7 +38,7 @@ Splitting PDF into smaller sections can reduce the file size, which is useful wh
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF Files via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF via Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
