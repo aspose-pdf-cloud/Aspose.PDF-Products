@@ -52,7 +52,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Create an object to connect to the Cloud API
 1. Upload your document file
 1. Perform the conversion using etPdfInStorageToXlsx
-1. Download the result if need it
+1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

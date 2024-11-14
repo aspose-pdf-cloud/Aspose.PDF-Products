@@ -83,7 +83,6 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
     // Set the document name.
     const fileName = "4pages.pdf";
-    //
     const options = new SplitRangePdfOptions();
     options.
     // Use default storage.
