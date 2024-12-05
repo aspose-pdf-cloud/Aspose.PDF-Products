@@ -73,27 +73,27 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertBmpToPdf()
-{
-    const string localImageFileName = @"C:\Samples\sample.bmp";
-    const string storageImageFileName = "sample.bmp";
-    const string resultFileName = "sample-bmp-to-pdf.pdf";
-    
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
+    public static void ConvertBmpToPdf()
+    {
+        const string localImageFileName = @"C:\Samples\sample.bmp";
+        const string storageImageFileName = "sample.bmp";
+        const string resultFileName = "sample-bmp-to-pdf.pdf";
+        
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
 
-    using var file = File.OpenRead(localImageFileName);
-    pdfApi.UploadFile(storageImageFileName, file);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
 
-    var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
-        ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)]
-    );
-    
-    var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
-    Console.WriteLine($"BMP to PDF result: {response.Status}");
-    pdfApi.DownloadFile(resultFileName)
-        .CopyTo(File.Create(resultFileName));
-}
+        var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
+            ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)]
+        );
+        
+        var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
+        Console.WriteLine($"BMP to PDF result: {response.Status}");
+        pdfApi.DownloadFile(resultFileName)
+            .CopyTo(File.Create(resultFileName));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

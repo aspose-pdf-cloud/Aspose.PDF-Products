@@ -81,41 +81,41 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const { PdfApi } = require("asposepdfcloud");
-const { MergeDocuments } = require("asposepdfcloud/src/models/mergeDocuments");
+    const fs = require("fs");
+    const { PdfApi } = require("asposepdfcloud");
+    const { MergeDocuments } = require("asposepdfcloud/src/models/mergeDocuments");
 
-async function mergeDocument()
-{
-    const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
-
-    const fileName = "merged.pdf";
-    const fileNames = ["Test.pdf", "Test2.pdf"];
-    const storage = null;
-    const folder = "Documents";
-
-    const mergeRequest = new MergeDocuments();
-    mergeRequest.list = [];
-    await Promise.all(
-        fileNames.map(async fileName =>
-        {
-            const buffer = fs.readFileSync(fileName);
-            await api.uploadFile(folder + "/" + fileName, buffer, storage);
-            mergeRequest.list.push(folder + "/" + fileName);
-        })
-    );
-    const result = await api.putMergeDocuments(
-        fileName,
-        mergeRequest,
-        storage,
-        folder);
-
-    console.log(result.body.status);
-    result.body.result.documents.forEach((document, index) =>
+    async function mergeDocument()
     {
-        console.log(index + 1 + ") " + document.href);
-    });
-}
+        const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
+
+        const fileName = "merged.pdf";
+        const fileNames = ["Test.pdf", "Test2.pdf"];
+        const storage = null;
+        const folder = "Documents";
+
+        const mergeRequest = new MergeDocuments();
+        mergeRequest.list = [];
+        await Promise.all(
+            fileNames.map(async fileName =>
+            {
+                const buffer = fs.readFileSync(fileName);
+                await api.uploadFile(folder + "/" + fileName, buffer, storage);
+                mergeRequest.list.push(folder + "/" + fileName);
+            })
+        );
+        const result = await api.putMergeDocuments(
+            fileName,
+            mergeRequest,
+            storage,
+            folder);
+
+        console.log(result.body.status);
+        result.body.result.documents.forEach((document, index) =>
+        {
+            console.log(index + 1 + ") " + document.href);
+        });
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

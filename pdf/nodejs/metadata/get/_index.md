@@ -70,27 +70,27 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+    const { PdfApi } = require("asposepdfcloud");
 
-async function getXmpMetadataProperty()
-{
-    const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
-    const fileName = "Test.pdf";
-    const folder = "Documents";
-    const storage = null;
-    const password = null;
-    
-    const buffer = fs.readFileSync(fileName);
-    await api.uploadFile(folder + "/" +fileName, buffer, storage)
-
-    const metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);  
-    console.log("XMP metadata:");
-    metadata.body.properties.forEach(property => 
+    async function getXmpMetadataProperty()
     {
-        console.log("    " + property.key + " = " + property.value);
-    });
-}
+        const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
+        const fileName = "Test.pdf";
+        const folder = "Documents";
+        const storage = null;
+        const password = null;
+        
+        const buffer = fs.readFileSync(fileName);
+        await api.uploadFile(folder + "/" +fileName, buffer, storage)
+
+        const metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);  
+        console.log("XMP metadata:");
+        metadata.body.properties.forEach(property => 
+        {
+            console.log("    " + property.key + " = " + property.value);
+        });
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

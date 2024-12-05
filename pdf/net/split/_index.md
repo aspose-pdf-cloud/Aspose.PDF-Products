@@ -36,7 +36,7 @@ description: This topic explain you how to split single pages of a PDF file and 
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF Files via Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF via Cloud .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -87,7 +87,12 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
         }
 
         var response = pdfApi.PostSplitDocument(storageFileName);
-        Console.WriteLine(response.Status);
+        uint index = 1;
+        foreach (var fileName in response.Result.Documents.Select(document=>document.Href))
+        {
+            pdfApi.DownloadFile(fileName)
+                .CopyTo(File.OpenWrite($"page{index++}.pdf"));
+        }
     }
 ```
 

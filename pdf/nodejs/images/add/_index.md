@@ -70,50 +70,50 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json"  with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
+    import credentials from "./credentials.json"  with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
 
-async function add() {
-    const localPdfFile = "C:\\Samples\\Sample.pdf";
-    const storagePdfFile = "Sample.pdf";
-    const localImageFile = "C:\\Samples\\images\\sample.png";
-    const storageImageFile = "Sample.png";
+    async function add() {
+        const localPdfFile = "C:\\Samples\\Sample.pdf";
+        const storagePdfFile = "Sample.pdf";
+        const localImageFile = "C:\\Samples\\images\\sample.png";
+        const storageImageFile = "Sample.png";
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localPdfFile);
-        let uploadResult = await pdfApi.uploadFile(storagePdfFile, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.message);
-        throw error;
-    }
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localPdfFile);
+            let uploadResult = await pdfApi.uploadFile(storagePdfFile, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+            throw error;
+        }
 
-    try {
-        let fileData = await fs.readFile(localImageFile);
-        let uploadResult = await pdfApi.uploadFile(storageImageFile, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.message);
-        throw error;
-    }
+        try {
+            let fileData = await fs.readFile(localImageFile);
+            let uploadResult = await pdfApi.uploadFile(storageImageFile, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+            throw error;
+        }
 
-    try {
-        let result = await pdfApi.postInsertImage(
-            storagePdfFile,    // filename
-            1,                 // page number
-            10, 400, 250, 650, // coordinates
-            storageImageFile);
-        console.log(result.response);
+        try {
+            let result = await pdfApi.postInsertImage(
+                storagePdfFile,    // filename
+                1,                 // page number
+                10, 400, 250, 650, // coordinates
+                storageImageFile);
+            console.log(result.response);
+        }
+        catch (error) {
+            console.error(error.message);
+            throw error;
+        }
     }
-    catch (error) {
-        console.error(error.message);
-        throw error;
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

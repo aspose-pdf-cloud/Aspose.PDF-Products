@@ -51,8 +51,8 @@ Splitting PDF into smaller sections can reduce the file size, which is useful wh
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the splitting using postSplitRangePdfDocument
-1. Download the result if needed it
+1. Splits the uploaded PDF document using the PDF API.
+1. Downloads each split page as a separate PDF file and saves them locally.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -76,29 +76,26 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-    const { PdfApi } = require("asposepdfcloud");
-    const { SplitRangePdfOptions } = require("asposepdfcloud/src/models/splitRangePdfOptions");
+    async function splitSingle() {
+        try {
+            // The initialization assumes that the necessary credentials (Application ID and Application Key) from https://dashboard.aspose.cloud/
+            const pdfApi = new PdfApi(credentials.id, credentials.key);
 
-    const api = new PdfApi("http://172.17.0.1:5000/v3.0");
+            const buffer = await fs.readFile(LOCAL_FILE_NAME);
+            await pdfApi.uploadFile(STORAGE_FILENAME, buffer);
+            const result = await pdfApi.postSplitDocument(STORAGE_FILENAME);
 
-    // Set the document name.
-    const fileName = "4pages.pdf";
-    const options = new SplitRangePdfOptions();
-    options.
-    // Use default storage.
-    const storage = null;
-    // Set document folder.
-    const folder = "Documents";
-    // Set no password.
-    const password = null;
-
-    async function main()
-    {
-        const result = await api.postSplitRangePdfDocument(fileName, null, storage, folder, password);
-        console.log(result.body.status);
+            console.log(result.body.status);
+            await Promise.all(
+                result.body.result.documents.map(async (document, index) => {
+                    const downloadRes = await pdfApi.downloadFile(document.href);
+                    await fs.writeFile(`page${index + 1}.pdf`, downloadRes.body);
+                })
+            );
+        } catch (error) {
+            console.error(error.message);
+        }
     }
-
-    main();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

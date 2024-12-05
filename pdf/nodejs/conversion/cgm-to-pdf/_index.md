@@ -76,45 +76,45 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
-const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
-const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
-const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
+    const fs = require("fs");
+    const credentials = require("./credentials.json");
+    const { PdfApi } = require("asposepdfcloud");
+    const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
+    const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
+    const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-async function convertCGMtoPDF() {
-    const localImageFileName = "C:\\Samples\\sample.cgm";
-    const storageImageFileName = "sample.cgm";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
+    // Load your Application Secret and Key from the JSON file or set credentials in another way
+    async function convertCGMtoPDF() {
+        const localImageFileName = "C:\\Samples\\sample.cgm";
+        const storageImageFileName = "sample.cgm";
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
 
-    try {
-        let fileData = await fs.readFile(localImageFileName);
-        let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
-        console.log(uploadResult.response.text);
+        try {
+            let fileData = await fs.readFile(localImageFileName);
+            let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.response.text);
+        }
+        s
+        let imageTemplateList = [];
+        let imageTemplate = new ImageTemplate();
+        imageTemplate.imagePath = storageImageFileName;
+        imageTemplate.imageSrcType = ImageSrcType.Common;
+        imageTemplateList.push(imageTemplate);
+
+        let imageTemplatesRequest = new ImageTemplatesRequest()
+        imageTemplatesRequest.IsOCR = false;
+        imageTemplatesRequest.imagesList = imageTemplateList;
+
+        try {
+            let convertResult = await pdfApi.putImageInStorageToPdf("sample-cgm-to-pdf.pdf", imageTemplatesRequest);
+            console.log(convertResult.response.text);
+        } catch (error) {
+            console.error(error.response.text);
+        }
     }
-    catch (error) {
-        console.error(error.response.text);
-    }
-    s
-    let imageTemplateList = [];
-    let imageTemplate = new ImageTemplate();
-    imageTemplate.imagePath = storageImageFileName;
-    imageTemplate.imageSrcType = ImageSrcType.Common;
-    imageTemplateList.push(imageTemplate);
-
-    let imageTemplatesRequest = new ImageTemplatesRequest()
-    imageTemplatesRequest.IsOCR = false;
-    imageTemplatesRequest.imagesList = imageTemplateList;
-
-    try {
-        let convertResult = await pdfApi.putImageInStorageToPdf("sample-cgm-to-pdf.pdf", imageTemplatesRequest);
-        console.log(convertResult.response.text);
-    } catch (error) {
-        console.error(error.response.text);
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

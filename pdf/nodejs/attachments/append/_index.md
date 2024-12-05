@@ -75,24 +75,25 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows append file attachment annotation to PDF document using PDF Cloud Node.js SDK" offSpacer="" %}}
 
 ```js
-const { PdfApi } = require("asposepdfcloud");
-const { PdfAType } = require("asposepdfcloud/src/models/fieldType");
+
+    const { PdfApi } = require("asposepdfcloud");
+    const { PdfAType } = require("asposepdfcloud/src/models/fieldType");
 
 
-pdfApi = new PdfApi("client-application-key", "client=application-secret");
+    pdfApi = new PdfApi("client-application-key", "client=application-secret");
 
-console.log('running example');
+    console.log('running example');
 
-const attachment = new AttachmentInfo();
-attachment.name = "my-attachment-name";                 // need to replace with real file name
-attachment.path = "my-attachment-file-path";            // need to replace with real file path
-attachment.description = "my-attachment-description";   // need to replace with real description
-attachment.mimeType = "type/subtype";                   // need to replace with real MIME type
+    const attachment = new AttachmentInfo();
+    attachment.name = "my-attachment-name";                 // need to replace with real file name
+    attachment.path = "my-attachment-file-path";            // need to replace with real file path
+    attachment.description = "my-attachment-description";   // need to replace with real description
+    attachment.mimeType = "type/subtype";                   // need to replace with real MIME type
 
-pdfApi.postAddDocumentAttachment ("PdfWithAnttachments.pdf", attachment, null, null)
-    .then((result) => {
-        console.log(result.response);
-    });
+    pdfApi.postAddDocumentAttachment ("PdfWithAnttachments.pdf", attachment, null, null)
+        .then((result) => {
+            console.log(result.response);
+        });
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

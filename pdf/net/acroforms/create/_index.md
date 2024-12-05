@@ -27,11 +27,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```powershell
 
-     
     PM> Install-Package Aspose.Pdf-Cloud
      
-     
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -73,30 +70,30 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void AddFormField()
-{
-    const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    const string storageFileName = "StudentInfoFormElectronic.pdf";
-    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    var filesOnStorage = pdfApi.GetFilesList("");
-    if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+    public static void AddFormField()
     {
-        using var file = File.OpenRead(localImageFileName);
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
-    var textBoxField = new TextBoxField(PageIndex: 1)
-    {
-        PartialName = "Email",
-        Rect = new Rectangle(100, 100, 180, 120),
-        Value = "aspose-pdf-cloud@example.com",
-        Border = new Border(Width: 5, Dash: new Dash(1, 1))
-    };
+        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        var filesOnStorage = pdfApi.GetFilesList("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+        {
+            using var file = File.OpenRead(localImageFileName);
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+        var textBoxField = new TextBoxField(PageIndex: 1)
+        {
+            PartialName = "Email",
+            Rect = new Rectangle(100, 100, 180, 120),
+            Value = "aspose-pdf-cloud@example.com",
+            Border = new Border(Width: 5, Dash: new Dash(1, 1))
+        };
 
-    var response = pdfApi.PutTextBoxField(storageFileName, "Email", textBoxField);
-    Console.WriteLine(response.Status);
-}
+        var response = pdfApi.PutTextBoxField(storageFileName, "Email", textBoxField);
+        Console.WriteLine(response.Status);
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

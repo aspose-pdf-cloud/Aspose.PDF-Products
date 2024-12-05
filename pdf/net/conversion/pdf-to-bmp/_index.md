@@ -73,21 +73,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPdfToBmp()
-{
-    const string localImageFileName = @"C:\Samples\sample.pdf";
-    const string storageImageFileName = "sample.pdf";
-    const string resultFileName = "sample.bmp";
-    
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    using var file = File.OpenRead(localImageFileName);
-    pdfApi.UploadFile(storageImageFileName, file);
+    public static void ConvertPdfToBmp()
+    {
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample.bmp";
+        
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
 
-    var response = pdfApi.GetPageConvertToBmp(storageImageFileName, 1);
-    response.CopyTo(File.OpenWrite(resultFileName));
-    Console.WriteLine($"PDF to BMP result: {response.Length} bytes");
-}
+        var response = pdfApi.GetPageConvertToBmp(storageImageFileName, 1);
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine($"PDF to BMP result: {response.Length} bytes");
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -76,7 +76,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 ```python
 
-    file_name = '4pages.pdf'
+    file_name = 'pages.pdf'
     self.uploadFile(file_name)
 
     llx = 0

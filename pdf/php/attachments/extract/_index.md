@@ -61,38 +61,38 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 ```php
 <?php
 
-require_once 'path/to/PdfApi.php';  // Path to Your PdfApi.php
-use Aspose\PDF\Api\PdfApi;
-use Aspose\PDF\Configuration;
+    require_once 'path/to/PdfApi.php';  // Path to Your PdfApi.php
+    use Aspose\PDF\Api\PdfApi;
+    use Aspose\PDF\Configuration;
 
-// API Settings
-$config = new Configuration();
-$config->setAppKey('YOUR_APP_KEY');  // Replace with your own key
-$config->setAppSID('YOUR_APP_SID');  // Replace with your SID
+    // API Settings
+    $config = new Configuration();
+    $config->setAppKey('YOUR_APP_KEY');  // Replace with your own key
+    $config->setAppSID('YOUR_APP_SID');  // Replace with your SID
 
-// Create PdfApi instance
-$pdfApi = new PdfApi(null, $config);
+    // Create PdfApi instance
+    $pdfApi = new PdfApi(null, $config);
 
-try {
-    // Please specify the name of the PDF file you want to attach
-    $fileName = 'example.pdf';
+    try {
+        // Please specify the name of the PDF file you want to attach
+        $fileName = 'example.pdf';
 
-    // Get attachments from PDF
-    $response = $pdfApi->getDocumentAttachments($fileName);
+        // Get attachments from PDF
+        $response = $pdfApi->getDocumentAttachments($fileName);
 
-    // Check the answer and get a list of attachments
-    if ($response->getCode() === 200) {
-        $attachments = $response->getAttachments()->getList();
-        foreach ($attachments as $attachment) {
-            echo "Attachment: " . $attachment->getName() . "\n";
+        // Check the answer and get a list of attachments
+        if ($response->getCode() === 200) {
+            $attachments = $response->getAttachments()->getList();
+            foreach ($attachments as $attachment) {
+                echo "Attachment: " . $attachment->getName() . "\n";
+            }
+        } else {
+            echo "Error: Unable to retrieve attachments.\n";
         }
-    } else {
-        echo "Error: Unable to retrieve attachments.\n";
-    }
 
-} catch (Exception $e) {
-    echo 'Exception when calling PdfApi->getDocumentAttachments: ', $e->getMessage(), PHP_EOL;
-}
+    } catch (Exception $e) {
+        echo 'Exception when calling PdfApi->getDocumentAttachments: ', $e->getMessage(), PHP_EOL;
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

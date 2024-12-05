@@ -70,34 +70,34 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json"  with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
+    import credentials from "./credentials.json"  with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
 
-async function extract() {
-    const localPdfFile = "C:\\Samples\\Sample.pdf";
-    const storagePdfFile = "Sample.pdf";
-    const localImageFile = "C:\\Samples\\Sample.png";
+    async function extract() {
+        const localPdfFile = "C:\\Samples\\Sample.pdf";
+        const storagePdfFile = "Sample.pdf";
+        const localImageFile = "C:\\Samples\\Sample.png";
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localPdfFile);
-        let uploadResult = await pdfApi.uploadFile(storagePdfFile, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.message);
-    }
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localPdfFile);
+            let uploadResult = await pdfApi.uploadFile(storagePdfFile, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
 
-    try {
-        const imagesResult = await pdfApi.getImages(storagePdfFile, 1, null, null);
-        const imageId = imagesResult.body.images.list[0].id;
-        const response = await pdfApi.getImageExtractAsPng(storagePdfFile, imageId);
-        await fs.writeFile(localImageFile, response.body);
-    } catch (error) {
-        console.error(error.message);
+        try {
+            const imagesResult = await pdfApi.getImages(storagePdfFile, 1, null, null);
+            const imageId = imagesResult.body.images.list[0].id;
+            const response = await pdfApi.getImageExtractAsPng(storagePdfFile, imageId);
+            await fs.writeFile(localImageFile, response.body);
+        } catch (error) {
+            console.error(error.message);
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

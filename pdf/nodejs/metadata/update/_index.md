@@ -72,34 +72,34 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+    const { PdfApi } = require("asposepdfcloud");
 
-async function updateXmpMetadataProperty()
-{
-    const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
-    const fileName = "4pages.pdf";
-    const folder = "Documents";
-    const storage = null;
-    const password = null;
-    const xmpMetadataProperty = "dc:title";
-  
-    const buffer = fs.readFileSync("testData/" + fileName);
-    await api.uploadFile(folder + "/" +fileName, buffer, storage)
-    var metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);
-    var titleProperty = metadata.body.properties.find(property => property.key == xmpMetadataProperty);
-    titleProperty.value = "New title";
+    async function updateXmpMetadataProperty()
+    {
+        const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
+        const fileName = "4pages.pdf";
+        const folder = "Documents";
+        const storage = null;
+        const password = null;
+        const xmpMetadataProperty = "dc:title";
+    
+        const buffer = fs.readFileSync("testData/" + fileName);
+        await api.uploadFile(folder + "/" +fileName, buffer, storage)
+        var metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);
+        var titleProperty = metadata.body.properties.find(property => property.key == xmpMetadataProperty);
+        titleProperty.value = "New title";
 
-    const xmpMetadata = {
-        properties: [titleProperty]
-    };
-    const result = await api.postXmpMetadata(fileName, xmpMetadata, folder, storage, password);
-    console.log(result.body.status);
+        const xmpMetadata = {
+            properties: [titleProperty]
+        };
+        const result = await api.postXmpMetadata(fileName, xmpMetadata, folder, storage, password);
+        console.log(result.body.status);
 
-    metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);
-    titleProperty = metadata.body.properties.find(property => property.key == xmpMetadataProperty);
-    console.log("Updated xmpMetadataProperty: " + titleProperty.key + "=" + titleProperty.value);
-}
+        metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);
+        titleProperty = metadata.body.properties.find(property => property.key == xmpMetadataProperty);
+        console.log("Updated xmpMetadataProperty: " + titleProperty.key + "=" + titleProperty.value);
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

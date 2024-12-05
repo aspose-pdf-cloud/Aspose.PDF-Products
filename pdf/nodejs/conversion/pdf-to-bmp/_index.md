@@ -76,30 +76,30 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+    const credentials = require("./credentials.json");
+    const { PdfApi } = require("asposepdfcloud");
 
-async function convertPDFtoBMP() {
-    const localFileName = "C:\\Samples\\sample.pdf";
-    const storageFileName = "sample.pdf";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localFileName);
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.response.text);
-    }
+    async function convertPDFtoBMP() {
+        const localFileName = "C:\\Samples\\sample.pdf";
+        const storageFileName = "sample.pdf";
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localFileName);
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.response.text);
+        }
 
-    try {
-        let convertResult = await pdfApi.getPageConvertToBmp(storageFileName, 1);
-        fs.writeFileSync("sample.bmp", convertResult.body);
-    } catch (error) {
-        console.error(error.response.text);
+        try {
+            let convertResult = await pdfApi.getPageConvertToBmp(storageFileName, 1);
+            fs.writeFileSync("sample.bmp", convertResult.body);
+        } catch (error) {
+            console.error(error.response.text);
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

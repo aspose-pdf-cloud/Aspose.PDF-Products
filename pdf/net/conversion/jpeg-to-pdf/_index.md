@@ -73,26 +73,26 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertJpegToPdf()
-{
-    const string localImageFileName = @"C:\Samples\Conversion\sample.jpg";
-    const string storageImageFileName = "sample.jpg";
-    const string resultFileName = "sample-jpeg-to-pdf.pdf";
+    public static void ConvertJpegToPdf()
+    {
+        const string localImageFileName = @"C:\Samples\Conversion\sample.jpg";
+        const string storageImageFileName = "sample.jpg";
+        const string resultFileName = "sample-jpeg-to-pdf.pdf";
 
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    using var file = File.OpenRead(localImageFileName);
-    pdfApi.UploadFile(storageImageFileName, file);
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
 
-    var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
-    ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)]
-    );
+        var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
+        ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)]
+        );
 
-    var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
-    Console.WriteLine($"JPEG to PDF result: {response.Status}");
-    pdfApi.DownloadFile(resultFileName)
-    .CopyTo(File.Create(resultFileName));
-}
+        var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
+        Console.WriteLine($"JPEG to PDF result: {response.Status}");
+        pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

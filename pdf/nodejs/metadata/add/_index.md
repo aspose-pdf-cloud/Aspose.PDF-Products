@@ -71,32 +71,32 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+    const { PdfApi } = require("asposepdfcloud");
 
-async function addXmpMetadataProperty()
-{
-    const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
-    const fileName = "Test.pdf";
-    const folder = "Documents";
-    const storage = null;
-    const password = null;
-    const xmpMetadataProperty = "pdf:Prop";
+    async function addXmpMetadataProperty()
+    {
+        const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
+        const fileName = "Test.pdf";
+        const folder = "Documents";
+        const storage = null;
+        const password = null;
+        const xmpMetadataProperty = "pdf:Prop";
 
-    const buffer = fs.readFileSync(fileName);
-    await api.uploadFile(folder + "/" +fileName, buffer, storage)
-    
-    var pdfPropProperty = {
-        key: xmpMetadataProperty,
-        value: "PropValue",
-        namespaceUri: "http://ns.adobe.com/pdf/1.3/"
-    }; 
-    const xmpMetadata = {
-        properties: [pdfPropProperty]
-    };
-    const result = await api.postXmpMetadata(fileName, xmpMetadata, folder, storage, password);
-    console.log(result.body.status);
-}
+        const buffer = fs.readFileSync(fileName);
+        await api.uploadFile(folder + "/" +fileName, buffer, storage)
+        
+        var pdfPropProperty = {
+            key: xmpMetadataProperty,
+            value: "PropValue",
+            namespaceUri: "http://ns.adobe.com/pdf/1.3/"
+        }; 
+        const xmpMetadata = {
+            properties: [pdfPropProperty]
+        };
+        const result = await api.postXmpMetadata(fileName, xmpMetadata, folder, storage, password);
+        console.log(result.body.status);
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

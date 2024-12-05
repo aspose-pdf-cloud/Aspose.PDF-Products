@@ -77,70 +77,70 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json"  with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
-import { Color } from "asposepdfcloud/src/models/color.js";
-import { FontStyles } from "asposepdfcloud/src/models/fontStyles.js";
-import { LineSpacing } from "asposepdfcloud/src/models/lineSpacing.js";
-import { Paragraph } from "asposepdfcloud/src/models/paragraph.js";
-import { TextHorizontalAlignment } from "asposepdfcloud/src/models/textHorizontalAlignment.js";
-import { VerticalAlignment } from "asposepdfcloud/src/models/verticalAlignment.js";
-import { WrapMode } from "asposepdfcloud/src/models/wrapMode.js";
-import { TextLine } from "asposepdfcloud/src/models/textLine.js";
-import { Segment } from "asposepdfcloud/src/models/segment.js";
-import { Rectangle } from "asposepdfcloud/src/models/rectangle.js";
-import { TextState } from "asposepdfcloud/src/models/textState.js";
+    import credentials from "./credentials.json"  with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
+    import { Color } from "asposepdfcloud/src/models/color.js";
+    import { FontStyles } from "asposepdfcloud/src/models/fontStyles.js";
+    import { LineSpacing } from "asposepdfcloud/src/models/lineSpacing.js";
+    import { Paragraph } from "asposepdfcloud/src/models/paragraph.js";
+    import { TextHorizontalAlignment } from "asposepdfcloud/src/models/textHorizontalAlignment.js";
+    import { VerticalAlignment } from "asposepdfcloud/src/models/verticalAlignment.js";
+    import { WrapMode } from "asposepdfcloud/src/models/wrapMode.js";
+    import { TextLine } from "asposepdfcloud/src/models/textLine.js";
+    import { Segment } from "asposepdfcloud/src/models/segment.js";
+    import { Rectangle } from "asposepdfcloud/src/models/rectangle.js";
+    import { TextState } from "asposepdfcloud/src/models/textState.js";
 
-const LOCAL_FILE_NAME = "c:\\Samples\\sample.pdf";
-const STORAGE_FILENAME = "sample.pdf";
-const PAGE_NUMBER = 1;
-const TEXT_CONTENT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+    const LOCAL_FILE_NAME = "c:\\Samples\\sample.pdf";
+    const STORAGE_FILENAME = "sample.pdf";
+    const PAGE_NUMBER = 1;
+    const TEXT_CONTENT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 
-async function add() {
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
+    async function add() {
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
 
-        const fileBuffer = await fs.readFile(LOCAL_FILE_NAME);
-        await pdfApi.uploadFile(STORAGE_FILENAME, fileBuffer);
+            const fileBuffer = await fs.readFile(LOCAL_FILE_NAME);
+            await pdfApi.uploadFile(STORAGE_FILENAME, fileBuffer);
 
-        const textState = Object.assign(new TextState(), {
-            fontSize: 20,
-            font: "Arial",
-            foregroundColor: Object.assign(new Color(), { a: 255, r: 0, g: 0, b: 255 }),
-            backgroundColor: Object.assign(new Color(), { a: 255, r: 255, g: 255, b: 0 }),
-            fontStyle: FontStyles.Regular,
-            underline: true
-        });
-
-        const segment = Object.assign(new Segment(),
-            {
-                value: TEXT_CONTENT,
-                textState: textState
+            const textState = Object.assign(new TextState(), {
+                fontSize: 20,
+                font: "Arial",
+                foregroundColor: Object.assign(new Color(), { a: 255, r: 0, g: 0, b: 255 }),
+                backgroundColor: Object.assign(new Color(), { a: 255, r: 255, g: 255, b: 0 }),
+                fontStyle: FontStyles.Regular,
+                underline: true
             });
 
-        const textLine = Object.assign(new TextLine(), { segments: [segment] });
+            const segment = Object.assign(new Segment(),
+                {
+                    value: TEXT_CONTENT,
+                    textState: textState
+                });
 
-        const paragraph = Object.assign(new Paragraph(), {
-            lineSpacing: LineSpacing.FullSize,
-            wrapMode: WrapMode.ByWords,
-            rectangle: Object.assign(new Rectangle(), { lLX: 10, lLY: 10, uRX: 300, uRY: 500 }),
-            horizontalAlignment: TextHorizontalAlignment.FullJustify,
-            verticalAlignment: VerticalAlignment.Center,
-            lines: [textLine]
-        });
+            const textLine = Object.assign(new TextLine(), { segments: [segment] });
 
-        const result = await pdfApi.putAddText(
-            STORAGE_FILENAME,
-            PAGE_NUMBER,
-            paragraph
-        );
+            const paragraph = Object.assign(new Paragraph(), {
+                lineSpacing: LineSpacing.FullSize,
+                wrapMode: WrapMode.ByWords,
+                rectangle: Object.assign(new Rectangle(), { lLX: 10, lLY: 10, uRX: 300, uRY: 500 }),
+                horizontalAlignment: TextHorizontalAlignment.FullJustify,
+                verticalAlignment: VerticalAlignment.Center,
+                lines: [textLine]
+            });
 
-        console.log(result.body.status);
-    } catch (error) {
-        console.error("Error adding text to PDF:", error.message);
+            const result = await pdfApi.putAddText(
+                STORAGE_FILENAME,
+                PAGE_NUMBER,
+                paragraph
+            );
+
+            console.log(result.body.status);
+        } catch (error) {
+            console.error("Error adding text to PDF:", error.message);
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

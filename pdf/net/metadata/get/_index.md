@@ -73,28 +73,28 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void GetMetadata()
-{
-    const string localPdfFileName = @"C:\Samples\sample.pdf";
-    const string storageFileName = "sample.pdf";
-
-
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-
-    if (pdfApi.GetFilesList("").Value.All(f => f.Name != "sample.pdf"))
+    public static void GetMetadata()
     {
-        using var file = File.OpenRead(localPdfFileName);
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
+        const string localPdfFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
 
-    var response = pdfApi.GetDocumentProperties(storageFileName);
-    foreach (var item in response.DocumentProperties.List)
-    {
-        Console.WriteLine($"Name: {item.Name} Value: {item.Value}");
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        if (pdfApi.GetFilesList("").Value.All(f => f.Name != "sample.pdf"))
+        {
+            using var file = File.OpenRead(localPdfFileName);
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+
+        var response = pdfApi.GetDocumentProperties(storageFileName);
+        foreach (var item in response.DocumentProperties.List)
+        {
+            Console.WriteLine($"Name: {item.Name} Value: {item.Value}");
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

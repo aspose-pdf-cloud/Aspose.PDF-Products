@@ -75,49 +75,49 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json"  with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
-import { Color } from "asposepdfcloud/src/models/color.js";
-import { FontStyles } from "asposepdfcloud/src/models/fontStyles.js";
-import { LineSpacing } from "asposepdfcloud/src/models/lineSpacing.js";
-import { Paragraph } from "asposepdfcloud/src/models/paragraph.js";
-import { TextHorizontalAlignment } from "asposepdfcloud/src/models/textHorizontalAlignment.js";
-import { VerticalAlignment } from "asposepdfcloud/src/models/verticalAlignment.js";
-import { WrapMode } from "asposepdfcloud/src/models/wrapMode.js";
-import { TextLine } from "asposepdfcloud/src/models/textLine.js";
-import { Segment } from "asposepdfcloud/src/models/segment.js";
-import { Rectangle } from "asposepdfcloud/src/models/rectangle.js";
-import { TextState } from "asposepdfcloud/src/models/textState.js";
+    import credentials from "./credentials.json"  with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
+    import { Color } from "asposepdfcloud/src/models/color.js";
+    import { FontStyles } from "asposepdfcloud/src/models/fontStyles.js";
+    import { LineSpacing } from "asposepdfcloud/src/models/lineSpacing.js";
+    import { Paragraph } from "asposepdfcloud/src/models/paragraph.js";
+    import { TextHorizontalAlignment } from "asposepdfcloud/src/models/textHorizontalAlignment.js";
+    import { VerticalAlignment } from "asposepdfcloud/src/models/verticalAlignment.js";
+    import { WrapMode } from "asposepdfcloud/src/models/wrapMode.js";
+    import { TextLine } from "asposepdfcloud/src/models/textLine.js";
+    import { Segment } from "asposepdfcloud/src/models/segment.js";
+    import { Rectangle } from "asposepdfcloud/src/models/rectangle.js";
+    import { TextState } from "asposepdfcloud/src/models/textState.js";
 
-async function updateFormFields() {
-    const localFileName = "C:\\Samples\\StudentInfoFormElectronic.pdf";
-    const storageFileName = "StudentInfoFormElectronic.pdf";
+    async function updateFormFields() {
+        const localFileName = "C:\\Samples\\StudentInfoFormElectronic.pdf";
+        const storageFileName = "StudentInfoFormElectronic.pdf";
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localFileName);
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localFileName);
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
+        let field = new Field();
+        field.name = "First Name";
+        field.type = FieldType.Text;
+        field.values = ["James"];
+        field.rect = new Rectangle(125, 735, 200, 752);
+        let fields = new Fields();
+        fields.list = [field];
+        try {
+            let response = await pdfApi.putUpdateFields(storageFileName, fields);
+            console.log(response.body.status);
+        }
+        catch (error) {
+            console.log(error.message);
+        }
     }
-    catch (error) {
-        console.error(error.message);
-    }
-    let field = new Field();
-    field.name = "First Name";
-    field.type = FieldType.Text;
-    field.values = ["James"];
-    field.rect = new Rectangle(125, 735, 200, 752);
-    let fields = new Fields();
-    fields.list = [field];
-    try {
-        let response = await pdfApi.putUpdateFields(storageFileName, fields);
-        console.log(response.body.status);
-    }
-    catch (error) {
-        console.log(error.message);
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

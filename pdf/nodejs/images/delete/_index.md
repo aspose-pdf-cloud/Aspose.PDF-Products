@@ -70,34 +70,34 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json"  with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
+    import credentials from "./credentials.json"  with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
 
-async function delete() {
-    const localPdfFile = "C:\\Samples\\Sample.pdf";
-    const storagePdfFile = "Sample.pdf";
+    async function delete() {
+        const localPdfFile = "C:\\Samples\\Sample.pdf";
+        const storagePdfFile = "Sample.pdf";
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localPdfFile);
-        let uploadResult = await pdfApi.uploadFile(storagePdfFile, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.message);
-    }
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localPdfFile);
+            let uploadResult = await pdfApi.uploadFile(storagePdfFile, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
 
-    try {
-        const result = await pdfApi.getImages(storagePdfFile, 1, null, null);
-        const imageId = result.body.images.list[0].id;
-        const response = await pdfApi.deleteImage(storagePdfFile, imageId);
-        console.log(response.body.status);
+        try {
+            const result = await pdfApi.getImages(storagePdfFile, 1, null, null);
+            const imageId = result.body.images.list[0].id;
+            const response = await pdfApi.deleteImage(storagePdfFile, imageId);
+            console.log(response.body.status);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
     }
-    catch (error) {
-        console.error(error.message);
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -69,40 +69,40 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json" with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
-import { Border } from "asposepdfcloud/src/models/border";
-import { TextBoxField } from "asposepdfcloud/src/models/textBoxField";
-import { Dash } from "asposepdfcloud/src/models/dash";
-import { Rectangle } from "asposepdfcloud/src/models/rectangle";
-import { Field } from "asposepdfcloud/src/models/field";
-import { FieldType } from "asposepdfcloud/src/models/fieldType";
-import { Fields } from "asposepdfcloud/src/models/fields";
+    import credentials from "./credentials.json" with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
+    import { Border } from "asposepdfcloud/src/models/border";
+    import { TextBoxField } from "asposepdfcloud/src/models/textBoxField";
+    import { Dash } from "asposepdfcloud/src/models/dash";
+    import { Rectangle } from "asposepdfcloud/src/models/rectangle";
+    import { Field } from "asposepdfcloud/src/models/field";
+    import { FieldType } from "asposepdfcloud/src/models/fieldType";
+    import { Fields } from "asposepdfcloud/src/models/fields";
 
-async function removeFormField() {
-    const localFileName = "C:\\Samples\\StudentInfoFormElectronic.pdf";
-    const storageFileName = "StudentInfoFormElectronic.pdf";
+    async function removeFormField() {
+        const localFileName = "C:\\Samples\\StudentInfoFormElectronic.pdf";
+        const storageFileName = "StudentInfoFormElectronic.pdf";
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localFileName);
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.message);
-    }
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localFileName);
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
 
-    try {
-        let response = await pdfApi.deleteField(storageFileName, "First Name");
-        console.log(response.body.status);
-    }
-    catch (error) {
-        console.log(error.message);
-    }
+        try {
+            let response = await pdfApi.deleteField(storageFileName, "First Name");
+            console.log(response.body.status);
+        }
+        catch (error) {
+            console.log(error.message);
+        }
 
-}
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

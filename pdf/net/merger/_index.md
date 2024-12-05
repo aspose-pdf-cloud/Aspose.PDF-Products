@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF Files via Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF via Cloud .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -71,7 +71,7 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-internal static void MergePdf()
+    internal static void MergePdf()
     {
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageFileName1 = "sample1.pdf";

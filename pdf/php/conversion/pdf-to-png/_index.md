@@ -64,7 +64,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 ```php
 
-    $name = "4pages.pdf";
+    $name = "test.pdf";
     $page_number = 2;
     $result_file = "page.png";
     $out_path = "$this->tempFolder/$result_file";

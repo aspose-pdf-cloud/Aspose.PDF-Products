@@ -73,22 +73,22 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertXpsToPdf()
-{
-    const string localXpsFileName = @"C:\Samples\Conversion\sample.oxps";
-    const string storageXpsFileName = "sample.oxps";
-    const string resultFileName = "sample-xps-to-pdf.pdf";
+    public static void ConvertXpsToPdf()
+    {
+        const string localXpsFileName = @"C:\Samples\Conversion\sample.oxps";
+        const string storageXpsFileName = "sample.oxps";
+        const string resultFileName = "sample-xps-to-pdf.pdf";
 
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    using var file = File.OpenRead(localXpsFileName);
-    pdfApi.UploadFile(storageXpsFileName, file);
-    
-    var response = pdfApi.PutXpsInStorageToPdf(resultFileName, storageXpsFileName);
-    Console.WriteLine($"XPS to PDF result: {response.Status}");
-    pdfApi.DownloadFile(resultFileName)
-        .CopyTo(File.Create(resultFileName));
-}
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localXpsFileName);
+        pdfApi.UploadFile(storageXpsFileName, file);
+        
+        var response = pdfApi.PutXpsInStorageToPdf(resultFileName, storageXpsFileName);
+        Console.WriteLine($"XPS to PDF result: {response.Status}");
+        pdfApi.DownloadFile(resultFileName)
+            .CopyTo(File.Create(resultFileName));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

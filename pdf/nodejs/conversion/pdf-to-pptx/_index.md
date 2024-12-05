@@ -76,31 +76,31 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
+    const fs = require("fs");
+    const credentials = require("./credentials.json");
+    const { PdfApi } = require("asposepdfcloud");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-async function convertPDFtoPPTX() {
-    const localFileName = "C:\\Samples\\sample.pdf";
-    const storageFileName = "sample.pdf";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = await fs.readFile(localImageFileName);
-    try {
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.response.text);
-    }
+    // Load your Application Secret and Key from the JSON file or set credentials in another way
+    async function convertPDFtoPPTX() {
+        const localFileName = "C:\\Samples\\sample.pdf";
+        const storageFileName = "sample.pdf";
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        let fileData = await fs.readFile(localImageFileName);
+        try {
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.response.text);
+        }
 
-    try {
-        let convertResult = await pdfApi.getPdfInStorageToPptx(storageFileName);
-        fs.writeFileSync("sample.pptx", convertResult.body);
-    } catch (error) {
-        console.error(error.response.text);
+        try {
+            let convertResult = await pdfApi.getPdfInStorageToPptx(storageFileName);
+            fs.writeFileSync("sample.pptx", convertResult.body);
+        } catch (error) {
+            console.error(error.response.text);
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

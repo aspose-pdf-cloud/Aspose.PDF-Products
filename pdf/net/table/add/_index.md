@@ -27,10 +27,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```powershell
 
-     
     PM> Install-Package Aspose.Pdf-Cloud
-     
-     
 
 ```
 
@@ -73,44 +70,44 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void Add()
-{
-    const string localImageFileName = @"C:\Samples\sample-test.pdf";
-    const string storageFileName = "Sample-Document-02.pdf";
-    const string resultFileName = "Sample-Document-02.pdf";
-
-    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    if (pdfApi.GetFilesList(".").Value.All(f => f.Name != storageFileName))
+    public static void Add()
     {
-        using var file = File.OpenRead(localImageFileName);
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
+        const string localImageFileName = @"C:\Samples\sample-test.pdf";
+        const string storageFileName = "Sample-Document-02.pdf";
+        const string resultFileName = "Sample-Document-02.pdf";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        if (pdfApi.GetFilesList(".").Value.All(f => f.Name != storageFileName))
+        {
+            using var file = File.OpenRead(localImageFileName);
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+        var decor = new GraphInfo(
+            Color: new Color(255, 0, 0, 255),
+            LineWidth: 2,
+            IsDoubled: true);
+
+        List<Cell> cells = [
+            new(HtmlFragment : "<strong>Cell 1</strong>"),
+            new(HtmlFragment : "<strong>Cell 2</strong>")];
+        var rows = new List<Row>()
+        {
+            new(Cells:cells)
+        };
+
+        Table demoTable = new(Rows: rows, Top: 600, Left: 10)
+        {
+            Border = new BorderInfo(decor, decor, decor, decor),
+            ColumnWidths = "150 300"
+        };
+
+        List<Table> tables = [demoTable];
+        pdfApi.PostPageTables(storageFileName, pageNumber: 1, tables);
+        pdfApi.DownloadFile(storageFileName)
+            .CopyTo(File.Create(resultFileName));
     }
-    var decor = new GraphInfo(
-        Color: new Color(255, 0, 0, 255),
-        LineWidth: 2,
-        IsDoubled: true);
-
-    List<Cell> cells = [
-        new(HtmlFragment : "<strong>Cell 1</strong>"),
-        new(HtmlFragment : "<strong>Cell 2</strong>")];
-    var rows = new List<Row>()
-    {
-        new(Cells:cells)
-    };
-
-    Table demoTable = new(Rows: rows, Top: 600, Left: 10)
-    {
-        Border = new BorderInfo(decor, decor, decor, decor),
-        ColumnWidths = "150 300"
-    };
-
-    List<Table> tables = [demoTable];
-    pdfApi.PostPageTables(storageFileName, pageNumber: 1, tables);
-    pdfApi.DownloadFile(storageFileName)
-        .CopyTo(File.Create(resultFileName));
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

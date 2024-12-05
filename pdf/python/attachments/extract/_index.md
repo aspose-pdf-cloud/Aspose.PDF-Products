@@ -75,29 +75,30 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 {{% blocks/products/pf/agp/code-block title="This sample code shows extracting all attachments of PDF document using PDF Cloud Python SDK" offSpacer="" %}}
 
 ```python
-from pdf_api import PdfApi
-from configuration import Configuration
 
-# Loading configuration using key and application secret
-app_key = "YOUR_APP_KEY"
-app_secret = "YOUR_APP_SECRET"
+    from pdf_api import PdfApi
+    from configuration import Configuration
 
-# Setting up the configuration
-config = Configuration()
-config.api_key['api_key'] = app_key
-config.api_key['app_sid'] = app_secret
+    # Loading configuration using key and application secret
+    app_key = "YOUR_APP_KEY"
+    app_secret = "YOUR_APP_SECRET"
 
-# Initializing the API using the configuration
-api = PdfApi(api_client=config.api_client)
+    # Setting up the configuration
+    config = Configuration()
+    config.api_key['api_key'] = app_key
+    config.api_key['app_sid'] = app_secret
 
-document_name = "my-document.pdf"
+    # Initializing the API using the configuration
+    api = PdfApi(api_client=config.api_client)
 
-try:
-    attachments = api.get_document_attachments(document_name)
-    print("List of all attachments is:", attachments)
-except Exception as e:
-    print(f"Unable to retreive attachments list. Error: {e}")
+    document_name = "my-document.pdf"
 
+    try:
+        attachments = api.get_document_attachments(document_name)
+        print("List of all attachments is:", attachments)
+    except Exception as e:
+        print(f"Unable to retreive attachments list. Error: {e}")
+        
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

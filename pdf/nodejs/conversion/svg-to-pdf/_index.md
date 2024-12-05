@@ -76,33 +76,33 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
-const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
-const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
-const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
+    const fs = require("fs");
+    const credentials = require("./credentials.json");
+    const { PdfApi } = require("asposepdfcloud");
+    const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
+    const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
+    const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-async function convertSVGtoPDF() {
-    const localImageFileName = "C:\\Samples\\sample.ps";
-    const storageFileName = "sample.ps";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = await fs.readFile(localImageFileName);
-    try {
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
+    // Load your Application Secret and Key from the JSON file or set credentials in another way
+    async function convertSVGtoPDF() {
+        const localImageFileName = "C:\\Samples\\sample.ps";
+        const storageFileName = "sample.ps";
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        let fileData = await fs.readFile(localImageFileName);
+        try {
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.response.text);
+        }
+        try {
+            let convertResult = await pdfApi.putSvgInStorageToPdf("sample-svg-to-pdf.pdf", storageFileName);
+            console.log(convertResult.response.text);
+        } catch (error) {
+            console.error(error.response.text);
+        }
     }
-    catch (error) {
-        console.error(error.response.text);
-    }
-    try {
-        let convertResult = await pdfApi.putSvgInStorageToPdf("sample-svg-to-pdf.pdf", storageFileName);
-        console.log(convertResult.response.text);
-    } catch (error) {
-        console.error(error.response.text);
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

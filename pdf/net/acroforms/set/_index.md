@@ -73,7 +73,7 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void SetFormField()
+    public static void SetFormField()
     {
         const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
         const string storageFileName = "StudentInfoFormElectronic.pdf";

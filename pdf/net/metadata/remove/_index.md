@@ -73,28 +73,28 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void DeleteMetadata()
-{
-    const string localImageFileName = @"C:\Samples\sample.pdf";
-    const string storageFileName = "sample.pdf";
-    
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
+    public static void DeleteMetadata()
+    {
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
 
-    var filesOnStorage = pdfApi.GetFilesList("");
-    if (filesOnStorage.Value.All(f => f.Name != "sample.pdf"))
-    {
-        using var file = File.OpenRead(localImageFileName);
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
+        var filesOnStorage = pdfApi.GetFilesList("");
+        if (filesOnStorage.Value.All(f => f.Name != "sample.pdf"))
+        {
+            using var file = File.OpenRead(localImageFileName);
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+        var response = pdfApi.GetDocumentProperty(storageFileName, "xmp:ArchiveType");
+        if (response.DocumentProperty.Value != null && !response.DocumentProperty.Value.StartsWith("Aspose"))
+        {
+            var responseSet = pdfApi.DeleteProperty(storageFileName, "xmp:ArchiveType");
+            Console.WriteLine(responseSet.Status);
+        }
     }
-    var response = pdfApi.GetDocumentProperty(storageFileName, "xmp:ArchiveType");
-    if (response.DocumentProperty.Value != null && !response.DocumentProperty.Value.StartsWith("Aspose"))
-    {
-        var responseSet = pdfApi.DeleteProperty(storageFileName, "xmp:ArchiveType");
-        Console.WriteLine(responseSet.Status);
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

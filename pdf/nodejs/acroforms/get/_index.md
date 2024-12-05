@@ -72,45 +72,45 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-import credentials from "./credentials.json" with { type: "json" };
-import fs from 'node:fs/promises';
-import { PdfApi } from "asposepdfcloud";
-import { Border } from "asposepdfcloud/src/models/border";
-import { TextBoxField } from "asposepdfcloud/src/models/textBoxField";
-import { Dash } from "asposepdfcloud/src/models/dash";
-import { Rectangle } from "asposepdfcloud/src/models/rectangle";
-import { Field } from "asposepdfcloud/src/models/field";
-import { FieldType } from "asposepdfcloud/src/models/fieldType";
-import { Fields } from "asposepdfcloud/src/models/fields";
+    import credentials from "./credentials.json" with { type: "json" };
+    import fs from 'node:fs/promises';
+    import { PdfApi } from "asposepdfcloud";
+    import { Border } from "asposepdfcloud/src/models/border";
+    import { TextBoxField } from "asposepdfcloud/src/models/textBoxField";
+    import { Dash } from "asposepdfcloud/src/models/dash";
+    import { Rectangle } from "asposepdfcloud/src/models/rectangle";
+    import { Field } from "asposepdfcloud/src/models/field";
+    import { FieldType } from "asposepdfcloud/src/models/fieldType";
+    import { Fields } from "asposepdfcloud/src/models/fields";
 
-async function getFormFields() {
-    const localFileName = "C:\\Samples\\StudentInfoFormElectronic.pdf";
-    const storageFileName = "StudentInfoFormElectronic.pdf";
+    async function getFormFields() {
+        const localFileName = "C:\\Samples\\StudentInfoFormElectronic.pdf";
+        const storageFileName = "StudentInfoFormElectronic.pdf";
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    try {
-        let fileData = await fs.readFile(localFileName);
-        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.message);
-    }
-
-    try {
-        let response = await pdfApi.getFields(storageFileName);
-        for (const item of response.body.fields.list) {
-            if (item.type == "List") {
-                console.log(`Name: [${item.Name}] Value: [${item.Values.join()}]`);
-            }
-            else {
-                console.log(`Name: [${item.name}] Value: [${item.values[0]}]`);
-            }
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localFileName);
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
         }
-    } catch (error) {
-        console.error(error.message);
+        catch (error) {
+            console.error(error.message);
+        }
+
+        try {
+            let response = await pdfApi.getFields(storageFileName);
+            for (const item of response.body.fields.list) {
+                if (item.type == "List") {
+                    console.log(`Name: [${item.Name}] Value: [${item.Values.join()}]`);
+                }
+                else {
+                    console.log(`Name: [${item.name}] Value: [${item.values[0]}]`);
+                }
+            }
+        } catch (error) {
+            console.error(error.message);
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

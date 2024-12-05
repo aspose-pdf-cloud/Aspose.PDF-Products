@@ -73,33 +73,33 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void UpdateFormFields()
-{
-    const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    const string storageFileName = "StudentInfoFormElectronic.pdf";
-    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    var filesOnStorage = pdfApi.GetFilesList("");
-    if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+    public static void UpdateFormFields()
     {
-        using var file = File.OpenRead(localImageFileName);
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
+        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        var filesOnStorage = pdfApi.GetFilesList("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+        {
+            using var file = File.OpenRead(localImageFileName);
+            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+        var fieldList = new List<Field>
+        {
+            new Field(
+                    Name: "First Name",
+                    Type: FieldType.Text,
+                    Values: ["James"],
+                    Rect: new Rectangle(125, 735, 200, 752))
+        };
+
+        var fields = new Fields(List: fieldList);
+
+        var response = pdfApi.PutUpdateFields(storageFileName, fields);
+        Console.WriteLine(response.Status);
     }
-    var fieldList = new List<Field>
-    {
-        new Field(
-                Name: "First Name",
-                Type: FieldType.Text,
-                Values: ["James"],
-                Rect: new Rectangle(125, 735, 200, 752))
-    };
-
-    var fields = new Fields(List: fieldList);
-
-    var response = pdfApi.PutUpdateFields(storageFileName, fields);
-    Console.WriteLine(response.Status);
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

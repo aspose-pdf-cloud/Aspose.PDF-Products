@@ -73,23 +73,22 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
+    public static void ConvertSvgToPdf()
+    {
+        const string localImageFileName = @"C:\Samples\Conversion\sample.svg";
+        const string storageImageFileName = "sample.svg";
+        const string resultFileName = "sample-svg-to-pdf.pdf";
 
-public static void ConvertSvgToPdf()
-{
-    const string localImageFileName = @"C:\Samples\Conversion\sample.svg";
-    const string storageImageFileName = "sample.svg";
-    const string resultFileName = "sample-svg-to-pdf.pdf";
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
 
-    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-    using var file = File.OpenRead(localImageFileName);
-    pdfApi.UploadFile(storageImageFileName, file);
-
-    var response = pdfApi.PutSvgInStorageToPdf(resultFileName, storageImageFileName);
-    Console.WriteLine($"SVG to PDF result: {response.Status}");
-    pdfApi.DownloadFile(resultFileName)
-        .CopyTo(File.Create(resultFileName));
-}
+        var response = pdfApi.PutSvgInStorageToPdf(resultFileName, storageImageFileName);
+        Console.WriteLine($"SVG to PDF result: {response.Status}");
+        pdfApi.DownloadFile(resultFileName)
+            .CopyTo(File.Create(resultFileName));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
