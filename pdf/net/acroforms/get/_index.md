@@ -72,43 +72,40 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows getting an AcroForms in PDF documents" offSpacer="" %}}
 
 ```cs
-public static void GetFormFields()
-{
-    var localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    var storageFileName = "StudentInfoFormElectronic.pdf";
 
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
+    public static void GetFormFields()
     {
-        using (var file = File.OpenRead(localImageFileName))
+        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+        const string storageFileName = "StudentInfoFormElectronic.pdf";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        if (pdfApi.GetFilesList("").Value.All(f => f.Name != storageFileName))
         {
+            using var file = File.OpenRead(localImageFileName);
             var uploadResult = pdfApi.UploadFile(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-    }
 
-    var response = pdfApi.GetFields(storageFileName);
-    foreach (var item in response.Fields.List)
-    {
-        if (item.Type == Aspose.Pdf.Cloud.Sdk.Model.FieldType.List)
+        var response = pdfApi.GetFields(storageFileName);
+        foreach (var item in response.Fields.List)
         {
-            Console.Write($"Name: [{item.Name}] Value:");
-            foreach (var listItem in item.Values)
+            if (item.Type == FieldType.List)
             {
-                Console.WriteLine($"{listItem} ");
+                Console.Write($"Name: [{item.Name}] Value:");
+                foreach (var listItem in item.Values)
+                {
+                    Console.WriteLine($"{listItem} ");
+                }
             }
-        }
-        else
-        {
-            Console.WriteLine($"Name: [{item.Name}] Value: [{item.Values.FirstOrDefault()}]");
-        }
+            else
+            {
+                Console.WriteLine($"Name: [{item.Name}] Value: [{item.Values.FirstOrDefault()}]");
+            }
 
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

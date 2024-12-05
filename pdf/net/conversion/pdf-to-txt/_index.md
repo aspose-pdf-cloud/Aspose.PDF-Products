@@ -73,23 +73,20 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPDFtoText()
-{
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageImageFileName = "sample.pdf";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
+    public static void ConvertPdfToText()
     {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
-    var response = pdfApi.GetText(storageImageFileName,0,0,0,0);
-    foreach (var item in response.TextOccurrences.List)
-    {
-        Console.WriteLine(item.Text);
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample.txt";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
+        
+        var response = pdfApi.GetText(storageImageFileName,0,0,0,0);
+        var lines = response.TextOccurrences.List.Select(x=>x.Text).ToList();
+        File.WriteAllLines(resultFileName, lines);
     }
 ```
 

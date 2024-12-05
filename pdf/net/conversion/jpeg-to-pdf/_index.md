@@ -73,30 +73,26 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertJPEGtoPDF()
-        {
-        var localImageFileName = @"C:\Samples\Conversion\sample.jpg";
-        var storageImageFileName = "sample.jpg";
+    public static void ConvertJpegToPdf()
+    {
+        const string localImageFileName = @"C:\Samples\Conversion\sample.jpg";
+        const string storageImageFileName = "sample.jpg";
+        const string resultFileName = "sample-jpeg-to-pdf.pdf";
 
-        // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-        var config = new Configuration(AppSecret, AppKey);
-
-        var pdfApi = new PdfApi(config);
-
-        using (var file = File.OpenRead(localImageFileName))
-        {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-        }
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
 
         var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
-                ImagesList: new List<ImageTemplate>()
-                {
-                        new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)
-                }
-                );
-                var response = pdfApi.PutImageInStorageToPdf("sample-jpeg-to-pdf.pdf", imageTemplatesRequest);
-                Console.WriteLine($"JPEG to PDF result: {response.Status}");
-        }
+        ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)]
+        );
+
+        var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
+        Console.WriteLine($"JPEG to PDF result: {response.Status}");
+        pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

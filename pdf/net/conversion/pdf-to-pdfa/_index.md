@@ -73,25 +73,22 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPDFtoPDFa()
-{
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageImageFileName = "sample.pdf";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
+    public static void ConvertPdfToPdFa()
     {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample-pdfa.pdf";
 
-    var response = pdfApi.GetPdfInStorageToPdfA(storageImageFileName,
-        type: Aspose.Pdf.Cloud.Sdk.Model.PdfAType.PDFA1A.ToString());
-    response.CopyTo(System.IO.File.OpenWrite("sample-pdfa1.pdf"));
-    Console.WriteLine($"PDF to PDFA result: {response.Length} bytes");
-}
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
+
+        var response = pdfApi.GetPdfInStorageToPdfA(storageImageFileName,
+            type: Aspose.Pdf.Cloud.Sdk.Model.PdfAType.PDFA1A.ToString());
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine($"PDF to PDF/A result: {response.Length} bytes");
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

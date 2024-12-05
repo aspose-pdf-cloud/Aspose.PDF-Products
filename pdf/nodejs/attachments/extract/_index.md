@@ -76,38 +76,39 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows extracting attachments of PDF document using PDF Cloud Node.js SDK" offSpacer="" %}}
 
 ```js
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
-const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
-const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
-const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-import * as BaseTest from "./baseTestPdfApi";
-import "mocha";
-var assert = require('assert');
+    const fs = require("fs");
+    const credentials = require("./credentials.json");
+    const { PdfApi } = require("asposepdfcloud");
+    const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
+    const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
+    const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
 
-describe("Attachments Tests", () => {
+    // Load your Application Secret and Key from the JSON file or set credentials in another way
+    import * as BaseTest from "./baseTestPdfApi";
+    import "mocha";
+    var assert = require('assert');
 
-    const name = "PdfWithEmbeddedFiles.pdf";
-    const attachmentIndex = 1;
+    describe("Attachments Tests", () => {
 
-    before( async ()=> {
-        await BaseTest.uploadFile(name);
-    });
+        const name = "PdfWithEmbeddedFiles.pdf";
+        const attachmentIndex = 1;
 
-    describe("GetDocumentAttachments Test", () => {
+        before( async ()=> {
+            await BaseTest.uploadFile(name);
+        });
 
-        it("should return response with code 200", async () => {
+        describe("GetDocumentAttachments Test", () => {
 
-            return BaseTest.getPdfApi().getDocumentAttachments(name, null, BaseTest.remoteTempFolder)
-                .then((result) => {
-                    assert.equal(result.response.statusCode, 200);
+            it("should return response with code 200", async () => {
+
+                return BaseTest.getPdfApi().getDocumentAttachments(name, null, BaseTest.remoteTempFolder)
+                    .then((result) => {
+                        assert.equal(result.response.statusCode, 200);
+                });
             });
         });
     });
-});
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

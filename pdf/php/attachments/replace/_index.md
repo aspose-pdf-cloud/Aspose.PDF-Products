@@ -61,62 +61,61 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 ```php
 <?php
 
-require_once 'path/to/PdfApi.php';  // Path to your PdfApi.php file
-use Aspose\PDF\Api\PdfApi;
-use Aspose\PDF\Configuration;
-use Aspose\PDF\Model\FileAttachmentAnnotation;
-use Aspose\PDF\Model\Rectangle;
+    require_once 'path/to/PdfApi.php';  // Path to your PdfApi.php file
+    use Aspose\PDF\Api\PdfApi;
+    use Aspose\PDF\Configuration;
+    use Aspose\PDF\Model\FileAttachmentAnnotation;
+    use Aspose\PDF\Model\Rectangle;
 
-// Настройки API
-$config = new Configuration();
-$config->setAppKey('YOUR_APP_KEY');  // Replace with your key
-$config->setAppSID('YOUR_APP_SID');  // Replace with your SID
+    // Настройки API
+    $config = new Configuration();
+    $config->setAppKey('YOUR_APP_KEY');  // Replace with your key
+    $config->setAppSID('YOUR_APP_SID');  // Replace with your SID
 
-// Create PdfApi instance
-$pdfApi = new PdfApi(null, $config);
+    // Create PdfApi instance
+    $pdfApi = new PdfApi(null, $config);
 
-try {
-    // Please specify the PDF file name, page number and attachment file name
-    $fileName = 'example.pdf';
-    $pageNumber = 1;  // Page number where the annotation is added
-    $attachmentFileName = 'attachment.txt';  // Filename for the attachment
-    $attachmentFilePath = '/path/to/attachment.txt';  // Local path to file
+    try {
+        // Please specify the PDF file name, page number and attachment file name
+        $fileName = 'example.pdf';
+        $pageNumber = 1;  // Page number where the annotation is added
+        $attachmentFileName = 'attachment.txt';  // Filename for the attachment
+        $attachmentFilePath = '/path/to/attachment.txt';  // Local path to file
 
-    // Upload file to cloud storage
-    $uploadResponse = $pdfApi->uploadFile($attachmentFileName, file_get_contents($attachmentFilePath));
+        // Upload file to cloud storage
+        $uploadResponse = $pdfApi->uploadFile($attachmentFileName, file_get_contents($attachmentFilePath));
 
-    if ($uploadResponse->getCode() === 200) {
-        echo "The file for attachment has been successfully downloaded.\n";
-    } else {
-        echo "Error loading attachment file.\n";
-        exit;
+        if ($uploadResponse->getCode() === 200) {
+            echo "The file for attachment has been successfully downloaded.\n";
+        } else {
+            echo "Error loading attachment file.\n";
+            exit;
+        }
+
+        // Create an annotation of FileAttachmentAnnotation
+        $annotation = new FileAttachmentAnnotation([
+            "name" => "Example Attachment Annotation",
+            "rect" => new Rectangle([100, 100, 200, 200]),  // Annotated position on page
+            "file_path" => $attachmentFileName,  // File name in cloud storage
+            "modified" => "2024-01-01T00:00:00.000Z",  // Change date
+            "title" => "Sample Attachment",
+            "subject" => "File Attachment",
+            "icon" => "PushPin"  // Annotation icon (for example, "PushPin", "Graph", "Paperclip")
+        ]);
+
+        // Add annotation to the specified PDF page
+        $response = $pdfApi->putFileAttachmentAnnotation($fileName, $pageNumber, $annotation);
+
+        // Check result
+        if ($response->getCode() === 200) {
+            echo "The annotation with the insertion has been successfully added to the PDF page.\n";
+        } else {
+            echo "Error adding annotation to PDF page.\n";
+        }
+
+    } catch (Exception $e) {
+        echo 'Error calling PdfApi->putFileAttachmentAnnotation: ', $e->getMessage(), PHP_EOL;
     }
-
-    // Create an annotation of FileAttachmentAnnotation
-    $annotation = new FileAttachmentAnnotation([
-        "name" => "Example Attachment Annotation",
-        "rect" => new Rectangle([100, 100, 200, 200]),  // Annotated position on page
-        "file_path" => $attachmentFileName,  // File name in cloud storage
-        "modified" => "2024-01-01T00:00:00.000Z",  // Change date
-        "title" => "Sample Attachment",
-        "subject" => "File Attachment",
-        "icon" => "PushPin"  // Annotation icon (for example, "PushPin", "Graph", "Paperclip")
-    ]);
-
-    // Add annotation to the specified PDF page
-    $response = $pdfApi->putFileAttachmentAnnotation($fileName, $pageNumber, $annotation);
-
-    // Check result
-    if ($response->getCode() === 200) {
-        echo "The annotation with the insertion has been successfully added to the PDF page.\n";
-    } else {
-        echo "Error adding annotation to PDF page.\n";
-    }
-
-} catch (Exception $e) {
-    echo 'Error calling PdfApi->putFileAttachmentAnnotation: ', $e->getMessage(), PHP_EOL;
-}
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

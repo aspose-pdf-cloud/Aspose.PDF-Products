@@ -36,7 +36,7 @@ description: This topic explain you how to split single pages of a PDF file and 
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF Files via Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF via Cloud .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -70,27 +70,30 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="Split Single PDF File - C#" offSpacer="" %}}
 
 ```cs
-public static void SplitSinglePages()
-{
-    var localImageFileName = @"C:\Samples\Sample-Document-01.pdf";
-    var storageFileName = "Sample-Document-01.pdf";
 
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
+    public static void SplitSinglePages()
     {
-        using (var file = File.OpenRead(localImageFileName))
+        const string localImageFileName = @"C:\Samples\Sample-Document-01.pdf";
+        const string storageFileName = "Sample-Document-01.pdf";
+        
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        if (pdfApi.GetFilesList("").Value.All(f => f.Name != storageFileName))
         {
+            using var file = File.OpenRead(localImageFileName);
             var uploadResult = pdfApi.UploadFile(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-    }
 
-    var response = pdfApi.PostSplitDocument(storageFileName);
-}
+        var response = pdfApi.PostSplitDocument(storageFileName);
+        uint index = 1;
+        foreach (var fileName in response.Result.Documents.Select(document=>document.Href))
+        {
+            pdfApi.DownloadFile(fileName)
+                .CopyTo(File.OpenWrite($"page{index++}.pdf"));
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
