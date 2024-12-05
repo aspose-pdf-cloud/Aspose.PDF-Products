@@ -74,22 +74,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertMarkdownToPDF()
+public static void ConvertMarkdownToPdf()
 {
-    var localHtmlFileName = @"C:\Samples\Conversion\sample.md";
-    var storageHtmlFileName = "sample.md";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localHtmlFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageHtmlFileName, file);
-        }
-    var response = pdfApi.PutMarkdownInStorageToPdf("sample-md-to-pdf.pdf", storageHtmlFileName);
+    const string localMarkdownFileName = @"C:\Samples\Conversion\sample.md";
+    const string storageMarkdownFileName = "sample.md";
+    const string resultFileName = "sample-md-to-pdf.pdf";
+    
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localMarkdownFileName);
+    pdfApi.UploadFile(storageMarkdownFileName, file);
+    
+    var response = pdfApi.PutMarkdownInStorageToPdf(resultFileName, storageMarkdownFileName);
     Console.WriteLine($"MD to PDF result: {response.Status}");
+    pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
 }
 ```
 

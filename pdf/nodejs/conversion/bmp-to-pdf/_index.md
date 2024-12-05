@@ -75,6 +75,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows BMP to PDF Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
+
 const fs = require("fs");
 const credentials = require("./credentials.json");
 const { PdfApi } = require("asposepdfcloud");
@@ -87,9 +88,9 @@ async function convertBMPtoPDF() {
     const localImageFileName = "C:\\Samples\\sample.bmp";
     const storageImageFileName = "sample.bmp";
     const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
     try {
-        const uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
+        let fileData = await fs.readFile(localImageFileName);
+        let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
         console.log(uploadResult.response.text);
     }
     catch (error) {
@@ -106,7 +107,7 @@ async function convertBMPtoPDF() {
     imageTemplatesRequest.imagesList = imageTemplateList;
 
     try {
-        const convertResult = await pdfApi.putImageInStorageToPdf("sample-bmp-to-pdf.pdf", imageTemplatesRequest);
+        let convertResult = await pdfApi.putImageInStorageToPdf("sample-bmp-to-pdf.pdf", imageTemplatesRequest);
         console.log(convertResult.response.text);
     } catch (error) {
         console.error(error.response.text);

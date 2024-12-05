@@ -72,29 +72,26 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows getting an AcroForms in PDF documents" offSpacer="" %}}
 
 ```cs
+
 public static void GetFormFields()
 {
-    var localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    var storageFileName = "StudentInfoFormElectronic.pdf";
+    const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+    const string storageFileName = "StudentInfoFormElectronic.pdf";
 
+    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == storageFileName))
+    if (pdfApi.GetFilesList("").Value.All(f => f.Name != storageFileName))
     {
-        using (var file = File.OpenRead(localImageFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+        using var file = File.OpenRead(localImageFileName);
+        var uploadResult = pdfApi.UploadFile(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
     }
 
     var response = pdfApi.GetFields(storageFileName);
     foreach (var item in response.Fields.List)
     {
-        if (item.Type == Aspose.Pdf.Cloud.Sdk.Model.FieldType.List)
+        if (item.Type == FieldType.List)
         {
             Console.Write($"Name: [{item.Name}] Value:");
             foreach (var listItem in item.Values)

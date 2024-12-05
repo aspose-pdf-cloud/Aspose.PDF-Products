@@ -74,22 +74,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPclToPDF()
+public static void ConvertPclToPdf()
 {
-    var localHtmlFileName = @"C:\Samples\Conversion\sample.prn";
-    var storageHtmlFileName = "sample.prn";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localHtmlFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageHtmlFileName, file);
-        }
-        var response = pdfApi.PutPclInStorageToPdf("sample-pcl-to-pdf.pdf", storageHtmlFileName);
-        Console.WriteLine($"PCL to PDF result: {response.Status}");
+    const string localPclFileName = @"C:\Samples\Conversion\sample.prn";
+    const string storagePclFileName = "sample.prn";
+    const string resultFileName = "sample-pcl-to-pdf.pdf";
+    
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localPclFileName);
+    pdfApi.UploadFile(storagePclFileName, file);
+    
+    var response = pdfApi.PutPclInStorageToPdf(resultFileName, storagePclFileName);
+    Console.WriteLine($"PCL to PDF result: {response.Status}");
+    pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
 }
 ```
 

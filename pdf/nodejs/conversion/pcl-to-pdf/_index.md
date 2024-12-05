@@ -85,7 +85,7 @@ async function convertPCLtoPDF() {
     const localImageFileName = "C:\\Samples\\sample.prn";
     const storageFileName = "sample.prn";
     const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
+    let fileData = await fs.readFile(localImageFileName);
     try {
         let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
         console.log(uploadResult.response.text);

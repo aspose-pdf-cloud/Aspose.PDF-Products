@@ -75,6 +75,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to PDF/A Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
+
 const fs = require("fs");
 const credentials = require("./credentials.json");
 const { PdfApi } = require("asposepdfcloud");
@@ -84,7 +85,7 @@ async function convertPDFtoPDFA() {
     const localFileName = "C:\\Samples\\sample.pdf";
     const storageFileName = "sample.pdf";
     const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localFileName);
+
     try {
         let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
         console.log(uploadResult.response.text);
@@ -94,7 +95,7 @@ async function convertPDFtoPDFA() {
     }
 
     try {
-        let convertResult = await pdfApi.getPdfInStorageToPdfA(storageFileName,"PDFA1A");
+        let convertResult = await pdfApi.getPdfInStorageToPdfA(storageFileName, PdfAType.PDFA3A,);
         fs.writeFileSync("sample-pdfa.pdf", convertResult.body);
     } catch (error) {
         console.error(error);

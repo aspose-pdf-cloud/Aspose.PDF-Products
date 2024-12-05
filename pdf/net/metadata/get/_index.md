@@ -72,23 +72,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows getting a Metadata from PDF documents" offSpacer="" %}}
 
 ```cs
+
 public static void GetMetadata()
 {
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageFileName = "sample.pdf";
+    const string localPdfFileName = @"C:\Samples\sample.pdf";
+    const string storageFileName = "sample.pdf";
 
 
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-    if (!pdfApi.GetFilesList("").Value.Any(f => f.Name == "sample.pdf"))
+    if (pdfApi.GetFilesList("").Value.All(f => f.Name != "sample.pdf"))
     {
-        using (var file = File.OpenRead(localImageFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+        using var file = File.OpenRead(localPdfFileName);
+        var uploadResult = pdfApi.UploadFile(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
     }
 
     var response = pdfApi.GetDocumentProperties(storageFileName);

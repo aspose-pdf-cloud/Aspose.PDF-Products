@@ -75,18 +75,19 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to EMF Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
+
 const fs = require("fs");
 const credentials = require("./credentials.json");
 const { PdfApi } = require("asposepdfcloud");
 
 // Load your Application Secret and Key from the JSON file or set credentials in another way
 async function convertPDFtoEMF() {
-    const localImageFileName = "C:\\Samples\\sample.pdf";
-    const storageImageFileName = "sample.pdf";
+    const localFileName = "C:\\Samples\\sample.pdf";
+    const storageFileName = "sample.pdf";
     const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
     try {
-        let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
+        let fileData = await fs.readFile(localFileName);
+        let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
         console.log(uploadResult.response.text);
     }
     catch (error) {
@@ -94,8 +95,8 @@ async function convertPDFtoEMF() {
     }
 
     try {
-        let convertResult = await pdfApi.getPageConvertToEmf(storageImageFileName, 1);
-        fs.writeFileSync("sample.emf",convertResult.body);
+        let convertResult = await pdfApi.getPageConvertToEmf(storageFileName, 1);
+        fs.writeFileSync("sample.emf", convertResult.body);
     } catch (error) {
         console.error(error.response.text);
     }

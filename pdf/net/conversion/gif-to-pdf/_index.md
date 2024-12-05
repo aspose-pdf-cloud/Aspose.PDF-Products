@@ -73,29 +73,25 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertGIFtoPDF()
+public static void ConvertGifToPdf()
 {
-    var localImageFileName = @"C:\Samples\Conversion\sample.gif";
-    var storageImageFileName = "sample.gif";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+    const string localImageFileName = @"C:\Samples\Conversion\sample.gif";
+    const string storageImageFileName = "sample.gif";
+    const string resultFileName = "sample-gif-to-pdf.pdf";
+    
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localImageFileName);
+    pdfApi.UploadFile(storageImageFileName, file);
 
     var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
-        ImagesList: new List<ImageTemplate>()
-        {
-            new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)
-        }
+        ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Common)]
     );
-    var response = pdfApi.PutImageInStorageToPdf("sample-gif-to-pdf.pdf", imageTemplatesRequest);
+    
+    var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
     Console.WriteLine($"GIF to PDF result: {response.Status}");
+    pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
 }
 ```
 

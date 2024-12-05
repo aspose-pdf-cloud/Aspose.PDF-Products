@@ -52,11 +52,12 @@ APIs can be done with just few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Load your Application Secret and Key from the JSON file or set credentials in another way
-1. Create an object to connect to the Cloud API
-1. Upload your document file
-1. Perform the merging using putMergeDocuments method
-1. Download the result if need it
+1. Import the necessary classes.
+1. Reads a PDF files from the local file system.
+1. Upload the PDF files to the Aspose.PDF Cloud storage.
+1. Merging the PDF documents using the Aspose.PDF Cloud API.
+1. Log the result to the console.
+1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,31 +81,41 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-    const { PdfApi } = require("asposepdfcloud");
-    const { MergeDocuments } = require("asposepdfcloud/src/models/mergeDocuments");
+const fs = require("fs");
+const { PdfApi } = require("asposepdfcloud");
+const { MergeDocuments } = require("asposepdfcloud/src/models/mergeDocuments");
 
-    const api = new PdfApi("http://172.17.0.1:5000/v3.0");
+async function mergeDocument()
+{
+    const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
 
-    // Use default storage.
+    const fileName = "merged.pdf";
+    const fileNames = ["Test.pdf", "Test2.pdf"];
     const storage = null;
-    // Set document folder.
     const folder = "Documents";
-    // Set result file name.
-    const resultName = "MergingResult.pdf";
-    // Create merge request.
-    const mergeDocuments = new MergeDocuments();
-    mergeDocuments.list = [folder + "/4pages.pdf", folder + "/PdfWithImages2.pdf", folder + "/marketing.pdf"];
 
-    async function main()
+    const mergeRequest = new MergeDocuments();
+    mergeRequest.list = [];
+    await Promise.all(
+        fileNames.map(async fileName =>
+        {
+            const buffer = fs.readFileSync(fileName);
+            await api.uploadFile(folder + "/" + fileName, buffer, storage);
+            mergeRequest.list.push(folder + "/" + fileName);
+        })
+    );
+    const result = await api.putMergeDocuments(
+        fileName,
+        mergeRequest,
+        storage,
+        folder);
+
+    console.log(result.body.status);
+    result.body.result.documents.forEach((document, index) =>
     {
-        // Swagger method definition available at
-        //     https://reference.aspose.cloud/pdf/#/Merge/PutMergeDocuments
-        // Merge a list of documents.
-        const result = await api.putMergeDocuments(resultName, mergeDocuments, storage, folder);
-        console.log(result.body.status);
-    }
-
-    main();
+        console.log(index + 1 + ") " + document.href);
+    });
+}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

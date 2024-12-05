@@ -72,21 +72,19 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows updating the Metadata in PDF documents" offSpacer="" %}}
 
 ```cs
- public static void UpdateMetadata()
+
+public static void UpdateMetadata()
 {
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageFileName = "sample.pdf";
+    const string localImageFileName = @"C:\Samples\sample.pdf";
+    const string storageFileName = "sample.pdf";
 
 
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-    using (var file = File.OpenRead(localImageFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
-    }
+    using var file = File.OpenRead(localImageFileName);
+    var uploadResult = pdfApi.UploadFile(storageFileName, file);
+    Console.WriteLine(uploadResult.Uploaded[0]);
     var response = pdfApi.GetDocumentProperty(storageFileName, "xmp:ArchiveType");
     if (response.DocumentProperty.Value != null && !response.DocumentProperty.Value.StartsWith("Aspose"))
     {

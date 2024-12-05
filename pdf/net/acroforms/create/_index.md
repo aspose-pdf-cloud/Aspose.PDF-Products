@@ -72,28 +72,26 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows creating an AcroForms in PDF documents" offSpacer="" %}}
 
 ```cs
+
 public static void AddFormField()
 {
-    var localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    var storageFileName = "StudentInfoFormElectronic.pdf";
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
+    const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+    const string storageFileName = "StudentInfoFormElectronic.pdf";
+    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+    var pdfApi = new PdfApi(AppSecret, AppSid);
     var filesOnStorage = pdfApi.GetFilesList("");
-    if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
+    if (filesOnStorage.Value.All(f => f.Name != storageFileName))
     {
-        using (var file = File.OpenRead(localImageFileName))
-        {
+        using var file = File.OpenRead(localImageFileName);
         var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+        Console.WriteLine(uploadResult.Uploaded[0]);
     }
-    var textBoxField = new Aspose.Pdf.Cloud.Sdk.Model.TextBoxField(PageIndex: 1)
+    var textBoxField = new TextBoxField(PageIndex: 1)
     {
         PartialName = "Email",
-        Rect = new Aspose.Pdf.Cloud.Sdk.Model.Rectangle(100, 100, 180, 120),
+        Rect = new Rectangle(100, 100, 180, 120),
         Value = "aspose-pdf-cloud@example.com",
-        Border = new Aspose.Pdf.Cloud.Sdk.Model.Border(Width: 5, Dash: new Aspose.Pdf.Cloud.Sdk.Model.Dash(1, 1))
+        Border = new Border(Width: 5, Dash: new Dash(1, 1))
     };
 
     var response = pdfApi.PutTextBoxField(storageFileName, "Email", textBoxField);

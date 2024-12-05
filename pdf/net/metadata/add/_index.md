@@ -72,23 +72,23 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows creating a Metadata in PDF documents" offSpacer="" %}}
 
 ```cs
+
 public static void AddMetadata()
 {
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageFileName = "sample.pdf";
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
+    const string localImageFileName = @"C:\Samples\sample.pdf";
+    const string storageFileName = "sample.pdf";
+    
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
     var filesOnStorage = pdfApi.GetFilesList("");
-    if (!filesOnStorage.Value.Any(f => f.Name == "sample.pdf"))
+    if (filesOnStorage.Value.All(f => f.Name != "sample.pdf"))
     {
-        using (var file = File.OpenRead(localImageFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+        using var file = File.OpenRead(localImageFileName);
+        var uploadResult = pdfApi.UploadFile(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
     }
-    var response = pdfApi.PutSetProperty(storageFileName, "xmp:ArchiveDate", DateTime.Today.ToString());
+    var response = pdfApi.PutSetProperty(storageFileName, "xmp:ArchiveDate", 
+        DateTime.Today.ToString(CultureInfo.InvariantCulture));
     Console.WriteLine(response.Status);
 }
 ```

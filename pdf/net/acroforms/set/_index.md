@@ -72,31 +72,29 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows setting an AcroForms in PDF documents" offSpacer="" %}}
 
 ```cs
+
 public static void SetFormField()
-{
-    var localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    var storageFileName = "StudentInfoFormElectronic.pdf";
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-    var filesOnStorage = pdfApi.GetFilesList("");
-    if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
     {
-        using (var file = File.OpenRead(localImageFileName))
+        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        var filesOnStorage = pdfApi.GetFilesList("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
+            using var file = File.OpenRead(localImageFileName);
             var uploadResult = pdfApi.UploadFile(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-    }
 
-    var response = pdfApi.PutUpdateField(storageFileName, "First Name", new Aspose.Pdf.Cloud.Sdk.Model.Field(
-        Name: "First Name",
-        Type: FieldType.Text,
-        Values: new List<string> { "James" },
-        Rect: new Rectangle(125, 735, 200, 752)
-    ));
-    Console.WriteLine(response.Status);
-}
+        var response = pdfApi.PutUpdateField(storageFileName, "First Name", new Field(
+            Name: "First Name",
+            Type: FieldType.Text,
+            Values: ["James"],
+            Rect: new Rectangle(125, 735, 200, 752)
+        ));
+        Console.WriteLine(response.Status);
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

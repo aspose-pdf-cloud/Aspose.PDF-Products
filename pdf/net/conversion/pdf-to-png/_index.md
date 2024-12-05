@@ -74,22 +74,19 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPDFtoPNG()
+public static void ConvertPdfToPng()
 {
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageImageFileName = "sample.pdf";
+    const string localImageFileName = @"C:\Samples\sample.pdf";
+    const string storageImageFileName = "sample.pdf";
+    const string resultFileName = "sample.png";
 
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localImageFileName);
+    pdfApi.UploadFile(storageImageFileName, file);
 
     var response = pdfApi.GetPageConvertToPng(storageImageFileName, 1);
-    response.CopyTo(System.IO.File.OpenWrite("sample.png"));
+    response.CopyTo(File.OpenWrite(resultFileName));
     Console.WriteLine($"PDF to PNG result: {response.Length} bytes");
 }
 ```

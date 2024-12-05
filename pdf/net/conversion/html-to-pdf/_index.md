@@ -73,22 +73,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertHTMLtoPDF()
+public static void ConvertHtmlToPdf()
 {
-    var localHtmlFileName = @"C:\Samples\Conversion\sample.html";
-    var storageHtmlFileName = "sample.html";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localHtmlFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageHtmlFileName, file);
-    }
-    var response = pdfApi.PutHtmlInStorageToPdf("sample-html-to-pdf.pdf", storageHtmlFileName);
+    const string localHtmlFileName = @"C:\Samples\Conversion\sample.html";
+    const string storageHtmlFileName = "sample.html";
+    const string resultFileName = "sample-html-to-pdf.pdf";
+    
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localHtmlFileName);
+    pdfApi.UploadFile(storageHtmlFileName, file);
+    
+    var response = pdfApi.PutHtmlInStorageToPdf(resultFileName, storageHtmlFileName);
     Console.WriteLine($"HTML to PDF result: {response.Status}");
+    pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
 }
 ```
 

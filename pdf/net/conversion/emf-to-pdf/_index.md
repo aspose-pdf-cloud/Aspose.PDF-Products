@@ -73,30 +73,25 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertEMFtoPDF()
+public static void ConvertEmfToPdf()
 {
-    var localImageFileName = @"C:\Samples\Conversion\sample.emf";
-    var storageImageFileName = "sample.emf";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-
-
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+    const string localImageFileName = @"C:\Samples\Conversion\sample.emf";
+    const string storageImageFileName = "sample.emf";
+    const string resultFileName = "sample-emf-to-pdf.pdf";
+    
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localImageFileName);
+    pdfApi.UploadFile(storageImageFileName, file);
 
     var imageTemplatesRequest = new ImageTemplatesRequest(IsOCR: false,
-        ImagesList: new List<ImageTemplate>()
-        {
-            new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Emf)
-        }
+        ImagesList: [new ImageTemplate(ImagePath: storageImageFileName, ImageSrcType: ImageSrcType.Emf)]
     );
-    var response = pdfApi.PutImageInStorageToPdf("sample-emf-to-pdf.pdf", imageTemplatesRequest);
+    
+    var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
     Console.WriteLine($"EMF to PDF result: {response.Status}");
+    pdfApi.DownloadFile(resultFileName)
+        .CopyTo(File.Create(resultFileName));
 }
 ```
 

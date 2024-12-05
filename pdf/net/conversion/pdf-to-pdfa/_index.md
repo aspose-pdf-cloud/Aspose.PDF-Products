@@ -73,24 +73,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPDFtoPDFa()
+public static void ConvertPdfToPdFa()
 {
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageImageFileName = "sample.pdf";
+    const string localImageFileName = @"C:\Samples\sample.pdf";
+    const string storageImageFileName = "sample.pdf";
+    const string resultFileName = "sample-pdfa.pdf";
 
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
-    {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+    using var file = File.OpenRead(localImageFileName);
+    pdfApi.UploadFile(storageImageFileName, file);
 
     var response = pdfApi.GetPdfInStorageToPdfA(storageImageFileName,
         type: Aspose.Pdf.Cloud.Sdk.Model.PdfAType.PDFA1A.ToString());
-    response.CopyTo(System.IO.File.OpenWrite("sample-pdfa1.pdf"));
-    Console.WriteLine($"PDF to PDFA result: {response.Length} bytes");
+    response.CopyTo(File.OpenWrite(resultFileName));
+    Console.WriteLine($"PDF to PDF/A result: {response.Length} bytes");
 }
 ```
 

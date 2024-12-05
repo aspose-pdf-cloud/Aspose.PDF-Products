@@ -75,6 +75,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows CGM to PDF Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
+
 const fs = require("fs");
 const credentials = require("./credentials.json");
 const { PdfApi } = require("asposepdfcloud");
@@ -84,17 +85,19 @@ const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
 
 // Load your Application Secret and Key from the JSON file or set credentials in another way
 async function convertCGMtoPDF() {
-const localImageFileName = "C:\\Samples\\sample.cgm";
+    const localImageFileName = "C:\\Samples\\sample.cgm";
     const storageImageFileName = "sample.cgm";
     const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
+
     try {
+        let fileData = await fs.readFile(localImageFileName);
         let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
         console.log(uploadResult.response.text);
     }
     catch (error) {
         console.error(error.response.text);
     }
+    s
     let imageTemplateList = [];
     let imageTemplate = new ImageTemplate();
     imageTemplate.imagePath = storageImageFileName;

@@ -52,7 +52,7 @@ Splitting PDF into smaller sections can reduce the file size, which is useful wh
 1. Create an object to connect to the Cloud API
 1. Upload your document file
 1. Perform the splitting using postSplitRangePdfDocument
-1. Download the result if need it
+1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

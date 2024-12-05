@@ -75,6 +75,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows PNG to PDF Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
+
 const fs = require("fs");
 const credentials = require("./credentials.json");
 const { PdfApi } = require("asposepdfcloud");
@@ -87,7 +88,7 @@ async function convertPNGtoPDF() {
     const localImageFileName = "C:\\Samples\\sample.png";
     const storageImageFileName = "sample.png";
     const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
+    let fileData = await fs.readFile(localImageFileName);
     try {
         let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
         console.log(uploadResult.response.text);
