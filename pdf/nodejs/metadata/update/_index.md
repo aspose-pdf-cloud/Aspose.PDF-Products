@@ -78,13 +78,13 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
     async function updateXmpMetadataProperty()
     {
         const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
-        const fileName = "4pages.pdf";
+        const fileName = "Sample.pdf";
         const folder = "Documents";
         const storage = null;
         const password = null;
         const xmpMetadataProperty = "dc:title";
     
-        const buffer = fs.readFileSync("testData/" + fileName);
+        const buffer = fs.readFileSync(fileName);
         await api.uploadFile(folder + "/" +fileName, buffer, storage)
         var metadata = await api.getXmpMetadataJson(fileName, folder, storage, password);
         var titleProperty = metadata.body.properties.find(property => property.key == xmpMetadataProperty);

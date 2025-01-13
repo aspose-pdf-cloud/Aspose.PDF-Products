@@ -96,6 +96,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
         try {
             let convertResult = await pdfApi.putMarkdownInStorageToPdf("sample-txt-to-pdf.pdf", storageFileName);
             console.log(convertResult.response.text);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
         } catch (error) {
             console.error(error.response.text);
         }

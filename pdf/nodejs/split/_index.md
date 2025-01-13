@@ -52,7 +52,7 @@ Splitting PDF into smaller sections can reduce the file size, which is useful wh
 1. Create an object to connect to the Cloud API
 1. Upload your document file
 1. Splits the uploaded PDF document using the PDF API.
-1. Downloads each split page as a separate PDF file and saves them locally.
+1. Download each split page as a separate PDF file and saves them locally.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

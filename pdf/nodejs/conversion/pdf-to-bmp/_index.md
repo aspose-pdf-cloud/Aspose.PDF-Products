@@ -96,6 +96,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
         try {
             let convertResult = await pdfApi.getPageConvertToBmp(storageFileName, 1);
             fs.writeFileSync("sample.bmp", convertResult.body);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
         } catch (error) {
             console.error(error.response.text);
         }

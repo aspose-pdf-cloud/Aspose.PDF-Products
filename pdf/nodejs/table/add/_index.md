@@ -118,7 +118,7 @@ async function add() {
 
         const tables = [demoTable];
         await pdfApi.postPageTables(STORAGE_FILENAME, PAGE_NUMBER, tables);
-        const buffer = await pdfApi.downloadFile(STORAGE_FILENAME)
+        const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
 
 
         console.log(result.body.status);

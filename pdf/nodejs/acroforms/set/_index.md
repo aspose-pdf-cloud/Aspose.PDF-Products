@@ -44,7 +44,7 @@ Aspose.PDF Cloud developers can easily load & set an acroforms from PDF in just 
 {{% /blocks/products/pf/agp/text %}}
 
 1. Read the local PDF file
-1. Create a new form field
+1. Create a field with new decorations
 1. Update the form field in the uploaded PDF
 1. Download the result if needed it
 

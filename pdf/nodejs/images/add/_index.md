@@ -43,7 +43,6 @@ Aspose.PDF Cloud developers can easily load & add Images to PDF in just a few li
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Read the local PDF file.
 1. Reads a local image file and uploads it to the Aspose.PDF Cloud storage.
 1. Inserts the uploaded image into the uploaded PDF file at a specific location.
 1. Download the result if needed it

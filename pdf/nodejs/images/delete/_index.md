@@ -43,8 +43,10 @@ Aspose.PDF Cloud developers can easily load & delete Images from PDF in just a f
 
 {{% /blocks/products/pf/agp/text %}}
 
+1. Get images from specific page
+1. Choose disared image by image id
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
-1. Retrieves the first image from the uploaded PDF file.
+1. Retrieves the disared image from the uploaded PDF file.
 1. Deletes the retrieved image from the PDF file in the cloud storage.
 1. Download the result if needed it
 

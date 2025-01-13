@@ -96,6 +96,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
         try {
             let convertResult = await pdfApi.getPdfInStorageToSvg(storageFileName, false);
             fs.writeFileSync("sample-svg.zip", convertResult.body);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
         } catch (error) {
             console.error(error.response.text);
         }

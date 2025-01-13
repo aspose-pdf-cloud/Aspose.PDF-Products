@@ -108,6 +108,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
         try {
             let convertResult = await pdfApi.putImageInStorageToPdf("sample-emf-to-pdf.pdf", imageTemplatesRequest);
             console.log(convertResult.response.text);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
         } catch (error) {
             console.error(error.response.text);
         }

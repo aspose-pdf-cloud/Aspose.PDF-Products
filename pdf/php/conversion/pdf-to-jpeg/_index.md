@@ -64,12 +64,11 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 ```php
 
-    $name = "test.pdf";
+    $name = "sample.pdf";
     $page_number = 2;
     $result_file = "page.jpeg";
     $out_path = "$this->tempFolder/$result_file";
     $response = $this->pdfApi->putPageConvertToJpeg($name, $page_number, $out_path, $width = null, $height = null, $folder = $this->tempFolder);
-    $this->assertEquals(200, $response->getCode());
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

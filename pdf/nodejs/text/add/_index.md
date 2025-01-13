@@ -137,6 +137,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
             );
 
             console.log(result.body.status);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
         } catch (error) {
             console.error("Error adding text to PDF:", error.message);
         }

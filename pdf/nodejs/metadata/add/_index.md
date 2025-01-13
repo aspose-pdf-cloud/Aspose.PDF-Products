@@ -45,8 +45,8 @@ Aspose.PDF Cloud developers can easily load & create metadata in PDF in just a f
 
 1. Reads the PDF file from the local file system.
 1. Uploads the PDF file to the Aspose.PDF Cloud storage.
-1. Creates an XMP metadata property object with a key, value, and namespace URI.
-1. Adds the XMP metadata property to the PDF file using the Aspose.PDF Cloud API.
+1. Creates metadata property object with a key, value, and namespace URI.
+1. Adds the metadata property to the PDF file using the Aspose.PDF Cloud API.
 1. Logs the status of the operation to the console.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

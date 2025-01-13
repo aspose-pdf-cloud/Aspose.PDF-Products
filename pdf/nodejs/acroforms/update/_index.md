@@ -45,7 +45,7 @@ Aspose.PDF Cloud developers can easily load & update acroforms in PDF in just a 
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Reads a local PDF file named "StudentInfoFormElectronic.pdf".
+1. Reads PDF file from local path.
 1. Upload the PDF file to the Aspose.PDF Cloud storage.
 1. Creates a new form field with the name "First Name" and sets its value to "James".
 1. Updates the form fields in the PDF file on the Aspose.PDF Cloud storage.

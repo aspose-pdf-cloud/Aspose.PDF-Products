@@ -64,7 +64,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 ```php
 
-    $name = 'test.pdf';
+    $name = 'sample.pdf';
     $this->uploadFile($name);
     
     $folder = $this->tempFolder;

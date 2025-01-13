@@ -97,6 +97,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
         try {
             let convertResult = await pdfApi.getPageConvertToEmf(storageFileName, 1);
             fs.writeFileSync("sample.emf", convertResult.body);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
         } catch (error) {
             console.error(error.response.text);
         }

@@ -55,7 +55,7 @@ APIs can be done with just few lines of code.
 1. Import the necessary classes.
 1. Reads a PDF files from the local file system.
 1. Upload the PDF files to the Aspose.PDF Cloud storage.
-1. Merging the PDF documents using the Aspose.PDF Cloud API.
+1. Merge the PDF documents using the Aspose.PDF Cloud API.
 1. Log the result to the console.
 1. Download the result if needed it
 
@@ -90,7 +90,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
         const api = new PdfApi("YOUR_API_SID", "YOUR_API_KEY");
 
         const fileName = "merged.pdf";
-        const fileNames = ["Test.pdf", "Test2.pdf"];
+        const fileNames = ["Sample.pdf", "Sample2.pdf"];
         const storage = null;
         const folder = "Documents";
 
@@ -111,10 +111,6 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
             folder);
 
         console.log(result.body.status);
-        result.body.result.documents.forEach((document, index) =>
-        {
-            console.log(index + 1 + ") " + document.href);
-        });
     }
 ```
 

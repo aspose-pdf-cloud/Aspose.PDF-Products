@@ -77,38 +77,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-    const fs = require("fs");
-    const credentials = require("./credentials.json");
-    const { PdfApi } = require("asposepdfcloud");
-    const { ImageTemplatesRequest } = require("asposepdfcloud/src/models/imageTemplatesRequest");
-    const { ImageTemplate } = require("asposepdfcloud/src/models/imageTemplate");
-    const { ImageSrcType } = require("asposepdfcloud/src/models/imageSrcType");
 
-    // Load your Application Secret and Key from the JSON file or set credentials in another way
-    import * as BaseTest from "./baseTestPdfApi";
-    import "mocha";
-    var assert = require('assert');
-
-    describe("Attachments Tests", () => {
-
-        const name = "PdfWithEmbeddedFiles.pdf";
-        const attachmentIndex = 1;
-
-        before( async ()=> {
-            await BaseTest.uploadFile(name);
-        });
-
-        describe("GetDocumentAttachments Test", () => {
-
-            it("should return response with code 200", async () => {
-
-                return BaseTest.getPdfApi().getDocumentAttachments(name, null, BaseTest.remoteTempFolder)
-                    .then((result) => {
-                        assert.equal(result.response.statusCode, 200);
-                });
-            });
-        });
-    });
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
