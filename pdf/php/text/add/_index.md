@@ -40,7 +40,13 @@ Aspose.PDF Cloud developers can easily load & add Text to PDF in just a few line
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. 
+1. Upload Necessary PDF Files.
+1. Define the Text Rectangle Area.
+1. Set Text Colors and Configure Text Properties.
+1. Create the Text Segment.
+1. Assemble the Text Line and define the Paragraph Properties.
+1. Add the Paragraph to the PDF.
+1. Save the Updated PDF.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -60,7 +66,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 ```php
 
-    $name = '4pages.pdf';
+    $name = 'sample.pdf';
     $this->uploadFile($name);
     $fontName = 'Righteous-Regular.ttf';
     $this->uploadFile($fontName);

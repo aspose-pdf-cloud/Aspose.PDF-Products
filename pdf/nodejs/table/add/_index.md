@@ -45,7 +45,7 @@ Aspose.PDF Cloud developers can easily load & add Table to PDF in just a few lin
 
 1. Read the local PDF file.
 1. Uploads the PDF file to the Aspose PDF Cloud storage.
-1. Creates a table with two cells and adds it to the PDF file.
+1. Create the table of the desired layout.
 1. Downloads the updated PDF file from the Aspose PDF Cloud storage.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

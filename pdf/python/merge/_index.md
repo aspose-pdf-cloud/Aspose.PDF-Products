@@ -62,13 +62,12 @@ If the python package is hosted on Github, you can install directly from Github:
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/).
-1. Go to the [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/).
-1. Create a new [Account](https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account) to access all applications and services or Sign In to your account.
-1. Click on Applications in the left menu to get Client Id and Client Secret.
-1. Check out the [Developer Guide](https://docs.aspose.cloud/pdf/merge-multiple-pdf-files/) to merge a PDF in Python.
-1. Check out our [GitHub repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python/) for a complete API list along with working examples.
-1. Check out the [API Reference page](https://reference.aspose.cloud/pdf/#/Merge) for the description of APIs parameters.
+1. Upload PDF Files to Cloud Storage.
+1. Define the Resultant Merged PDF File Name.
+1. Update File Paths with Temporary Folder Location.
+1. Create a MergeDocuments Object.
+1. Merge the PDF Documents.
+1. Verify the Merge Operation.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

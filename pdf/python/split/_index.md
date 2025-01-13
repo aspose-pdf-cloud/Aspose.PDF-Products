@@ -87,7 +87,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
         local_file_path = "C:/Samples/Sample-Document-01.pdf"
         storage_file_name = "Sample-Document-01.pdf"
 
-        pdf_api_client = asposepdfcloud.ApiClient(Splitter.app_secret, Splitter.app_sid)
+        pdf_api_client = asposepdfcloud.ApiClient(app_secret, app_sid)
         pdf_api = asposepdfcloud.PdfApi(pdf_api_client)
 
         # Check if the file exists in cloud storage
