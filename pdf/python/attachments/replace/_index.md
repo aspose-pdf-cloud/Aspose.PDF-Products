@@ -76,39 +76,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 ```python
 
-    from pdf_api import PdfApi, FileAttachmentAnnotation
-    from configuration import Configuration
 
-    # Loading configuration using key and application secret
-    app_key = "YOUR_APP_KEY"
-    app_secret = "YOUR_APP_SECRET"
-
-    # Setting up the configuration
-    config = Configuration()
-    config.api_key['api_key'] = app_key
-    config.api_key['app_sid'] = app_secret
-
-    # Initializing the API using the configuration
-    api = PdfApi(api_client=config.api_client)
-    document_name = "my-document.pdf.pdf"
-    page_number = 1
-    annotation_id = "annotation123"
-
-    # Creating data for updating the annotation
-    updated_annotation = FileAttachmentAnnotation(
-        name="Updated Attachment",
-        rect={"llx": 100, "lly": 150, "urx": 200, "ury": 250},
-        file_path="path/to/new_attachment.pdf",
-        title="Updated Title",
-        subject="Updated Subject",
-        modified="2024-10-01T10:00:00Z"
-    )
-
-    try:
-        response = api.put_file_attachment_annotation(document_name, page_number, annotation_id, updated_annotation)
-        print("The attachment annotation was successfully updated:", response)
-    except Exception as e:
-        print(f"Error while updating the annotation: {e}")
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
