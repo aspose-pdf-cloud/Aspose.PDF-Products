@@ -45,47 +45,33 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 ```php
 <?php
 
-    require_once 'path/to/PdfApi.php';  // Path to Your PdfApi.php
-    use Aspose\PDF\Api\PdfApi;
-    use Aspose\PDF\Configuration;
+    from asposepdfcloud.apis.pdf_api import PdfApi
+    from asposepdfcloud.models import AttachmentInfo
+    from asposepdfcloud.configuration import Configuration
 
-    // API Settings
-    $config = new Configuration();
-    $config->setAppKey('YOUR_APP_KEY');  // Replace with your own key
-    $config->setAppSID('YOUR_APP_SID');  // Replace with your SID
+    def callback_add_attachment(response):
+        print("Attachment successfully append: ", response)
 
-    // Create PdfApi instance
-    $pdfApi = new PdfApi(null, $config);
+    app_key = "YOUR_APP_KEY"
+    app_secret = "YOUR_APP_SECRET"
 
-    try {
-        // Please specify the PDF file name and the file path to append
-        $fileName = 'example.pdf';
-        $attachmentFileName = 'attachment.txt';  // file name
-        $attachmentFilePath = '/path/to/attachment.txt';  // Local path to file
+    config = Configuration()
+    config.api_key['api_key'] = app_key
+    config.api_key['app_sid'] = app_secret
 
-        // Upload file to cloud storage
-        $uploadResponse = $pdfApi->uploadFile($attachmentFileName, file_get_contents($attachmentFilePath));
+    api = PdfApi(api_client=config.api_client)
 
-        if ($uploadResponse->getCode() === 200) {
-            echo "The file for attachment has been successfully downloaded.\n";
-        } else {
-            echo "Error loading attachment file.\n";
-            exit;
-        }
+    document_name = "YOUR_PDF_DOCUMENT.pdf"
 
-        // Add an attachment to a PDF
-        $response = $pdfApi->postAddDocumentAttachment($fileName, $attachmentFileName);
+    new_attachment_file = "YOUR_LOCAL_ATTACHMENT_FILE_WITH_PATH"
+    new_attachment_mime = "YOUR_LOCAL_ATTACHMENT_FILE_MIME_TYPE"
 
-        // Check result
-        if ($response->getCode() === 200) {
-            echo "Attachment successfully added to PDF document.\n";
-        } else {
-            echo "Error adding attachment to PDF document.\n";
-        }
+    attachment_info = AttachmentInfo(
+        name=new_attachment_file,
+        mime_type=new_attachment_mime
+    )
 
-    } catch (Exception $e) {
-        echo 'Error calling PdfApi->postAddDocumentAttachment: ', $e->getMessage(), PHP_EOL;
-    }
+    api.post_add_document_attachment(document_name, attachment_info, callback=callback_add_attachment)
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

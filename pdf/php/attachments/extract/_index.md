@@ -61,38 +61,40 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 ```php
 <?php
 
-    require_once 'path/to/PdfApi.php';  // Path to Your PdfApi.php
-    use Aspose\PDF\Api\PdfApi;
-    use Aspose\PDF\Configuration;
+    require_once 'src\Aspose\PDF\Api\PdfApi.php';  // Path to Your PdfApi.php
 
-    // API Settings
-    $config = new Configuration();
-    $config->setAppKey('YOUR_APP_KEY');  // Replace with your own key
-    $config->setAppSID('YOUR_APP_SID');  // Replace with your SID
+    use src\Aspose\PDF\Api\PdfApi;
+    use src\Aspose\PDF\Configuration;
 
-    // Create PdfApi instance
+    $config = new Configuation();
+    $config->setAppKey('YOUR_APP_KEY');
+    $config->setAppSID('YOUR_APP_SID');
+
     $pdfApi = new PdfApi(null, $config);
 
-    try {
-        // Please specify the name of the PDF file you want to attach
-        $fileName = 'example.pdf';
+    $fileName = 'YOUR_PDF_FILE_WITH_PATH.pdf';
+    uploadFile($name);
 
-        // Get attachments from PDF
-        $response = $pdfApi->getDocumentAttachments($fileName);
+    $attachmentIndex = 0;
 
-        // Check the answer and get a list of attachments
-        if ($response->getCode() === 200) {
-            $attachments = $response->getAttachments()->getList();
-            foreach ($attachments as $attachment) {
-                echo "Attachment: " . $attachment->getName() . "\n";
-            }
-        } else {
-            echo "Error: Unable to retrieve attachments.\n";
-        }
+    $response = $pdfApi->getDocumentAttachmentByIndex($fileName, $attachmentIndex);
 
-    } catch (Exception $e) {
-        echo 'Exception when calling PdfApi->getDocumentAttachments: ', $e->getMessage(), PHP_EOL;
+    if ($response->getCode() === 200) {
+        $attachment = $response->getAttachment();
+        echo "Attachment Name: " . $attachment->getName() . "\n";
+        echo "Attachment MimeType: " . $attachment->getMimeType() . "\n";
+        echo "Attachment Description: " . $attachment->getDescription() . "\n";
+    } else {
+        echo "Error: Unable to retrieve attachment.\n";
     }
+
+    function uploadFile($fileName) 
+    {
+        $path = dirname($fileName);
+        $file = basename($fileName);
+        $result = $pdfApi->uploadFile($Path=$path, $file);
+        if ($response->getSta)
+    } 
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

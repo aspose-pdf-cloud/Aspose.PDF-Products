@@ -64,11 +64,16 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 ```php
 
-    $name = "sample.pdf";
+    $name = 'sample.pdf';
+    $this->uploadFile($name);
+
     $page_number = 2;
     $result_file = "page.png";
     $out_path = "$this->tempFolder/$result_file";
     $response = $this->pdfApi->putPageConvertToPng($name, $page_number, $out_path, $width = null, $height = null, $folder = $this->tempFolder);
+
+    $file = $this->pdfApi->downloadFile($out_path);
+    rename($file->getPathName(), $result_file);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
