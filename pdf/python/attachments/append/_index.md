@@ -1,6 +1,6 @@
 ---
 title: Append attachments in PDF documents via Aspose.Pdf Cloud Python SDK
-url: /nodejs/attachments/
+url: /python/attachments/add/
 description: Sample code for appending attachments in PDF document using Cloud Python SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Python SDK.
 lastmod: "2024-10-29"
 ---
@@ -75,38 +75,36 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```python
 
-    from pdf_api import PdfApi, AttachmentInfo
-    from configuration import Configuration
+    pdf_api_client = asposepdfcloud.ApiClient(credentials["key"], credentials["id"])
+    pdf_api = asposepdfcloud.PdfApi(pdf_api_client)
 
-    # Loading configuration using key and application secret
-    app_key = "YOUR_APP_KEY"
-    app_secret = "YOUR_APP_SECRET"
+    upload_result = pdf_api.upload_file(STORAGE_FILE_NAME, LOCAL_FILE_NAME )
+    print(upload_result.uploaded[0])
+    upload_result = pdf_api.upload_file(STORAGE_ATTACHMENT_FILE_NAME, LOCAL_ATTACHMENT_FILE_NAME )
+    print(upload_result.uploaded[0])
 
-    # Setting up the configuration
-    config = Configuration()
-    config.api_key['api_key'] = app_key
-    config.api_key['app_sid'] = app_secret
-
-    # Initializing the API using the configuration
-    api = PdfApi(api_client=config.api_client)
-
-    document_name = "my-document.pdf"
-
-    # Create new Attachment for appending
-    attachment_info = AttachmentInfo(
-        name="sample_attachment.png",
-        mime_type="image/png"
-    )
-
-    # Define callback-function for processing answer
-    def callback_function(response):
-        print("Attachment successfully append: ", response)
-
-    # Using Rest API function
     try:
-        api.post_add_document_attachment(document_name, attachment_info, callback=callback_function)
-    except Exception as e:
-        print(f"Failure appending attachment: {e}")
+        attachment = asposepdfcloud.AttachmentInfo(
+            name=STORAGE_ATTACHMENT_FILE_NAME,
+            path=STORAGE_ATTACHMENT_FILE_NAME,
+            description="An example of MP3 file",
+            mime_type="audio/mpeg"
+        )
+
+        append_result = pdf_api.post_add_document_attachment(STORAGE_FILE_NAME, attachment)
+
+        if append_result.code == 200:
+            print("Status:", append_result.status)
+            download_result = pdf_api.download_file(STORAGE_FILE_NAME)
+            with open(RESULT_FILE_NAME, "wb") as file:
+                file.write(download_result)
+        else:
+            print("Unexpected error: can't download attachments.")
+            return
+
+    except asposepdfcloud.rest.ApiException as e:
+        print(f"Error adding attachment: {e}")
+        return
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

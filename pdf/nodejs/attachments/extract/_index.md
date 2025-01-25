@@ -1,6 +1,6 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud Node.js SDK
-url: /nodejs/attachments/
+url: /nodejs/attachments/get/
 description: Sample code for extracting attachments from PDF document using Cloud Node.js SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Node.js SDK.
 lastmod: "2024-10-29"
 ---
@@ -77,7 +77,37 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
+    const pdfApi = new PdfApi(credentials.id, credentials.key);
+    const pdfData = await fs.readFile(LOCAL_FILE_NAME);
+    await pdfApi.uploadFile(STORAGE_FILE_NAME, pdfData);
 
+    const result = await pdfApi.getDocumentAttachments(STORAGE_FILE_NAME);
+
+    if (result.body.code === 200 && result.body.attachments) {
+        const attachmentList = result.body.attachments.list || [];
+        if (!attachmentList.length) {
+            console.error("No attachments found.");
+            return;
+        }
+
+        const downloadTasks = attachmentList.map(async (attachment) => {
+            try {
+                const attachmentUrl = attachment.links[0].href;
+                const info = await pdfApi.getDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
+                const download = await pdfApi.getDownloadDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
+                await fs.writeFile(path.join(LOCAL_PATH, info.body.attachment.name), download.body);
+            } catch (error) {
+                console.error("Failed to download attachment:", error);
+            }
+        });
+
+        await Promise.all(downloadTasks);
+    } else {
+        console.error("Failed to retrieve attachments. Status:", result.statusCode);
+    }
+} catch (error) {
+    console.error("Error processing PDF attachments:", error);
+}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
