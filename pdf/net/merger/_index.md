@@ -36,7 +36,7 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF Files via Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Merging PDF via Cloud .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -70,34 +70,32 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="Merge Two PDF Files - C#" offSpacer="" %}}
 
 ```cs
-{
-    Aspose.Pdf.Cloud.Sdk.Model.FilesUploadResult uploadResult;
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageFileName1 = "sample1.pdf";
-    var storageFileName2 = "sample2.pdf";
 
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
+    internal static void MergePdf()
     {
-        uploadResult = pdfApi.UploadFile(storageFileName1, file);
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName1 = "sample1.pdf";
+        const string storageFileName2 = "sample2.pdf";
+        const string resultFileName = "merged-doc.pdf";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageFileName1, file);
+        pdfApi.CopyFile(storageFileName1, storageFileName2);
+
+        var documentsToBeMerged = new List<string>()
+        {
+            storageFileName1, storageFileName2
+        };
+
+        var documents = new Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments(documentsToBeMerged);
+        
+        pdfApi.PutMergeDocuments(resultFileName, documents);
+        var response = pdfApi.DownloadFile(resultFileName);
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine();
     }
-    pdfApi.CopyFile(storageFileName1, storageFileName2);
-
-    var documentsToBeMerged = new List<string>()
-    {
-        storageFileName1, storageFileName2
-    };
-    var documents = new Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments(documentsToBeMerged);
-
-    pdfApi.PutMergeDocuments("merged-doc.pdf", documents);
-
-    var response = pdfApi.DownloadFile("merged-doc.pdf");
-    response.CopyTo(System.IO.File.OpenWrite("merged-doc.pdf"));
-    Console.WriteLine();
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

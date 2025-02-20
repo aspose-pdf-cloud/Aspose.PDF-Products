@@ -72,25 +72,22 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertEPUBtoPDF()
-{
-    var localImageFileName = @"C:\Samples\Conversion\sample.epub";
-    var storageImageFileName = "sample.epub";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-
-
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
+    public static void ConvertEpubToPdf()
     {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+        const string localImageFileName = @"C:\Samples\Conversion\sample.epub";
+        const string storageImageFileName = "sample.epub";
+        const string resultFileName = "sample-epub-to-pdf.pdf";
+        
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
 
-    var response = pdfApi.PutEpubInStorageToPdf("sample-epub-to-pdf.pdf", storageImageFileName);
-    Console.WriteLine($"EPUB to PDF result: {response.Status}");
-}
+        var response = pdfApi.PutEpubInStorageToPdf(resultFileName, storageImageFileName);
+        Console.WriteLine($"EPUB to PDF result: {response.Status}");
+        pdfApi.DownloadFile(resultFileName)
+            .CopyTo(File.Create(resultFileName));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -47,7 +47,7 @@ To start, you should have Python and the [PDF Cloud Python SDK](https://pypi.org
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF Files via Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Splitting PDF via Cloud Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -83,11 +83,27 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 ```python
 
-    file_name = '4pages.pdf'
-    self.uploadFile(file_name)
-    opts = {
-            "folder" : self.temp_folder
-    }
+    def split_single_pages():
+        local_file_path = "C:/Samples/Sample-Document-01.pdf"
+        storage_file_name = "Sample-Document-01.pdf"
+
+        pdf_api_client = asposepdfcloud.ApiClient(app_secret, app_sid)
+        pdf_api = asposepdfcloud.PdfApi(pdf_api_client)
+
+        # Check if the file exists in cloud storage
+        files = pdf_api.get_files_list("/")
+        if not any(f.name == storage_file_name for f in files.value):
+            upload_result = pdf_api.upload_file(storage_file_name, local_file_path )
+            print(upload_result.status)
+            print(upload_result.uploaded[0])
+
+        # Split the document into single pages
+        count = 1
+        response = pdf_api.post_split_document(storage_file_name)
+        for page in response.result.documents:
+            res = pdf_api.download_file(page.href)
+            shutil.move(res, "page" + str(count)+".pdf")
+            count = count + 1
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

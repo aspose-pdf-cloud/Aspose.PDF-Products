@@ -73,24 +73,21 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-public static void ConvertPDFtoLaTex()
-{
-    var localImageFileName = @"C:\Samples\sample.pdf";
-    var storageImageFileName = "sample.pdf";
-
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-
-    using (var file = File.OpenRead(localImageFileName))
+    public static void ConvertPdfToLaTex()
     {
-        var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
-    }
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample-tex.zip";
 
-    var response = pdfApi.GetPdfInStorageToTeX(storageImageFileName);
-    response.CopyTo(System.IO.File.OpenWrite("sample-tex.zip"));
-    Console.WriteLine($"PDF to LaTeX result: {response.Length} bytes");
-}
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
+
+        var response = pdfApi.GetPdfInStorageToTeX(storageImageFileName);
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine($"PDF to LaTeX result: {response.Length} bytes");
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

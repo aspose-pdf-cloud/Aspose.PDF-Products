@@ -63,12 +63,13 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to DOC Cloud PHP SDK Conversion" offSpacer="" %}}
 
 ```php
+        $name = 'sample.pdf';
+        $this->uploadFile($name);
 
-    $name = '4pages.pdf';
-    $this->uploadFile($name);
-    $folder = $this->tempFolder;
-    $response = $this->pdfApi->getPdfInStorageToDoc($name, null, null, null, null, null, null, null, null, $folder);
-    $this->assertNotNull($response);    
+        $folder = $this->tempFolder;
+        $response = $this->pdfApi->getPdfInStorageToDoc($name, null, null, null, null, null, null, null, null, $folder);  
+
+        rename($response->getPathName(), $name . ".doc");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

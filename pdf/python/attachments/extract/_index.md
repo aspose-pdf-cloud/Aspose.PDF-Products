@@ -1,6 +1,6 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud Python SDK
-url: /nodejs/attachments/
+url: /python/attachments/get/
 description: Sample code for extracting attachments from PDF document using Cloud Python SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Python SDK.
 lastmod: "2024-10-29"
 ---
@@ -75,29 +75,42 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 {{% blocks/products/pf/agp/code-block title="This sample code shows extracting all attachments of PDF document using PDF Cloud Python SDK" offSpacer="" %}}
 
 ```python
-from pdf_api import PdfApi
-from configuration import Configuration
 
-# Loading configuration using key and application secret
-app_key = "YOUR_APP_KEY"
-app_secret = "YOUR_APP_SECRET"
+    pdf_api_client = asposepdfcloud.ApiClient(credentials["key"], credentials["id"])
+    pdf_api = asposepdfcloud.PdfApi(pdf_api_client)
 
-# Setting up the configuration
-config = Configuration()
-config.api_key['api_key'] = app_key
-config.api_key['app_sid'] = app_secret
+    LOCAL_PATH = "C:\\Samples\\"
+    LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf"
+    STORAGE_FILE_NAME = "sample_attachment.pdf"
 
-# Initializing the API using the configuration
-api = PdfApi(api_client=config.api_client)
+    try:
+        with open(LOCAL_FILE_NAME, "rb") as file:
+            pdf_data = file.read()
+        pdf_api.upload_file(STORAGE_FILE_NAME, pdf_data)
 
-document_name = "my-document.pdf"
+        result = pdf_api.get_document_attachments(STORAGE_FILE_NAME)
 
-try:
-    attachments = api.get_document_attachments(document_name)
-    print("List of all attachments is:", attachments)
-except Exception as e:
-    print(f"Unable to retreive attachments list. Error: {e}")
+        if result.code == 200 and result.attachments:
+            if not result.attachments.list or len(result.attachments.list) == 0:
+                print("Unexpected error: No attachments to download.")
+                return
 
+            for index, attachment in enumerate(result.attachments.list):
+                try:
+                    response = pdf_api.get_document_attachment_by_index(STORAGE_FILE_NAME, index)
+                    file_path = os.path.join(LOCAL_PATH, response.attachment.name)
+                    with open(file_path, "wb") as file:
+                        file.write(response.to_dict())
+                except asposepdfcloud.rest.ApiException as e:
+                    print(f"Failed to download attachment {index}: {e}")
+                    return
+        else:
+            print("Failed to retrieve attachments.")
+            return
+
+    except asposepdfcloud.rest.ApiException as e:
+        print(f"Error processing PDF attachments: {e}")
+        return
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

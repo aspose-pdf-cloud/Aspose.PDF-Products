@@ -52,7 +52,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Create an object to connect to the Cloud API
 1. Upload your document file
 1. Perform the conversion using getPageConvertToGif
-1. Download the result if need it
+1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -75,31 +75,33 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to GIF Cloud Node.js SDK Conversion" offSpacer="" %}}
 
 ```js
-const fs = require("fs");
-const credentials = require("./credentials.json");
-const { PdfApi } = require("asposepdfcloud");
 
-// Load your Application Secret and Key from the JSON file or set credentials in another way
-async function convertPDFtoGIF() {
-    const localImageFileName = "C:\\Samples\\sample.pdf";
-    const storageImageFileName = "sample.pdf";
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let fileData = fs.readFileSync(localImageFileName);
-    try {
-        let uploadResult = await pdfApi.uploadFile(storageImageFileName, fileData);
-        console.log(uploadResult.response.text);
-    }
-    catch (error) {
-        console.error(error.response.text);
-    }
+    const fs = require("fs");
+    const credentials = require("./credentials.json");
+    const { PdfApi } = require("asposepdfcloud");
 
-    try {
-        let convertResult = await pdfApi.getPageConvertToGif(storageImageFileName, 1);
-        fs.writeFileSync("sample.gif",convertResult.body);
-    } catch (error) {
-        console.error(error.response.text);
+    // Load your Application Secret and Key from the JSON file or set credentials in another way
+    async function convertPDFtoGIF() {
+        const localFileName = "C:\\Samples\\sample.pdf";
+        const storageFileName = "sample.pdf";
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            let fileData = await fs.readFile(localFileName);
+            let uploadResult = await pdfApi.uploadFile(storageFileName, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.response.text);
+        }
+
+        try {
+            let convertResult = await pdfApi.getPageConvertToGif(storageFileName, 1);
+            fs.writeFileSync("sample.gif", convertResult.body);
+            const buffer = await pdfApi.downloadFile(STORAGE_FILENAME);
+        } catch (error) {
+            console.error(error.response.text);
+        }
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -141,27 +143,38 @@ A GIF or Graphical Interchange Format is a type of highly compressed image. Owne
 
 <!-- aboutfile Ends -->
 
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert MD into many other file formats including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOCX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-excel/" name="PDF TO EXCEL" description="Microsoft Excel" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-doc/" name="PDF TO DOC" description="Microsoft Word Binary Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-docx/" name="PDF TO DOCX" description="Office 2007+ Words Document" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-Gif/" name="PDF TO Gif" description="Enhanced Metafile Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-epub/" name="PDF TO EPUB" description="E-book Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-jpeg/" name="PDF TO JPEG" description="JPEG Image" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Network Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Open XML presentation Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-svg/" name="PDF TO SVG" description="Scalable Vector Graphics" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-tex/" name="PDF TO TEX" description="LaTeX Output Text" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Tagged Image Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-txt/" name="PDF TO TXT" description="Text Document" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xls/" name="PDF TO XLS" description="Excel Binary Format" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xlsx/" name="PDF TO XLSX" description="OOXML Excel File" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xml/" name="PDF TO XML" description="Extensible Markup Language" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/bmp-to-pdf/" name="BMP TO PDF" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/cgm-to-pdf/" name="CGM TO PDF" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/emf-to-pdf/" name="EMF TO PDF" description="Office 2007+ Words Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/epub-to-pdf/" name="EPUB TO PDF" description="Enhanced Metafile Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/gif-to-pdf/" name="GIF TO PDF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/html-to-pdf/" name="HTML TO PDF" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/jpeg-to-pdf/" name="JPEG TO PDF" description="Joint Photographic Experts Group" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/latex-to-pdf/" name="LATEX TO PDF" description="LaTeX Output Text" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pcl-to-pdf/" name="PCL TO PDF" description="Printer Command Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/md-to-pdf/" name="MD TO PDF" description="Markdown" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-epub/" name="PDF TO EPUB" description="E-book Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-gif/" name="PDF TO GIF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-html/" name="PDF TO HTML" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/" name="PDF TO JPEG" description="Joint Photographic Experts Group" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-pdfa/" name="PDF TO PDF/A" description="Portable Document Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Microsoft PowerPoint" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-svg/" name="PDF TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-tex/" name="PDF TO TEX" description="Computer Graphics System" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-tiff/" name="PDF TO TIFF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word Binary Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-xlsx/" name="PDF TO XLSX" description="Microsoft Excel Open XML Format Spreadsheet file" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/png-to-pdf/" name="PNG TO PDF" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/ps-to-pdf/" name="PS TO PDF" description="PostScript" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/svg-to-pdf/" name="SVG TO PDF" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/text-to-pdf/" name="TEXT TO PDF" description="Text Document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/tiff-to-pdf/" name="TIFF TO PDF" description="Tagged Image Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/nodejs/conversion/xps-to-pdf/" name="XPS TO PDF" description="XML Paper Specifications" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

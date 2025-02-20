@@ -119,7 +119,7 @@ In some cases, watermarks are added as a subtle design feature to enhance the lo
 + Convert PDF to other formats, and vice versa.
 + Manipulate Annotations.
 + Work with Images in PDF, etc.
-+ You can try out our [free App](https://products.aspose.com/pdf/net/watermark/remove/) to delete watermarks from PDF files online and test the functionality.
++ You can try out our [free App](https://products.aspose.app/pdf/remove-watermark) to delete watermarks from PDF files online and test the functionality.
 
 {{% /blocks/products/pf/agp/content %}}
 
@@ -137,7 +137,7 @@ A PDF Processing Library to create cross-platform applications with the ability 
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Online Remove Watermark from PDF Live Demos" sectionDescription="Remove Watermark from PDF documents right now by visiting our [Live Demos website](https://products.aspose.com/pdf/net/watermark/remove/). The live demo has the following benefits" >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Online Remove Watermark from PDF Live Demos" sectionDescription="Remove Watermark from PDF documents right now by visiting our [Live Demos website](https://products.aspose.app/pdf/remove-watermark). The live demo has the following benefits" >}}
 {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download Aspose API." >}}
 {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
 {{< blocks/products/pf/agp/democard icon="fa-file-text" text="Just upload your PDF files." >}}

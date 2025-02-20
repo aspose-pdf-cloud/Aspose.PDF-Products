@@ -58,7 +58,6 @@ url: /nodejs
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
 
-
 {{< blocks/products/pf/carousel-item h3="Platform Independence" >}}
 <img title="Platform Independence" src="/supported-platform-min.png" alt="Platform Independence">
 {{< /blocks/products/pf/carousel-item >}}
@@ -294,6 +293,5 @@ url: /nodejs
 	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 	
 {{< /blocks/products/pf/offers-section >}}
-
 
 {{< /blocks/products/pf/main-wrap-class >}}

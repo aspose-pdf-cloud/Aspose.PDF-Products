@@ -64,11 +64,13 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 ```php
 
-    $name = '4pages.pdf';
-    $this->uploadFile($name);        
+    $name = 'sample.pdf';
+    $this->uploadFile($name);
+
     $folder = $this->tempFolder;
     $response = $this->pdfApi->getPdfInStorageToPptx($name, null, null, $folder);
-    $this->assertNotNull($response);   
+
+    rename($response->getPathName(), $name . ".pptx");
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

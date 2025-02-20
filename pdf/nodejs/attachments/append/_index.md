@@ -1,6 +1,6 @@
 ---
 title: Append attachments in PDF documents via Aspose.Pdf Cloud Node.js SDK
-url: /nodejs/attachments/
+url: /nodejs/attachments/add/
 description: Sample code for appending attachments in PDF document using Cloud Node.js SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Node.js SDK.
 lastmod: "2024-10-29"
 ---
@@ -75,24 +75,35 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/code-block title="This sample code shows append file attachment annotation to PDF document using PDF Cloud Node.js SDK" offSpacer="" %}}
 
 ```js
-const { PdfApi } = require("asposepdfcloud");
-const { PdfAType } = require("asposepdfcloud/src/models/fieldType");
 
+    const pdfApi = new PdfApi(credentials.id, credentials.key);
+    let buffer = await fs.readFile(LOCAL_FILE_NAME);
+    let uploadResult = await pdfApi.uploadFile(STORAGE_FILE_NAME, buffer);
+    console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
+    buffer = await fs.readFile(LOCAL_ATTACHMENT_FILE_NAME);
+    uploadResult = await pdfApi.uploadFile(STORAGE_ATTACHMENT_FILE_NAME, buffer);
+    console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
 
-pdfApi = new PdfApi("client-application-key", "client=application-secret");
+    const attachment = new AttachmentInfo();
+    attachment.name = STORAGE_ATTACHMENT_FILE_NAME;
+    attachment.path = STORAGE_ATTACHMENT_FILE_NAME;
+    attachment.description = "An example of MP3 file";
+    attachment.mimeType = "audio/mpeg";
 
-console.log('running example');
+    const appendResult = await pdfApi.postAddDocumentAttachment(STORAGE_FILE_NAME, attachment, null, null);
 
-const attachment = new AttachmentInfo();
-attachment.name = "my-attachment-name";                 // need to replace with real file name
-attachment.path = "my-attachment-file-path";            // need to replace with real file path
-attachment.description = "my-attachment-description";   // need to replace with real description
-attachment.mimeType = "type/subtype";                   // need to replace with real MIME type
+    if (appendResult.body.code == 200) {
+        const downloadResult = await pdfApi.downloadFile(STORAGE_FILE_NAME);
+        await fs.writeFile(RESULT_FILE_NAME, downloadResult.body);
+    }
+    else
+        console.log("Unexpected error : can't download attachments");
 
-pdfApi.postAddDocumentAttachment ("PdfWithAnttachments.pdf", attachment, null, null)
-    .then((result) => {
-        console.log(result.response);
-    });
+        } 
+        catch (error) {
+            console.error(error.message);
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

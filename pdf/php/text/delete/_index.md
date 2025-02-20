@@ -39,13 +39,12 @@ Aspose.PDF Cloud developers can easily load & delete Text from PDF in just a few
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Install [PHP SDK](https://pypi.org/project/asposepdfcloud/).
-1. Go to the [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/).
-1. Create a new [Account](https://docs.aspose.cloud/display/storagecloud/Creating+and+Managing+Account) to access all applications and services or Sign In to your account.
-1. Click on Applications in the left menu to get Client Id and Client Secret.
-1. Check out the [Developer Guide](https://docs.aspose.cloud/pdf/developer-guide/) to delete Text from PDF in PHP.
-1. Check out our [GitHub repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php) for a complete API list along with working examples.
-1. Check out the [API Reference page](https://reference.aspose.cloud/pdf/#/Document) for the description of APIs parameters.
+1. Upload the PDF File.
+1. Define the Rectangle Area.
+1. Configure Text Replacement.
+1. Create Text Replacement List.
+1. Execute the Text Replacement.
+1. Save the Updated PDF.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

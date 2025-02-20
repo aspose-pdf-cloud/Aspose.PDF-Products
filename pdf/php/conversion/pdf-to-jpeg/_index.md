@@ -64,12 +64,16 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 ```php
 
-    $name = "4pages.pdf";
-    $page_number = 2;
-    $result_file = "page.jpeg";
-    $out_path = "$this->tempFolder/$result_file";
-    $response = $this->pdfApi->putPageConvertToJpeg($name, $page_number, $out_path, $width = null, $height = null, $folder = $this->tempFolder);
-    $this->assertEquals(200, $response->getCode());
+        $name = "sample.pdf";
+        $this->uploadFile($name);
+
+        $page_number = 2;
+        $result_file = "page.jpeg";
+        $out_path = "$this->tempFolder/$result_file";
+        $response = $this->pdfApi->putPageConvertToJpeg($name, $page_number, $out_path, $width = null, $height = null, $folder = $this->tempFolder);    
+
+        $file = $this->pdfApi->downloadFile($name);
+        rename($file->getPathName(), $result_file);
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -81,7 +85,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 <!-- aboutfile Starts -->
 
 {{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to JPEG" sectionDescription="Check our live demos for [PDF to JPEG conversion](https://products.aspose.app/pdf/conversion/pdf-to-jpg) with following benefits." >}}
-{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
+{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}98
 {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
 {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
 {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}

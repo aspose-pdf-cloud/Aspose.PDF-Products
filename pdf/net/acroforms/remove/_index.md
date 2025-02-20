@@ -72,26 +72,24 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{% blocks/products/pf/agp/code-block title="This sample code shows removing Form Fields in PDF documents" offSpacer="" %}}
 
 ```cs
-public static void RemoveFormField()
-{
-    var localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-    var storageFileName = "StudentInfoFormElectronic.pdf";
-    // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-    var config = new Configuration(AppSecret, AppKey);
-    var pdfApi = new PdfApi(config);
-    var filesOnStorage = pdfApi.GetFilesList("");
-    if (!filesOnStorage.Value.Any(f => f.Name == storageFileName))
+
+    public static void RemoveFormField()
     {
-        using (var file = File.OpenRead(localImageFileName))
+        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
+        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        var filesOnStorage = pdfApi.GetFilesList("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
+            using var file = File.OpenRead(localImageFileName);
             var uploadResult = pdfApi.UploadFile(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-    }
 
-    var response = pdfApi.DeleteField(storageFileName, "First Name");
-    Console.WriteLine(response.Status);
-}
+        var response = pdfApi.DeleteField(storageFileName, "First Name");
+        Console.WriteLine(response.Status);
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
