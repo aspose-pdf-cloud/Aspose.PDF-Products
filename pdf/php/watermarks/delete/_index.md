@@ -30,7 +30,7 @@ If a document previously marked as "Draft" or "Confidential" is now finalized or
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Removing Watermarks from PDF - PHP" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Removing Watermarks - PHP" %}}
 
 {{% blocks/products/pf/agp/text %}}
 deleting watermarks from pdfs programmatically with

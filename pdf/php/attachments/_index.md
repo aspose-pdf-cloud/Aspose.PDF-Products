@@ -30,7 +30,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to update attachments in PDF documents via Cloud PHP SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to update attachments - Cloud PHP SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -42,6 +42,22 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Call parameters: specify the name of the PDF file and the attachment index that we want to get.
 1. Get the attachment: call getDocumentAttachmentByIndex with specified parameters.
 1. Processing result: check the answer code and, if successful, we output attachment information (name, MIME type and description).
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK.
+
+* CPU: 1GHz
+* RAM: 512Mb
+* Free space on disk: 20Mb
+* Any OS Microsoft Windows, Mac OS, Linux x32/x64
+* PHP v4.8 or higher
+
+{{% /blocks/products/pf/agp/text %}}
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

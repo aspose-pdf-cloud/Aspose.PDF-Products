@@ -35,7 +35,7 @@ To add images into PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add Images into PDF via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add Images to PDF - Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

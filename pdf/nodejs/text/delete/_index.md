@@ -35,7 +35,7 @@ To delete text from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Text from PDF via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Text - Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
