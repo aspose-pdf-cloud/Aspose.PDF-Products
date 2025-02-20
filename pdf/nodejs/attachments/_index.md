@@ -80,36 +80,42 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    const pdfData = await fs.readFile(LOCAL_FILE_NAME);
-    await pdfApi.uploadFile(STORAGE_FILE_NAME, pdfData);
+    async function getAllAttachments() {
+    const LOCAL_PATH = "C:\\Samples\\";
+    const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
+    const STORAGE_FILE_NAME = "sample_attachment.pdf";
+    try {
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        const pdfData = await fs.readFile(LOCAL_FILE_NAME);
+        await pdfApi.uploadFile(STORAGE_FILE_NAME, pdfData);
 
-    const result = await pdfApi.getDocumentAttachments(STORAGE_FILE_NAME);
+        const result = await pdfApi.getDocumentAttachments(STORAGE_FILE_NAME);
 
-    if (result.body.code === 200 && result.body.attachments) {
-        const attachmentList = result.body.attachments.list || [];
-        if (!attachmentList.length) {
-            console.error("No attachments found.");
-            return;
-        }
-
-        const downloadTasks = attachmentList.map(async (attachment) => {
-            try {
-                const attachmentUrl = attachment.links[0].href;
-                const info = await pdfApi.getDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
-                const download = await pdfApi.getDownloadDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
-                await fs.writeFile(path.join(LOCAL_PATH, info.body.attachment.name), download.body);
-            } catch (error) {
-                console.error("Failed to download attachment:", error);
+        if (result.body.code === 200 && result.body.attachments) {
+            const attachmentList = result.body.attachments.list || [];
+            if (!attachmentList.length) {
+                console.error("No attachments found.");
+                return;
             }
-        });
 
-        await Promise.all(downloadTasks);
-    } else {
-        console.error("Failed to retrieve attachments. Status:", result.statusCode);
+            const downloadTasks = attachmentList.map(async (attachment) => {
+                try {
+                    const attachmentUrl = attachment.links[0].href;
+                    const info = await pdfApi.getDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
+                    const download = await pdfApi.getDownloadDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
+                    await fs.writeFile(path.join(LOCAL_PATH, info.body.attachment.name), download.body);
+                } catch (error) {
+                    console.error("Failed to download attachment:", error);
+                }
+            });
+
+            await Promise.all(downloadTasks);
+        } else {
+            console.error("Failed to retrieve attachments. Status:", result.statusCode);
+        }
+    } catch (error) {
+        console.error("Error processing PDF attachments:", error);
     }
-} catch (error) {
-    console.error("Error processing PDF attachments:", error);
 }
 ```
 
