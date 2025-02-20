@@ -76,34 +76,40 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-    const pdfApi = new PdfApi(credentials.id, credentials.key);
-    let buffer = await fs.readFile(LOCAL_FILE_NAME);
-    let uploadResult = await pdfApi.uploadFile(STORAGE_FILE_NAME, buffer);
-    console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
-    buffer = await fs.readFile(LOCAL_ATTACHMENT_FILE_NAME);
-    uploadResult = await pdfApi.uploadFile(STORAGE_ATTACHMENT_FILE_NAME, buffer);
-    console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
+    async function addAttachment() {
+    const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
+    const STORAGE_FILE_NAME = "sample_attachment.pdf";
+    const LOCAL_ATTACHMENT_FILE_NAME = "C:\\Samples\\Attachments\\file_example_MP3_700KB.mp3";
+    const STORAGE_ATTACHMENT_FILE_NAME = "file_example_MP3_700KB.mp3";
+    const RESULT_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
+    try {
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        let buffer = await fs.readFile(LOCAL_FILE_NAME);
+        let uploadResult = await pdfApi.uploadFile(STORAGE_FILE_NAME, buffer);
+        console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
+        buffer = await fs.readFile(LOCAL_ATTACHMENT_FILE_NAME);
+        uploadResult = await pdfApi.uploadFile(STORAGE_ATTACHMENT_FILE_NAME, buffer);
+        console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
 
-    const attachment = new AttachmentInfo();
-    attachment.name = STORAGE_ATTACHMENT_FILE_NAME;
-    attachment.path = STORAGE_ATTACHMENT_FILE_NAME;
-    attachment.description = "An example of MP3 file";
-    attachment.mimeType = "audio/mpeg";
+        const attachment = new AttachmentInfo();
+        attachment.name = STORAGE_ATTACHMENT_FILE_NAME;
+        attachment.path = STORAGE_ATTACHMENT_FILE_NAME;
+        attachment.description = "An example of MP3 file";
+        attachment.mimeType = "audio/mpeg";
 
-    const appendResult = await pdfApi.postAddDocumentAttachment(STORAGE_FILE_NAME, attachment, null, null);
+        const appendResult = await pdfApi.postAddDocumentAttachment(STORAGE_FILE_NAME, attachment, null, null);
 
-    if (appendResult.body.code == 200) {
-        const downloadResult = await pdfApi.downloadFile(STORAGE_FILE_NAME);
-        await fs.writeFile(RESULT_FILE_NAME, downloadResult.body);
-    }
-    else
-        console.log("Unexpected error : can't download attachments");
-
-        } 
-        catch (error) {
-            console.error(error.message);
+        if (appendResult.body.code == 200) {
+            const downloadResult = await pdfApi.downloadFile(STORAGE_FILE_NAME);
+            await fs.writeFile(RESULT_FILE_NAME, downloadResult.body);
         }
+        else
+            console.log("Unexpected error : can't download attachments");
+
+    } catch (error) {
+        console.error(error.message);
     }
+}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
