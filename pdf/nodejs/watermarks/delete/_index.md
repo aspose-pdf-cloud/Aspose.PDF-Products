@@ -35,7 +35,7 @@ If a document previously marked as "Draft" or "Confidential" is now finalized or
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Deleting Watermarks from PDF - Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Deleting Watermarks - Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

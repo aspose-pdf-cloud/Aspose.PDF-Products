@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments in PDF documents via Cloud Node.js SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -87,45 +87,66 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
     import { AttachmentInfo } from "asposepdfcloud/src/models/attachmentInfo.js";
     
     async function getAllAttachments() {
-    const LOCAL_PATH = "C:\\Samples\\";
-    const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
-    const STORAGE_FILE_NAME = "sample_attachment.pdf";
-    try {
-        const pdfApi = new PdfApi(credentials.id, credentials.key);
-        const pdfData = await fs.readFile(LOCAL_FILE_NAME);
-        await pdfApi.uploadFile(STORAGE_FILE_NAME, pdfData);
+        const LOCAL_PATH = "C:\\Samples\\";
+        const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
+        const STORAGE_FILE_NAME = "sample_attachment.pdf";
+        try {
+            const pdfApi = new PdfApi(credentials.id, credentials.key);
+            const pdfData = await fs.readFile(LOCAL_FILE_NAME);
+            await pdfApi.uploadFile(STORAGE_FILE_NAME, pdfData);
 
-        const result = await pdfApi.getDocumentAttachments(STORAGE_FILE_NAME);
+            const result = await pdfApi.getDocumentAttachments(STORAGE_FILE_NAME);
 
-        if (result.body.code === 200 && result.body.attachments) {
-            const attachmentList = result.body.attachments.list || [];
-            if (!attachmentList.length) {
-                console.error("No attachments found.");
-                return;
-            }
-
-            const downloadTasks = attachmentList.map(async (attachment) => {
-                try {
-                    const attachmentUrl = attachment.links[0].href;
-                    const info = await pdfApi.getDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
-                    const download = await pdfApi.getDownloadDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
-                    await fs.writeFile(path.join(LOCAL_PATH, info.body.attachment.name), download.body);
-                } catch (error) {
-                    console.error("Failed to download attachment:", error);
+            if (result.body.code === 200 && result.body.attachments) {
+                const attachmentList = result.body.attachments.list || [];
+                if (!attachmentList.length) {
+                    console.error("No attachments found.");
+                    return;
                 }
-            });
 
-            await Promise.all(downloadTasks);
-        } else {
-            console.error("Failed to retrieve attachments. Status:", result.statusCode);
+                const downloadTasks = attachmentList.map(async (attachment) => {
+                    try {
+                        const attachmentUrl = attachment.links[0].href;
+                        const info = await pdfApi.getDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
+                        const download = await pdfApi.getDownloadDocumentAttachmentByIndex(STORAGE_FILE_NAME, attachmentUrl);
+                        await fs.writeFile(path.join(LOCAL_PATH, info.body.attachment.name), download.body);
+                    } catch (error) {
+                        console.error("Failed to download attachment:", error);
+                    }
+                });
+
+                await Promise.all(downloadTasks);
+            } else {
+                console.error("Failed to retrieve attachments. Status:", result.statusCode);
+            }
+        } catch (error) {
+            console.error("Error processing PDF attachments:", error);
         }
-    } catch (error) {
-        console.error("Error processing PDF attachments:", error);
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/content h2="Work with the Attachments in PDF via Node.js SDK" %}}
+
+Getting attachments from a PDF is essential for accessing supplementary content, improving workflow efficiency, ensuring compliance, and enhancing security. It helps users retrieve critical files, automate document processing, and optimize document management in business, legal, and technical applications.
+Get the AcroForms from PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/).
+
+**With our Node.js library you can**
+
++ Add PDF document's header & footer in text or image format.
++ Add tables & stamps (text or image) to PDF documents.
++ Append multiple PDF documents to an existing file.
++ Work with PDF attachments, annotations, & form fields.
++ Apply encryption or decryption to PDF documents & set a password.
++ Delete all stamps & tables from a page or entire PDF document.
++ Delete a specific stamp or table from the PDF document by its ID.
++ Replace single or multiple instances of text on a PDF page or from the entire document.
++ Extensive support for converting PDF documents to various other file formats.
++ Extract various elements of PDF files & make PDF documents optimized.
++ You can try out our [free App](https://products.aspose.app/pdf/xfa) to add the AcroForms into PDF files online and test the functionality.
+
+{{% /blocks/products/pf/agp/content %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 

@@ -47,7 +47,9 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. 
+1. Upload the PDF file to cloud storage
+1. Retrieve the attachment by index
+1. Display the attachment name
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

@@ -35,7 +35,7 @@ To replace text in PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Text in PDF via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Text - Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

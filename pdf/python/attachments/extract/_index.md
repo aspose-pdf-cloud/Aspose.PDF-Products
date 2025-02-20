@@ -23,14 +23,23 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  Aspose.PDF Cloud,
  and install. You may also use the following command from the Package Manager Console.
 
-{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+{{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
 
 ```bash
 
      
-    npm install asposepdfcloud --save
+    pip install git+https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python.git
+
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+
+```bash
      
-     
+    pip install asposepdfcloud
 
 ```
 
@@ -40,7 +49,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments from PDF documents via Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

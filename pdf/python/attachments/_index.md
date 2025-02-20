@@ -19,6 +19,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/Python/)
  This Cloud SDK assists Python programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Python programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK. If the python package is hosted on Github, you can install directly from Github: 
 
+{{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
+
 ```bash
 
      
@@ -27,26 +29,14 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```
 
+{{% /blocks/products/pf/agp/code-block %}}
+
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
 ```bash
-
      
     pip install asposepdfcloud
 
-
-```
-
-{{% /blocks/products/pf/agp/code-block %}}
-
-{{% blocks/products/pf/agp/code-block title="Import the package" offSpacer="true" %}}
-
-```bash
-
-     
-    import asposepdfcloud
-     
-     
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -55,7 +45,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments in PDF documents via Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -67,6 +57,18 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Set Output Folder Name
 1. Create Options Dictionary
 1. Call API Method
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK.
+
++ Python 2.7 and 3.4+
+
+{{% /blocks/products/pf/agp/text %}}
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

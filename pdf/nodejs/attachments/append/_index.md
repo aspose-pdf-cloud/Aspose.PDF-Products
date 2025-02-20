@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to append attachments in PDF documents via Cloud Node.js SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add attachments - Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -83,42 +83,63 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
     import { AttachmentInfo } from "asposepdfcloud/src/models/attachmentInfo.js";
 
     async function addAttachment() {
-    const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
-    const STORAGE_FILE_NAME = "sample_attachment.pdf";
-    const LOCAL_ATTACHMENT_FILE_NAME = "C:\\Samples\\Attachments\\file_example_MP3_700KB.mp3";
-    const STORAGE_ATTACHMENT_FILE_NAME = "file_example_MP3_700KB.mp3";
-    const RESULT_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
-    try {
-        const pdfApi = new PdfApi(credentials.id, credentials.key);
-        let buffer = await fs.readFile(LOCAL_FILE_NAME);
-        let uploadResult = await pdfApi.uploadFile(STORAGE_FILE_NAME, buffer);
-        console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
-        buffer = await fs.readFile(LOCAL_ATTACHMENT_FILE_NAME);
-        uploadResult = await pdfApi.uploadFile(STORAGE_ATTACHMENT_FILE_NAME, buffer);
-        console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
+        const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
+        const STORAGE_FILE_NAME = "sample_attachment.pdf";
+        const LOCAL_ATTACHMENT_FILE_NAME = "C:\\Samples\\Attachments\\file_example_MP3_700KB.mp3";
+        const STORAGE_ATTACHMENT_FILE_NAME = "file_example_MP3_700KB.mp3";
+        const RESULT_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
+        try {
+            const pdfApi = new PdfApi(credentials.id, credentials.key);
+            let buffer = await fs.readFile(LOCAL_FILE_NAME);
+            let uploadResult = await pdfApi.uploadFile(STORAGE_FILE_NAME, buffer);
+            console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
+            buffer = await fs.readFile(LOCAL_ATTACHMENT_FILE_NAME);
+            uploadResult = await pdfApi.uploadFile(STORAGE_ATTACHMENT_FILE_NAME, buffer);
+            console.log(`Uploaded: ${uploadResult.body.errors.length === 0}`);
 
-        const attachment = new AttachmentInfo();
-        attachment.name = STORAGE_ATTACHMENT_FILE_NAME;
-        attachment.path = STORAGE_ATTACHMENT_FILE_NAME;
-        attachment.description = "An example of MP3 file";
-        attachment.mimeType = "audio/mpeg";
+            const attachment = new AttachmentInfo();
+            attachment.name = STORAGE_ATTACHMENT_FILE_NAME;
+            attachment.path = STORAGE_ATTACHMENT_FILE_NAME;
+            attachment.description = "An example of MP3 file";
+            attachment.mimeType = "audio/mpeg";
 
-        const appendResult = await pdfApi.postAddDocumentAttachment(STORAGE_FILE_NAME, attachment, null, null);
+            const appendResult = await pdfApi.postAddDocumentAttachment(STORAGE_FILE_NAME, attachment, null, null);
 
-        if (appendResult.body.code == 200) {
-            const downloadResult = await pdfApi.downloadFile(STORAGE_FILE_NAME);
-            await fs.writeFile(RESULT_FILE_NAME, downloadResult.body);
+            if (appendResult.body.code == 200) {
+                const downloadResult = await pdfApi.downloadFile(STORAGE_FILE_NAME);
+                await fs.writeFile(RESULT_FILE_NAME, downloadResult.body);
+            }
+            else
+                console.log("Unexpected error : can't download attachments");
+
+        } catch (error) {
+            console.error(error.message);
         }
-        else
-            console.log("Unexpected error : can't download attachments");
-
-    } catch (error) {
-        console.error(error.message);
     }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/content h2="Work with the Attachments in PDF via Node.js SDK" %}}
+
+Adding attachments to a PDF improves document organization, accessibility, and usability. It ensures all relevant files are stored in one place, streamlines workflows, enhances collaboration, and meets security and legal requirements, making it a valuable feature for business, legal, academic, and multimedia applications.
+Add the AcroForms into PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/).
+
+**With our Node.js library you can**
+
++ Add PDF document's header & footer in text or image format.
++ Add tables & stamps (text or image) to PDF documents.
++ Append multiple PDF documents to an existing file.
++ Work with PDF attachments, annotations, & form fields.
++ Apply encryption or decryption to PDF documents & set a password.
++ Delete all stamps & tables from a page or entire PDF document.
++ Delete a specific stamp or table from the PDF document by its ID.
++ Replace single or multiple instances of text on a PDF page or from the entire document.
++ Extensive support for converting PDF documents to various other file formats.
++ Extract various elements of PDF files & make PDF documents optimized.
++ You can try out our [free App](https://products.aspose.app/pdf/xfa) to add the AcroForms into PDF files online and test the functionality.
+
+{{% /blocks/products/pf/agp/content %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
