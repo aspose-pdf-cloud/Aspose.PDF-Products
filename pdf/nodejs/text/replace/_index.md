@@ -46,7 +46,7 @@ Aspose.PDF Cloud developers can easily load & replace Text in PDF in just a few 
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the replacing the text using ///////
+1. Perform the replacing the text using pdfApi.postDocumentTextReplace
 1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -71,7 +71,28 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-
+    async function () {
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            const fileBuffer = await fs.readFile(LOCAL_FILE_NAME);
+            await pdfApi.uploadFile(STORAGE_FILENAME, fileBuffer);
+            const textReplaceList =
+            {
+                textReplaces:
+                    [
+                        { oldValue: "Black", newValue: "White" },
+                        { oldValue: "2024", newValue: "2025" }
+                    ]
+            }
+            const result = await pdfApi.postDocumentTextReplace(STORAGE_FILENAME, textReplaceList);
+            console.log("Status:", result.body.status);
+            const downloadRes = await pdfApi.downloadFile(STORAGE_FILENAME);
+            await fs.writeFile(RESULT_FILENAME, downloadRes.body);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

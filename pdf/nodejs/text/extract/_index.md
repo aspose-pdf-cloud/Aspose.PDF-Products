@@ -46,7 +46,7 @@ Aspose.PDF Cloud developers can easily load & extract Text from PDF in just a fe
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the extracting the text using ///////
+1. Perform the extracting the text using pdfApi.getText function
 1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -71,7 +71,19 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-
+    async function () {
+        const pdfApi = new PdfApi(credentials.id, credentials.key);
+        try {
+            const fileBuffer = await fs.readFile(LOCAL_FILE_NAME);
+            await pdfApi.uploadFile(STORAGE_FILENAME, fileBuffer);
+            const result = await pdfApi.getText(STORAGE_FILENAME, 0, 0, 0, 0);
+            const lines = result.body.textOccurrences.list.map(line=>line.text).join("\n");
+            await fs.writeFile("extracted.txt", lines);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
