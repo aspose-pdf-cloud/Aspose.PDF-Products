@@ -76,6 +76,12 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
+    import credentials from "./credentials.json" with { type: "json" };
+    import fs from 'node:fs/promises';
+    import path from 'node:path';
+    import { PdfApi } from "asposepdfcloud";
+    import { AttachmentInfo } from "asposepdfcloud/src/models/attachmentInfo.js";
+
     async function addAttachment() {
     const LOCAL_FILE_NAME = "C:\\Samples\\Attachments\\sample_attachment.pdf";
     const STORAGE_FILE_NAME = "sample_attachment.pdf";
