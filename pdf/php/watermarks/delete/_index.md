@@ -65,12 +65,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 ```php
 
-	$name = 'PageNumberStamp.pdf';
-	$this->uploadFile($name);
 
-	$stampsResponse = $this->pdfApi->getDocumentStamps($name, null, $this->tempFolder);
-	$this->assertEquals(200, $stampsResponse->getCode());
-	$stampId = $stampsResponse->getStamps()->getList()[0]->getId();
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

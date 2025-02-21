@@ -69,10 +69,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 ```php
 
-    $name = '4pages.pdf';
-    $this->uploadFile($name);
-    $folder = $this->tempFolder;
-    $response = $this->pdfApi->postSplitDocument($name, $format = null, $from = null, $to = null, $storage = null, $folder);
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
