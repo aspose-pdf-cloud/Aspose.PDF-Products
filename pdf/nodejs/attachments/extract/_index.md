@@ -127,7 +127,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{% blocks/products/pf/agp/content h2="Work with the Attachments in PDF via Node.js SDK" %}}
 
 Getting attachments from a PDF is essential for accessing supplementary content, improving workflow efficiency, ensuring compliance, and enhancing security. It helps users retrieve critical files, automate document processing, and optimize document management in business, legal, and technical applications.
-Get the AcroForms from PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/).
+Get the Attachments from PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/).
 
 **With our Node.js library you can**
 
