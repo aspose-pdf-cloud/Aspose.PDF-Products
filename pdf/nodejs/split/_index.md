@@ -76,6 +76,12 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
+
+    import credentials from "./credentials.json" with { type: "json" };
+    import fs from 'node:fs/promises';
+    import path from 'node:path';
+    import { PdfApi } from "asposepdfcloud";
+
     async function splitSingle() {
         try {
             // The initialization assumes that the necessary credentials (Application ID and Application Key) from https://dashboard.aspose.cloud/

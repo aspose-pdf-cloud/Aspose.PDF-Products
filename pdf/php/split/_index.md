@@ -69,7 +69,57 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 ```php
 
+<?php
 
+    require_once 'vendor/autoload.php';
+
+    use Aspose\Pdf\Configuration;
+    use Aspose\Pdf\Api\PdfApi;
+    use Aspose\Pdf\Model\SplitResult;
+
+    function splitSingle()
+    {
+        // Load credentials from JSON file
+        $credentials = json_decode(file_get_contents('credentials.json'), true);
+        $appSid = $credentials['id'];
+        $appKey = $credentials['key'];
+
+        // Initialize the PDF API
+        $config = new Configuration();
+        $config->setAppSid($appSid);
+        $config->setAppKey($appKey);
+        $pdfApi = new PdfApi($config);
+
+        // Define local and storage file names
+        $localFileName = 'input.pdf';
+        $storageFileName = 'uploaded_input.pdf';
+
+        try {
+            // Upload the PDF file to Aspose Cloud Storage
+            $pdfApi->uploadFile($storageFileName, fopen($localFileName, 'r'));
+
+            // Split the PDF document
+            $splitResult = $pdfApi->splitDocument($storageFileName);
+
+            // Check if the split operation was successful
+            if ($splitResult->getCode() === 200) {
+                echo "Split operation successful.\n";
+
+                // Download each split document
+                $documents = $splitResult->getResult()->getDocuments();
+                foreach ($documents as $index => $document) {
+                    $fileName = "page" . ($index + 1) . ".pdf";
+                    $fileContent = $pdfApi->downloadFile($document->getHref());
+                    file_put_contents($fileName, $fileContent);
+                    echo "Downloaded: $fileName\n";
+                }
+            } else {
+                echo "Error: " . $splitResult->getStatus() . "\n";
+            }
+        } catch (Exception $e) {
+            echo 'Exception: ',  $e->getMessage(), "\n";
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -117,9 +117,13 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
 {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}
 
-{{% blocks/products/pf/agp/content h2="" %}}
+{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud Node.js SDK" %}}
 
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+[Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.
+
+Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
+
+These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
 
 {{% /blocks/products/pf/agp/content %}}
 
