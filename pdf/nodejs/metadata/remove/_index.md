@@ -46,7 +46,7 @@ Aspose.PDF Cloud developers can easily load & remove metadata from PDF in just a
 1. Create an object to connect to the Pdf.Cloud API
 1. Upload your document file
 1. Create a new XmpMetadataProperty with Your key and null as value for delete XmpMetadataProperty
-1. Delete XMpMetadataProperty in the document using postXmpMetadata() function
+1. Delete Metadata in the document using postXmpMetadata() function
 1. Perform some action after successful addition
 1. Download the result if needed it
 
