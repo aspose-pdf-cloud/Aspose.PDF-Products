@@ -43,10 +43,11 @@ Aspose.PDF Cloud developers can easily load & remove metadata from PDF in just a
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Load your Application Secret and Key from the JSON file or set credentials in another way
-1. Create an object to connect to the Cloud API
+1. Create an object to connect to the Pdf.Cloud API
 1. Upload your document file
-1. Perform the deleting the metadata using ///////
+1. Create a new XmpMetadataProperty.  Set the name of the property you want to delete as the Key and `null` as the value
+1. Delete Metadata in the document using postXmpMetadata() function
+1. Perform some action after successful addition
 1. Download the result if needed it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -71,7 +72,76 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
+    import credentials from "./credentials.json"  with { type: "json" };
+    import fs from 'node:fs/promises';
+    import path from 'node:path';
+    import { PdfApi } from "asposepdfcloud";
+    import { XmpMetadata } from "asposepdfcloud/src/models/xmpMetadata.js";
+    import { XmpMetadataProperty } from "asposepdfcloud/src/models/xmpMetadataProperty.js";
 
+    const configParams = {
+        LOCAL_FOLDER: "C:\\Samples\\",
+        PDF_DOCUMENT_NAME: "sample.pdf",
+        LOCAL_RESULT_DOCUMENT_NAME: "output_sample.pdf",
+    };
+
+    const pdfApi = new PdfApi(credentials.id, credentials.key);
+
+    const pdfMetadatas = {
+        async uploadDocument() {
+            const pdfFilePath = path.join(configParams.LOCAL_FOLDER, configParams.PDF_DOCUMENT_NAME);
+            const pdfFileData = await fs.readFile(pdfFilePath);
+            await pdfApi.uploadFile(configParams.PDF_DOCUMENT_NAME, pdfFileData);
+        },
+        
+        async downloadResult() {
+            const changedPdfData = await pdfApi.downloadFile(configParams.PDF_DOCUMENT_NAME);
+            const filePath = path.join(configParams.LOCAL_FOLDER, configParams.LOCAL_RESULT_DOCUMENT_NAME);
+            await fs.writeFile(filePath, changedPdfData.body);
+            console.log("Downloaded: " + filePath);
+        },
+
+        async getMetadata () {
+            const responseMetadata = await pdfApi.getXmpMetadataJson(configParams.PDF_DOCUMENT_NAME);
+
+            if (responseMetadata.response.status == 200)
+            {
+                const props = responseMetadata.body.properties;
+                props.forEach((prop) =>{
+                    console.log(prop.key);
+                });
+            }
+        },
+
+        async deleteMetadata () {
+            const prop = new XmpMetadataProperty();
+            prop.key = 'dc:creator';
+            prop.value = null;        // null value means delete property...
+            prop.namespaceUri = 'http://purl.org/dc/elements/1.1/';
+
+            const metadata = new XmpMetadata();
+            metadata.properties = [prop];
+            
+            const response = await pdfApi.postXmpMetadata(configParams.PDF_DOCUMENT_NAME, metadata);
+
+            if (response.body.code == 200) {
+                console.log("Delete metadata '" + prop.key + "' successful!");
+                return true;
+            }
+        },
+    }
+
+    async function main() {
+        try {
+            await pdfMetadatas.uploadDocument();
+            await pdfMetadatas.getMetadata();
+            await pdfMetadatas.deleteMetadata();
+            await pdfMetadatas.getMetadata();
+            await pdfMetadatas.downloadResult();
+        } catch (error) {
+            console.error("Error:", error.message);
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
