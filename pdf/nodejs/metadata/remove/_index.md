@@ -125,7 +125,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
             const response = await pdfApi.postXmpMetadata(configParams.PDF_DOCUMENT_NAME, metadata);
 
             if (response.body.code == 200) {
-                console.log("Dlete metadata '" + prop.key + "' successful!");
+                console.log("Delete metadata '" + prop.key + "' successful!");
                 return true;
             }
         },
