@@ -33,8 +33,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Configuration and connection: create a Configuration instance and a PdfApi instance by passing the key and SID.
-1. Upload file for attachment: first, we upload the file that we want to add to PDF into the cloud storage of Aspose using <b>uploadFile</b> function.
+1. Loads API credentials from a JSON file
+1. Configures the API client using the loaded credentials
+1. Uploads a local PDF file to the Aspose storage
+1. Append file as attachments
+1. Downloads and save the PDF
+
 1. Append file as attachments: after successful download of the file, call <b>postAddDocumentAttachment</b>, by passing the PDF name and the name of the downloaded file.
 1. Success check: if the API response is successful (code 200), the attachment is successfully added to the PDF.
 
@@ -44,6 +48,60 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```php
 
+    <?php
+
+    require_once 'vendor/autoload.php';
+
+    use Aspose\PDF\Api\PdfApi;
+    use Aspose\PDF\Configuration;
+    use Aspose\PDF\Model\AttachmentInfo;
+    use Aspose\PDF\Model\AttachmentResponse;
+
+    // Load credentials
+    $credentials = json_decode(file_get_contents("./credentials.json"), true);
+    $apiKey = $credentials["key"];
+    $appSID = $credentials["id"];
+
+    $config = new Configuration();
+    $config->setAppKey($apiKey);
+    $config->setAppSid($appSID);
+
+    $pdfApi = new PdfApi(null, $config);
+
+    $localFileName = "../Samples/Attachments/sample_attachment.pdf";
+    $storageFileName = "sample_attachment.pdf";
+    $localAttachmentFileName = "../Samples/Attachments/file_example_MP3_700KB.mp3";
+    $storageAttachmentFileName = "file_example_MP3_700KB.mp3";
+    $resultFileName = "../Samples/Attachments/sample_attachment.pdf";
+
+    try {
+        $pdfApi->uploadFile($storageFileName, $localFileName);
+        echo "Uploaded: " . $storageFileName . "\n";
+
+        $pdfApi->uploadFile($storageAttachmentFileName, $localAttachmentFileName);
+        echo "Uploaded: " . $storageAttachmentFileName . "\n";
+
+        $attachment = new AttachmentInfo([
+            'name' => $storageAttachmentFileName,
+            'path' => $storageAttachmentFileName,
+            'description' => "An example of MP3 file",
+            'mime_type' => "audio/mpeg"
+        ]);
+
+        $appendResult = $pdfApi->postAddDocumentAttachment($storageFileName, $attachment);
+
+        if ($appendResult->getCode() == 200) {
+            echo "Status: " . $appendResult->getStatus() . "\n";
+            $downloadResult = $pdfApi->downloadFile($storageFileName);
+            file_put_contents($resultFileName, $downloadResult);
+        } else {
+            echo "Unexpected error: can't download attachments.\n";
+            return;
+        }
+    } catch (Exception $e) {
+        echo "Error adding attachment: {$e->getMessage()}\n";
+        return;
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
