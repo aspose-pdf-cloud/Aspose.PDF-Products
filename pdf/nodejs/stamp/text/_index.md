@@ -76,11 +76,13 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
     import fs from 'node:fs/promises';
     import path from 'node:path';
     import { PdfApi } from "asposepdfcloud";
+    import { Stamp } from "asposepdfcloud/src/models/stamp.js"; 
 
     const configParams = {
         LOCAL_FOLDER: "C:\\Samples\\",
         PDF_DOCUMENT_NAME: "sample.pdf",
-        LOCAL_RESULT_DOCUMENT_NAME: "output_sample.pdf"
+        LOCAL_RESULT_DOCUMENT_NAME: "output_sample.pdf",
+        PAGE_NUMBER: 2,     // Your document page number...
     };
 
     const pdfApi = new PdfApi(credentials.id, credentials.key);
@@ -90,49 +92,47 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
             const fileNamePath = path.join(configParams.LOCAL_FOLDER, configParams.PDF_DOCUMENT_NAME);
             const pdfFileData = await fs.readFile(fileNamePath);
             await pdfApi.uploadFile(configParams.PDF_DOCUMENT_NAME, pdfFileData);
-            },
-        
+        },
+                        
         async downloadResult () {
-                const changedPdfData = await pdfApi.downloadFile(configParams.PDF_DOCUMENT_NAME);
-                const filePath = path.join(configParams.LOCAL_FOLDER, configParams.LOCAL_RESULT_DOCUMENT_NAME);
-                await fs.writeFile(filePath, changedPdfData.body);
-                console.log("Downloaded: " + filePath);
-            },
+            const changedPdfData = await pdfApi.downloadFile(configParams.PDF_DOCUMENT_NAME);
+            const filePath = path.join(configParams.LOCAL_FOLDER, configParams.LOCAL_RESULT_DOCUMENT_NAME);
+            await fs.writeFile(filePath, changedPdfData.body);
+            console.log("Downloaded: " + filePath);
+        },
 
-        async addPage () {
-            const resultPages = await pdfApi.putAddNewPage(configParams.PDF_DOCUMENT_NAME);
+        async addPageTextStamp () {
 
-            if (resultPages.body.code == 200 && resultPages.body.pages) {
-                this.showPages( [ resultPages.body.pages.list[resultPages.body.pages.list.length - 1] ], "new page");
-                return resultPages.body.pages.list[resultPages.body.pages.list.length - 1];
+            const pageStamp = new Stamp();
+            pageStamp.type = "Text";
+            pageStamp.background = true;
+            pageStamp.horizontalAlignment = "Center";
+            pageStamp.textAlignment = "Center";
+            pageStamp.value = "NEW TEXT STAMP";
+            pageStamp.pageIndex = configParams.PAGE_NUMBER;
+            
+            const resultPages = await pdfApi.putPageAddStamp(configParams.PDF_DOCUMENT_NAME, configParams.PAGE_NUMBER, pageStamp);
+
+            if (resultPages.body.code == 200) {
+                console.log("Text Stamp added!");
+                return true;
             }
             else
                 console.error("Unexpected error : can't get pages!!!");
-        },
-
-        showPages (pages, prefix) {
-            if (Array.isArray(pages) && pages.length > 0)
-            {
-                pages.forEach(function(page) {
-                    console.log(prefix +" => id: '" + page.id + "', lLx: '" + page.rectangle.lLX + "', lLY: '" + page.rectangle.lLY + "', uRX: '" + page.rectangle.uRX + "', uRY: '" + page.rectangle.uRY + "'");
-                });
-            }
-            else
-                console.error("showPages() error: array of pages is empty!")
         },
     }
 
     async function main() {
         try {
             await pdfPages.uploadDocument();
-            await pdfPages.addPage();
+            await pdfPages.addPageTextStamp();
             await pdfPages.downloadResult();
         } catch (error) {
             console.error("Error:", error.message);
         }
     }
 ```
-
+ 
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{% blocks/products/pf/agp/content h2="Work with the Stamps via Node.js SDK" %}}
