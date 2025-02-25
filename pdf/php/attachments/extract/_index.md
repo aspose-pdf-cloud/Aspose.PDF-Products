@@ -33,10 +33,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Configuration and connection: create a Configuration instance and a PdfApi instance by passing the key and SID.
-1. Call parameters: specify the name of the PDF file and the attachment index that we want to get.
-1. Get the attachment: call <b>getDocumentAttachments</b> with specified parameters.
-1. Processing result: check the answer code and, if successful, we output attachment information (attachmant name, for eaxample).
+1. Loads API credentials from a JSON file
+1. Configures the API client using the loaded credentials
+1. Uploads a local PDF file to the Aspose storage
+1. Retrieves the list of attachments associated with the uploaded PDF document
+1. Downloads each attachment and saves it locally
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -59,42 +60,60 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 {{% blocks/products/pf/agp/code-block title="This sample code shows extracting all attachments of PDF document using PDF Cloud PHP SDK" offSpacer="" %}}
 
 ```php
-<?php
 
-    require_once 'src\Aspose\PDF\Api\PdfApi.php';  // Path to Your PdfApi.php
+    <?php
 
-    use src\Aspose\PDF\Api\PdfApi;
-    use src\Aspose\PDF\Configuration;
+    require_once 'vendor/autoload.php';
 
-    $config = new Configuation();
-    $config->setAppKey('YOUR_APP_KEY');
-    $config->setAppSID('YOUR_APP_SID');
+    use Aspose\PDF\Api\PdfApi;
+    use Aspose\PDF\Configuration;
+    use Aspose\PDF\Model\AttachmentInfo;
+    use Aspose\PDF\Model\AttachmentResponse;
+
+    // Load credentials
+    $credentials = json_decode(file_get_contents("./credentials.json"), true);
+    $apiKey = $credentials["key"];
+    $appSID = $credentials["id"];
+
+    $config = new Configuration();
+    $config->setAppKey($apiKey);
+    $config->setAppSid($appSID);
 
     $pdfApi = new PdfApi(null, $config);
 
-    $fileName = 'YOUR_PDF_FILE_WITH_PATH.pdf';
-    uploadFile($name);
+    $localPath = "../Samples/";
+    $localFileName = "../Samples/Attachments/sample_attachment.pdf";
+    $storageFileName = "sample_attachment.pdf";
 
-    $attachmentIndex = 0;
+    try {
+        $pdfApi->uploadFile($storageFileName, $localFileName);
 
-    $response = $pdfApi->getDocumentAttachmentByIndex($fileName, $attachmentIndex);
+        $result = $pdfApi->getDocumentAttachments($storageFileName);
 
-    if ($response->getCode() === 200) {
-        $attachment = $response->getAttachment();
-        echo "Attachment Name: " . $attachment->getName() . "\n";
-        echo "Attachment MimeType: " . $attachment->getMimeType() . "\n";
-        echo "Attachment Description: " . $attachment->getDescription() . "\n";
-    } else {
-        echo "Error: Unable to retrieve attachment.\n";
+        if ($result->getCode() == 200 && $result->getAttachments()) {
+            if (empty($result->getAttachments()->getList())) {
+                echo "Unexpected error: No attachments to download.\n";
+                return;
+            }
+
+            foreach ($result->getAttachments()->getList() as $index => $attachment) {
+                try {
+                    $response = $pdfApi->getDocumentAttachmentByIndex($storageFileName, $index);
+                    $filePath = $localPath . $response->getAttachment()->getName();
+                    file_put_contents($filePath, json_encode($response));
+                } catch (Exception $e) {
+                    echo "Failed to download attachment {$index}: {$e->getMessage()}\n";
+                    return;
+                }
+            }
+        } else {
+            echo "Failed to retrieve attachments.\n";
+            return;
+        }
+    } catch (Exception $e) {
+        echo "Error processing PDF attachments: {$e->getMessage()}\n";
+        return;
     }
-
-    function uploadFile($fileName) 
-    {
-        $path = dirname($fileName);
-        $file = basename($fileName);
-        $result = $pdfApi->uploadFile($Path=$path, $file);
-        if ($response->getSta)
-    } 
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

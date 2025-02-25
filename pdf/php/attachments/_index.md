@@ -38,10 +38,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Configuration and connection: create a Configuration instance and a PdfApi instance by passing the key and SID.
-1. Call parameters: specify the name of the PDF file and the attachment index that we want to get.
-1. Get the attachment: call getDocumentAttachmentByIndex with specified parameters.
-1. Processing result: check the answer code and, if successful, we output attachment information (name, MIME type and description).
+1. Loads API credentials from a JSON file
+1. Configures the API client using the loaded credentials
+1. Uploads a local PDF file to the Aspose storage
+1. Retrieves the list of attachments associated with the uploaded PDF document
+1. Downloads each attachment and saves it locally
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -64,41 +65,60 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 {{% blocks/products/pf/agp/code-block title="This sample code shows extracting attachments of PDF document using PDF Cloud PHP SDK" offSpacer="" %}}
 
 ```php
-<?php
 
-require_once 'path/to/PdfApi.php';  // Path to Your PdfApi.php
-use Aspose\PDF\Api\PdfApi;
-use Aspose\PDF\Configuration;
+    <?php
 
-// Настройки API
-$config = new Configuration();
-$config->setAppKey('YOUR_APP_KEY');  // Replace with Your own key
-$config->setAppSID('YOUR_APP_SID');  // Replace with your SID
+    require_once 'vendor/autoload.php';
 
-// Create PdfApi instance
-$pdfApi = new PdfApi(null, $config);
+    use Aspose\PDF\Api\PdfApi;
+    use Aspose\PDF\Configuration;
+    use Aspose\PDF\Model\AttachmentInfo;
+    use Aspose\PDF\Model\AttachmentResponse;
 
-try {
-    // Please specify the PDF file name and attachment index You want to retrieve
-    $fileName = 'example.pdf';
-    $attachmentIndex = 0;  // Index of the first insert, numbering starts from 0
+    // Load credentials
+    $credentials = json_decode(file_get_contents("./credentials.json"), true);
+    $apiKey = $credentials["key"];
+    $appSID = $credentials["id"];
 
-    // Get a specific index attachment
-    $response = $pdfApi->getDocumentAttachmentByIndex($fileName, $attachmentIndex);
+    $config = new Configuration();
+    $config->setAppKey($apiKey);
+    $config->setAppSid($appSID);
 
-    // Check the answer and display the attachment information
-    if ($response->getCode() === 200) {
-        $attachment = $response->getAttachment();
-        echo "Attachment Name: " . $attachment->getName() . "\n";
-        echo "Attachment MimeType: " . $attachment->getMimeType() . "\n";
-        echo "Attachment Description: " . $attachment->getDescription() . "\n";
-    } else {
-        echo "Error: Unable to retrieve attachment.\n";
+    $pdfApi = new PdfApi(null, $config);
+
+    $localPath = "../Samples/";
+    $localFileName = "../Samples/Attachments/sample_attachment.pdf";
+    $storageFileName = "sample_attachment.pdf";
+
+    try {
+        $pdfApi->uploadFile($storageFileName, $localFileName);
+
+        $result = $pdfApi->getDocumentAttachments($storageFileName);
+
+        if ($result->getCode() == 200 && $result->getAttachments()) {
+            if (empty($result->getAttachments()->getList())) {
+                echo "Unexpected error: No attachments to download.\n";
+                return;
+            }
+
+            foreach ($result->getAttachments()->getList() as $index => $attachment) {
+                try {
+                    $response = $pdfApi->getDocumentAttachmentByIndex($storageFileName, $index);
+                    $filePath = $localPath . $response->getAttachment()->getName();
+                    file_put_contents($filePath, json_encode($response));
+                } catch (Exception $e) {
+                    echo "Failed to download attachment {$index}: {$e->getMessage()}\n";
+                    return;
+                }
+            }
+        } else {
+            echo "Failed to retrieve attachments.\n";
+            return;
+        }
+    } catch (Exception $e) {
+        echo "Error processing PDF attachments: {$e->getMessage()}\n";
+        return;
     }
-
-} catch (Exception $e) {
-    echo 'Exception when calling PdfApi->getDocumentAttachmentByIndex: ', $e->getMessage(), PHP_EOL;
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
