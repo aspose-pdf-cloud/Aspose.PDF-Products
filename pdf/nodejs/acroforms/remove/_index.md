@@ -35,7 +35,7 @@ In order to delete an AcroForms from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to remove an AcroForms via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to remove AcroForms - Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

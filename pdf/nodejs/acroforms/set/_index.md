@@ -35,7 +35,7 @@ In order to set an AcroForms from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to set an AcroForms from PDF via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to set AcroForms - Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

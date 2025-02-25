@@ -57,7 +57,11 @@ This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, an
 
 It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK.
 
-+ PHP 7.4 and later.
+* CPU: 1GHz
+* RAM: 512Mb
+* Free space on disk: 20Mb
+* Any OS Microsoft Windows, Mac OS, Linux x32/x64
+* PHP v4.8 or higher
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -100,11 +104,8 @@ Metadata also improves file search by allowing you to search by keywords and att
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud PHP SDK" %}}
 
 [Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.
-
 Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
-
 These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
-
 
 {{% /blocks/products/pf/agp/content %}}
 

@@ -121,7 +121,7 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 Text can be dynamically added to customize a PDF for a specific user, such as adding their name or personalized message. This is often used in marketing materials or for personalized reports. Adding text in specific fonts, colors, and alignments can make certain sections more readable and visually appealing, creating a better user experience. Text additions can help maintain consistent information across different PDF versions, avoiding manual edits and ensuring that key information remains in place.
 Add the Text into PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/).
 
-**With our Python library you can:**
+**With our .NET library you can:**
 
 + Combine PDF documents.
 + Split PDF Files.

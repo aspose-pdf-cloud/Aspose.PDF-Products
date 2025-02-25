@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert XPS to PDF via Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert XPS to PDF - Cloud .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

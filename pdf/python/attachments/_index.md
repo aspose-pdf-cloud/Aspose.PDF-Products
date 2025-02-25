@@ -45,7 +45,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

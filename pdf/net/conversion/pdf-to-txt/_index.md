@@ -132,8 +132,8 @@ A file with .TXT extension represents a text document that contains plain text i
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-word/" name="PDF TO WORD" description="{{word_name}}" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-excel/" name="PDF TO EXCEL" description="{{excel_name}}" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-excel/" name="PDF TO EXCEL" description="Microsoft Excel" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="Bitmap Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-doc/" name="PDF TO DOC" description="Microsoft Word Binary Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/pdf/net/conversion/pdf-to-docx/" name="PDF TO DOCX" description="Office 2007+ Words Document" >}}

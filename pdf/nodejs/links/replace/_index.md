@@ -35,7 +35,7 @@ To replace links in PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Replace Links in PDF via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Replace Links - via Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

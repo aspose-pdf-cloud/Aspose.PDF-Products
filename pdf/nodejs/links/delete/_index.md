@@ -35,7 +35,7 @@ To delete links from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Links from PDF via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Links - via Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

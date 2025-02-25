@@ -56,8 +56,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Set name with path of your document file
-1. Perform the appending attachment actions for PDf document using <b>post_add_document_attachment</b> or perform appending attachment annotation to page using <b>post_page_file_attachment_annotationspost_page_file_attachment_annotations</b> fumction or append popup annotation attachment with or <b>post_popup_annotation</b> function
-1. The response from the Cloud API function will contain a description of the result of the action performed, or an error message if the Cloud API was unable to attach the attachments.
+1. Perform the appending attachment actions
+1. If successful, the modified PDF is downloaded and saved to a specified file
+1. If any errors occur during the process, they are caught and printed
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
