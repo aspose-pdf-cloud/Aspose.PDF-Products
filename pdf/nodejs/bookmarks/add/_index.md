@@ -68,7 +68,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows adding Bookmarks in PDF documents - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows adding Bookmarks in PDF documents using Node.js" offSpacer="" %}}
 
 ```js
 

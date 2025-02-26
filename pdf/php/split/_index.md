@@ -65,7 +65,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Split single PDF Files - PHP" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Split single PDF Files using PHP" offSpacer="" %}}
 
 ```php
 

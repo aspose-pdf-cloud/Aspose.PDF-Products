@@ -37,7 +37,7 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments using .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

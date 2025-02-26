@@ -67,7 +67,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows updating Metadata in the PDF documents - PHP" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows updating Metadata in the PDF documents using PHP" offSpacer="" %}}
 
 ```php
 

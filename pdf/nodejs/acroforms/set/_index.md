@@ -35,7 +35,7 @@ In order to set an AcroForms from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to set AcroForms - Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to set AcroForms using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -66,7 +66,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows setting an AcroForms from PDF documents - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows setting an AcroForms from PDF documents using Node.js" offSpacer="" %}}
 
 ```js
 

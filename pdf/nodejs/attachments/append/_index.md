@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add attachments - Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add attachments using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -51,7 +51,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the appending attachment actions for PDf document using postAddDocumentAttachment or perform appending attachments to page using postPageFileAttachmentAnnotations fumction
+1. Perform the appending attachment actions for PDF document
 1. Download the result if need it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

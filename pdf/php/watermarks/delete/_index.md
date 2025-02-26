@@ -30,7 +30,7 @@ If a document previously marked as "Draft" or "Confidential" is now finalized or
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Removing Watermarks - PHP" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Removing Watermarks using PHP" %}}
 
 {{% blocks/products/pf/agp/text %}}
 deleting watermarks from pdfs programmatically with
@@ -65,7 +65,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Remove the watermarks from PDF - PHP" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Remove the watermarks from PDF using PHP" offSpacer="" %}}
 
 ```php
 

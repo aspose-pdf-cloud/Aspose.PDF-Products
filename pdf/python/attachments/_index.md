@@ -45,7 +45,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments using Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -53,10 +53,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Set Input File Name
-1. Set Output Folder Name
-1. Create Options Dictionary
-1. Call API Method
+1. Load your Application Secret and Key from the JSON file or set credentials in another way
+1. Create an object to connect to the Cloud API
+1. Set name with path of your document file
+1. Perform the extracting attachment actions
+1. The response from the Cloud API function will contain an attachmants list
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

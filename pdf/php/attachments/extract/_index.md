@@ -25,7 +25,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud PHP SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments using PHP SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -36,7 +36,7 @@ Aspose.PDF Cloud PHP developers can easily extract attachments in PDF documents.
 1. Loads API credentials from a JSON file
 1. Configures the API client using the loaded credentials
 1. Uploads a local PDF file to the Aspose storage
-1. Retrieves the list of attachments associated with the uploaded PDF document
+1. Perform the extracting attachment actions for PDF document
 1. Downloads each attachment and saves it locally
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

@@ -35,7 +35,7 @@ To extract links from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Extract Links - via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Extract Links using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -67,7 +67,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Extract Links from PDF - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Extract Links from PDF using Node.js" offSpacer="" %}}
 
 ```js
 

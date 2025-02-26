@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments - Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract attachments using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -51,8 +51,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the extracting attachment actions for PDf document using one of the function getDocumentAttachments or getDocumentAttachmentByIndex or getDownloadDocumentAttachmentByIndex as shown in the next example
-1. To perform extracting actions for PDF documsnt page you can perform function getPageFileAttachmentAnnotations
+1. Perform the extracting attachment actions for PDF document
 1. Download the result if need it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

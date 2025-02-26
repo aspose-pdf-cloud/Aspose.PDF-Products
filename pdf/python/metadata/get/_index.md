@@ -73,7 +73,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows getting a Metadata from PDF - Python" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows getting a Metadata from PDF using Python" offSpacer="" %}}
 
 ```python
 

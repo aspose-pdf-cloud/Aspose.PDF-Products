@@ -73,7 +73,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows updating the Metadata in PDF documents - Python" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows updating the Metadata in PDF documents using Python" offSpacer="" %}}
 
 ```python
 
