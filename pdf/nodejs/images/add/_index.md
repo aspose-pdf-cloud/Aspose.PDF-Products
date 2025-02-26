@@ -35,7 +35,7 @@ To add images into PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add Images to PDF - Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add Images to PDF using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -65,7 +65,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Add Images to PDF - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Add Images to PDF using Node.js" offSpacer="" %}}
 
 ```js
 

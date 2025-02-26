@@ -67,7 +67,7 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Split Single PDF File - C#" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Split Single PDF File using C#" offSpacer="" %}}
 
 ```cs
 

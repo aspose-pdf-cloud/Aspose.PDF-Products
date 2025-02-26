@@ -40,7 +40,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add attachments - Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add attachments using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -51,7 +51,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Load your Application Secret and Key from the JSON file or set credentials in another way
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Perform the appending attachment actions for PDf document using postAddDocumentAttachment or perform appending attachments to page using postPageFileAttachmentAnnotations fumction
+1. Perform the appending attachment actions for PDF document
 1. Download the result if need it
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -156,11 +156,7 @@ Add the AcroForms into PDF documents with [Aspose.PDF Cloud Node.js SDK](https:/
 
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud Node.js SDK" %}}
 
-[Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.
-
-Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
-
-These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
+[Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples. These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
 
 {{% /blocks/products/pf/agp/content %}}
 

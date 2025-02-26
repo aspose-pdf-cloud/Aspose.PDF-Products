@@ -73,7 +73,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Create XMP Metadata Properties in PDF - Python" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Create XMP Metadata Properties in PDF using Python" offSpacer="" %}}
 
 ```python
 

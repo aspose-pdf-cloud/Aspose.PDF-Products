@@ -29,7 +29,7 @@ Adding watermarks to a PDF enhances security, branding, and providing context. W
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF- PHP" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF using PHP" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -55,7 +55,11 @@ APIs can be done with just few lines of code.
 
 It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK.
 
-+ PHP 7.4 and later.
+* CPU: 1GHz
+* RAM: 512Mb
+* Free space on disk: 20Mb
+* Any OS Microsoft Windows, Mac OS, Linux x32/x64
+* PHP v4.8 or higher
 
 {{% /blocks/products/pf/agp/text %}}
 

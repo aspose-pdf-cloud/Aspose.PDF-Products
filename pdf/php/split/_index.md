@@ -65,7 +65,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Split single PDF Files - PHP" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Split single PDF Files using PHP" offSpacer="" %}}
 
 ```php
 
@@ -148,11 +148,8 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 {{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud PHP SDK" %}}
 
 [Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.
-
 Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
-
 These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
-
 
 {{% /blocks/products/pf/agp/content %}}
 

@@ -34,7 +34,7 @@ Adding watermarks to a PDF enhances security, branding, and providing context. W
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF - Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -68,7 +68,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Add the watermarks into PDF - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Add the watermarks into PDF using Node.js" offSpacer="" %}}
 
 ```js
 

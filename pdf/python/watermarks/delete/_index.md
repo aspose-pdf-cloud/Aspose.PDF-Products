@@ -77,7 +77,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Remove the watermarks from PDF - Python" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Remove the watermarks from PDF using Python" offSpacer="" %}}
 
 ```python
 
