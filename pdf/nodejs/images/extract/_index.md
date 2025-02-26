@@ -35,7 +35,7 @@ To extract Images from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract Images from PDF - Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract Images from PDF using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -66,7 +66,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Extract Images from PDF - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Extract Images from PDF using Node.js" offSpacer="" %}}
 
 ```js
 

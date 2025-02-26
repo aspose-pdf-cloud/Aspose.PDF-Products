@@ -35,7 +35,7 @@ Extracting watermarks provides metadata or branding details useful for audits or
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Getting Watermarks from PDF - Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Getting Watermarks from PDF using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -69,7 +69,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Get the watermarks from PDF - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Get the watermarks from PDF using Node.js" offSpacer="" %}}
 
 ```js
 

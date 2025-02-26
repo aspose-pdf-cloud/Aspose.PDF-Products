@@ -83,7 +83,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing 
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Merge list of PDF Files - Python" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Merge list of PDF Files using Python" offSpacer="" %}}
 
 ```python
 

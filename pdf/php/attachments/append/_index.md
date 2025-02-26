@@ -25,7 +25,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to append attachments - Cloud PHP SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add attachments using PHP SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -38,9 +38,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Uploads a local PDF file to the Aspose storage
 1. Append file as attachments
 1. Downloads and save the PDF
-
-1. Append file as attachments: after successful download of the file, call <b>postAddDocumentAttachment</b>, by passing the PDF name and the name of the downloaded file.
-1. Success check: if the API response is successful (code 200), the attachment is successfully added to the PDF.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -119,9 +116,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file." >}}
 {{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}
 
-{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud .NET SDK" %}}
+{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud PHP SDK" %}}
 
-A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
+[Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.
+Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
+These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
 
 {{% /blocks/products/pf/agp/content %}}
 

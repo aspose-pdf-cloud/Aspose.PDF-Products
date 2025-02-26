@@ -35,7 +35,7 @@ To replace text in PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Text - Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Text using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -67,7 +67,7 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Replace Text in PDF - Node.js" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Replace Text in PDF using Node.js" offSpacer="" %}}
 
 ```js
 
