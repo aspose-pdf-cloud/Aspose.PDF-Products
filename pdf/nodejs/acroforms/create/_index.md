@@ -70,68 +70,47 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 
 ```js
 
-    import credentials from "./credentials.json"  with { type: "json" };
+    import credentials from "./credentials.json" with { type: "json" };
     import fs from 'node:fs/promises';
     import { PdfApi } from "asposepdfcloud";
-    import { Color } from "asposepdfcloud/src/models/color.js";
-    import { FontStyles } from "asposepdfcloud/src/models/fontStyles.js";
-    import { LineSpacing } from "asposepdfcloud/src/models/lineSpacing.js";
-    import { Paragraph } from "asposepdfcloud/src/models/paragraph.js";
-    import { TextHorizontalAlignment } from "asposepdfcloud/src/models/textHorizontalAlignment.js";
-    import { VerticalAlignment } from "asposepdfcloud/src/models/verticalAlignment.js";
-    import { WrapMode } from "asposepdfcloud/src/models/wrapMode.js";
-    import { TextLine } from "asposepdfcloud/src/models/textLine.js";
-    import { Segment } from "asposepdfcloud/src/models/segment.js";
+    import { Border } from "asposepdfcloud/src/models/border.js"
+    import { TextBoxField } from "asposepdfcloud/src/models/textBoxField.js";
+    import { Dash } from "asposepdfcloud/src/models/dash.js";
     import { Rectangle } from "asposepdfcloud/src/models/rectangle.js";
-    import { TextState } from "asposepdfcloud/src/models/textState.js";
+    import { Field } from "asposepdfcloud/src/models/field.js";
+    import { FieldType } from "asposepdfcloud/src/models/fieldType.js";
+    import { Fields } from "asposepdfcloud/src/models/fields.js";
 
-    const LOCAL_FILE_NAME = "c:\\Samples\\sample.pdf";
-    const STORAGE_FILENAME = "sample.pdf";
-    const PAGE_NUMBER = 1;
-    const TEXT_CONTENT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+    async function addFormField () {
+        const LOCAL_FILE_NAME = "C:\\Samples\\StudentInfoFormElectronic.pdf";
+        const STORAGE_FILE_NAME = "StudentInfoFormElectronic.pdf";
 
-    async function add() {
         const pdfApi = new PdfApi(credentials.id, credentials.key);
         try {
+            let fileData = await fs.readFile(LOCAL_FILE_NAME);
+            let uploadResult = await pdfApi.uploadFile(STORAGE_FILE_NAME, fileData);
+            console.log(uploadResult.response.text);
+        }
+        catch (error) {
+            console.error(error.message);
+        }
 
-            const fileBuffer = await fs.readFile(LOCAL_FILE_NAME);
-            await pdfApi.uploadFile(STORAGE_FILENAME, fileBuffer);
-
-            const textState = Object.assign(new TextState(), {
-                fontSize: 20,
-                font: "Arial",
-                foregroundColor: Object.assign(new Color(), { a: 255, r: 0, g: 0, b: 255 }),
-                backgroundColor: Object.assign(new Color(), { a: 255, r: 255, g: 255, b: 0 }),
-                fontStyle: FontStyles.Regular,
-                underline: true
-            });
-
-            const segment = Object.assign(new Segment(),
-                {
-                    value: TEXT_CONTENT,
-                    textState: textState
-                });
-
-            const textLine = Object.assign(new TextLine(), { segments: [segment] });
-
-            const paragraph = Object.assign(new Paragraph(), {
-                lineSpacing: LineSpacing.FullSize,
-                wrapMode: WrapMode.ByWords,
-                rectangle: Object.assign(new Rectangle(), { lLX: 10, lLY: 10, uRX: 300, uRY: 500 }),
-                horizontalAlignment: TextHorizontalAlignment.FullJustify,
-                verticalAlignment: VerticalAlignment.Center,
-                lines: [textLine]
-            });
-
-            const result = await pdfApi.putAddText(
-                STORAGE_FILENAME,
-                PAGE_NUMBER,
-                paragraph
-            );
-
-            console.log(result.body.status);
+        let textBoxField = new TextBoxField();
+        textBoxField.pageIndex = 1;
+        textBoxField.partialName = "Email";
+        textBoxField.rect = new Rectangle(100, 100, 180, 120);
+        textBoxField.value = "aspose-pdf-cloud@example.com";
+        let border = new Border();
+        border.width = 5;
+        border.dash = new Dash(1, 1);
+        textBoxField.Border = border;
+        try {
+            let response = await pdfApi.putTextBoxField(STORAGE_FILE_NAME, "Email", textBoxField);
+            console.log(response.body.status);
+            const downloadRes = await pdfApi.downloadFile(STORAGE_FILE_NAME)
+                        await fs.writeFile(RESULT_FILE_NAME, downloadRes.body);
         } catch (error) {
-            console.error("Error adding text to PDF:", error.message);
+            console.log(error.message);
         }
     }
 ```
