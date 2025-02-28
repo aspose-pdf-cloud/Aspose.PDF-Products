@@ -1,6 +1,6 @@
 ---
 title: Get Form Fields from PDF Document via Cloud Node.js SDK
-url: /nodejs/acro-forms/get/
+url: /nodejs/acroforms/get/
 description: This topic shows you how to get all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2024-11-19"
 ---
@@ -35,7 +35,7 @@ In order to get an AcroForms from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to get AcroForms via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to get AcroForms via Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
