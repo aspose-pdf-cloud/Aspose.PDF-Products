@@ -1,6 +1,6 @@
 ---
 title: Creating an AcroForm via Cloud Node.js SDK
-url: /nodejs/acro-forms/add/
+url: /nodejs/acroforms/add/
 description: Aspose.PDF Cloud allows you to add Form Fields to a PDF Document. Check the Node.js source code to add fields and create AcroForms PDF file.
 lastmod: "2024-11-19"
 ---
@@ -35,7 +35,7 @@ In order to create an AcroForm to PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to create AcroForms via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to create AcroForms via Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

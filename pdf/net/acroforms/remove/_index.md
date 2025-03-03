@@ -1,6 +1,6 @@
 ---
 title: Remove Form Fields in PDF Document via Cloud .NET SDK
-url: /net/acro-forms/remove/
+url: /net/acroforms/remove/
 description: The following article shows how to delete a form field from a PDF document using Aspose.PDF Cloud .NET SDK.
 lastmod: "2022-03-19"
 ---
