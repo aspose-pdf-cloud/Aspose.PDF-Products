@@ -189,11 +189,11 @@ These SDKs are now fully supported. If you have any questions, see any bugs or h
 
 {{< blocks/products/pf/agp/about-file-section >}}
 
-{{< blocks/products/pf/agp/demobox sectionTitle="Edit PDF online App" sectionDescription="Add Text into PDF by visiting our [Live Demos website](https://products.aspose.app/pdf/editor). The live demo has the following benefits" >}}
+{{< blocks/products/pf/agp/demobox sectionTitle="Aspose.PDF No Code Online App" sectionDescription="For testing our functionality visit the [Live Demos website](https://products.aspose.app/pdf/family/). The live demo has the following benefits" >}}
 
 {{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything" >}}
 {{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code" >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text="Click the button. Your PDF files will be uploaded and will be added." >}}
+{{< blocks/products/pf/agp/democard icon="fa-file-text" text="Click button. Your PDF files will be uploaded and will be converted to format." >}}
 {{< blocks/products/pf/agp/democard icon="fa-download" text=" Instantly get the download link for the resultant file" >}}
 
 {{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
