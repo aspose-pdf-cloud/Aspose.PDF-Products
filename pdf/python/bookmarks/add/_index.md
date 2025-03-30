@@ -1,7 +1,7 @@
 ---
 title: Add Bookmarks to PDF via Cloud Python SDK 
 url: /python/bookmarks/add/
-description: Aspose.PDF Cloud allows you to add a Bookmarks to a PDF Document. Check the Python source code to add a Bookmarkst into PDF file.
+description: Aspose.PDF Cloud allows you to add a Bookmarks to a PDF Document. Check the Python source code to add a Bookmarks into PDF file.
 lastmod: "2024-10-19"
 ---
 
