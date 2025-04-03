@@ -35,7 +35,7 @@ Extracting watermarks provides metadata or branding details useful for audits or
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Getting Watermarks from PDF using Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Getting Watermarks using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

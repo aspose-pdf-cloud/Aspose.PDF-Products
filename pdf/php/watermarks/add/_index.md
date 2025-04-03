@@ -29,7 +29,7 @@ Adding watermarks to a PDF enhances security, branding, and providing context. W
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks to PDF using PHP" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Adding Watermarks using PHP" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

@@ -30,7 +30,7 @@ Extracting watermarks provides metadata or branding details useful for audits or
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps for Getting Watermarks from PDF using PHP" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps for Getting Watermarks using PHP" %}}
 
 {{% blocks/products/pf/agp/text %}}
 getting watermarks from pdfs programmatically with

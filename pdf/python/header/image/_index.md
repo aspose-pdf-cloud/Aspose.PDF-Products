@@ -42,7 +42,7 @@ To add Image in Header of PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add Image in Header of PDF via Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add Image in Header via Python" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

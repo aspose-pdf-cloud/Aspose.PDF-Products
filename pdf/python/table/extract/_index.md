@@ -42,7 +42,7 @@ To extract tables from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract Tables from PDF via Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to get Tables from PDF via Python SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

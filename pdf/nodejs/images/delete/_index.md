@@ -35,7 +35,7 @@ To delete Images from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Images from PDF using Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Images using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

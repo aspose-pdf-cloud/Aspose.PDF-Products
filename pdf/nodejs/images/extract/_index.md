@@ -35,7 +35,7 @@ To extract Images from PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to extract Images from PDF using Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to get Images from PDF using Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

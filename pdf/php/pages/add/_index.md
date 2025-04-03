@@ -31,7 +31,7 @@ This Cloud SDK assists PHP programmers in developing cloud-based PDF creator, an
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add Pages into PDF via Cloud PHP SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add Pages to PDF via Cloud PHP" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

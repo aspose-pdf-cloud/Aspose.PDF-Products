@@ -41,7 +41,7 @@ To replace Bookmarks from PDF, we'll use [Aspose.PDF Cloud Python SDK](https://p
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Bookmarks from PDF via Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Bookmarks in PDF via Python" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

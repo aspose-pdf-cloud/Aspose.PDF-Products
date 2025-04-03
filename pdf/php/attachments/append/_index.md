@@ -41,6 +41,22 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
+{{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud PHP SDK.
+
+* CPU: 1GHz
+* RAM: 512Mb
+* Free space on disk: 20Mb
+* Any OS Microsoft Windows, Mac OS, Linux x32/x64
+* PHP v4.8 or higher
+
+{{% /blocks/products/pf/agp/text %}}
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
 {{% blocks/products/pf/agp/code-block title="This sample code shows append file attachment to PDF document using PDF Cloud PHP SDK" offSpacer="" %}}
 
 ```php

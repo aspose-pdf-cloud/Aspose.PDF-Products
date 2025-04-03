@@ -42,7 +42,7 @@ To replace links in PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Links in PDF via Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to replace Links in PDF via Python" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

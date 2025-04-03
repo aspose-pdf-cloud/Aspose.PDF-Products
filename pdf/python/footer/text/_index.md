@@ -42,7 +42,7 @@ To add Text in Footer of PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add Text in Footer of PDF via Python SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add Text in Footer via Python" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
