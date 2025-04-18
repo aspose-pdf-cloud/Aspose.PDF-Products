@@ -86,39 +86,6 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK:
 
 {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
-<!-- aboutfile Starts -->
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to JPEG" sectionDescription="Check our live demos for [PDF to JPEG conversion](https://products.aspose.app/pdf/conversion/pdf-to-jpg) with following benefits." >}}
-{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}98
-{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}
-
-{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud PHP SDK" %}}
-
-[Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud. Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
-These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
-
-{{% /blocks/products/pf/agp/content %}}
-
-{{< blocks/products/pf/agp/about-file-section >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/pdf/" >}}
-Portable Document Format (PDF) is a type of Document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of Documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their Documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source Document.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="JPEG" readMoreLink="https://docs.fileformat.com/image/jpeg/" >}}
-A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
-<!-- aboutfile Ends -->
-
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOC" >}}

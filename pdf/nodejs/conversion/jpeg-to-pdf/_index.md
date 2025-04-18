@@ -56,21 +56,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
-
-{{% blocks/products/pf/agp/text %}}
-
-It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Node.js SDK.
-
-* CPU: 1GHz
-* RAM: 512Mb
-* Free space on disk: 20Mb
-* Any OS Microsoft Windows, Mac OS, Linux x32/x64
-* node.js v4.8 or higher
-
-{{% /blocks/products/pf/agp/text %}}
-
-{{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/code-block title="This sample code shows JPEG to PDF Cloud Node.js SDK Conversion" offSpacer="" %}}
 
@@ -121,41 +106,6 @@ It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
-
-<!-- aboutfile Starts -->
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert JPEG to PDF" sectionDescription="Check our live demos for [JPEG to PDF conversion](https://products.aspose.app/pdf/conversion/jpg-to-pdf) with following benefits." >}}
-{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your JPEG file and hit the \"Convert\" button." >}}
-{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}
-
-{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud Node.js SDK" %}}
-
-[Aspose.PDF Cloud](https://products.aspose.cloud/pdf) is a true REST API that enables you to perform a wide range of document processing operations including creation, manipulation, conversion and rendering of PDF documents in the cloud.
-Our Cloud SDKs are wrappers around REST API in various programming languages, allowing you to process documents in language of your choice quickly and easily, gaining all benefits of strong types and IDE highlights. This repository contains new generation SDKs for Aspose.PDF Cloud and examples.
-These SDKs are now fully supported. If you have any questions, see any bugs or have enhancement request, feel free to reach out to us at Free [Support Forums](https://forum.aspose.cloud/c/pdf).
-
-{{% /blocks/products/pf/agp/content %}}
-
-{{< blocks/products/pf/agp/about-file-section >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="JPEG" readMoreLink="https://docs.fileformat.com/image/jpeg/" >}}
-A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in the 1990s. A PDF file is a multi-platform document created by Adobe Acrobat or another PDF application. The PDF format is commonly used to save documents and publications in a standard format that can be viewed on multiple platforms, that is independent of application software, hardware as well as Operating System.
-PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features, and 3D objects in it that can become part of the source document.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
-<!-- aboutfile Ends -->
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert MD into many other file formats including few listed below." >}}
 

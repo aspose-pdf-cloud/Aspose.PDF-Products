@@ -1,7 +1,7 @@
 ---
-title: Append attachments in PDF documents via Aspose.Pdf Cloud Python SDK
+title: Append attachments in PDF documents via Aspose.Pdf Cloud .NET SDK
 url: /net/attachments/add/
-description: Sample code for appending attachments in PDF document using Cloud Python SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Python SDK.
+description: Sample code for appending attachments in PDF document using Cloud .NET SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud .NET SDK.
 lastmod: "2024-10-29"
 ---
 
@@ -100,36 +100,6 @@ public static void AddAttachment()
 {{% /blocks/products/pf/agp/code-block %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
-
-
-<!-- aboutfile Starts -->
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Aspose.PDF No Code Online App" sectionDescription="For testing our functionality visit the [Live Demos website](https://products.aspose.app/pdf/family/). The live demo has the following benefits" >}}
-
-{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file." >}}
-{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}
-
-{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud .NET SDK" %}}
-
-A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
-
-{{% /blocks/products/pf/agp/content %}}
-
-{{< blocks/products/pf/agp/about-file-section >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
-
-<!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
 

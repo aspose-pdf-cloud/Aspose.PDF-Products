@@ -96,39 +96,6 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 
 {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
-<!-- aboutfile Starts -->
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Free App to Convert PDF to PNG" sectionDescription="Check our live demos for [PDF to PNG conversion](https://products.aspose.app/pdf/conversion/pdf-to-png) with following benefits." >}}
-{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything." >}}
-{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code." >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text=" Just upload your PDF file and hit the \"Convert\" button." >}}
-{{< blocks/products/pf/agp/democard icon="fa-download" text=" You will instantly receive a link to download the result." >}}
-
-{{% blocks/products/pf/agp/content h2="" %}}
-
- A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print Documents without using Adobe Acrobat. .NET PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
-
-
-{{% /blocks/products/pf/agp/content %}}
-
-{{< blocks/products/pf/agp/about-file-section >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/pdf/" >}}
-Portable Document Format (PDF) is a type of Document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of Documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their Documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source Document.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="PNG" readMoreLink="https://docs.fileformat.com/image/png/" >}}
-A PNG (Portable Network Graphics) file is a raster image file format that uses lossless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports lossless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the widely used image file formats.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
-<!-- aboutfile Ends -->
-
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
 
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOC" >}}
