@@ -61,18 +61,6 @@ Aspose.PDF Cloud developers can easily load & add Text to PDF in just a few line
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/feature-section-col title="System Requirements" %}}
-
-{{% blocks/products/pf/agp/text %}}
-
-It is easy to get started with Aspose.PDF Cloud Python SDK and there is nothing to install. Simply create an account at Aspose for Cloud and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK.
-
-+ Python 2.7 and 3.4+
-
-{{% /blocks/products/pf/agp/text %}}
-
-{{% /blocks/products/pf/agp/feature-section-col %}}
-
 {{% blocks/products/pf/agp/code-block title="Add Text to PDF using Python" offSpacer="" %}}
 
 ```python
@@ -151,34 +139,6 @@ Add the Text into PDF documents with [Aspose.PDF Cloud Python SDK](https://produ
 {{% /blocks/products/pf/agp/content %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
-
-<!-- aboutfile Starts -->
-
-{{% blocks/products/pf/agp/content h2="About Aspose.PDF Cloud Python SDK" %}}
-
-A PDF Processing Library to create cross-platform applications with the ability to generate, modify, convert, render, secure and print documents without using Adobe Acrobat. Python PDF API offers compression, table creation, graph & image functions, hyperlinks, stamp and watermarking tasks, extended security controls & custom font handling.
-
-{{% /blocks/products/pf/agp/content %}}
-
-{{< blocks/products/pf/agp/about-file-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Edit PDF online App" sectionDescription="Add Text into PDF by visiting our [Live Demos website](https://products.aspose.app/pdf/editor). The live demo has the following benefits" >}}
-
-{{< blocks/products/pf/agp/democard icon="fa-cogs" text=" No need to download or setup anything" >}}
-{{< blocks/products/pf/agp/democard icon="fa-edit" text=" No need to write any code" >}}
-{{< blocks/products/pf/agp/democard icon="fa-file-text" text="Click the button. Your PDF files will be uploaded and will be added." >}}
-{{< blocks/products/pf/agp/democard icon="fa-download" text=" Instantly get the download link for the resultant file" >}}
-
-{{< blocks/products/pf/agp/about-file-text fileFormat="PDF" readMoreLink="https://docs.fileformat.com/view/pdf/" >}}
-Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
-
-{{< /blocks/products/pf/agp/about-file-text >}}
-
-{{< /blocks/products/pf/agp/about-file-section >}}
-
-{{< /blocks/products/pf/agp/demobox >}}
-
-<!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
 
