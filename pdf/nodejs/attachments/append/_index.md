@@ -6,7 +6,7 @@ lastmod: "2024-10-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Append attachments in PDF documents via Cloud Node.js SDK" h2="API for working with attachments in PDF documents with Aspose.PDF Cloud Node.js SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-node.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Append attachments in PDF documents via Cloud Node.js SDK" h2="API for adding attachments in PDF documents with Aspose.PDF Cloud Node.js SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-node.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Node.js SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-node.svg"

@@ -71,174 +71,92 @@ url: /nodejs
  </a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">
-    Advanced PDF documents processing Features
-   </h2>
-   <p>
-   </p>
+   <h2 class="pr-ft">Advanced PDF documents processing Features</h2>
    <div class="col-lg-4">
-    <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add document text or image header and footer
-    </p>
+    <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10">Add document text or <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">image</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">header</a> and <a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">footer</a></p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-file ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add text and image stamps to documents
-    </p>
+    <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"> Add <a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">text</a> and <a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">image</a> stamps to documents</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-file-text ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Delete stamps by ID or all stamps from a page or entire document
-    </p>
+    <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10">Delete stamps by ID or all stamps from a page or entire document</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-random ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Read document stamps
-    </p>
+    <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">Split single PDF Document</a></p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add tables to documents
-    </p>
+    <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">Add tables to documents</a></p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Delete all tables from a specific page or entire document
-    </p>
+    <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10">Delete all tables from a specific page or entire document</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-html5 ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Read or delete document table by ID
-    </p>
+    <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">Add</a> or <a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">delete</a> Images to PDF document</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-object-group ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Append multiple documents to an existing one
-    </p>
+    <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">Append multiple documents to an existing one</a></p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-font ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Set and get multiple types of annotations to documents
-    </p>
+    <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10">Set and get multiple types of annotations to documents</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-tag ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Read and download document attachments
-    </p>
+    <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">Read</a> and <a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">download</a> document attachments</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-pencil ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Create, read, flatten and update form fields in a document
-    </p>
+    <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">Create</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">read</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">remove</a> and <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">update</a> form fields in a document</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-bookmark ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add, update, read and delete document properties
-    </p>
+    <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">Add</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">update</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">read</a> and <a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">delete</a> document properties</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-edit ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Encrypt or decrypt document content &amp; Change document password
-    </p>
+    <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10">Encrypt or decrypt document content &amp; Change document password</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-th ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Add text to document &amp; fetch it as required
-    </p>
+    <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">Add text to document &amp; fetch it as required</a></p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2">
-    </em>
-    <p class="col-lg-10">
-     Replace single or multiple instances of text in PDF page or an entire document
+    <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">Replace single or multiple instances of text in PDF page or an entire document</a></p>
+   </div>
+   <div class="col-lg-12">
+    <h2 class="h2title">Get Started with PDF Document Processing SDK</h2>
+    <p>It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing to install. Simply create an account at <a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a> and get your application information. Once you have the App SID &amp; key, you are ready to give the Aspose.PDF Cloud Node.js SDK.
     </p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Get Started with PDF Document Processing SDK
-    </h2>
-    <p>
-     It is easy to get started with Aspose.PDF Cloud Node.js SDK and there is nothing to install. Simply create an account at
-     <a href="https://dashboard.aspose.cloud/#/apps">
-      Aspose for Cloud
-     </a>
-     and get your application information. Once you have the App SID &amp; key, you are ready to give the Aspose.PDF Cloud Node.js SDK.
-    </p>
+    <h2 class="h2title">Extensive Features for PDF Conversion</h2>
+    <p>Aspose.PDF Cloud Node.js SDK lets you <a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">convert to and from PDF to various other popular file formats</a>. Using it you can convert EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, and TIFF, to PDF.</p>
+    <p>You can also convert PDF (with XFA Forms) to PDF with AcroForm. Similarly Aspose.PDF Cloud Node.js SDK allows you to convert PDF to BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, and XPS.</p>
+    <p>Moreover, Aspose.PDF Cloud Node.js SDK allows you to control how a PDF document is converted into a Word processing document. You can choose from “Textbox” mode for preserving the original look of the PDF file or “Flow” mode for multi-level analysis with a focus on being maximally editable.</p>
+    <p>You can also set document access privileges for PDF files. These privileges include printing, degraded printing, content modification, content copying, filling in of PDF forms and many more.</p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Extensive Features for PDF Conversion
-    </h2>
-    <p>
-     Aspose.PDF Cloud Node.js SDK lets you convert to and from PDF to various other popular file formats. Using it you can convert EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, and TIFF, to PDF.
-    </p>
-    <p>
-     You can also convert PDF (with XFA Forms) to PDF with AcroForm. Similarly Aspose.PDF Cloud Node.js SDK allows you to convert PDF to BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, and XPS.
-    </p>
-    <p>
-     Moreover, Aspose.PDF Cloud Node.js SDK allows you to control how a PDF document is converted into a Word processing document. You can choose from “Textbox” mode for preserving the original look of the PDF file or “Flow” mode for multi-level analysis with a focus on being maximally editable.
-    </p>
-    <p>
-     You can also set document access privileges for PDF files. These privileges include printing, degraded printing, content modification, content copying, filling in of PDF forms and many more.
-    </p>
+    <h2 class="h2title">Customized Annotations</h2>
+    <p>Aspose.PDF Cloud Node.js SDK supports various types of annotations, such as text annotation, circle annotation, polygon annotation, polyline annotation, line annotation, square annotation, free text annotation, Highlight annotation, Underline annotation, squiggle annotation, strikeout annotation, caret annotation, ink annotation, link annotation, popup annotation, file attachment annotation, sound annotation, movie annotation, screen annotation, widget annotation, watermark annotation, trap network (TrapNet) annotation, printer mark annotation, redaction annotation, rubber stamp annotation, and rich media annotation.</p>
+    <p>You can set flags to specify various characteristics of supported annotations. Set visibility, printing restriction, magnification restriction, rotation restriction, make annotations read-only, and other flags.</p>
+    <p>Using Aspose.PDF Cloud Node.js SDK, annotations can be set to various states such as, marked, unmarked, accepted, rejected, canceled, completed, or none. It also allows you to set various properties of stamps for PDF documents. These properties include opacity, rotation, alignment, indentation, zoom, and various other properties.</p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Customized Annotations
-    </h2>
-    <p>
-     Aspose.PDF Cloud Node.js SDK supports various types of annotations, such as text annotation, circle annotation, polygon annotation, polyline annotation, line annotation, square annotation, free text annotation, Highlight annotation, Underline annotation, squiggle annotation, strikeout annotation, caret annotation, ink annotation, link annotation, popup annotation, file attachment annotation, sound annotation, movie annotation, screen annotation, widget annotation, watermark annotation, trap network (TrapNet) annotation, printer mark annotation, redaction annotation, rubber stamp annotation, and rich media annotation.
-    </p>
-    <p>
-     You can set flags to specify various characteristics of supported annotations. Set visibility, printing restriction, magnification restriction, rotation restriction, make annotations read-only, and other flags.
-    </p>
-    <p>
-     Using Aspose.PDF Cloud Node.js SDK, annotations can be set to various states such as, marked, unmarked, accepted, rejected, canceled, completed, or none. It also allows you to set various properties of stamps for PDF documents. These properties include opacity, rotation, alignment, indentation, zoom, and various other properties.
-    </p>
+    <h2 class="h2title">Extract various Elements of PDF Document</h2>
+    <p>Aspose.PDF Cloud Node.js SDK allows you to extract various elements of PDF documents. You can extract PDF document images in GIF, JPEG, PNG, TIFF format and save to a folder. It also allows you to extract PDF document annotations, such as FileAttachment annotation, screen annotation, sound annotation, and stamp annotation to a specified folder.</p>
    </div>
    <div class="col-lg-12">
-    <h2 class="h2title">
-     Extract various Elements of PDF Document
-    </h2>
-    <p>
-     Aspose.PDF Cloud Node.js SDK allows you to extract various elements of PDF documents. You can extract PDF document images in GIF, JPEG, PNG, TIFF format and save to a folder. It also allows you to extract PDF document annotations, such as FileAttachment annotation, screen annotation, sound annotation, and stamp annotation to a specified folder.
-    </p>
-   </div>
-   <div class="col-lg-12">
-    <h2 class="h2title">
-     Make PDF Documents Optimized
-    </h2>
-    <p>
-     Aspose.PDF Cloud Node.js SDK allows you to set various properties to make PDF documents optimized. It enables you to optimize PDF file size by allowing reuse of page content, set compression level of images embedded in PDF document, link duplicate resource streams by storing them as one object, remove document objects without any reference, remove unused streams, and by not embedding the PDF document fonts.
-    </p>
+    <h2 class="h2title">Make PDF Documents Optimized</h2>
+    <p>Aspose.PDF Cloud Node.js SDK allows you to set various properties to make PDF documents optimized. It enables you to optimize PDF file size by allowing reuse of page content, set compression level of images embedded in PDF document, link duplicate resource streams by storing them as one object, remove document objects without any reference, remove unused streams, and by not embedding the PDF document fonts.</p>
    </div>
   </div>
  </div>
