@@ -1,12 +1,12 @@
 ---
 title: Set Form Fields from PDF Document via Cloud .NET SDK
-url: /net/acro-forms/set/
+url: /net/acroforms/set/
 description: This topic shows you how to set all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
 lastmod: "2022-03-19"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Set AcroForms from PDF document via Cloud .NET SDK" h2="Build your own Cloud apps to set Fillable document files using server-side APIs." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Set PDF Forms in .NET SDK" h2="Build your own Cloud apps to set Fillable document files using server-side APIs." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"

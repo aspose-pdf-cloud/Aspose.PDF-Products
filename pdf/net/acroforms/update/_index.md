@@ -1,12 +1,12 @@
 ---
 title: Update Form Fields in PDF Document via Cloud .NET SDK
-url: /net/acro-forms/update/
+url: /net/acroforms/update/
 description: This topic shows you how to update all of the form fields from the PDF document using Aspose.PDF Cloud .NET API in your applications.
 lastmod: "2022-03-19"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Update AcroForms in PDF document via Cloud .NET SDK" h2="Update all of the form fields from the PDF document using Aspose.PDF Cloud .NET API" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Update PDF Forms in .NET SDK" h2="Update all of the form fields from the PDF document using Aspose.PDF Cloud .NET API" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"

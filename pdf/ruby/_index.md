@@ -6,7 +6,7 @@ url: /ruby
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="PDF Generation & Conversion via Ruby REST API" h2="REST API for processing & manipulation of PDF documents, stored on cloud or remote servers, from within your cloud-based Ruby apps." logoImageSrc="/headers/aspose_pdf-for-ruby.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Ruby SDK" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="Implement PDF workflows in Ruby SDK" h2="REST API for processing & manipulation of PDF documents, stored on cloud or remote servers, from within your cloud-based Ruby apps." logoImageSrc="/headers/aspose_pdf-for-ruby.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Ruby SDK" downloadUrl="" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Ruby SDK" >}}
 

@@ -6,7 +6,7 @@ lastmod: "2024-10-17"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Convert PDF to PPTX via Cloud PHP SDK" h2="Export PDF Documents to multiple formats including PPTX with Aspose.PDF Cloud PHP SDK" logoImageSrc="/sdk/aspose_pdf-for-php.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOC" >}}
+{{< blocks/products/pf/upper-banner h1="Convert PDF to PPTX  in PHP SDK" h2="Export PDF Documents to multiple formats including PPTX with Aspose.PDF Cloud PHP SDK" logoImageSrc="/sdk/aspose_pdf-for-php.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOC" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="PHP SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg"

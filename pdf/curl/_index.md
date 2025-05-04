@@ -6,7 +6,7 @@ url: /curl
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Use cURL to Create & Convert Cloud PDF" h2="Generate or import PDF files on cloud, append, split, merge, sign, annotate & convert using cURL via REST API." logoImageSrc="/headers/aspose_pdf-for-curl.svg" pfName="Aspose.PDF" subTitlepfName="Cloud for cURL" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="Implement PDF workflows in Curl SDK" h2="Generate or import PDF files on cloud, append, split, merge, sign, annotate & convert using cURL via REST API." logoImageSrc="/headers/aspose_pdf-for-curl.svg" pfName="Aspose.PDF" subTitlepfName="Cloud for cURL" downloadUrl="" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud for cURL" >}}
 
