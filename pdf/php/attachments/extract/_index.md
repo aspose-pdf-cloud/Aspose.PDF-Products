@@ -6,7 +6,7 @@ lastmod: "2024-10-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Extract attachments from PDF documents via Cloud PHP SDK" h2="API for extracting attachments in PDF documents with Aspose.PDF Cloud PHP SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-php.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Extract Attachments from PDF in PHP SDK" h2="API for extracting attachments in PDF documents with Aspose.PDF Cloud PHP SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-php.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="PHP SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-php.svg"
