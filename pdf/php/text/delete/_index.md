@@ -1,7 +1,7 @@
 ---
 title: Remove Text from PDF via Cloud PHP SDK 
 url: /php/text/remove/
-description: Aspose.PDF Cloud allows you to remove a Text from a PDF Document. Check the PHP source code to delete a Text from PDF file.
+description: Remove unwanted text from PDFs using PHP with Aspose.PDF Cloud SDK. Clean up and streamline files.
 lastmod: "2024-10-19"
 ---
 

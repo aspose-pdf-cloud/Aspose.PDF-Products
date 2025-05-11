@@ -1,6 +1,6 @@
 ---
 title: Remove Watermarks from PDF | Python 
-description: Remove Watermarks from PDF documents via Python with Cloud API. 
+description: Remove watermarks from PDF documents in Python using Aspose.PDF Cloud SDK.
 weight: 30
 url: /python/watermaks/remove/
 ---

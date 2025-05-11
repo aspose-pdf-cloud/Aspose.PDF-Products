@@ -1,7 +1,7 @@
 ---
 title: Delete Pages from PDF via Cloud Python SDK 
 url: /python/pages/delete/
-description: Aspose.PDF Cloud allows you to delete a pages from a PDF Document. Check the Python source code to delete a pages from PDF file.
+description: Delete pages from PDFs in Python using Aspose.PDF Cloud SDK. Automate document cleanup.
 lastmod: "2024-10-19"
 ---
 

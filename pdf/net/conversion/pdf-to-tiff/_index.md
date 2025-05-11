@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to TIFF Images via Cloud .NET SDK
 url: /net/conversion/pdf-to-tiff/
-description: Sample code for PDF to TIFF C# conversion. Use API example code for batch PDF files to TIFF images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Convert PDF files into TIFF format using Aspose.PDF Cloud SDK for .NET. Ideal for faxing and archiving.
 lastmod: "2022-03-17"
 ---
 

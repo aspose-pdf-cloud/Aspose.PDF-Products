@@ -1,7 +1,7 @@
 ---
 title: Convert PNG to PDF via Cloud Node.js SDK
 url: /nodejs/conversion/png-to-pdf/ 
-description: Sample code for PNG to PDF Cloud Node.js SDK conversion. Use API example code for batch PNG files to PDF conversion with Aspose.PDF Cloud.
+description: Convert PNG images to PDF with Node.js and Aspose.PDF Cloud. Fast, high-quality image conversion.
 lastmod: "2022-03-17"
 ---
 

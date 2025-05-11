@@ -1,7 +1,7 @@
 ---
 title: Convert EPUB to PDF via Cloud Node.js SDK
 url: /nodejs/conversion/epub-to-pdf/
-description: Sample code for EPUB to PDF Cloud Node.js SDK conversion. Use API example code for batch EPUB files to PDF conversion with Aspose.PDF Cloud.
+description: Convert EPUB to PDF in your Node.js applications using Aspose.PDF Cloud SDK. Perfect for eBook archiving.
 lastmod: "2022-03-17"
 ---
 

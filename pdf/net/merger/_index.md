@@ -1,7 +1,7 @@
 ---
 title: Merge PDF Files via Cloud .NET SDK 
 url: /net/merge/
-description: This topic explain you hoe to merge multiple PDF files using Aspose.Pdf for Cloud API in your applications. You can use our REST API with any language - .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+description: Merge multiple PDFs into one with Aspose.PDF Cloud SDK for .NET. Combine documents seamlessly via REST API.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

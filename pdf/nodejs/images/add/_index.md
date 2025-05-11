@@ -1,7 +1,7 @@
 ---
 title: Add Images to PDF via Cloud Node.js SDK 
 url: /nodejs/images/add/
-description: Aspose.PDF Cloud allows you to add an Images to a PDF Document. Check the Node.js source code to add an Images into PDF file.
+description: Add images to PDF documents in your Node.js apps using Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to XLSX via Python Cloud SDK
 url: /python/conversion/pdf-to-xlsx/
-description: Sample code for PDF to XLSX Python Cloud SDK conversion. Use API example code for batch PDF files to XLSX conversion with Aspose.PDF Cloud.
+description: Export PDF data to Excel (XLSX) format using Python and Aspose.PDF Cloud SDK. Extract structured data.
 lastmod: "2024-10-17"
 ---
 

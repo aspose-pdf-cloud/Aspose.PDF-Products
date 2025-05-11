@@ -1,7 +1,7 @@
 ---
 title: Extract Images from PDF via Cloud Node.js SDK 
 url: /nodejs/images/extract/
-description: Aspose.PDF Cloud allows you to extract Images from PDF Document. Check the Node.js source code to Extract Images from PDF file.
+description: Extract all images from a PDF using Aspose.PDF Cloud SDK in Node.js. Process or analyze embedded visuals.
 lastmod: "2024-10-19"
 ---
 

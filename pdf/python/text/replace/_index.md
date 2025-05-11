@@ -1,7 +1,7 @@
 ---
 title: Replace Text in PDF via Cloud Python SDK 
 url: /python/text/replace/
-description: Aspose.PDF Cloud allows you to replace a Text in a PDF Document. Check the Python source code to replace a Text in PDF file.
+description: Replace text in PDFs programmatically using Python and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

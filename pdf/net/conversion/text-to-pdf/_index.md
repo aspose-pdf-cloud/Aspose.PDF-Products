@@ -1,7 +1,7 @@
 ---
 title: Convert Text to PDF via Cloud .NET SDK
 url: /net/conversion/text-to-pdf/ 
-description: Sample code for Text to PDF Cloud .NET SDK conversion. Use API example code for batch Text files to PDF conversion with Aspose.PDF Cloud.
+description: Turn plain text files into formatted PDFs with Aspose.PDF Cloud SDK for .NET.
 lastmod: "2022-03-17"
 ---
 

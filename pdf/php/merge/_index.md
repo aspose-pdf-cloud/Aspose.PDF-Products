@@ -1,6 +1,6 @@
 ---
 title: Merge several PDF Documents | PHP
-description: Merge or combine multiple PDF Documents in PHP with Cloud API.
+description: Merge multiple PDF documents into a single file using PHP and Aspose.PDF Cloud SDK.
 weight: 40
 url: /php/merge
 ---

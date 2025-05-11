@@ -1,7 +1,7 @@
 ---
 title: Extract Tables from PDF via Cloud Python SDK 
 url: /python/table/extract/
-description: Aspose.PDF Cloud allows you to extract a Tables from a PDF Document. Check the Python source code to extract a Tables from PDF file.
+description: Extract table content from PDFs with Python using Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

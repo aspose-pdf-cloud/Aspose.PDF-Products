@@ -1,7 +1,7 @@
 ---
 title: Add Pages to PDF via Cloud Python SDK 
 url: /python/pages/add/
-description: Aspose.PDF Cloud allows you to add a pages to a PDF Document. Check the Python source code to add a pages into PDF file.
+description: Insert new pages into PDF files with Python and Aspose.PDF Cloud SDK. Dynamically expand content.
 lastmod: "2024-10-19"
 ---
 

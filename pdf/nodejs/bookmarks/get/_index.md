@@ -1,7 +1,7 @@
 ---
 title: Get Bookmarks via Cloud Node.js SDK
 url: /nodejs/bookmarks/get/
-description: Aspose.PDF Cloud allows you to get Bookmarks from a PDF Document. Check the Node.js source code to get Bookmarks from PDF file.
+description: Retrieve bookmarks from PDF files in your Node.js apps with Aspose.PDF Cloud SDK.
 lastmod: "2025-02-20"
 ---
 

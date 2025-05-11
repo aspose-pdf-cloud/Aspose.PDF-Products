@@ -1,7 +1,7 @@
 ---
 title: Convert TIFF to PDF via Cloud Node.js SDK
 url: /nodejs/conversion/tiff-to-pdf/
-description: Sample code for TIFF to PDF Cloud Node.js SDK conversion. Use API example code for batch TIFF files to PDF conversion with Aspose.PDF Cloud.
+description: Convert TIFF image files to PDF with Node.js using Aspose.PDF Cloud SDK.
 lastmod: "2022-03-17"
 ---
 

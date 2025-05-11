@@ -1,7 +1,7 @@
 ---
 title: Update Metadata in PDF Document via Cloud Python SDK 
 url: /python/metadata/update/
-description: This topic shows you how to update all of the metadata from the PDF document using Aspose.PDF Cloud Python API in your applications.
+description: Update metadata properties in PDFs using Python with Aspose.PDF Cloud SDK.
 lastmod: "2022-03-19"
 ---
 

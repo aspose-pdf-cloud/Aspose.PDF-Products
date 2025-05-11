@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to GIF via Cloud Node.js SDK
 url: /nodejs/conversion/pdf-to-gif/
-description: Sample code for PDF to GIF Cloud Node.js SDK conversion. Use API example code for batch PDF files to GIF conversion with Aspose.PDF Cloud.
+description: Convert PDFs to animated or static GIF files with Node.js using Aspose.PDF Cloud.
 lastmod: "2022-03-17"
 ---
 

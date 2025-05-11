@@ -1,7 +1,7 @@
 ---
 title: Split PDF Files via Cloud .NET SDK 
 url: /net/split/single/
-description: This topic explain you how to split single pages of a PDF file and save each page as a new PDF or any supported format using Aspose.Pdf for Cloud API in your applications. 
+description: Split single PDF into multiple parts with Aspose.PDF Cloud SDK for .NET. Automate document separation.
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

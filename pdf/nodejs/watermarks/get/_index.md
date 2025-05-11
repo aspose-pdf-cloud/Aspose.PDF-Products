@@ -1,6 +1,6 @@
 ---
 title: Get Watermarks from PDF | Node.js
-description: Get Watermarks from PDF documents via Node.js with Cloud API.
+description: Extract watermark details from PDF files in Node.js using Aspose.PDF Cloud SDK.
 weight: 30
 url: /nodejs/watermaks/get/
 ---

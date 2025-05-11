@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to SVG via Cloud Node.js SDK
 url: /nodejs/conversion/pdf-to-svg/
-description: Sample code for PDF to SVG Cloud Node.js SDK conversion. Use API example code for batch PDF files to SVG conversion with Aspose.PDF Cloud.
+description: Export PDF content to SVG vector images using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2022-03-17"
 ---
 

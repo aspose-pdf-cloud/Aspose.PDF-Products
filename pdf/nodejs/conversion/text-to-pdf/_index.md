@@ -1,7 +1,7 @@
 ---
 title: Convert Text to PDF via Cloud Node.js SDK
 url: /nodejs/conversion/txt-to-pdf/
-description: Sample code for TXT to PDF Cloud Node.js SDK conversion. Use API example code for batch TXT files to PDF conversion with Aspose.PDF Cloud.
+description: Turn plain TXT files into well-structured PDFs using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2022-03-17"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Remove Metadata in PDF Document via Cloud Python SDK 
 url: /python/metadata/remove/
-description: The following article shows how to delete a metadata from a PDF document using Aspose.PDF Cloud Python SDK.
+description: Remove metadata from PDFs in Python using Aspose.PDF Cloud SDK. Secure your documents.
 lastmod: "2024-03-19"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Extract & Append attachments in PDF documents via Aspose.Pdf Cloud Python SDK
 url: /python/attachments/
-description: Sample code for extracting, and appending attachments in PDF document using Cloud Python SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud Python SDK.
+description: Manage PDF file attachments in Python using Aspose.PDF Cloud SDK. Embed or access files in just a few lines of code.
 lastmod: "2024-10-31"
 ---
 

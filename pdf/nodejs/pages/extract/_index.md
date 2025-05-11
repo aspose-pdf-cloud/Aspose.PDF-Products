@@ -1,7 +1,7 @@
 ---
 title: Extract Pages from PDF via Cloud Node.js SDK
 url: /nodejs/pages/extract/
-description: Aspose.PDF Cloud allows you to Extract Pages from PDF Document. Check the Node.js source code to Extract Pages from PDF file.
+description: Extract specific pages from PDF documents using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2025-02-20"
 ---
 

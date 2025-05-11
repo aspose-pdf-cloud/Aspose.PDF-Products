@@ -1,7 +1,7 @@
 ---
 title: Add Text to PDF via Cloud Node.js SDK 
 url: /nodejs/text/add/
-description: Aspose.PDF Cloud allows you to add a Text to a PDF Document. Check the Node.js source code to add a Text into PDF file.
+description: Insert new text into PDF files using Aspose.PDF Cloud SDK in Node.js.
 lastmod: "2024-10-19"
 ---
 

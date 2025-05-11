@@ -1,7 +1,7 @@
 ---
 title: Remove Metadata in PDF Document via Cloud .NET SDK 
 url: /net/metadata/remove/
-description: The following article shows how to delete a metadata from a PDF document using Aspose.PDF Cloud .NET SDK.
+description: Remove metadata from PDFs with Aspose.PDF Cloud SDK for .NET. Protect privacy and control data exposure.
 lastmod: "2022-03-19"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Split single PDF Documents | Python 
-description: Split single PDF Documents in Python with Cloud API. 
+description: Split PDF files into smaller parts in Python with Aspose.PDF Cloud SDK.
 weight: 40
 url: /python/split/
 ---

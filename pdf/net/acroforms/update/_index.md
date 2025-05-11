@@ -1,7 +1,7 @@
 ---
 title: Update Form Fields in PDF Document via Cloud .NET SDK
 url: /net/acroforms/update/
-description: This topic shows you how to update all of the form fields from the PDF document using Aspose.PDF Cloud .NET API in your applications.
+description: Update existing AcroForm fields in PDFs with Aspose.PDF Cloud SDK for .NET. Fast, accurate, and flexible form handling.
 lastmod: "2022-03-19"
 ---
 

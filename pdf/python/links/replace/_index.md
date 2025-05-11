@@ -1,7 +1,7 @@
 ---
 title: Replace Links in PDF via Cloud Python SDK 
 url: /python/links/replace/
-description: Aspose.PDF Cloud allows you to replace a Links in a PDF Document. Check the Python source code to replace a Links in PDF file.
+description: Replace hyperlinks in PDF files with new URLs using Python and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

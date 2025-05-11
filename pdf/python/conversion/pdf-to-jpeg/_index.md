@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to JPEG via Python Cloud SDK
 url: /python/conversion/pdf-to-jpeg/
-description: Sample code for PDF to JPEG Python Cloud SDK conversion. Use API example code for batch PDF files to JPEG conversion with Aspose.PDF Cloud.
+description: Convert PDF files to JPEG images in Python using Aspose.PDF Cloud SDK. Ideal for visual content sharing.
 lastmod: "2024-10-17"
 ---
 

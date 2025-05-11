@@ -1,7 +1,7 @@
 ---
 title: Replace Text in PDF via Cloud Node.js SDK 
 url: /nodejs/text/replace/
-description: Aspose.PDF Cloud allows you to replace Text in a PDF Document. Check the Node.js source code to replace Text in PDF file.
+description: Replace text in PDF files programmatically using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

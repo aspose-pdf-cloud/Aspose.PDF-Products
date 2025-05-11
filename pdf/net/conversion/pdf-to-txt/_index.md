@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to TXT via Cloud .NET SDK
 url: /net/conversion/pdf-to-txt/
-description: Sample code for PDF to TXT C# conversion. Use API example code for batch PDF files to TXT images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Export text from PDF to TXT format using Aspose.PDF Cloud SDK for .NET. Lightweight and searchable output.
 lastmod: "2022-03-17"
 ---
 

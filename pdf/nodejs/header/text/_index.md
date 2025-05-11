@@ -1,7 +1,7 @@
 ---
 title: Add Text in Header of PDF via Cloud Node.js SDK
 url: /nodejs/header/text/
-description: Aspose.PDF Cloud allows you to Add Text in Header of PDF Document. Check the Node.js source code to add Header into PDF file.
+description: Insert text headers to PDF files using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2025-02-20"
 ---
 

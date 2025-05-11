@@ -1,7 +1,7 @@
 ---
 title: Add Text in Header of PDF via Cloud PHP SDK 
 url: /php/header/text/
-description: Aspose.PDF Cloud allows you to add Text in Header of PDF Document. Check the PHP source code to add Text in Header of PDF file.
+description: Insert header text in PDF files programmatically using PHP and Aspose.PDF Cloud SDK.
 lastmod: "2025-03-19"
 ---
 

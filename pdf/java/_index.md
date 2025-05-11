@@ -1,6 +1,6 @@
 ﻿---
 title: Java PDF Creator, Editor & Converter via REST SDK 
-description: Enhance you Java cloud apps to create, edit, encrypt & convert PDF documents to DOCX, XLSX,PPTX & image in the cloud
+description: Use Aspose.PDF Cloud SDK for Java to work with PDF files in your apps. Convert, merge, split, and edit PDFs via REST API.
 weight: 50
 url: /java
 ---

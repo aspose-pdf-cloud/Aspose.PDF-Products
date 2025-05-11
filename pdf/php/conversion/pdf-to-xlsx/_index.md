@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to XLSX via PHP Cloud SDK
 url: /php/conversion/pdf-to-xlsx/
-description: Sample code for PDF to XLSX PHP Cloud SDK conversion. Use API example code for batch PDF files to XLSX conversion with Aspose.PDF Cloud.
+description: Convert PDF files to Excel (XLSX) with Aspose.PDF Cloud SDK for PHP. Extract structured table data quickly.
 lastmod: "2024-10-17"
 ---
 

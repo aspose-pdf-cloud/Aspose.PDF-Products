@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to SVG via Cloud .NET SDK
 url: /net/conversion/pdf-to-svg/
-description: Sample code for PDF to SVG C# conversion. Use API example code for batch PDF files to SVG images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Convert PDF files into scalable SVG images using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2022-03-17"
 ---
 

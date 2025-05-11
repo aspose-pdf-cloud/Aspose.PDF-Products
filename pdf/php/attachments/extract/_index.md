@@ -1,7 +1,7 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud PHP SDK
 url: /php/attachments/get/
-description: Sample code for extracting attachments from PDF document using Cloud PHP SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud PHP SDK.
+description: Extract attachments from PDF documents in PHP with Aspose.PDF Cloud. Access embedded files quickly.
 lastmod: "2024-10-29"
 ---
 

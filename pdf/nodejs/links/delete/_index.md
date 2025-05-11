@@ -1,7 +1,7 @@
 ---
 title: Remove Links from PDF via Cloud Node.js SDK 
 url: /nodejs/links/delete/
-description: Aspose.PDF Cloud allows you to remove a Links from a PDF Document. Check the Node.js source code to delete Links from PDF file.
+description: Delete hyperlinks from PDF pages with Aspose.PDF Cloud SDK in Node.js.
 lastmod: "2025-02-19"
 ---
 

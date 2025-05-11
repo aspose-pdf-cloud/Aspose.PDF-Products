@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to DOCX via Cloud Node.js SDK
 url: /nodejs/conversion/pdf-to-docx/
-description: Sample code for PDF to DOCX Cloud Node.js SDK conversion. Use API example code for batch PDF files to DOCX conversion with Aspose.PDF Cloud.
+description: Transform PDF to DOCX with Aspose.PDF Cloud SDK for Node.js. Edit your PDFs in Microsoft Word.
 lastmod: "2022-03-17"
 ---
 

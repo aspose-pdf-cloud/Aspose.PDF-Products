@@ -1,7 +1,7 @@
 ---
 title: Add Text to PDF via Cloud PHP SDK 
 url: /php/text/add/
-description: Aspose.PDF Cloud allows you to add a Text to a PDF Document. Check the PHP source code to add a Text into PDF file.
+description: Insert new text into PDFs using PHP with Aspose.PDF Cloud SDK. Automate document content creation.
 lastmod: "2024-10-19"
 ---
 

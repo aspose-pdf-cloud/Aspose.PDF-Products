@@ -2,7 +2,7 @@
 title: Convert PS to PDF via Cloud Node.js SDK
 weight: 2710
 url: /nodejs/conversion/ps-to-pdf/
-description: Sample code for PS to PDF Cloud Node.js SDK conversion. Use API example code for batch PS files to PDF conversion with Aspose.PDF Cloud.
+description: Convert PostScript (PS) files into PDFs using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2022-03-17"
 ---
 

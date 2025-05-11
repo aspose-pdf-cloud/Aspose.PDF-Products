@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to XPS via Cloud .NET SDK
 url: /net/conversion/pdf-to-xps/
-description: Sample code for PDF to XPS C# conversion. Use API example code for batch PDF files to XPS images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Turn PDF files into XPS documents with Aspose.PDF Cloud SDK for .NET. Preserve layout and vector data.
 lastmod: "2022-03-17"
 ---
 

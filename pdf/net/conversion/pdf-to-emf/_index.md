@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to EMF via Cloud .NET SDK
 url: /net/conversion/pdf-to-emf/
-description: Sample code for PDF to EMF C# conversion. Use API example code for batch PDF files to EMF images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Turn PDF into EMF images with Aspose.PDF Cloud SDK for .NET. Perfect for Windows-native image workflows.
 lastmod: "2022-03-17"
 ---
 

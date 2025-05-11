@@ -1,6 +1,6 @@
 ﻿---
 title: Create & Process PDF in Cloud using cURL 
-description: Generate or import PDF files on cloud, append, split, merge, sign, annotate & convert using cURL via REST API
+description: Use Aspose.PDF Cloud with cURL to create, edit, and manage PDFs in the cloud. Simple HTTP commands for full PDF control.
 weight: 30
 url: /curl
 ---

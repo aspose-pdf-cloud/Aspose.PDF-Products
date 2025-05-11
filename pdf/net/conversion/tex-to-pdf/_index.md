@@ -1,7 +1,7 @@
 ---
 title: Convert TEX to PDF via Cloud .NET SDK
 url: /net/conversion/tex-to-pdf/
-description: Sample code for TEXto PDF Cloud .NET SDK conversion. Use API example code for batch TEX files to PDF conversion with Aspose.PDF Cloud.
+description: Convert LaTeX .tex files into PDF using Aspose.PDF Cloud SDK for .NET. Ideal for scientific and academic publishing.
 lastmod: "2022-03-17"
 ---
 

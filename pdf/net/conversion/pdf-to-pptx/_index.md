@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to Microsoft PowerPoint PPTX File via Cloud .NET SDK
 url: /net/conversion/pdf-to-pptx/
-description: Sample code for PDF to PPTX C# conversion. Use API example code for batch PDF files to PPTX conversion within VB.NET, Asp.NET or any .NET based application.
+description: Convert PDF documents to PowerPoint PPTX with Aspose.PDF Cloud SDK for .NET. Turn reports into presentations.
 lastmod: "2022-03-17"
 ---
 

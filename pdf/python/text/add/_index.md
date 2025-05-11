@@ -1,7 +1,7 @@
 ---
 title: Add Text to PDF via Cloud Python SDK 
 url: /python/text/add/
-description: Aspose.PDF Cloud allows you to add a Text to a PDF Document. Check the Python source code to add a Text into PDF file.
+description: Insert new text into PDF documents using Python and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

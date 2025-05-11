@@ -1,6 +1,6 @@
 ﻿---
 title: Convert, Annotate &amp; Sign Cloud PDF via Go SDK 
-description: Go lang SDK to access cloud PDF documents for merging, splitting, encrypting, watermarking, annotating & converting to other formats via REST API
+description: Integrate cloud-based PDF processing into your Go applications with Aspose.PDF Cloud SDK for Go. Reliable and developer-friendly.
 weight: 40
 url: /go
 ---
