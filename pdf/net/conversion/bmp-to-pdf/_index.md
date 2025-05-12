@@ -1,7 +1,7 @@
 ---
 title: Convert BMP to PDF via Cloud .NET SDK
 url: /net/conversion/bmp-to-pdf/
-description: Sample code for BMP to PDF Cloud .NET SDK conversion. Use API example code for batch BMP files to PDF conversion with Aspose.PDF Cloud.
+description: Convert BMP images to PDF with Aspose.PDF Cloud SDK for .NET. Seamlessly turn bitmap files into high-quality PDFs.
 lastmod: "2022-03-17"
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
 title: Generate &amp; Convert PDF Docs via PHP REST SDK 
-description: Create PDF files on cloud storage, edit, annotate, watermark, count pages, & convert PDF to DOCX, PPTX, XLSX etc using PHP Cloud SDK
+description: Use Aspose.PDF Cloud SDK for PHP to edit, convert, and manipulate PDF documents effortlessly in your PHP projects.
 weight: 90
 url: /php
 ---

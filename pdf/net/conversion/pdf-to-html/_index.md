@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to HTML via Cloud .NET SDK
 url: /net/conversion/pdf-to-html/
-description: Sample code for PDF to HTML C# conversion. Use API example code for batch PDF files to HTML conversion within VB.NET, Asp.NET or any .NET based application.
+description: Convert PDF to HTML pages with Aspose.PDF Cloud SDK for .NET. Enable web-friendly document viewing.
 lastmod: "2022-03-17"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Get Form Fields from PDF Document via Cloud .NET SDK
 url: /net/acroforms/get/
-description: This topic shows you how to get all of the form fields from the PDF document using Aspose.PDF Cloud API in your applications.
+description: Retrieve AcroForm data from PDFs using Aspose.PDF Cloud SDK for .NET. Easy form field extraction via REST API.
 lastmod: "2022-03-19"
 ---
 

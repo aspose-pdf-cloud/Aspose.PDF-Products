@@ -1,7 +1,7 @@
 ---
 title: Remove Bookmarks from PDF via Cloud Python SDK 
 url: /python/bookmarks/remove/
-description: Aspose.PDF Cloud allows you to remove a Bookmarks from a PDF Document. Check the Python source code to delete a Bookmarks from PDF file.
+description: Remove bookmarks from PDFs in Python using Aspose.PDF Cloud SDK. Clean up outdated navigation elements.
 lastmod: "2024-10-19"
 ---
 

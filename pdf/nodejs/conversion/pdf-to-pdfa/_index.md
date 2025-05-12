@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to PDF/A via Cloud Node.js SDK
 url: /nodejs/conversion/pdf-to-pdfa/
-description: Sample code for PDF to PDF/A Cloud Node.js SDK conversion. Use API example code for batch PDF files to PDF/A conversion with Aspose.PDF Cloud.
+description: Archive PDFs in PDF/A format using Aspose.PDF Cloud SDK for Node.js. Ensure long-term compliance.
 lastmod: "2022-03-17"
 ---
 

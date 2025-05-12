@@ -1,7 +1,7 @@
 ---
 title: Remove Metadata in PDF Document via Cloud Node.js SDK 
 url: /nodejs/metadata/remove/
-description: The following article shows how to delete a metadata from a PDF document using Aspose.PDF Cloud Node.js SDK.
+description: Remove metadata from PDFs to protect data using Aspose.PDF Cloud SDK in Node.js.
 lastmod: "2024-03-19"
 ---
 

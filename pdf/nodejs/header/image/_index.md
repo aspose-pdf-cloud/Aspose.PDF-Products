@@ -1,7 +1,7 @@
 ---
 title: Add Image in Header of PDF via Cloud Node.js SDK
 url: /nodejs/header/image/
-description: Aspose.PDF Cloud allows you to Add Image in Header of PDF Document. Check the Node.js source code to add Header into PDF file.
+description: Add image headers to PDFs in Node.js with Aspose.PDF Cloud. Automate report formatting.
 lastmod: "2025-02-20"
 ---
 

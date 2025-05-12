@@ -1,7 +1,7 @@
 ---
 title: Add Stamps to PDF via Cloud Node.js SDK
 url: /nodejs/stamp/text/
-description: Aspose.PDF Cloud allows you to Add Text Stamp to PDF Document. Check the Node.js source code to add Stamps into PDF file.
+description: Insert text stamps into PDFs with Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2025-02-20"
 ---
 

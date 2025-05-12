@@ -1,7 +1,7 @@
 ---
 title: Add Bookmarks to PDF via Cloud PHP SDK 
 url: /php/bookmarks/add/
-description: Aspose.PDF Cloud allows you to add a Bookmarks to a PDF Document. Check the PHP source code to add a Bookmarks into PDF file.
+description: Add bookmarks to PDF files in PHP using Aspose.PDF Cloud SDK. Improve document navigation for end users.
 lastmod: "2025-03-19"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to Images GIF via Cloud .NET SDK
 url: /net/conversion/pdf-to-gif/
-description: Sample code for PDF to GIF C# conversion. Use API example code for batch PDF files to GIF images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Transform PDFs into GIF files with Aspose.PDF Cloud SDK for .NET. Simplify document sharing with image output.
 lastmod: "2022-03-17"
 ---
 

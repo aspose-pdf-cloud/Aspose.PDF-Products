@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to Images JPEG via Cloud .NET SDK
 url: /net/conversion/pdf-to-jpeg/
-description: Sample code for PDF to JPEG C# conversion. Use API example code for batch PDF files to JPEG images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Turn PDF files into JPEG images using Aspose.PDF Cloud SDK for .NET. Shareable image output in high quality.
 lastmod: "2022-03-17"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Convert TIFF to PDF via Cloud .NET SDK 
 url: /net/conversion/tiff-to-pdf/ 
-description: Sample code for TIFF to PDF Cloud .NET SDK conversion. Use API example code for batch TIFF files to PDF conversion with Aspose.PDF Cloud.
+description: Convert TIFF image files into PDF using Aspose.PDF Cloud SDK for .NET. Reliable for scanned document archiving.
 lastmod: "2022-03-17"
 ---
 

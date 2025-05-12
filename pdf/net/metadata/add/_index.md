@@ -1,7 +1,7 @@
 ---
 title: Adding Metadata via Cloud .NET SDK 
 url: /net/metadata/add/
-description: Aspose.PDF Cloud allows you to add a Metadata to a PDF Document. Check the C# source code to add a Metadata into PDF file.
+description: Add metadata to PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2022-03-19"
 ---
 

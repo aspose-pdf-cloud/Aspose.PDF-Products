@@ -1,7 +1,7 @@
 ---
 title: Delete Tables from PDF via Cloud PHP SDK 
 url: /php/table/delete/
-description: Aspose.PDF Cloud allows you to remove a Tables from a PDF Document. Check the PHP source code to delete a Tables from PDF file.
+description: Delete tables from PDF documents using PHP with Aspose.PDF Cloud SDK. Modify document layout efficiently.
 lastmod: "2025-03-19"
 ---
 

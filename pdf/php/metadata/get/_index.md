@@ -1,7 +1,7 @@
 ---
 title: Get Metadata from PDF Document via Cloud PHP SDK
 url: /php/metadata/get/
-description: This topic shows you how to get all of the metadata from the PDF document using Aspose.PDF Cloud API in your applications.
+description: Retrieve metadata information from PDF documents using PHP with Aspose.PDF Cloud SDK.
 lastmod: "2024-03-19"
 ---
 

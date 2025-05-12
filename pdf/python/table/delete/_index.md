@@ -1,7 +1,7 @@
 ---
 title: Delete Tables from PDF via Cloud Python SDK 
 url: /python/table/delete/
-description: Aspose.PDF Cloud allows you to delete a Tables from a PDF Document. Check the Python source code to delete a Tables from PDF file.
+description: Delete tables from PDF documents in Python using Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

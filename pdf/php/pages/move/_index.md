@@ -1,7 +1,7 @@
 ---
 title: Move Pages in PDF via Cloud PHP SDK 
 url: /php/pages/move/
-description: Aspose.PDF Cloud allows you to move a pages in a PDF Document. Check the PHP source code to move a pages in PDF file.
+description: Move or reorder pages within a PDF file using PHP and Aspose.PDF Cloud SDK.
 lastmod: "2025-03-19"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to PPTX via Cloud Node.js SDK
 url: /nodejs/conversion/pdf-to-pptx/
-description: Sample code for PDF to PPTX Cloud Node.js SDK conversion. Use API example code for batch PDF files to PPTX conversion with Aspose.PDF Cloud.
+description: Convert PDFs to PowerPoint (PPTX) presentations using Aspose.PDF Cloud SDK in Node.js.
 lastmod: "2022-03-17"
 ---
 

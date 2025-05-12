@@ -1,6 +1,6 @@
 ---
 title: Merge List of PDF Documents | Python 
-description: Merge or combine multiple PDF Documents in Python with Cloud API. 
+description: Merge multiple PDFs into a single document with Python using Aspose.PDF Cloud SDK.
 weight: 40
 url: /python/merge
 ---

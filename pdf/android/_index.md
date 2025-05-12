@@ -1,6 +1,6 @@
 ﻿---
 title: Build PDF Editor & Converter Apps for Android via REST API 
-description: Easily build mobile apps for Android devices to access cloud PDF, split, merge, encrypt, sign, annotate & convert PDF via REST API
+description: Build Android apps with powerful PDF features using Aspose.PDF Cloud SDK for Android. Seamless API integration for mobile PDF processing.
 weight: 20
 url: /android
 ---

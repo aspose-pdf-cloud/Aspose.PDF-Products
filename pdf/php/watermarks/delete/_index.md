@@ -1,6 +1,6 @@
 ---
 title: Remove Watermarks from PDF | PHP
-description: Remove Watermarks from PDF documents via PHP with Cloud API.
+description: Remove watermarks from PDF files in PHP using Aspose.PDF Cloud SDK. Restore clean document versions.
 weight: 30
 url: /php/watermaks/remove/
 ---

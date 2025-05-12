@@ -1,7 +1,7 @@
 ---
 title: Remove Bookmarks via Cloud Node.js SDK
 url: /nodejs/bookmarks/remove/
-description: Aspose.PDF Cloud allows you to remove Bookmarks from a PDF Document. Check the Node.js source code to remove Bookmarks from PDF file.
+description: Remove PDF bookmarks using Node.js and Aspose.PDF Cloud SDK. Simplify document structure.
 lastmod: "2025-02-20"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Update Metadata in PDF Document via Cloud Node.js SDK 
 url: /nodejs/metadata/update/
-description: This topic shows you how to update all of the metadata from the PDF document using Aspose.PDF Cloud Node.js API in your applications.
+description: Update PDF metadata properties using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2024-11-19"
 ---
 

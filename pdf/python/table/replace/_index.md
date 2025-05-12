@@ -1,7 +1,7 @@
 ---
 title: Replace Tables in PDF via Cloud Python SDK 
 url: /python/table/replace/
-description: Aspose.PDF Cloud allows you to replace a Tables in a PDF Document. Check the Python source code to replace a Tables in PDF file.
+description: Replace PDF table data programmatically in Python with Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---
 

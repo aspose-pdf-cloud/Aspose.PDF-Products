@@ -1,7 +1,7 @@
 ---
 title: Add Image Stamp to PDF via Cloud Node.js SDK
 url: /nodejs/stamp/image/
-description: Aspose.PDF Cloud allows you to Add Image Stamp to PDF Document. Check the Node.js source code to add Stamps into PDF file.
+description: Add image-based stamps to PDFs using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2025-02-20"
 ---
 

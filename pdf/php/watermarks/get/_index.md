@@ -1,6 +1,6 @@
 ---
 title: Get Watermarks from PDF | PHP
-description: Get Watermarks from PDF documents via PHP with Cloud API.
+description: Get watermark information from PDFs using PHP with Aspose.PDF Cloud SDK. Inspect visual overlays or branding.
 weight: 30
 url: /php/watermaks/get/
 ---

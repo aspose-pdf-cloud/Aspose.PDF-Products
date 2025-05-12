@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to PDF/A via Cloud .NET SDK
 url: /net/conversion/pdf-to-pdfa/ 
-description: Sample code for PDF to PDF/A C# conversion. Use API example code for batch PDF files to PDF/A conversion within VB.NET, Asp.NET or any .NET based application.
+description: Convert PDF to PDF/A format for archiving using Aspose.PDF Cloud SDK for .NET. Compliant with long-term storage.
 lastmod: "2022-03-17"
 ---
 

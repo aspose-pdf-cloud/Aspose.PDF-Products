@@ -1,6 +1,6 @@
 ﻿---
 title: Generate, Annotate & Convert Cloud PDFs | Swift REST SDK 
-description: Swift cloud SDK to edit, merge, split, bookmark, sign, encrypt, annotate & export PDF documents hosted on the cloud
+description: Bring advanced PDF features to iOS apps with Aspose.PDF Cloud SDK for Swift. Convert and manage PDFs in your mobile apps easily.
 weight: 120
 url: /swift
 ---

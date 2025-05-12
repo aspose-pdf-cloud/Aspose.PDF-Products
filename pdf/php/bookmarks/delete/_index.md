@@ -1,7 +1,7 @@
 ---
 title: Remove Bookmarks from PDF via Cloud PHP SDK 
 url: /php/bookmarks/remove/
-description: Aspose.PDF Cloud allows you to remove a Bookmarks from a PDF Document. Check the PHP source code to delete a Bookmarks from PDF file.
+description: Remove bookmarks from PDF files using PHP and Aspose.PDF Cloud SDK. Clean up unnecessary navigation elements.
 lastmod: "2024-10-19"
 ---
 

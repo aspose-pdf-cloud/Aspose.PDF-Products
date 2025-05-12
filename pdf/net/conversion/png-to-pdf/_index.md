@@ -1,7 +1,7 @@
 ---
 title: Convert PNG to PDF via Cloud .NET SDK
 url: /net/conversion/png-to-pdf/ 
-description: Sample code for PNG to PDF Cloud .NET SDK conversion. Use API example code for batch PNG files to PDF conversion with Aspose.PDF Cloud.
+description: Convert PNG images to PDF with Aspose.PDF Cloud SDK for .NET. Create portable documents from image assets.
 lastmod: "2022-03-17"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Update Metadata in PDF Document via Cloud .NET SDK 
 url: /net/metadata/update/
-description: This topic shows you how to update all of the metadata from the PDF document using Aspose.PDF Cloud .NET API in your applications.
+description: Update PDF metadata with Aspose.PDF Cloud SDK for .NET. Modify document properties programmatically.
 lastmod: "2022-03-19"
 ---
 

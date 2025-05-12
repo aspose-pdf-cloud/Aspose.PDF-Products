@@ -1,7 +1,7 @@
 ---
 title: Replace Links in PDF via Cloud Node.js SDK 
 url: /nodejs/links/replace/
-description: Aspose.PDF Cloud allows you to replace a Links in a PDF Document. Check the Node.js source code to replace Links in PDF file.
+description: Replace links in PDFs using Aspose.PDF Cloud SDK for Node.js. Update URLs efficiently.
 lastmod: "2025-02-19"
 ---
 

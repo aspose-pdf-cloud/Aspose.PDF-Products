@@ -1,7 +1,7 @@
 ---
 title: Convert PDF to Microsoft Word DOCX via Cloud .NET SDK
 url: /net/conversion/pdf-to-docx/
-description: Sample code for PDF to DOCX C# conversion. Use API example code for batch PDF files to DOCX images conversion within VB.NET, Asp.NET or any .NET based application.
+description: Convert PDF to editable DOCX documents with Aspose.PDF Cloud SDK for .NET. Preserve layout and text structure.
 lastmod: "2022-03-17"
 ---
 

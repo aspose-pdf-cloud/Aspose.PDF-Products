@@ -1,7 +1,7 @@
 ---
 title: Convert JPEG to PDF via Cloud Node.js SDK
 url: /nodejs/conversion/jpeg-to-pdf
-description: Sample code for JPEG to PDF Cloud Node.js SDK conversion. Use API example code for batch JPEG files to PDF conversion with Aspose.PDF Cloud.
+description: Convert JPEG images into PDF documents using Node.js and Aspose.PDF Cloud SDK. High-quality image embedding.
 lastmod: "2022-03-17"
 ---
 

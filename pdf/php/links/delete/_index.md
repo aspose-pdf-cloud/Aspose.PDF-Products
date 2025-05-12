@@ -1,7 +1,7 @@
 ---
 title: Delete Links from PDF via Cloud PHP SDK 
 url: /php/links/delete/
-description: Aspose.PDF Cloud allows you to delete a Links from a PDF Document. Check the PHP source code to delete a Links from PDF file.
+description: Delete links from PDF pages with Aspose.PDF Cloud SDK for PHP. Clean up outdated or broken URLs.
 lastmod: "2025-03-19"
 ---
 

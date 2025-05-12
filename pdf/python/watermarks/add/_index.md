@@ -1,6 +1,6 @@
 ---
 title: Add Watermarks to PDF | Python 
-description: Add the watermarks to PDF documents in Python with Cloud API. 
+description: Add watermarks to PDF files using Python with Aspose.PDF Cloud SDK. Support text and image marks.
 weight: 30
 url: /python/watermaks/add/
 ---

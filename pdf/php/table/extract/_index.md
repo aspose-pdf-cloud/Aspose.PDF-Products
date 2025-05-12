@@ -1,7 +1,7 @@
 ---
 title: Extract Tables from PDF via Cloud PHP SDK 
 url: /php/table/extract/
-description: Aspose.PDF Cloud allows you to extract a Tables from a PDF Document. Check the PHP source code to extract a Tables from PDF file.
+description: Extract table data from PDF files in PHP using Aspose.PDF Cloud SDK. Convert tabular content into usable formats.
 lastmod: "2025-03-19"
 ---
 

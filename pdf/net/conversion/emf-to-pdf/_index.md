@@ -1,7 +1,7 @@
 ---
 title: Convert EMF to PDF via Cloud .NET SDK
 url: /net/conversion/emf-to-pdf/ 
-description: Sample code for EMF to PDF Cloud .NET SDK conversion. Use API example code for batch EMF files to PDF conversion with Aspose.PDF Cloud.
+description: Convert EMF files to PDF format using Aspose.PDF Cloud SDK for .NET. Retain vector quality and layout in every file.
 lastmod: "2022-03-17"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Add Text in Footer of PDF via Cloud Node.js SDK
 url: /nodejs/footer/text/
-description: Aspose.PDF Cloud allows you to Add Text in Footer of PDF Document. Check the Node.js source code to add text in Footer into PDF file.
+description: Insert text-based footers in PDFs using Node.js with Aspose.PDF Cloud SDK.
 lastmod: "2025-02-20"
 ---
 

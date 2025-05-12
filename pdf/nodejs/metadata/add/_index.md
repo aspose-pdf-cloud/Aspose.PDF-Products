@@ -1,7 +1,7 @@
 ---
 title: Add Metadata via Cloud Node.js SDK 
 url: /nodejs/metadata/add/
-description: Aspose.PDF Cloud allows you to add a Metadata to a PDF Document. Check the Node.js source code to add a Metadata into PDF file.
+description: Add metadata to PDFs with Node.js using Aspose.PDF Cloud SDK. Improve document indexing and searchability.
 lastmod: "2024-11-19"
 ---
 

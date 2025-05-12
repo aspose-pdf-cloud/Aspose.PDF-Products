@@ -1,7 +1,7 @@
 ---
 title: Move Pages in PDF via Cloud Node.js SDK
 url: /nodejs/pages/move/
-description: Aspose.PDF Cloud allows you to Move Pages to PDF Document. Check the Node.js source code to move Pages in PDF file.
+description: Reorder or move pages in a PDF using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2025-02-20"
 ---
 

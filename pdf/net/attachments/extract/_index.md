@@ -1,7 +1,7 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud .NET SDK
 url: /net/attachments/get/
-description: Sample code for extracting attachments from PDF document using Cloud .NET SDK. Use API example code for working with attachments in PDF documents with Aspose.PDF Cloud .NET SDK.
+description: Get and list PDF attachments programmatically using Aspose.PDF Cloud SDK for .NET. RESTful API for complete control.
 lastmod: "2024-10-29"
 ---
 

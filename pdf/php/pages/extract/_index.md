@@ -1,7 +1,7 @@
 ---
 title: Extract Pages from PDF via Cloud PHP SDK 
 url: /php/pages/extract/
-description: Aspose.PDF Cloud allows you to extract a pages from a PDF Document. Check the PHP source code to extract a pages from PDF file.
+description: Extract specific pages from PDFs using PHP with Aspose.PDF Cloud SDK. Split or analyze content easily.
 lastmod: "2025-03-19"
 ---
 

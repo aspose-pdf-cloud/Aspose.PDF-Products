@@ -1,7 +1,7 @@
 ---
 title: Add Table to PDF via Cloud Node.js SDK 
 url: /nodejs/table/add/
-description: Aspose.PDF Cloud allows you to add a Table to a PDF Document. Check the Node.js source code to add a Table into PDF file.
+description: Add tables into PDF documents using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2024-11-19"
 ---
 

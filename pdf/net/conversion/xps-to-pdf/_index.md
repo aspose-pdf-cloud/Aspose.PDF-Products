@@ -1,7 +1,7 @@
 ---
 title: Convert XPS to PDF via Cloud .NET SDK
 url: /net/conversion/xps-to-pdf/
-description: Sample code for XPS to PDF Cloud .NET SDK conversion. Use API example code for batch XPS files to PDF conversion with Aspose.PDF Cloud.
+description: Turn XPS documents into PDFs using Aspose.PDF Cloud SDK for .NET. Simplify cross-platform compatibility.
 lastmod: "2022-03-17"
 ---
 

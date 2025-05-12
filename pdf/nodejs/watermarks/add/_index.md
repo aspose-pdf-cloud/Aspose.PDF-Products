@@ -1,6 +1,6 @@
 ---
 title: Add Watermarks to PDF | Node.js
-description: Add the watermarks to PDF documents via Node.js with Cloud API.
+description: Add watermarks to PDFs using Aspose.PDF Cloud SDK for Node.js. Support for text and image watermarks.
 weight: 30
 url: /nodejs/watermaks/add/
 ---
