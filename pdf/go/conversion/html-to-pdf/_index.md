@@ -66,8 +66,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
     func convertHtmlToPdf(pdf_api *asposepdfcloud.PdfApiService, html_document string, html_zip string, pdf_name string, remote_folder string) {
         args := map[string]interface{}{
             "folder":       remote_folder,
-            "height":       float64(850),
-            "width":        float64(600),
+            "height":       float64(842),
+            "width":        float64(595),
             "htmlFileName": html_document,
         }
 
