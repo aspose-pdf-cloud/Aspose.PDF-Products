@@ -46,9 +46,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% /blocks/products/pf/agp/text %}}
 
 1. Uploading a PS file to Aspose Cloud Storage.
-
 1. Converting the PS to a PDF.
-
 1. Saving the output PDF in cloud storage.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

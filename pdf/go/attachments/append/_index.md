@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily append attachments to PDF documents. D
 {{% /blocks/products/pf/agp/text %}}
 
 1. Setting Up Parameters
-1. CCall the GetDocumentAttachments API method
+1. Call the PostAddDocumentAttachment method
 1. Check for any errors
 1. Print the links of the document attachments
 
@@ -62,11 +62,19 @@ Aspose.PDF Cloud Go developers can easily append attachments to PDF documents. D
         asposepdfcloud "github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25"
     )
 
-    func getDocumentAttachments(pdf_api *asposepdfcloud.PdfApiService, document_name string, remote_folder string) {
+    func appendAttachment(pdf_api *asposepdfcloud.PdfApiService, document_name string, attachment_path string, description string, mime_type string, remote_folder string) {
         args := map[string]interface{}{
             "folder": remote_folder,
         }
-        result, httpResponse, err := pdf_api.GetDocumentAttachments(document_name, args)
+
+        attachment := asposepdfcloud.AttachmentInfo{
+            Path:        attachment_path,
+            Description: description,
+            Name:        attachment_path,
+            MimeType:    mime_type,
+        }
+
+        result, httpResponse, err := pdf_api.PostAddDocumentAttachment(document_name, attachment, args)
         if err != nil {
             fmt.Println(err.Error())
         } else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {

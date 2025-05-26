@@ -45,9 +45,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% /blocks/products/pf/agp/text %}}
 
 1. Uploading a PDF file to Aspose Cloud Storage.
-
 1. Converting the PDF to SVG format.
-
 1. Saving the output SVG in cloud storage.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
