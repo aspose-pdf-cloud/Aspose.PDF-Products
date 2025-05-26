@@ -102,7 +102,7 @@ Delete the Links from PDF documents with [Aspose.PDF Cloud Go SDK](https://produ
 + Replace single or multiple instances of text on a PDF page or from the entire document.
 + Extensive support for converting PDF documents to various other file formats.
 + Extract various elements of PDF files & make PDF documents optimized.
-+ You can try out our [free App](https://products.aspose.app/pdf/xfa) to test the functionality.
++ You can try out our [free App](https://products.aspose.app/pdf/) to test the functionality.
 
 {{% /blocks/products/pf/agp/content %}}
 
