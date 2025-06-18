@@ -148,6 +148,8 @@ Metadata also improves file search by allowing you to search by keywords and att
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
+{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
+
 {{< /blocks/products/pf/offers-section >}}
 
 <!-- aboutfile Ends -->

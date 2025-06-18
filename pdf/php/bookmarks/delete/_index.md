@@ -177,6 +177,8 @@ Remove the Bookmarks from PDF documents with [Aspose.PDF Cloud PHP SDK](https://
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
+{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
+
 {{< /blocks/products/pf/offers-section >}}
 
 <!-- aboutfile Ends -->
