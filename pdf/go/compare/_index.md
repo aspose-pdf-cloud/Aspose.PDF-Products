@@ -1,12 +1,12 @@
 ---
-title: Create PDF via Cloud Go SDK 
-url: /go/create/
-description: Aspose.PDF Cloud allows you to create PDF Document. Check the Go source code to create PDF file.
-lastmod: "2025-05-19"
+title: Compare PDF via Cloud Go SDK 
+url: /go/compare/
+description: Aspose.PDF Cloud allows you to compare PDF documents. Check the Go source code to compare PDF files.
+lastmod: "2025-06-19"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Make PDF in Go SDK" h2="API for working with creating PDF documents using Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Compare PDF files in Go SDK" h2="API for working with creating PDF documents using Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Go SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg"
