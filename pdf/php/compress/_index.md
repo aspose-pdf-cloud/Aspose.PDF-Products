@@ -49,12 +49,12 @@ Aspose.PDF Cloud developers can easily load & optimize PDF in just a few lines o
 
 ```php
 
-    require __DIR__.'\..\..\vendor\autoload.php';
+    require __DIR__.'vendor\autoload.php';
 
     use Aspose\PDF\Configuration;
     use Aspose\PDF\Api\PdfApi;
 
-    $credentials = json_decode(file_get_contents(__DIR__ . '/../../../Credentials/credentials.json'), true);
+    $credentials = json_decode(file_get_contents(__DIR__ . 'credentials.json'), true);
 
     $configParams = [
         "LOCAL_FOLDER" => "C:\\Samples\\",
@@ -69,7 +69,7 @@ Aspose.PDF Cloud developers can easily load & optimize PDF in just a few lines o
         private $configParams;
 
         private function _create_rest_api() {
-            $credentials = json_decode(file_get_contents("../../../../Credentials/credentials.json"), true);
+            $credentials = json_decode(file_get_contents("credentials.json"), true);
 
             $configAuth = new Configuration();
             $configAuth->setAppKey($credentials['key']);

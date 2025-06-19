@@ -68,10 +68,7 @@ Aspose.PDF Cloud developers can easily load & create PDF in just a few lines of 
         LOCAL_FOLDER := "c:\\Samples"
         PDF_DOCUMENT := "output_created_simple.pdf"
 
-        AppSID := "*******"
-        AppKey := "*******"
-
-        pdfApi := asposepdfcloud.NewPdfApiService(AppSID, AppKey, "")
+        // Initialize the Aspose.PDF API Client here.
         _, httpResponse, err := pdfApi.PutCreateDocument(PDF_DOCUMENT, nil)
         if err != nil {
             fmt.Println(err.Error())

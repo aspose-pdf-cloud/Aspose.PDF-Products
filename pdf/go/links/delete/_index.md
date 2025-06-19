@@ -44,8 +44,8 @@ Aspose.PDF Cloud Go developers can easily remove Links from PDF documents. Devel
 {{% /blocks/products/pf/agp/text %}}
 
 1. Upload the PDF document to the Aspose PDF Cloud service
-1. Retrieve the link annotation from the PDF document
-1. Create a map of arguments for the DeleteLinkAnnotation API call
+1. Retrieve the link annotation from the PDF document using 'getLink' function
+1. Create a map with optional settings (like folder in a Cloud storage) for the DeleteLinkAnnotation API call
 1. Call the DeleteLinkAnnotation API to remove the link annotation
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

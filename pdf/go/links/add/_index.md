@@ -43,8 +43,13 @@ Aspose.PDF Cloud Go developers can easily append Links to PDF documents. Develop
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Create a link object for the link annotation.
+1. Create object with LinkAnnotation type .
+1. Set specific properties:
+    - Links: set Link object with HyperLink value
+    - ActionType
+    - Action
 1. Create a link annotation object with the specified properties.
+1. 
 1. Call the PostPageLinkAnnotations API to add the link annotation to the PDF document.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

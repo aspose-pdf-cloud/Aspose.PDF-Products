@@ -54,7 +54,7 @@ Aspose.PDF Cloud developers can easily load & optimize PDF in just a few lines o
 1. Define Config Class
 1. Initialize the PDF API Client
 1. Upload the PDF Document
-1. Compress the PDF Document
+1. Compress the PDF Document (in this example we compress images and reduce their quality, you can set other params if need it). Checks the Documentation Pages, if you need details.
 1. Download the Resulting PDF
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -75,7 +75,7 @@ Aspose.PDF Cloud developers can easily load & optimize PDF in just a few lines o
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"../../../Credentials/credentials.json")
+        CREDENTIALS_FILE = Path(r"Credentials/credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         TEMP_FOLDER = 'TempPdfCloud'
         PDF_DOCUMENT_NAME = "sample.pdf"
@@ -127,11 +127,11 @@ Aspose.PDF Cloud developers can easily load & optimize PDF in just a few lines o
                 optimize_options = OptimizeOptions(
                     allow_reuse_page_content=False,
                     compress_images=True,
-                    image_quality=100,
-                    link_duplcate_streams=True,
-                    remove_unused_objects=True,
-                    remove_unused_streams=True,            
-                    unembed_fonts=True
+                    image_quality=75,
+                    link_duplcate_streams=False,
+                    remove_unused_objects=False,
+                    remove_unused_streams=False,            
+                    unembed_fonts=False
                 )        
             opts = {
                 "options" : optimize_options,

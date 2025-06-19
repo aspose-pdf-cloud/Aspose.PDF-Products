@@ -43,7 +43,6 @@ Aspose.PDF Cloud developers can easily load & decrypt PDF in just a few lines of
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Initialize the Aspose.PDF API Client.
 1. Upload the Encrypted PDF.
 1. Decrypt the PDF using the PostDecryptDocumentInStorage method.
 1. Download the Decrypted PDF.

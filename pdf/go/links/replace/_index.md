@@ -45,7 +45,7 @@ Aspose.PDF Cloud Go developers can easily replace Links in PDF documents. Develo
 
 1. Retrieve the existing link annotation from the PDF document.
 1. Extract the existing link annotations and display them.
-1. Create a new link object with the updated action.
+1. Create a new link object.
 1. Update the link annotation in the PDF document.
 1. Download the updated PDF document.
 
