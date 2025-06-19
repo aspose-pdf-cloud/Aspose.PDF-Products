@@ -63,41 +63,47 @@ APIs can be done with just few lines of code.
 
 ```go
 
-    package main
+package main
 
-    import (
-        "fmt"
-        "path"
+import (
+  "fmt"
+  "path"
 
-        asposepdfcloud "github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25"
-    )
+  asposepdfcloud "github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25"
+)
 
-    func mergeDocuments(pdf_api *asposepdfcloud.PdfApiService, output_name string, remote_folder string) {
-        names := []string{PDF_DOCUMENT, PDF_DOCUMENT_2, PDF_DOCUMENT_3}
-
-        mergeDocuments := asposepdfcloud.MergeDocuments{
-            List: []string{},
-        }
-
-        for _, name := range names {
-            uploadFile(pdf_api, name)
-            mergeDocuments.List = append(mergeDocuments.List, path.Join(remote_folder, name))
-        }
-
-        args := map[string]interface{}{
-            "folder": remote_folder,
-        }
-
-        result, httpResponse, err := pdf_api.PutMergeDocuments(output_name, mergeDocuments, args)
-
-        if err != nil {
-            fmt.Println(err.Error())
-        } else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
-            fmt.Println("Unexpected error!")
-        } else {
-            fmt.Println(result)
-        }
-    }
+func mergeDocuments(pdfAPI *asposepdfcloud.PdfApiService, outputName, remoteFolder string) {
+  // Define document names to merge
+  names := []string{PDF_DOCUMENT, PDF_DOCUMENT_2, PDF_DOCUMENT_3}
+  
+  // Initialize merge request with empty list
+  mergeRequest := asposepdfcloud.MergeDocuments{List: []string{}}
+  
+  // Upload files and add their paths to the merge list
+  for _, name := range names {
+    uploadFile(pdfAPI, name)
+    mergeRequest.List = append(mergeRequest.List, path.Join(remoteFolder, name))
+  }
+  
+  // Execute merge operation
+  result, httpResponse, err := pdfAPI.PutMergeDocuments(outputName, mergeRequest, map[string]interface{}{
+    "folder": remoteFolder,
+  })
+  
+  // Handle response
+  if err != nil {
+    fmt.Println(err.Error())
+    return
+  }
+  
+  if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
+    fmt.Printf("HTTP error: %d\n", httpResponse.StatusCode)
+    return
+  }
+  
+  fmt.Println(result)
+}
+  
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
