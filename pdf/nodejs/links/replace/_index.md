@@ -143,7 +143,7 @@ Aspose.PDF Cloud developers can easily load & replace Links in PDF in just a few
 {{% blocks/products/pf/agp/content h2="Work with Links in PDF" %}}
 
 By regularly reviewing and updating the hyperlinks in your PDF documents, you can maintain their relevance, accuracy, and security, thereby providing a better experience for your readers.
-Replacethe Links in PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/).
+Replace the Links in PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/).
 
 **With our Node.js library you can:**
 
