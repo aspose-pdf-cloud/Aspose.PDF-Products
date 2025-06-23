@@ -6,11 +6,11 @@ url: /aws
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Run Aspose.PDF Cloud in Your AWS" h2="Host the full PDF REST API inside your own ECS or EKS cluster. Secure, scalable, and ready to integrate into any workflow." logoImageSrc="/headers/aspose_pdf-for-aws.svg" pfName="Aspose.PDF"subTitlepfName="for AWS"downloadUrl="">}}
+{{< blocks/products/pf/upper-banner h1="Run Aspose.PDF Cloud in Your AWS" h2="Host the full PDF REST API inside your own ECS or EKS cluster. Secure, scalable, and ready to integrate into any workflow." logoImageSrc="/headers/aspose_pdf-for-aws.svg" pfName="Aspose.PDF" subTitlepfName="for AWS"downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for AWS" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-aws.svg" liveDemosLink="" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" buyLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" docsLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" directDownloadLink="">}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-aws.svg" liveDemosLink="https://products.aspose.app/pdf/" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/seller-profile?id=24936347-2ced-4b2a-a28d-c55b1a54df77" docsLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk">}}
 
 {{< blocks/products/pf/tab-content >}}
 <p><strong>Aspose.PDF for AWS</strong> is a powerful REST API server deployed as a container on your own AWS account. Use it to process PDF documents in your internal apps—just like you would on <a href="https://products.aspose.app/pdf/" target="_blank">Aspose free apps</a> or <a href="https://docs.aspose.cloud/pdf/" target="_blank">Aspose Cloud</a>, but now fully private, secure, and scalable.</p>
@@ -37,7 +37,7 @@ url: /aws
     </div>
   </div>
   <div class="d1-logo">
-    <img src="/sdk/aspose_pdf-for-aws.svg" alt="Aspose PDF AWS">
+    <img src="/sdk/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
     <header>Aspose.PDF</header>
     <footer>for AWS</footer>
   </div>
@@ -53,7 +53,7 @@ url: /aws
   <li>Extract text, images, bookmarks, fonts</li>
   <li>Fill, flatten, or generate PDF forms</li>
 </ul>
-<p>Every feature from <a href="https://products.aspose.app/pdf/">Aspose.PDF Apps</a> and <a href="https://docs.aspose.cloud/pdf/">Aspose Cloud</a> is available inside this AWS container—hosted by you.</p>
+<p>Every feature from <a href="https://products.aspose.app/pdf/">Aspose.PDF Apps</a> is available inside this AWS container—hosted by you.</p>
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Quick Start in 3 Steps" >}}
