@@ -6,11 +6,11 @@ url: /go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Implement PDF workflows in Go SDK" h2="Go lang SDK to access cloud PDF documents for merging, splitting, encrypting, watermarking, annotating & converting to other formats via REST API." logoImageSrc="/headers/aspose_pdf-for-go.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="Implement PDF workflows in Go SDK" h2="Go lang SDK to access cloud PDF documents for merging, splitting, encrypting, watermarking, annotating & converting to other formats via REST API." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-node.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" downloadUrl="" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-go.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Go SDK helps you build PDF generator, annotator, and converter apps for the cloud, using the Go programming language. Aspose.PDF Cloud SDK for Go is available under MIT license and is based on Aspose.PDF REST API.</p>
@@ -38,7 +38,7 @@ url: /go
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-go.svg" alt="Go PDF SDK"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Go</footer></div>
+<div class="d1-logo"><img src="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" alt="Go PDF SDK"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Go</footer></div>
 <!--/logo--></div>
 <!--/diagram1-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -54,7 +54,7 @@ url: /go
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-go.svg" alt="Go Cloud SDK for PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Go</footer></div>
+<div class="d1-logo"><img src="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" alt="Go Cloud SDK for PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Go</footer></div>
 <!--/logo--></div>
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -208,7 +208,7 @@ url: /go
 	
 	{{< blocks/products/pf/offers-section-item link="/pdf/swift/" imgSrc="/sdk/aspose_pdf-for-swift.svg" platform="Swift" >}}
 	
-	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
+	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 	
 {{< /blocks/products/pf/offers-section >}}
 
