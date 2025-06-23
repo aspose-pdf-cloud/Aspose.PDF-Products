@@ -146,7 +146,7 @@ Remove the Text from PDF documents with [Aspose.PDF Cloud PHP SDK](https://produ
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-aws.svg" platform="AWS" >}}
+{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

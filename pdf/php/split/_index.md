@@ -184,7 +184,7 @@ It is easy to get started with Aspose.PDF Cloud PHP SDK and there is nothing to 
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-aws.svg" platform="AWS" >}}
+{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
