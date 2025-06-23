@@ -6,7 +6,7 @@ url: /aws
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Run Aspose.PDF Cloud in Your AWS" h2="Host the full PDF REST API inside your own ECS or EKS cluster. Secure, scalable, and ready to integrate into any workflow." logoImageSrc="/headers/aspose_pdf-for-aws.svg" pfName="Aspose.PDF" subTitlepfName="for AWS"downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
+{{< blocks/products/pf/upper-banner h1="Run Aspose.PDF Cloud in Your AWS" h2="Host the full PDF REST API inside your own ECS or EKS cluster. Secure, scalable, and ready to integrate into any workflow." logoImageSrc="/headers/aspose_pdf-for-aws.svg" pfName="Aspose.PDF" subTitlepfName="for AWS" downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for AWS" >}}
 
