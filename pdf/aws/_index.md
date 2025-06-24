@@ -1,4 +1,5 @@
-﻿title: Run Aspose.PDF REST API in AWS with Pay-as-You-Go Agility | ECS & EKS Ready
+﻿---
+title: Run Aspose.PDF REST API in AWS with Pay-as-You-Go Agility | ECS & EKS Ready
 description: Ditch rigid licenses. Deploy the full Aspose.PDF REST API inside your AWS ECS or EKS cluster—scale on demand, control infrastructure, and only pay when you process.
 weight: 120
 url: /aws
@@ -15,7 +16,11 @@ url: /aws
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for AWS" >}}
 
+<<<<<<< HEAD
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-aws.svg" liveDemosLink="https://products.aspose.app/pdf/" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/seller-profile?id=24936347-2ced-4b2a-a28d-c55b1a54df77" docsLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk">}}
+=======
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+>>>>>>> bcfe446c4926289eb59f240d1d59cf15de20a8df
 
 {{< blocks/products/pf/tab-content >}}
 <p>Enterprise teams often struggle with rigid SDK licensing that can't adapt to unpredictable workloads. In fast-moving environments—during audits, end-of-quarter cycles, or bulk user onboarding—those limits drive both cost and complexity.</p>
@@ -35,11 +40,11 @@ url: /aws
     <div class="d1-col d1-right">
       <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
       <ul>
-        <li>Deploy inside your VPC—no public traffic, no leaks</li>
-        <li>Use IAM, HTTPS, and private endpoints out of the box</li>
-        <li>Compatible with any backend—Node.js, Python, .NET, and more</li>
+        <li>Deploy inside your VPC</li>
+        <li>No public traffic, no leaks</li>
+        <li>Use IAM, HTTPS</li>
+        <li>Compatible with any<br> backend:<br>Node.js<br>Python<br>.NET<br>and more</li>
         <li>Direct REST API access—no proprietary SDK lock-in</li>
-        <li>Trusted for compliance, audits, and sensitive pipelines</li>
       </ul>
       <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
     </div>
@@ -53,25 +58,37 @@ url: /aws
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Use the Full Feature Set Without Guesswork" >}}
-<ul>
-  <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
-  <li>Edit: Merge, split, reorder, redact, extract elements</li>
-  <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
-  <li>Automate: Fill forms, flatten fields, build custom templates</li>
-  <li>Analyze: OCR text, extract metadata, structure, fonts</li>
-</ul>
-<p>You’ve already invested in your PDF logic—don't let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-right">
+      	<header><i class="fa fa-lock"></i>All popular formats supported</header>
+      	<ul>
+	  <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
+	  <li>Edit: Merge, split, reorder, redact, extract elements</li>
+	  <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
+	  <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
+      	</ul>
+      	<p>You’ve already invested in your PDF logic—don't let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
+   </div>
+  </div>
+</div>
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Get Started Fast—Scale Even Faster" >}}
-<ol>
-  <li><strong>Subscribe</strong> on AWS Marketplace</li>
-  <li><strong>Deploy</strong> the container into ECS or EKS</li>
-  <li><strong>Connect</strong> via REST endpoints from any app</li>
-</ol>
-<p>Launch PDF microservices in under 10 minutes—no SDK rewrites or onboarding friction. Whether it’s a daily task or a one-time spike of 100K docs, the architecture adapts. And the billing stops when your container does.</p>
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-right">
+      <header><i class="fa fa-lock"></i>Get Started Fast—Scale Even Faster with AWS clusters</header>
+      <ul>
+	  <li>Subscribe: on AWS Marketplace</li>
+	  <li>Deploy: to the container or Kybernetes elastic cluster</li>
+	  <li>Connect: via REST endpoints from any app</li>
+      </ul>
+      <p>Launch PDF microservices in under 10 minutes—no SDK rewrites for teams that already in AWS. Whether it’s a daily task or a one-time spike of 100K docs, the architecture adapts. And the billing stops when your container does.</p>
+    </div>
+  </div>
+</div>
 {{< /blocks/products/pf/carousel-item >}}
-
 {{< /blocks/products/pf/carousel >}}
 
 <div class="container-fluid features-section bg-gray singleproduct">
@@ -80,7 +97,7 @@ url: /aws
     <div class="container">
       <h2 class="pr-ft">Why Host Aspose.PDF in Your Cloud?</h2>
       <div class="col-lg-4"><em class="fa fa-shield ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Run privately inside your AWS infrastructure</p></div>
-      <div class="col-lg-4"><em class="fa fa-docker ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Deploy via containers on ECS or EKS—no manual setup</p></div>
+      <div class="col-lg-4"><em class="fa fa-server ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Deploy via containers on ECS or EKS—no manual setup</p></div>
       <div class="col-lg-4"><em class="fa fa-server ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Boots instantly, idles automatically, scales to match load</p></div>
       <div class="col-lg-4"><em class="fa fa-code ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Call the API from any language—no vendor SDKs required</p></div>
 <div class="col-lg-4"><em class="fa fa-clock-o ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Designed for unpredictable spikes—run only when needed</p></div>
@@ -89,6 +106,18 @@ url: /aws
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    document.querySelectorAll('a.btn-primary[href="https://purchase.aspose.cloud/buy"]')
+      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:");
+    
+    document.querySelectorAll('a.btn-warning[href="https://dashboard.aspose.cloud"]')
+      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo");
+  }, 1000);
+});
+</script>
 
 {{< blocks/products/pf/support-learning-resources >}}
 
@@ -106,8 +135,8 @@ url: /aws
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/download-section 
-    downloadFreeTrialLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" 
-    pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" >}}
+    downloadFreeTrialLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo" 
+    pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
