@@ -51,7 +51,7 @@ Create or import PDF files in the cloud via Swift REST SDK & perform various ope
 Enable your Go lang app code to utilize basic to advanced cloud PDF processing features.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="/sdk/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
 Extend the power of your own AWS cluster with a on-premise REST API container for PDF processing.
 {{< /blocks/products/pf/product >}}
 
