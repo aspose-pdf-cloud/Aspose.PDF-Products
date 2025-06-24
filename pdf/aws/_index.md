@@ -16,7 +16,7 @@ url: /aws
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for AWS" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-python.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Enterprise teams often struggle with rigid SDK licensing that can't adapt to unpredictable workloads. In fast-moving environments—during audits, end-of-quarter cycles, or bulk user onboarding—those limits drive both cost and complexity.</p>
@@ -36,11 +36,11 @@ url: /aws
     <div class="d1-col d1-right">
       <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
       <ul>
-        <li>Deploy inside your VPC—no public traffic, no leaks</li>
-        <li>Use IAM, HTTPS,<br>and private endpoints<br>out of the box</li>
+        <li>Deploy inside your VPC</li>
+        <li>No public traffic, no leaks</li>
+        <li>Use IAM, HTTPS</li>
         <li>Compatible with any<br> backend:<br>Node.js<br>Python<br>.NET<br>and more</li>
         <li>Direct REST API access—no proprietary SDK lock-in</li>
-        <li>Trusted for compliance, audits, and sensitive pipelines</li>
       </ul>
       <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
     </div>
@@ -62,8 +62,7 @@ url: /aws
 	  <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
 	  <li>Edit: Merge, split, reorder, redact, extract elements</li>
 	  <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
-	  <li>Automate: Fill forms, flatten fields, build custom templates</li>
-	  <li>Analyze: OCR text, extract metadata, structure, fonts</li>
+	  <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
       	</ul>
       	<p>You’ve already invested in your PDF logic—don't let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
    </div>
@@ -94,7 +93,7 @@ url: /aws
     <div class="container">
       <h2 class="pr-ft">Why Host Aspose.PDF in Your Cloud?</h2>
       <div class="col-lg-4"><em class="fa fa-shield ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Run privately inside your AWS infrastructure</p></div>
-      <div class="col-lg-4"><em class="fa fa-docker ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Deploy via containers on ECS or EKS—no manual setup</p></div>
+      <div class="col-lg-4"><em class="fa fa-server ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Deploy via containers on ECS or EKS—no manual setup</p></div>
       <div class="col-lg-4"><em class="fa fa-server ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Boots instantly, idles automatically, scales to match load</p></div>
       <div class="col-lg-4"><em class="fa fa-code ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Call the API from any language—no vendor SDKs required</p></div>
 <div class="col-lg-4"><em class="fa fa-clock-o ico-blue fa-2x col-lg-2"></em><p class="col-lg-10">Designed for unpredictable spikes—run only when needed</p></div>
@@ -120,8 +119,8 @@ url: /aws
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/download-section 
-    downloadFreeTrialLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" 
-    pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" >}}
+    downloadFreeTrialLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo" 
+    pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
