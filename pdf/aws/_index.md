@@ -62,7 +62,7 @@ url: /aws
   <li><strong>Deploy</strong> the container to ECS or EKS</li>
   <li><strong>Connect</strong> using REST calls from any app</li>
 </ol>
-<p>You're up and running in minutes—without writing custom SDK code. See full setup in the <a href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/">docs</a>.</p>
+<p>You're up and running in minutes—without writing custom SDK code. See full setup in the <a href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#client-sdks">docs</a>.</p>
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
