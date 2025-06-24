@@ -13,7 +13,7 @@ url: /aws
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" liveDemosLink="https://products.aspose.app/pdf/" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/seller-profile?id=24936347-2ced-4b2a-a28d-c55b1a54df77" docsLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk">}}
 
 {{< blocks/products/pf/tab-content >}}
-<p><strong>Aspose.PDF for AWS</strong> is a powerful REST API server deployed as a container on your own AWS account. Use it to process PDF documents in your internal apps—just like you would on <a href="https://products.aspose.app/pdf/" target="_blank">Aspose free apps</a> or <a href="https://docs.aspose.cloud/pdf/" target="_blank">Aspose Cloud</a>, but now fully private, secure, and scalable.</p>
+<p><strong>Aspose.PDF for AWS</strong> is a powerful REST API server deployed as a container on your own AWS account. Use it to process PDF documents in your internal apps—just like you would on <a href="https://products.aspose.app/pdf/" target="_blank">Aspose free apps</a>, but now fully private, secure, and scalable.</p>
 
 <p>Host the same technology used in <strong>PDF conversion, merging, editing, OCR, signing, watermarking</strong> and more—directly inside your ECS or EKS cluster. No third-party calls, no external API keys, and no public network exposure if you choose.</p>
 
@@ -85,9 +85,9 @@ url: /aws
 {{< blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Documentation" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Setup & Deployment" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" >}}
-{{< blocks/products/pf/slr-element name="API Reference (Swagger)" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#swagger" >}}
-{{< blocks/products/pf/slr-element name="Postman Samples" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#usage" >}}
+{{< blocks/products/pf/slr-element name="Setup & Deployment" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#installation" >}}
+{{< blocks/products/pf/slr-element name="API Reference (Swagger)" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#using-swagger-ui" >}}
+{{< blocks/products/pf/slr-element name="Samples for curl php dotnet java kotlin" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-features" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Support" tabId="support" >}}
@@ -97,7 +97,7 @@ url: /aws
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo" >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
