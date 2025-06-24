@@ -1,6 +1,5 @@
-﻿---
-title: Host Aspose.PDF REST API on Your AWS | ECS & EKS Ready
-description: Run Aspose.PDF Cloud API on your own AWS ECS or EKS cluster. Get the full PDF processing power—conversion, signing, merging—securely within your infrastructure.
+title: Run Aspose.PDF REST API in AWS with Pay-as-You-Go Agility | ECS & EKS Ready
+description: Ditch rigid licenses. Deploy the full Aspose.PDF REST API inside your AWS ECS or EKS cluster—scale on demand, control infrastructure, and only pay when you process.
 weight: 120
 url: /aws
 ---
