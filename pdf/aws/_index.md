@@ -103,6 +103,18 @@ url: /aws
   </div>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    document.querySelectorAll('a.btn-primary[href="https://purchase.aspose.cloud/buy"]')
+      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:");
+    
+    document.querySelectorAll('a.btn-warning[href="https://dashboard.aspose.cloud"]')
+      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo");
+  }, 1000);
+});
+</script>
+
 {{< blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Documentation" tabId="resources" >}}
