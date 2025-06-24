@@ -37,7 +37,7 @@ url: /aws
       <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
       <ul>
         <li>Deploy inside your VPC—no public traffic, no leaks</li>
-        <li>Use IAM, HTTPS, and private endpoints out of the box</li>
+        <li>Use IAM, HTTPS,<br>and private endpoints<br>out of the box</li>
         <li>Compatible with any<br> backend:<br>Node.js<br>Python<br>.NET<br>and more</li>
         <li>Direct REST API access—no proprietary SDK lock-in</li>
         <li>Trusted for compliance, audits, and sensitive pipelines</li>
@@ -75,10 +75,10 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-right">
-      <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
+      <header><i class="fa fa-lock"></i>Get Started Fast—Scale Even Faster with AWS clusters</header>
       <ul>
 	  <li>Subscribe: on AWS Marketplace</li>
-	  <li>Deploy: the container into ECS or EKS</li>
+	  <li>Deploy: to the container or Kybernetes elastic cluster</li>
 	  <li>Connect: via REST endpoints from any app</li>
       </ul>
       <p>Launch PDF microservices in under 10 minutes—no SDK rewrites for teams that already in AWS. Whether it’s a daily task or a one-time spike of 100K docs, the architecture adapts. And the billing stops when your container does.</p>
