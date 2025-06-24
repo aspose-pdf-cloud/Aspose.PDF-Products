@@ -1,4 +1,5 @@
-﻿title: Run Aspose.PDF REST API in AWS with Pay-as-You-Go Agility | ECS & EKS Ready
+﻿---
+title: Run Aspose.PDF REST API in AWS with Pay-as-You-Go Agility | ECS & EKS Ready
 description: Ditch rigid licenses. Deploy the full Aspose.PDF REST API inside your AWS ECS or EKS cluster—scale on demand, control infrastructure, and only pay when you process.
 weight: 120
 url: /aws
@@ -37,7 +38,7 @@ url: /aws
       <ul>
         <li>Deploy inside your VPC—no public traffic, no leaks</li>
         <li>Use IAM, HTTPS, and private endpoints out of the box</li>
-        <li>Compatible with any backend—Node.js, Python, .NET, and more</li>
+        <li>Compatible with any<br> backend:<br>Node.js<br>Python<br>.NET<br>and more</li>
         <li>Direct REST API access—no proprietary SDK lock-in</li>
         <li>Trusted for compliance, audits, and sensitive pipelines</li>
       </ul>
@@ -53,25 +54,38 @@ url: /aws
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Use the Full Feature Set Without Guesswork" >}}
-<ul>
-  <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
-  <li>Edit: Merge, split, reorder, redact, extract elements</li>
-  <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
-  <li>Automate: Fill forms, flatten fields, build custom templates</li>
-  <li>Analyze: OCR text, extract metadata, structure, fonts</li>
-</ul>
-<p>You’ve already invested in your PDF logic—don't let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-right">
+      	<header><i class="fa fa-lock"></i>All popular formats supported</header>
+      	<ul>
+	  <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
+	  <li>Edit: Merge, split, reorder, redact, extract elements</li>
+	  <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
+	  <li>Automate: Fill forms, flatten fields, build custom templates</li>
+	  <li>Analyze: OCR text, extract metadata, structure, fonts</li>
+      	</ul>
+      	<p>You’ve already invested in your PDF logic—don't let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
+   </div>
+  </div>
+</div>
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Get Started Fast—Scale Even Faster" >}}
-<ol>
-  <li><strong>Subscribe</strong> on AWS Marketplace</li>
-  <li><strong>Deploy</strong> the container into ECS or EKS</li>
-  <li><strong>Connect</strong> via REST endpoints from any app</li>
-</ol>
-<p>Launch PDF microservices in under 10 minutes—no SDK rewrites or onboarding friction. Whether it’s a daily task or a one-time spike of 100K docs, the architecture adapts. And the billing stops when your container does.</p>
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-right">
+      <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
+      <ul>
+	  <li>Subscribe: on AWS Marketplace</li>
+	  <li>Deploy: the container into ECS or EKS</li>
+	  <li>Connect: via REST endpoints from any app</li>
+      </ul>
+      <p>Launch PDF microservices in under 10 minutes—no SDK rewrites for teams that already in AWS. Whether it’s a daily task or a one-time spike of 100K docs, the architecture adapts. And the billing stops when your container does.</p>
+    </div>
+  </div>
+</div>
 {{< /blocks/products/pf/carousel-item >}}
-
 {{< /blocks/products/pf/carousel >}}
 
 <div class="container-fluid features-section bg-gray singleproduct">
