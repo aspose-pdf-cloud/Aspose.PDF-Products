@@ -107,10 +107,10 @@ url: /aws
 document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     document.querySelectorAll('a.btn-primary[href="https://purchase.aspose.cloud/buy"]')
-      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:");
+      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo");
     
     document.querySelectorAll('a.btn-warning[href="https://dashboard.aspose.cloud"]')
-      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo");
+      .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo");
   }, 1000);
 });
 </script>
