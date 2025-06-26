@@ -34,7 +34,10 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-left">
-      <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
+      <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
+    </div>
+    <div class="d1-col d1-right">
+    <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
       <ul>
         <li>Deploy inside your VPC</li>
         <li>No public traffic, no leaks</li>
@@ -42,9 +45,6 @@ url: /aws
         <li>Compatible with Node.js, Python, .NET</li>
         <li>Direct REST API access</li>
       </ul>
-    </div>
-    <div class="d1-col d1-right">
-      <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
     </div>
   </div>
 </div>
@@ -54,6 +54,8 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-left">
+    </div>
+    <div class="d1-col d1-right">
       <header><i class="fa fa-check-square"></i> All Popular Formats Supported</header>
       <ul>
         <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
@@ -62,7 +64,6 @@ url: /aws
         <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
       </ul>
     </div>
-    <div class="d1-col d1-right"></div>
   </div>
   <div class="d1-logo">
     <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
