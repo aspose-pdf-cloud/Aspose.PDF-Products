@@ -33,8 +33,7 @@ url: /aws
 {{< blocks/products/pf/carousel-item h3="Bring PDF Cloud Power to Your VPC" >}}
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
-    <div class="d1-col d1-left">
-      <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
+    <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
       <ul>
         <li>Deploy inside your VPC</li>
         <li>No public traffic, no leaks</li>
@@ -42,10 +41,9 @@ url: /aws
         <li>Compatible with any backend:<br>Node.js, Python, .NET, and more</li>
         <li>Direct REST API access — no proprietary SDK lock-in</li>
       </ul>
-    </div>
-    <div class="d1-col d1-rigt">
-      <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
-    </div>
+  </div>
+  <div class="d1-row d1-bottom">
+    <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
@@ -60,18 +58,14 @@ url: /aws
         <li>Edit: Merge, split, reorder, redact, extract elements</li>
         <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
         <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
-      </ul>      
+      </ul>
     </div>
-    <div class="d1-col d1-right">
-    </div>
+    <div class="d1-col d1-right"></div>
   </div>
   <div class="d1-logo">
     <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
     <header>Aspose.PDF</header>
     <footer>for AWS</footer>
-  </div>
-  <div class="d1-row">
-    <p>You’ve already invested in your PDF logic — don’t let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
@@ -79,17 +73,15 @@ url: /aws
 {{< blocks/products/pf/carousel-item h3="Get Started Fast—Scale Even Faster" >}}
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
-    <div class="d1-col d1-left">
-      <p>Launch PDF microservices in under 10 minutes. Whether it’s daily operations or a 100K-doc spike, the infrastructure adapts — and your billing stops when your container stops.</p>
-    </div>
-    <div class="d1-col d1-right">
-      <header><i class="fa fa-rocket"></i>Deploy in Minutes — Scale in Seconds</header>
+    <header><i class="fa fa-rocket"></i>Deploy in Minutes — Scale in Seconds</header>
       <ul>
         <li>Subscribe: via AWS Marketplace</li>
         <li>Deploy: to containers or Kubernetes elastic clusters</li>
         <li>Connect: via REST from any app</li>
       </ul>
-    </div>
+  </div>
+  <div class="d1-row d1-bottom">
+    <p>Launch PDF microservices in under 10 minutes. Whether it’s daily operations or a 100K-doc spike, the infrastructure adapts — and your billing stops when your container stops.</p>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
