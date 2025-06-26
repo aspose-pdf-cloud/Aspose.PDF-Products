@@ -9,7 +9,7 @@ url: /aws
 {{< blocks/products/pf/upper-banner 
     h1="Host Aspose.PDF for AWS with the Flexibility of Your Cloud" 
     h2="Deploy the full PDF REST API inside your ECS or EKS cluster. Adapt instantly to demand spikes, stay secure, and only pay when containers run." 
-    logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" 
+    logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws-l.svg" 
     pfName="Aspose.PDF" 
     subTitlepfName="for AWS" 
     downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
@@ -39,8 +39,8 @@ url: /aws
         <li>Deploy inside your VPC</li>
         <li>No public traffic, no leaks</li>
         <li>Use IAM, HTTPS</li>
-        <li>Compatible with any<br> backend:<br>Node.js<br>Python<br>.NET<br>and more</li>
-        <li>Direct REST API access—no proprietary SDK lock-in</li>
+        <li>Compatible with any backend:<br>Node.js, Python, .NET, and more</li>
+        <li>Direct REST API access — no proprietary SDK lock-in</li>
       </ul>
       <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
     </div>
@@ -57,15 +57,20 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-right">
-      	<header><i class="fa fa-lock"></i>All popular formats supported</header>
-      	<ul>
-	  <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
-	  <li>Edit: Merge, split, reorder, redact, extract elements</li>
-	  <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
-	  <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
-      	</ul>
-      	<p>You’ve already invested in your PDF logic—don't let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
-   </div>
+      <header><i class="fa fa-check-square"></i>All Popular Formats Supported</header>
+      <ul>
+        <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
+        <li>Edit: Merge, split, reorder, redact, extract elements</li>
+        <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
+        <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
+      </ul>
+      <p>You’ve already invested in your PDF logic — don’t let licensing throttles hold you back. Aspose.PDF for AWS gives you the <strong>entire feature set</strong> in every deployment, without artificial caps or upgrade walls.</p>
+    </div>
+  </div>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
@@ -74,14 +79,19 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-right">
-      <header><i class="fa fa-lock"></i>Get Started Fast—Scale Even Faster with AWS clusters</header>
+      <header><i class="fa fa-rocket"></i>Deploy in Minutes — Scale in Seconds</header>
       <ul>
-	  <li>Subscribe: on AWS Marketplace</li>
-	  <li>Deploy: to the container or Kybernetes elastic cluster</li>
-	  <li>Connect: via REST endpoints from any app</li>
+        <li>Subscribe: via AWS Marketplace</li>
+        <li>Deploy: to containers or Kubernetes elastic clusters</li>
+        <li>Connect: via REST from any app</li>
       </ul>
-      <p>Launch PDF microservices in under 10 minutes—no SDK rewrites for teams that already in AWS. Whether it’s a daily task or a one-time spike of 100K docs, the architecture adapts. And the billing stops when your container does.</p>
+      <p>Launch PDF microservices in under 10 minutes. Whether it’s daily operations or a 100K-doc spike, the infrastructure adapts — and your billing stops when your container stops.</p>
     </div>
+  </div>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
