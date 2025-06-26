@@ -33,6 +33,7 @@ url: /aws
 {{< blocks/products/pf/carousel-item h3="Bring PDF Cloud Power to Your VPC" >}}
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
+    <div class="d1-col d1-left"></div> <!-- Empty left column to keep layout aligned -->
     <div class="d1-col d1-right">
       <header><i class="fa fa-lock"></i>When Control Matters, Go Internal</header>
       <ul>
@@ -56,6 +57,7 @@ url: /aws
 {{< blocks/products/pf/carousel-item h3="Use the Full Feature Set Without Guesswork" >}}
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
+    <div class="d1-col d1-left"></div> <!-- Fix for layout -->
     <div class="d1-col d1-right">
       <header><i class="fa fa-check-square"></i>All Popular Formats Supported</header>
       <ul>
@@ -78,6 +80,7 @@ url: /aws
 {{< blocks/products/pf/carousel-item h3="Get Started Fast—Scale Even Faster" >}}
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
+    <div class="d1-col d1-left"></div> <!-- Fix for layout -->
     <div class="d1-col d1-right">
       <header><i class="fa fa-rocket"></i>Deploy in Minutes — Scale in Seconds</header>
       <ul>
