@@ -28,70 +28,82 @@ url: /aws
 <p><em>No long-term commitments, no wasted resources—just a PDF engine you switch on like electricity.</em></p>
 {{< /blocks/products/pf/tab-content >}}
 
-{{< blocks/products/pf/carousel >}}
-
-{{< blocks/products/pf/carousel-item h3="Bring PDF Cloud Power to Your VPC" >}}
-<div class="diagram1 d1-cloud">
-  <div class="d1-row">
-    <div class="d1-col d1-left">
-      <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
+<div class="row">
+  <div class="col-md-4">
+    <div class="list-group" id="awsTabList" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="tab1-tab" data-toggle="list" href="#tab1" role="tab">
+        <strong>At a Glance</strong>
+      </a>
+      <a class="list-group-item list-group-item-action" id="tab2-tab" data-toggle="list" href="#tab2" role="tab">
+        <strong>Supported File Formats</strong>
+      </a>
+      <a class="list-group-item list-group-item-action" id="tab3-tab" data-toggle="list" href="#tab3" role="tab">
+        <strong>Platform Independence</strong>
+      </a>
     </div>
-    <div class="d1-col d1-right">
-    <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
-      <ul>
-        <li>Deploy inside your VPC</li>
-        <li>No public traffic, no leaks</li>
-        <li>Use IAM, HTTPS</li>
-        <li>Compatible with Node.js, Python, .NET</li>
-        <li>Direct REST API access</li>
-      </ul>
+  </div>
+
+  <div class="col-md-8">
+    <div class="tab-content" id="awsTabContent">
+      <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+        <div class="diagram1 d1-cloud">
+          <div class="d1-row">
+            <div class="d1-col d1-left">
+              <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
+            </div>
+            <div class="d1-col d1-right">
+              <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
+              <ul>
+                <li>Deploy inside your VPC</li>
+                <li>No public traffic, no leaks</li>
+                <li>Use IAM, HTTPS</li>
+                <li>Compatible with Node.js, Python, .NET</li>
+                <li>Direct REST API access</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+        <div class="diagram1 d1-cloud">
+          <div class="d1-row">
+            <div class="d1-col d1-left"></div>
+            <div class="d1-col d1-right">
+              <header><i class="fa fa-check-square"></i> All Popular Formats Supported</header>
+              <ul>
+                <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
+                <li>Edit: Merge, split, reorder, redact, extract elements</li>
+                <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
+                <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+        <div class="diagram1 d1-cloud">
+          <div class="d1-row">
+            <div class="d1-col d1-left">
+              <p>Launch PDF microservices in under 10 minutes. Whether it’s daily operations or a 100K-doc spike, the infrastructure adapts — and your billing stops when your container stops.</p>
+            </div>
+            <div class="d1-col d1-right">
+              <header><i class="fa fa-rocket"></i> Deploy in Minutes — Scale in Seconds</header>
+              <ul>
+                <li>Subscribe: via AWS Marketplace</li>
+                <li>Deploy: to containers or Kubernetes clusters</li>
+                <li>Connect: via REST from any app</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
-{{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Use the Full Feature Set Without Guesswork" >}}
-<div class="diagram1 d1-cloud">
-  <div class="d1-row">
-    <div class="d1-col d1-left">
-    </div>
-    <div class="d1-col d1-right">
-      <header><i class="fa fa-check-square"></i> All Popular Formats Supported</header>
-      <ul>
-        <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
-        <li>Edit: Merge, split, reorder, redact, extract elements</li>
-        <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
-        <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
-      </ul>
-    </div>
-  </div>
-  <div class="d1-logo">
-    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
-    <header>Aspose.PDF</header>
-    <footer>for AWS</footer>
-  </div>
-</div>
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< blocks/products/pf/carousel-item h3="Get Started Fast—Scale Even Faster" >}}
-<div class="diagram1 d1-cloud">
-  <div class="d1-row">
-    <div class="d1-col d1-left">
-      <p>Launch PDF microservices in under 10 minutes. Whether it’s daily operations or a 100K-doc spike, the infrastructure adapts — and your billing stops when your container stops.</p>
-    </div>
-    <div class="d1-col d1-right">
-      <header><i class="fa fa-rocket"></i> Deploy in Minutes — Scale in Seconds</header>
-      <ul>
-        <li>Subscribe: via AWS Marketplace</li>
-        <li>Deploy: to containers or Kubernetes clusters</li>
-        <li>Connect: via REST from any app</li>
-      </ul>
-    </div>
-  </div>
-</div>
-{{< /blocks/products/pf/carousel-item >}}
-
-{{< /blocks/products/pf/carousel >}}
 
 
 <div class="container-fluid features-section bg-gray singleproduct">
