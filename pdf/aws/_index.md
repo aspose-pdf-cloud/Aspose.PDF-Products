@@ -148,10 +148,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a.btn-warning[href="https://dashboard.aspose.cloud"]')
       .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo");
   }, 1000);
-  var items = document.querySelectorAll('.carousel-item');
-  if (items.length > 1) {
-    items[1].classList.add('active');
-  }
 });
 </script>
 
