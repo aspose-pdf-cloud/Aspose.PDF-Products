@@ -47,6 +47,11 @@ url: /aws
       </ul>
     </div>
   </div>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
+  </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
 
@@ -94,6 +99,11 @@ url: /aws
         <li>Connect: via REST from any app</li>
       </ul>
     </div>
+  </div>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
