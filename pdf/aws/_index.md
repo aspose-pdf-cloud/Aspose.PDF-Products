@@ -54,6 +54,13 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-left">
+	  <header><i class="fa fa-cubes"></i> Format Handling Flexibility</header>
+	  <ul>
+	    <li>Enable only .NET managed-code formats for compliance</li>
+	    <li>Process more than PDF: Word, Excel, PowerPoint, HTML, SVG, and more</li>
+	    <li>Group tasks by format type to optimize large batch processing</li>
+	    <li>Handle password-protected PDFs and Office documents with ease</li>
+	  </ul>
     </div>
     <div class="d1-col d1-right">
       <header><i class="fa fa-check-square"></i> All Popular Formats Supported</header>
