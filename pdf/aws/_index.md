@@ -34,7 +34,13 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-left">
-      <p>When you're building systems where data integrity and uptime are non-negotiable, offloading PDFs to third-party APIs isn't just inefficient—it’s risky. Put processing where you control it.</p>
+      <header><i class="fa fa-server"></i> Uptime, Privacy & Control</header>
+	 <ul>
+	   <li>Process documents within your AWS account — no third-party exposure</li>
+	   <li>Stay compliant by avoiding data transfer to external APIs</li>
+	   <li>Minimize latency with local processing inside your VPC</li>
+	   <li>Full control over scaling, logging, and observability</li>
+	 </ul>
     </div>
     <div class="d1-col d1-right">
     <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
@@ -89,7 +95,13 @@ url: /aws
 <div class="diagram1 d1-cloud">
   <div class="d1-row">
     <div class="d1-col d1-left">
-      <p>Launch PDF microservices in under 10 minutes. Whether it’s daily operations or a 100K-doc spike, the infrastructure adapts — and your billing stops when your container stops.</p>
+      <header><i class="fa fa-bolt"></i> Launch Fast. Scale Smart.</header>
+  	 <ul>
+	   <li>Deploy full-featured PDF microservices in under minutes</li>
+	   <li>Auto-scale from daily tasks to large document batches</li>
+	   <li>Containers shut down cleanly — no idle-time billing</li>
+	   <li>Run where you need: Elstic Containers and  Kubernetes</li>
+	 </ul>
     </div>
     <div class="d1-col d1-right">
       <header><i class="fa fa-rocket"></i> Deploy in Minutes — Scale in Seconds</header>
