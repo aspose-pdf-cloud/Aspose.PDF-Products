@@ -31,25 +31,24 @@ url: /aws
 {{< blocks/products/pf/carousel >}}
 
 {{< blocks/products/pf/carousel-item h3="Bring PDF Cloud Power to Your VPC" >}}
-<div class="diagram1 d1-cloud">
-  <div class="d1-row">
+<div class="diagram1 d1-cloud" style="height: 100%; display: flex; flex-direction: column;">
+  <div class="d1-row" style="flex: 1;">
     <div class="d1-col d1-left">
       <header><i class="fa fa-server"></i> Uptime, Privacy & Control</header>
-	 <ul>
-	   <li>Process documents within your AWS account — no third-party exposure</li>
-	   <li>Stay compliant by avoiding data transfer to external APIs</li>
-	   <li>Minimize latency with local processing inside your VPC</li>
-	   <li>Full control over scaling, logging, and observability</li>
-	 </ul>
+      <ul>
+        <li>Process documents within your AWS account — no third-party exposure</li>
+        <li>Stay compliant by avoiding data transfer to external APIs</li>
+        <li>Minimize latency with local processing inside your VPC</li>
+        <li>Full control over scaling, logging, and observability</li>
+      </ul>
     </div>
     <div class="d1-col d1-right">
-    <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
+      <header><i class="fa fa-lock"></i> When Control Matters, Go Internal</header>
       <ul>
         <li>Deploy inside your VPC</li>
         <li>No public traffic, no leaks</li>
         <li>Use IAM, HTTPS</li>
         <li>Compatible with Node.js, Python, .NET</li>
-        <li>Direct REST API access</li>
       </ul>
     </div>
   </div>
@@ -62,16 +61,16 @@ url: /aws
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Use the Full Feature Set Without Guesswork" >}}
-<div class="diagram1 d1-cloud">
-  <div class="d1-row">
+<div class="diagram1 d1-cloud" style="height: 100%; display: flex; flex-direction: column;">
+  <div class="d1-row" style="flex: 1;">
     <div class="d1-col d1-left">
-	  <header><i class="fa fa-cubes"></i> Format Handling Flexibility</header>
-	  <ul>
-	    <li>Enable only .NET managed-code formats for compliance</li>
-	    <li>Process more than PDF: Word, Excel, PowerPoint, HTML, SVG, and more</li>
-	    <li>Group tasks by format type to optimize large batch processing</li>
-	    <li>Handle password-protected PDFs and Office documents with ease</li>
-	  </ul>
+      <header><i class="fa fa-cubes"></i> Format Handling Flexibility</header>
+      <ul>
+        <li>Enable only .NET managed-code formats for compliance</li>
+        <li>Process more than PDF: Word, Excel, PowerPoint, HTML, SVG</li>
+        <li>Group tasks by format type to optimize large batch processing</li>
+        <li>Handle password-protected PDFs and Office documents with ease</li>
+      </ul>
     </div>
     <div class="d1-col d1-right">
       <header><i class="fa fa-check-square"></i> All Popular Formats Supported</header>
@@ -79,7 +78,7 @@ url: /aws
         <li>Convert: PDF to Word, Excel, HTML, images, and more</li>
         <li>Edit: Merge, split, reorder, redact, extract elements</li>
         <li>Secure: Digitally sign, encrypt, watermark PDFs</li>
-        <li>Analyze: OCR text, extract metadata, structure, change fonts</li>
+        <li>Analyze: OCR text, extract metadata, structure</li>
       </ul>
     </div>
   </div>
@@ -92,16 +91,16 @@ url: /aws
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< blocks/products/pf/carousel-item h3="Get Started Fast—Scale Even Faster" >}}
-<div class="diagram1 d1-cloud">
-  <div class="d1-row">
+<div class="diagram1 d1-cloud" style="height: 100%; display: flex; flex-direction: column;">
+  <div class="d1-row" style="flex: 1;">
     <div class="d1-col d1-left">
       <header><i class="fa fa-bolt"></i> Launch Fast. Scale Smart.</header>
-  	 <ul>
-	   <li>Deploy full-featured PDF microservices in under minutes</li>
-	   <li>Auto-scale from daily tasks to large document batches</li>
-	   <li>Containers shut down cleanly — no idle-time billing</li>
-	   <li>Run where you need: Elstic Containers and  Kubernetes</li>
-	 </ul>
+      <ul>
+        <li>Deploy full-featured PDF microservices in under minutes</li>
+        <li>Auto-scale from daily tasks to large document batches</li>
+        <li>Containers shut down cleanly — no idle-time billing</li>
+        <li>Run where you need: Elastic Containers and Kubernetes</li>
+      </ul>
     </div>
     <div class="d1-col d1-right">
       <header><i class="fa fa-rocket"></i> Deploy in Minutes — Scale in Seconds</header>
@@ -109,6 +108,7 @@ url: /aws
         <li>Subscribe: via AWS Marketplace</li>
         <li>Deploy: to containers or Kubernetes clusters</li>
         <li>Connect: via REST from any app</li>
+        <li>Enterprise-ready solution</li>
       </ul>
     </div>
   </div>
@@ -121,7 +121,6 @@ url: /aws
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
-
 
 <div class="container-fluid features-section bg-gray singleproduct">
   <a class="anchor" id="features" name="features"></a>
