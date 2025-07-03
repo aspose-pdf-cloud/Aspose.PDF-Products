@@ -30,12 +30,13 @@ url: /aws
 
 {{< blocks/products/pf/carousel >}}
 
+<!-- Item 1 -->
 {{< blocks/products/pf/carousel-item h3="Bring PDF Cloud Power to Your VPC" >}}
-<div class="diagram1 d1-cloud" style="height: 500px; display: flex; flex-direction: column;">
-  <div class="d1-row" style="flex: 1; min-height: 0; display: flex;">
+<div class="diagram1 d1-cloud" style="height: 420px; display: flex; flex-direction: column; position: relative;">
+  <div class="d1-row" style="flex: 1; min-height: 0; display: flex; margin-bottom: 15px;">
     <div class="d1-col d1-left" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 60px; display: flex; align-items: center;"><i class="fa fa-server"></i> Uptime, Privacy & Control</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden;">
+      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-server"></i> Uptime, Privacy & Control</header>
+      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
         <li>Process documents within your AWS account</li>
         <li>Stay compliant with no data transfer</li>
         <li>Minimize latency with local processing</li>
@@ -43,8 +44,8 @@ url: /aws
       </ul>
     </div>
     <div class="d1-col d1-right" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 60px; display: flex; align-items: center;"><i class="fa fa-lock"></i> When Control Matters</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden;">
+      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-lock"></i> When Control Matters</header>
+      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
         <li>Deploy inside your VPC</li>
         <li>No public traffic, no leaks</li>
         <li>Use IAM, HTTPS</li>
@@ -52,20 +53,23 @@ url: /aws
       </ul>
     </div>
   </div>
-  <div class="d1-logo" style="height: 100px;">
-    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 60px;">
-    <header>Aspose.PDF</header>
-    <footer>for AWS</footer>
+  <div class="d1-logo" style="height: 80px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: auto;">
+    <div style="width: 60px; height: 60px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;">
+      <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 36px; width: 36px; object-fit: contain;">
+    </div>
+    <header style="margin: 5px 0 0 0; font-size: 14px;">Aspose.PDF</header>
+    <footer style="margin: 0; font-size: 12px;">for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
 
+<!-- Item 2 -->
 {{< blocks/products/pf/carousel-item h3="Use the Full Feature Set" >}}
-<div class="diagram1 d1-cloud" style="height: 500px; display: flex; flex-direction: column;">
-  <div class="d1-row" style="flex: 1; min-height: 0; display: flex;">
+<div class="diagram1 d1-cloud" style="height: 420px; display: flex; flex-direction: column; position: relative;">
+  <div class="d1-row" style="flex: 1; min-height: 0; display: flex; margin-bottom: 15px;">
     <div class="d1-col d1-left" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 60px; display: flex; align-items: center;"><i class="fa fa-cubes"></i> Format Handling</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden;">
+      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-cubes"></i> Format Handling</header>
+      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
         <li>.NET managed-code formats</li>
         <li>PDF, Word, Excel, PowerPoint</li>
         <li>Optimize large batch processing</li>
@@ -73,8 +77,8 @@ url: /aws
       </ul>
     </div>
     <div class="d1-col d1-right" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 60px; display: flex; align-items: center;"><i class="fa fa-check-square"></i> Popular Formats</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden;">
+      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-check-square"></i> Popular Formats</header>
+      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
         <li>Convert to multiple formats</li>
         <li>Merge, split, reorder</li>
         <li>Digitally sign, encrypt</li>
@@ -82,20 +86,23 @@ url: /aws
       </ul>
     </div>
   </div>
-  <div class="d1-logo" style="height: 100px;">
-    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 60px;">
-    <header>Aspose.PDF</header>
-    <footer>for AWS</footer>
+  <div class="d1-logo" style="height: 80px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: auto;">
+    <div style="width: 60px; height: 60px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;">
+      <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 36px; width: 36px; object-fit: contain;">
+    </div>
+    <header style="margin: 5px 0 0 0; font-size: 14px;">Aspose.PDF</header>
+    <footer style="margin: 0; font-size: 12px;">for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
 
+<!-- Item 3 -->
 {{< blocks/products/pf/carousel-item h3="Get Started Fast" >}}
-<div class="diagram1 d1-cloud" style="height: 500px; display: flex; flex-direction: column;">
-  <div class="d1-row" style="flex: 1; min-height: 0; display: flex;">
+<div class="diagram1 d1-cloud" style="height: 420px; display: flex; flex-direction: column; position: relative;">
+  <div class="d1-row" style="flex: 1; min-height: 0; display: flex; margin-bottom: 15px;">
     <div class="d1-col d1-left" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 60px; display: flex; align-items: center;"><i class="fa fa-bolt"></i> Launch Fast</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden;">
+      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-bolt"></i> Launch Fast</header>
+      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
         <li>Deploy in minutes</li>
         <li>Auto-scale document batches</li>
         <li>No idle-time billing</li>
@@ -103,19 +110,21 @@ url: /aws
       </ul>
     </div>
     <div class="d1-col d1-right" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 60px; display: flex; align-items: center;"><i class="fa fa-rocket"></i> Scale Fast</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden;">
+      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-rocket"></i> Scale Fast</header>
+      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
         <li>Subscribe via AWS Marketplace</li>
         <li>Deploy to containers</li>
         <li>Connect via REST API</li>
-        <li>Enterprise-ready</li>
+        <li>Enterprise-ready solution</li>
       </ul>
     </div>
   </div>
-  <div class="d1-logo" style="height: 100px;">
-    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 60px;">
-    <header>Aspose.PDF</header>
-    <footer>for AWS</footer>
+  <div class="d1-logo" style="height: 80px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: auto;">
+    <div style="width: 60px; height: 60px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;">
+      <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 36px; width: 36px; object-fit: contain;">
+    </div>
+    <header style="margin: 5px 0 0 0; font-size: 14px;">Aspose.PDF</header>
+    <footer style="margin: 0; font-size: 12px;">for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
