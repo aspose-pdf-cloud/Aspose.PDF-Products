@@ -182,11 +182,40 @@ document.addEventListener('DOMContentLoaded', function() {
 {{< blocks/products/pf/slr-element name="Priority Support" href="https://helpdesk.aspose.cloud" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
+{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF for AWS?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Product Hunt review" href="https://www.producthunt.com/products/aspose-pdf-for-aws" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#handling-sensitive-customer-information" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/download-section 
     downloadFreeTrialLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo" 
     pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" >}}
+
+{{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
+
+    {{< blocks/products/pf/offers-section-item link="/pdf/curl/" imgSrc="/sdk/aspose_pdf-for-curl.svg" platform="cURL" >}}
+	
+    {{< blocks/products/pf/offers-section-item link="/pdf/net/" imgSrc="/sdk/aspose_pdf-for-net.svg" platform=".NET" >}}
+	
+    {{< blocks/products/pf/offers-section-item link="/pdf/java/" imgSrc="/sdk/aspose_pdf-for-java.svg" platform="Java" >}}
+	
+    {{< blocks/products/pf/offers-section-item link="/pdf/php/" imgSrc="/sdk/aspose_pdf-for-php.svg" platform="PHP" >}}
+	
+	{{< blocks/products/pf/offers-section-item link="/pdf/android/" imgSrc="/sdk/aspose_pdf-for-android.svg" platform="Android" >}}
+	
+    {{< blocks/products/pf/offers-section-item link="/pdf/python/" imgSrc="/sdk/aspose_pdf-for-python.svg" platform="Python" >}}
+	
+    {{< blocks/products/pf/offers-section-item link="/pdf/ruby/" imgSrc="/sdk/aspose_pdf-for-ruby.svg" platform="Ruby" >}}
+	
+    {{< blocks/products/pf/offers-section-item link="/pdf/nodejs/" imgSrc="/sdk/aspose_pdf-for-node.svg" platform="Node.js" >}}
+	
+	{{< blocks/products/pf/offers-section-item link="/pdf/swift/" imgSrc="/sdk/aspose_pdf-for-swift.svg" platform="Swift" >}}
+	
+	{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
+	
+{{< /blocks/products/pf/offers-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
