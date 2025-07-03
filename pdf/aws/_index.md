@@ -30,101 +30,101 @@ url: /aws
 
 {{< blocks/products/pf/carousel >}}
 
-<!-- Item 1 -->
+<!-- Item 1 - Balanced with hidden items -->
 {{< blocks/products/pf/carousel-item h3="Bring PDF Cloud Power to Your VPC" >}}
-<div class="diagram1 d1-cloud" style="height: 420px; display: flex; flex-direction: column; position: relative;">
-  <div class="d1-row" style="flex: 1; min-height: 0; display: flex; margin-bottom: 15px;">
-    <div class="d1-col d1-left" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-server"></i> Uptime, Privacy & Control</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-left">
+      <header><i class="fa fa-server"></i> Uptime, Privacy & Control</header>
+      <ul>
         <li>Process documents within your AWS account</li>
         <li>Stay compliant with no data transfer</li>
         <li>Minimize latency with local processing</li>
         <li>Full control over scaling and logging</li>
+        <li class="hidden-item" aria-hidden="true"></li>
       </ul>
     </div>
-    <div class="d1-col d1-right" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-lock"></i> When Control Matters</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
+    <div class="d1-col d1-right">
+      <header><i class="fa fa-lock"></i> When Control Matters</header>
+      <ul>
         <li>Deploy inside your VPC</li>
         <li>No public traffic, no leaks</li>
         <li>Use IAM, HTTPS</li>
         <li>Compatible with major platforms</li>
+        <li class="hidden-item" aria-hidden="true"></li>
       </ul>
     </div>
   </div>
-  <div class="d1-logo" style="height: 80px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: auto;">
-    <div style="width: 60px; height: 60px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;">
-      <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 36px; width: 36px; object-fit: contain;">
-    </div>
-    <header style="margin: 5px 0 0 0; font-size: 14px;">Aspose.PDF</header>
-    <footer style="margin: 0; font-size: 12px;">for AWS</footer>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
 
-<!-- Item 2 -->
+<!-- Item 2 - Balanced with hidden items -->
 {{< blocks/products/pf/carousel-item h3="Use the Full Feature Set" >}}
-<div class="diagram1 d1-cloud" style="height: 420px; display: flex; flex-direction: column; position: relative;">
-  <div class="d1-row" style="flex: 1; min-height: 0; display: flex; margin-bottom: 15px;">
-    <div class="d1-col d1-left" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-cubes"></i> Format Handling</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-left">
+      <header><i class="fa fa-cubes"></i> Format Handling</header>
+      <ul>
         <li>.NET managed-code formats</li>
         <li>PDF, Word, Excel, PowerPoint</li>
         <li>Optimize large batch processing</li>
         <li>Handle password-protected files</li>
+        <li class="hidden-item" aria-hidden="true"></li>
       </ul>
     </div>
-    <div class="d1-col d1-right" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-check-square"></i> Popular Formats</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
+    <div class="d1-col d1-right">
+      <header><i class="fa fa-check-square"></i> Popular Formats</header>
+      <ul>
         <li>Convert to multiple formats</li>
         <li>Merge, split, reorder</li>
         <li>Digitally sign, encrypt</li>
         <li>OCR text, extract metadata</li>
+        <li class="hidden-item" aria-hidden="true"></li>
       </ul>
     </div>
   </div>
-  <div class="d1-logo" style="height: 80px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: auto;">
-    <div style="width: 60px; height: 60px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;">
-      <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 36px; width: 36px; object-fit: contain;">
-    </div>
-    <header style="margin: 5px 0 0 0; font-size: 14px;">Aspose.PDF</header>
-    <footer style="margin: 0; font-size: 12px;">for AWS</footer>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
 
-<!-- Item 3 -->
+<!-- Item 3 - Balanced with hidden items -->
 {{< blocks/products/pf/carousel-item h3="Get Started Fast" >}}
-<div class="diagram1 d1-cloud" style="height: 420px; display: flex; flex-direction: column; position: relative;">
-  <div class="d1-row" style="flex: 1; min-height: 0; display: flex; margin-bottom: 15px;">
-    <div class="d1-col d1-left" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-bolt"></i> Launch Fast</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
+<div class="diagram1 d1-cloud">
+  <div class="d1-row">
+    <div class="d1-col d1-left">
+      <header><i class="fa fa-bolt"></i> Launch Fast</header>
+      <ul>
         <li>Deploy in minutes</li>
         <li>Auto-scale document batches</li>
         <li>No idle-time billing</li>
         <li>Elastic Containers and Kubernetes</li>
+        <li class="hidden-item" aria-hidden="true"></li>
       </ul>
     </div>
-    <div class="d1-col d1-right" style="flex: 1; display: flex; flex-direction: column;">
-      <header style="height: 50px; display: flex; align-items: center; margin: 0; font-size: 15px;"><i class="fa fa-rocket"></i> Scale Fast</header>
-      <ul style="flex: 1; margin: 0; padding-left: 20px; overflow: hidden; font-size: 13px;">
+    <div class="d1-col d1-right">
+      <header><i class="fa fa-rocket"></i> Scale Fast</header>
+      <ul>
         <li>Subscribe via AWS Marketplace</li>
         <li>Deploy to containers</li>
         <li>Connect via REST API</li>
         <li>Enterprise-ready solution</li>
+        <li class="hidden-item" aria-hidden="true"></li>
       </ul>
     </div>
   </div>
-  <div class="d1-logo" style="height: 80px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: auto;">
-    <div style="width: 60px; height: 60px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center;">
-      <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS" style="height: 36px; width: 36px; object-fit: contain;">
-    </div>
-    <header style="margin: 5px 0 0 0; font-size: 14px;">Aspose.PDF</header>
-    <footer style="margin: 0; font-size: 12px;">for AWS</footer>
+  <div class="d1-logo">
+    <img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+    <header>Aspose.PDF</header>
+    <footer>for AWS</footer>
   </div>
 </div>
 {{< /blocks/products/pf/carousel-item >}}
@@ -158,6 +158,16 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 1000);
 });
 </script>
+
+<style>
+.hidden-item {
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+</style>
 
 {{< blocks/products/pf/support-learning-resources >}}
 
