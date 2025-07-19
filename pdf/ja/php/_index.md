@@ -75,11 +75,11 @@ url: php
 <h2 class="pr-ft">高度なPDFドキュメント操作機能</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">ドキュメントのテキストまたは画像<a href="https://products.aspose.cloud/pdf/php/header/image/">ヘッダー</a>と<a href="https://products.aspose.cloud/pdf/php/footer/image/">フッター</a>を追加</p>
+<p class="col-lg-10">ドキュメントのテキストまたは画像<a href="https://products.aspose.cloud/pdf/ja/php/header/image/">ヘッダー</a>と<a href="https://products.aspose.cloud/pdf/ja/php/footer/image/">フッター</a>を追加</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/pages/add/">PDFドキュメントにページを追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/pages/add/">PDFドキュメントにページを追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -87,15 +87,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/split/">単一のPDFドキュメントを分割</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/split/">単一のPDFドキュメントを分割</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/add/">ドキュメントにテーブルを追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/table/add/">ドキュメントにテーブルを追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/delete/">特定のページまたは全体のドキュメントからすべてのテーブルを削除</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/table/delete/">特定のページまたは全体のドキュメントからすべてのテーブルを削除</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
@@ -103,15 +103,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/merge/">複数のドキュメントを既存のものに追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/merge/">複数のドキュメントを既存のものに追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-jpeg/">PDFドキュメントを変換</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/conversion/pdf-to-jpeg/">PDFドキュメントを変換</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/attachments/">ドキュメントの添付ファイルを読み取ってダウンロードする</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/attachments/">ドキュメントの添付ファイルを読み取ってダウンロードする</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
@@ -119,7 +119,7 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/metadata/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/php/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/php/metadata/get/">読み取り</a>および<a href="https://products.aspose.cloud/pdf/php/metadata/remove/">削除</a>ドキュメントプロパティ</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/metadata/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/ja/php/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/ja/php/metadata/get/">読み取り</a>および<a href="https://products.aspose.cloud/pdf/ja/php/metadata/remove/">削除</a>ドキュメントプロパティ</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,11 +127,11 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/add/">ドキュメントにテキストを追加し、必要に応じて取得する</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/text/add/">ドキュメントにテキストを追加し、必要に応じて取得する</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/replace/">PDFページまたはドキュメント全体のテキストの単一または複数のインスタンスを置換する</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/php/text/replace/">PDFページまたはドキュメント全体のテキストの単一または複数のインスタンスを置換する</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">PDFドキュメント処理SDKの開始</h2>

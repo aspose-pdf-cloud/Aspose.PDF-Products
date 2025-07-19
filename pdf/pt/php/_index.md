@@ -75,11 +75,11 @@ url: php
 <h2 class="pr-ft">Recursos Avançados de Manipulação de Documentos PDF</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Adicionar texto ou imagem ao <a href="https://products.aspose.cloud/pdf/php/header/image/">cabeçalho</a> e <a href="https://products.aspose.cloud/pdf/php/footer/image/">rodapé</a></p>
+<p class="col-lg-10">Adicionar texto ou imagem ao <a href="https://products.aspose.cloud/pdf/pt/php/header/image/">cabeçalho</a> e <a href="https://products.aspose.cloud/pdf/pt/php/footer/image/">rodapé</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/pages/add/">Adicionar páginas a um Documento PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/pages/add/">Adicionar páginas a um Documento PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -87,15 +87,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/split/">Dividir Documento PDF único</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/split/">Dividir Documento PDF único</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/add/">Adicionar tabelas a documentos</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/table/add/">Adicionar tabelas a documentos</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/delete/">Excluir todas as tabelas de uma página específica ou documento inteiro</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/table/delete/">Excluir todas as tabelas de uma página específica ou documento inteiro</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
@@ -103,15 +103,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/merge/">Anexar múltiplos documentos a um já existente</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/merge/">Anexar múltiplos documentos a um já existente</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-jpeg/">Converter documentos PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/conversion/pdf-to-jpeg/">Converter documentos PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/attachments/">Leia e baixe anexos de documentos</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/attachments/">Leia e baixe anexos de documentos</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
@@ -119,7 +119,7 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/metadata/add/">Adicionar</a>, <a href="https://products.aspose.cloud/pdf/php/metadata/update/">atualizar</a>, <a href="https://products.aspose.cloud/pdf/php/metadata/get/">ler</a> e <a href="https://products.aspose.cloud/pdf/php/metadata/remove/">excluir</a> propriedades do documento</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/metadata/add/">Adicionar</a>, <a href="https://products.aspose.cloud/pdf/pt/php/metadata/update/">atualizar</a>, <a href="https://products.aspose.cloud/pdf/pt/php/metadata/get/">ler</a> e <a href="https://products.aspose.cloud/pdf/pt/php/metadata/remove/">excluir</a> propriedades do documento</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,11 +127,11 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/add/">Adicionar texto ao documento &amp; buscá-lo conforme necessário</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/text/add/">Adicionar texto ao documento &amp; buscá-lo conforme necessário</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/replace/">Substituir uma ou várias instâncias de texto na página do PDF ou em todo o documento</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/pt/php/text/replace/">Substituir uma ou várias instâncias de texto na página do PDF ou em todo o documento</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Comece com o SDK de Processamento de Documentos PDF</h2>

@@ -87,11 +87,11 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/split/">単一のPDFドキュメントを分割</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/split/">単一のPDFドキュメントを分割</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/add/">ドキュメントにテーブルを追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/table/add/">ドキュメントにテーブルを追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -103,7 +103,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/merge/">既存のドキュメントに複数のドキュメントを追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/merge/">既存のドキュメントに複数のドキュメントを追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -111,15 +111,15 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">読み取り</a>および<a href="https://products.aspose.cloud/pdf/net/attachments/get/">ダウンロード</a>ドキュメント<a href="https://products.aspose.cloud/pdf/net/attachments/">添付</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/attachments/add/">読み取り</a>および<a href="https://products.aspose.cloud/pdf/ja/net/attachments/get/">ダウンロード</a>ドキュメント<a href="https://products.aspose.cloud/pdf/ja/net/attachments/">添付</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/">作成</a>、<a href="https://products.aspose.cloud/pdf/net/">読み取り</a>、<a href="https://products.aspose.cloud/pdf/net/">フラット化</a>および<a href="https://products.aspose.cloud/pdf/net/">更新</a>文書のフォームフィールド</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/">作成</a>、<a href="https://products.aspose.cloud/pdf/ja/net/">読み取り</a>、<a href="https://products.aspose.cloud/pdf/ja/net/">フラット化</a>および<a href="https://products.aspose.cloud/pdf/ja/net/">更新</a>文書のフォームフィールド</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/metadata/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/net/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/net/metadata/get/">読み取り</a>および<a href="https://products.aspose.cloud/pdf/net/metadata/remove/">削除</a>文書のプロパティ</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/metadata/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/ja/net/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/ja/net/metadata/get/">読み取り</a>および<a href="https://products.aspose.cloud/pdf/ja/net/metadata/remove/">削除</a>文書のプロパティ</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,7 +127,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/text/add/">文書にテキストを追加し、必要に応じて取得</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/net/text/add/">文書にテキストを追加し、必要に応じて取得</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
@@ -150,7 +150,7 @@ Console.WriteLine(response);
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">PDF変換のための広範な機能</h2>
-<p>Aspose.PDF Cloud .NET SDKを使用すると、<a href="https://products.aspose.cloud/pdf/net/conversion/pdf-to-jpeg/">PDFをさまざまな他の一般的なファイル形式に変換</a>できます。これを使用して、EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG、TIFFをPDFに変換できます。</p>
+<p>Aspose.PDF Cloud .NET SDKを使用すると、<a href="https://products.aspose.cloud/pdf/ja/net/conversion/pdf-to-jpeg/">PDFをさまざまな他の一般的なファイル形式に変換</a>できます。これを使用して、EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG、TIFFをPDFに変換できます。</p>
 <p>また、PDF（XFAフォーム付き）をAcroForm付きのPDFに変換することもできます。同様に、Aspose.PDF Cloud .NET SDKを使用すると、PDFをBMP、PDF EMF、GIF、JPEG、PNG、TIFF、DOC、EPUB、HTML、LaTex、MOBIXML、PDFA、PPTX、SVG、XLS、XLSX、XML、XPSに変換できます。</p>
 <p>さらに、Aspose.PDF Cloud .NET SDKを使用すると、PDF文書をWord処理文書に変換する方法を制御できます。「テキストボックス」モードを選択してPDFファイルの元の外観を保持するか、「フロー」モードを選択して最大限に編集可能なことを重視した多層分析を行うことができます。</p>
 <p>PDFファイルのドキュメントアクセス権限を設定することもできます。これらの権限には、印刷、劣化印刷、コンテンツ変更、コンテンツコピー、PDFフォームの入力などが含まれます。</p>

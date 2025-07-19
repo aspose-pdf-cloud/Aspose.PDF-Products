@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">Các tính năng xử lý tài liệu PDF nâng cao</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Thêm văn bản hoặc <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">hình ảnh</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">đầu trang</a> và <a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">cuối trang</a></p>
+<p class="col-lg-10">Thêm văn bản hoặc <a href="https://products.aspose.cloud/pdf/vi/nodejs/header/image/">hình ảnh</a> <a href="https://products.aspose.cloud/pdf/vi/nodejs/header/text/">đầu trang</a> và <a href="https://products.aspose.cloud/pdf/vi/nodejs/footer/text/">cuối trang</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"> Thêm <a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">văn bản</a> và <a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">hình ảnh</a> dấu vào tài liệu</p>
+<p class="col-lg-10"> Thêm <a href="https://products.aspose.cloud/pdf/vi/nodejs/stamp/text/">văn bản</a> và <a href="https://products.aspose.cloud/pdf/vi/nodejs/stamp/image/">hình ảnh</a> dấu vào tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">Tách một tài liệu PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/split/">Tách một tài liệu PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">Thêm bảng vào tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/table/add/">Thêm bảng vào tài liệu</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">Thêm</a> hoặc <a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">xóa</a> hình ảnh vào tài liệu PDF</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/images/add/">Thêm</a> hoặc <a href="https://products.aspose.cloud/pdf/vi/nodejs/images/remove/">xóa</a> hình ảnh vào tài liệu PDF</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">Nối nhiều tài liệu vào một tài liệu hiện có</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/merge/">Nối nhiều tài liệu vào một tài liệu hiện có</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">Đọc</a> và <a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">tải xuống</a> tệp đính kèm tài liệu</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/attachments/add/">Đọc</a> và <a href="https://products.aspose.cloud/pdf/vi/nodejs/attachments/extract/">tải xuống</a> tệp đính kèm tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">Tạo</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">đọc</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">xóa</a> và <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">cập nhật</a> các trường biểu mẫu trong tài liệu</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/acroforms/add/">Tạo</a>, <a href="https://products.aspose.cloud/pdf/vi/nodejs/acroforms/get/">đọc</a>, <a href="https://products.aspose.cloud/pdf/vi/nodejs/acroforms/remove/">xóa</a> và <a href="https://products.aspose.cloud/pdf/vi/nodejs/acroforms/update/">cập nhật</a> các trường biểu mẫu trong tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">Thêm</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">cập nhật</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">đọc</a> và <a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">xóa</a> thuộc tính tài liệu</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/metadata/add/">Thêm</a>, <a href="https://products.aspose.cloud/pdf/vi/nodejs/metadata/update/">cập nhật</a>, <a href="https://products.aspose.cloud/pdf/vi/nodejs/metadata/get/">đọc</a> và <a href="https://products.aspose.cloud/pdf/vi/nodejs/metadata/remove/">xóa</a> thuộc tính tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">Thêm văn bản vào tài liệu &amp; lấy nó khi cần</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/text/add/">Thêm văn bản vào tài liệu &amp; lấy nó khi cần</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">Thay thế một hoặc nhiều trường hợp của văn bản trong trang PDF hoặc toàn bộ tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/nodejs/text/replace/">Thay thế một hoặc nhiều trường hợp của văn bản trong trang PDF hoặc toàn bộ tài liệu</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Bắt đầu với SDK xử lý tài liệu PDF</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Tính năng mở rộng cho chuyển đổi PDF</h2>
-<p>Aspose.PDF Cloud Node.js SDK cho phép bạn <a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">chuyển đổi đến và từ PDF sang nhiều định dạng tệp phổ biến khác</a>. Sử dụng nó, bạn có thể chuyển đổi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG và TIFF sang PDF.</p>
+<p>Aspose.PDF Cloud Node.js SDK cho phép bạn <a href="https://products.aspose.cloud/pdf/vi/nodejs/conversion/pdf-to-jpeg/">chuyển đổi đến và từ PDF sang nhiều định dạng tệp phổ biến khác</a>. Sử dụng nó, bạn có thể chuyển đổi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG và TIFF sang PDF.</p>
 <p>Bạn cũng có thể chuyển đổi PDF (với XFA Forms) sang PDF với AcroForm. Tương tự, Aspose.PDF Cloud Node.js SDK cho phép bạn chuyển đổi PDF sang BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML và XPS.</p>
 <p>Hơn nữa, Aspose.PDF Cloud Node.js SDK cho phép bạn kiểm soát cách tài liệu PDF được chuyển đổi thành tài liệu xử lý văn bản. Bạn có thể chọn chế độ “Textbox” để giữ nguyên diện mạo gốc của tệp PDF hoặc chế độ “Flow” để phân tích đa cấp với trọng tâm là tối đa hóa khả năng chỉnh sửa.</p>
 <p>Bạn cũng có thể đặt quyền truy cập tài liệu cho các tệp PDF. Những quyền này bao gồm in ấn, in chất lượng thấp, sửa đổi nội dung, sao chép nội dung, điền vào các biểu mẫu PDF và nhiều hơn nữa.</p>

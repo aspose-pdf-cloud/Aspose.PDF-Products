@@ -75,11 +75,11 @@ url: php
 <h2 class="pr-ft">Tính năng Xử lý tài liệu PDF Nâng cao</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Thêm văn bản hoặc hình ảnh <a href="https://products.aspose.cloud/pdf/php/header/image/">đầu trang</a> và <a href="https://products.aspose.cloud/pdf/php/footer/image/">chân trang</a></p>
+<p class="col-lg-10">Thêm văn bản hoặc hình ảnh <a href="https://products.aspose.cloud/pdf/vi/php/header/image/">đầu trang</a> và <a href="https://products.aspose.cloud/pdf/vi/php/footer/image/">chân trang</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/pages/add/">Thêm trang vào Tài liệu PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/pages/add/">Thêm trang vào Tài liệu PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -87,15 +87,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/split/">Chia nhỏ Tài liệu PDF đơn lẻ</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/split/">Chia nhỏ Tài liệu PDF đơn lẻ</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/add/">Thêm bảng vào tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/table/add/">Thêm bảng vào tài liệu</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/delete/">Xóa tất cả bảng từ một trang cụ thể hoặc toàn bộ tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/table/delete/">Xóa tất cả bảng từ một trang cụ thể hoặc toàn bộ tài liệu</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
@@ -103,15 +103,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/merge/">Nối nhiều tài liệu vào một tài liệu hiện có</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/merge/">Nối nhiều tài liệu vào một tài liệu hiện có</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-jpeg/">Chuyển đổi tài liệu PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/conversion/pdf-to-jpeg/">Chuyển đổi tài liệu PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/attachments/">Đọc và tải xuống tệp đính kèm tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/attachments/">Đọc và tải xuống tệp đính kèm tài liệu</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
@@ -119,7 +119,7 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/metadata/add/">Thêm</a>, <a href="https://products.aspose.cloud/pdf/php/metadata/update/">cập nhật</a>, <a href="https://products.aspose.cloud/pdf/php/metadata/get/">đọc</a> và <a href="https://products.aspose.cloud/pdf/php/metadata/remove/">xóa</a> thuộc tính tài liệu</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/metadata/add/">Thêm</a>, <a href="https://products.aspose.cloud/pdf/vi/php/metadata/update/">cập nhật</a>, <a href="https://products.aspose.cloud/pdf/vi/php/metadata/get/">đọc</a> và <a href="https://products.aspose.cloud/pdf/vi/php/metadata/remove/">xóa</a> thuộc tính tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,11 +127,11 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/add/">Thêm văn bản vào tài liệu &amp; lấy nó khi cần</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/text/add/">Thêm văn bản vào tài liệu &amp; lấy nó khi cần</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/replace/">Thay thế một hoặc nhiều lần xuất hiện của văn bản trong trang PDF hoặc toàn bộ tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/php/text/replace/">Thay thế một hoặc nhiều lần xuất hiện của văn bản trong trang PDF hoặc toàn bộ tài liệu</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Bắt đầu với SDK xử lý tài liệu PDF</h2>

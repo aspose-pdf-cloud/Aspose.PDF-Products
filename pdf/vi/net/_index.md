@@ -87,11 +87,11 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/split/">Chia tách tài liệu PDF đơn</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/split/">Chia tách tài liệu PDF đơn</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/add/">Thêm bảng vào tài liệu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/table/add/">Thêm bảng vào tài liệu</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -103,7 +103,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/merge/">Thêm nhiều tài liệu vào tài liệu hiện có</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/merge/">Thêm nhiều tài liệu vào tài liệu hiện có</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -111,15 +111,15 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">Đọc</a> và <a href="https://products.aspose.cloud/pdf/net/attachments/get/">tải xuống</a> <a href="https://products.aspose.cloud/pdf/net/attachments/">tệp đính kèm</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/attachments/add/">Đọc</a> và <a href="https://products.aspose.cloud/pdf/vi/net/attachments/get/">tải xuống</a> <a href="https://products.aspose.cloud/pdf/vi/net/attachments/">tệp đính kèm</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/">Tạo</a>, <a href="https://products.aspose.cloud/pdf/net/">đọc</a>, <a href="https://products.aspose.cloud/pdf/net/">làm phẳng</a> và <a href="https://products.aspose.cloud/pdf/net/">cập nhật</a> các trường biểu mẫu trong tài liệu</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/">Tạo</a>, <a href="https://products.aspose.cloud/pdf/vi/net/">đọc</a>, <a href="https://products.aspose.cloud/pdf/vi/net/">làm phẳng</a> và <a href="https://products.aspose.cloud/pdf/vi/net/">cập nhật</a> các trường biểu mẫu trong tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/metadata/add/">Thêm</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/update/">cập nhật</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/get/">đọc</a> và <a href="https://products.aspose.cloud/pdf/net/metadata/remove/">xóa</a> thuộc tính tài liệu</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/metadata/add/">Thêm</a>, <a href="https://products.aspose.cloud/pdf/vi/net/metadata/update/">cập nhật</a>, <a href="https://products.aspose.cloud/pdf/vi/net/metadata/get/">đọc</a> và <a href="https://products.aspose.cloud/pdf/vi/net/metadata/remove/">xóa</a> thuộc tính tài liệu</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,7 +127,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/text/add/">Thêm văn bản vào tài liệu &amp; truy xuất theo yêu cầu</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/vi/net/text/add/">Thêm văn bản vào tài liệu &amp; truy xuất theo yêu cầu</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
@@ -150,7 +150,7 @@ Console.WriteLine(response);
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Các Tính Năng Mở Rộng cho Chuyển Đổi PDF</h2>
-<p>Aspose.PDF Cloud .NET SDK cho phép bạn <a href="https://products.aspose.cloud/pdf/net/conversion/pdf-to-jpeg/">chuyển đổi từ và sang PDF sang các định dạng tệp phổ biến khác</a>. Sử dụng nó, bạn có thể chuyển đổi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, và TIFF, sang PDF.</p>
+<p>Aspose.PDF Cloud .NET SDK cho phép bạn <a href="https://products.aspose.cloud/pdf/vi/net/conversion/pdf-to-jpeg/">chuyển đổi từ và sang PDF sang các định dạng tệp phổ biến khác</a>. Sử dụng nó, bạn có thể chuyển đổi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, và TIFF, sang PDF.</p>
 <p>Bạn cũng có thể chuyển đổi PDF (với Biểu mẫu XFA) sang PDF với AcroForm. Tương tự, Aspose.PDF Cloud .NET SDK cho phép bạn chuyển đổi PDF sang BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, và XPS.</p>
 <p>Hơn nữa, Aspose.PDF Cloud .NET SDK cho phép bạn kiểm soát cách một tài liệu PDF được chuyển đổi thành tài liệu xử lý văn bản. Bạn có thể chọn chế độ “Textbox” để giữ nguyên bản gốc của tệp PDF hoặc chế độ “Flow” để phân tích nhiều cấp độ với sự tập trung vào khả năng chỉnh sửa tối đa.</p>
 <p>Bạn cũng có thể đặt quyền truy cập tài liệu cho các tệp PDF. Những quyền này bao gồm in ấn, in ấn giảm chất lượng, sửa đổi nội dung, sao chép nội dung, điền vào biểu mẫu PDF và nhiều quyền khác.</p>

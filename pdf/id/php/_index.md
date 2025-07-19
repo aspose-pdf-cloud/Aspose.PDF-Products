@@ -75,11 +75,11 @@ url: php
 <h2 class="pr-ft">Fitur Manipulasi Dokumen PDF Lanjutan</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Tambahkan teks atau gambar dokumen <a href="https://products.aspose.cloud/pdf/php/header/image/">header</a> dan <a href="https://products.aspose.cloud/pdf/php/footer/image/">footer</a></p>
+<p class="col-lg-10">Tambahkan teks atau gambar dokumen <a href="https://products.aspose.cloud/pdf/id/php/header/image/">header</a> dan <a href="https://products.aspose.cloud/pdf/id/php/footer/image/">footer</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/pages/add/">Tambahkan halaman ke Dokumen PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/pages/add/">Tambahkan halaman ke Dokumen PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -87,15 +87,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/split/">Pisahkan Dokumen PDF tunggal</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/split/">Pisahkan Dokumen PDF tunggal</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/add/">Tambahkan tabel ke dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/table/add/">Tambahkan tabel ke dokumen</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/delete/">Hapus semua tabel dari halaman tertentu atau seluruh dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/table/delete/">Hapus semua tabel dari halaman tertentu atau seluruh dokumen</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
@@ -103,15 +103,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/merge/">Tambahkan beberapa dokumen ke yang sudah ada</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/merge/">Tambahkan beberapa dokumen ke yang sudah ada</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-jpeg/">Konversi dokumen PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/conversion/pdf-to-jpeg/">Konversi dokumen PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/attachments/">Baca dan unduh lampiran dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/attachments/">Baca dan unduh lampiran dokumen</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
@@ -119,7 +119,7 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/metadata/add/">Tambah</a>, <a href="https://products.aspose.cloud/pdf/php/metadata/update/">perbarui</a>, <a href="https://products.aspose.cloud/pdf/php/metadata/get/">baca</a> dan <a href="https://products.aspose.cloud/pdf/php/metadata/remove/">hapus</a> properti dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/metadata/add/">Tambah</a>, <a href="https://products.aspose.cloud/pdf/id/php/metadata/update/">perbarui</a>, <a href="https://products.aspose.cloud/pdf/id/php/metadata/get/">baca</a> dan <a href="https://products.aspose.cloud/pdf/id/php/metadata/remove/">hapus</a> properti dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,11 +127,11 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/add/">Tambahkan teks ke dokumen &amp; ambil sesuai kebutuhan</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/text/add/">Tambahkan teks ke dokumen &amp; ambil sesuai kebutuhan</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/replace/">Ganti satu atau beberapa instance teks di halaman PDF atau seluruh dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/php/text/replace/">Ganti satu atau beberapa instance teks di halaman PDF atau seluruh dokumen</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Mulai dengan Pengolahan Dokumen PDF SDK</h2>

@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">高度なPDF文書処理機能</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">文書テキストまたは<a href="https://products.aspose.cloud/pdf/nodejs/header/image/">画像</a>の<a href="https://products.aspose.cloud/pdf/nodejs/header/text/">ヘッダー</a>と<a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">フッター</a>を追加</p>
+<p class="col-lg-10">文書テキストまたは<a href="https://products.aspose.cloud/pdf/ja/nodejs/header/image/">画像</a>の<a href="https://products.aspose.cloud/pdf/ja/nodejs/header/text/">ヘッダー</a>と<a href="https://products.aspose.cloud/pdf/ja/nodejs/footer/text/">フッター</a>を追加</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">文書に<a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">テキスト</a>および<a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">画像</a>のスタンプを追加</p>
+<p class="col-lg-10">文書に<a href="https://products.aspose.cloud/pdf/ja/nodejs/stamp/text/">テキスト</a>および<a href="https://products.aspose.cloud/pdf/ja/nodejs/stamp/image/">画像</a>のスタンプを追加</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">単一のPDF文書を分割</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/split/">単一のPDF文書を分割</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">文書にテーブルを追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/table/add/">文書にテーブルを追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">PDF文書に画像を追加</a>または<a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">削除</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/images/add/">PDF文書に画像を追加</a>または<a href="https://products.aspose.cloud/pdf/ja/nodejs/images/remove/">削除</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">複数の文書を既存のものに追加</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/merge/">複数の文書を既存のものに追加</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">読み取り</a>と<a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">ダウンロード</a>文書の添付ファイル</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/attachments/add/">読み取り</a>と<a href="https://products.aspose.cloud/pdf/ja/nodejs/attachments/extract/">ダウンロード</a>文書の添付ファイル</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">作成</a>、<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">読み取り</a>、<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">削除</a>、および<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">更新</a>文書内のフォームフィールド</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/acroforms/add/">作成</a>、<a href="https://products.aspose.cloud/pdf/ja/nodejs/acroforms/get/">読み取り</a>、<a href="https://products.aspose.cloud/pdf/ja/nodejs/acroforms/remove/">削除</a>、および<a href="https://products.aspose.cloud/pdf/ja/nodejs/acroforms/update/">更新</a>文書内のフォームフィールド</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">読み取り</a>、および<a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">削除</a>文書のプロパティ</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/metadata/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/ja/nodejs/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/ja/nodejs/metadata/get/">読み取り</a>、および<a href="https://products.aspose.cloud/pdf/ja/nodejs/metadata/remove/">削除</a>文書のプロパティ</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">文書にテキストを追加 &amp; 必要に応じて取得</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/text/add/">文書にテキストを追加 &amp; 必要に応じて取得</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">PDFページまたは文書全体のテキストを単一または複数置換</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ja/nodejs/text/replace/">PDFページまたは文書全体のテキストを単一または複数置換</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">PDF文書処理SDKの開始</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">PDF変換のための広範な機能</h2>
-<p>Aspose.PDF Cloud Node.js SDKを使用すると、<a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">PDFをさまざまな人気のあるファイル形式に変換</a>できます。これを使用して、EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG、およびTIFFをPDFに変換できます。</p>
+<p>Aspose.PDF Cloud Node.js SDKを使用すると、<a href="https://products.aspose.cloud/pdf/ja/nodejs/conversion/pdf-to-jpeg/">PDFをさまざまな人気のあるファイル形式に変換</a>できます。これを使用して、EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG、およびTIFFをPDFに変換できます。</p>
 <p>また、PDF (XFAフォームを含む) をAcroForm付きのPDFに変換することもできます。同様に、Aspose.PDF Cloud Node.js SDKを使用すると、PDFをBMP、PDF EMF、GIF、JPEG、PNG、TIFF、DOC、EPUB、HTML、LaTex、MOBIXML、PDFA、PPTX、SVG、XLS、XLSX、XML、およびXPSに変換できます。</p>
 <p>さらに、Aspose.PDF Cloud Node.js SDKは、PDF文書をWord処理文書に変換する方法を制御できます。「テキストボックス」モードを選択してPDFファイルの元の外観を保持するか、「フロー」モードを選択して最大限に編集可能なように複数レベルの分析を行います。</p>
 <p>また、PDFファイルの文書アクセス権を設定することもできます。これらの権限には、印刷、劣化印刷、コンテンツの変更、コンテンツのコピー、PDFフォームの入力などが含まれます。</p>

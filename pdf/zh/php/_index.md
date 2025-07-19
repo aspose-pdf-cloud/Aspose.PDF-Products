@@ -75,11 +75,11 @@ url: php
 <h2 class="pr-ft">高级 PDF 文档操作功能</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">添加文档文本或图像<a href="https://products.aspose.cloud/pdf/php/header/image/">页眉</a>和<a href="https://products.aspose.cloud/pdf/php/footer/image/">页脚</a></p>
+<p class="col-lg-10">添加文档文本或图像<a href="https://products.aspose.cloud/pdf/zh/php/header/image/">页眉</a>和<a href="https://products.aspose.cloud/pdf/zh/php/footer/image/">页脚</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/pages/add/">向 PDF 文档添加页面</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/pages/add/">向 PDF 文档添加页面</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -87,15 +87,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/split/">拆分单个 PDF 文档</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/split/">拆分单个 PDF 文档</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/add/">向文档添加表格</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/table/add/">向文档添加表格</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/delete/">从特定页面或整个文档中删除所有表格</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/table/delete/">从特定页面或整个文档中删除所有表格</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
@@ -103,15 +103,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/merge/">将多个文档追加到现有文档</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/merge/">将多个文档追加到现有文档</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-jpeg/">转换 PDF 文档</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/conversion/pdf-to-jpeg/">转换 PDF 文档</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/attachments/">阅读和下载文档附件</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/attachments/">阅读和下载文档附件</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
@@ -119,7 +119,7 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/metadata/add/">添加</a>，<a href="https://products.aspose.cloud/pdf/php/metadata/update/">更新</a>，<a href="https://products.aspose.cloud/pdf/php/metadata/get/">读取</a>和<a href="https://products.aspose.cloud/pdf/php/metadata/remove/">删除</a>文档属性</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/metadata/add/">添加</a>，<a href="https://products.aspose.cloud/pdf/zh/php/metadata/update/">更新</a>，<a href="https://products.aspose.cloud/pdf/zh/php/metadata/get/">读取</a>和<a href="https://products.aspose.cloud/pdf/zh/php/metadata/remove/">删除</a>文档属性</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,11 +127,11 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/add/">向文档添加文本 &amp; 根据需要获取</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/text/add/">向文档添加文本 &amp; 根据需要获取</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/replace/">替换PDF页面或整个文档中的单个或多个文本实例</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/php/text/replace/">替换PDF页面或整个文档中的单个或多个文本实例</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">开始使用PDF文档处理SDK</h2>

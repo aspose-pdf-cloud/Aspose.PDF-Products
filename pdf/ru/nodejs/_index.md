@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">Расширенные возможности обработки PDF документов</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Добавление текста документа или <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">изображения</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">в заголовок</a> и <a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">в подвал</a></p>
+<p class="col-lg-10">Добавление текста документа или <a href="https://products.aspose.cloud/pdf/ru/nodejs/header/image/">изображения</a> <a href="https://products.aspose.cloud/pdf/ru/nodejs/header/text/">в заголовок</a> и <a href="https://products.aspose.cloud/pdf/ru/nodejs/footer/text/">в подвал</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"> Добавление <a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">текста</a> и <a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">изображения</a> в штампы документов</p>
+<p class="col-lg-10"> Добавление <a href="https://products.aspose.cloud/pdf/ru/nodejs/stamp/text/">текста</a> и <a href="https://products.aspose.cloud/pdf/ru/nodejs/stamp/image/">изображения</a> в штампы документов</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">Разделение одного PDF документа</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/split/">Разделение одного PDF документа</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">Добавление таблиц в документы</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/table/add/">Добавление таблиц в документы</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">Добавление</a> или <a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">удаление</a> изображений в PDF документ</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/images/add/">Добавление</a> или <a href="https://products.aspose.cloud/pdf/ru/nodejs/images/remove/">удаление</a> изображений в PDF документ</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">Добавление нескольких документов в существующий</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/merge/">Добавление нескольких документов в существующий</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">Читать</a> и <a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">загружать</a> вложения документа</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/attachments/add/">Читать</a> и <a href="https://products.aspose.cloud/pdf/ru/nodejs/attachments/extract/">загружать</a> вложения документа</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">Создавать</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">читать</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">удалять</a> и <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">обновлять</a> поля формы в документе</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/acroforms/add/">Создавать</a>, <a href="https://products.aspose.cloud/pdf/ru/nodejs/acroforms/get/">читать</a>, <a href="https://products.aspose.cloud/pdf/ru/nodejs/acroforms/remove/">удалять</a> и <a href="https://products.aspose.cloud/pdf/ru/nodejs/acroforms/update/">обновлять</a> поля формы в документе</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">Добавлять</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">обновлять</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">читать</a> и <a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">удалять</a> свойства документа</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/metadata/add/">Добавлять</a>, <a href="https://products.aspose.cloud/pdf/ru/nodejs/metadata/update/">обновлять</a>, <a href="https://products.aspose.cloud/pdf/ru/nodejs/metadata/get/">читать</a> и <a href="https://products.aspose.cloud/pdf/ru/nodejs/metadata/remove/">удалять</a> свойства документа</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">Добавить текст в документ и получить его по мере необходимости</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/text/add/">Добавить текст в документ и получить его по мере необходимости</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">Заменить один или несколько экземпляров текста на странице PDF или в целом документе</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/nodejs/text/replace/">Заменить один или несколько экземпляров текста на странице PDF или в целом документе</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Начать работу с SDK для обработки PDF документов</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Обширные возможности для конвертации PDF</h2>
-<p>Aspose.PDF Cloud Node.js SDK позволяет <a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">конвертировать в и из PDF в различные другие популярные форматы файлов</a>. Используя его, вы можете конвертировать EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG и TIFF в PDF.</p>
+<p>Aspose.PDF Cloud Node.js SDK позволяет <a href="https://products.aspose.cloud/pdf/ru/nodejs/conversion/pdf-to-jpeg/">конвертировать в и из PDF в различные другие популярные форматы файлов</a>. Используя его, вы можете конвертировать EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG и TIFF в PDF.</p>
 <p>Вы также можете конвертировать PDF (с XFA-формами) в PDF с AcroForm. Аналогично, Aspose.PDF Cloud Node.js SDK позволяет вам конвертировать PDF в BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML и XPS.</p>
 <p>Кроме того, Aspose.PDF Cloud Node.js SDK позволяет вам контролировать, как PDF-документ конвертируется в документ Word. Вы можете выбрать режим «Textbox» для сохранения оригинального вида PDF-файла или режим «Flow» для многоуровневого анализа с акцентом на максимальную редактируемость.</p>
 <p>Вы также можете установить привилегии доступа к документу для PDF-файлов. Эти привилегии включают печать, деградированную печать, модификацию содержимого, копирование содержимого, заполнение PDF-форм и многое другое.</p>

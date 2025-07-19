@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">高级PDF文档处理功能</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">添加文档文本或<a href="https://products.aspose.cloud/pdf/nodejs/header/image/">图像</a><a href="https://products.aspose.cloud/pdf/nodejs/header/text/">页眉</a>和<a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">页脚</a></p>
+<p class="col-lg-10">添加文档文本或<a href="https://products.aspose.cloud/pdf/zh/nodejs/header/image/">图像</a><a href="https://products.aspose.cloud/pdf/zh/nodejs/header/text/">页眉</a>和<a href="https://products.aspose.cloud/pdf/zh/nodejs/footer/text/">页脚</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">为文档添加<a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">文本</a>和<a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">图像</a>印章</p>
+<p class="col-lg-10">为文档添加<a href="https://products.aspose.cloud/pdf/zh/nodejs/stamp/text/">文本</a>和<a href="https://products.aspose.cloud/pdf/zh/nodejs/stamp/image/">图像</a>印章</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">拆分单个PDF文档</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/split/">拆分单个PDF文档</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">向文档添加表格</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/table/add/">向文档添加表格</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">添加</a>或<a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">删除</a>PDF文档中的图像</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/images/add/">添加</a>或<a href="https://products.aspose.cloud/pdf/zh/nodejs/images/remove/">删除</a>PDF文档中的图像</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">将多个文档附加到现有文档中</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/merge/">将多个文档附加到现有文档中</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">阅读</a>和<a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">下载</a>文档附件</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/attachments/add/">阅读</a>和<a href="https://products.aspose.cloud/pdf/zh/nodejs/attachments/extract/">下载</a>文档附件</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">创建</a>、<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">读取</a>、<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">删除</a>和<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">更新</a>文档中的表单字段</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/acroforms/add/">创建</a>、<a href="https://products.aspose.cloud/pdf/zh/nodejs/acroforms/get/">读取</a>、<a href="https://products.aspose.cloud/pdf/zh/nodejs/acroforms/remove/">删除</a>和<a href="https://products.aspose.cloud/pdf/zh/nodejs/acroforms/update/">更新</a>文档中的表单字段</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">添加</a>、<a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">读取</a>和<a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">删除</a>文档属性</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/metadata/add/">添加</a>、<a href="https://products.aspose.cloud/pdf/zh/nodejs/metadata/update/">更新</a>、<a href="https://products.aspose.cloud/pdf/zh/nodejs/metadata/get/">读取</a>和<a href="https://products.aspose.cloud/pdf/zh/nodejs/metadata/remove/">删除</a>文档属性</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">向文档添加文本 &amp; 根据需要获取</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/text/add/">向文档添加文本 &amp; 根据需要获取</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">替换PDF页面或整个文档中的单个或多个文本实例</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/nodejs/text/replace/">替换PDF页面或整个文档中的单个或多个文本实例</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">开始使用PDF文档处理SDK</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">广泛的PDF转换功能</h2>
-<p>Aspose.PDF Cloud Node.js SDK允许您<a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">将PDF转换为各种其他流行文件格式</a>。使用它，您可以将EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG和TIFF转换为PDF。</p>
+<p>Aspose.PDF Cloud Node.js SDK允许您<a href="https://products.aspose.cloud/pdf/zh/nodejs/conversion/pdf-to-jpeg/">将PDF转换为各种其他流行文件格式</a>。使用它，您可以将EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG和TIFF转换为PDF。</p>
 <p>您还可以将带有XFA表单的PDF转换为带有AcroForm的PDF。同样，Aspose.PDF Cloud Node.js SDK允许您将PDF转换为BMP、PDF EMF、GIF、JPEG、PNG、TIFF、DOC、EPUB、HTML、LaTex、MOBIXML、PDFA、PPTX、SVG、XLS、XLSX、XML和XPS。</p>
 <p>此外，Aspose.PDF Cloud Node.js SDK允许您控制PDF文档如何转换为文字处理文档。您可以选择“文本框”模式以保留PDF文件的原始外观，或选择“流动”模式以多层次分析为最大程度可编辑性。</p>
 <p>您还可以为PDF文件设置文档访问权限。这些权限包括打印、降级打印、内容修改、内容复制、填写PDF表单等多种权限。</p>

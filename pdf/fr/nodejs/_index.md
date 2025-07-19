@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">Fonctionnalités avancées de traitement de documents PDF</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Ajouter du texte de document ou une <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">image</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">en-tête</a> et <a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">pied de page</a></p>
+<p class="col-lg-10">Ajouter du texte de document ou une <a href="https://products.aspose.cloud/pdf/fr/nodejs/header/image/">image</a> <a href="https://products.aspose.cloud/pdf/fr/nodejs/header/text/">en-tête</a> et <a href="https://products.aspose.cloud/pdf/fr/nodejs/footer/text/">pied de page</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"> Ajouter des <a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">textes</a> et <a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">images</a> en tant que tampons aux documents</p>
+<p class="col-lg-10"> Ajouter des <a href="https://products.aspose.cloud/pdf/fr/nodejs/stamp/text/">textes</a> et <a href="https://products.aspose.cloud/pdf/fr/nodejs/stamp/image/">images</a> en tant que tampons aux documents</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">Diviser un document PDF unique</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/split/">Diviser un document PDF unique</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">Ajouter des tableaux aux documents</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/table/add/">Ajouter des tableaux aux documents</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">Ajouter</a> ou <a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">supprimer</a> des images au document PDF</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/images/add/">Ajouter</a> ou <a href="https://products.aspose.cloud/pdf/fr/nodejs/images/remove/">supprimer</a> des images au document PDF</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">Ajouter plusieurs documents à un document existant</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/merge/">Ajouter plusieurs documents à un document existant</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">Lire</a> et <a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">télécharger</a> les pièces jointes du document</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/attachments/add/">Lire</a> et <a href="https://products.aspose.cloud/pdf/fr/nodejs/attachments/extract/">télécharger</a> les pièces jointes du document</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">Créer</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">lire</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">supprimer</a> et <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">mettre à jour</a> les champs de formulaire dans un document</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/acroforms/add/">Créer</a>, <a href="https://products.aspose.cloud/pdf/fr/nodejs/acroforms/get/">lire</a>, <a href="https://products.aspose.cloud/pdf/fr/nodejs/acroforms/remove/">supprimer</a> et <a href="https://products.aspose.cloud/pdf/fr/nodejs/acroforms/update/">mettre à jour</a> les champs de formulaire dans un document</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">Ajouter</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">mettre à jour</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">lire</a> et <a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">supprimer</a> les propriétés du document</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/metadata/add/">Ajouter</a>, <a href="https://products.aspose.cloud/pdf/fr/nodejs/metadata/update/">mettre à jour</a>, <a href="https://products.aspose.cloud/pdf/fr/nodejs/metadata/get/">lire</a> et <a href="https://products.aspose.cloud/pdf/fr/nodejs/metadata/remove/">supprimer</a> les propriétés du document</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">Ajouter du texte au document &amp; le récupérer au besoin</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/text/add/">Ajouter du texte au document &amp; le récupérer au besoin</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">Remplacer une ou plusieurs occurrences de texte dans une page PDF ou un document entier</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/fr/nodejs/text/replace/">Remplacer une ou plusieurs occurrences de texte dans une page PDF ou un document entier</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Commencez avec le SDK de traitement de documents PDF</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Fonctionnalités étendues pour la conversion PDF</h2>
-<p>Aspose.PDF Cloud Node.js SDK vous permet de <a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">convertir vers et depuis PDF vers divers autres formats de fichiers populaires</a>. En l'utilisant, vous pouvez convertir EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG et TIFF en PDF.</p>
+<p>Aspose.PDF Cloud Node.js SDK vous permet de <a href="https://products.aspose.cloud/pdf/fr/nodejs/conversion/pdf-to-jpeg/">convertir vers et depuis PDF vers divers autres formats de fichiers populaires</a>. En l'utilisant, vous pouvez convertir EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG et TIFF en PDF.</p>
 <p>Vous pouvez également convertir PDF (avec formulaires XFA) en PDF avec AcroForm. De même, Aspose.PDF Cloud Node.js SDK vous permet de convertir PDF en BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML et XPS.</p>
 <p>De plus, Aspose.PDF Cloud Node.js SDK vous permet de contrôler comment un document PDF est converti en document de traitement de texte. Vous pouvez choisir le mode “Textbox” pour préserver l'apparence originale du fichier PDF ou le mode “Flow” pour une analyse multi-niveaux axée sur l'édition maximale.</p>
 <p>Vous pouvez également définir des privilèges d'accès au document pour les fichiers PDF. Ces privilèges incluent l'impression, l'impression dégradée, la modification de contenu, la copie de contenu, le remplissage des formulaires PDF et bien d'autres.</p>

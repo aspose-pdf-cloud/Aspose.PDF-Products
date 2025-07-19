@@ -87,11 +87,11 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/split/">Разделить одиночный PDF-документ</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/split/">Разделить одиночный PDF-документ</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/add/">Добавить таблицы в документы</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/table/add/">Добавить таблицы в документы</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -103,7 +103,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/merge/">Присоединить несколько документов к существующему</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/merge/">Присоединить несколько документов к существующему</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -111,15 +111,15 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">Читать</a> и <a href="https://products.aspose.cloud/pdf/net/attachments/get/">скачивать</a> <a href="https://products.aspose.cloud/pdf/net/attachments/">вложения</a> документа</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/attachments/add/">Читать</a> и <a href="https://products.aspose.cloud/pdf/ru/net/attachments/get/">скачивать</a> <a href="https://products.aspose.cloud/pdf/ru/net/attachments/">вложения</a> документа</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/">Создавайте</a>, <a href="https://products.aspose.cloud/pdf/net/">читайте</a>, <a href="https://products.aspose.cloud/pdf/net/">разворачивайте</a> и <a href="https://products.aspose.cloud/pdf/net/">обновляйте</a> поля формы в документе</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/">Создавайте</a>, <a href="https://products.aspose.cloud/pdf/ru/net/">читайте</a>, <a href="https://products.aspose.cloud/pdf/ru/net/">разворачивайте</a> и <a href="https://products.aspose.cloud/pdf/ru/net/">обновляйте</a> поля формы в документе</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/metadata/add/">Добавляйте</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/update/">обновляйте</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/get/">читайте</a> и <a href="https://products.aspose.cloud/pdf/net/metadata/remove/">удаляйте</a> свойства документа</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/metadata/add/">Добавляйте</a>, <a href="https://products.aspose.cloud/pdf/ru/net/metadata/update/">обновляйте</a>, <a href="https://products.aspose.cloud/pdf/ru/net/metadata/get/">читайте</a> и <a href="https://products.aspose.cloud/pdf/ru/net/metadata/remove/">удаляйте</a> свойства документа</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,7 +127,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/text/add/">Добавляйте текст в документ &amp; извлекайте его по мере необходимости</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ru/net/text/add/">Добавляйте текст в документ &amp; извлекайте его по мере необходимости</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
@@ -150,7 +150,7 @@ Console.WriteLine(response);
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Широкие возможности для конвертации PDF</h2>
-<p>Aspose.PDF Cloud .NET SDK позволяет <a href="https://products.aspose.cloud/pdf/net/conversion/pdf-to-jpeg/">конвертировать в PDF и из PDF в различные другие популярные форматы файлов</a>. С его помощью вы можете конвертировать EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG и TIFF в PDF.</p>
+<p>Aspose.PDF Cloud .NET SDK позволяет <a href="https://products.aspose.cloud/pdf/ru/net/conversion/pdf-to-jpeg/">конвертировать в PDF и из PDF в различные другие популярные форматы файлов</a>. С его помощью вы можете конвертировать EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG и TIFF в PDF.</p>
 <p>Вы также можете конвертировать PDF (с XFA-формами) в PDF с AcroForm. Аналогично, Aspose.PDF Cloud .NET SDK позволяет конвертировать PDF в BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML и XPS.</p>
 <p>Более того, Aspose.PDF Cloud .NET SDK позволяет контролировать, как PDF-документ конвертируется в текстовый документ. Вы можете выбрать режим "Textbox" для сохранения оригинального вида PDF-файла или режим "Flow" для многоуровневого анализа с акцентом на максимальную редактируемость.</p>
 <p>Вы также можете установить привилегии доступа к PDF-файлам. Эти привилегии включают печать, печать с пониженным качеством, модификацию содержимого, копирование содержимого, заполнение PDF-форм и многое другое.</p>
