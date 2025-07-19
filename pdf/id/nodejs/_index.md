@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">Fitur Pemrosesan Dokumen PDF Lanjutan</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Tambahkan teks dokumen atau <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">gambar</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">header</a> dan <a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">footer</a></p>
+<p class="col-lg-10">Tambahkan teks dokumen atau <a href="https://products.aspose.cloud/pdf/id/nodejs/header/image/">gambar</a> <a href="https://products.aspose.cloud/pdf/id/nodejs/header/text/">header</a> dan <a href="https://products.aspose.cloud/pdf/id/nodejs/footer/text/">footer</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"> Tambahkan <a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">teks</a> dan <a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">gambar</a> stempel ke dokumen</p>
+<p class="col-lg-10"> Tambahkan <a href="https://products.aspose.cloud/pdf/id/nodejs/stamp/text/">teks</a> dan <a href="https://products.aspose.cloud/pdf/id/nodejs/stamp/image/">gambar</a> stempel ke dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">Pisahkan Dokumen PDF Tunggal</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/split/">Pisahkan Dokumen PDF Tunggal</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">Tambahkan tabel ke dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/table/add/">Tambahkan tabel ke dokumen</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">Tambahkan</a> atau <a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">hapus</a> Gambar ke dokumen PDF</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/images/add/">Tambahkan</a> atau <a href="https://products.aspose.cloud/pdf/id/nodejs/images/remove/">hapus</a> Gambar ke dokumen PDF</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">Tambahkan beberapa dokumen ke dokumen yang sudah ada</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/merge/">Tambahkan beberapa dokumen ke dokumen yang sudah ada</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">Baca</a> dan <a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">unduh</a> lampiran dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/attachments/add/">Baca</a> dan <a href="https://products.aspose.cloud/pdf/id/nodejs/attachments/extract/">unduh</a> lampiran dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">Buat</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">baca</a>, <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">hapus</a> dan <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">perbarui</a> bidang formulir dalam dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/acroforms/add/">Buat</a>, <a href="https://products.aspose.cloud/pdf/id/nodejs/acroforms/get/">baca</a>, <a href="https://products.aspose.cloud/pdf/id/nodejs/acroforms/remove/">hapus</a> dan <a href="https://products.aspose.cloud/pdf/id/nodejs/acroforms/update/">perbarui</a> bidang formulir dalam dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">Tambahkan</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">perbarui</a>, <a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">baca</a> dan <a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">hapus</a> properti dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/metadata/add/">Tambahkan</a>, <a href="https://products.aspose.cloud/pdf/id/nodejs/metadata/update/">perbarui</a>, <a href="https://products.aspose.cloud/pdf/id/nodejs/metadata/get/">baca</a> dan <a href="https://products.aspose.cloud/pdf/id/nodejs/metadata/remove/">hapus</a> properti dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">Tambahkan teks ke dokumen &amp; ambil sesuai kebutuhan</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/text/add/">Tambahkan teks ke dokumen &amp; ambil sesuai kebutuhan</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">Ganti satu atau beberapa instance teks di halaman PDF atau seluruh dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/nodejs/text/replace/">Ganti satu atau beberapa instance teks di halaman PDF atau seluruh dokumen</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Mulai dengan SDK Pemrosesan Dokumen PDF</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Fitur Ekstensif untuk Konversi PDF</h2>
-<p>Aspose.PDF Cloud Node.js SDK memungkinkan Anda <a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">mengonversi ke dan dari PDF ke berbagai format file populer lainnya</a>. Menggunakan ini Anda dapat mengonversi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, dan TIFF, ke PDF.</p>
+<p>Aspose.PDF Cloud Node.js SDK memungkinkan Anda <a href="https://products.aspose.cloud/pdf/id/nodejs/conversion/pdf-to-jpeg/">mengonversi ke dan dari PDF ke berbagai format file populer lainnya</a>. Menggunakan ini Anda dapat mengonversi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, dan TIFF, ke PDF.</p>
 <p>Anda juga dapat mengonversi PDF (dengan Formulir XFA) ke PDF dengan AcroForm. Demikian pula Aspose.PDF Cloud Node.js SDK memungkinkan Anda mengonversi PDF ke BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, dan XPS.</p>
 <p>Selain itu, Aspose.PDF Cloud Node.js SDK memungkinkan Anda mengontrol bagaimana dokumen PDF dikonversi menjadi dokumen pemrosesan kata. Anda dapat memilih dari mode “Textbox” untuk mempertahankan tampilan asli file PDF atau mode “Flow” untuk analisis multi-level dengan fokus pada kemudahan pengeditan maksimal.</p>
 <p>Anda juga dapat mengatur hak akses dokumen untuk file PDF. Hak akses ini termasuk pencetakan, pencetakan terdegradasi, modifikasi konten, penyalinan konten, pengisian formulir PDF dan banyak lagi.</p>

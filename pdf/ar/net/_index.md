@@ -87,11 +87,11 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/split/">تقسيم مستند PDF واحد</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/split/">تقسيم مستند PDF واحد</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/add/">إضافة جداول إلى المستندات</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/table/add/">إضافة جداول إلى المستندات</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -103,7 +103,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/merge/">إلحاق مستندات متعددة إلى مستند موجود</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/merge/">إلحاق مستندات متعددة إلى مستند موجود</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -111,15 +111,15 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/net/attachments/get/">تحميل</a> <a href="https://products.aspose.cloud/pdf/net/attachments/">مرفقات المستندات</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/attachments/add/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/ar/net/attachments/get/">تحميل</a> <a href="https://products.aspose.cloud/pdf/ar/net/attachments/">مرفقات المستندات</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/">إنشاء</a>، <a href="https://products.aspose.cloud/pdf/net/">قراءة</a>، <a href="https://products.aspose.cloud/pdf/net/">تسطيح</a> و<a href="https://products.aspose.cloud/pdf/net/">تحديث</a> حقول النماذج في المستند</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/">إنشاء</a>، <a href="https://products.aspose.cloud/pdf/ar/net/">قراءة</a>، <a href="https://products.aspose.cloud/pdf/ar/net/">تسطيح</a> و<a href="https://products.aspose.cloud/pdf/ar/net/">تحديث</a> حقول النماذج في المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/metadata/add/">إضافة</a>، <a href="https://products.aspose.cloud/pdf/net/metadata/update/">تحديث</a>، <a href="https://products.aspose.cloud/pdf/net/metadata/get/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/net/metadata/remove/">حذف</a> خصائص المستند</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/metadata/add/">إضافة</a>، <a href="https://products.aspose.cloud/pdf/ar/net/metadata/update/">تحديث</a>، <a href="https://products.aspose.cloud/pdf/ar/net/metadata/get/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/ar/net/metadata/remove/">حذف</a> خصائص المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,7 +127,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/text/add/">إضافة نص إلى المستند &amp; استرجاعه حسب الحاجة</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/net/text/add/">إضافة نص إلى المستند &amp; استرجاعه حسب الحاجة</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
@@ -150,7 +150,7 @@ Console.WriteLine(response);
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">ميزات واسعة لتحويل PDF</h2>
-<p>يتيح لك Aspose.PDF Cloud .NET SDK <a href="https://products.aspose.cloud/pdf/net/conversion/pdf-to-jpeg/">التحويل من وإلى PDF إلى تنسيقات ملفات شائعة أخرى</a>. باستخدامه يمكنك تحويل EPUB وHTML وLaTeX وMHT وPCL وDOC وMOBIXML وPDFA وPPTX وSVG وTIFF وXLS وXLSX وXML وXPS وPS وXSLFo وPCL وBMP وEMF وGIF وJPEG وPNG وTIFF إلى PDF.</p>
+<p>يتيح لك Aspose.PDF Cloud .NET SDK <a href="https://products.aspose.cloud/pdf/ar/net/conversion/pdf-to-jpeg/">التحويل من وإلى PDF إلى تنسيقات ملفات شائعة أخرى</a>. باستخدامه يمكنك تحويل EPUB وHTML وLaTeX وMHT وPCL وDOC وMOBIXML وPDFA وPPTX وSVG وTIFF وXLS وXLSX وXML وXPS وPS وXSLFo وPCL وBMP وEMF وGIF وJPEG وPNG وTIFF إلى PDF.</p>
 <p>يمكنك أيضًا تحويل PDF (بأشكال XFA) إلى PDF مع AcroForm. وبالمثل، يتيح لك Aspose.PDF Cloud .NET SDK تحويل PDF إلى BMP وEMF وGIF وJPEG وPNG وTIFF وDOC وEPUB وHTML وLaTex وMOBIXML وPDFA وPPTX وSVG وXLS وXLSX وXML وXPS.</p>
 <p>علاوة على ذلك، يتيح لك Aspose.PDF Cloud .NET SDK التحكم في كيفية تحويل مستند PDF إلى مستند معالجة نصوص. يمكنك الاختيار بين وضع “Textbox” للحفاظ على الشكل الأصلي لملف PDF أو وضع “Flow” لتحليل متعدد المستويات مع التركيز على أن يكون قابلاً للتحرير إلى أقصى حد.</p>
 <p>يمكنك أيضًا تعيين امتيازات الوصول للمستندات لملفات PDF. تتضمن هذه الامتيازات الطباعة، والطباعة المتدهورة، وتعديل المحتوى، ونسخ المحتوى، وملء النماذج PDF والعديد غيرها.</p>

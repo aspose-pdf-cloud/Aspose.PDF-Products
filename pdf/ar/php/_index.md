@@ -75,11 +75,11 @@ url: php
 <h2 class="pr-ft">ميزات متقدمة لمعالجة مستندات PDF</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة نص أو صورة <a href="https://products.aspose.cloud/pdf/php/header/image/">الترويسة</a> و<a href="https://products.aspose.cloud/pdf/php/footer/image/">التذييل</a></p>
+<p class="col-lg-10">إضافة نص أو صورة <a href="https://products.aspose.cloud/pdf/ar/php/header/image/">الترويسة</a> و<a href="https://products.aspose.cloud/pdf/ar/php/footer/image/">التذييل</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/pages/add/">إضافة صفحات إلى مستند PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/pages/add/">إضافة صفحات إلى مستند PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -87,15 +87,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/split/">قسّم مستند PDF واحد</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/split/">قسّم مستند PDF واحد</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/add/">إضافة جداول إلى المستندات</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/table/add/">إضافة جداول إلى المستندات</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/table/delete/">حذف جميع الجداول من صفحة معينة أو مستند كامل</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/table/delete/">حذف جميع الجداول من صفحة معينة أو مستند كامل</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
@@ -103,15 +103,15 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/merge/">إلحاق مستندات متعددة بمستند موجود</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/merge/">إلحاق مستندات متعددة بمستند موجود</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/conversion/pdf-to-jpeg/">تحويل مستندات PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/conversion/pdf-to-jpeg/">تحويل مستندات PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/attachments/">قراءة وتنزيل مرفقات المستندات</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/attachments/">قراءة وتنزيل مرفقات المستندات</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
@@ -119,7 +119,7 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/metadata/add/">إضافة</a>، <a href="https://products.aspose.cloud/pdf/php/metadata/update/">تحديث</a>، <a href="https://products.aspose.cloud/pdf/php/metadata/get/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/php/metadata/remove/">حذف</a> خصائص المستندات</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/metadata/add/">إضافة</a>، <a href="https://products.aspose.cloud/pdf/ar/php/metadata/update/">تحديث</a>، <a href="https://products.aspose.cloud/pdf/ar/php/metadata/get/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/ar/php/metadata/remove/">حذف</a> خصائص المستندات</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,11 +127,11 @@ url: php
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/add/">إضافة نص إلى المستند &amp; جلبه حسب الحاجة</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/text/add/">إضافة نص إلى المستند &amp; جلبه حسب الحاجة</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/php/text/replace/">استبدال حالة واحدة أو متعددة من النص في صفحة PDF أو المستند بالكامل</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/php/text/replace/">استبدال حالة واحدة أو متعددة من النص في صفحة PDF أو المستند بالكامل</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">ابدأ مع SDK لمعالجة مستندات PDF</h2>

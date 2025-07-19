@@ -74,11 +74,11 @@ url: nodejs
 <h2 class="pr-ft">ميزات معالجة مستندات PDF المتقدمة</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة نص المستند أو <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">صورة</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">الرأس</a> و<a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">التذييل</a></p>
+<p class="col-lg-10">إضافة نص المستند أو <a href="https://products.aspose.cloud/pdf/ar/nodejs/header/image/">صورة</a> <a href="https://products.aspose.cloud/pdf/ar/nodejs/header/text/">الرأس</a> و<a href="https://products.aspose.cloud/pdf/ar/nodejs/footer/text/">التذييل</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة <a href="https://products.aspose.cloud/pdf/nodejs/stamp/text/">نصوص</a> و<a href="https://products.aspose.cloud/pdf/nodejs/stamp/image/">صور</a> إلى الوثائق</p>
+<p class="col-lg-10">إضافة <a href="https://products.aspose.cloud/pdf/ar/nodejs/stamp/text/">نصوص</a> و<a href="https://products.aspose.cloud/pdf/ar/nodejs/stamp/image/">صور</a> إلى الوثائق</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
@@ -86,11 +86,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/split/">تقسيم مستند PDF واحد</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/split/">تقسيم مستند PDF واحد</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/table/add/">إضافة جداول إلى الوثائق</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/table/add/">إضافة جداول إلى الوثائق</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -98,11 +98,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/images/add/">إضافة</a> أو <a href="https://products.aspose.cloud/pdf/nodejs/images/remove/">حذف</a> الصور إلى مستند PDF</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/images/add/">إضافة</a> أو <a href="https://products.aspose.cloud/pdf/ar/nodejs/images/remove/">حذف</a> الصور إلى مستند PDF</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/merge/">إلحاق مستندات متعددة إلى موجود</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/merge/">إلحاق مستندات متعددة إلى موجود</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -110,15 +110,15 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/attachments/add/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/nodejs/attachments/extract/">تحميل</a> مرفقات المستند</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/attachments/add/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/ar/nodejs/attachments/extract/">تحميل</a> مرفقات المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/acroforms/add/">إنشاء</a>، <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/get/">قراءة</a>، <a href="https://products.aspose.cloud/pdf/nodejs/acroforms/remove/">إزالة</a> و<a href="https://products.aspose.cloud/pdf/nodejs/acroforms/update/">تحديث</a> حقول النماذج في المستند</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/acroforms/add/">إنشاء</a>، <a href="https://products.aspose.cloud/pdf/ar/nodejs/acroforms/get/">قراءة</a>، <a href="https://products.aspose.cloud/pdf/ar/nodejs/acroforms/remove/">إزالة</a> و<a href="https://products.aspose.cloud/pdf/ar/nodejs/acroforms/update/">تحديث</a> حقول النماذج في المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/metadata/add/">إضافة</a>، <a href="https://products.aspose.cloud/pdf/nodejs/metadata/update/">تحديث</a>، <a href="https://products.aspose.cloud/pdf/nodejs/metadata/get/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/nodejs/metadata/remove/">حذف</a> خصائص المستند</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/metadata/add/">إضافة</a>، <a href="https://products.aspose.cloud/pdf/ar/nodejs/metadata/update/">تحديث</a>، <a href="https://products.aspose.cloud/pdf/ar/nodejs/metadata/get/">قراءة</a> و<a href="https://products.aspose.cloud/pdf/ar/nodejs/metadata/remove/">حذف</a> خصائص المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -126,11 +126,11 @@ url: nodejs
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/add/">إضافة نص إلى المستند &amp; جلبه حسب الحاجة</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/text/add/">إضافة نص إلى المستند &amp; جلبه حسب الحاجة</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/nodejs/text/replace/">استبدال نص واحد أو متعدد في صفحة PDF أو المستند بأكمله</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/ar/nodejs/text/replace/">استبدال نص واحد أو متعدد في صفحة PDF أو المستند بأكمله</a></p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">ابدأ مع حزمة معالجة مستندات PDF SDK</h2>
@@ -139,7 +139,7 @@ url: nodejs
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">ميزات واسعة لتحويل PDF</h2>
-<p>يتيح لك Aspose.PDF Cloud Node.js SDK <a href="https://products.aspose.cloud/pdf/nodejs/conversion/pdf-to-jpeg/">التحويل من وإلى PDF إلى تنسيقات ملفات شائعة أخرى</a>. باستخدامه يمكنك تحويل EPUB، HTML، LaTeX، MHT، PCL، DOC، MOBIXML، PDFA، PPTX، SVG، TIFF، XLS، XLSX، XML، XPS، PS، XSLFo، PCL، BMP، EMF، GIF، JPEG، PNG، وTIFF، إلى PDF.</p>
+<p>يتيح لك Aspose.PDF Cloud Node.js SDK <a href="https://products.aspose.cloud/pdf/ar/nodejs/conversion/pdf-to-jpeg/">التحويل من وإلى PDF إلى تنسيقات ملفات شائعة أخرى</a>. باستخدامه يمكنك تحويل EPUB، HTML، LaTeX، MHT، PCL، DOC، MOBIXML، PDFA، PPTX، SVG، TIFF، XLS، XLSX، XML، XPS، PS، XSLFo، PCL، BMP، EMF، GIF، JPEG، PNG، وTIFF، إلى PDF.</p>
 <p>يمكنك أيضًا تحويل PDF (مع نماذج XFA) إلى PDF مع AcroForm. وبالمثل يتيح لك Aspose.PDF Cloud Node.js SDK تحويل PDF إلى BMP، PDF EMF، GIF، JPEG، PNG، TIFF، DOC، EPUB، HTML، LaTex، MOBIXML، PDFA، PPTX، SVG، XLS، XLSX، XML، وXPS.</p>
 <p>علاوة على ذلك، يسمح لك Aspose.PDF Cloud Node.js SDK بالتحكم في كيفية تحويل مستند PDF إلى مستند معالجة كلمات. يمكنك الاختيار من وضع “Textbox” للحفاظ على شكل PDF الأصلي أو وضع “Flow” للتحليل متعدد المستويات مع التركيز على أن يكون قابلًا للتحرير إلى أقصى حد.</p>
 <p>يمكنك أيضًا تعيين امتيازات وصول المستند لملفات PDF. تشمل هذه الامتيازات الطباعة، الطباعة المتدهورة، تعديل المحتوى، نسخ المحتوى، ملء نماذج PDF والعديد من الامتيازات الأخرى.</p>

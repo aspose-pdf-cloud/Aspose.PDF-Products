@@ -87,11 +87,11 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/split/">Pisahkan Satu Dokumen PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/split/">Pisahkan Satu Dokumen PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/add/">Tambahkan tabel ke dokumen</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/table/add/">Tambahkan tabel ke dokumen</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -103,7 +103,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/merge/">Tambahkan beberapa dokumen ke dokumen yang sudah ada</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/merge/">Tambahkan beberapa dokumen ke dokumen yang sudah ada</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -111,15 +111,15 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">Baca</a> dan <a href="https://products.aspose.cloud/pdf/net/attachments/get/">unduh</a> <a href="https://products.aspose.cloud/pdf/net/attachments/">lampiran</a> dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/attachments/add/">Baca</a> dan <a href="https://products.aspose.cloud/pdf/id/net/attachments/get/">unduh</a> <a href="https://products.aspose.cloud/pdf/id/net/attachments/">lampiran</a> dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/">Buat</a>, <a href="https://products.aspose.cloud/pdf/net/">baca</a>, <a href="https://products.aspose.cloud/pdf/net/">rata</a>, dan <a href="https://products.aspose.cloud/pdf/net/">perbarui</a> bidang formulir dalam dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/">Buat</a>, <a href="https://products.aspose.cloud/pdf/id/net/">baca</a>, <a href="https://products.aspose.cloud/pdf/id/net/">rata</a>, dan <a href="https://products.aspose.cloud/pdf/id/net/">perbarui</a> bidang formulir dalam dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/metadata/add/">Tambahkan</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/update/">perbarui</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/get/">baca</a>, dan <a href="https://products.aspose.cloud/pdf/net/metadata/remove/">hapus</a> properti dokumen</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/metadata/add/">Tambahkan</a>, <a href="https://products.aspose.cloud/pdf/id/net/metadata/update/">perbarui</a>, <a href="https://products.aspose.cloud/pdf/id/net/metadata/get/">baca</a>, dan <a href="https://products.aspose.cloud/pdf/id/net/metadata/remove/">hapus</a> properti dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,7 +127,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/text/add/">Tambahkan teks ke dokumen &amp; ambil sesuai kebutuhan</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/id/net/text/add/">Tambahkan teks ke dokumen &amp; ambil sesuai kebutuhan</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
@@ -150,7 +150,7 @@ Console.WriteLine(response);
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Fitur Ekstensif untuk Konversi PDF</h2>
-<p>Aspose.PDF Cloud .NET SDK memungkinkan Anda <a href="https://products.aspose.cloud/pdf/net/conversion/pdf-to-jpeg/">mengonversi ke dan dari PDF ke berbagai format file populer lainnya</a>. Menggunakannya Anda dapat mengonversi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, dan TIFF, ke PDF.</p>
+<p>Aspose.PDF Cloud .NET SDK memungkinkan Anda <a href="https://products.aspose.cloud/pdf/id/net/conversion/pdf-to-jpeg/">mengonversi ke dan dari PDF ke berbagai format file populer lainnya</a>. Menggunakannya Anda dapat mengonversi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, dan TIFF, ke PDF.</p>
 <p>Anda juga dapat mengonversi PDF (dengan Formulir XFA) ke PDF dengan AcroForm. Demikian pula, Aspose.PDF Cloud .NET SDK memungkinkan Anda mengonversi PDF ke BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, dan XPS.</p>
 <p>Selain itu, Aspose.PDF Cloud .NET SDK memungkinkan Anda mengontrol bagaimana dokumen PDF dikonversi menjadi dokumen pemrosesan kata. Anda dapat memilih dari mode “Textbox” untuk menjaga tampilan asli file PDF atau mode “Flow” untuk analisis multi-level dengan fokus pada kemudahan pengeditan.</p>
 <p>Anda juga dapat mengatur hak akses dokumen untuk file PDF. Hak ini termasuk pencetakan, pencetakan terdegradasi, modifikasi konten, penyalinan konten, pengisian formulir PDF, dan banyak lagi.</p>

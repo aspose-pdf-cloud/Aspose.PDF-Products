@@ -87,11 +87,11 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/split/">拆分单个PDF文档</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/split/">拆分单个PDF文档</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/add/">为文档添加表格</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/table/add/">为文档添加表格</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
@@ -103,7 +103,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/merge/">将多个文档追加到现有文档</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/merge/">将多个文档追加到现有文档</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
@@ -111,15 +111,15 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">读取</a> 和 <a href="https://products.aspose.cloud/pdf/net/attachments/get/">下载</a> 文档 <a href="https://products.aspose.cloud/pdf/net/attachments/">附件</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/attachments/add/">读取</a> 和 <a href="https://products.aspose.cloud/pdf/zh/net/attachments/get/">下载</a> 文档 <a href="https://products.aspose.cloud/pdf/zh/net/attachments/">附件</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/">创建</a>, <a href="https://products.aspose.cloud/pdf/net/">读取</a>, <a href="https://products.aspose.cloud/pdf/net/">展平</a> 和 <a href="https://products.aspose.cloud/pdf/net/">更新</a> 文档中的表单字段</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/">创建</a>, <a href="https://products.aspose.cloud/pdf/zh/net/">读取</a>, <a href="https://products.aspose.cloud/pdf/zh/net/">展平</a> 和 <a href="https://products.aspose.cloud/pdf/zh/net/">更新</a> 文档中的表单字段</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/metadata/add/">添加</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/update/">更新</a>, <a href="https://products.aspose.cloud/pdf/net/metadata/get/">读取</a> 和 <a href="https://products.aspose.cloud/pdf/net/metadata/remove/">删除</a> 文档属性</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/metadata/add/">添加</a>, <a href="https://products.aspose.cloud/pdf/zh/net/metadata/update/">更新</a>, <a href="https://products.aspose.cloud/pdf/zh/net/metadata/get/">读取</a> 和 <a href="https://products.aspose.cloud/pdf/zh/net/metadata/remove/">删除</a> 文档属性</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
@@ -127,7 +127,7 @@ url: net
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/text/add/">向文档中添加文本 &amp; 根据需要获取</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/zh/net/text/add/">向文档中添加文本 &amp; 根据需要获取</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
@@ -150,7 +150,7 @@ Console.WriteLine(response);
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">PDF 转换的扩展功能</h2>
-<p>Aspose.PDF Cloud .NET SDK 允许您<a href="https://products.aspose.cloud/pdf/net/conversion/pdf-to-jpeg/">将 PDF 转换为各种其他流行文件格式</a>。使用它，您可以将 EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG 和 TIFF 转换为 PDF。</p>
+<p>Aspose.PDF Cloud .NET SDK 允许您<a href="https://products.aspose.cloud/pdf/zh/net/conversion/pdf-to-jpeg/">将 PDF 转换为各种其他流行文件格式</a>。使用它，您可以将 EPUB、HTML、LaTeX、MHT、PCL、DOC、MOBIXML、PDFA、PPTX、SVG、TIFF、XLS、XLSX、XML、XPS、PS、XSLFo、PCL、BMP、EMF、GIF、JPEG、PNG 和 TIFF 转换为 PDF。</p>
 <p>您还可以将带有 XFA 表单的 PDF 转换为带有 AcroForm 的 PDF。同样，Aspose.PDF Cloud .NET SDK 允许您将 PDF 转换为 BMP、PDF EMF、GIF、JPEG、PNG、TIFF、DOC、EPUB、HTML、LaTex、MOBIXML、PDFA、PPTX、SVG、XLS、XLSX、XML 和 XPS。</p>
 <p>此外，Aspose.PDF Cloud .NET SDK 允许您控制 PDF 文档如何转换为文字处理文档。您可以选择“文本框”模式以保留 PDF 文件的原始外观，或“流”模式进行多级分析，重点是最大程度的可编辑性。</p>
 <p>您还可以为 PDF 文件设置文档访问权限。这些权限包括打印、降级打印、内容修改、内容复制、填充 PDF 表单等。</p>
