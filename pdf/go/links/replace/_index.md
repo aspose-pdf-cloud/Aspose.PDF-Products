@@ -49,6 +49,8 @@ Aspose.PDF Cloud Go developers can easily replace Links in PDF documents. Develo
 1. Update the link annotation in the PDF document.
 1. Download the updated PDF document.
 
+Note: when replacing links, we change their color to show the changed hyperlink.
+
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
 {{% blocks/products/pf/agp/code-block title="This sample code shows replacing Links in PDF document using PDF Cloud Go SDK" offSpacer="" %}}
