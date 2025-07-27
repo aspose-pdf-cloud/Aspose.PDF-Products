@@ -2,7 +2,7 @@
 title: Run Aspose.PDF REST API in AWS with Pay-as-You-Go Agility | ECS & EKS Ready
 description: Ditch rigid licenses. Deploy the full Aspose.PDF REST API inside your AWS ECS or EKS cluster—scale on demand, control infrastructure, and only pay when you process.
 weight: 120
-url: /aws
+url: aws
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
