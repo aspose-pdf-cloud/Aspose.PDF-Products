@@ -2,7 +2,7 @@
 title: Develop PDF Editor &amp; Converter Apps via Python REST SDK 
 description: Use Aspose.PDF Cloud SDK for Python to build powerful PDF tools. Convert, edit, and automate PDF workflows in Python.
 weight: 100
-url: /python
+url: python
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

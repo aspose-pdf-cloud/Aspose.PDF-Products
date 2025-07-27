@@ -99,7 +99,7 @@ url: /go
     <p class="col-lg-10">Delete all tables from a specific page or entire document</p>
    </div>
    <div class="col-lg-4">
-    <em class="fa fa-html5 ico-blue fa-2x col-lg-2"</em>
+    <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10">Read or delete document table by ID</p>
    </div>
    <div class="col-lg-4">
