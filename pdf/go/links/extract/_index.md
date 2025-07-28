@@ -43,10 +43,12 @@ Aspose.PDF Cloud Go developers can easily extract Links from PDF documents. Deve
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Uploads the PDF document to the remote folder using the uploadFile function.
-1. Constructs the request parameters for the GetPageLinkAnnotations API call.
-1. Calls the GetPageLinkAnnotations API to retrieve the link annotations.
-1. The showLinks method outputs the information to the console.
+1. Install [Go SDK](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go)
+1. Execute launcer for Links uses cases start [links_launch.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_launch.go)
+1. Create a PDF API service using 'initPdfApi()' function in module [links_helper.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_helper.go)
+1. Upload a PDF document to the Aspose Cloud server using 'uploadFile()' function in module [links_helper.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_helper.go)
+1. Extract Links from a PDF document using "getLinks()" functions in module [extract_links.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/extract_links.go)
+1. If successful, display the retrieved links
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 

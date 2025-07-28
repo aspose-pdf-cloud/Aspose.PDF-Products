@@ -43,10 +43,12 @@ Aspose.PDF Cloud Go developers can easily remove Links from PDF documents. Devel
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Upload the PDF document to the Aspose PDF Cloud service
-1. Retrieve the link annotation from the PDF document using 'getLink' function
-1. Create a map with optional settings (like folder in a Cloud storage) for the DeleteLinkAnnotation API call
-1. Call the DeleteLinkAnnotation API to remove the link annotation
+1. Install [Go SDK](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go)
+1. Execute launcer for Links uses cases start [links_launch.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_launch.go)
+1. Create a PDF API service using 'initPdfApi()' function in module [links_helper.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_helper.go)
+1. Upload a PDF document to the Aspose Cloud server using 'uploadFile()' function in module [links_helper.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_helper.go)
+1. Remove Link from a PDF document using "removeLink()" functions in module [remove_link.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/remove_link.go)
+1. Download the modified file
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
