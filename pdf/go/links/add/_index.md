@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily append Links to PDF documents. Develop
 {{% /blocks/products/pf/agp/text %}}
 
 1. Install [Go SDK](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go)
-1. Execute launcer for Links uses cases start [links_launch.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_launch.go)
+1. Execute launcher for Links uses cases start [links_launch.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_launch.go)
 1. Create a PDF API service using 'initPdfApi()' function in module [links_helper.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_helper.go)
 1. Upload a PDF document to the Aspose Cloud server using 'uploadFile()' function in module [links_helper.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/links_helper.go)
 1. Append Link to a PDF document using 'appendLink()' function in module [append_link.go](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/blob/master/uses_cases/links/append_link.go)
@@ -107,7 +107,7 @@ Add the Links into PDF documents with [Aspose.PDF Cloud Go SDK](https://products
 **With our Go SDK you can**
 
 + Add PDF document's header & footer in text or image format.
-+ Add tables & stamps (text or image) to PDF documents.
++ Add tables & text or image stamps to PDF documents.
 + Append multiple PDF documents to an existing file.
 + Work with PDF attachments, annotations, & form fields.
 + Apply encryption or decryption to PDF documents & set a password.
