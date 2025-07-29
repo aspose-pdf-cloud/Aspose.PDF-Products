@@ -53,8 +53,9 @@ Aspose.PDF Cloud developers can easily load & optimize PDF in just a few lines o
 1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/)
 1. Define Config Class
 1. Initialize the PDF API Client
-1. Upload the PDF Document
-1. Compress the PDF Document (in this example we compress images and reduce their quality, you can set other params if need it). Checks the Documentation Pages, if you need details.
+1. Upload the PDF Document with upload_document method
+1. Compress the PDF Document using compress_pdf_document method (in this example we compress images and reduce their quality, you can set other params if need it). Checks the Documentation Pages, if you need details.
+1. Send compression request via post_optimize_document().
 1. Download the Resulting PDF
 
 {{% /blocks/products/pf/agp/feature-section-col %}}

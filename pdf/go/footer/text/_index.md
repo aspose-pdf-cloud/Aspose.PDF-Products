@@ -103,7 +103,7 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 **With our Go SDK you can**
 
 + Add PDF document's header & footer in text or image format.
-+ Add tables & stamps (text or image) to PDF documents.
++ Add tables & text or image stamps to PDF documents.
 + Append multiple PDF documents to an existing file.
 + Work with PDF attachments, annotations, & form fields.
 + Apply encryption or decryption to PDF documents & set a password.
