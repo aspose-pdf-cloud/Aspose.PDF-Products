@@ -10,7 +10,7 @@ url: /net
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud .NET SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud .NET SDK enables developers to program PDF editor, converter and creator apps for cloud platforms. Aspose.PDF Cloud SDK for .NET is distributed under an MIT license and is based on Aspose.PDF REST API. PDF .NET SDK enhances your C#, ASP.NET and other .NET supported language code to access and customize images, annotations, watermarks, stamps, form fields, and OCR layers of PDF documents saved on the cloud storage.</p>
@@ -37,7 +37,7 @@ url: /net
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-net.svg" alt=".NET pdf Cloud"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>.NET</footer></div>
+<div class="d1-logo"><img src="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" alt=".NET pdf Cloud"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>.NET</footer></div>
 <!--/logo--></div>
 <!--/diagram1-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -53,7 +53,7 @@ url: /net
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-net.svg" alt=".NET Cloud SDK for PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>.NET</footer></div>
+<div class="d1-logo"><img src="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" alt=".NET Cloud SDK for PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>.NET</footer></div>
 <!--/logo--></div>
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
