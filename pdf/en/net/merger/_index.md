@@ -58,30 +58,35 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 ```cs
 
-    internal static void MergePdf()
+    using Aspose.Pdf.Cloud.Sdk.Model;
+
+    namespace Merges
     {
-        const string localImageFileName = @"C:\Samples\sample.pdf";
-        const string storageFileName1 = "sample1.pdf";
-        const string storageFileName2 = "sample2.pdf";
-        const string resultFileName = "merged-doc.pdf";
-
-        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-        var pdfApi = new PdfApi(AppSecret, AppSid);
-        using var file = File.OpenRead(localImageFileName);
-        pdfApi.UploadFile(storageFileName1, file);
-        pdfApi.CopyFile(storageFileName1, storageFileName2);
-
-        var documentsToBeMerged = new List<string>()
+        public class MergeDocuments
         {
-            storageFileName1, storageFileName2
-        };
+            public static async Task Merge(MergesHelper helper, List<string> files, string outputName, string remoteFolder)
+            {
+                Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments documetItems = new(new List<string>());
+    
+                foreach (var file in files)
+                {
+                    await helper.UploadFile(Path.GetFileName(file));
+                    documetItems.List.Add(Path.Combine( remoteFolder, file));
+                }
+    
+                DocumentResponse response = await helper.pdfApi.PutMergeDocumentsAsync(outputName, documetItems, folder: remoteFolder);
 
-        var documents = new Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments(documentsToBeMerged);
-        
-        pdfApi.PutMergeDocuments(resultFileName, documents);
-        var response = pdfApi.DownloadFile(resultFileName);
-        response.CopyTo(File.OpenWrite(resultFileName));
-        Console.WriteLine();
+                if (response == null)
+                    Console.WriteLine("MergeDocuments(): Unexpected error!");
+                else if (response.Code < 200 || response.Code > 299)
+                    Console.WriteLine("MergeDocuments(): Failed to documents.");
+                else
+                {
+                    Console.WriteLine("MergeDocuments(): documents successfully merged to '{0}' file.", outputName);
+                    await helper.DownloadFile(outputName);
+                }
+            }
+        }
     }
 ```
 
