@@ -45,12 +45,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Uploads the PDF.
-1. Set Parameters for API Request.
-1. Retrieve Annotations from the Page.
-1. Validate the Response.
-1. Search for Text Annotation.
-1. Print the message with result.
+1. Upload the PDF File to Cloud.
+1. Get Page Info.
+1. Extract the Page as an Image.
+1. Create a New Empty PDF Document.
+1. Insert the Image into the New PDF.
+1. Download the Final Cropped PDF.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
