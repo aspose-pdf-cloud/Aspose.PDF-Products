@@ -6,7 +6,7 @@ lastmod: "2025-08-19"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Get Pages from PDF via Go SDK" h2="API for getting Pages from PDF documents with Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Extract Pages from PDF via Go SDK" h2="API for extracting Pages from PDF documents with Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Go SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg"
@@ -15,7 +15,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% blocks/products/pf/agp/content h2="How to extract Pages from PDF documents using Cloud Go SDK" %}}
 
- For getting pages from PDF documents, we'll use
+ For extracting pages from PDF documents, we'll use
  [Aspose.PDF Cloud Go SDK](https://products.aspose.cloud/pdf/go/)
  This Cloud SDK SDK assists Go programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Go programming language via Aspose.PDF REST API. Use the following command from the Package Manager Console.
 
@@ -35,7 +35,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to get pages using Go" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to extract pages using Go" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily extract pages from PDF documents. Deve
 {{% /blocks/products/pf/agp/text %}}
 
 1. Define the ExtractPageInfo Function
-1. Upload the PDF Document to Cloud Storage
+1. Use your own upload function
 1. Set API Request Parameters
 1. Call the API to Get Page Information
 1. Handle Errors and Display Page Size

@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily get word count per PDF Page. Developer
 {{% /blocks/products/pf/agp/text %}}
 
 1. Define the GetPagesWordsCount Function
-1. Upload the PDF to Aspose Cloud Storage
+1. Use your own upload function
 1. Set Request Parameters
 1. Call the API to Get Word Counts per Page
 1. Handle API Response and Print Word Counts

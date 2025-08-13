@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily replace pages in PDF documents. Develo
 {{% /blocks/products/pf/agp/text %}}
 
 1. Define the MovePage Function
-1. Upload the PDF Document to Aspose Cloud Storage
+1. Use your own upload function
 1. Set Request Parameters
 1. Call the API to Move the Page
 1. Handle Errors and Output Result
@@ -88,7 +88,7 @@ Aspose.PDF Cloud Go developers can easily replace pages in PDF documents. Develo
 
 {{% blocks/products/pf/agp/content h2="Work with the pages in PDF via Go SDK" %}}
 
-​Replacing pages within a PDF document is a common task for developers and professionals who need to maintain accurate and up-to-date content. This process ensures that documents reflect the latest information without the need to recreate the entire file. Mistakes in a document, such as typographical errors, outdated information, or formatting issues, necessitate page replacements. Instead of recreating the entire PDF, replacing specific pages allows for efficient corrections. This approach is particularly useful when only a few pages contain errors, saving time and resources. For instance, if a page contains incorrect data or outdated graphics, replacing that page ensures the document remains accurate and professional.​
+Moving pages within a PDF is a common requirement for professionals and developers who need to maintain logical flow and improve document readability. Moving pages ensures that content appears in the correct sequence without recreating the entire file. Whether you need to group related sections, place important information at the beginning, or reorganize a report for clarity, page movement provides a quick and efficient solution. This is especially valuable when working with large documents where only a few pages are out of order.
 Move the Pages in PDF documents with [Aspose.PDF Cloud Go SDK](https://products.aspose.cloud/pdf/go/).
 
 **With our Go SDK you can**

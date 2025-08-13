@@ -1,5 +1,5 @@
 ---
-title: Get Watermarks from PDF | Go 
+title: Get Watermarks from PDF via Cloud Golang SDK
 description: Get watermark data from PDFs using Aspose.PDF Cloud SDK in Go. Inspect overlays or branding.
 weight: 30
 url: /go/watermaks/get/

@@ -35,11 +35,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to delete Tables using Go" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to delete all Tables using Go" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
-Aspose.PDF Cloud Go developers can easily remove tables from PDF documents. Developers need just a few lines of code.
+Aspose.PDF Cloud Go developers can easily remove all tables from PDF documents. Developers need just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 

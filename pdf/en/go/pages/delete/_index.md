@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily remove pages from PDF documents. Devel
 {{% /blocks/products/pf/agp/text %}}
 
 1. Define the DeletePage Function
-1. Upload the PDF Document to Cloud Storage
+1. Use your own upload function
 1. Set API Request Arguments
 1. Call the API to Delete the Specified Page
 1. Check for Errors and Handle the Response
