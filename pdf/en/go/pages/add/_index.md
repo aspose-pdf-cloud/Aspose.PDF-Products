@@ -44,7 +44,7 @@ Aspose.PDF Cloud Go developers can easily append pages to PDF documents. Develop
 {{% /blocks/products/pf/agp/text %}}
 
 1. Define the AppendNewPage Function
-1. Upload the PDF File to Aspose Cloud Storage
+1. Use own function for upload document
 1. Prepare Request Parameters
 1. Call the API to Append a New Page
 1. Handle Errors or Output the Result
