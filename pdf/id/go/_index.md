@@ -1,22 +1,22 @@
 ---
-title: Konversi, Anotasi & Tandatangani PDF Cloud via Go SDK
+title: Konversi, Beri Anotasi &amp; Tanda Tangani PDF Cloud melalui Go SDK
 description: Integrasikan pemrosesan PDF berbasis cloud ke dalam aplikasi Go Anda dengan Aspose.PDF Cloud SDK untuk Go. Andal dan ramah pengembang.
 weight: 40
-url: go
+url: /go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Terapkan alur kerja PDF di Go SDK" h2="Go lang SDK untuk mengakses dokumen PDF cloud untuk menggabungkan, memisahkan, mengenkripsi, memberi watermark, menganotasi & mengonversi ke format lain melalui REST API." logoImageSrc="/headers/aspose_pdf-for-go.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="Implementasikan alur kerja PDF di Go SDK" h2="SDK Go lang untuk mengakses dokumen PDF cloud untuk menggabungkan, memisahkan, mengenkripsi, memberi watermark, memberi anotasi & mengonversi ke format lain melalui REST API." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" downloadUrl="" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-go.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.PDF Cloud Go SDK membantu Anda membangun aplikasi pembuat, anotator, dan konverter PDF untuk cloud, menggunakan bahasa pemrograman Go. Aspose.PDF Cloud SDK untuk Go tersedia di bawah lisensi MIT dan berdasarkan pada Aspose.PDF REST API.</p>
-<p>Anda dapat meningkatkan kode Go lang Anda untuk mengakses file Acrobat yang terletak di penyimpanan cloud atau membuat halaman PDF cloud baru. Anda juga dapat membuat PDF dengan mengonversi file dari format lain, seperti HTML, PCL, XPS, TIFF, JPEG, SVG, dan XML.</p>
+<p>Aspose.PDF Cloud Go SDK membantu Anda membangun aplikasi pembuat, anotator, dan konverter PDF untuk cloud, menggunakan bahasa pemrograman Go. Aspose.PDF Cloud SDK untuk Go tersedia di bawah lisensi MIT dan didasarkan pada Aspose.PDF REST API.</p>
+<p>Anda dapat meningkatkan kode Go Anda untuk mengakses file Acrobat yang terletak di penyimpanan cloud atau membuat halaman PDF cloud baru. Anda juga dapat membuat PDF dengan mengonversi file dari format lain, seperti HTML, PCL, XPS, TIFF, JPEG, SVG, dan XML.</p>
 <p>Memungkinkan program Go berbasis cloud Anda untuk bekerja dengan berbagai elemen dokumen PDF Adobe Acrobat, seperti kotak teks, kotak centang, tombol radio, bidang formulir, anotasi, tanda tangan digital, stempel, lampiran, serta lapisan OCR dari file PDF cloud menggunakan panggilan sederhana ke REST API.</p>
-<p>Ini juga memungkinkan aplikasi cloud Go Anda untuk mengunduh lampiran dari dokumen PDF berbasis cloud, mengekstrak semua gambar dari PDF dengan ukuran default atau spesifik, dan mengekspor data dari dokumen PDF ke format file lain yang didukung, tanpa menginstal perangkat lunak pihak ketiga.</p>
+<p>Ini juga memungkinkan aplikasi Go cloud Anda untuk mengunduh lampiran dari dokumen PDF berbasis cloud, mengekstrak semua gambar dari PDF dengan ukuran default atau yang ditentukan, dan mengekspor data dari dokumen PDF ke format file lain yang didukung, tanpa menginstal perangkat lunak pihak ketiga.</p>
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagram Mulai-->
@@ -27,18 +27,18 @@ url: go
 <div class="d1-row">
 <div class="d1-col d1-left"> </div>
 <!--/kiri-->
-<div class="d1-col d1-right"><header><i class="fa fa-barcode"> </i>Ikhtisar</header><ul><li>Dapatkan data dari gambar yang dipindai</li>
+<div class="d1-col d1-right"><header><i class="fa fa-barcode"> </i>Ringkasan</header><ul><li>Dapatkan data dari gambar yang dipindai</li>
 <li>Proses foto perspektif</li>
 <li>Ekspor hasil ke CSV</li>
-<li>Pembuatan template</li>
-<li>Terapkan markup teks</li>
+<li>Pembuatan templat</li>
+<li>Terapkan penandaan teks</li>
 <li>Pangkas gambar dan terapkan pdf</li>
 <li>Terapkan aturan JSON</li>
 <li>Editor pdf berbasis GUI</li>
 </ul></div>
 <!--/kanan--></div>
 <!--/baris-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-go.svg" alt="Go PDF SDK"><header>Aspose.PDF</header><footer>Cloud <small> <em>untuk </em> </small>Go</footer></div>
+<div class="d1-logo"><img src="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" alt="Go PDF SDK"><header>Aspose.PDF</header><footer>Cloud <small> <em>untuk </em> </small>Go</footer></div>
 <!--/logo--></div>
 <!--/diagram1-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -54,29 +54,29 @@ url: go
 </ul></div>
 <!--/kanan--></div>
 <!--/baris-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-go.svg" alt="Go Cloud SDK untuk PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>untuk </em> </small>Go</footer></div>
+<div class="d1-logo"><img src="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" alt="Go Cloud SDK untuk PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>untuk </em> </small>Go</footer></div>
 <!--/logo--></div>
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
 
 
-{{< blocks/products/pf/carousel-item h3="Independensi Platform" >}}
-<img title="Independensi Platform" src="/supported-platform-min.png" alt="Independensi Platform">
+{{< blocks/products/pf/carousel-item h3="Kemandirian Platform" >}}
+<img title="Kemandirian Platform" src="/supported-platform-min.png" alt="Kemandirian Platform">
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
 <!--Diagram Selesai-->
 
-<!--Bagian-fitur Mulai-->
+<!--Bagian-Fitur Dimulai-->
 <div class="container-fluid features-section bg-gray singleproduct">
 <a class="anchor" id="features" name="features">
 </a>
 <div class="row">
 <div class="container">
-<h2 class="pr-ft">Fitur Lanjutan dari Go Cloud SDK</h2>
+<h2 class="pr-ft">Fitur Canggih dari Go Cloud SDK</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Tambahkan teks dokumen atau gambar header dan footer</p>
+<p class="col-lg-10">Tambahkan teks dokumen atau header dan footer gambar</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
@@ -116,7 +116,7 @@ url: go
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Buat, baca, ratakan dan perbarui bidang formulir dalam dokumen</p>
+<p class="col-lg-10">Buat, baca, ratakan, dan perbarui bidang formulir dalam dokumen</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
@@ -132,42 +132,42 @@ url: go
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Ganti satu atau beberapa instance teks di halaman PDF atau seluruh dokumen</p>
+<p class="col-lg-10">Ganti satu atau beberapa instance teks pada halaman PDF atau seluruh dokumen</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Mulai dengan SDK Pemrosesan Dokumen PDF</h2>
-<p>Sangat mudah untuk memulai dengan Aspose.PDF Cloud Go SDK dan tidak ada yang perlu diinstal. Cukup buat akun di<a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a>dan dapatkan informasi aplikasi Anda. Setelah Anda memiliki App SID &amp; kunci, Anda siap memberikan Aspose.PDF Cloud Go SDK.</p>
+<p>Mudah untuk memulai dengan Aspose.PDF Cloud Go SDK dan tidak ada yang perlu diinstal. Cukup buat akun di <a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a> dan dapatkan informasi aplikasi Anda. Setelah Anda memiliki App SID &amp; key, Anda siap menggunakan Aspose.PDF Cloud Go SDK.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Fitur Ekstensif untuk Konversi PDF</h2>
-<p>Aspose.PDF Cloud Go SDK memungkinkan Anda mengonversi dari dan ke PDF ke berbagai format file populer lainnya. Menggunakannya Anda dapat mengonversi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, dan TIFF, ke PDF.</p>
-<p>Anda juga dapat mengonversi PDF (dengan Formulir XFA) ke PDF dengan AcroForm. Demikian pula, Aspose.PDF Cloud Go SDK memungkinkan Anda mengonversi PDF ke BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, dan XPS.</p>
-<p>Selain itu, Aspose.PDF Cloud Go SDK memungkinkan Anda mengontrol bagaimana dokumen PDF dikonversi menjadi dokumen pengolah kata. Anda dapat memilih dari mode “Textbox” untuk mempertahankan tampilan asli file PDF atau mode “Flow” untuk analisis multi-level dengan fokus pada kemudahan pengeditan maksimal.</p>
-<p>Anda juga dapat mengatur hak akses dokumen untuk file PDF. Hak-hak ini termasuk pencetakan, pencetakan terdegradasi, modifikasi konten, penyalinan konten, pengisian formulir PDF, dan banyak lagi.</p>
+<p>Aspose.PDF Cloud Go SDK memungkinkan Anda mengonversi ke dan dari PDF ke berbagai format file populer lainnya. Menggunakannya, Anda dapat mengonversi EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG, dan TIFF, ke PDF.</p>
+<p>Anda juga dapat mengonversi PDF (dengan Formulir XFA) ke PDF dengan AcroForm. Demikian pula, Aspose.PDF Cloud Go SDK memungkinkan Anda mengonversi PDF ke BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTeX, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML, dan XPS.</p>
+<p>Selain itu, Aspose.PDF Cloud Go SDK memungkinkan Anda mengontrol bagaimana dokumen PDF dikonversi menjadi dokumen pemrosesan kata. Anda dapat memilih dari mode “Textbox” untuk mempertahankan tampilan asli file PDF atau mode “Flow” untuk analisis multi-level dengan fokus pada kemudahan pengeditan.</p>
+<p>Anda juga dapat mengatur hak akses dokumen untuk file PDF. Hak istimewa ini termasuk pencetakan, pencetakan terdegradasi, modifikasi konten, penyalinan konten, pengisian formulir PDF, dan banyak lagi.</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">Anotasi yang Disesuaikan</h2>
-<p>Aspose.PDF Cloud Go SDK mendukung berbagai jenis anotasi, seperti anotasi teks, anotasi lingkaran, anotasi poligon, anotasi polyline, anotasi garis, anotasi persegi, anotasi teks bebas, anotasi Sorot, anotasi Garis Bawah, anotasi bergelombang, anotasi coret, anotasi caret, anotasi tinta, anotasi tautan, anotasi popup, anotasi lampiran file, anotasi suara, anotasi film, anotasi layar, anotasi widget, anotasi watermark, anotasi jaringan perangkap (TrapNet), anotasi tanda printer, anotasi redaksi, anotasi stempel karet, dan anotasi media kaya.</p>
-<p>Anda dapat mengatur bendera untuk menentukan berbagai karakteristik anotasi yang didukung. Atur visibilitas, pembatasan pencetakan, pembatasan pembesaran, pembatasan rotasi, buat anotasi hanya-baca, dan bendera lainnya.</p>
-<p>Menggunakan Aspose.PDF Cloud Go SDK, anotasi dapat diatur ke berbagai status, seperti, ditandai, tidak ditandai, diterima, ditolak, dibatalkan, selesai, atau tidak ada. Ini juga memungkinkan Anda mengatur berbagai properti stempel untuk dokumen PDF. Properti ini termasuk opasitas, rotasi, penyelarasan, indentasi, zoom, dan berbagai properti lainnya.</p>
+<h2 class="h2title">Anotasi Kustom</h2>
+<p>Aspose.PDF Cloud Go SDK mendukung berbagai jenis anotasi, seperti anotasi teks, anotasi lingkaran, anotasi poligon, anotasi garis, anotasi persegi, anotasi teks bebas, anotasi Highlight, anotasi Underline, anotasi squiggle, anotasi strikeout, anotasi caret, anotasi tinta, anotasi tautan, anotasi popup, anotasi lampiran file, anotasi suara, anotasi film, anotasi layar, anotasi widget, anotasi watermark, anotasi jaringan perangkap (TrapNet), anotasi tanda printer, anotasi redaksi, anotasi stempel karet, dan anotasi media kaya.</p>
+<p>Anda dapat mengatur tanda untuk menentukan berbagai karakteristik anotasi yang didukung. Atur visibilitas, pembatasan pencetakan, pembatasan pembesaran, pembatasan rotasi, jadikan anotasi hanya-baca, dan tanda lainnya.</p>
+<p>Menggunakan Aspose.PDF Cloud Go SDK, anotasi dapat diatur ke berbagai status seperti, ditandai, tidak ditandai, diterima, ditolak, dibatalkan, selesai, atau tidak ada. Ini juga memungkinkan Anda mengatur berbagai properti stempel untuk dokumen PDF. Properti tersebut termasuk opasitas, rotasi, penempatan, indentasi, zoom, dan berbagai properti lainnya.</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">Ekstrak berbagai Elemen Dokumen PDF</h2>
-<p>Aspose.PDF Cloud Go SDK memungkinkan Anda mengekstrak berbagai elemen dokumen PDF. Anda dapat mengekstrak gambar dokumen PDF dalam format GIF, JPEG, PNG, TIFF dan menyimpannya ke folder. Ini juga memungkinkan Anda mengekstrak anotasi dokumen PDF, seperti anotasi Lampiran File, anotasi layar, anotasi suara, dan anotasi stempel ke folder yang ditentukan.</p>
+<h2 class="h2title">Ekstraksi Berbagai Elemen Dokumen PDF</h2>
+<p>Aspose.PDF Cloud Go SDK memungkinkan Anda mengekstrak berbagai elemen dokumen PDF. Anda dapat mengekstrak gambar dokumen PDF dalam format GIF, JPEG, PNG, TIFF dan menyimpannya ke folder. Ini juga memungkinkan Anda mengekstrak anotasi dokumen PDF, seperti, anotasi FileAttachment, anotasi layar, anotasi suara, dan anotasi stempel ke folder yang ditentukan.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Optimalkan Dokumen PDF</h2>
-<p>Aspose.PDF Cloud Go SDK memungkinkan Anda mengatur berbagai properti untuk membuat dokumen PDF dioptimalkan. Ini memungkinkan Anda mengoptimalkan ukuran file PDF dengan memungkinkan penggunaan ulang konten halaman, mengatur tingkat kompresi gambar yang disematkan dalam dokumen PDF, menautkan aliran sumber daya duplikat dengan menyimpannya sebagai satu objek, menghapus objek dokumen tanpa referensi apa pun, menghapus aliran yang tidak digunakan, dan dengan tidak menyematkan font dokumen PDF.</p>
+<p>Aspose.PDF Cloud Go SDK memungkinkan Anda mengatur berbagai properti untuk membuat dokumen PDF dioptimalkan. Ini memungkinkan Anda mengoptimalkan ukuran file PDF dengan memungkinkan penggunaan kembali konten halaman, mengatur tingkat kompresi gambar yang tertanam dalam dokumen PDF, menghubungkan aliran sumber daya duplikat dengan menyimpannya sebagai satu objek, menghapus objek dokumen tanpa referensi apa pun, menghapus aliran yang tidak digunakan, dan dengan tidak menyematkan font dokumen PDF.</p>
 </div>
 </div>
 </div>
 </div>
-<!--Feature-section End-->
+<!--Bagian-fitur Berakhir-->
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="Sumber Pembelajaran" tabId="resources" >}}
+{{< blocks/products/pf/slr-tab tabTitle="Sumber Belajar" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Dokumentasi" href="https://docs.aspose.cloud/pdf" >}}
 {{< blocks/products/pf/slr-element name="Kode Sumber" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" >}}
 {{< blocks/products/pf/slr-element name="Referensi API" href="https://apireference.aspose.cloud/pdf/" >}}
@@ -208,9 +208,7 @@ url: go
 	
 {{< blocks/products/pf/offers-section-item link="/pdf/swift/" imgSrc="/sdk/aspose_pdf-for-swift.svg" platform="Swift" >}}
 	
-{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
-
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" platform="AWS" >}}
+{{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 	
 {{< /blocks/products/pf/offers-section >}}
 
