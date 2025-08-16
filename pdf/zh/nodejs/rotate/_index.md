@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Node.js SDK 旋转 PDF
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: Aspose.PDF Cloud 允许您旋转 PDF 文档。查看 Node.js 源代码以旋转 PDF 文件。
 lastmod: 2025-07-28
 ---

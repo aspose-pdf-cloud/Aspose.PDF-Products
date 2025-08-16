@@ -1,6 +1,6 @@
 ---
 title: Extract Text from PDF via Cloud Node.js SDK 
-url: /nodejs/text/extract/
+url: nodejs/text/extract/
 description: Extract all text from PDFs using Node.js and Aspose.PDF Cloud SDK. Ideal for search or analysis.
 lastmod: "2024-10-19"
 ---

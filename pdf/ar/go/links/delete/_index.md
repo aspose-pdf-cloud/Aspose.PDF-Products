@@ -1,6 +1,6 @@
 ---
 title: إزالة الروابط من PDF عبر Cloud Go SDK
-url: /go/links/delete/
+url: go/links/delete/
 description: حذف الروابط التشعبية من صفحات PDF باستخدام Aspose.PDF Cloud SDK بلغة Go.
 lastmod: 2025-05-19
 ---

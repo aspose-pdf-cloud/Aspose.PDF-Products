@@ -1,6 +1,6 @@
 ---
 title: Faire pivoter un PDF via Cloud Node.js SDK
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: Aspose.PDF Cloud vous permet de faire pivoter un document PDF. Consultez le code source Node.js pour faire pivoter un fichier PDF.
 lastmod: 2025-07-28
 ---

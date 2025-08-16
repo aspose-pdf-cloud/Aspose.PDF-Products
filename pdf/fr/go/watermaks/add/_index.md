@@ -2,7 +2,7 @@
 title: Ajouter des filigranes à un PDF via Cloud Golang SDK
 description: Ajoutez des filigranes aux fichiers PDF en utilisant Go avec Aspose.PDF Cloud SDK. Prend en charge les marques de texte et d'image.
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

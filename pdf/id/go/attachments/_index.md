@@ -1,6 +1,6 @@
 ---
 title: Ekstrak & Tambahkan lampiran dalam dokumen PDF melalui Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: Kelola lampiran file dalam dokumen PDF menggunakan Aspose.PDF Cloud SDK untuk Go. Tambahkan, daftar, atau hapus konten yang tersemat.
 lastmod: 2025-05-20
 ---

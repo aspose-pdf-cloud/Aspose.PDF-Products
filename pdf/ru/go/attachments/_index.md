@@ -1,6 +1,6 @@
 ---
 title: Извлечение и добавление вложений в PDF документы с помощью Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: Управляйте вложениями файлов в PDF документах с помощью Aspose.PDF Cloud SDK для Go. Добавляйте, перечисляйте или удаляйте встроенное содержимое.
 lastmod: 2025-05-20
 ---

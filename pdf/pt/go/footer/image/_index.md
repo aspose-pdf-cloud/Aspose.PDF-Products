@@ -1,6 +1,6 @@
 ---
 title: Adicionar Imagem no Rodapé do PDF via Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: Adicione rodapés de imagem às páginas PDF usando o Aspose.PDF Cloud SDK em Go. Branding, assinaturas e mais.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: クラウド Go SDK を使用してテキスト注釈を置換する
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: Aspose.PDF Cloud SDK for Go を使用して PDF のテキスト注釈を置換します。
 lastmod: 2025-07-20
 ---

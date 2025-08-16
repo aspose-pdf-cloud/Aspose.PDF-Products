@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Văn Bản Nổi Bật qua Cloud .NET SDK
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Thêm Chú Thích Văn Bản Nổi Bật vào PDF bằng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

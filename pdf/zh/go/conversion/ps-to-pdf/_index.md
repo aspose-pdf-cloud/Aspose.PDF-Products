@@ -1,7 +1,7 @@
 ---
 title: 通过 Cloud Go SDK 将 PS 转换为 PDF
 weight: 2710
-url: /go/conversion/ps-to-pdf/
+url: go/conversion/ps-to-pdf/
 description: 使用 Aspose.PDF Cloud SDK for Go 将 PostScript (PS) 文件转换为 PDF。
 lastmod: 2025-05-17
 ---

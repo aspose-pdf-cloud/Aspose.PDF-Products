@@ -1,6 +1,6 @@
 ---
 title: Agregar imagen en el encabezado de PDF a través de Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: Agregue encabezados de imagen a PDFs en Go con Aspose.PDF Cloud. Automatice el formato de informes.
 lastmod: 2025-05-20
 ---

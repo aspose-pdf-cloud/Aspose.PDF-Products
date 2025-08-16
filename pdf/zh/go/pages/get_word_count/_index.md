@@ -1,6 +1,6 @@
 ---
 title: 使用 Aspose.PDF Cloud SDK for Go 获取每页的字数
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: 使用 Aspose.PDF Cloud SDK for Go 获取 PDF 页面的字数。
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Adicionar Anotações de Tachado via Cloud .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Adicione Anotações de Tachado a PDFs usando Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

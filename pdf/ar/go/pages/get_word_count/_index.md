@@ -1,6 +1,6 @@
 ---
 title: احصل على عدد الكلمات لكل صفحة باستخدام Aspose.PDF Cloud SDK لـ Go
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: احصل على عدد الكلمات في صفحة PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-08-19
 ---

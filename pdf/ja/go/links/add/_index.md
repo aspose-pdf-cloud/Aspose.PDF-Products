@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDK を介して PDF にリンクを追加
-url: /go/links/add/
+url: go/links/add/
 description: Go と Aspose.PDF Cloud SDK を使用して PDF ファイルにハイパーリンクを挿入します。
 lastmod: 2025-05-19
 ---

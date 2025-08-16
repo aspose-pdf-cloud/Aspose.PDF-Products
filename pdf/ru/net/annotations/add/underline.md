@@ -1,6 +1,6 @@
 ---
 title: Добавление подчеркиваний через облачный .NET SDK
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: Добавьте подчеркивания в PDF с помощью Aspose.PDF Cloud SDK для .NET.
 lastmod: 2025-07-20
 ---

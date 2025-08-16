@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات الشطب عبر Cloud .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: إضافة تعليقات الشطب إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

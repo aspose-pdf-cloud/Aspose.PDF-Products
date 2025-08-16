@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 替换文本注释
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: 使用 Aspose.PDF Cloud SDK for Go 替换 PDF 中的文本注释。
 lastmod: 2025-07-20
 ---

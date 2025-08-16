@@ -1,6 +1,6 @@
 ---
 title: Agregar Sello de Imagen al PDF a través de Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Para agregar un sello de imagen a una página específica de un PDF con Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

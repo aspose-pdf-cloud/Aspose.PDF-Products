@@ -1,6 +1,6 @@
 ---
 title: Excluir Anotações de Texto via Cloud Go SDK
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: Excluir Anotações de Texto de PDFs usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-07-20
 ---

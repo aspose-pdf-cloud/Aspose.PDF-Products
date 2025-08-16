@@ -1,6 +1,6 @@
 ---
 title: Hapus Anotasi Teks melalui Cloud Python SDK
-url: /python/annotations/text/delete
+url: python/annotations/text/delete
 description: Hapus Anotasi Teks dari PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

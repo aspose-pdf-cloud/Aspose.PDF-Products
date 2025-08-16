@@ -1,6 +1,6 @@
 ---
 title: Agregar Texto en el Pie de Página del PDF mediante Cloud Go SDK
-url: /go/footer/text/
+url: go/footer/text/
 description: Inserte pies de página basados en texto en PDFs usando Go con Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

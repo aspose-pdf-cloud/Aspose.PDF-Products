@@ -1,6 +1,6 @@
 ---
 title: 通过云 .NET SDK 添加下划线注释
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: 使用 Aspose.PDF Cloud SDK for .NET 向 PDF 添加下划线注释。
 lastmod: 2025-07-20
 ---

@@ -2,7 +2,7 @@
 title: Converter, Anotar e Assinar PDF na Nuvem via Go SDK
 description: Integre o processamento de PDF baseado em nuvem em seus aplicativos Go com Aspose.PDF Cloud SDK para Go. Confiável e amigável para desenvolvedores.
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

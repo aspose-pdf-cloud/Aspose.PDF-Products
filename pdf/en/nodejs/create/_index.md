@@ -1,6 +1,6 @@
 ---
 title: Create PDF via Cloud Node.js SDK 
-url: /nodejs/create/
+url: nodejs/create/
 description: Aspose.PDF Cloud allows you to create PDF Document. Check the Node.js source code to create PDF file.
 lastmod: "2024-10-19"
 ---

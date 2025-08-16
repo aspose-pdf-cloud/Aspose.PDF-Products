@@ -1,6 +1,6 @@
 ---
 title: Удаление текстовых аннотаций через Cloud Python SDK
-url: /python/annotations/text/delete
+url: python/annotations/text/delete
 description: Удаление текстовых аннотаций из PDF с использованием Aspose.PDF Cloud SDK для Python.
 lastmod: 2025-07-20
 ---

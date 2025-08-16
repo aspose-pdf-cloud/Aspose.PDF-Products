@@ -1,6 +1,6 @@
 ---
 title: クラウドPython SDKを使用した下線注釈の追加
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Aspose.PDF Cloud SDK for Pythonを使用してPDFに下線注釈を追加します。
 lastmod: 2025-07-20
 ---

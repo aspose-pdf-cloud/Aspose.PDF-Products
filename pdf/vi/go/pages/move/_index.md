@@ -1,6 +1,6 @@
 ---
 title: Di chuyển trang trong PDF qua Cloud Go SDK
-url: /go/pages/move/
+url: go/pages/move/
 description: Di chuyển hoặc sắp xếp lại trang trong tệp PDF bằng Go và Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

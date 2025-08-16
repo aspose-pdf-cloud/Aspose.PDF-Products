@@ -2,7 +2,7 @@
 title: Split single PDF Documents | PHP
 description: Split large PDF documents into smaller parts using PHP and Aspose.PDF Cloud SDK.
 weight: 40
-url: /php/split/
+url: php/split/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -1,6 +1,6 @@
 ---
 title: تدوير PDF عبر Cloud Go SDK
-url: /go/rotate/
+url: go/rotate/
 description: يسمح لك Aspose.PDF Cloud بتدوير مستندات PDF. تحقق من كود المصدر في Go لتدوير ملف PDF.
 lastmod: 2025-07-19
 ---

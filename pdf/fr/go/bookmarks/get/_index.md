@@ -1,6 +1,6 @@
 ---
 title: Obtenez les signets via Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Récupérez les signets des fichiers PDF dans vos applications Go avec Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

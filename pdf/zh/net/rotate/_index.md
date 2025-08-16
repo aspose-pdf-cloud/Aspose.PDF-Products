@@ -1,6 +1,6 @@
 ---
 title: 通过云 .NET SDK 旋转 PDF
-url: /net/rotate/
+url: net/rotate/
 description: Aspose.PDF Cloud 允许您旋转 PDF 文档。查看 .NET 源代码以旋转 PDF 文件。
 lastmod: 2025-07-19
 ---

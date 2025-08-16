@@ -1,6 +1,6 @@
 ---
 title: إضافة ختم صورة إلى PDF عبر Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: لإضافة ختم صورة إلى صفحة محددة من ملف PDF باستخدام Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

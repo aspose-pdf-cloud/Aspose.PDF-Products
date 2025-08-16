@@ -1,6 +1,6 @@
 ---
 title: Cloud Python SDKを使用してフリーテキスト注釈を追加
-url: /python/annotations/text/
+url: python/annotations/text/
 description: Aspose.PDF Cloud SDK for Pythonを使用してPDFにフリーテキスト注釈を追加。
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Convertir PDF en TIFF via Cloud Go SDK
-url: /go/conversion/pdf-to-tiff/
+url: go/conversion/pdf-to-tiff/
 description: Transformez des PDFs en images TIFF en utilisant Aspose.PDF Cloud SDK pour Go. Idéal pour les formats d'archivage et de numérisation.
 lastmod: 2025-05-17
 ---

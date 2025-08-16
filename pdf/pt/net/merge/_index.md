@@ -1,6 +1,6 @@
 ---
 title: Mesclar Arquivos PDF via Cloud .NET SDK
-url: /net/merge/
+url: net/merge/
 description: Mescle vários PDFs em um com o Aspose.PDF Cloud SDK para .NET. Combine documentos perfeitamente via REST API.
 ---
 

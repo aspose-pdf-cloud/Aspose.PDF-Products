@@ -1,6 +1,6 @@
 ---
 title: Supprimer les annotations de texte via Cloud Python SDK
-url: /python/annotations/text/delete
+url: python/annotations/text/delete
 description: Supprimez les annotations de texte des PDF en utilisant Aspose.PDF Cloud SDK pour Python.
 lastmod: 2025-07-20
 ---

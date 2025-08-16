@@ -2,7 +2,7 @@
 title: Obtener marcas de agua de PDF a través de Cloud Golang SDK
 description: Obtenga datos de marcas de agua de PDFs usando Aspose.PDF Cloud SDK en Go. Inspeccione superposiciones o marcas.
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

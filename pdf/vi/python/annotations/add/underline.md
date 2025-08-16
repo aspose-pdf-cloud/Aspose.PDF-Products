@@ -1,6 +1,6 @@
 ---
 title: Thêm Gạch Chân Chú Thích qua Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Thêm Gạch Chân Chú Thích vào PDF bằng cách sử dụng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to SVG via Cloud .NET SDK
-url: /net/conversion/pdf-to-svg/
+url: net/conversion/pdf-to-svg/
 description: Convert PDF files into scalable SVG images using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2022-03-17"
 ---

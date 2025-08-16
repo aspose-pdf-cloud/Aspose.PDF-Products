@@ -1,6 +1,6 @@
 ---
 title: Eliminar anotaciones de texto a través de Cloud .NET SDK
-url: /net/annotations/text/delete
+url: net/annotations/text/delete
 description: Eliminar anotaciones de texto de PDFs usando Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

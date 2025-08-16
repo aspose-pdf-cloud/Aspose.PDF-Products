@@ -1,6 +1,6 @@
 ---
 title: Adicionar Imagem no Cabeçalho do PDF via Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: Adicione cabeçalhos de imagem a PDFs em Go com Aspose.PDF Cloud. Automatize o formato de relatórios.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: تشفير PDF في Go SDK
-url: /go/encrypt/
+url: go/encrypt/
 description: تتيح لك Aspose.PDF Cloud تشفير مستند PDF. تحقق من كود المصدر في Go لتشفير ملف PDF.
 lastmod: 2025-04-19
 ---

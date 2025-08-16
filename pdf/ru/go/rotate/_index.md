@@ -1,6 +1,6 @@
 ---
 title: Поворот PDF через Cloud Go SDK
-url: /go/rotate/
+url: go/rotate/
 description: Aspose.PDF Cloud позволяет поворачивать PDF-документы. Ознакомьтесь с исходным кодом на Go для поворота PDF-файла.
 lastmod: 2025-07-19
 ---

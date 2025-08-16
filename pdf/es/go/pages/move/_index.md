@@ -1,6 +1,6 @@
 ---
 title: Mover Páginas en PDF a través de Cloud Go SDK
-url: /go/pages/move/
+url: go/pages/move/
 description: Mover o reordenar páginas en archivos PDF usando Go y Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

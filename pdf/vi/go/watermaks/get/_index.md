@@ -2,7 +2,7 @@
 title: Lấy Hình Mờ từ PDF qua Cloud Golang SDK
 description: Lấy dữ liệu hình mờ từ PDF bằng cách sử dụng Aspose.PDF Cloud SDK trong Go. Kiểm tra chồng lớp hoặc thương hiệu.
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

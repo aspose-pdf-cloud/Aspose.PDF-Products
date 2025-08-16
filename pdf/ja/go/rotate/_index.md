@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFを回転
-url: /go/rotate/
+url: go/rotate/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントを回転させることができます。PDFファイルを回転させるためのGoソースコードを確認してください。
 lastmod: 2025-07-19
 ---

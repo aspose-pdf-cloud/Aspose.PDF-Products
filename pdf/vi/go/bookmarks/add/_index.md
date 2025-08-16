@@ -1,6 +1,6 @@
 ---
 title: Thêm Dấu Trang qua Cloud Go SDK
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: Thêm dấu trang vào PDF bằng Aspose.PDF Cloud SDK cho Go. Kích hoạt điều hướng và cấu trúc trong tài liệu.
 lastmod: 2025-05-20
 ---

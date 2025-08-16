@@ -2,7 +2,7 @@
 title: Конвертация, аннотирование и подпись облачных PDF через Go SDK
 description: Интегрируйте облачную обработку PDF в ваши приложения на Go с помощью Aspose.PDF Cloud SDK для Go. Надежно и удобно для разработчиков.
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

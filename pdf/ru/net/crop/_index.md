@@ -1,6 +1,6 @@
 ---
 title: Обрезка PDF через Cloud .NET SDK
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud позволяет обрезать PDF документ. Проверьте исходный код .NET для обрезки PDF файла.
 lastmod: 2025-07-19
 ---

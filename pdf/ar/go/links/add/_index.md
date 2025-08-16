@@ -1,6 +1,6 @@
 ---
 title: إضافة روابط إلى PDF عبر Cloud Go SDK
-url: /go/links/add/
+url: go/links/add/
 description: إدراج روابط تشعبية في ملفات PDF باستخدام Go و Aspose.PDF Cloud SDK.
 lastmod: 2025-05-19
 ---

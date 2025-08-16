@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 在 PDF 的页眉中添加图像
-url: /go/header/image/
+url: go/header/image/
 description: 使用 Aspose.PDF Cloud 在 Go 中向 PDF 添加图像页眉。自动化报告格式。
 lastmod: 2025-05-20
 ---

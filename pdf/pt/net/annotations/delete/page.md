@@ -1,6 +1,6 @@
 ---
 title: Excluir Anotações de Página via Cloud .NET SDK
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: Excluir Anotações de Página de PDFs usando o Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

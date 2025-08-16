@@ -1,6 +1,6 @@
 ---
 title: Add Metadata via Cloud Python SDK 
-url: /python/metadata/add/
+url: python/metadata/add/
 description: Add metadata to PDFs in Python using Aspose.PDF Cloud SDK. Improve document organization and searchability.
 lastmod: "2024-03-19"
 ---

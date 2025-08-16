@@ -1,6 +1,6 @@
 ---
 title: Thêm Dấu Ảnh vào PDF qua Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Để thêm một dấu ảnh vào một trang cụ thể của PDF với Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Thêm Hình Ảnh vào Tiêu Đề của PDF qua Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: Thêm tiêu đề hình ảnh vào PDF trong Go với Aspose.PDF Cloud. Tự động hóa định dạng báo cáo.
 lastmod: 2025-05-20
 ---

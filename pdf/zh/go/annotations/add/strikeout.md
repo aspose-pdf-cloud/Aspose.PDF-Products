@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 添加删除线文本注释
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: 使用 Aspose.PDF Cloud SDK for Go 向 PDF 添加删除线文本注释。
 lastmod: 2025-07-20
 ---

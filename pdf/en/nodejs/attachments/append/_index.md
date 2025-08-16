@@ -1,6 +1,6 @@
 ---
 title: Append attachments in PDF documents via Aspose.Pdf Cloud Node.js SDK
-url: /nodejs/attachments/add/
+url: nodejs/attachments/add/
 description: Add attachments to PDFs via Node.js with Aspose.PDF Cloud SDK. Embed supporting documents in your PDFs.
 lastmod: "2024-10-29"
 ---

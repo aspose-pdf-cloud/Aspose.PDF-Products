@@ -1,6 +1,6 @@
 ---
 title: Преобразование PDF в SVG через Cloud Go SDK
-url: /go/conversion/pdf-to-svg/
+url: go/conversion/pdf-to-svg/
 description: Экспорт содержимого PDF в векторные изображения SVG с использованием Go и Aspose.PDF Cloud SDK.
 lastmod: 2025-05-17
 ---

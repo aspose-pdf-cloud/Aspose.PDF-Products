@@ -1,6 +1,6 @@
 ---
 title: Расшифровать PDF с помощью Cloud Go SDK
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloud позволяет расшифровывать PDF документы. Проверьте исходный код на Go для расшифровки PDF файла.
 lastmod: 2025-04-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Lấy Chú Thích Trang qua Cloud Python SDK
-url: /python/annotations/page/get
+url: python/annotations/page/get
 description: Lấy Chú Thích Trang từ PDF bằng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-24
 ---

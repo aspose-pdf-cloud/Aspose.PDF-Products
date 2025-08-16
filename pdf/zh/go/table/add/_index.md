@@ -1,6 +1,6 @@
 ---
 title: 通过云 Go SDK 向 PDF 添加表格
-url: /go/table/add/
+url: go/table/add/
 description: 使用 Aspose.PDF Cloud SDK 和 Go 插入表格到 PDF 中。动态添加结构化数据。
 lastmod: 2025-08-19
 ---

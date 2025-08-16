@@ -1,6 +1,6 @@
 ---
 title: Agregar Texto en el Encabezado de PDF a través de Cloud Go SDK
-url: /go/header/text/
+url: go/header/text/
 description: Inserte encabezados de texto en archivos PDF usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-05-20
 ---

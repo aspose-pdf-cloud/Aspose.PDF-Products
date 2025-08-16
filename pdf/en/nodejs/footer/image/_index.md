@@ -1,6 +1,6 @@
 ---
 title: Add Image in Footer of PDF via Cloud Node.js SDK
-url: /nodejs/footer/image/
+url: nodejs/footer/image/
 description: Add image footers to PDF pages using Aspose.PDF Cloud SDK in Node.js. Branding, signatures, and more.
 lastmod: "2025-02-20"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Добавление изображения в заголовок PDF через Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: Добавляйте заголовки с изображениями в PDF на Go с помощью Aspose.PDF Cloud. Автоматизируйте форматирование отчетов.
 lastmod: 2025-05-20
 ---

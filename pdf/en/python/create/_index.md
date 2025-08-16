@@ -1,6 +1,6 @@
 ---
 title: Create PDF via Cloud Python SDK 
-url: /python/create/
+url: python/create/
 description: Aspose.PDF Cloud allows you to create PDF Document. Check the Python source code to create PDF file.
 lastmod: "2024-10-19"
 ---

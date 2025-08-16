@@ -1,6 +1,6 @@
 ---
 title: Hapus Anotasi Teks melalui Cloud Go SDK
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: Hapus Anotasi Teks dari PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

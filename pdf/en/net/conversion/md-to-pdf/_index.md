@@ -1,7 +1,7 @@
 ---
 title: Convert Markdown to PDF via Cloud .NET SDK
 weight: 1640
-url: /net/conversion/md-to-pdf/
+url: net/conversion/md-to-pdf/
 description: Convert Markdown (MD) files to clean, professional PDFs with Aspose.PDF Cloud SDK for .NET.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Agregar imagen en el pie de página de PDF a través de Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: Agrega pies de página con imágenes a páginas PDF usando Aspose.PDF Cloud SDK en Go. Branding, firmas y más.
 lastmod: 2025-05-20
 ---

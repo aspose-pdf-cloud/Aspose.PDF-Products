@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Stempel Teks ke PDF melalui Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Masukkan stempel teks ke dalam PDF dengan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-02-20
 ---

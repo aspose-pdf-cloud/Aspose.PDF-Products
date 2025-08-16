@@ -1,6 +1,6 @@
 ---
 title: Obtener Anotaciones de Página a través de Cloud .NET SDK
-url: /net/annotations/page/get
+url: net/annotations/page/get
 description: Obtenga Anotaciones de Página de PDFs usando Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

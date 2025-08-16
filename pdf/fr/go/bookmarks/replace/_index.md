@@ -1,6 +1,6 @@
 ---
 title: Remplacer les signets via Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Remplacez les signets PDF en utilisant Go et Aspose.PDF Cloud SDK. Simplifiez la structure du document.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Xoay PDF qua Cloud Go SDK
-url: /go/rotate/
+url: go/rotate/
 description: Aspose.PDF Cloud cho phép bạn xoay Tài liệu PDF. Kiểm tra mã nguồn Go để xoay tệp PDF.
 lastmod: 2025-07-19
 ---

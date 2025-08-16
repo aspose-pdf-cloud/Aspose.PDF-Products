@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFのフッターに画像を追加
-url: /go/footer/image/
+url: go/footer/image/
 description: Aspose.PDF Cloud SDKを使用してPDFページに画像フッターを追加します。ブランディング、署名など。
 lastmod: 2025-05-20
 ---

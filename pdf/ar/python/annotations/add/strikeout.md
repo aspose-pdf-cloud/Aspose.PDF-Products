@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات الشطب عبر Cloud Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: أضف تعليقات الشطب إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Python.
 lastmod: 2025-07-20
 ---

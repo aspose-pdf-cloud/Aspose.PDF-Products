@@ -1,6 +1,6 @@
 ---
 title: إضافة تمييز للنصوص عبر Cloud .NET SDK
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: أضف تمييز للنصوص إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

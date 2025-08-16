@@ -1,6 +1,6 @@
 ---
 title: Split PDF Files via Cloud .NET SDK 
-url: /net/split/single/
+url: net/split/single/
 description: Split single PDF into multiple parts with Aspose.PDF Cloud SDK for .NET. Automate document separation.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: Extract PDF attachments using Go and Aspose.PDF Cloud SDK. Access embedded content via API.
 lastmod: "2025-05-20"
 ---

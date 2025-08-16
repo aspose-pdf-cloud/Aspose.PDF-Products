@@ -1,6 +1,6 @@
 ---
 title: Extrair Páginas de PDF via Cloud Go SDK
-url: /go/pages/extract/
+url: go/pages/extract/
 description: Extraia páginas específicas de documentos PDF usando Go com Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

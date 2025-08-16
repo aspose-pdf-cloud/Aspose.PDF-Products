@@ -1,6 +1,6 @@
 ---
 title: 通过云 .NET SDK 裁剪 PDF
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud 允许您裁剪 PDF 文档。查看 .NET 源代码以裁剪 PDF 文件。
 lastmod: 2025-07-19
 ---

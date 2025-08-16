@@ -1,6 +1,6 @@
 ---
 title: Converter JPEG para PDF via Cloud Go SDK
-url: /go/conversion/jpeg-to-pdf
+url: go/conversion/jpeg-to-pdf
 description: Converta imagens JPEG em documentos PDF usando Go e Aspose.PDF Cloud SDK. Incorporação de imagens de alta qualidade.
 lastmod: 2025-05-17
 ---

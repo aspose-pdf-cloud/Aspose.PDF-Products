@@ -1,6 +1,6 @@
 ---
 title: Add Text Stamps to PDF via Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Insert text stamps into PDFs with Aspose.PDF Cloud SDK for Go.
 lastmod: "2025-02-20"
 ---

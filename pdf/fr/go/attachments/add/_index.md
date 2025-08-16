@@ -1,6 +1,6 @@
 ---
 title: Joindre des pièces jointes aux documents PDF via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: Ajoutez des pièces jointes aux PDF via Go avec Aspose.PDF Cloud SDK. Intégrez des documents de support dans vos PDF.
 lastmod: 2025-05-20
 ---

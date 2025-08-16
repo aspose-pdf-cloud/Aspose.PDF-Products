@@ -1,6 +1,6 @@
 ---
 title: Nén PDF qua Cloud Python SDK
-url: /python/compress/
+url: python/compress/
 description: Aspose.PDF Cloud cho phép bạn nén Tài liệu PDF. Kiểm tra mã nguồn Python để tối ưu hóa tập tin PDF.
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Go SDK 添加文本注释
-url: /go/annotations/text/
+url: go/annotations/text/
 description: 使用 Aspose.PDF Cloud SDK for Go 向 PDF 添加文本注释。
 lastmod: 2025-07-20
 ---

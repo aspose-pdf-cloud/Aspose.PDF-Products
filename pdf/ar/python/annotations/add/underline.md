@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات توضيحية تحت الخط عبر Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: إضافة تعليقات توضيحية تحت الخط إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Python.
 lastmod: 2025-07-20
 ---

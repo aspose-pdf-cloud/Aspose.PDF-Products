@@ -1,7 +1,7 @@
 ---
 title: Convert PCL to PDF via Cloud .NET SDK
 weight: 2670
-url: /net/conversion/pcl-to-pdf/
+url: net/conversion/pcl-to-pdf/
 description: Transform PCL print files into PDFs using Aspose.PDF Cloud SDK for .NET. Ideal for enterprise document processing.
 lastmod: "2022-03-17"
 ---

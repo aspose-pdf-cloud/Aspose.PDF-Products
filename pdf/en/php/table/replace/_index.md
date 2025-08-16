@@ -1,6 +1,6 @@
 ---
 title: Replace Tables in PDF via Cloud PHP SDK 
-url: /php/table/replace/
+url: php/table/replace/
 description: Replace table content in PDFs using PHP and Aspose.PDF Cloud SDK. Update data while preserving layout.
 lastmod: "2025-03-19"
 ---

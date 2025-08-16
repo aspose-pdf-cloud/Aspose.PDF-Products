@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFからリンクを削除
-url: /go/links/delete/
+url: go/links/delete/
 description: Aspose.PDF Cloud SDKを使用してPDFページからハイパーリンクを削除します。
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Add Image in Footer of PDF via Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: Add image footers to PDF pages using Aspose.PDF Cloud SDK in Go. Branding, signatures, and more.
 lastmod: "2025-05-20"
 ---

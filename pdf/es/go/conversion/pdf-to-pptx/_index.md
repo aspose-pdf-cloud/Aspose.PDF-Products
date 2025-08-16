@@ -1,6 +1,6 @@
 ---
 title: Convertir PDF a PPTX a través de Cloud Go SDK
-url: /go/conversion/pdf-to-pptx/
+url: go/conversion/pdf-to-pptx/
 description: Convierte presentaciones de PDF a PowerPoint (PPTX) utilizando Aspose.PDF Cloud SDK en Go.
 lastmod: 2025-05-17
 ---

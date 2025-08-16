@@ -1,6 +1,6 @@
 ---
 title: Get Metadata from PDF Document via Cloud Node.js SDK 
-url: /nodejs/metadata/get/
+url: nodejs/metadata/get/
 description: Retrieve metadata from PDF documents using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2024-03-19"
 ---

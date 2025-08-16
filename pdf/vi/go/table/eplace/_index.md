@@ -1,6 +1,6 @@
 ---
 title: Thay Thế Bảng Trong PDF Qua Cloud Go SDK
-url: /go/table/replace/
+url: go/table/replace/
 description: Thay thế dữ liệu bảng PDF một cách tự động trong Go với Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

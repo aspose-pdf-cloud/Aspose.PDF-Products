@@ -1,6 +1,6 @@
 ---
 title: Удаление аннотаций страниц через Cloud Python SDK
-url: /python/annotations/page/delete
+url: python/annotations/page/delete
 description: Удаление аннотаций страниц из PDF с использованием Aspose.PDF Cloud SDK для Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Gạch Ngang Văn Bản qua Cloud Go SDK
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: Thêm Chú Thích Gạch Ngang Văn Bản vào PDF sử dụng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

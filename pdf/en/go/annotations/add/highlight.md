@@ -1,6 +1,6 @@
 ---
 title: Add Highlight Text Annotations via Cloud Go SDK
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Add Highlight Text Annotations to PDFs using Aspose.PDF Cloud SDK for Go.
 lastmod: "2025-07-20"
 ---

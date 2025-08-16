@@ -1,6 +1,6 @@
 ---
 title: Thêm Ghi Chú Văn Bản Tự Do vào Tài Liệu bằng Cloud Python SDK
-url: /python/annotations/text/
+url: python/annotations/text/
 description: Thêm Ghi Chú Văn Bản Tự Do vào PDF sử dụng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

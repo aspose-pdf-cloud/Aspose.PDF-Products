@@ -1,6 +1,6 @@
 ---
 title: Thay đổi kích thước PDF qua Cloud Python SDK
-url: /python/resize/
+url: python/resize/
 description: Aspose.PDF Cloud cho phép bạn thay đổi kích thước Tài liệu PDF. Kiểm tra mã nguồn Python để thay đổi kích thước tệp PDF.
 lastmod: 2025-07-28
 ---

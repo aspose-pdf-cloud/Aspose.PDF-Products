@@ -1,7 +1,7 @@
 ---
 title: Convert PCL to PDF via Cloud Node.js SDK
 weight: 2670
-url: /nodejs/conversion/pcl-to-pdf/
+url: nodejs/conversion/pcl-to-pdf/
 description: Convert PCL print files to PDF using Node.js and Aspose.PDF Cloud SDK. Enterprise-grade compatibility.
 lastmod: "2022-03-17"
 ---

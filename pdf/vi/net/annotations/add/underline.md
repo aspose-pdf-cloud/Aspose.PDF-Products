@@ -1,6 +1,6 @@
 ---
 title: Thêm Ghi Chú Gạch Dưới qua Cloud .NET SDK
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: Thêm Ghi Chú Gạch Dưới vào PDF sử dụng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

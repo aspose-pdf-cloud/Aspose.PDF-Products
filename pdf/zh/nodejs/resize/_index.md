@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Node.js SDK 调整 PDF 大小
-url: /nodejs/resize/
+url: nodejs/resize/
 description: Aspose.PDF Cloud 允许您调整 PDF 文档的大小。查看 Node.js 源代码以调整 PDF 文件大小。
 lastmod: 2025-07-28
 ---

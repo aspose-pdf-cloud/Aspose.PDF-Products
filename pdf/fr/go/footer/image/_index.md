@@ -1,6 +1,6 @@
 ---
 title: Ajouter une image dans le pied de page du PDF via Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: Ajoutez des images dans les pieds de page des PDF en utilisant Aspose.PDF Cloud SDK en Go. Branding, signatures, et plus.
 lastmod: 2025-05-20
 ---

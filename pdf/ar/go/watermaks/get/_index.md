@@ -2,7 +2,7 @@
 title: الحصول على العلامات المائية من PDF عبر Cloud Golang SDK
 description: احصل على بيانات العلامات المائية من ملفات PDF باستخدام Aspose.PDF Cloud SDK في Go. افحص التراكبات أو العلامات التجارية.
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

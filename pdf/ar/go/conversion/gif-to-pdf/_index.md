@@ -1,6 +1,6 @@
 ---
 title: تحويل GIF إلى PDF عبر Cloud Go SDK
-url: /go/conversion/gif-to-pdf/
+url: go/conversion/gif-to-pdf/
 description: حوّل صور GIF إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK بلغة Go. حافظ على إطارات الرسوم المتحركة والتخطيط.
 lastmod: 2025-05-17
 ---

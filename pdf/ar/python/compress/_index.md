@@ -1,6 +1,6 @@
 ---
 title: ضغط PDF عبر Cloud Python SDK
-url: /python/compress/
+url: python/compress/
 description: تسمح لك Aspose.PDF Cloud بضغط مستند PDF. تحقق من كود المصدر في Python لتحسين ملف PDF.
 lastmod: 2025-05-19
 ---

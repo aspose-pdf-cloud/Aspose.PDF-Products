@@ -1,6 +1,6 @@
 ---
 title: Обрезка PDF через Cloud Python SDK
-url: /python/crop/
+url: python/crop/
 description: Aspose.PDF Cloud позволяет обрезать PDF-документ. Ознакомьтесь с исходным кодом на Python для обрезки PDF файла.
 lastmod: 2025-07-28
 ---

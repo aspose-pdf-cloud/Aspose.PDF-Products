@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKでPDFをHTMLに変換
-url: /go/conversion/pdf-to-html/
+url: go/conversion/pdf-to-html/
 description: GoとAspose.PDF Cloud SDKを使用してPDFをレスポンシブHTMLに変換します。オンラインドキュメント表示に最適です。
 lastmod: 2025-05-17
 ---

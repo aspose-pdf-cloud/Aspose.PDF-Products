@@ -1,6 +1,6 @@
 ---
 title: حذف تعليقات الصفحة عبر Cloud Go SDK
-url: /go/annotations/page/delete
+url: go/annotations/page/delete
 description: احذف تعليقات الصفحة من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Nén PDF qua Cloud PHP SDK
-url: /php/compress/
+url: php/compress/
 description: Aspose.PDF Cloud cho phép bạn tối ưu hóa Tài liệu PDF. Kiểm tra mã nguồn PHP để nén tệp PDF.
 lastmod: 2025-05-19
 ---

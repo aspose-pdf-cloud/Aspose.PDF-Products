@@ -1,6 +1,6 @@
 ---
 title: Extraire des liens d'un PDF via Cloud Go SDK
-url: /go/links/extract/
+url: go/links/extract/
 description: Extraire tous les hyperliens d'un fichier PDF en utilisant Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-05-19
 ---

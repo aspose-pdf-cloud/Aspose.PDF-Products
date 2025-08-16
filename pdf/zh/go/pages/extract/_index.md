@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 从 PDF 中提取页面
-url: /go/pages/extract/
+url: go/pages/extract/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 从 PDF 文档中提取特定页面。
 lastmod: 2025-08-19
 ---

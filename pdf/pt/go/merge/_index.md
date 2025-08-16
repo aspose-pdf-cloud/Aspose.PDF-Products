@@ -2,7 +2,7 @@
 title: Mesclar vários documentos PDF usando Go
 description: Mescle vários PDFs em um usando Go e Aspose.PDF Cloud SDK.
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: 2025-05-20
 ---
 

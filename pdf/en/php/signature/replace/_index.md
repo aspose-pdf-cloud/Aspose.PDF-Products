@@ -1,6 +1,6 @@
 ---
 title: Replace Signature in PDF via Cloud PHP SDK 
-url: /php/signature/replace/
+url: php/signature/replace/
 description: Aspose.PDF Cloud allows you to replace signature in PDF Document. Check the PHP source code to replace signature in PDF file.
 lastmod: "2025-03-19"
 ---

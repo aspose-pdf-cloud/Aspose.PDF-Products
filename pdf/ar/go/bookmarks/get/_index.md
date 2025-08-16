@@ -1,6 +1,6 @@
 ---
 title: الحصول على الإشارات المرجعية عبر Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: استرجاع الإشارات المرجعية من ملفات PDF في تطبيقات Go الخاصة بك باستخدام Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

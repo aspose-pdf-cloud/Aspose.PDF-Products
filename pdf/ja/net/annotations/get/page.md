@@ -1,6 +1,6 @@
 ---
 title: Cloud .NET SDKを使用してページ注釈を取得
-url: /net/annotations/page/get
+url: net/annotations/page/get
 description: Aspose.PDF Cloud SDK for .NETを使用してPDFからページ注釈を取得します。
 lastmod: 2025-07-20
 ---

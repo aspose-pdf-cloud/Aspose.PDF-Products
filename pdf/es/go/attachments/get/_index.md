@@ -1,6 +1,6 @@
 ---
 title: Extraer archivos adjuntos de documentos PDF a través de Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: Extraer archivos adjuntos PDF usando Go y Aspose.PDF Cloud SDK. Accede a contenido incrustado a través de API.
 lastmod: 2025-05-20
 ---

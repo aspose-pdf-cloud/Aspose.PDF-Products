@@ -1,6 +1,6 @@
 ---
 title: Gabungkan File PDF melalui Cloud .NET SDK
-url: /net/merge/
+url: net/merge/
 description: Gabungkan beberapa PDF menjadi satu dengan Aspose.PDF Cloud SDK untuk .NET. Gabungkan dokumen dengan mulus melalui REST API.
 ---
 

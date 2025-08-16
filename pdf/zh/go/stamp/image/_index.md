@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 向 PDF 添加图像印章
-url: /go/stamp/image/
+url: go/stamp/image/
 description: 使用 Aspose.PDF Cloud SDK 向 PDF 的特定页面添加图像印章。
 lastmod: 2025-07-20
 ---

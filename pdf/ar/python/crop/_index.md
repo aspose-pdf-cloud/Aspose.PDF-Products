@@ -1,6 +1,6 @@
 ---
 title: قص ملف PDF عبر Cloud Python SDK
-url: /python/crop/
+url: python/crop/
 description: تتيح لك Aspose.PDF Cloud قص مستند PDF. تحقق من كود مصدر Python لقص ملف PDF.
 lastmod: 2025-07-28
 ---

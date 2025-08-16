@@ -1,6 +1,6 @@
 ---
 title: Dapatkan Anotasi Halaman melalui Cloud Go SDK
-url: /go/annotations/page/get
+url: go/annotations/page/get
 description: Dapatkan Anotasi Halaman dari PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

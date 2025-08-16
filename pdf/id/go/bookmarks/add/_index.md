@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Penanda Halaman melalui Cloud Go SDK
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: Tambahkan penanda halaman ke PDF menggunakan Aspose.PDF Cloud SDK untuk Go. Aktifkan navigasi dan struktur dalam dokumen.
 lastmod: 2025-05-20
 ---

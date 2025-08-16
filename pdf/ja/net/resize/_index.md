@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDK を使用して PDF をリサイズ
-url: /net/resize/
+url: net/resize/
 description: Aspose.PDF Cloud を使用して PDF ドキュメントをリサイズできます。PDF ファイルをリサイズするための .NET ソースコードをご確認ください。
 lastmod: 2025-07-19
 ---

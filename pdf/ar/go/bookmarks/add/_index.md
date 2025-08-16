@@ -1,6 +1,6 @@
 ---
 title: إضافة إشارات مرجعية عبر Cloud Go SDK
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: أضف إشارات مرجعية إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go. تمكين التنقل والهيكل في المستندات.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Thay thế dấu trang qua Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Thay thế dấu trang PDF bằng Go và Aspose.PDF Cloud SDK. Đơn giản hóa cấu trúc tài liệu.
 lastmod: 2025-05-20
 ---

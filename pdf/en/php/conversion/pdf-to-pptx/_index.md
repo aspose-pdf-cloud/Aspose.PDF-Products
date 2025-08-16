@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to PPTX via PHP Cloud SDK
-url: /php/conversion/pdf-to-pptx/
+url: php/conversion/pdf-to-pptx/
 description: Convert PDF documents to PowerPoint (PPTX) using PHP and Aspose.PDF Cloud. Create slides from reports or content.
 lastmod: "2024-10-17"
 ---

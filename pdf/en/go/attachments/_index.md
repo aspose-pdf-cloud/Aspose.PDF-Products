@@ -1,6 +1,6 @@
 ---
 title: Extract & Append attachments in PDF documents via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: Manage file attachments in PDF documents using Aspose.PDF Cloud SDK for Go. Add, list, or remove embedded content.
 lastmod: "2025-05-20"
 ---

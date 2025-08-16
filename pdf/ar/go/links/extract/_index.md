@@ -1,6 +1,6 @@
 ---
 title: استخراج الروابط من PDF عبر Cloud Go SDK
-url: /go/links/extract/
+url: go/links/extract/
 description: استخراج جميع الروابط التشعبية من ملف PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-05-19
 ---

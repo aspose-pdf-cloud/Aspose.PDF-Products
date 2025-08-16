@@ -1,6 +1,6 @@
 ---
 title: Criptografar PDF no Go SDK
-url: /go/encrypt/
+url: go/encrypt/
 description: Aspose.PDF Cloud permite que você criptografe Documentos PDF. Verifique o código-fonte Go para criptografar arquivos PDF.
 lastmod: 2025-04-19
 ---

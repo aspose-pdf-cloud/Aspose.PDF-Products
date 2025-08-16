@@ -1,6 +1,6 @@
 ---
 title: Append attachments in PDF documents via Aspose.Pdf Cloud Python SDK
-url: /python/attachments/add/
+url: python/attachments/add/
 description: Add attachments to PDF files using Python and Aspose.PDF Cloud SDK. Embed documents, images, and more.
 lastmod: "2024-10-29"
 ---

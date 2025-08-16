@@ -1,6 +1,6 @@
 ---
 title: Xóa Dấu Trang qua Cloud Go SDK
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: Xóa dấu trang PDF sử dụng Go và Aspose.PDF Cloud SDK. Đơn giản hóa cấu trúc tài liệu.
 lastmod: 2025-05-20
 ---

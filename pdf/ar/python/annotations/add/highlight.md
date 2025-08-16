@@ -1,6 +1,6 @@
 ---
 title: إضافة تمييز النص في التعليقات التوضيحية عبر Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: إضافة تمييز النص في التعليقات التوضيحية إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Python.
 lastmod: 2025-07-20
 ---

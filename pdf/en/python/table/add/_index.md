@@ -1,6 +1,6 @@
 ---
 title: Add Tables to PDF via Cloud Python SDK 
-url: /python/table/add/
+url: python/table/add/
 description: Insert tables into PDFs using Python with Aspose.PDF Cloud SDK. Add structured data dynamically.
 lastmod: "2024-10-19"
 ---

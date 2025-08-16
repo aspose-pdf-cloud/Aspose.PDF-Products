@@ -1,6 +1,6 @@
 ---
 title: Обрезка PDF через облачный SDK для Node.js
-url: /nodejs/crop/
+url: nodejs/crop/
 description: Aspose.PDF Cloud позволяет обрезать PDF документ. Ознакомьтесь с исходным кодом Node.js для обрезки PDF файла.
 lastmod: 2025-07-28
 ---

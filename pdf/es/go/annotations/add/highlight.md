@@ -1,6 +1,6 @@
 ---
 title: Agregar Anotaciones de Texto Resaltado a través de Cloud Go SDK
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Agregue Anotaciones de Texto Resaltado a PDFs usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ajouter du texte dans l'en-tête du PDF via Cloud Go SDK
-url: /go/header/text/
+url: go/header/text/
 description: Insérez des en-têtes de texte dans les fichiers PDF à l'aide de Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-05-20
 ---

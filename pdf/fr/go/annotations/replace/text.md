@@ -1,6 +1,6 @@
 ---
 title: Remplacer les annotations de texte via Cloud Go SDK
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: Remplacez les annotations de texte dans les PDF en utilisant Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de soulignement via le SDK Cloud .NET
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: Ajoutez des annotations de soulignement aux PDF en utilisant Aspose.PDF Cloud SDK pour .NET.
 lastmod: 2025-07-20
 ---

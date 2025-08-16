@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDKを使用してハイライトテキスト注釈を追加
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Aspose.PDF Cloud SDK for .NETを使用してPDFにハイライトテキスト注釈を追加します。
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Chuyển đổi PDF sang XLSX qua Cloud Go SDK
-url: /go/conversion/pdf-to-xlsx/
+url: go/conversion/pdf-to-xlsx/
 description: Xuất bảng và nội dung PDF sang XLSX bằng cách sử dụng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-05-17
 ---

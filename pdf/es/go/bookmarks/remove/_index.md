@@ -1,6 +1,6 @@
 ---
 title: Eliminar marcadores a través de Cloud Go SDK
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: Eliminar marcadores de PDF usando Go y Aspose.PDF Cloud SDK. Simplifica la estructura del documento.
 lastmod: 2025-05-20
 ---

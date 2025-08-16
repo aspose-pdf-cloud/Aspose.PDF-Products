@@ -1,6 +1,6 @@
 ---
 title: Xoay PDF qua Cloud Node.js SDK
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: Aspose.PDF Cloud cho phép bạn xoay Tài liệu PDF. Kiểm tra mã nguồn Node.js để xoay tệp PDF.
 lastmod: 2025-07-28
 ---

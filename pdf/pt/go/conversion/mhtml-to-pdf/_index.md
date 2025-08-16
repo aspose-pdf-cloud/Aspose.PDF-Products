@@ -1,6 +1,6 @@
 ---
 title: Converter MHTML para PDF via Cloud Go SDK
-url: /go/conversion/mhtml-to-pdf/
+url: go/conversion/mhtml-to-pdf/
 description: Converter conteúdo MHTML para PDF usando Go com Aspose.PDF Cloud. Renderização precisa de páginas da web e arquivos MHTML.
 lastmod: 2025-05-17
 ---

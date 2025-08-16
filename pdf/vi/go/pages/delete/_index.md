@@ -1,6 +1,6 @@
 ---
 title: Xóa Trang khỏi PDF qua Cloud Go SDK
-url: /go/pages/delete/
+url: go/pages/delete/
 description: Xóa trang khỏi PDF trong Go bằng cách sử dụng Aspose.PDF Cloud SDK. Tự động hóa việc dọn dẹp tài liệu.
 lastmod: 2025-08-19
 ---

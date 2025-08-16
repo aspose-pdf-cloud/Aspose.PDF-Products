@@ -1,6 +1,6 @@
 ---
 title: Hapus Anotasi Teks melalui Cloud .NET SDK
-url: /net/annotations/text/delete
+url: net/annotations/text/delete
 description: Hapus Anotasi Teks dari PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.
 lastmod: 2025-07-20
 ---

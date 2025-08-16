@@ -1,6 +1,6 @@
 ---
 title: Giải mã PDF qua Cloud Go SDK
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloud cho phép bạn giải mã tài liệu PDF. Kiểm tra mã nguồn Go để giải mã tệp PDF.
 lastmod: 2025-04-19
 ---

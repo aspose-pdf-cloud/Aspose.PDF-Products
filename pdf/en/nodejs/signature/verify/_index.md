@@ -1,6 +1,6 @@
 ---
 title: Verify Signature in PDF via Cloud Node.js SDK 
-url: /nodejs/signature/verify/
+url: nodejs/signature/verify/
 description: Aspose.PDF Cloud allows you to verify signature in PDF Document. Check the Node.js source code to verify signature in PDF file.
 lastmod: "2024-11-19"
 ---

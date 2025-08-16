@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to DOC via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-word/
+url: nodejs/conversion/pdf-to-word/
 description: Convert PDFs to editable Word documents using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2022-03-17"
 ---

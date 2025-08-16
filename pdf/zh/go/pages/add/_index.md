@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 向 PDF 添加页面
-url: /go/pages/add/
+url: go/pages/add/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 在 PDF 文件中插入新页面。动态扩展内容。
 lastmod: 2025-08-19
 ---

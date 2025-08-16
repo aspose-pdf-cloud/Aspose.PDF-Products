@@ -2,7 +2,7 @@
 title: 通过 Go SDK 转换、注释和签署云 PDF
 description: 将基于云的 PDF 处理集成到您的 Go 应用程序中，使用 Aspose.PDF Cloud SDK for Go。可靠且对开发者友好。
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

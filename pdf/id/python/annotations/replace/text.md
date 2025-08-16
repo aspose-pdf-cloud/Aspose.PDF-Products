@@ -1,6 +1,6 @@
 ---
 title: Ganti Anotasi Teks melalui Cloud Python SDK
-url: /python/annotations/text/replace
+url: python/annotations/text/replace
 description: Ganti Anotasi Teks dalam PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

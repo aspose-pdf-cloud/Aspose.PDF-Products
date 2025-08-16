@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 从 PDF 中提取链接
-url: /go/links/extract/
+url: go/links/extract/
 description: 使用 Aspose.PDF Cloud SDK for Go 从 PDF 文件中提取所有超链接。
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 在 PDF 页脚中添加文本
-url: /go/footer/text/
+url: go/footer/text/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 在 PDF 中插入基于文本的页脚。
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Coretan melalui Cloud Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: Tambahkan Anotasi Coretan ke PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

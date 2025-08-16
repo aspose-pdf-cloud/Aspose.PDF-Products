@@ -1,6 +1,6 @@
 ---
 title: Agregar Enlaces a PDF a través de Cloud Go SDK
-url: /go/links/add/
+url: go/links/add/
 description: Inserte hipervínculos en archivos PDF usando Go y Aspose.PDF Cloud SDK.
 lastmod: 2025-05-19
 ---

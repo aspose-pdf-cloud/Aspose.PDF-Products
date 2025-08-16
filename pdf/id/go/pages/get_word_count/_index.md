@@ -1,6 +1,6 @@
 ---
 title: Dapatkan Jumlah Kata Per Halaman Menggunakan Aspose.PDF Cloud SDK untuk Go
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Dapatkan Jumlah Kata pada Halaman PDF dengan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-08-19
 ---

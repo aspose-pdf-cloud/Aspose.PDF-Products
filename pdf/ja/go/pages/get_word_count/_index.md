@@ -1,6 +1,6 @@
 ---
 title: Aspose.PDF Cloud SDK for Goを使用してページごとの単語数を取得
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFページの単語数を取得します。
 lastmod: 2025-08-19
 ---

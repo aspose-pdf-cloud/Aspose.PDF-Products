@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFからページを削除
-url: /go/pages/delete/
+url: go/pages/delete/
 description: Aspose.PDF Cloud SDKを使用してGoでPDFからページを削除します。ドキュメントのクリーンアップを自動化します。
 lastmod: 2025-08-19
 ---

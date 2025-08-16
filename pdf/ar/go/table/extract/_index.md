@@ -1,6 +1,6 @@
 ---
 title: استخراج الجداول من PDF عبر Cloud Go SDK
-url: /go/table/extract/
+url: go/table/extract/
 description: استخراج محتوى الجدول من ملفات PDF باستخدام Aspose.PDF Cloud SDK مع لغة Go.
 lastmod: 2025-08-19
 ---

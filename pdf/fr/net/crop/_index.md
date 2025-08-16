@@ -1,6 +1,6 @@
 ---
 title: Rogner un PDF via Cloud .NET SDK
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud vous permet de rogner un document PDF. Consultez le code source .NET pour rogner un fichier PDF.
 lastmod: 2025-07-19
 ---

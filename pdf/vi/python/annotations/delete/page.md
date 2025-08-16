@@ -1,6 +1,6 @@
 ---
 title: Xóa Chú Thích Trang qua Cloud Python SDK
-url: /python/annotations/page/delete
+url: python/annotations/page/delete
 description: Xóa Chú Thích Trang khỏi PDF bằng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

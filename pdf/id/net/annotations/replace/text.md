@@ -1,6 +1,6 @@
 ---
 title: Ganti Anotasi Teks melalui Cloud .NET SDK
-url: /net/annotations/text/replace
+url: net/annotations/text/replace
 description: Ganti Anotasi Teks dalam PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.
 lastmod: 2025-07-20
 ---

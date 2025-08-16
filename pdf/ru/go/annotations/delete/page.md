@@ -1,6 +1,6 @@
 ---
 title: Удаление аннотаций страницы через Cloud Go SDK
-url: /go/annotations/page/delete
+url: go/annotations/page/delete
 description: Удаление аннотаций страницы из PDF с использованием Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-07-20
 ---

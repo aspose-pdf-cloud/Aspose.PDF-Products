@@ -2,7 +2,7 @@
 title: Generate & Convert PDF Files via Node.js REST SDK 
 description: Integrate powerful PDF features into your Node.js applications using Aspose.PDF Cloud SDK. Process, convert, and edit PDFs with ease.
 weight: 70
-url: /nodejs
+url: nodejs
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

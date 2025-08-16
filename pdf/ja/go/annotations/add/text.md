@@ -1,6 +1,6 @@
 ---
 title: クラウド Go SDK を使用してテキスト注釈を追加
-url: /go/annotations/text/
+url: go/annotations/text/
 description: Aspose.PDF Cloud SDK for Go を使用して PDF にテキスト注釈を追加します。
 lastmod: 2025-07-20
 ---

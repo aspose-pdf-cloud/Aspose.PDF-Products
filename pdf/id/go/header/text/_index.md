@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Teks di Header PDF melalui Cloud Go SDK
-url: /go/header/text/
+url: go/header/text/
 description: Masukkan header teks ke file PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-05-20
 ---

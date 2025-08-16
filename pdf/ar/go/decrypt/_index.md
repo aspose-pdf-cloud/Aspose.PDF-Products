@@ -1,6 +1,6 @@
 ---
 title: فك تشفير PDF عبر Cloud Go SDK
-url: /go/decrypt/
+url: go/decrypt/
 description: تتيح لك Aspose.PDF Cloud فك تشفير مستند PDF. تحقق من كود Go المصدر لفك تشفير ملف PDF.
 lastmod: 2025-04-19
 ---

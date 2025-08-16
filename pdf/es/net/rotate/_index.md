@@ -1,6 +1,6 @@
 ---
 title: Rotar PDF a través de Cloud .NET SDK
-url: /net/rotate/
+url: net/rotate/
 description: Aspose.PDF Cloud te permite rotar Documentos PDF. Consulta el código fuente de .NET para rotar archivos PDF.
 lastmod: 2025-07-19
 ---

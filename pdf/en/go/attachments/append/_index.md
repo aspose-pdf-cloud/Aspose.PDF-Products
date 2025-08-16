@@ -1,6 +1,6 @@
 ---
 title: Append attachments to PDF documents via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: Add attachments to PDFs via Go with Aspose.PDF Cloud SDK. Embed supporting documents in your PDFs.
 lastmod: "2025-05-20"
 ---

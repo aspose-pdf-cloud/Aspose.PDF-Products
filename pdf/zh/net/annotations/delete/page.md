@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud .NET SDK 删除页面注释
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: 使用 Aspose.PDF Cloud SDK for .NET 从 PDF 中删除页面注释。
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Thêm Văn Bản vào Chân Trang của PDF qua Cloud Go SDK
-url: /go/footer/text/
+url: go/footer/text/
 description: Chèn chân trang dựa trên văn bản vào PDF bằng Go với Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

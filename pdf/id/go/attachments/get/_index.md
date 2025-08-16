@@ -1,6 +1,6 @@
 ---
 title: Ekstrak lampiran dari dokumen PDF melalui Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: Ekstrak lampiran PDF menggunakan Go dan Aspose.PDF Cloud SDK. Akses konten tersemat melalui API.
 lastmod: 2025-05-20
 ---

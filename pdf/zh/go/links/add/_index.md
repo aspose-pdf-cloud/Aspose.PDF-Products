@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 将链接添加到 PDF
-url: /go/links/add/
+url: go/links/add/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 在 PDF 文件中插入超链接。
 lastmod: 2025-05-19
 ---

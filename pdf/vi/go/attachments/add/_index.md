@@ -1,6 +1,6 @@
 ---
 title: Thêm tệp đính kèm vào tài liệu PDF qua Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: Thêm tệp đính kèm vào PDF qua Go với Aspose.PDF Cloud SDK. Nhúng các tài liệu hỗ trợ vào PDF của bạn.
 lastmod: 2025-05-20
 ---

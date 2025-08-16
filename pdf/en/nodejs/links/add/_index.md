@@ -1,6 +1,6 @@
 ---
 title: Add Links to PDF via Cloud Node.js SDK 
-url: /nodejs/links/add/
+url: nodejs/links/add/
 description: Insert hyperlinks into PDF files using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2022-02-19"
 ---

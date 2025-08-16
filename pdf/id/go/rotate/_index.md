@@ -1,6 +1,6 @@
 ---
 title: Putar PDF melalui Cloud Go SDK
-url: /go/rotate/
+url: go/rotate/
 description: Aspose.PDF Cloud memungkinkan Anda memutar Dokumen PDF. Periksa kode sumber Go untuk memutar file PDF.
 lastmod: 2025-07-19
 ---

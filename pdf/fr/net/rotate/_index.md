@@ -1,6 +1,6 @@
 ---
 title: Faire pivoter un PDF via Cloud .NET SDK
-url: /net/rotate/
+url: net/rotate/
 description: Aspose.PDF Cloud vous permet de faire pivoter un document PDF. Consultez le code source .NET pour faire pivoter un fichier PDF.
 lastmod: 2025-07-19
 ---

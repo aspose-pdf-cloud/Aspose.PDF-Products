@@ -1,6 +1,6 @@
 ---
 title: Agregar Anotaciones de Subrayado mediante Cloud .NET SDK
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: Agregar Anotaciones de Subrayado a PDFs usando Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 替换书签
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 替换 PDF 书签。简化文档结构。
 lastmod: 2025-05-20
 ---

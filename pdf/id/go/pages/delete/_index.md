@@ -1,6 +1,6 @@
 ---
 title: Hapus Halaman dari PDF melalui Cloud Go SDK
-url: /go/pages/delete/
+url: go/pages/delete/
 description: Hapus halaman dari PDF di Go menggunakan Aspose.PDF Cloud SDK. Otomatiskan pembersihan dokumen.
 lastmod: 2025-08-19
 ---

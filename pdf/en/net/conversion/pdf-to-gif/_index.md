@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to Images GIF via Cloud .NET SDK
-url: /net/conversion/pdf-to-gif/
+url: net/conversion/pdf-to-gif/
 description: Transform PDFs into GIF files with Aspose.PDF Cloud SDK for .NET. Simplify document sharing with image output.
 lastmod: "2022-03-17"
 ---

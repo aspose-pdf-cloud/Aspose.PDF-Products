@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de soulignement via Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Ajouter des annotations de soulignement aux PDF en utilisant Aspose.PDF Cloud SDK pour Python.
 lastmod: 2025-07-20
 ---

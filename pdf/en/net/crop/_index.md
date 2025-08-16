@@ -1,6 +1,6 @@
 ---
 title: Crop PDF via Cloud .NET SDK 
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud allows you to crop PDF Document. Check the .NET source code to crop PDF file.
 lastmod: "2025-07-19"
 ---

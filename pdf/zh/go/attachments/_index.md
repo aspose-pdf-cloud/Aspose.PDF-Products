@@ -1,6 +1,6 @@
 ---
 title: 通过 Aspose.Pdf Cloud Go SDK 提取和附加 PDF 文档中的附件
-url: /go/attachments/
+url: go/attachments/
 description: 使用 Aspose.PDF Cloud SDK for Go 管理 PDF 文档中的文件附件。添加、列出或删除嵌入内容。
 lastmod: 2025-05-20
 ---

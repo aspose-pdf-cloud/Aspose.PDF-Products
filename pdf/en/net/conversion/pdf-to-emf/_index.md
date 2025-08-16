@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to EMF via Cloud .NET SDK
-url: /net/conversion/pdf-to-emf/
+url: net/conversion/pdf-to-emf/
 description: Turn PDF into EMF images with Aspose.PDF Cloud SDK for .NET. Perfect for Windows-native image workflows.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Potong PDF melalui Cloud Go SDK
-url: /go/crop/
+url: go/crop/
 description: Aspose.PDF Cloud memungkinkan Anda untuk memotong Dokumen PDF. Periksa kode sumber Go untuk memotong file PDF.
 lastmod: 2025-07-19
 ---

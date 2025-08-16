@@ -1,6 +1,6 @@
 ---
 title: استبدال التعليقات النصية عبر Cloud .NET SDK
-url: /net/annotations/text/replace
+url: net/annotations/text/replace
 description: استبدال التعليقات النصية في ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

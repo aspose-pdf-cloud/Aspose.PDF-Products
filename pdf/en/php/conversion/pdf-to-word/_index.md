@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to DOC via PHP Cloud SDK
-url: /php/conversion/pdf-to-word/
+url: php/conversion/pdf-to-word/
 description: Export PDF to Word format (DOCX) with PHP using Aspose.PDF Cloud SDK. Enable easy editing and reuse.
 lastmod: "2024-10-17"
 ---

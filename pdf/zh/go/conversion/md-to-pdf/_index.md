@@ -1,7 +1,7 @@
 ---
 title: 通过 Cloud Go SDK 将 Markdown 转换为 PDF
 weight: 1640
-url: /go/conversion/md-to-pdf/
+url: go/conversion/md-to-pdf/
 description: 使用 Aspose.PDF Cloud SDK for Go 将 Markdown (.md) 文件转换为专业 PDF。
 lastmod: 2025-05-17
 ---

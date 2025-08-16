@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Văn Bản Gạch Dưới qua Cloud Go SDK
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: Thêm Chú Thích Văn Bản Gạch Dưới vào PDF bằng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

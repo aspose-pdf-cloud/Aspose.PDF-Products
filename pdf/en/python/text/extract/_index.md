@@ -1,6 +1,6 @@
 ---
 title: Extract Text from PDF via Cloud Python SDK 
-url: /python/text/extract/
+url: python/text/extract/
 description: Extract all text from PDFs in Python using Aspose.PDF Cloud SDK. Parse content with precision.
 lastmod: "2024-10-19"
 ---

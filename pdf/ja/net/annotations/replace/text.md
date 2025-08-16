@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDKを使用してテキスト注釈を置換
-url: /net/annotations/text/replace
+url: net/annotations/text/replace
 description: Aspose.PDF Cloud SDK for .NETを使用してPDFのテキスト注釈を置換します。
 lastmod: 2025-07-20
 ---

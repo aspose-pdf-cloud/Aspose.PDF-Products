@@ -1,6 +1,6 @@
 ---
 title: Substituir Favoritos via Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Substitua favoritos em PDF usando Go e Aspose.PDF Cloud SDK. Simplifique a estrutura do documento.
 lastmod: 2025-05-20
 ---

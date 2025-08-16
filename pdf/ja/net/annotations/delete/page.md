@@ -1,6 +1,6 @@
 ---
 title: Cloud .NET SDKを使用してページ注釈を削除
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: Aspose.PDF Cloud SDK for .NETを使用してPDFからページ注釈を削除します。
 lastmod: 2025-07-20
 ---

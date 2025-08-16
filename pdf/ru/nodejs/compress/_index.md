@@ -1,6 +1,6 @@
 ---
 title: Сжать PDF через Cloud Node.js SDK
-url: /nodejs/compress/
+url: nodejs/compress/
 description: Aspose.PDF Cloud позволяет оптимизировать PDF документ. Проверьте исходный код Node.js для сжатия PDF файла.
 lastmod: 2025-05-19
 ---

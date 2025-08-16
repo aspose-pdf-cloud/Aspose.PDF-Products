@@ -1,6 +1,6 @@
 ---
 title: Delete Pages from PDF via Cloud PHP SDK 
-url: /php/pages/delete/
+url: php/pages/delete/
 description: Delete unwanted pages from PDFs in PHP using Aspose.PDF Cloud SDK. Simplify and clean documents.
 lastmod: "2025-03-19"
 ---

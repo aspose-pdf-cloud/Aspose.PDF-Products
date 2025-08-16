@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات نصية عبر Cloud Go SDK
-url: /go/annotations/text/
+url: go/annotations/text/
 description: إضافة تعليقات نصية إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-07-20
 ---

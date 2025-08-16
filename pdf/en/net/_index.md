@@ -2,7 +2,7 @@
 title: Build PDF Generator & Converter Apps via C# & .NET SDK 
 description: Enhance your C#, ASP.NET & other .NET cloud applications to create, digitally sign, split, merge, & convert PDF files stored on the cloud
 weight: 60
-url: /net
+url: net
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

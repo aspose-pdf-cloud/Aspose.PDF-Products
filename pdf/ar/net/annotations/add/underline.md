@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات التسطير عبر Cloud .NET SDK
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: أضف تعليقات التسطير إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

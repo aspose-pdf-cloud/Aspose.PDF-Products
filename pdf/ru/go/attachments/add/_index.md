@@ -1,6 +1,6 @@
 ---
 title: Прикрепление вложений к PDF-документам через Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: Добавьте вложения к PDF через Go с помощью Aspose.PDF Cloud SDK. Встраивайте вспомогательные документы в ваши PDF-файлы.
 lastmod: 2025-05-20
 ---

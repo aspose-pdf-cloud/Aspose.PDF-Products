@@ -1,6 +1,6 @@
 ---
 title: Reemplazar Marcadores vía Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Reemplace los marcadores de PDF usando Go y Aspose.PDF Cloud SDK. Simplifique la estructura del documento.
 lastmod: 2025-05-20
 ---

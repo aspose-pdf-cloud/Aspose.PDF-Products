@@ -1,6 +1,6 @@
 ---
 title: حذف تعليقات النص عبر Cloud .NET SDK
-url: /net/annotations/text/delete
+url: net/annotations/text/delete
 description: حذف تعليقات النص من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

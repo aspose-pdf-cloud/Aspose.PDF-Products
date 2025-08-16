@@ -1,6 +1,6 @@
 ---
 title: Agregar Anotaciones de Subrayado a través del Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Agregar Anotaciones de Subrayado a PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ajouter des tableaux au PDF via Cloud Go SDK
-url: /go/table/add/
+url: go/table/add/
 description: Insérer des tableaux dans des PDFs en utilisant Go avec Aspose.PDF Cloud SDK. Ajouter des données structurées de manière dynamique.
 lastmod: 2025-08-19
 ---

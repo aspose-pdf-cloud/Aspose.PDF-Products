@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Văn Bản Đánh Dấu qua Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Thêm Chú Thích Văn Bản Đánh Dấu vào PDF bằng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

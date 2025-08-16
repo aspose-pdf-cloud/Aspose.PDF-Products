@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Tautan ke PDF melalui Cloud Go SDK
-url: /go/links/add/
+url: go/links/add/
 description: Masukkan hyperlink ke dalam file PDF menggunakan Go dan Aspose.PDF Cloud SDK.
 lastmod: 2025-05-19
 ---

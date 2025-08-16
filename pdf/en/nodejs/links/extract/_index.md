@@ -1,6 +1,6 @@
 ---
 title: Extract Links from PDF via Cloud Node.js SDK 
-url: /nodejs/links/extract/
+url: nodejs/links/extract/
 description: Extract all hyperlinks from a PDF file using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2025-02-19"
 ---

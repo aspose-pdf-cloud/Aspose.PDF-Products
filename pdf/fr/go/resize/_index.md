@@ -1,6 +1,6 @@
 ---
 title: Redimensionner un PDF via Cloud Go SDK
-url: /go/resize/
+url: go/resize/
 description: Aspose.PDF Cloud vous permet de redimensionner un document PDF. Consultez le code source Go pour redimensionner un fichier PDF.
 lastmod: 2025-07-19
 ---

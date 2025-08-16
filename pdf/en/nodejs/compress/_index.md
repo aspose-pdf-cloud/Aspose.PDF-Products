@@ -1,6 +1,6 @@
 ---
 title: Compress PDF via Cloud Node.js SDK 
-url: /nodejs/compress/
+url: nodejs/compress/
 description: Aspose.PDF Cloud allows you to optimize PDF Document. Check the Node.js source code to compress PDF file.
 lastmod: "2025-05-19"
 ---

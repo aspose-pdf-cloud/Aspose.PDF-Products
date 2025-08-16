@@ -1,6 +1,6 @@
 ---
 title: Удаление ссылок из PDF через Cloud Go SDK
-url: /go/links/delete/
+url: go/links/delete/
 description: Удалите гиперссылки с страниц PDF с помощью Aspose.PDF Cloud SDK на Go.
 lastmod: 2025-05-19
 ---

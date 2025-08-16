@@ -1,6 +1,6 @@
 ---
 title: Convert CGM to PDF via Cloud Node.js SDK
-url: /nodejs/conversion/cgm-to-pdf/
+url: nodejs/conversion/cgm-to-pdf/
 description: Convert CGM vector graphics to PDF via Node.js with Aspose.PDF Cloud SDK. Preserve accuracy and layout.
 lastmod: "2022-03-17"
 ---

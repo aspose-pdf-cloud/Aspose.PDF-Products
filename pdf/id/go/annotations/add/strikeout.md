@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Teks Coretan melalui Cloud Go SDK
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: Tambahkan Anotasi Teks Coretan ke PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

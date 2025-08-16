@@ -1,6 +1,6 @@
 ---
 title: Cloud Python SDKを使用してページ注釈を削除
-url: /python/annotations/page/delete
+url: python/annotations/page/delete
 description: Aspose.PDF Cloud SDK for Pythonを使用してPDFからページ注釈を削除します。
 lastmod: 2025-07-20
 ---

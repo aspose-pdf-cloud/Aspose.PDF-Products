@@ -1,6 +1,6 @@
 ---
 title: Add Highlight Text Annotations via Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Add Highlight Text Annotations to PDFs using Aspose.PDF Cloud SDK for Python.
 lastmod: "2025-07-20"
 ---

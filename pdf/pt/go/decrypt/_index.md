@@ -1,6 +1,6 @@
 ---
 title: Descriptografar PDF via Cloud Go SDK
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloud permite que você descriptografe Documentos PDF. Confira o código-fonte em Go para descriptografar arquivos PDF.
 lastmod: 2025-04-19
 ---

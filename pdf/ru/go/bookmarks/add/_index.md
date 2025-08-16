@@ -1,6 +1,6 @@
 ---
 title: Добавление закладок через Cloud Go SDK
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: Добавляйте закладки в PDF, используя Aspose.PDF Cloud SDK для Go. Обеспечьте навигацию и структуру в документах.
 lastmod: 2025-05-20
 ---

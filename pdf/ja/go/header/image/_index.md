@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFのヘッダーに画像を追加
-url: /go/header/image/
+url: go/header/image/
 description: Aspose.PDF Cloudを使用してGoでPDFに画像ヘッダーを追加。レポートのフォーマットを自動化。
 lastmod: 2025-05-20
 ---

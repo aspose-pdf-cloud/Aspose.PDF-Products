@@ -1,6 +1,6 @@
 ---
 title: クラウド Python SDK を使用してテキスト注釈を削除
-url: /python/annotations/text/delete
+url: python/annotations/text/delete
 description: Aspose.PDF Cloud SDK for Python を使用して PDF からテキスト注釈を削除します。
 lastmod: 2025-07-20
 ---

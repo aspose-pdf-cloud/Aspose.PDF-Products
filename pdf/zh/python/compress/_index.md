@@ -1,6 +1,6 @@
 ---
 title: 通过Cloud Python SDK压缩PDF
-url: /python/compress/
+url: python/compress/
 description: Aspose.PDF Cloud允许您压缩PDF文档。查看Python源代码以优化PDF文件。
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Xóa Chú Thích Trang qua Cloud .NET SDK
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: Xóa Chú Thích Trang từ PDF bằng cách sử dụng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

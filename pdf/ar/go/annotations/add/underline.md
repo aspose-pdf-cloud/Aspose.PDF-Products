@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات توضيحية لنص تحت الخط عبر Cloud Go SDK
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: إضافة تعليقات توضيحية لنص تحت الخط إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK for Go.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Delete Pages from PDF via Cloud Go SDK 
-url: /go/pages/delete/
+url: go/pages/delete/
 description: Delete pages from PDFs in Go using Aspose.PDF Cloud SDK. Automate document cleanup.
 lastmod: "2025-08-19"
 ---

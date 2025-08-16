@@ -1,6 +1,6 @@
 ---
 title: Konversi PDF ke XPS melalui Cloud Go SDK
-url: /go/conversion/pdf-to-xps/
+url: go/conversion/pdf-to-xps/
 description: Konversi PDF ke format XPS menggunakan Aspose.PDF Cloud SDK untuk Go. Pertahankan integritas tata letak.
 lastmod: 2025-05-17
 ---

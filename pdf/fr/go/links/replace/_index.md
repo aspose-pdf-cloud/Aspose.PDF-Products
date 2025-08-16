@@ -1,6 +1,6 @@
 ---
 title: Remplacer les liens dans le PDF via Cloud Go SDK
-url: /go/links/replace/
+url: go/links/replace/
 description: Remplacez les liens dans les PDF en utilisant Aspose.PDF Cloud SDK pour Go. Mettez à jour les URL efficacement.
 lastmod: 2025-05-19
 ---

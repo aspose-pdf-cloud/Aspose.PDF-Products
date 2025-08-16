@@ -1,6 +1,6 @@
 ---
 title: Pangkas PDF melalui Cloud Python SDK
-url: /python/crop/
+url: python/crop/
 description: Aspose.PDF Cloud memungkinkan Anda untuk memangkas Dokumen PDF. Periksa kode sumber Python untuk memangkas file PDF.
 lastmod: 2025-07-28
 ---

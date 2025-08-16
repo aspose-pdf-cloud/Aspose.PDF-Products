@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Đánh Dấu Văn Bản qua Cloud Go SDK
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Thêm Chú Thích Đánh Dấu Văn Bản vào PDF bằng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

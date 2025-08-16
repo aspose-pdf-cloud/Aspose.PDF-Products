@@ -1,6 +1,6 @@
 ---
 title: Add Strikeout Annotations via Cloud Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: Add Strikeout Annotations to PDFs using Aspose.PDF Cloud SDK for Python.
 lastmod: "2025-07-20"
 ---

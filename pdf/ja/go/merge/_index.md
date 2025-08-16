@@ -2,7 +2,7 @@
 title: Goを使用して複数のPDFドキュメントを結合する
 description: GoとAspose.PDF Cloud SDKを使用して複数のPDFを1つに結合します。
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: 2025-05-20
 ---
 

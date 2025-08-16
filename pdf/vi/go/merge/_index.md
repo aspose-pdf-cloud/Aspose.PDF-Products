@@ -2,7 +2,7 @@
 title: Gộp nhiều Tài liệu PDF bằng Go
 description: Gộp nhiều PDF thành một bằng cách sử dụng Go và Aspose.PDF Cloud SDK.
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: 2025-05-20
 ---
 

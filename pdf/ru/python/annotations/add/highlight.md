@@ -1,6 +1,6 @@
 ---
 title: Добавление аннотаций выделенного текста через облачный Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Добавляйте аннотации выделенного текста в PDF с помощью Aspose.PDF Cloud SDK для Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Добавить текст в заголовок PDF через Cloud Go SDK
-url: /go/header/text/
+url: go/header/text/
 description: Вставьте текстовые заголовки в PDF файлы с использованием Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-05-20
 ---

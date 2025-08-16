@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to HTML via Cloud Go SDK
-url: /go/conversion/pdf-to-html/
+url: go/conversion/pdf-to-html/
 description: Convert PDFs into responsive HTML using Go and Aspose.PDF Cloud SDK. Perfect for online document display.
 lastmod: "2025-05-17"
 ---

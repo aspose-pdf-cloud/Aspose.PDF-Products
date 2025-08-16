@@ -1,6 +1,6 @@
 ---
 title: Converter PDF para TEX via Cloud Go SDK
-url: /go/conversion/pdf-to-tex/
+url: go/conversion/pdf-to-tex/
 description: Converta o código-fonte PDF para TeX com Aspose.PDF Cloud para Go. Integre em fluxos de trabalho LaTeX.
 lastmod: 2025-05-17
 ---

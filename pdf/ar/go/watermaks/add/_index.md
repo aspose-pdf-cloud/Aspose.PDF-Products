@@ -2,7 +2,7 @@
 title: إضافة علامات مائية إلى PDF عبر Cloud Golang SDK
 description: أضف علامات مائية إلى ملفات PDF باستخدام Go مع Aspose.PDF Cloud SDK. دعم النصوص والعلامات الصورية.
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

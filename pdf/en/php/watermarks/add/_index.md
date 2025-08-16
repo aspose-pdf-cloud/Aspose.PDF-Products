@@ -2,7 +2,7 @@
 title: Add Watermarks to PDF | PHP
 description: Add image or text watermarks to PDF files using PHP and Aspose.PDF Cloud SDK. Protect or brand your documents.
 weight: 30
-url: /php/watermaks/add/
+url: php/watermaks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -1,6 +1,6 @@
 ---
 title: Hapus Tautan dari PDF melalui Cloud Go SDK
-url: /go/links/delete/
+url: go/links/delete/
 description: Hapus hyperlink dari halaman PDF dengan Aspose.PDF Cloud SDK di Go.
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Verify Signature in PDF via Cloud PHP SDK 
-url: /php/signature/verify/
+url: php/signature/verify/
 description: Aspose.PDF Cloud allows you to verify signature in PDF Document. Check the PHP source code to verify signature in PDF file.
 lastmod: "2025-03-19"
 ---

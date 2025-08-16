@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 删除书签
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 删除 PDF 书签。简化文档结构。
 lastmod: 2025-05-20
 ---

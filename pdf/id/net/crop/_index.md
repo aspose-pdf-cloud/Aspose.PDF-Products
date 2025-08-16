@@ -1,6 +1,6 @@
 ---
 title: Pangkas PDF melalui Cloud .NET SDK
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud memungkinkan Anda untuk memangkas Dokumen PDF. Periksa kode sumber .NET untuk memangkas file PDF.
 lastmod: 2025-07-19
 ---

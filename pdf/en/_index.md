@@ -2,7 +2,7 @@
 title: Desktop & Cloud API Solutions to Build PDF Processing Apps 
 description: Convert, edit, and manipulate PDF files in the cloud using Aspose.PDF Cloud API. Fast, secure, and easy integration with any platform.
 weight: 80
-url: /
+url: 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

@@ -1,6 +1,6 @@
 ---
 title: Converter PDF para DOCX via Cloud Go SDK
-url: /go/conversion/pdf-to-docx/
+url: go/conversion/pdf-to-docx/
 description: Transforme PDF em DOCX com Aspose.PDF Cloud SDK para Go. Edite seus PDFs no Microsoft Word.
 lastmod: 2025-05-17
 ---

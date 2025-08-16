@@ -1,6 +1,6 @@
 ---
 title: PDFをXLSにクラウドGo SDKで変換
-url: /go/conversion/pdf-to-xls/
+url: go/conversion/pdf-to-xls/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFをXLSにエクスポート。
 lastmod: 2025-05-17
 ---

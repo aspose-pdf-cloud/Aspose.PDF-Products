@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Teks Garis Bawah melalui Cloud Go SDK
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: Tambahkan Anotasi Teks Garis Bawah ke PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

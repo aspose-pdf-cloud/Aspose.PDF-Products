@@ -1,6 +1,6 @@
 ---
 title: Dapatkan Penanda Buku melalui Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Ambil penanda buku dari file PDF dalam aplikasi Go Anda dengan Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

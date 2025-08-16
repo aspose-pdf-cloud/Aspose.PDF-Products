@@ -1,6 +1,6 @@
 ---
 title: إضافة طوابع نصية إلى PDF عبر Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: أدخل طوابع نصية في ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-02-20
 ---

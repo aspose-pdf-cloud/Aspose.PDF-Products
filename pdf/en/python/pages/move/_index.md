@@ -1,6 +1,6 @@
 ---
 title: Move Pages in PDF via Cloud Python SDK 
-url: /python/pages/move/
+url: python/pages/move/
 description: Move or reorder pages in PDF files using Python and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

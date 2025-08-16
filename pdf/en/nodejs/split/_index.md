@@ -2,7 +2,7 @@
 title: Split single PDF Documents | Node.js
 description: Split PDF into multiple files in Node.js using Aspose.PDF Cloud SDK. Automate document segmentation.
 weight: 40
-url: /nodejs/split/
+url: nodejs/split/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

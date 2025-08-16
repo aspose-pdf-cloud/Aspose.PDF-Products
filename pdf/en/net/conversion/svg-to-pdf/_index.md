@@ -1,6 +1,6 @@
 ---
 title: Convert SVG to PDF via Cloud .NET SDK
-url: /net/conversion/svg-to-pdf/
+url: net/conversion/svg-to-pdf/
 description: Transform SVG graphics into PDF using Aspose.PDF Cloud SDK for .NET. Retain precision in visual output.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: الحصول على ملاحظات الصفحة عبر Cloud .NET SDK
-url: /net/annotations/page/get
+url: net/annotations/page/get
 description: احصل على ملاحظات الصفحة من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Chuyển đổi PNG sang PDF qua Cloud Go SDK
-url: /go/conversion/png-to-pdf/
+url: go/conversion/png-to-pdf/
 description: Chuyển đổi hình ảnh PNG sang PDF với Go và Aspose.PDF Cloud. Chuyển đổi hình ảnh nhanh, chất lượng cao.
 lastmod: 2025-05-17
 ---

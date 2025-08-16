@@ -1,6 +1,6 @@
 ---
 title: Adicionar Anotações de Texto Tachado via Cloud Go SDK
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: Adicionar Anotações de Texto Tachado a PDFs usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-07-20
 ---

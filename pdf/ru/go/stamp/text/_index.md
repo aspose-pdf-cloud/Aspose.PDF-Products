@@ -1,6 +1,6 @@
 ---
 title: Добавление текстовых штампов в PDF с помощью Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Вставляйте текстовые штампы в PDF с помощью Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-02-20
 ---

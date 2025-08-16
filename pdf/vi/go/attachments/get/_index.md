@@ -1,6 +1,6 @@
 ---
 title: Trích xuất tệp đính kèm từ tài liệu PDF qua Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: Trích xuất tệp đính kèm PDF bằng Go và Aspose.PDF Cloud SDK. Truy cập nội dung nhúng qua API.
 lastmod: 2025-05-20
 ---

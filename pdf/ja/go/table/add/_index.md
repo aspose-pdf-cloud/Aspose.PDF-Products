@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFにテーブルを追加
-url: /go/table/add/
+url: go/table/add/
 description: Goを使用してAspose.PDF Cloud SDKでPDFにテーブルを挿入します。構造化されたデータを動的に追加します。
 lastmod: 2025-08-19
 ---

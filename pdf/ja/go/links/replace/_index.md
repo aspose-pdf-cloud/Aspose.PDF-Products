@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDF内のリンクを置換
-url: /go/links/replace/
+url: go/links/replace/
 description: Aspose.PDF Cloud SDK for Goを使用してPDF内のリンクを置換します。URLを効率的に更新します。
 lastmod: 2025-05-19
 ---

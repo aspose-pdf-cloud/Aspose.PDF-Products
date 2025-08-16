@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Node.js SDK 裁剪 PDF
-url: /nodejs/crop/
+url: nodejs/crop/
 description: Aspose.PDF Cloud 允许您裁剪 PDF 文档。查看 Node.js 源代码以裁剪 PDF 文件。
 lastmod: 2025-07-28
 ---

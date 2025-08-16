@@ -1,6 +1,6 @@
 ---
 title: Обрезка PDF через Cloud Go SDK
-url: /go/crop/
+url: go/crop/
 description: Aspose.PDF Cloud позволяет обрезать PDF документы. Ознакомьтесь с исходным кодом на Go для обрезки PDF файла.
 lastmod: 2025-07-19
 ---

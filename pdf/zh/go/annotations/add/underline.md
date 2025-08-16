@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 添加下划线文本注释
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: 使用 Aspose.PDF Cloud SDK for Go 向 PDF 添加下划线文本注释。
 lastmod: 2025-07-20
 ---

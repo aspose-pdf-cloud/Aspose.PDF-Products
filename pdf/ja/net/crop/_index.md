@@ -1,6 +1,6 @@
 ---
 title: Cloud .NET SDKを使用してPDFをトリミング
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントをトリミングできます。.NETのソースコードを確認してPDFファイルをトリミングしてください。
 lastmod: 2025-07-19
 ---

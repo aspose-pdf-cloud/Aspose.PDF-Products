@@ -1,6 +1,6 @@
 ---
 title: استبدال الجداول في ملف PDF عبر Cloud Go SDK
-url: /go/table/replace/
+url: go/table/replace/
 description: استبدل بيانات جدول PDF برمجياً في Go باستخدام Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

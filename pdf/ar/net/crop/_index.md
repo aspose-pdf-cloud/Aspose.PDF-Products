@@ -1,6 +1,6 @@
 ---
 title: قص مستند PDF عبر Cloud .NET SDK
-url: /net/crop/
+url: net/crop/
 description: يسمح لك Aspose.PDF Cloud بقص مستند PDF. تحقق من كود المصدر .NET لقص ملف PDF.
 lastmod: 2025-07-19
 ---

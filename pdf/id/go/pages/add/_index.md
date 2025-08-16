@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Halaman ke PDF melalui Cloud Go SDK
-url: /go/pages/add/
+url: go/pages/add/
 description: Sisipkan halaman baru ke dalam file PDF dengan Go dan Aspose.PDF Cloud SDK. Perluas konten secara dinamis.
 lastmod: 2025-08-19
 ---

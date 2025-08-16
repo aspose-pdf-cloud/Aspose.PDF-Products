@@ -1,6 +1,6 @@
 ---
 title: Ekstrak Tautan dari PDF melalui Cloud Go SDK
-url: /go/links/extract/
+url: go/links/extract/
 description: Ekstrak semua hyperlink dari file PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-05-19
 ---

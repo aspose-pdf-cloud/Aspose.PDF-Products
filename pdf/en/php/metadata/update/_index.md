@@ -1,6 +1,6 @@
 ---
 title: Update Metadata in PDF Document via Cloud PHP SDK
-url: /php/metadata/update/
+url: php/metadata/update/
 description: Update or overwrite PDF metadata properties programmatically with Aspose.PDF Cloud SDK for PHP.
 lastmod: "2024-03-19"
 ---

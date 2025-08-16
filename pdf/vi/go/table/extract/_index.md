@@ -1,6 +1,6 @@
 ---
 title: Trích Xuất Bảng từ PDF qua Cloud Go SDK
-url: /go/table/extract/
+url: go/table/extract/
 description: Trích xuất nội dung bảng từ PDF với Go sử dụng Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Pindahkan Halaman dalam PDF melalui Cloud Go SDK
-url: /go/pages/move/
+url: go/pages/move/
 description: Pindahkan atau atur ulang halaman dalam file PDF menggunakan Go dan Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

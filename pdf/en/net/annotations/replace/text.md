@@ -1,6 +1,6 @@
 ---
 title: Replace Text Annotations via Cloud .NET SDK
-url: /net/annotations/text/replace
+url: net/annotations/text/replace
 description: Replace Text Annotations in PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-07-20"
 ---

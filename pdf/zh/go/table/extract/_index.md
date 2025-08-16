@@ -1,6 +1,6 @@
 ---
 title: 通过云 Go SDK 从 PDF 中提取表格
-url: /go/table/extract/
+url: go/table/extract/
 description: 使用 Aspose.PDF Cloud SDK，通过 Go 从 PDF 中提取表格内容。
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: PDFをクラウドNode.js SDKでリサイズ
-url: /nodejs/resize/
+url: nodejs/resize/
 description: Aspose.PDF CloudはPDFドキュメントをリサイズすることができます。PDFファイルをリサイズするNode.jsのソースコードをチェックしてください。
 lastmod: 2025-07-28
 ---

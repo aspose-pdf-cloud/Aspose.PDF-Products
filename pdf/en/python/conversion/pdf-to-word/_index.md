@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to DOC via Python Cloud SDK
-url: /python/conversion/pdf-to-word/
+url: python/conversion/pdf-to-word/
 description: Convert PDFs to editable DOCX format in Python using Aspose.PDF Cloud SDK. Enable easy editing and reuse.
 lastmod: "2024-10-17"
 ---

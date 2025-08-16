@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Gambar di Header PDF melalui Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: Tambahkan header gambar ke PDF di Go dengan Aspose.PDF Cloud. Otomatiskan pemformatan laporan.
 lastmod: 2025-05-20
 ---

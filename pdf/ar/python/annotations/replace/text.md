@@ -1,6 +1,6 @@
 ---
 title: استبدال التعليقات النصية عبر Cloud Python SDK
-url: /python/annotations/text/replace
+url: python/annotations/text/replace
 description: استبدال التعليقات النصية في ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Python.
 lastmod: 2025-07-20
 ---

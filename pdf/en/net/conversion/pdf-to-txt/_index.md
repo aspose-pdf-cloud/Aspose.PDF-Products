@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to TXT via Cloud .NET SDK
-url: /net/conversion/pdf-to-txt/
+url: net/conversion/pdf-to-txt/
 description: Export text from PDF to TXT format using Aspose.PDF Cloud SDK for .NET. Lightweight and searchable output.
 lastmod: "2022-03-17"
 ---

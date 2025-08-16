@@ -1,6 +1,6 @@
 ---
 title: クラウドGo SDKを使用してブックマークを削除
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: GoとAspose.PDF Cloud SDKを使用してPDFのブックマークを削除します。ドキュメント構造を簡素化。
 lastmod: 2025-05-20
 ---

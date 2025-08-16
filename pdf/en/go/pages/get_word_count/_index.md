@@ -1,6 +1,6 @@
 ---
 title: Get Word Count Per Page Using Aspose.PDF Cloud SDK for Go 
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Get Word Count on a PDF Page with Aspose.PDF Cloud SDK for Go.
 lastmod: "2025-08-19"
 ---

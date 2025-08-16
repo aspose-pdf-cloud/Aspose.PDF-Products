@@ -1,6 +1,6 @@
 ---
 title: Set Form Fields from PDF Document via Cloud Node.js SDK
-url: /nodejs/acroforms/set/
+url: nodejs/acroforms/set/
 description: Set AcroForm fields in PDF documents programmatically using Aspose.PDF Cloud SDK for Node.js. Build dynamic, interactive forms.
 lastmod: "2024-11-19"
 ---

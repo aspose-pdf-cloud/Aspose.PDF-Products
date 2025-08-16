@@ -2,7 +2,7 @@
 title: Удаление водяных знаков из PDF через Cloud Golang SDK
 description: Удаление водяных знаков из PDF документов на Go с использованием Aspose.PDF Cloud SDK.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

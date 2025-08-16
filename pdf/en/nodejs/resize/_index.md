@@ -1,6 +1,6 @@
 ---
 title: Resize PDF via Cloud Node.js SDK 
-url: /nodejs/resize/
+url: nodejs/resize/
 description: Aspose.PDF Cloud allows you to resize PDF Document. Check the Node.js source code to resize PDF file.
 lastmod: "2025-07-28"
 ---

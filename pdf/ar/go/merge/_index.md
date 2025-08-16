@@ -2,7 +2,7 @@
 title: دمج عدة مستندات PDF باستخدام Go
 description: ادمج ملفات PDF متعددة في ملف واحد باستخدام Go و Aspose.PDF Cloud SDK.
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: 2025-05-20
 ---
 

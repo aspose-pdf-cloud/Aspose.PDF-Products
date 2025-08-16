@@ -1,6 +1,6 @@
 ---
 title: Поворот PDF с помощью Cloud Python SDK
-url: /python/rotate/
+url: python/rotate/
 description: Aspose.PDF Cloud позволяет поворачивать PDF-документы. Проверьте исходный код на Python, чтобы повернуть PDF-файл.
 lastmod: 2025-07-19
 ---

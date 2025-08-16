@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de barré via Cloud .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Ajoutez des annotations de barré aux PDF en utilisant Aspose.PDF Cloud SDK pour .NET.
 lastmod: 2025-07-20
 ---

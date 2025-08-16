@@ -1,6 +1,6 @@
 ---
 title: Redimensionner un PDF via Cloud .NET SDK
-url: /net/resize/
+url: net/resize/
 description: Aspose.PDF Cloud vous permet de redimensionner un Document PDF. Consultez le code source .NET pour redimensionner un fichier PDF.
 lastmod: 2025-07-19
 ---

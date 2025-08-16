@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Teks melalui Cloud Go SDK
-url: /go/annotations/text/
+url: go/annotations/text/
 description: Tambahkan Anotasi Teks ke PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

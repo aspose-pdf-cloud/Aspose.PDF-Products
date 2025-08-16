@@ -1,6 +1,6 @@
 ---
 title: Nhận Chú Thích Trang qua Cloud Go SDK
-url: /go/annotations/page/get
+url: go/annotations/page/get
 description: Nhận Chú Thích Trang từ PDF sử dụng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

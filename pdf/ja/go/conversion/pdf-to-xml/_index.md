@@ -1,6 +1,6 @@
 ---
 title: PDFをXmlに変換する方法 - クラウドGo SDKを使用
-url: /go/conversion/pdf-to-xml/
+url: go/conversion/pdf-to-xml/
 description: Aspose.PDF Cloudを使用して、GoでPDFをXmlファイルに変換します。
 lastmod: 2025-05-17
 ---

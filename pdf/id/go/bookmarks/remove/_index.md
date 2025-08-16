@@ -1,6 +1,6 @@
 ---
 title: Hapus Penanda Buku melalui Cloud Go SDK
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: Hapus penanda buku PDF menggunakan Go dan Aspose.PDF Cloud SDK. Sederhanakan struktur dokumen.
 lastmod: 2025-05-20
 ---

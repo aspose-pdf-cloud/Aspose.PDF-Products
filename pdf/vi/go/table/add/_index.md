@@ -1,6 +1,6 @@
 ---
 title: Thêm Bảng vào PDF qua Cloud Go SDK
-url: /go/table/add/
+url: go/table/add/
 description: Chèn bảng vào PDF bằng Go với Aspose.PDF Cloud SDK. Thêm dữ liệu có cấu trúc một cách động.
 lastmod: 2025-08-19
 ---

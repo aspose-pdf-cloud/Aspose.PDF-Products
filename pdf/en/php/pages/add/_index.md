@@ -1,6 +1,6 @@
 ---
 title: Add Pages to PDF via Cloud PHP SDK 
-url: /php/pages/add/
+url: php/pages/add/
 description: Add new pages to PDF documents in PHP using Aspose.PDF Cloud SDK. Insert content dynamically.
 lastmod: "2025-03-19"
 ---

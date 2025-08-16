@@ -1,6 +1,6 @@
 ---
 title: Excluir Anotações de Página via Cloud Go SDK
-url: /go/annotations/page/delete
+url: go/annotations/page/delete
 description: Excluir Anotações de Página de PDFs usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-07-20
 ---

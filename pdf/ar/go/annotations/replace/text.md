@@ -1,6 +1,6 @@
 ---
 title: استبدال التعليقات التوضيحية النصية عبر Cloud Go SDK
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: استبدال التعليقات التوضيحية النصية في ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-07-20
 ---

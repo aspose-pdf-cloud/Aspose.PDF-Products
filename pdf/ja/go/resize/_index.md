@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用したPDFのサイズ変更
-url: /go/resize/
+url: go/resize/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントのサイズを変更できます。PDFファイルのサイズを変更するには、Goのソースコードを確認してください。
 lastmod: 2025-07-19
 ---

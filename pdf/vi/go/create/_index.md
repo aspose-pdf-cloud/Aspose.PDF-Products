@@ -1,6 +1,6 @@
 ---
 title: Tạo PDF qua Cloud Go SDK
-url: /go/create/
+url: go/create/
 description: Aspose.PDF Cloud cho phép bạn tạo Tài liệu PDF. Kiểm tra mã nguồn Go để tạo tập tin PDF.
 lastmod: 2025-05-19
 ---

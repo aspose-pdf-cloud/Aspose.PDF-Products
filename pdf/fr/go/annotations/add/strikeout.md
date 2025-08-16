@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de texte barré via Cloud Go SDK
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: Ajoutez des annotations de texte barré aux PDF en utilisant Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-07-20
 ---

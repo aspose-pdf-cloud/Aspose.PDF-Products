@@ -1,6 +1,6 @@
 ---
 title: クラウド Node.js SDK を使用して PDF を回転
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: Aspose.PDF Cloud を使用すると、PDF ドキュメントを回転させることができます。PDF ファイルを回転させるための Node.js ソースコードを確認してください。
 lastmod: 2025-07-28
 ---

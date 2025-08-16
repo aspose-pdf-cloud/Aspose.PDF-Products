@@ -1,6 +1,6 @@
 ---
 title: إضافة نص في رأس PDF عبر Cloud Go SDK
-url: /go/header/text/
+url: go/header/text/
 description: إدراج رؤوس نصية إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-05-20
 ---

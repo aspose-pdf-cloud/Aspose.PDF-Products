@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de texte en surbrillance via Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Ajoutez des annotations de texte en surbrillance aux PDF en utilisant Aspose.PDF Cloud SDK pour Python.
 lastmod: 2025-07-20
 ---

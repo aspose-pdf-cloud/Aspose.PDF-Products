@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDK を使用して PDF ファイルを結合
-url: /net/merge/
+url: net/merge/
 description: Aspose.PDF Cloud SDK for .NET を使用して複数の PDF を 1 つに結合します。REST API 経由でシームレスにドキュメントを組み合わせます。
 ---
 

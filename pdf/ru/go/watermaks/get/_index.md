@@ -2,7 +2,7 @@
 title: Получение водяных знаков из PDF через Cloud Golang SDK
 description: Получите данные водяных знаков из PDF с использованием Aspose.PDF Cloud SDK на Go. Исследуйте наложения или брендинг.
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: استبدال الإشارات المرجعية عبر Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: استبدال إشارات PDF المرجعية باستخدام Go و Aspose.PDF Cloud SDK. تبسيط هيكل الوثيقة.
 lastmod: 2025-05-20
 ---

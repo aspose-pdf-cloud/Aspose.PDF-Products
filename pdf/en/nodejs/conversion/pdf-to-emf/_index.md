@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to EMF via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-emf/
+url: nodejs/conversion/pdf-to-emf/
 description: Convert PDF documents to EMF images using Aspose.PDF Cloud in Node.js. Retain vector fidelity and clarity.
 lastmod: "2022-03-17"
 ---

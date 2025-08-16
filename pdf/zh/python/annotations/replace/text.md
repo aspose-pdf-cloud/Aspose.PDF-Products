@@ -1,6 +1,6 @@
 ---
 title: 通过云 Python SDK 替换文本注释
-url: /python/annotations/text/replace
+url: python/annotations/text/replace
 description: 使用 Aspose.PDF 云 SDK for Python 替换 PDF 中的文本注释。
 lastmod: 2025-07-20
 ---

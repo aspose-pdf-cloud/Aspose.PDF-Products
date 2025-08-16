@@ -1,6 +1,6 @@
 ---
 title: Извлечение ссылок из PDF через Cloud Go SDK
-url: /go/links/extract/
+url: go/links/extract/
 description: Извлечение всех гиперссылок из PDF-файла с использованием Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-05-19
 ---

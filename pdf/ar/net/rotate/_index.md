@@ -1,6 +1,6 @@
 ---
 title: تدوير PDF عبر Cloud .NET SDK
-url: /net/rotate/
+url: net/rotate/
 description: تمكنك Aspose.PDF Cloud من تدوير مستند الـ PDF. تحقق من كود المصدر .NET لتدوير ملف PDF.
 lastmod: 2025-07-19
 ---

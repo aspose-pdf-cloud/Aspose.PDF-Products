@@ -2,7 +2,7 @@
 title: Supprimer les filigranes des PDF via Cloud Golang SDK
 description: Supprimer les filigranes des documents PDF en Go en utilisant Aspose.PDF Cloud SDK.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

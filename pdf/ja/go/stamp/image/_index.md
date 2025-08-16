@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFに画像スタンプを追加
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Aspose.PDF Cloud SDKを使用して、特定のPDFページに画像スタンプを追加します。
 lastmod: 2025-07-20
 ---

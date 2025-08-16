@@ -1,6 +1,6 @@
 ---
 title: Thêm Dấu Văn Bản vào PDF qua Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Chèn dấu văn bản vào PDF với Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-02-20
 ---

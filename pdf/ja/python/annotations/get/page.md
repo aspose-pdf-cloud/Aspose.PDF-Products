@@ -1,6 +1,6 @@
 ---
 title: クラウドPython SDKを使用してページ注釈を取得
-url: /python/annotations/page/get
+url: python/annotations/page/get
 description: Aspose.PDF Cloud SDK for Pythonを使用してPDFからページ注釈を取得します。
 lastmod: 2025-07-24
 ---

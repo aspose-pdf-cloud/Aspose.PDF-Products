@@ -1,6 +1,6 @@
 ---
 title: Ajouter des Tampons de Texte à un PDF via Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Insérer des tampons de texte dans des PDFs avec Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-02-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: اقتصاص PDF عبر Cloud Node.js SDK
-url: /nodejs/crop/
+url: nodejs/crop/
 description: تتيح لك Aspose.PDF Cloud اقتصاص مستند PDF. تحقق من كود المصدر لـ Node.js لاقتصاص ملف PDF.
 lastmod: 2025-07-28
 ---

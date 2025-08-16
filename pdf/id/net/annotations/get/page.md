@@ -1,6 +1,6 @@
 ---
 title: Dapatkan Anotasi Halaman melalui Cloud .NET SDK
-url: /net/annotations/page/get
+url: net/annotations/page/get
 description: Dapatkan Anotasi Halaman dari PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.
 lastmod: 2025-07-20
 ---

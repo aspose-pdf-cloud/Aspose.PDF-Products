@@ -1,6 +1,6 @@
 ---
 title: إضافة جداول إلى PDF عبر Cloud Go SDK
-url: /go/table/add/
+url: go/table/add/
 description: إدراج جداول في ملفات PDF باستخدام Go مع Aspose.PDF Cloud SDK. إضافة بيانات منظمة بشكل ديناميكي.
 lastmod: 2025-08-19
 ---

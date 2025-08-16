@@ -1,6 +1,6 @@
 ---
 title: حذف التعليقات التوضيحية النصية عبر Cloud Go SDK
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: حذف التعليقات التوضيحية النصية من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-07-20
 ---

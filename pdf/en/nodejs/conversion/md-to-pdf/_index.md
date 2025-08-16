@@ -1,7 +1,7 @@
 ---
 title: Convert Markdown to PDF via Cloud Node.js SDK
 weight: 1640
-url: /nodejs/conversion/md-to-pdf/
+url: nodejs/conversion/md-to-pdf/
 description: Transform Markdown (.md) files into professional PDFs using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Bandingkan PDF melalui Cloud Go SDK
-url: /go/compare/
+url: go/compare/
 description: Aspose.PDF Cloud memungkinkan Anda untuk membandingkan dokumen PDF. Periksa kode sumber Go untuk membandingkan file PDF.
 lastmod: 2025-06-19
 ---

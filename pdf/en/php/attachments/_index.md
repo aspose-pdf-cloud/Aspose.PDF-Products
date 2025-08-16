@@ -1,6 +1,6 @@
 ---
 title: Extract or Append attachments from PDF documents via Aspose.Pdf Cloud PHP SDK
-url: /php/attachments/
+url: php/attachments/
 description: Manage PDF file attachments in PHP apps with Aspose.PDF Cloud. Add, extract, or remove embedded files via REST API.
 lastmod: "2024-10-29"
 ---

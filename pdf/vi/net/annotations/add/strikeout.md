@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Gạch Ngang qua Cloud .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Thêm Chú Thích Gạch Ngang vào PDF bằng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

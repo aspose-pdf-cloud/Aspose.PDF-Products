@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFを復号化
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントを復号化できます。PDFファイルを復号化するためのGoソースコードをご確認ください。
 lastmod: 2025-04-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Xoay PDF qua Cloud .NET SDK
-url: /net/rotate/
+url: net/rotate/
 description: Aspose.PDF Cloud cho phép bạn xoay Tài liệu PDF. Kiểm tra mã nguồn .NET để xoay tệp PDF.
 lastmod: 2025-07-19
 ---
