@@ -1,6 +1,6 @@
 ---
 title: استخراج المرفقات من مستندات PDF عبر Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: استخدم Go و Aspose.PDF Cloud SDK لاستخراج مرفقات PDF. الوصول إلى المحتوى المضمن عبر API.
 lastmod: 2025-05-20
 ---

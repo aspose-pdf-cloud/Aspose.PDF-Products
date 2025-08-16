@@ -1,6 +1,6 @@
 ---
 title: Convert HTML to PDF via Cloud .NET SDK
-url: /net/conversion/html-to-pdf/
+url: net/conversion/html-to-pdf/
 description: Transform HTML content into PDF with Aspose.PDF Cloud SDK for .NET. Accurate rendering of web pages into PDF files.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: حذف تعليقات الصفحات عبر Cloud .NET SDK
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: احذف تعليقات الصفحات من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDK を使用して PDF のページを移動
-url: /go/pages/move/
+url: go/pages/move/
 description: Go および Aspose.PDF Cloud SDK を使用して PDF ファイル内のページを移動または並べ替え。
 lastmod: 2025-08-19
 ---

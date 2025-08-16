@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud .NET SDK 添加 FreeText 注释
-url: /net/annotations/text/
+url: net/annotations/text/
 description: 使用 Aspose.PDF Cloud SDK for .NET 向 PDF 添加 FreeText 注释。
 lastmod: 2025-07-20
 ---

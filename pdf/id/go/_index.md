@@ -2,7 +2,7 @@
 title: Konversi, Beri Anotasi &amp; Tanda Tangani PDF Cloud melalui Go SDK
 description: Integrasikan pemrosesan PDF berbasis cloud ke dalam aplikasi Go Anda dengan Aspose.PDF Cloud SDK untuk Go. Andal dan ramah pengembang.
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

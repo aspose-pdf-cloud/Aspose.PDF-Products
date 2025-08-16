@@ -1,6 +1,6 @@
 ---
 title: Thêm Trang vào PDF qua Cloud Go SDK
-url: /go/pages/add/
+url: go/pages/add/
 description: Chèn các trang mới vào tệp PDF với Go và Aspose.PDF Cloud SDK. Mở rộng nội dung một cách động.
 lastmod: 2025-08-19
 ---

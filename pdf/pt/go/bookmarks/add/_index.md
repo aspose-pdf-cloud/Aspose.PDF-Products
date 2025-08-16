@@ -1,6 +1,6 @@
 ---
 title: Adicionar Marcadores via Cloud Go SDK
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: Adicione marcadores a PDFs usando Aspose.PDF Cloud SDK para Go. Habilite navegação e estrutura em documentos.
 lastmod: 2025-05-20
 ---

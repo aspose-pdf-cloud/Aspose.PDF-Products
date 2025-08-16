@@ -1,6 +1,6 @@
 ---
 title: Xóa Liên Kết từ PDF qua Cloud Go SDK
-url: /go/links/delete/
+url: go/links/delete/
 description: Xóa các siêu liên kết khỏi các trang PDF với Aspose.PDF Cloud SDK trong Go.
 lastmod: 2025-05-19
 ---

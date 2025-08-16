@@ -1,6 +1,6 @@
 ---
 title: Obter Favoritos via Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Recupere favoritos de arquivos PDF em seus aplicativos Go com Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

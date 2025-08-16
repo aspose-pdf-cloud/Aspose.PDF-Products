@@ -1,6 +1,6 @@
 ---
 title: クラウド Go SDK を使用して PDF のテーブルを置換
-url: /go/table/replace/
+url: go/table/replace/
 description: Aspose.PDF Cloud SDK を使用して Go でプログラムによる PDF テーブルデータの置換。
 lastmod: 2025-08-19
 ---

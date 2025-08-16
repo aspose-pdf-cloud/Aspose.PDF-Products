@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Văn Bản Tự Do qua Cloud .NET SDK
-url: /net/annotations/text/
+url: net/annotations/text/
 description: Thêm Chú Thích Văn Bản Tự Do vào PDF bằng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

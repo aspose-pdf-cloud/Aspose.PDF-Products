@@ -1,6 +1,6 @@
 ---
 title: Get Metadata from PDF Document via Cloud .NET SDK 
-url: /net/metadata/get/
+url: net/metadata/get/
 description: Retrieve PDF metadata using Aspose.PDF Cloud SDK for .NET. Analyze document details easily via API.
 lastmod: "2022-03-19"
 ---

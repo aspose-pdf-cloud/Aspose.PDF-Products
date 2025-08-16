@@ -1,6 +1,6 @@
 ---
 title: Ajouter des pages au PDF via Cloud Go SDK
-url: /go/pages/add/
+url: go/pages/add/
 description: Insérer de nouvelles pages dans des fichiers PDF avec Go et Aspose.PDF Cloud SDK. Étendre dynamiquement le contenu.
 lastmod: 2025-08-19
 ---

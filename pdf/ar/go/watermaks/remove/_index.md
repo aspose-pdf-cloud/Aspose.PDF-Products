@@ -2,7 +2,7 @@
 title: إزالة العلامات المائية من PDF عبر Cloud Golang SDK
 description: إزالة العلامات المائية من مستندات PDF باستخدام Aspose.PDF Cloud SDK في لغة Go.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

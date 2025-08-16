@@ -1,6 +1,6 @@
 ---
 title: Удаление аннотаций страниц через Cloud .NET SDK
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: Удаление аннотаций страниц из PDF с использованием Aspose.PDF Cloud SDK для .NET.
 lastmod: 2025-07-20
 ---

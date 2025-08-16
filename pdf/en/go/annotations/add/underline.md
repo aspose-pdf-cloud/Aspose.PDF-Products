@@ -1,6 +1,6 @@
 ---
 title: Add Underline Text Annotations via Cloud Go SDK
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: Add Underline Text Annotations to PDFs using Aspose.PDF Cloud SDK for Go.
 lastmod: "2025-07-20"
 ---

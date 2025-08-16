@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات نصية حرة إلى التعليقات عبر Cloud Python SDK
-url: /python/annotations/text/
+url: python/annotations/text/
 description: أضف تعليقات نصية حرة إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Python.
 lastmod: 2025-07-20
 ---

@@ -2,7 +2,7 @@
 title: Remove Watermarks from PDF via Cloud Golang SDK
 description: Remove watermarks from PDF documents in Go using Aspose.PDF Cloud SDK.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: "2025-05-20"
 ---
 

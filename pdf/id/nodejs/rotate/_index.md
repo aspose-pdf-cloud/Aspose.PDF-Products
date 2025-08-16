@@ -1,6 +1,6 @@
 ---
 title: Putar PDF melalui Cloud Node.js SDK
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: Aspose.PDF Cloud memungkinkan Anda untuk memutar Dokumen PDF. Periksa kode sumber Node.js untuk memutar file PDF.
 lastmod: 2025-07-28
 ---

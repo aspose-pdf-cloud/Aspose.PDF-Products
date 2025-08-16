@@ -1,6 +1,6 @@
 ---
 title: 通过云 .NET SDK 调整 PDF 大小
-url: /net/resize/
+url: net/resize/
 description: Aspose.PDF Cloud 允许您调整 PDF 文档的大小。查看 .NET 源代码以调整 PDF 文件的大小。
 lastmod: 2025-07-19
 ---

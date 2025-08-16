@@ -1,6 +1,6 @@
 ---
 title: Extraire et ajouter des pièces jointes dans des documents PDF via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: Gérer les pièces jointes de fichiers dans les documents PDF à l'aide d'Aspose.PDF Cloud SDK pour Go. Ajouter, lister ou supprimer du contenu intégré.
 lastmod: 2025-05-20
 ---

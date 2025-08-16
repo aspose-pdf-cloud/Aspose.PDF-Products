@@ -1,6 +1,6 @@
 ---
 title: Add Text Stamp to PDF via Cloud Python SDK 
-url: /python/stamp/text/
+url: python/stamp/text/
 description: Add text-based stamps to PDF files in Python using Aspose.PDF Cloud SDK. Automate document labeling.
 lastmod: "2024-10-19"
 ---

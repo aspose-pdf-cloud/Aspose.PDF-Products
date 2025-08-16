@@ -1,6 +1,6 @@
 ---
 title: Get Page Annotations via Cloud Go SDK
-url: /go/annotations/page/get
+url: go/annotations/page/get
 description: Get Page Annotations from PDFs using Aspose.PDF Cloud SDK for Go.
 lastmod: "2025-07-20"
 ---

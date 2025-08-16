@@ -1,6 +1,6 @@
 ---
 title: Comprimir PDF via Cloud Python SDK
-url: /python/compress/
+url: python/compress/
 description: Aspose.PDF Cloud permite que você compacte Documentos PDF. Verifique o código fonte em Python para otimizar o arquivo PDF.
 lastmod: 2025-05-19
 ---

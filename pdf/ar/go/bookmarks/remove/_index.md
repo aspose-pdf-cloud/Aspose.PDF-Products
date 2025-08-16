@@ -1,6 +1,6 @@
 ---
 title: إزالة العلامات المرجعية عبر Cloud Go SDK
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: إزالة العلامات المرجعية من ملفات PDF باستخدام Go وAspose.PDF Cloud SDK. تبسيط هيكل المستند.
 lastmod: 2025-05-20
 ---

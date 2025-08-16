@@ -1,6 +1,6 @@
 ---
 title: Сжатие PDF через облачный SDK для Python
-url: /python/compress/
+url: python/compress/
 description: Aspose.PDF Cloud позволяет сжимать PDF документы. Ознакомьтесь с исходным кодом на Python для оптимизации PDF файла.
 lastmod: 2025-05-19
 ---

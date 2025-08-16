@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDK を使用した下線注釈の追加
-url: /net/annotations/underline/
+url: net/annotations/underline/
 description: Aspose.PDF Cloud SDK for .NET を使用して PDF に下線注釈を追加します。
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Nhận Số Lượng Từ Trên Mỗi Trang Sử Dụng Aspose.PDF Cloud SDK cho Go
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Nhận Số Lượng Từ trên một Trang PDF với Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-08-19
 ---

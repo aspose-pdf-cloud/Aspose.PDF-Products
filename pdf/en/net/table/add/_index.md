@@ -1,6 +1,6 @@
 ---
 title: Adding Images to PDF via Cloud .NET SDK 
-url: /net/table/add/
+url: net/table/add/
 description: Add tables to PDFs using Aspose.PDF Cloud SDK for .NET. Dynamically generate structured layouts in documents.
 lastmod: "2024-11-19"
 ---

@@ -1,6 +1,6 @@
 ---
 title: حذف الجداول من PDF عبر Cloud Go SDK
-url: /go/table/delete/
+url: go/table/delete/
 description: احذف الجداول من مستندات PDF باستخدام Aspose.PDF Cloud SDK في Go.
 lastmod: 2025-08-19
 ---

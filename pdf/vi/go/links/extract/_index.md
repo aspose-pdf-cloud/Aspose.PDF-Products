@@ -1,6 +1,6 @@
 ---
 title: Trích Xuất Liên Kết từ PDF qua Cloud Go SDK
-url: /go/links/extract/
+url: go/links/extract/
 description: Trích xuất tất cả các siêu liên kết từ tệp PDF bằng cách sử dụng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-05-19
 ---

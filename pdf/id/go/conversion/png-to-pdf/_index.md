@@ -1,6 +1,6 @@
 ---
 title: Konversi PNG ke PDF melalui Cloud Go SDK
-url: /go/conversion/png-to-pdf/
+url: go/conversion/png-to-pdf/
 description: Konversi gambar PNG ke PDF dengan Go dan Aspose.PDF Cloud. Konversi gambar cepat dan berkualitas tinggi.
 lastmod: 2025-05-17
 ---

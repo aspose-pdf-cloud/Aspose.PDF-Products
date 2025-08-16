@@ -1,6 +1,6 @@
 ---
 title: Hapus Anotasi Halaman melalui Cloud .NET SDK
-url: /net/annotations/page/delete
+url: net/annotations/page/delete
 description: Hapus Anotasi Halaman dari PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.
 lastmod: 2025-07-20
 ---

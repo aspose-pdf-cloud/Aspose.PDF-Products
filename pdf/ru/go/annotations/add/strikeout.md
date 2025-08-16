@@ -1,6 +1,6 @@
 ---
 title: Добавление аннотаций зачёркивания текста через Cloud Go SDK
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: Добавьте аннотации зачёркивания текста в PDF, используя Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-07-20
 ---

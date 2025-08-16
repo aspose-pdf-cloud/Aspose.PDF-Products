@@ -1,6 +1,6 @@
 ---
 title: クラウドPython SDKを使用してハイライトテキスト注釈を追加
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Aspose.PDF Cloud SDK for Pythonを使用してPDFにハイライトテキスト注釈を追加します。
 lastmod: 2025-07-20
 ---

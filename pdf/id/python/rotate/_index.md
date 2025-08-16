@@ -1,6 +1,6 @@
 ---
 title: Putar PDF melalui SDK Python Cloud
-url: /python/rotate/
+url: python/rotate/
 description: Aspose.PDF Cloud memungkinkan Anda untuk memutar Dokumen PDF. Periksa kode sumber Python untuk memutar file PDF.
 lastmod: 2025-07-19
 ---

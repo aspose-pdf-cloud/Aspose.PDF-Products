@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDK を使用して PDF からテーブルを削除
-url: /go/table/delete/
+url: go/table/delete/
 description: Aspose.PDF Cloud SDK を使用して Go で PDF ドキュメントからテーブルを削除します。
 lastmod: 2025-08-19
 ---

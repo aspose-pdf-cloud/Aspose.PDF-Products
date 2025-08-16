@@ -1,6 +1,6 @@
 ---
 title: Delete Pages from PDF via Cloud Node.js SDK
-url: /nodejs/pages/delete/
+url: nodejs/pages/delete/
 description: Delete unwanted pages from PDFs in Node.js using Aspose.PDF Cloud SDK.
 lastmod: "2025-02-20"
 ---

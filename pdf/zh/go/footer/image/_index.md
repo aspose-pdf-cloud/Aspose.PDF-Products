@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 在 PDF 页脚添加图像
-url: /go/footer/image/
+url: go/footer/image/
 description: 使用 Aspose.PDF Cloud SDK 在 Go 中向 PDF 页面添加图像页脚。品牌、签名等。
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Xóa Bảng từ PDF qua Cloud Go SDK
-url: /go/table/delete/
+url: go/table/delete/
 description: Xóa bảng khỏi tài liệu PDF trong Go sử dụng Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Hapus Anotasi Halaman melalui Cloud Go SDK
-url: /go/annotations/page/delete
+url: go/annotations/page/delete
 description: Hapus Anotasi Halaman dari PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi FreeText ke Anotasi melalui Cloud Python SDK
-url: /python/annotations/text/
+url: python/annotations/text/
 description: Tambahkan Anotasi FreeText ke PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Замена текстовых аннотаций через Cloud Go SDK
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: Замените текстовые аннотации в PDF, используя Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-07-20
 ---

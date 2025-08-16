@@ -2,7 +2,7 @@
 title: Gabungkan Beberapa Dokumen PDF menggunakan Go
 description: Gabungkan beberapa PDF menjadi satu menggunakan Go dan Aspose.PDF Cloud SDK.
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: 2025-05-20
 ---
 

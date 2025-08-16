@@ -1,6 +1,6 @@
 ---
 title: Nén PDF qua Cloud Node.js SDK
-url: /nodejs/compress/
+url: nodejs/compress/
 description: Aspose.PDF Cloud cho phép bạn tối ưu hóa Tài liệu PDF. Kiểm tra mã nguồn Node.js để nén tệp PDF.
 lastmod: 2025-05-19
 ---

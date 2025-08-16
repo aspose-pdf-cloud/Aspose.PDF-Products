@@ -1,6 +1,6 @@
 ---
 title: Supprimer les signets via Cloud Go SDK
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: Supprimez les signets PDF en utilisant Go et Aspose.PDF Cloud SDK. Simplifiez la structure du document.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Добавление аннотаций выделенного текста через Cloud Go SDK
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Добавьте аннотации выделенного текста в PDF, используя Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to XLSX via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-xlsx/
+url: nodejs/conversion/pdf-to-xlsx/
 description: Export PDF tables and content to Excel XLSX using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2022-03-17"
 ---

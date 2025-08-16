@@ -1,6 +1,6 @@
 ---
 title: Get Tables from PDF via Cloud Node.js SDK 
-url: /nodejs/table/get/
+url: nodejs/table/get/
 description: Aspose.PDF Cloud allows you to get Tables from PDF Document. Check the Node.js source code to get Tables from PDF file.
 lastmod: "2024-11-19"
 ---

@@ -2,7 +2,7 @@
 title: Cloud Golang SDKを使用してPDFに透かしを追加
 description: Aspose.PDF Cloud SDKを使用して、GoでPDFファイルに透かしを追加します。テキストと画像のマークをサポート。
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

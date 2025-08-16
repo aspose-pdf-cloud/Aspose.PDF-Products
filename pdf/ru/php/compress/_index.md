@@ -1,6 +1,6 @@
 ---
 title: Сжать PDF с помощью Cloud PHP SDK
-url: /php/compress/
+url: php/compress/
 description: Aspose.PDF Cloud позволяет оптимизировать PDF-документ. Ознакомьтесь с исходным кодом на PHP, чтобы сжать PDF-файл.
 lastmod: 2025-05-19
 ---

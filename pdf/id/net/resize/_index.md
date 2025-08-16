@@ -1,6 +1,6 @@
 ---
 title: Ubah Ukuran PDF melalui Cloud .NET SDK
-url: /net/resize/
+url: net/resize/
 description: Aspose.PDF Cloud memungkinkan Anda untuk mengubah ukuran Dokumen PDF. Periksa kode sumber .NET untuk mengubah ukuran file PDF.
 lastmod: 2025-07-19
 ---

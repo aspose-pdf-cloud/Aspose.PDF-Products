@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to PNG via Python Cloud SDK
-url: /python/conversion/pdf-to-png/
+url: python/conversion/pdf-to-png/
 description: Convert PDF pages into PNG images using Python and Aspose.PDF Cloud SDK. High-resolution outputs guaranteed.
 lastmod: "2024-10-17"
 ---

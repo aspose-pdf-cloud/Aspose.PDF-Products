@@ -1,6 +1,6 @@
 ---
 title: Thêm Liên kết vào PDF qua Cloud Go SDK
-url: /go/links/add/
+url: go/links/add/
 description: Chèn siêu liên kết vào các tệp PDF bằng cách sử dụng Go và Aspose.PDF Cloud SDK.
 lastmod: 2025-05-19
 ---

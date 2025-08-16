@@ -1,6 +1,6 @@
 ---
 title: Verify Signature in PDF via Cloud Python SDK 
-url: /python/signature/verify/
+url: python/signature/verify/
 description: Aspose.PDF Cloud allows you to verify a Signature in PDF Document. Check the Python source code to verify a Signature in PDF file.
 lastmod: "2025-03-19"
 ---

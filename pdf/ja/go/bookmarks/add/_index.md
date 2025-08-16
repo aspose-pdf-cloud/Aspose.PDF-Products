@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを介してブックマークを追加
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFにブックマークを追加します。ドキュメントのナビゲーションと構造を有効にします。
 lastmod: 2025-05-20
 ---

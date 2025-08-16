@@ -1,6 +1,6 @@
 ---
 title: Remove Text from PDF via Cloud Node.js SDK 
-url: /nodejs/text/remove/
+url: nodejs/text/remove/
 description: Remove specific text elements from PDFs with Node.js using Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

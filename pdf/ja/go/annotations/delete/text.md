@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してテキスト注釈を削除
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: Aspose.PDF Cloud SDK for Goを使用してPDFからテキスト注釈を削除します。
 lastmod: 2025-07-20
 ---

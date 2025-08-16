@@ -1,6 +1,6 @@
 ---
 title: إضافة صورة في تذييل PDF عبر Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: أضف تذييلات صور إلى صفحات PDF باستخدام Aspose.PDF Cloud SDK في Go. العلامات التجارية، التوقيعات، وأكثر.
 lastmod: 2025-05-20
 ---

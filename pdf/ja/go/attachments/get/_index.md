@@ -1,6 +1,6 @@
 ---
 title: Aspose.Pdf Cloud Go SDKを使用してPDFドキュメントから添付ファイルを抽出
-url: /go/attachments/get/
+url: go/attachments/get/
 description: GoとAspose.PDF Cloud SDKを使用してPDF添付ファイルを抽出します。API経由で埋め込まれたコンテンツにアクセスします。
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Văn Bản qua Cloud Go SDK
-url: /go/annotations/text/
+url: go/annotations/text/
 description: Thêm Chú Thích Văn Bản vào PDF bằng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

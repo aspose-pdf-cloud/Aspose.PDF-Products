@@ -1,6 +1,6 @@
 ---
 title: Извлечение вложений из PDF-документов с помощью Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: Извлекайте вложения PDF с использованием Go и Aspose.PDF Cloud SDK. Доступ к встроенному контенту через API.
 lastmod: 2025-05-20
 ---

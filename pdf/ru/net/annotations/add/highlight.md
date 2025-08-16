@@ -1,6 +1,6 @@
 ---
 title: Добавление аннотаций с выделением текста через Cloud .NET SDK
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Добавьте аннотации с выделением текста в PDF с использованием Aspose.PDF Cloud SDK для .NET.
 lastmod: 2025-07-20
 ---

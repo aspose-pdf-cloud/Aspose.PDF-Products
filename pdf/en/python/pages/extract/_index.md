@@ -1,6 +1,6 @@
 ---
 title: Extract Pages from PDF via Cloud Python SDK 
-url: /python/pages/extract/
+url: python/pages/extract/
 description: Extract specific pages from PDF documents using Python with Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

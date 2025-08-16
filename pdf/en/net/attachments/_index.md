@@ -1,6 +1,6 @@
 ---
 title: Extract & Append attachments in PDF documents via Aspose.Pdf Cloud .NET SDK
-url: /net/attachments/
+url: net/attachments/
 description: Manage file attachments in PDF documents using Aspose.PDF Cloud SDK for .NET. Add, retrieve, and organize embedded files.
 lastmod: "2024-10-31"
 ---

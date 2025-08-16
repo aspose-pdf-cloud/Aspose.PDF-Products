@@ -1,6 +1,6 @@
 ---
 title: Add Strikeout Annotations via Cloud .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Add Strikeout Annotations to PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-07-20"
 ---

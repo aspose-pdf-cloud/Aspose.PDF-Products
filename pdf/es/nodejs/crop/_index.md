@@ -1,6 +1,6 @@
 ---
 title: Recortar PDF a través de Cloud Node.js SDK
-url: /nodejs/crop/
+url: nodejs/crop/
 description: Aspose.PDF Cloud te permite recortar un documento PDF. Consulta el código fuente de Node.js para recortar archivos PDF.
 lastmod: 2025-07-28
 ---

@@ -1,6 +1,6 @@
 ---
 title: Agregar Anotaciones de Tachado a través de Cloud Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: Agregue Anotaciones de Tachado a PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

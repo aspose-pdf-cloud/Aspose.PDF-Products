@@ -1,6 +1,6 @@
 ---
 title: Extract Links from PDF via Cloud Python SDK 
-url: /python/links/extract/
+url: python/links/extract/
 description: Extract hyperlinks from PDFs using Python with Aspose.PDF Cloud SDK. Analyze document references.
 lastmod: "2024-10-19"
 ---

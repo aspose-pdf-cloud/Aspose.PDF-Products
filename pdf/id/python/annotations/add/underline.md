@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Garis Bawah melalui Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Tambahkan Anotasi Garis Bawah ke PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

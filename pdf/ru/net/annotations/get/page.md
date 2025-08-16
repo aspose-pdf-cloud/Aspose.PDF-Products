@@ -1,6 +1,6 @@
 ---
 title: Получение аннотаций страницы через Cloud .NET SDK
-url: /net/annotations/page/get
+url: net/annotations/page/get
 description: Получение аннотаций страницы из PDF с использованием Aspose.PDF Cloud SDK для .NET.
 lastmod: 2025-07-20
 ---

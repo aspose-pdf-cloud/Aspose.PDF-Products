@@ -1,6 +1,6 @@
 ---
 title: Получение закладок через Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Извлечение закладок из PDF-файлов в ваших Go-приложениях с помощью Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: نقل الصفحات في PDF عبر Cloud Go SDK
-url: /go/pages/move/
+url: go/pages/move/
 description: نقل أو إعادة ترتيب الصفحات في ملفات PDF باستخدام Go و Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Adicionar Carimbos de Texto em PDF via Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Insira carimbos de texto em PDFs com Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-02-20
 ---

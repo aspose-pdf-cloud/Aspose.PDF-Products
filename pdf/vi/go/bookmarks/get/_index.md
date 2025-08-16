@@ -1,6 +1,6 @@
 ---
 title: Nhận Dấu Trang qua Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Trích xuất dấu trang từ các tệp PDF trong ứng dụng Go của bạn với Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

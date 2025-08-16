@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFのフッターにテキストを追加
-url: /go/footer/text/
+url: go/footer/text/
 description: Aspose.PDF Cloud SDKを使用して、GoでPDFにテキストベースのフッターを挿入します。
 lastmod: 2025-05-20
 ---

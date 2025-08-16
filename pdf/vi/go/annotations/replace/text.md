@@ -1,6 +1,6 @@
 ---
 title: Thay thế Chú thích Văn bản qua Cloud Go SDK
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: Thay thế Chú thích Văn bản trong PDF bằng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

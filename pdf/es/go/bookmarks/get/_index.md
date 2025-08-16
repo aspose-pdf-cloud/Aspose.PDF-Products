@@ -1,6 +1,6 @@
 ---
 title: Obtener marcadores a través de Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Recupere marcadores de archivos PDF en sus aplicaciones de Go con Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

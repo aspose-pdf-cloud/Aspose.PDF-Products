@@ -1,6 +1,6 @@
 ---
 title: Thay thế Liên kết trong PDF qua Cloud Go SDK
-url: /go/links/replace/
+url: go/links/replace/
 description: Thay thế liên kết trong PDF bằng Aspose.PDF Cloud SDK cho Go. Cập nhật URL hiệu quả.
 lastmod: 2025-05-19
 ---

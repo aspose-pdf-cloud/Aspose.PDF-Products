@@ -1,6 +1,6 @@
 ---
 title: Ghép Tệp PDF qua Cloud .NET SDK
-url: /net/merge/
+url: net/merge/
 description: Ghép nhiều tệp PDF thành một với Aspose.PDF Cloud SDK cho .NET. Kết hợp tài liệu một cách liền mạch qua REST API.
 ---
 

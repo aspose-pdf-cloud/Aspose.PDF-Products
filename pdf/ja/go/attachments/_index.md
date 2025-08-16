@@ -1,6 +1,6 @@
 ---
 title: Aspose.Pdf Cloud Go SDKを使用してPDFドキュメントの添付ファイルを抽出および追加
-url: /go/attachments/
+url: go/attachments/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFドキュメントのファイル添付を管理します。埋め込みコンテンツの追加、一覧表示、または削除を行います。
 lastmod: 2025-05-20
 ---

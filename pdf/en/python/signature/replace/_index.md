@@ -1,6 +1,6 @@
 ---
 title: Replace Signature in PDF via Cloud Python SDK 
-url: /python/signature/replace/
+url: python/signature/replace/
 description: Aspose.PDF Cloud allows you to replace a Signature in PDF Document. Check the Python source code to replace a Signature in PDF file.
 lastmod: "2025-03-19"
 ---

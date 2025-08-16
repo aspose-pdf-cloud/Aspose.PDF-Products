@@ -1,6 +1,6 @@
 ---
 title: Hapus Anotasi Halaman melalui Cloud Python SDK
-url: /python/annotations/page/delete
+url: python/annotations/page/delete
 description: Hapus Anotasi Halaman dari PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Python SDK 添加删除线注释
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: 使用 Aspose.PDF Cloud SDK for Python 为 PDF 添加删除线注释。
 lastmod: 2025-07-20
 ---

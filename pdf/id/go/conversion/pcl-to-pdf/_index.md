@@ -1,7 +1,7 @@
 ---
 title: Konversi PCL ke PDF melalui Cloud Go SDK
 weight: 2670
-url: /go/conversion/pcl-to-pdf/
+url: go/conversion/pcl-to-pdf/
 description: Konversi file cetak PCL ke PDF menggunakan Go dan Aspose.PDF Cloud SDK. Kompatibilitas tingkat perusahaan.
 lastmod: 2025-05-17
 ---

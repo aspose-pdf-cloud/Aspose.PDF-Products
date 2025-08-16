@@ -2,7 +2,7 @@
 title: Develop PDF Generator & Converter Ruby Apps via REST API 
 description: Develop PDF-enabled Ruby apps with Aspose.PDF Cloud SDK for Ruby. Full-featured REST API for effortless PDF processing.
 weight: 110
-url: /ruby
+url: ruby
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

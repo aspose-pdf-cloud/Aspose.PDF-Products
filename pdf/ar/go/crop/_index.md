@@ -1,6 +1,6 @@
 ---
 title: اقتصاص PDF عبر Cloud Go SDK
-url: /go/crop/
+url: go/crop/
 description: تتيح لك Aspose.PDF Cloud اقتصاص مستندات PDF. تحقق من كود المصدر في Go لاقتصاص ملف PDF.
 lastmod: 2025-07-19
 ---

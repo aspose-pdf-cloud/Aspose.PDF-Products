@@ -1,6 +1,6 @@
 ---
 title: Excluir Anotações de Texto via Cloud .NET SDK
-url: /net/annotations/text/delete
+url: net/annotations/text/delete
 description: Excluir Anotações de Texto de PDFs usando Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

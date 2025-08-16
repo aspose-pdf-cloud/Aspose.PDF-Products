@@ -1,6 +1,6 @@
 ---
 title: Obtener conteo de palabras por página usando Aspose.PDF Cloud SDK para Go
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Obtener conteo de palabras en una página PDF con Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-08-19
 ---

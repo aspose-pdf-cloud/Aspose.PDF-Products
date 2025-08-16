@@ -1,6 +1,6 @@
 ---
 title: الحصول على تعليقات الصفحة عبر Cloud Go SDK
-url: /go/annotations/page/get
+url: go/annotations/page/get
 description: احصل على تعليقات الصفحة من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-07-20
 ---

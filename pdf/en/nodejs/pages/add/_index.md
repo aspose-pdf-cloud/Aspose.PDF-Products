@@ -1,6 +1,6 @@
 ---
 title: Add Pages to PDF via Cloud Node.js SDK
-url: /nodejs/pages/add/
+url: nodejs/pages/add/
 description: Add new pages to PDF files using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2025-02-20"
 ---

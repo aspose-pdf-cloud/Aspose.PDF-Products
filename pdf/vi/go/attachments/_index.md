@@ -1,6 +1,6 @@
 ---
 title: Trích xuất & Thêm tệp đính kèm trong tài liệu PDF qua Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: Quản lý tệp đính kèm trong tài liệu PDF bằng Aspose.PDF Cloud SDK cho Go. Thêm, liệt kê, hoặc xóa nội dung nhúng.
 lastmod: 2025-05-20
 ---

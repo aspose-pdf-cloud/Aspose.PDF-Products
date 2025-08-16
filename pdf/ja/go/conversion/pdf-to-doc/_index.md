@@ -1,6 +1,6 @@
 ---
 title: クラウド Go SDKを使用してPDFをDOCに変換
-url: /go/conversion/pdf-to-doc/
+url: go/conversion/pdf-to-doc/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFをDOCに変換します。Microsoft WordでPDFを編集します。
 lastmod: 2025-05-17
 ---

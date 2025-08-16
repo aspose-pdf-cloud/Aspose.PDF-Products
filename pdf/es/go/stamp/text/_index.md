@@ -1,6 +1,6 @@
 ---
 title: Agregar sellos de texto a PDF a través de Cloud Go SDK
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Insertar sellos de texto en PDFs con Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-02-20
 ---

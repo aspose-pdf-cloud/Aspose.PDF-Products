@@ -2,7 +2,7 @@
 title: Obtenez des filigranes à partir de PDF via Cloud Golang SDK
 description: Obtenez des données de filigrane à partir de PDF en utilisant Aspose.PDF Cloud SDK en Go. Inspectez les superpositions ou le branding.
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

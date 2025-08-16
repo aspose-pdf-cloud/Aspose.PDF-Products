@@ -2,7 +2,7 @@
 title: Agregar marcas de agua a PDF mediante Cloud Golang SDK
 description: Agregue marcas de agua a archivos PDF usando Go con Aspose.PDF Cloud SDK. Soporte para marcas de texto e imagen.
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

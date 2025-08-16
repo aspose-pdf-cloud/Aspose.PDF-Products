@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Coretan melalui Cloud .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Tambahkan Anotasi Coretan ke PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.
 lastmod: 2025-07-20
 ---

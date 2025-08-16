@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud .NET SDK 添加删除线注释
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: 使用 Aspose.PDF Cloud SDK for .NET 向 PDF 添加删除线注释。
 lastmod: 2025-07-20
 ---

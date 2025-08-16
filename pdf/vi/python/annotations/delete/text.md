@@ -1,6 +1,6 @@
 ---
 title: Xóa Chú Thích Văn Bản qua Cloud Python SDK
-url: /python/annotations/text/delete
+url: python/annotations/text/delete
 description: Xóa Chú Thích Văn Bản khỏi PDF bằng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

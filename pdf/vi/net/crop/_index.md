@@ -1,6 +1,6 @@
 ---
 title: Cắt PDF qua Cloud .NET SDK
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud cho phép bạn cắt Tài liệu PDF. Kiểm tra mã nguồn .NET để cắt tệp PDF.
 lastmod: 2025-07-19
 ---

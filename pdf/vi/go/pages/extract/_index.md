@@ -1,6 +1,6 @@
 ---
 title: Trích Xuất Trang từ PDF qua Cloud Go SDK
-url: /go/pages/extract/
+url: go/pages/extract/
 description: Trích xuất các trang cụ thể từ tài liệu PDF sử dụng Go với Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

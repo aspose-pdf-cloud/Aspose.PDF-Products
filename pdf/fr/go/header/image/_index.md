@@ -1,6 +1,6 @@
 ---
 title: Ajouter une image dans l'en-tête du PDF via Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: Ajoutez des en-têtes d'image aux PDF en Go avec Aspose.PDF Cloud. Automatisez le formatage des rapports.
 lastmod: 2025-05-20
 ---

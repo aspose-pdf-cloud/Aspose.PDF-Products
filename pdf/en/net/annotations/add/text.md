@@ -1,6 +1,6 @@
 ---
 title: Add FreeText Annotation Annotations via Cloud .NET SDK
-url: /net/annotations/text/
+url: net/annotations/text/
 description: Add FreeText Annotations to PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-07-20"
 ---

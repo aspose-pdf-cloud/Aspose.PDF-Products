@@ -1,6 +1,6 @@
 ---
 title: Rogner un PDF via Cloud Go SDK
-url: /go/crop/
+url: go/crop/
 description: Aspose.PDF Cloud vous permet de rogner un document PDF. Consultez le code source Go pour rogner un fichier PDF.
 lastmod: 2025-07-19
 ---

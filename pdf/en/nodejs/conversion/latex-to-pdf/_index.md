@@ -1,6 +1,6 @@
 ---
 title: Convert LATEX to PDF via Cloud Node.js SDK
-url: /nodejs/conversion/latex-to-pdf/
+url: nodejs/conversion/latex-to-pdf/
 description: Convert LaTeX documents to PDF in Node.js using Aspose.PDF Cloud. Ideal for academic and technical publishing.
 lastmod: "2022-03-17"
 ---

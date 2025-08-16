@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Teks Sorotan melalui Cloud Go SDK
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Tambahkan Anotasi Teks Sorotan ke PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

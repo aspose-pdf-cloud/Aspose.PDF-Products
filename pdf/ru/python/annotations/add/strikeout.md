@@ -1,6 +1,6 @@
 ---
 title: Добавление Аннотаций с Зачеркиванием через Облако Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: Добавление аннотаций с зачеркиванием в PDF с использованием Aspose.PDF Cloud SDK для Python.
 lastmod: 2025-07-20
 ---

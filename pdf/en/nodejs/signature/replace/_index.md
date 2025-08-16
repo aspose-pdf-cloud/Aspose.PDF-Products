@@ -1,6 +1,6 @@
 ---
 title: Replace Signature in PDF via Cloud Node.js SDK 
-url: /nodejs/signature/replace/
+url: nodejs/signature/replace/
 description: Aspose.PDF Cloud allows you to replace signature in PDF Document. Check the Node.js source code to replace signature in PDF file.
 lastmod: "2024-11-19"
 ---

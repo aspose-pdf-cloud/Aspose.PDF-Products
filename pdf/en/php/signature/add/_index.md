@@ -1,6 +1,6 @@
 ---
 title: Add Signature to PDF via Cloud PHP SDK 
-url: /php/signature/add/
+url: php/signature/add/
 description: Aspose.PDF Cloud allows you to add a Signature to a PDF Document. Check the PHP source code to add a Signature into PDF file.
 lastmod: "2025-03-19"
 ---

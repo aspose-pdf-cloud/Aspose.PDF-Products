@@ -1,6 +1,6 @@
 ---
 title: Добавление аннотаций зачеркивания через облачный .NET SDK
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Добавление аннотаций зачеркивания в PDF с использованием Aspose.PDF Cloud SDK для .NET.
 lastmod: 2025-07-20
 ---

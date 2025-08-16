@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to JPEG via PHP Cloud SDK
-url: /php/conversion/pdf-to-jpeg/
+url: php/conversion/pdf-to-jpeg/
 description: Convert PDF to JPEG using Aspose.PDF Cloud SDK for PHP. Generate high-quality images from documents.
 lastmod: "2024-10-17"
 ---

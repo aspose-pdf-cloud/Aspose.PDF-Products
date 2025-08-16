@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 替换 PDF 中的链接
-url: /go/links/replace/
+url: go/links/replace/
 description: 使用 Aspose.PDF Cloud SDK for Go 替换 PDF 中的链接。高效更新 URL。
 lastmod: 2025-05-19
 ---

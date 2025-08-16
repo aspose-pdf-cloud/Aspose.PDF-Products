@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to PNG via PHP Cloud SDK
-url: /php/conversion/pdf-to-png/
+url: php/conversion/pdf-to-png/
 description: Transform PDFs into PNG images with PHP using Aspose.PDF Cloud SDK. Maintain visual quality and layout.
 lastmod: "2024-10-17"
 ---

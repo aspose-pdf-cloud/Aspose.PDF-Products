@@ -2,7 +2,7 @@
 title: Hapus Tanda Air dari PDF melalui Cloud Golang SDK
 description: Hapus tanda air dari dokumen PDF dalam Go menggunakan Aspose.PDF Cloud SDK.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

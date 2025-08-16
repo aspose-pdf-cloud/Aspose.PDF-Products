@@ -1,6 +1,6 @@
 ---
 title: Redimensionar PDF via Cloud Python SDK
-url: /python/resize/
+url: python/resize/
 description: Aspose.PDF Cloud permite que você redimensione Documentos PDF. Confira o código-fonte em Python para redimensionar o arquivo PDF.
 lastmod: 2025-07-28
 ---

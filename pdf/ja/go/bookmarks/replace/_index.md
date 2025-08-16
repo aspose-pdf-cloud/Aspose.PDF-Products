@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してブックマークを置換
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: GoとAspose.PDF Cloud SDKを使用してPDFのブックマークを置換します。ドキュメント構造を簡素化します。
 lastmod: 2025-05-20
 ---

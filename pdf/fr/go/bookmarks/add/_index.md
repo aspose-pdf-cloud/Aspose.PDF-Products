@@ -1,6 +1,6 @@
 ---
 title: Ajouter des signets via Cloud Go SDK
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: Ajoutez des signets aux PDFs en utilisant Aspose.PDF Cloud SDK pour Go. Activez la navigation et la structure dans les documents.
 lastmod: 2025-05-20
 ---

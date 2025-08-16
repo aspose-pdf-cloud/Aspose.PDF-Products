@@ -1,6 +1,6 @@
 ---
 title: Добавление таблиц в PDF через Cloud Go SDK
-url: /go/table/add/
+url: go/table/add/
 description: Вставляйте таблицы в PDF с помощью Go и Aspose.PDF Cloud SDK. Динамически добавляйте структурированные данные.
 lastmod: 2025-08-19
 ---

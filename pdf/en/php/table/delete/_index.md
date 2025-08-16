@@ -1,6 +1,6 @@
 ---
 title: Delete Tables from PDF via Cloud PHP SDK 
-url: /php/table/delete/
+url: php/table/delete/
 description: Delete tables from PDF documents using PHP with Aspose.PDF Cloud SDK. Modify document layout efficiently.
 lastmod: "2025-03-19"
 ---

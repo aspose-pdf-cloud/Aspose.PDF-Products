@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de texte surligné via Cloud Go SDK
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Ajoutez des annotations de texte surligné aux PDF en utilisant Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-07-20
 ---

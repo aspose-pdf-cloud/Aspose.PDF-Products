@@ -1,6 +1,6 @@
 ---
 title: Xóa Chú Thích Trang qua Cloud Go SDK
-url: /go/annotations/page/delete
+url: go/annotations/page/delete
 description: Xóa Chú Thích Trang từ PDF bằng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

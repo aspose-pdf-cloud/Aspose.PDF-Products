@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 获取书签
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: 使用 Aspose.PDF Cloud SDK 从您的 Go 应用程序中的 PDF 文件中检索书签。
 lastmod: 2025-05-20
 ---

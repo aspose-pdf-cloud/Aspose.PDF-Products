@@ -1,6 +1,6 @@
 ---
 title: Adicionar Texto no Rodapé do PDF via Cloud Go SDK
-url: /go/footer/text/
+url: go/footer/text/
 description: Insira rodapés baseados em texto em PDFs usando Go com Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

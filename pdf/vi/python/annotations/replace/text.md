@@ -1,6 +1,6 @@
 ---
 title: Thay thế Chú thích Văn bản qua Cloud Python SDK
-url: /python/annotations/text/replace
+url: python/annotations/text/replace
 description: Thay thế Chú thích Văn bản trong PDF sử dụng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

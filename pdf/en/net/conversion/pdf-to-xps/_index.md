@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to XPS via Cloud .NET SDK
-url: /net/conversion/pdf-to-xps/
+url: net/conversion/pdf-to-xps/
 description: Turn PDF files into XPS documents with Aspose.PDF Cloud SDK for .NET. Preserve layout and vector data.
 lastmod: "2022-03-17"
 ---

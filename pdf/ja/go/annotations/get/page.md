@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してページ注釈を取得
-url: /go/annotations/page/get
+url: go/annotations/page/get
 description: Aspose.PDF Cloud SDK for Goを使用してPDFからページ注釈を取得します。
 lastmod: 2025-07-20
 ---

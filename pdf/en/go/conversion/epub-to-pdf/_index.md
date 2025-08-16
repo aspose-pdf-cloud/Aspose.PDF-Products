@@ -1,6 +1,6 @@
 ---
 title: Convert EPUB to PDF via Cloud Go SDK
-url: /go/conversion/epub-to-pdf/
+url: go/conversion/epub-to-pdf/
 description: Convert EPUB to PDF in your Go applications using Aspose.PDF Cloud SDK. Perfect for eBook archiving.
 lastmod: "2025-05-17"
 ---

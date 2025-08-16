@@ -1,6 +1,6 @@
 ---
 title: Delete Links from PDF via Cloud Python SDK 
-url: /python/links/delete/
+url: python/links/delete/
 description: Delete links from PDF documents in Python using Aspose.PDF Cloud SDK. Remove broken or outdated URLs.
 lastmod: "2024-10-19"
 ---

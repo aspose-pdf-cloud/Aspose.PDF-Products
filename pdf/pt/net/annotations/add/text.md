@@ -1,6 +1,6 @@
 ---
 title: Adicionar Anotações de Texto Livre via Cloud .NET SDK
-url: /net/annotations/text/
+url: net/annotations/text/
 description: Adicione Anotações de Texto Livre a PDFs usando Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

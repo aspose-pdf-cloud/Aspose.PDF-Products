@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de texte en surbrillance via le SDK Cloud .NET
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Ajoutez des annotations de texte en surbrillance aux PDF en utilisant Aspose.PDF Cloud SDK pour .NET.
 lastmod: 2025-07-20
 ---

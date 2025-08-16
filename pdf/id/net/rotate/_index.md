@@ -1,6 +1,6 @@
 ---
 title: Putar PDF melalui Cloud .NET SDK
-url: /net/rotate/
+url: net/rotate/
 description: Aspose.PDF Cloud memungkinkan Anda untuk memutar Dokumen PDF. Periksa kode sumber .NET untuk memutar file PDF.
 lastmod: 2025-07-19
 ---

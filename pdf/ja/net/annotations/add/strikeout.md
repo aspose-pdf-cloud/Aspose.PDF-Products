@@ -1,6 +1,6 @@
 ---
 title: Cloud .NET SDKを使用した打ち消し線注釈の追加
-url: /net/annotations/strikeout/
+url: net/annotations/strikeout/
 description: Aspose.PDF Cloud SDK for .NETを使用してPDFに打ち消し線注釈を追加します。
 lastmod: 2025-07-20
 ---

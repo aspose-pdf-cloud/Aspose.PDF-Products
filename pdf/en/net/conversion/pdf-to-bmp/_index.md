@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to Images BMP via Cloud .NET SDK
-url: /net/conversion/pdf-to-bmp/
+url: net/conversion/pdf-to-bmp/
 description: Convert PDFs to BMP image format with Aspose.PDF Cloud SDK for .NET. High-resolution output for your PDFs.
 lastmod: "2022-03-17"
 ---

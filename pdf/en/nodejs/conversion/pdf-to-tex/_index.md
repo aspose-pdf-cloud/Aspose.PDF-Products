@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to TEX via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-tex/
+url: nodejs/conversion/pdf-to-tex/
 description: Convert PDF to TeX source code with Aspose.PDF Cloud for Node.js. Integrate into LaTeX workflows.
 lastmod: "2022-03-17"
 ---

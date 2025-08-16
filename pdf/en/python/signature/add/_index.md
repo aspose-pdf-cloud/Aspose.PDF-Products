@@ -1,6 +1,6 @@
 ---
 title: Add Signature to PDF via Cloud Python SDK 
-url: /python/signature/add/
+url: python/signature/add/
 description: Aspose.PDF Cloud allows you to add a Signature to a PDF Document. Check the Python source code to add a Signature into PDF file.
 lastmod: "2025-03-19"
 ---

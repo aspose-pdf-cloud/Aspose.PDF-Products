@@ -1,6 +1,6 @@
 ---
 title: Recortar PDF a través de Cloud Go SDK
-url: /go/crop/
+url: go/crop/
 description: Aspose.PDF Cloud le permite recortar documentos PDF. Consulte el código fuente de Go para recortar un archivo PDF.
 lastmod: 2025-07-19
 ---

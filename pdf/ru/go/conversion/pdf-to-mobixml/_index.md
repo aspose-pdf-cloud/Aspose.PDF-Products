@@ -1,6 +1,6 @@
 ---
 title: Конвертировать PDF в MobiXml через Cloud Go SDK
-url: /go/conversion/pdf-to-mobixml/
+url: go/conversion/pdf-to-mobixml/
 description: Конвертируйте PDF в MobiXml файлы с помощью Go и Aspose.PDF Cloud.
 lastmod: 2025-05-17
 ---

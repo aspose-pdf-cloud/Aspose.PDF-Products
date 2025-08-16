@@ -1,6 +1,6 @@
 ---
 title: Add Metadata via Cloud PHP SDK
-url: /php/metadata/add/
+url: php/metadata/add/
 description: Add metadata to PDF files in PHP using Aspose.PDF Cloud SDK. Tag documents for better indexing and search.
 lastmod: "2024-03-19"
 ---

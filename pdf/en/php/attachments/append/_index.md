@@ -1,6 +1,6 @@
 ---
 title: Append attachments in PDF documents via Aspose.Pdf Cloud PHP SDK
-url: /php/attachments/add/
+url: php/attachments/add/
 description: Add attachments to PDF files using PHP and Aspose.PDF Cloud SDK. Embed supporting files easily.
 lastmod: "2024-10-29"
 ---

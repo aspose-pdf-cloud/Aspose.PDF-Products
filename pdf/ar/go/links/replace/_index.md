@@ -1,6 +1,6 @@
 ---
 title: استبدال الروابط في PDF عبر Cloud Go SDK
-url: /go/links/replace/
+url: go/links/replace/
 description: استبدال الروابط في ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go. تحديث عناوين URL بكفاءة.
 lastmod: 2025-05-19
 ---

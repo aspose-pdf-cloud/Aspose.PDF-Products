@@ -1,6 +1,6 @@
 ---
 title: Add Highlight Text Annotations via Cloud .NET SDK
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Add Highlight Text Annotations to PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-07-20"
 ---

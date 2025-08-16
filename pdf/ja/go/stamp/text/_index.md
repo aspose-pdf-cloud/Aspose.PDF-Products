@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFにテキストスタンプを追加
-url: /go/stamp/text/
+url: go/stamp/text/
 description: Aspose.PDF Cloud SDK for Goを使ってPDFにテキストスタンプを挿入。
 lastmod: 2025-02-20
 ---

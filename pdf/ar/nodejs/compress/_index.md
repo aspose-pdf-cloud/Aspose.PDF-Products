@@ -1,6 +1,6 @@
 ---
 title: ضغط PDF عبر Cloud Node.js SDK
-url: /nodejs/compress/
+url: nodejs/compress/
 description: تتيح لك Aspose.PDF Cloud تحسين مستند PDF. تحقق من كود المصدر لـ Node.js لضغط ملف PDF.
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ganti Tautan dalam PDF melalui Cloud Go SDK
-url: /go/links/replace/
+url: go/links/replace/
 description: Ganti tautan dalam PDF menggunakan Aspose.PDF Cloud SDK untuk Go. Perbarui URL dengan efisien.
 lastmod: 2025-05-19
 ---

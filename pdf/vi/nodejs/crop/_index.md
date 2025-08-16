@@ -1,6 +1,6 @@
 ---
 title: Cắt PDF qua Cloud Node.js SDK
-url: /nodejs/crop/
+url: nodejs/crop/
 description: Aspose.PDF Cloud cho phép bạn cắt Tài liệu PDF. Kiểm tra mã nguồn Node.js để cắt tệp PDF.
 lastmod: 2025-07-28
 ---

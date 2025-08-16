@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 添加书签
-url: /go/bookmarks/add/
+url: go/bookmarks/add/
 description: 使用 Aspose.PDF Cloud Go SDK 向 PDF 添加书签。启用文档中的导航和结构。
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Hapus Tabel dari PDF melalui Cloud Go SDK
-url: /go/table/delete/
+url: go/table/delete/
 description: Hapus tabel dari dokumen PDF dalam Go menggunakan Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

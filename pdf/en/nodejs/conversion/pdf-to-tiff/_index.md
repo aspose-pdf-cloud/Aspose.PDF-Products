@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to TIFF via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-tiff/
+url: nodejs/conversion/pdf-to-tiff/
 description: Turn PDFs into TIFF images using Aspose.PDF Cloud SDK for Node.js. Ideal for archiving and scanning formats.
 lastmod: "2022-03-17"
 ---

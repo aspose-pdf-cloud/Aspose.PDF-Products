@@ -1,6 +1,6 @@
 ---
 title: Extrair e Anexar anexos em documentos PDF via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: Gerencie anexos de arquivos em documentos PDF usando Aspose.PDF Cloud SDK para Go. Adicione, liste ou remova conteúdo incorporado.
 lastmod: 2025-05-20
 ---

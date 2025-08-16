@@ -1,6 +1,6 @@
 ---
 title: Удаление текстовых аннотаций через Cloud Go SDK
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: Удаление текстовых аннотаций из PDF с использованием Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-07-20
 ---

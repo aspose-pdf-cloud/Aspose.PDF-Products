@@ -1,6 +1,6 @@
 ---
 title: Extract Text from PDF via Cloud PHP SDK 
-url: /php/text/extract/
+url: php/text/extract/
 description: Extract text from PDF files using PHP and Aspose.PDF Cloud SDK. Analyze or repurpose document content.
 lastmod: "2024-10-19"
 ---

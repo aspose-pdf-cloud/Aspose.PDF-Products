@@ -1,6 +1,6 @@
 ---
 title: حذف تعليقات الصفحات عبر Aspose.PDF Cloud SDK للغة بايثون
-url: /python/annotations/page/delete
+url: python/annotations/page/delete
 description: احذف تعليقات الصفحات من ملفات PDF باستخدام Aspose.PDF Cloud SDK للغة بايثون.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 通过云端 .NET SDK 合并 PDF 文件
-url: /net/merge/
+url: net/merge/
 description: 使用 Aspose.PDF Cloud SDK for .NET 将多个 PDF 合并为一个。通过 REST API 无缝组合文档。
 ---
 

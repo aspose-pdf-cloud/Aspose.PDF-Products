@@ -1,6 +1,6 @@
 ---
 title: Cloud Python SDKを使用してPDFをクロップ
-url: /python/crop/
+url: python/crop/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントをクロップできます。PDFファイルをクロップするためのPythonソースコードをチェックしてください。
 lastmod: 2025-07-28
 ---

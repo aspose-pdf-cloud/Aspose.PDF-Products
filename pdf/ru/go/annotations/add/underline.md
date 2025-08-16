@@ -1,6 +1,6 @@
 ---
 title: Добавление аннотаций с подчеркиванием текста через Cloud Go SDK
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: Добавьте аннотации с подчеркиванием текста в PDF с использованием Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-07-20
 ---

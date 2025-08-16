@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDK を使用してテキスト注釈を削除
-url: /net/annotations/text/delete
+url: net/annotations/text/delete
 description: Aspose.PDF Cloud SDK for .NET を使用して PDF からテキスト注釈を削除します。
 lastmod: 2025-07-20
 ---

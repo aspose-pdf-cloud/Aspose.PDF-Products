@@ -1,6 +1,6 @@
 ---
 title: クラウド Node.js SDK で PDF をトリミング
-url: /nodejs/crop/
+url: nodejs/crop/
 description: Aspose.PDF Cloud を使用すると、PDF ドキュメントをトリミングできます。PDF ファイルをトリミングするための Node.js ソース コードをご確認ください。
 lastmod: 2025-07-28
 ---

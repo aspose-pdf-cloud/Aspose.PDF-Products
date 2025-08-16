@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Python SDK 添加下划线注释
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: 使用 Aspose.PDF Cloud SDK for Python 向 PDF 添加下划线注释。
 lastmod: 2025-07-20
 ---

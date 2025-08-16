@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to HTML via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-html/
+url: nodejs/conversion/pdf-to-html/
 description: Convert PDFs into responsive HTML using Node.js and Aspose.PDF Cloud SDK. Perfect for online document display.
 lastmod: "2022-03-17"
 ---

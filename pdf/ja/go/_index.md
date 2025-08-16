@@ -2,7 +2,7 @@
 title: クラウドPDFをGo SDK経由で変換、注釈付け、署名
 description: Aspose.PDF Cloud SDK for Goを使用して、GoアプリケーションにクラウドベースのPDF処理を統合します。信頼性が高く、開発者に優しい。
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

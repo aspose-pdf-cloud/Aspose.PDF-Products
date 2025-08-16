@@ -1,6 +1,6 @@
 ---
 title: Add Text in Header of PDF via Cloud Python SDK 
-url: /python/header/text/
+url: python/header/text/
 description: Insert header text into PDFs using Python and Aspose.PDF Cloud SDK. Automate report generation.
 lastmod: "2024-10-19"
 ---

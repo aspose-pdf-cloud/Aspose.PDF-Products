@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Node.js SDK 压缩 PDF
-url: /nodejs/compress/
+url: nodejs/compress/
 description: Aspose.PDF Cloud 允许您优化 PDF 文档。查看 Node.js 源代码以压缩 PDF 文件。
 lastmod: 2025-05-19
 ---

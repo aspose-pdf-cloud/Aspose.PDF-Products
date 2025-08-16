@@ -1,6 +1,6 @@
 ---
 title: إضافة نص في تذييل PDF عبر Cloud Go SDK
-url: /go/footer/text/
+url: go/footer/text/
 description: أدخل تذييلات نصية في ملفات PDF باستخدام Go مع Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

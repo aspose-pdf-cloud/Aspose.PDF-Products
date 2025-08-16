@@ -2,7 +2,7 @@
 title: تحويل وتوضيح وتوقيع ملفات PDF السحابية عبر Go SDK
 description: قم بدمج معالجة ملفات PDF السحابية في تطبيقات Go الخاصة بك باستخدام Aspose.PDF Cloud SDK لـ Go. موثوق وسهل الاستخدام للمطورين.
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

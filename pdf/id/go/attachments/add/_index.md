@@ -1,6 +1,6 @@
 ---
 title: Tambahkan lampiran ke dokumen PDF melalui Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: Tambahkan lampiran ke PDF melalui Go dengan Aspose.PDF Cloud SDK. Sematkan dokumen pendukung dalam PDF Anda.
 lastmod: 2025-05-20
 ---

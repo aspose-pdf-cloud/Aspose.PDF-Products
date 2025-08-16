@@ -1,6 +1,6 @@
 ---
 title: 通过 Aspose.Pdf Cloud Go SDK 将附件附加到 PDF 文档
-url: /go/attachments/add/
+url: go/attachments/add/
 description: 通过 Aspose.PDF Cloud SDK 使用 Go 向 PDF 添加附件。在您的 PDF 中嵌入支持文档。
 lastmod: 2025-05-20
 ---

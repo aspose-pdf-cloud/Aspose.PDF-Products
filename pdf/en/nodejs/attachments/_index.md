@@ -1,6 +1,6 @@
 ---
 title: Extract & Append attachments in PDF documents via Aspose.Pdf Cloud Node.js SDK
-url: /nodejs/attachments/
+url: nodejs/attachments/
 description: Manage file attachments in PDF documents using Aspose.PDF Cloud SDK for Node.js. Add, list, or remove embedded content.
 lastmod: "2024-10-29"
 ---

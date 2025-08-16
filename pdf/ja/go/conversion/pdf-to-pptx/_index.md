@@ -1,6 +1,6 @@
 ---
 title: PDFをPPTXに変換するCloud Go SDK
-url: /go/conversion/pdf-to-pptx/
+url: go/conversion/pdf-to-pptx/
 description: Aspose.PDF Cloud SDKを使用して、PDFをPowerPoint (PPTX) プレゼンテーションに変換します。
 lastmod: 2025-05-17
 ---

@@ -1,6 +1,6 @@
 ---
 title: تدوير PDF عبر Cloud Python SDK
-url: /python/rotate/
+url: python/rotate/
 description: يسمح لك Aspose.PDF Cloud بتدوير مستندات PDF. تحقق من كود المصدر بلغة Python لتدوير ملف PDF.
 lastmod: 2025-07-19
 ---

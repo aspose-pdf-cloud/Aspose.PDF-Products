@@ -1,6 +1,6 @@
 ---
 title: 在 Go SDK 中加密 PDF
-url: /go/encrypt/
+url: go/encrypt/
 description: Aspose.PDF Cloud 允许您加密 PDF 文档。查看 Go 源代码以加密 PDF 文件。
 lastmod: 2025-04-19
 ---

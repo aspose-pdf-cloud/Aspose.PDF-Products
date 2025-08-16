@@ -1,6 +1,6 @@
 ---
 title: Faire pivoter un PDF via le SDK Python Cloud
-url: /python/rotate/
+url: python/rotate/
 description: Aspose.PDF Cloud vous permet de faire pivoter un document PDF. Consultez le code source Python pour faire pivoter un fichier PDF.
 lastmod: 2025-07-19
 ---

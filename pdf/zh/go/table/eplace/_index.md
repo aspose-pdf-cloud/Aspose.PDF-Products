@@ -1,6 +1,6 @@
 ---
 title: 通过云端 Go SDK 替换 PDF 中的表格
-url: /go/table/replace/
+url: go/table/replace/
 description: 使用 Aspose.PDF Cloud SDK 在 Go 中以编程方式替换 PDF 表格数据。
 lastmod: 2025-08-19
 ---

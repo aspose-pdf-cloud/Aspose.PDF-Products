@@ -1,6 +1,6 @@
 ---
 title: Xóa Chú Thích Văn Bản qua Cloud .NET SDK
-url: /net/annotations/text/delete
+url: net/annotations/text/delete
 description: Xóa Chú Thích Văn Bản từ PDF bằng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

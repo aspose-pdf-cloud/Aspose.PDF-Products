@@ -1,6 +1,6 @@
 ---
 title: クラウド Go SDK を使用して下線付きテキスト注釈を追加する
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: Aspose.PDF Cloud SDK for Go を使用して PDF に下線付きテキスト注釈を追加する。
 lastmod: 2025-07-20
 ---

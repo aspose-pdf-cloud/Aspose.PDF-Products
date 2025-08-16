@@ -1,6 +1,6 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud Node.js SDK
-url: /nodejs/attachments/get/
+url: nodejs/attachments/get/
 description: Extract PDF attachments using Node.js and Aspose.PDF Cloud SDK. Access embedded content via API.
 lastmod: "2024-10-29"
 ---

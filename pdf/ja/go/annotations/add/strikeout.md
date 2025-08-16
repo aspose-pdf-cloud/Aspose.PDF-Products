@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDK を使用して取り消し線テキストの注釈を追加
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: Aspose.PDF Cloud SDK for Go を使用して、PDF に取り消し線テキストの注釈を追加します。
 lastmod: 2025-07-20
 ---

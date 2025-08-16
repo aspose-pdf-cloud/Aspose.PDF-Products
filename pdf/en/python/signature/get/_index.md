@@ -1,6 +1,6 @@
 ---
 title: Get Signature from PDF via Cloud Python SDK 
-url: /python/signature/get/
+url: python/signature/get/
 description: Aspose.PDF Cloud allows you to extract a Signature from PDF Document. Check the Python source code to get a Signature from PDF file.
 lastmod: "2025-03-19"
 ---

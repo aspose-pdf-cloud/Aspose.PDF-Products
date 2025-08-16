@@ -1,6 +1,6 @@
 ---
 title: استخراج وإلحاق المرفقات في مستندات PDF عبر Aspose.Pdf Cloud Go SDK
-url: /go/attachments/
+url: go/attachments/
 description: إدارة مرفقات الملفات في مستندات PDF باستخدام Aspose.PDF Cloud SDK لـ Go. أضف أو اعرض أو احذف المحتوى المضمن.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Supprimer les annotations de page via le SDK Cloud Python
-url: /python/annotations/page/delete
+url: python/annotations/page/delete
 description: Supprimer les annotations de page des PDF en utilisant Aspose.PDF Cloud SDK pour Python.
 lastmod: 2025-07-20
 ---

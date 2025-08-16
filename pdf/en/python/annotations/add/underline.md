@@ -1,6 +1,6 @@
 ---
 title: Add Underline Annotations via Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Add Underline Annotations to PDFs using Aspose.PDF Cloud SDK for Python.
 lastmod: "2025-07-20"
 ---

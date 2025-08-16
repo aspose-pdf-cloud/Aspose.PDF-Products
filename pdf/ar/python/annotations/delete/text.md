@@ -1,6 +1,6 @@
 ---
 title: حذف التعليقات التوضيحية النصية عبر Cloud Python SDK
-url: /python/annotations/text/delete
+url: python/annotations/text/delete
 description: حذف التعليقات التوضيحية النصية من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Python.
 lastmod: 2025-07-20
 ---

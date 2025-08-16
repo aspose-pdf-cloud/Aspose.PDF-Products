@@ -1,6 +1,6 @@
 ---
 title: Recortar PDF a través de Cloud .NET SDK
-url: /net/crop/
+url: net/crop/
 description: Aspose.PDF Cloud le permite recortar documentos PDF. Consulte el código fuente de .NET para recortar el archivo PDF.
 lastmod: 2025-07-19
 ---

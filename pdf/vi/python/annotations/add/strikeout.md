@@ -1,6 +1,6 @@
 ---
 title: Thêm Chú Thích Gạch Ngang qua Cloud Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: Thêm Chú Thích Gạch Ngang vào PDF bằng Aspose.PDF Cloud SDK cho Python.
 lastmod: 2025-07-20
 ---

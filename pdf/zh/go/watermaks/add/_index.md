@@ -2,7 +2,7 @@
 title: 通过云 Golang SDK 向 PDF 添加水印
 description: 使用 Aspose.PDF Cloud SDK 和 Go 向 PDF 文件添加水印。支持文本和图像标记。
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

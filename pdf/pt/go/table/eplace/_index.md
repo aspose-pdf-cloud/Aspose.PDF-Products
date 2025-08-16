@@ -1,6 +1,6 @@
 ---
 title: Substituir Tabelas em PDF via Cloud Go SDK
-url: /go/table/replace/
+url: go/table/replace/
 description: Substitua dados de tabela em PDF programaticamente em Go com Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

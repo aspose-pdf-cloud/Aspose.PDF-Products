@@ -1,6 +1,6 @@
 ---
 title: Ajouter un tampon d'image à un PDF via Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Pour ajouter un tampon d'image à une page spécifique d'un PDF avec Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

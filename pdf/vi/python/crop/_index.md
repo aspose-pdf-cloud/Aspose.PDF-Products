@@ -1,6 +1,6 @@
 ---
 title: Cắt PDF qua Cloud Python SDK
-url: /python/crop/
+url: python/crop/
 description: Aspose.PDF Cloud cho phép bạn cắt Tài liệu PDF. Kiểm tra mã nguồn Python để cắt tệp PDF.
 lastmod: 2025-07-28
 ---

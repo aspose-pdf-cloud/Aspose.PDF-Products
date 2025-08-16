@@ -1,6 +1,6 @@
 ---
 title: Create PDF via Cloud PHP SDK 
-url: /php/create/
+url: php/create/
 description: Aspose.PDF Cloud allows you to create PDF Document. Check the PHP source code to create PDF file.
 lastmod: "2025-05-19"
 ---

@@ -1,6 +1,6 @@
 ---
 title: الحصول على تعليقات الصفحة عبر Python SDK السحابي
-url: /python/annotations/page/get
+url: python/annotations/page/get
 description: احصل على تعليقات الصفحة من ملفات PDF باستخدام Aspose.PDF Cloud SDK للغة Python.
 lastmod: 2025-07-24
 ---

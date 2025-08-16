@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to PDF/A via Cloud .NET SDK
-url: /net/conversion/pdf-to-pdfa/ 
+url: net/conversion/pdf-to-pdfa/ 
 description: Convert PDF to PDF/A format for archiving using Aspose.PDF Cloud SDK for .NET. Compliant with long-term storage.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Add FreeText Annotation Annotations via Cloud Python SDK
-url: /python/annotations/text/
+url: python/annotations/text/
 description: Add FreeText Annotations to PDFs using Aspose.PDF Cloud SDK for Python.
 lastmod: "2025-07-20"
 ---

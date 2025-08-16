@@ -1,6 +1,6 @@
 ---
 title: 通过Cloud Go SDK向PDF添加文字戳记
-url: /go/stamp/text/
+url: go/stamp/text/
 description: 使用Aspose.PDF Cloud SDK for Go在PDF中插入文字戳记。
 lastmod: 2025-02-20
 ---

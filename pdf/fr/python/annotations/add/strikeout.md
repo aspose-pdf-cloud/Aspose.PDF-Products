@@ -1,6 +1,6 @@
 ---
 title: Ajouter des annotations de barré via Cloud Python SDK
-url: /python/annotations/strikeout/
+url: python/annotations/strikeout/
 description: Ajouter des annotations de barré aux PDF en utilisant Aspose.PDF Cloud SDK pour Python.
 lastmod: 2025-07-20
 ---

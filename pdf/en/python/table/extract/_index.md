@@ -1,6 +1,6 @@
 ---
 title: Extract Tables from PDF via Cloud Python SDK 
-url: /python/table/extract/
+url: python/table/extract/
 description: Extract table content from PDFs with Python using Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

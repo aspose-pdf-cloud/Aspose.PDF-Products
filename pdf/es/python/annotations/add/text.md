@@ -1,6 +1,6 @@
 ---
 title: Agregar Anotaciones de Texto Libre a través de Cloud Python SDK
-url: /python/annotations/text/
+url: python/annotations/text/
 description: Agregue Anotaciones de Texto Libre a PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

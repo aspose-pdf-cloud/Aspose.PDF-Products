@@ -1,6 +1,6 @@
 ---
 title: Cloud Node.js SDKを使用したPDF圧縮
-url: /nodejs/compress/
+url: nodejs/compress/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントを最適化できます。PDFファイルを圧縮するためのNode.jsソースコードを確認してください。
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Добавить текст в нижний колонтитул PDF через Cloud Go SDK
-url: /go/footer/text/
+url: go/footer/text/
 description: Вставляйте текстовые нижние колонтитулы в PDF с использованием Go и Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

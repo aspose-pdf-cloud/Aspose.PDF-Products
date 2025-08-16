@@ -1,6 +1,6 @@
 ---
 title: 通过云Go SDK从PDF中删除表格
-url: /go/table/delete/
+url: go/table/delete/
 description: 使用Aspose.PDF Cloud SDK在Go中从PDF文档中删除表格。
 lastmod: 2025-08-19
 ---

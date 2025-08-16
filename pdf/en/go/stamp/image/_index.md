@@ -1,6 +1,6 @@
 ---
 title: Add Image Stamp to PDF via Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: To add an image stamp to a specific page of a PDF with Aspose.PDF Cloud SDK.
 lastmod: "2025-07-20"
 ---

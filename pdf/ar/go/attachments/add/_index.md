@@ -1,6 +1,6 @@
 ---
 title: إرفاق المرفقات إلى مستندات PDF عبر Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: أضف مرفقات إلى ملفات PDF عبر Go مع Aspose.PDF Cloud SDK. قم بتضمين المستندات الداعمة في ملفات PDF الخاصة بك.
 lastmod: 2025-05-20
 ---

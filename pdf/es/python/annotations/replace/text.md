@@ -1,6 +1,6 @@
 ---
 title: Reemplazar anotaciones de texto a través de Cloud Python SDK
-url: /python/annotations/text/replace
+url: python/annotations/text/replace
 description: Reemplazar anotaciones de texto en PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

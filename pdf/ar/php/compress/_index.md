@@ -1,6 +1,6 @@
 ---
 title: ضغط PDF عبر Cloud PHP SDK
-url: /php/compress/
+url: php/compress/
 description: يسمح لك Aspose.PDF Cloud بتحسين مستند PDF. تحقق من مصدر كود PHP لضغط ملف PDF.
 lastmod: 2025-05-19
 ---

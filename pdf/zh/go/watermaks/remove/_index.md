@@ -2,7 +2,7 @@
 title: 通过云 Golang SDK 从 PDF 移除水印
 description: 使用 Aspose.PDF Cloud SDK 在 Go 中从 PDF 文档中移除水印。
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

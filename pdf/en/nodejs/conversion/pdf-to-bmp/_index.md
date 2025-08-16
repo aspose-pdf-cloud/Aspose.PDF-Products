@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to BMP via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-bmp/
+url: nodejs/conversion/pdf-to-bmp/
 description: Convert PDF to BMP image format with Aspose.PDF Cloud SDK for Node.js. High-resolution image output.
 lastmod: "2022-03-17"
 ---

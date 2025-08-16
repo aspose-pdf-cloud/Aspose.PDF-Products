@@ -1,6 +1,6 @@
 ---
 title: Преобразование PDF в HTML через Cloud Go SDK
-url: /go/conversion/pdf-to-html/
+url: go/conversion/pdf-to-html/
 description: Преобразуйте PDF в адаптивный HTML с использованием Go и Aspose.PDF Cloud SDK. Идеально подходит для онлайн-отображения документов.
 lastmod: 2025-05-17
 ---

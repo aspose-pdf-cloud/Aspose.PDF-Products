@@ -1,6 +1,6 @@
 ---
 title: Convertir PDF en DOC via Cloud Go SDK
-url: /go/conversion/pdf-to-doc/
+url: go/conversion/pdf-to-doc/
 description: Transformez PDF en DOC avec Aspose.PDF Cloud SDK pour Go. Éditez vos PDF dans Microsoft Word.
 lastmod: 2025-05-17
 ---

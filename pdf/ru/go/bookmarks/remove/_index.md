@@ -1,6 +1,6 @@
 ---
 title: Удаление закладок через Cloud Go SDK
-url: /go/bookmarks/remove/
+url: go/bookmarks/remove/
 description: Удаляйте закладки в PDF с помощью Go и Aspose.PDF Cloud SDK. Упрощайте структуру документа.
 lastmod: 2025-05-20
 ---

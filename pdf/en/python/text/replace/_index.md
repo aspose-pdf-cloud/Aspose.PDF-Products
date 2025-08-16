@@ -1,6 +1,6 @@
 ---
 title: Replace Text in PDF via Cloud Python SDK 
-url: /python/text/replace/
+url: python/text/replace/
 description: Replace text in PDFs programmatically using Python and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ganti Bookmark melalui Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Ganti bookmark PDF menggunakan Go dan Aspose.PDF Cloud SDK. Sederhanakan struktur dokumen.
 lastmod: 2025-05-20
 ---

@@ -2,7 +2,7 @@
 title: Добавление водяных знаков в PDF через облачный SDK на Golang
 description: Добавляйте водяные знаки в PDF-файлы с помощью Go и Aspose.PDF Cloud SDK. Поддержка текстовых и графических знаков.
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

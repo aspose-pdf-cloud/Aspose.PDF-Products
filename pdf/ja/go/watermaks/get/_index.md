@@ -2,7 +2,7 @@
 title: Cloud Golang SDKを介してPDFから透かしを取得する
 description: GoでAspose.PDF Cloud SDKを使用してPDFから透かしデータを取得します。オーバーレイやブランディングを調査。
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

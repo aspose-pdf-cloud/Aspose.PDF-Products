@@ -1,6 +1,6 @@
 ---
 title: Update Form Fields in PDF Document via Cloud Node.js SDK
-url: /nodejs/acroforms/update/
+url: nodejs/acroforms/update/
 description: Update AcroForm fields in existing PDF documents via Node.js using Aspose.PDF Cloud API. Automate form data management.
 lastmod: "2024-11-19"
 ---

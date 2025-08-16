@@ -1,6 +1,6 @@
 ---
 title: تغيير حجم PDF عبر Cloud .NET SDK
-url: /net/resize/
+url: net/resize/
 description: تتيح لك Aspose.PDF Cloud تغيير حجم مستند PDF. تحقق من كود المصدر .NET لتغيير حجم ملف PDF.
 lastmod: 2025-07-19
 ---

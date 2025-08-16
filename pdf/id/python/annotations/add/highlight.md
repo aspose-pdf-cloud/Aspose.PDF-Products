@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Teks Sorotan melalui Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Tambahkan Anotasi Teks Sorotan ke PDF menggunakan Aspose.PDF Cloud SDK untuk Python.
 lastmod: 2025-07-20
 ---

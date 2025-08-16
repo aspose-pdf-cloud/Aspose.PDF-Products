@@ -1,6 +1,6 @@
 ---
 title: Thêm Hình Ảnh vào Chân Trang của PDF qua Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: Thêm chân trang hình ảnh vào các trang PDF bằng cách sử dụng Aspose.PDF Cloud SDK trong Go. Thương hiệu, chữ ký và nhiều hơn nữa.
 lastmod: 2025-05-20
 ---

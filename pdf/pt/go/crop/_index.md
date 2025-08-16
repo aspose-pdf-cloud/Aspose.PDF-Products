@@ -1,6 +1,6 @@
 ---
 title: Cortar PDF via Cloud Go SDK
-url: /go/crop/
+url: go/crop/
 description: Aspose.PDF Cloud permite que você corte documentos PDF. Confira o código fonte em Go para cortar arquivos PDF.
 lastmod: 2025-07-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ubah Ukuran PDF melalui Cloud Node.js SDK
-url: /nodejs/resize/
+url: nodejs/resize/
 description: Aspose.PDF Cloud memungkinkan Anda mengubah ukuran Dokumen PDF. Periksa kode sumber Node.js untuk mengubah ukuran file PDF.
 lastmod: 2025-07-28
 ---

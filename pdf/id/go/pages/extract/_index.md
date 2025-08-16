@@ -1,6 +1,6 @@
 ---
 title: Ekstrak Halaman dari PDF melalui Cloud Go SDK
-url: /go/pages/extract/
+url: go/pages/extract/
 description: Ekstrak halaman tertentu dari dokumen PDF menggunakan Go dengan Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

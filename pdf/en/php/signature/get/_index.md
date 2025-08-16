@@ -1,6 +1,6 @@
 ---
 title: Get Signature from PDF via Cloud PHP SDK 
-url: /php/signature/get/
+url: php/signature/get/
 description: Aspose.PDF Cloud allows you to extract a signature from PDF Document. Check the PHP source code to get signature from PDF file.
 lastmod: "2025-03-19"
 ---

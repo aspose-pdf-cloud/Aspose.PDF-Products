@@ -1,6 +1,6 @@
 ---
 title: Supprimer des tables d'un PDF via le SDK Cloud Go
-url: /go/table/delete/
+url: go/table/delete/
 description: Supprimez des tables des documents PDF en Go en utilisant Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Remove Text from PDF via Cloud Python SDK 
-url: /python/text/remove/
+url: python/text/remove/
 description: Remove specific text from PDF files using Python with Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

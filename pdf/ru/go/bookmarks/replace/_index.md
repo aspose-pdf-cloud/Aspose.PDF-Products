@@ -1,6 +1,6 @@
 ---
 title: Замена закладок через Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Замените закладки PDF, используя Go и Aspose.PDF Cloud SDK. Упростите структуру документа.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Crear PDF a través de Cloud .NET SDK
-url: /net/create/
+url: net/create/
 description: Aspose.PDF Cloud te permite crear Documentos PDF. Consulta el código fuente .NET para crear archivos PDF.
 lastmod: 2025-07-19
 ---

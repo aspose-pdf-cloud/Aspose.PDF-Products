@@ -2,7 +2,7 @@
 title: Xóa Hình mờ khỏi PDF qua Cloud Golang SDK
 description: Xóa hình mờ khỏi tài liệu PDF trong Go bằng Aspose.PDF Cloud SDK.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

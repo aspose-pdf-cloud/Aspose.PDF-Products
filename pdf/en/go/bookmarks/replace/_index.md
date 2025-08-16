@@ -1,6 +1,6 @@
 ---
 title: Replace Bookmarks via Cloud Go SDK
-url: /go/bookmarks/replace/
+url: go/bookmarks/replace/
 description: Replace PDF bookmarks using Go and Aspose.PDF Cloud SDK. Simplify document structure.
 lastmod: "2025-05-20"
 ---

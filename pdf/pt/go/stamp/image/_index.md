@@ -1,6 +1,6 @@
 ---
 title: Adicionar Carimbo de Imagem ao PDF via Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Para adicionar um carimbo de imagem a uma página específica de um PDF com Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

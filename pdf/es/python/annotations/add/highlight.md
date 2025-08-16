@@ -1,6 +1,6 @@
 ---
 title: Agregar anotaciones de texto resaltado a través de Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Agregar anotaciones de texto resaltado a PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Go SDKでPDFを暗号化
-url: /go/encrypt/
+url: go/encrypt/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントを暗号化できます。Goのソースコードを確認してPDFファイルを暗号化してください。
 lastmod: 2025-04-19
 ---

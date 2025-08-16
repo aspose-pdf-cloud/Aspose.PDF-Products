@@ -2,7 +2,7 @@
 title: Create & Process PDF in Cloud using cURL 
 description: Use Aspose.PDF Cloud with cURL to create, edit, and manage PDFs in the cloud. Simple HTTP commands for full PDF control.
 weight: 30
-url: /curl
+url: curl
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

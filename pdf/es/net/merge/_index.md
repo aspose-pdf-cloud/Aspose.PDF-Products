@@ -1,6 +1,6 @@
 ---
 title: Fusionar archivos PDF mediante Cloud .NET SDK
-url: /net/merge/
+url: net/merge/
 description: Fusiona múltiples PDFs en uno con Aspose.PDF Cloud SDK para .NET. Combina documentos sin inconvenientes mediante REST API.
 ---
 

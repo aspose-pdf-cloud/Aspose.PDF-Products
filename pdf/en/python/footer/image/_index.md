@@ -1,6 +1,6 @@
 ---
 title: Add Image in Footer of PDF via Cloud Python SDK 
-url: /python/footer/image/
+url: python/footer/image/
 description: Add image-based footers to PDF pages in Python using Aspose.PDF Cloud SDK. Automate footer branding.
 lastmod: "2024-10-19"
 ---

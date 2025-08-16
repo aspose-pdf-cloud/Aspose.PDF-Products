@@ -1,6 +1,6 @@
 ---
 title: Remove Links from PDF via Cloud Go SDK 
-url: /go/links/delete/
+url: go/links/delete/
 description: Delete hyperlinks from PDF pages with Aspose.PDF Cloud SDK in Go.
 lastmod: "2025-05-19"
 ---

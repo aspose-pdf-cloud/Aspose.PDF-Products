@@ -1,6 +1,6 @@
 ---
 title: Xóa Chú Thích Văn Bản qua Cloud Go SDK
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: Xóa Chú Thích Văn Bản từ PDF bằng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-07-20
 ---

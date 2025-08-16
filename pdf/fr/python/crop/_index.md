@@ -1,6 +1,6 @@
 ---
 title: Rogner un PDF via Cloud Python SDK
-url: /python/crop/
+url: python/crop/
 description: Aspose.PDF Cloud vous permet de rogner un document PDF. Consultez le code source Python pour rogner un fichier PDF.
 lastmod: 2025-07-28
 ---

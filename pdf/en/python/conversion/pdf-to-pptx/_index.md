@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to PPTX via Python Cloud SDK
-url: /python/conversion/pdf-to-pptx/
+url: python/conversion/pdf-to-pptx/
 description: Transform PDFs into PPTX presentations using Python with Aspose.PDF Cloud SDK. Present documents visually.
 lastmod: "2024-10-17"
 ---

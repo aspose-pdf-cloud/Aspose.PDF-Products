@@ -1,6 +1,6 @@
 ---
 title: Adjuntar archivos a documentos PDF a través de Aspose.Pdf Cloud Go SDK
-url: /go/attachments/add/
+url: go/attachments/add/
 description: Añadir archivos adjuntos a PDFs a través de Go con Aspose.PDF Cloud SDK. Incruste documentos de apoyo en sus PDFs.
 lastmod: 2025-05-20
 ---

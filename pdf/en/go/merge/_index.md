@@ -2,7 +2,7 @@
 title: Merge several PDF Documents using Go
 description: Merge multiple PDFs into one using Go and Aspose.PDF Cloud SDK.
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: "2025-05-20"
 ---
 

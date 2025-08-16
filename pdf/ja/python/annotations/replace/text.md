@@ -1,6 +1,6 @@
 ---
 title: Cloud Python SDKを使用してテキスト注釈を置換
-url: /python/annotations/text/replace
+url: python/annotations/text/replace
 description: Aspose.PDF Cloud SDK for Pythonを使用してPDFのテキスト注釈を置換します。
 lastmod: 2025-07-20
 ---

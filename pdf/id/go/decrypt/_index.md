@@ -1,6 +1,6 @@
 ---
 title: Dekripsi PDF melalui Cloud Go SDK
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloud memungkinkan Anda untuk mendekripsi Dokumen PDF. Periksa kode sumber Go untuk mendekripsi file PDF.
 lastmod: 2025-04-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Добавление изображения в нижний колонтитул PDF через Cloud Go SDK
-url: /go/footer/image/
+url: go/footer/image/
 description: Добавьте изображения в нижние колонтитулы PDF-страниц с помощью Aspose.PDF Cloud SDK на Go. Брендинг, подписи и многое другое.
 lastmod: 2025-05-20
 ---

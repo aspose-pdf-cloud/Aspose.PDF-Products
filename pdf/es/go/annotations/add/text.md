@@ -1,6 +1,6 @@
 ---
 title: Agregar anotaciones de texto a través de Cloud Go SDK
-url: /go/annotations/text/
+url: go/annotations/text/
 description: Agregue anotaciones de texto a PDFs usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-07-20
 ---

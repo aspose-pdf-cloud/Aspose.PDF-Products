@@ -1,6 +1,6 @@
 ---
 title: Extract attachments from PDF documents via Aspose.Pdf Cloud Python SDK
-url: /python/attachments/get/
+url: python/attachments/get/
 description: Retrieve attachments from PDFs with Python and Aspose.PDF Cloud SDK. Access embedded content efficiently.
 lastmod: "2024-10-29"
 ---

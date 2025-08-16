@@ -1,6 +1,6 @@
 ---
 title: クラウド Python SDK を使用して PDF をリサイズ
-url: /python/resize/
+url: python/resize/
 description: Aspose.PDF Cloud を使用すると、PDF ドキュメントをリサイズできます。PDF ファイルをリサイズするための Python ソースコードを確認してください。
 lastmod: 2025-07-28
 ---

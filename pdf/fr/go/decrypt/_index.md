@@ -1,6 +1,6 @@
 ---
 title: Décrypter un PDF via Cloud Go SDK
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloud vous permet de décrypter un document PDF. Consultez le code source Go pour décrypter un fichier PDF.
 lastmod: 2025-04-19
 ---

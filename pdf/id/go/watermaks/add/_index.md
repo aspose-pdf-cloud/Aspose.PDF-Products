@@ -2,7 +2,7 @@
 title: Tambahkan Tanda Air ke PDF melalui Cloud Golang SDK
 description: Tambahkan tanda air ke file PDF menggunakan Go dengan Aspose.PDF Cloud SDK. Mendukung tanda teks dan gambar.
 weight: 30
-url: /go/watermaks/add/
+url: go/watermaks/add/
 lastmod: 2025-05-20
 ---
 

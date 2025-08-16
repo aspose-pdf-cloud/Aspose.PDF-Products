@@ -1,6 +1,6 @@
 ---
 title: Replace Text in PDF via Cloud PHP SDK 
-url: /php/text/replace/
+url: php/text/replace/
 description: Replace specific text in PDF files programmatically using Aspose.PDF Cloud SDK for PHP.
 lastmod: "2024-10-19"
 ---

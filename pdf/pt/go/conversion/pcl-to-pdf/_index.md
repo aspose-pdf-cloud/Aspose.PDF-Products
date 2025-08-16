@@ -1,7 +1,7 @@
 ---
 title: Converter PCL para PDF via Cloud Go SDK
 weight: 2670
-url: /go/conversion/pcl-to-pdf/
+url: go/conversion/pcl-to-pdf/
 description: Converta arquivos de impressão PCL para PDF usando Go e Aspose.PDF Cloud SDK. Compatibilidade de nível empresarial.
 lastmod: 2025-05-17
 ---

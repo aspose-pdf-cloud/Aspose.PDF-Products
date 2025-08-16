@@ -1,6 +1,6 @@
 ---
 title: Add Tables to PDF via Cloud PHP SDK 
-url: /php/table/add/
+url: php/table/add/
 description: Add tables to PDFs using PHP and Aspose.PDF Cloud SDK. Structure and display tabular content programmatically.
 lastmod: "2025-03-19"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Cap Gambar ke PDF melalui Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Untuk menambahkan cap gambar ke halaman tertentu dari PDF dengan Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

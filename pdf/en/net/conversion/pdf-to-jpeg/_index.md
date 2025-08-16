@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to Images JPEG via Cloud .NET SDK
-url: /net/conversion/pdf-to-jpeg/
+url: net/conversion/pdf-to-jpeg/
 description: Turn PDF files into JPEG images using Aspose.PDF Cloud SDK for .NET. Shareable image output in high quality.
 lastmod: "2022-03-17"
 ---

@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 从 PDF 中移除链接
-url: /go/links/delete/
+url: go/links/delete/
 description: 使用 Aspose.PDF Cloud SDK 在 Go 中从 PDF 页面删除超链接。
 lastmod: 2025-05-19
 ---

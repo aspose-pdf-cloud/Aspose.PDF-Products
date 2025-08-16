@@ -1,6 +1,6 @@
 ---
 title: クラウドGo SDKを介してページ注釈を削除
-url: /go/annotations/page/delete
+url: go/annotations/page/delete
 description: Aspose.PDF Cloud SDK for Goを使用してPDFからページ注釈を削除します。
 lastmod: 2025-07-20
 ---

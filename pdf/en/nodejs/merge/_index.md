@@ -2,7 +2,7 @@
 title: Merge several PDF Documents | Node.js
 description: Merge multiple PDFs into one using Node.js and Aspose.PDF Cloud SDK.
 weight: 40
-url: /nodejs/merge
+url: nodejs/merge
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

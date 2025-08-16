@@ -1,6 +1,6 @@
 ---
 title: Extrair Tabelas de PDF via Cloud Go SDK
-url: /go/table/extract/
+url: go/table/extract/
 description: Extraia o conteúdo da tabela de PDFs com Go usando Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

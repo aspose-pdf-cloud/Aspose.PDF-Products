@@ -1,6 +1,6 @@
 ---
 title: Convertir BMP en PDF via Cloud Go SDK
-url: /go/conversion/bmp-to-pdf/
+url: go/conversion/bmp-to-pdf/
 description: Convertissez des images BMP en PDF en Go en utilisant Aspose.PDF Cloud. Maintenez la qualité de l'image dans un format portable.
 lastmod: 2025-03-17
 ---

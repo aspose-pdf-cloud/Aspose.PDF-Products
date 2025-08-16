@@ -1,6 +1,6 @@
 ---
 title: Mã hóa PDF trong Go SDK
-url: /go/encrypt/
+url: go/encrypt/
 description: Aspose.PDF Cloud cho phép bạn mã hóa Tài liệu PDF. Kiểm tra mã nguồn Go để mã hóa tệp PDF.
 lastmod: 2025-04-19
 ---

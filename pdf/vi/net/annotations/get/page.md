@@ -1,6 +1,6 @@
 ---
 title: Lấy Chú Thích Trang qua Cloud .NET SDK
-url: /net/annotations/page/get
+url: net/annotations/page/get
 description: Lấy Chú Thích Trang từ PDF sử dụng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

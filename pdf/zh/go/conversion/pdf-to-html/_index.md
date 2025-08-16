@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 将 PDF 转换为 HTML
-url: /go/conversion/pdf-to-html/
+url: go/conversion/pdf-to-html/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 将 PDF 转换为响应式 HTML。非常适合在线文档显示。
 lastmod: 2025-05-17
 ---

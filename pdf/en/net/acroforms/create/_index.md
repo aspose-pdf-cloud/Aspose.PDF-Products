@@ -1,6 +1,6 @@
 ---
 title: Creating an AcroForm via Cloud .NET SDK
-url: /net/acroforms/add/
+url: net/acroforms/add/
 description: Add new form fields to PDFs with Aspose.PDF Cloud for .NET. Create interactive AcroForms in seconds.
 lastmod: "2022-03-19"
 ---

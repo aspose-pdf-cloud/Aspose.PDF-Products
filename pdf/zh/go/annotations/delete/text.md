@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 删除文本注释
-url: /go/annotations/text/delete
+url: go/annotations/text/delete
 description: 使用 Aspose.PDF Cloud Go SDK 从 PDF 中删除文本注释。
 lastmod: 2025-07-20
 ---

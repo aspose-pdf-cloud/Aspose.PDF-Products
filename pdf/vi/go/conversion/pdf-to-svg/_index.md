@@ -1,6 +1,6 @@
 ---
 title: Chuyển đổi PDF sang SVG qua Cloud Go SDK
-url: /go/conversion/pdf-to-svg/
+url: go/conversion/pdf-to-svg/
 description: Xuất nội dung PDF sang hình ảnh vector SVG bằng cách sử dụng Go và Aspose.PDF Cloud SDK.
 lastmod: 2025-05-17
 ---

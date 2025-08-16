@@ -1,6 +1,6 @@
 ---
 title: 通过云Go SDK从PDF中删除页面
-url: /go/pages/delete/
+url: go/pages/delete/
 description: 使用Aspose.PDF Cloud SDK在Go中从PDF中删除页面。自动化文档清理。
 lastmod: 2025-08-19
 ---

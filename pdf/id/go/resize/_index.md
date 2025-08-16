@@ -1,6 +1,6 @@
 ---
 title: Ubah Ukuran PDF melalui Cloud Go SDK
-url: /go/resize/
+url: go/resize/
 description: Aspose.PDF Cloud memungkinkan Anda mengubah ukuran Dokumen PDF. Periksa kode sumber Go untuk mengubah ukuran file PDF.
 lastmod: 2025-07-19
 ---

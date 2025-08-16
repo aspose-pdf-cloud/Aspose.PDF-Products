@@ -1,6 +1,6 @@
 ---
 title: Adicionar Anotações de Texto Destacado via Cloud Python SDK
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: Adicione Anotações de Texto Destacado a PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

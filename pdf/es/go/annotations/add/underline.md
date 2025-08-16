@@ -1,6 +1,6 @@
 ---
 title: Agregar Anotaciones de Texto Subrayado a través de Cloud Go SDK
-url: /go/annotations/underline/
+url: go/annotations/underline/
 description: Agrega Anotaciones de Texto Subrayado a PDFs usando Aspose.PDF Cloud SDK para Go.
 lastmod: 2025-07-20
 ---

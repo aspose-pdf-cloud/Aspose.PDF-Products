@@ -1,6 +1,6 @@
 ---
 title: 通过 Aspose.Pdf Cloud Go SDK 从 PDF 文档中提取附件
-url: /go/attachments/get/
+url: go/attachments/get/
 description: 使用 Go 和 Aspose.PDF Cloud SDK 提取 PDF 附件。通过 API 访问嵌入内容。
 lastmod: 2025-05-20
 ---

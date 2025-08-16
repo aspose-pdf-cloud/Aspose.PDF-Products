@@ -1,6 +1,6 @@
 ---
 title: Ganti Anotasi Teks melalui Cloud Go SDK
-url: /go/annotations/text/replace
+url: go/annotations/text/replace
 description: Ganti Anotasi Teks dalam PDF menggunakan Aspose.PDF Cloud SDK untuk Go.
 lastmod: 2025-07-20
 ---

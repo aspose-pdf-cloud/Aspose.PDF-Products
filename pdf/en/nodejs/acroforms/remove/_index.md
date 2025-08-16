@@ -1,6 +1,6 @@
 ---
 title: Remove Form Fields from PDF Document via Cloud Node.js SDK
-url: /nodejs/acroforms/remove/
+url: nodejs/acroforms/remove/
 description: Remove unwanted form fields from PDFs with Node.js using Aspose.PDF Cloud. Clean up and streamline your forms.
 lastmod: "2024-03-19"
 ---

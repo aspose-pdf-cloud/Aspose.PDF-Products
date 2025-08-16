@@ -1,6 +1,6 @@
 ---
 title: クラウドGo SDKを介してPDFをトリミング
-url: /go/crop/
+url: go/crop/
 description: Aspose.PDF Cloudを使用すると、PDFドキュメントをトリミングできます。PDFファイルをトリミングするためのGoソースコードを確認してください。
 lastmod: 2025-07-19
 ---

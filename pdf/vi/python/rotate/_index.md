@@ -1,6 +1,6 @@
 ---
 title: Xoay PDF qua Cloud Python SDK
-url: /python/rotate/
+url: python/rotate/
 description: Aspose.PDF Cloud cho phép bạn xoay Tài liệu PDF. Kiểm tra mã nguồn Python để xoay tệp PDF.
 lastmod: 2025-07-19
 ---

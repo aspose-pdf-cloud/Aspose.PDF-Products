@@ -2,7 +2,7 @@
 title: Dapatkan Tanda Air dari PDF melalui Cloud Golang SDK
 description: Dapatkan data tanda air dari PDF menggunakan Aspose.PDF Cloud SDK dalam Go. Periksa overlay atau branding.
 weight: 30
-url: /go/watermaks/get/
+url: go/watermaks/get/
 lastmod: 2025-05-20
 ---
 

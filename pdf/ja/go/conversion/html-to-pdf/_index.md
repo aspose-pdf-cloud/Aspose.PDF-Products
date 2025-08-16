@@ -1,6 +1,6 @@
 ---
 title: HTMLをPDFにクラウドGo SDKで変換
-url: /go/conversion/html-to-pdf/
+url: go/conversion/html-to-pdf/
 description: Aspose.PDF Cloudを使用してGoでHTMLコンテンツをPDFに変換します。ウェブページやHTMLファイルを正確にレンダリング。
 lastmod: 2025-05-17
 ---

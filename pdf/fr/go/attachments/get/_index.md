@@ -1,6 +1,6 @@
 ---
 title: Extraire des pièces jointes de documents PDF via Aspose.Pdf Cloud Go SDK
-url: /go/attachments/get/
+url: go/attachments/get/
 description: Extraire des pièces jointes PDF en utilisant Go et Aspose.PDF Cloud SDK. Accéder au contenu intégré via l'API.
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ganti Tabel dalam PDF melalui Cloud Go SDK
-url: /go/table/replace/
+url: go/table/replace/
 description: Ganti data tabel PDF secara programatis dalam Go dengan Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

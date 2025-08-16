@@ -1,6 +1,6 @@
 ---
 title: إضافة صورة في رأس PDF عبر Cloud Go SDK
-url: /go/header/image/
+url: go/header/image/
 description: أضف رؤوس صور إلى ملفات PDF في Go باستخدام Aspose.PDF Cloud. أتمتة تنسيق التقارير.
 lastmod: 2025-05-20
 ---

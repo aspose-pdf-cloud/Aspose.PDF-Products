@@ -1,6 +1,6 @@
 ---
 title: Remove Metadata in PDF Document via Cloud PHP SDK
-url: /php/metadata/remove/
+url: php/metadata/remove/
 description: Remove sensitive metadata from PDF files using PHP and Aspose.PDF Cloud SDK.
 lastmod: "2022-03-19"
 ---

@@ -2,7 +2,7 @@
 title: Fusionner plusieurs documents PDF en utilisant Go
 description: Fusionner plusieurs PDFs en un seul en utilisant Go et Aspose.PDF Cloud SDK.
 weight: 40
-url: /go/merge/
+url: go/merge/
 lastmod: 2025-05-20
 ---
 

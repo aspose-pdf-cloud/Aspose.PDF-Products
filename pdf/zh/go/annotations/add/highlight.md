@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 添加文本高亮注释
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: 使用 Aspose.PDF Cloud SDK for Go 向 PDF 添加文本高亮注释。
 lastmod: 2025-07-20
 ---

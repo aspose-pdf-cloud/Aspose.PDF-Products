@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを介してPDFからテーブルを抽出
-url: /go/table/extract/
+url: go/table/extract/
 description: Aspose.PDF Cloud SDKを使用して、GoでPDFからテーブルコンテンツを抽出します。
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Получить количество слов на странице с использованием Aspose.PDF Cloud SDK для Go
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Получите количество слов на странице PDF с Aspose.PDF Cloud SDK для Go.
 lastmod: 2025-08-19
 ---

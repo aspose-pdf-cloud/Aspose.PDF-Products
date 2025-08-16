@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを介してハイライトテキスト注釈を追加
-url: /go/annotations/highlight/
+url: go/annotations/highlight/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFにハイライトテキスト注釈を追加。
 lastmod: 2025-07-20
 ---

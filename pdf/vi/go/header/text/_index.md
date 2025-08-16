@@ -1,6 +1,6 @@
 ---
 title: Thêm văn bản vào tiêu đề của PDF qua Cloud Go SDK
-url: /go/header/text/
+url: go/header/text/
 description: Chèn tiêu đề văn bản vào các tệp PDF sử dụng Aspose.PDF Cloud SDK cho Go.
 lastmod: 2025-05-20
 ---

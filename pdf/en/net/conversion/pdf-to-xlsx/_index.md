@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to Microsoft Excel XLSX via Cloud .NET SDK
-url: /net/conversion/pdf-to-xlsx/
+url: net/conversion/pdf-to-xlsx/
 description: Convert PDF to Excel XLSX with Aspose.PDF Cloud SDK for .NET. Structured data extraction made simple.
 lastmod: "2022-03-17"
 ---

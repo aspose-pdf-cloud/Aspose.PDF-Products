@@ -1,6 +1,6 @@
 ---
 title: Girar PDF via Cloud Python SDK
-url: /python/rotate/
+url: python/rotate/
 description: Aspose.PDF Cloud permite que você gire Documentos PDF. Confira o código-fonte em Python para girar arquivos PDF.
 lastmod: 2025-07-19
 ---

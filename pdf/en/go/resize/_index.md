@@ -1,6 +1,6 @@
 ---
 title: Resize PDF via Cloud Go SDK 
-url: /go/resize/
+url: go/resize/
 description: Aspose.PDF Cloud allows you to resize PDF Document. Check the Go source code to resize PDF file.
 lastmod: "2025-07-19"
 ---

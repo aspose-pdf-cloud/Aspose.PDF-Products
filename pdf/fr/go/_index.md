@@ -2,7 +2,7 @@
 title: Convertir, Annoter &amp; Signer le PDF Cloud via Go SDK
 description: Intégrez le traitement PDF basé sur le cloud dans vos applications Go avec Aspose.PDF Cloud SDK pour Go. Fiable et convivial pour les développeurs.
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

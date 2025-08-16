@@ -1,6 +1,6 @@
 ---
 title: Remove Images from PDF via Cloud Node.js SDK 
-url: /nodejs/images/remove/
+url: nodejs/images/remove/
 description: Remove images from PDF pages using Node.js and Aspose.PDF Cloud SDK.
 lastmod: "2024-10-19"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Anotasi Teks Sorotan melalui Cloud .NET SDK
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Tambahkan Anotasi Teks Sorotan ke PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.
 lastmod: 2025-07-20
 ---

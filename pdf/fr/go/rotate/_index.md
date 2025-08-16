@@ -1,6 +1,6 @@
 ---
 title: Faire pivoter un PDF via le SDK Cloud Go
-url: /go/rotate/
+url: go/rotate/
 description: Aspose.PDF Cloud vous permet de faire pivoter un document PDF. Consultez le code source Go pour faire pivoter un fichier PDF.
 lastmod: 2025-07-19
 ---

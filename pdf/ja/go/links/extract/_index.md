@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを使用してPDFからリンクを抽出
-url: /go/links/extract/
+url: go/links/extract/
 description: Aspose.PDF Cloud SDK for Goを使用してPDFファイルからすべてのハイパーリンクを抽出します。
 lastmod: 2025-05-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Adicionar Anotações de Texto Destacado via Cloud .NET SDK
-url: /net/annotations/highlight/
+url: net/annotations/highlight/
 description: Adicione Anotações de Texto Destacado a PDFs usando o Aspose.PDF Cloud SDK para .NET.
 lastmod: 2025-07-20
 ---

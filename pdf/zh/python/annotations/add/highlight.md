@@ -1,6 +1,6 @@
 ---
 title: 通过云 Python SDK 添加高亮文本注释
-url: /python/annotations/highlight/
+url: python/annotations/highlight/
 description: 使用 Aspose.PDF Cloud SDK for Python 向 PDF 添加高亮文本注释。
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Konversi PDF ke SVG melalui Cloud Go SDK
-url: /go/conversion/pdf-to-svg/
+url: go/conversion/pdf-to-svg/
 description: Ekspor konten PDF ke gambar vektor SVG menggunakan Go dan Aspose.PDF Cloud SDK.
 lastmod: 2025-05-17
 ---

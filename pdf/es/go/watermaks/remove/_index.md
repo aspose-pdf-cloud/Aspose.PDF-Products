@@ -2,7 +2,7 @@
 title: Eliminar marcas de agua de PDF a través de Cloud Golang SDK
 description: Eliminar marcas de agua de documentos PDF en Go usando Aspose.PDF Cloud SDK.
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

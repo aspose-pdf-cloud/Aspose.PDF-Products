@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud .NET SDK 替换文本注释
-url: /net/annotations/text/replace
+url: net/annotations/text/replace
 description: 使用 Aspose.PDF Cloud SDK for .NET 替换 PDF 中的文本注释。
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to XPS via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-xps/
+url: nodejs/conversion/pdf-to-xps/
 description: Convert PDFs to XPS format using Aspose.PDF Cloud SDK for Node.js. Maintain layout integrity.
 lastmod: "2022-03-17"
 ---

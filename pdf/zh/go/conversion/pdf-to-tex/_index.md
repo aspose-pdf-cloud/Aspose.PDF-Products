@@ -1,6 +1,6 @@
 ---
 title: 通过Cloud Go SDK将PDF转换为TEX
-url: /go/conversion/pdf-to-tex/
+url: go/conversion/pdf-to-tex/
 description: 使用Aspose.PDF Cloud for Go将PDF转换为TeX源代码。集成到LaTeX工作流程中。
 lastmod: 2025-05-17
 ---

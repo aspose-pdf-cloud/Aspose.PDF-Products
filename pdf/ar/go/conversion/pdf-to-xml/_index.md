@@ -1,6 +1,6 @@
 ---
 title: تحويل PDF إلى Xml عبر Cloud Go SDK
-url: /go/conversion/pdf-to-xml/
+url: go/conversion/pdf-to-xml/
 description: حول ملفات PDF إلى ملفات Xml باستخدام Go باستخدام Aspose.PDF Cloud.
 lastmod: 2025-05-17
 ---

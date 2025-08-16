@@ -2,7 +2,7 @@
 title: Chuyển đổi, Chú thích & Ký PDF Đám mây qua Go SDK
 description: Tích hợp xử lý PDF dựa trên đám mây vào các ứng dụng Go của bạn với Aspose.PDF Cloud SDK cho Go. Đáng tin cậy và thân thiện với nhà phát triển.
 weight: 40
-url: /go
+url: go
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

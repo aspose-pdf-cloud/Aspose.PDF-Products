@@ -1,6 +1,6 @@
 ---
 title: Comprimir PDF a través del Cloud PHP SDK
-url: /php/compress/
+url: php/compress/
 description: Aspose.PDF Cloud le permite optimizar el documento PDF. Revise el código fuente de PHP para comprimir el archivo PDF.
 lastmod: 2025-05-19
 ---

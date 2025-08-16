@@ -1,6 +1,6 @@
 ---
 title: Get Bookmarks via Cloud Go SDK
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Retrieve bookmarks from PDF files in your Go apps with Aspose.PDF Cloud SDK.
 lastmod: "2025-05-20"
 ---

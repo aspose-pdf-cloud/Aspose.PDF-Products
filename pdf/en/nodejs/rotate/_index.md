@@ -1,6 +1,6 @@
 ---
 title: Rotate PDF via Cloud Node.js SDK 
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: Aspose.PDF Cloud allows you to rotate PDF Document. Check the Node.js source code to rotate PDF file.
 lastmod: "2025-07-28"
 ---

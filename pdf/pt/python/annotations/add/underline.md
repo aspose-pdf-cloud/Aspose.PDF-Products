@@ -1,6 +1,6 @@
 ---
 title: Adicionar Anotações de Sublinhado via Cloud Python SDK
-url: /python/annotations/underline/
+url: python/annotations/underline/
 description: Adicione Anotações de Sublinhado a PDFs usando o Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDK を使用して PDF のヘッダーにテキストを追加
-url: /go/header/text/
+url: go/header/text/
 description: Aspose.PDF Cloud SDK for Go を使用して PDF ファイルにテキストヘッダーを挿入します。
 lastmod: 2025-05-20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to TEX via Cloud .NET SDK
-url: /net/conversion/pdf-to-tex/
+url: net/conversion/pdf-to-tex/
 description: Turn PDFs into LaTeX (TeX) files with Aspose.PDF Cloud SDK for .NET. For advanced academic and technical workflows.
 lastmod: "2022-03-17"
 ---

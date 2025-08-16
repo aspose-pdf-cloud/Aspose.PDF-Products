@@ -1,6 +1,6 @@
 ---
 title: Obtenez le nombre de mots par page en utilisant Aspose.PDF Cloud SDK pour Go
-url: /go/pages/word/get/
+url: go/pages/word/get/
 description: Obtenez le nombre de mots sur une page PDF avec Aspose.PDF Cloud SDK pour Go.
 lastmod: 2025-08-19
 ---

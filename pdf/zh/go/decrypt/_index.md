@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 解密 PDF
-url: /go/decrypt/
+url: go/decrypt/
 description: Aspose.PDF Cloud 允许您解密 PDF 文档。查看 Go 源代码以解密 PDF 文件。
 lastmod: 2025-04-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Girar PDF via Cloud Go SDK
-url: /go/rotate/
+url: go/rotate/
 description: Aspose.PDF Cloud permite girar documentos PDF. Verifique o código fonte em Go para girar o arquivo PDF.
 lastmod: 2025-07-19
 ---

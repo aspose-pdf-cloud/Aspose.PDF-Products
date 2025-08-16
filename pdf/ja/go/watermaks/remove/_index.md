@@ -2,7 +2,7 @@
 title: Cloud Golang SDKを使用してPDFから透かしを削除
 description: Aspose.PDF Cloud SDKを使用してGoでPDFドキュメントから透かしを削除。
 weight: 30
-url: /go/watermaks/remove/
+url: go/watermaks/remove/
 lastmod: 2025-05-20
 ---
 

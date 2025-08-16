@@ -1,6 +1,6 @@
 ---
 title: Obtener Anotaciones de Página a través de Cloud SDK de Python
-url: /python/annotations/page/get
+url: python/annotations/page/get
 description: Obtener Anotaciones de Página de PDFs usando Aspose.PDF Cloud SDK para Python.
 lastmod: 2025-07-24
 ---

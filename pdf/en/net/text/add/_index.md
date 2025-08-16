@@ -1,6 +1,6 @@
 ---
 title: Add Text to PDF via Cloud .NET SDK 
-url: /net/text/add/
+url: net/text/add/
 description: Insert text into PDF documents with Aspose.PDF Cloud SDK for .NET. Automate content editing easily.
 lastmod: "2024-11-19"
 ---

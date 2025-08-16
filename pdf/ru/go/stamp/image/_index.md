@@ -1,6 +1,6 @@
 ---
 title: Добавить изображение штампа в PDF с помощью Cloud Go SDK
-url: /go/stamp/image/
+url: go/stamp/image/
 description: Чтобы добавить изображение штампа на определенную страницу PDF с помощью Aspose.PDF Cloud SDK.
 lastmod: 2025-07-20
 ---

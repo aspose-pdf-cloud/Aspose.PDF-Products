@@ -1,6 +1,6 @@
 ---
 title: تدوير PDF عبر Cloud Node.js SDK
-url: /nodejs/rotate/
+url: nodejs/rotate/
 description: يسمح لك Aspose.PDF Cloud بتدوير مستند PDF. تحقق من كود المصدر لـ Node.js لتدوير ملف PDF.
 lastmod: 2025-07-28
 ---

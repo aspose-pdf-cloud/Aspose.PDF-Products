@@ -1,6 +1,6 @@
 ---
 title: Convert EPUB to PDF via Cloud .NET SDK
-url: /net/conversion/epub-to-pdf/
+url: net/conversion/epub-to-pdf/
 description: Turn EPUB eBooks into PDF with Aspose.PDF Cloud SDK for .NET. Ideal for digital publishing workflows.
 lastmod: "2022-03-17"
 ---

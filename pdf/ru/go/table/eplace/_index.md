@@ -1,6 +1,6 @@
 ---
 title: Замена таблиц в PDF через Cloud Go SDK
-url: /go/table/replace/
+url: go/table/replace/
 description: Программная замена данных таблицы PDF на Go с помощью Aspose.PDF Cloud SDK.
 lastmod: 2025-08-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: Convert PDF to EPUB via Cloud Node.js SDK
-url: /nodejs/conversion/pdf-to-epub/
+url: nodejs/conversion/pdf-to-epub/
 description: Export PDF files to EPUB format using Aspose.PDF Cloud SDK for Node.js. Enable eBook-friendly layouts.
 lastmod: "2022-03-17"
 ---

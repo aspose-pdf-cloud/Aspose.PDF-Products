@@ -1,6 +1,6 @@
 ---
 title: 通过 Cloud Go SDK 在 PDF 页眉中添加文本
-url: /go/header/text/
+url: go/header/text/
 description: 使用 Aspose.PDF Cloud SDK for Go 向 PDF 文件插入文本页眉。
 lastmod: 2025-05-20
 ---

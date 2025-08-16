@@ -1,6 +1,6 @@
 ---
 title: Cloud Go SDKを介してブックマークを取得
-url: /go/bookmarks/get/
+url: go/bookmarks/get/
 description: Aspose.PDF Cloud SDKを使用して、Goアプリ内のPDFファイルからブックマークを取得します。
 lastmod: 2025-05-20
 ---

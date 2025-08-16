@@ -1,6 +1,6 @@
 ---
 title: Tambahkan Teks di Footer PDF melalui Cloud Go SDK
-url: /go/footer/text/
+url: go/footer/text/
 description: Sisipkan footer berbasis teks di PDF menggunakan Go dengan Aspose.PDF Cloud SDK.
 lastmod: 2025-05-20
 ---

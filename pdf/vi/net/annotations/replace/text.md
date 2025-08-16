@@ -1,6 +1,6 @@
 ---
 title: Thay Thế Chú Thích Văn Bản qua Cloud .NET SDK
-url: /net/annotations/text/replace
+url: net/annotations/text/replace
 description: Thay Thế Chú Thích Văn Bản trong PDF bằng Aspose.PDF Cloud SDK cho .NET.
 lastmod: 2025-07-20
 ---

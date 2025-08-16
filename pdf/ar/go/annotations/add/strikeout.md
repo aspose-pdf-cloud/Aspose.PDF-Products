@@ -1,6 +1,6 @@
 ---
 title: إضافة تعليقات نصية مشطوبة عبر Cloud Go SDK
-url: /go/annotations/strikeout/
+url: go/annotations/strikeout/
 description: إضافة تعليقات نصية مشطوبة إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ Go.
 lastmod: 2025-07-20
 ---
