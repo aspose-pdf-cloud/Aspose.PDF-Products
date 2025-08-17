@@ -53,7 +53,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Upload your document file
 1. Extract bookmark by path from PDF documents using GetBookmarkAsync function
 1. Checks the response and logs the result
-1. f the operation is successful, you can print the bookmark or use the bookmark in another way
+1. If the operation is successful, you can print the bookmark or use the bookmark in another way
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -108,3 +108,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
