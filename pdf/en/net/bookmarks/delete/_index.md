@@ -66,11 +66,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         {
             public static async Task Delete(string documentName, string outputName, string bookmarkPath, string localFolder, string remoteFolder)
             {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+		        pdfApi = new PdfApi(AppSecret, AppSid);
 
                 using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
+		        { // Upload the local PDF to cloud storage folder name.
                     FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
                     Console.WriteLine(uploadResponse.Uploaded[0]);
                 }
@@ -79,7 +79,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
                 AsposeResponse response = await pdfApi.DeleteBookmarkAsync(documentName, bookmarkPath, folder: remoteFolder);
 
                 // Checks the response and logs the result.
-		if (response == null)
+		        if (response == null)
                     Console.WriteLine("BookmarksRemove(): Unexpected error!");
                 else if (response.Code < 200 || response.Code > 299)
                     Console.WriteLine("BookmarksRemove(): Failed to remove bookmark from the document.");
@@ -87,10 +87,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
                 { // Downloads the updated file for local use.
                     Console.WriteLine("BookmarksRemove(): bookmark '{0}' successfully removed from the document '{1}.", bookmarkPath, documentName);
                     Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_pages_" + outputName));
+                    using var fileStream = File.Create(Path.Combine(localFolder, "append_bookmark_" + outputName));
                     stream.Position = 0;
                     await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("BookmarksRemove(): File '{0}' successfully downloaded.", "delete_bookmrk_" + outputName);
+                    Console.WriteLine("BookmarksRemove(): File '{0}' successfully downloaded.", "delete_bookmark_" + outputName);
                 }
             }
         }
@@ -107,3 +107,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
