@@ -1,6 +1,6 @@
 ---
 title: Add Text in Footer of PDF via Cloud .NET SDK
-url: /net/footers/text/
+url: net/footers/text/
 description: Add text footers to PDF pages using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
 lastmod: "2025-08-18"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Replace Link via Cloud .NET SDK 
-url: /net/links/replace
+url: net/links/replace
 description: Replace link in PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-16"
 ---
