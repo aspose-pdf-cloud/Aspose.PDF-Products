@@ -1,6 +1,6 @@
 ---
 title: Get Links via Cloud .NET SDK 
-url: /net/links/get
+url: net/links/get
 description: Retrieve links from PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-14"
 ---

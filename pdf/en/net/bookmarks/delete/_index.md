@@ -1,6 +1,6 @@
 ---
 title: Delete Bookmark via Cloud .NET SDK
-url: /net/pages/delete
+url: net/pages/delete
 description: Delete Bookmark from PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-08-13"
 ---

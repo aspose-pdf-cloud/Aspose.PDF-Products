@@ -1,6 +1,6 @@
 ---
 title: Replace Bookmark via Cloud .NET SDK 
-url: /net/bookmarks/replace
+url: net/bookmarks/replace
 description: Replace bookmark in PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-13"
 ---

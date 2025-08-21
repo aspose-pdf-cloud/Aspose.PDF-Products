@@ -1,6 +1,6 @@
 ---
 title: Appending Bookmark via Cloud .NET SDK 
-url: /net/bookmarks/add
+url: net/bookmarks/add
 description: Add bookmark to PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-12"
 ---

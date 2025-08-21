@@ -1,6 +1,6 @@
 ---
 title: Add Links via Cloud .NET SDK
-url: /net/links/add
+url: net/links/add
 description: Add New Links to PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-08-14"
 ---

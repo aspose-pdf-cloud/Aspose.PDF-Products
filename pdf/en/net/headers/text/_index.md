@@ -1,6 +1,6 @@
 ---
 title: Add Text in Header of PDF via Cloud .NET SDK
-url: /net/headers/text/
+url: net/headers/text/
 description: Add text headers to PDF pages using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
 lastmod: "2025-08-18"
 ---
