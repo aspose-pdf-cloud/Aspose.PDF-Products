@@ -58,76 +58,76 @@ Aspose.PDF Cloud developers can easily load & change a password in PDF just in a
 
     package main
 
-import (
-	"encoding/base64"
-	"fmt"
-	"os"
-	"path"
-	"path/filepath"
+    import (
+	    "encoding/base64"
+	    "fmt"
+	    "os"
+	    "path"
+	    "path/filepath"
 
-	asposepdfcloud "github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25"
-)
+	    asposepdfcloud "github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25"
+    )
 
-// Upload local file to the remote folder with check errors
-func uploadFile(pdf_api *asposepdfcloud.PdfApiService, name string) {
-	args := map[string]interface{}{
-		"folder": REMOTE_FOLDER,
-	}
-	file, err := os.Open(filepath.Join(LOCAL_FOLDER, name))
-	if err != nil {
-		fmt.Println(err.Error())
-	} else {
-		result, httpResponse, err := pdf_api.UploadFile(path.Join(REMOTE_FOLDER, name), file, args)
-		if err != nil {
-			fmt.Println(err.Error())
-		} else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
-			fmt.Println("Unexpected error!")
-		} else {
-			fmt.Println(result)
-		}
-	}
-}
+    // Upload local file to the remote folder with check errors
+    func uploadFile(pdf_api *asposepdfcloud.PdfApiService, name string) {
+	    args := map[string]interface{}{
+		    "folder": REMOTE_FOLDER,
+	    }
+	    file, err := os.Open(filepath.Join(LOCAL_FOLDER, name))
+	    if err != nil {
+		    fmt.Println(err.Error())
+	    } else {
+		    result, httpResponse, err := pdf_api.UploadFile(path.Join(REMOTE_FOLDER, name), file, args)
+		    if err != nil {
+			    fmt.Println(err.Error())
+		    } else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
+			    fmt.Println("Unexpected error!")
+		    } else {
+			    fmt.Println(result)
+		    }
+	    }
+    }
 
-// Download file from remote folder and save it locally with check errors
-func downloadFile(pdf_api *asposepdfcloud.PdfApiService, name string, output_name string) {
-	args := map[string]interface{}{
-		"folder": REMOTE_FOLDER,
-	}
-	result_data, httpResponse, err := pdf_api.DownloadFile(path.Join(REMOTE_FOLDER, name), args)
-	if err != nil {
-		fmt.Println(err.Error())
-	} else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
-		fmt.Println("Unexpected error!")
-	} else {
-		fileName := path.Join(LOCAL_FOLDER, output_name)
-		f, _ := os.Create(fileName)
-		_, _ = f.Write(result_data)
-		fmt.Println("File '" + fileName + "'successfully downloaded.")
-	}
-}
+    // Download file from remote folder and save it locally with check errors
+    func downloadFile(pdf_api *asposepdfcloud.PdfApiService, name string, output_name string) {
+	    args := map[string]interface{}{
+		    "folder": REMOTE_FOLDER,
+	    }
+	    result_data, httpResponse, err := pdf_api.DownloadFile(path.Join(REMOTE_FOLDER, name), args)
+	    if err != nil {
+            fmt.Println(err.Error())
+	    } else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
+		    fmt.Println("Unexpected error!")
+	    } else {
+		    fileName := path.Join(LOCAL_FOLDER, output_name)
+		    f, _ := os.Create(fileName)
+		    _, _ = f.Write(result_data)
+		    fmt.Println("File '" + fileName + "'successfully downloaded.")
+	    }
+    }
 
-func changeDocumentPasswords(pdf_api *asposepdfcloud.PdfApiService, document string, output_document string, ownerPassword string, newUserPassword string, newOwnerPassword string, remote_folder string) {
-	uploadFile(pdf_api, document)
+    func changeDocumentPasswords(pdf_api *asposepdfcloud.PdfApiService, document string, output_document string, ownerPassword string, newUserPassword string, newOwnerPassword string, remote_folder string) {
+	    uploadFile(pdf_api, document)
 
-	args := map[string]interface{}{
-		"folder": remote_folder,
-	}
+	    args := map[string]interface{}{
+		    "folder": remote_folder,
+	    }
 
-	result, httpResponse, err := pdf_api.PostChangePasswordDocumentInStorage(document,
-		base64.StdEncoding.EncodeToString([]byte(ownerPassword)),
-		base64.StdEncoding.EncodeToString([]byte(newUserPassword)),
-		base64.StdEncoding.EncodeToString([]byte(newOwnerPassword)),
-		args)
-	if err != nil {
-		fmt.Println(err.Error())
-	} else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
-		fmt.Println("Unexpected error!")
-	} else {
-		fmt.Println(result)
+	    result, httpResponse, err := pdf_api.PostChangePasswordDocumentInStorage(document,
+		    base64.StdEncoding.EncodeToString([]byte(ownerPassword)),
+		    base64.StdEncoding.EncodeToString([]byte(newUserPassword)),
+		    base64.StdEncoding.EncodeToString([]byte(newOwnerPassword)),
+		    args)
+        if err != nil {
+		    fmt.Println(err.Error())
+	    } else if httpResponse.StatusCode < 200 || httpResponse.StatusCode > 299 {
+		    fmt.Println("Unexpected error!")
+	    } else {
+		    fmt.Println(result)
 
-		downloadFile(pdf_api, document, output_document)
-	}
-}
+		    downloadFile(pdf_api, document, output_document)
+	    }
+    }
 
 ```
 
@@ -185,5 +185,6 @@ Change a password in PDF documents with [Aspose.PDF Cloud Go SDK](https://produc
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
