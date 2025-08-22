@@ -172,7 +172,7 @@ border: none;
 {{< blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="文档" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="设置与部署" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#installation" >}}
+{{< blocks/products/pf/slr-element name="设置与部署" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#billing" >}}
 {{< blocks/products/pf/slr-element name="API 参考（Swagger）" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#using-swagger-ui" >}}
 {{< blocks/products/pf/slr-element name="curl, PHP, .NET, Java, Kotlin 示例" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-features" >}}
 {{< /blocks/products/pf/slr-tab >}}
@@ -190,7 +190,7 @@ border: none;
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/download-section
-downloadFreeTrialLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo"
+downloadFreeTrialLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-trial"
 pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}

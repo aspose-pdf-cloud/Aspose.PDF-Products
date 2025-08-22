@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {{< blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Documentation" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="Setup & Deployment" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#installation" >}}
+{{< blocks/products/pf/slr-element name="Setup & Deployment" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#billing" >}}
 {{< blocks/products/pf/slr-element name="API Reference (Swagger)" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#using-swagger-ui" >}}
 {{< blocks/products/pf/slr-element name="Samples for curl, PHP, .NET, Java, Kotlin" href="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-features" >}}
 {{< /blocks/products/pf/slr-tab >}}
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< blocks/products/pf/download-section 
-    downloadFreeTrialLink="https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo" 
+    downloadFreeTrialLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-trial" 
     pricingInformationLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
