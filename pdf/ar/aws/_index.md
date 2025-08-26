@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .forEach(btn => {
         btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo";
       });
-  }, 100); // small delay in case of async rendering
+  }, 1000);
 });
 </script>
 
