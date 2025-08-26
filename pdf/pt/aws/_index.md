@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelectorAll('a.btn-primary[href="https://dashboard.aspose.cloud/"]')
       .forEach(btn => {
-        btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo";
+        btn.href = "https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-trial";
       });
   }, 1000);
 });
