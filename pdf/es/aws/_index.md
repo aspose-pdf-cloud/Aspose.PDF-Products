@@ -152,10 +152,12 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     document.querySelectorAll('a.btn-primary[href="https://purchase.aspose.cloud/buy"]')
       .forEach(btn => btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo");
-    
-    document.querySelectorAll('a.btn[href="https://dashboard.aspose.cloud"]')
-      .forEach(btn => btn.href = "https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/#asposepdf-for-aws-trial");
-  }, 1000);
+
+    document.querySelectorAll('a.btn-primary[href="https://dashboard.aspose.cloud/"]')
+      .forEach(btn => {
+        btn.href = "https://aws.amazon.com/marketplace/fulfillment?productId=prod-u54zvr2umqvmo";
+      });
+  }, 100); // small delay in case of async rendering
 });
 </script>
 
