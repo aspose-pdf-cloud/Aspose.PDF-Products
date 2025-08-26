@@ -1,6 +1,6 @@
 ---
 title: Encrypt PDF in Go SDK 
-url: go/encrypt/
+url: go/encrypt
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the Go source code to encrypt PDF file.
 lastmod: "2025-04-19"
 ---

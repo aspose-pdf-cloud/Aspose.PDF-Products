@@ -1,6 +1,6 @@
 ---
 title: Decrypt PDF via Cloud Node.js SDK 
-url: nodejs/decrypt/
+url: nodejs/decrypt
 description: Aspose.PDF Cloud allows you to decrypt PDF Document. Check the Node.js source code to decrypt PDF file.
 lastmod: "2025-04-19"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Remove Bookmarks via Cloud Go SDK
-url: go/bookmarks/remove/
+url: go/bookmarks/remove
 description: Remove PDF bookmarks using Go and Aspose.PDF Cloud SDK. Simplify document structure.
 lastmod: "2025-05-20"
 ---

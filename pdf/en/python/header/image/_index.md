@@ -1,6 +1,6 @@
 ---
 title: Add Image in Header of PDF via Cloud Python SDK 
-url: python/header/image/
+url: python/header/image
 description: Add image headers to PDFs in Python using Aspose.PDF Cloud SDK. Enhance layout with branded elements.
 lastmod: "2024-10-19"
 ---

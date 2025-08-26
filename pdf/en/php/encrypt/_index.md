@@ -1,6 +1,6 @@
 ---
 title: Encrypt PDF via Cloud PHP SDK 
-url: php/encrypt/
+url: php/encrypt
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the PHP source code to encrypt PDF file.
 lastmod: "2025-04-19"
 ---

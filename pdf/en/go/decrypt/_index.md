@@ -1,6 +1,6 @@
 ---
 title: Decrypt PDF via Cloud Go SDK 
-url: go/decrypt/
+url: go/decrypt
 description: Aspose.PDF Cloud allows you to decrypt PDF Document. Check the Go source code to decrypt PDF file.
 lastmod: "2025-04-19"
 ---

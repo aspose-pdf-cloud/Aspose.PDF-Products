@@ -1,6 +1,6 @@
 ---
 title: Add Text in Footer of PDF via Cloud Python SDK 
-url: python/footer/text/
+url: python/footer/text
 description: Insert text footers into PDFs with Python and Aspose.PDF Cloud SDK. Customize footers dynamically.
 lastmod: "2024-10-19"
 ---
