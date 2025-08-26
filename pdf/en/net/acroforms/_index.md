@@ -20,7 +20,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
   <div class="container">
    <h2 class="pr-ft">Most popular actions with Acroforms in .NET</h2>
    <div class="col-lg-4">
-    <em class="fa fa-address-card ico-blue fa-2x col-lg-2"></em>
+    <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/acroforms/add/">Create or add new fields to Acroform</a></p>
    </div>
    <div class="col-lg-4">
