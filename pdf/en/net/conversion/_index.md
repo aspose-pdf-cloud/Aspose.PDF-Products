@@ -40,23 +40,15 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PDF to DOCX via .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Convert PDF to DOCX via .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud developers can easily load & convert PDF to DOCX files in just a few lines of code.
+The ConvertPDFtoDOCX() method uploads a local PDF file to Aspose Cloud Storage and converts it into a DOCX document. It uses the Aspose.PDF Cloud API, authenticates with AppSecret and AppKey, uploads the input PDF, requests the conversion in "Flow" mode for better text reflow, and saves the resulting DOCX file locally as sample.docx. Finally, it outputs the size of the converted file in bytes.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Create a new Configuration object with your Application Secret and Key
-1. Create an object to connect to the Cloud API
-1. Upload your document file
-1. Perform the conversion
-1. Download the result
-
 {{% /blocks/products/pf/agp/feature-section-col %}}
-
-
 
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to DOCX Cloud .NET SDK Conversion" offSpacer="" %}}
 
@@ -79,6 +71,105 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.GetPdfInStorageToDoc(storageImageFileName, format: "DocX", mode: "Flow");
         response.CopyTo(System.IO.File.OpenWrite("sample.docx"));
         Console.WriteLine($"PDF to DOCX result: {response.Length} bytes");
+    }
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/feature-section-col title="Save PDF as XLSX Files via .NET SDK" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+The ConvertPdfToXlsx() method uploads a local PDF file to Aspose Cloud Storage and converts it into an Excel (XLSX) spreadsheet. Using the Aspose.PDF Cloud API with AppSid and AppSecret, it uploads the PDF, performs the conversion, saves the result locally as sample.xlsx, and then prints the file size of the converted spreadsheet in bytes.
+
+{{% /blocks/products/pf/agp/text %}}
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/code-block title="This sample code shows PDF to XLSX Cloud .NET SDK Conversion" offSpacer="" %}}
+
+```cs
+
+    public static void ConvertPdfToXlsx()
+    {
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample.xlsx";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
+        
+        var response = pdfApi.GetPdfInStorageToXlsx(storageImageFileName);
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine($"PDF to Excel result: {response.Length} bytes");
+    }
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/feature-section-col title="Convert PDF to PowerPoint Presentations via .NET SDK" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+The ConvertPdfToPptx() method uploads a local PDF file to Aspose Cloud Storage and converts it into a PowerPoint (PPTX) presentation. Using the Aspose.PDF Cloud API with AppSid and AppSecret, it uploads the PDF, processes the conversion, saves the output locally as sample.pptx, and prints the size of the generated presentation in bytes.
+
+{{% /blocks/products/pf/agp/text %}}
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/code-block title="This sample code shows PDF to PowerPoint Cloud .NET SDK Conversion" offSpacer="" %}}
+
+```cs
+
+    public static void ConvertPdfToPptx()
+    {
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample.pptx";
+        
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
+
+        var response = pdfApi.GetPdfInStorageToPptx(storageImageFileName);
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine($"PDF to PPTX result: {response.Length} bytes");
+    }
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/feature-section-col title="Portable Document Format PDF to HTML Conversion via .NET SDK" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+The ConvertPdfToHtml() method uploads a local PDF file to Aspose Cloud Storage and converts it into an HTML format. Using the Aspose.PDF Cloud API with AppSid and AppSecret, it uploads the PDF, performs the conversion, saves the output as a ZIP archive (sample-html.zip) containing the HTML and related resources, and prints the size of the generated file in bytes.
+
+{{% /blocks/products/pf/agp/text %}}
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/code-block title="This sample code shows PDF to HTML Cloud .NET SDK Conversion" offSpacer="" %}}
+
+```cs
+
+    public static void ConvertPdfToHtml()
+    {
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageImageFileName = "sample.pdf";
+        const string resultFileName = "sample-html.zip";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+        using var file = File.OpenRead(localImageFileName);
+        pdfApi.UploadFile(storageImageFileName, file);
+
+        var response = pdfApi.GetPdfInStorageToHtml(storageImageFileName);
+        response.CopyTo(File.OpenWrite(resultFileName));
+        Console.WriteLine($"PDF to HTML result: {response.Length} bytes");
     }
 ```
 

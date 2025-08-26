@@ -56,8 +56,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-
-
 {{% blocks/products/pf/agp/code-block title="This sample code shows PDF to PPTX Cloud .NET SDK Conversion" offSpacer="" %}}
 
 ```cs
