@@ -1,6 +1,6 @@
 ---
 title: Add Image in Footer of PDF via Cloud PHP SDK 
-url: php/footer/image
+url: php/footer/image/
 description: Insert image footers into PDFs using Aspose.PDF Cloud SDK for PHP. Automate branding or signatures.
 lastmod: "2025-03-19"
 ---
@@ -199,5 +199,6 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud PHP SDK](https://produc
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
