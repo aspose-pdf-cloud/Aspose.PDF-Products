@@ -1,6 +1,6 @@
 ---
 title: Encrypt PDF via .NET SDK 
-url: net/encrypt
+url: net/encrypt/
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the .NET source code to encrypt PDF file.
 lastmod: "2025-08-19"
 ---
@@ -169,5 +169,6 @@ Encrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
