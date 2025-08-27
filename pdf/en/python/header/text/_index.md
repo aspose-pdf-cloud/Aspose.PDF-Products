@@ -1,6 +1,6 @@
 ---
 title: Add Text in Header of PDF via Cloud Python SDK 
-url: python/header/text
+url: python/header/text/
 description: Insert header text into PDFs using Python and Aspose.PDF Cloud SDK. Automate report generation.
 lastmod: "2024-10-19"
 ---
@@ -72,7 +72,7 @@ Aspose.PDF Cloud developers can easily load & add Text in Header of PDF in just 
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -190,5 +190,6 @@ Add the Header into PDF documents with [Aspose.PDF Cloud Python SDK](https://pro
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
