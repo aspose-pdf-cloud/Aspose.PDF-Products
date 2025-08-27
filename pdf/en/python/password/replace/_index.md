@@ -158,7 +158,7 @@ Change a password in a PDF document is crucial when access to its contents is re
 Using tools like Aspose.PDF Cloud, password changing can be performed easily and securely with just the correct owner or user password. This ensures sensitive information remains protected while still allowing flexibility for those who need legitimate access.
 
 Ultimately, password changing in a PDF enables smooth document handling and reinforces the importance of strong yet manageable document security practices.
-Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/python/).
+Change a password in PDF documents with [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/).
 
 **With our Python library you can:**
 
@@ -203,6 +203,7 @@ Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
