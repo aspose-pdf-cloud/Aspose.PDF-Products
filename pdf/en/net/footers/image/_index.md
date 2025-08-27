@@ -1,6 +1,6 @@
 ---
 title: Add Image in Footer of PDF via Cloud .NET SDK
-url: net/footers/image
+url: net/footers/image/
 description: Add image footers to PDF pages using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
 lastmod: "2025-08-18"
 ---
@@ -159,7 +159,7 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-net" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -179,5 +179,6 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
