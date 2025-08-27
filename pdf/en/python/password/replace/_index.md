@@ -52,12 +52,11 @@ Aspose.PDF Cloud developers can easily load & change a password in PDF just in a
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Create a new Configuration object with your Application Secret and Key
-1. Create an object to connect to the Cloud API
-1. Upload your encrypted document file
+1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/)
+1. Upload a PDF document to the Aspose Cloud server
 1. Call API to Password Change in Pdf document.
 1. Checks the response and logs the result.
-1. Downloads the updated file for local use.
+1. Download the processed PDF document from the Aspose Cloud server
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -204,6 +203,7 @@ Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
