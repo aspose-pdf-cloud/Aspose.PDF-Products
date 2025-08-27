@@ -22,13 +22,21 @@ This Cloud SDK assists Python programmers in developing cloud-based PDF creator,
 
 ```bash
 
-     
+
     pip install git+https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python.git
 
 
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+
+```bash
+
+    pip install asposepdfcloud
+
+```
 
 {{% /blocks/products/pf/agp/code-block %}}
 
@@ -196,6 +204,7 @@ Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
