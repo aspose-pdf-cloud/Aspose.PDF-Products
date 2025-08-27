@@ -72,7 +72,7 @@ Aspose.PDF Cloud developers can easily load & add Text in Footer of PDF in just 
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"..s\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -214,3 +214,4 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud Python SDK](https://pro
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
