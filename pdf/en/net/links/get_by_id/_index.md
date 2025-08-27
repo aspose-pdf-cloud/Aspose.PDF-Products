@@ -101,11 +101,53 @@ namespace Links
 
 {{% /blocks/products/pf/agp/code-block %}}
 
+{{% blocks/products/pf/agp/content h2="Work with the Links in PDF via .NET SDK" %}}
+
+By extracting links, one can systematically verify the validity and relevance of each URL, ensuring that all references are current and functional.​ For tasks such as downloading linked documents or conducting batch analyses, extracting URLs enables automation, saving time and reducing manual effort.
+Extract the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/).
+
+**With our .NET SDK you can**
+
++ Add PDF document's header & footer in text or image format.
++ Add tables & text or image stamps to PDF documents.
++ Append multiple PDF documents to an existing file.
++ Work with PDF attachments, annotations, & form fields.
++ Apply encryption or decryption to PDF documents & set a password.
++ Delete all stamps & tables from a page or entire PDF document.
++ Delete a specific stamp or table from the PDF document by its ID.
++ Replace single or multiple instances of text on a PDF page or from the entire document.
++ Extensive support for converting PDF documents to various other file formats.
++ Extract various elements of PDF files & make PDF documents optimized.
++ You can try out our [free App](https://products.aspose.app/pdf/) to test the functionality.
+
+{{% /blocks/products/pf/agp/content %}}
+
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
+{{< blocks/products/pf/support-learning-resources >}}
+{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.cloud/c/pdf/13" >}}
+{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.cloud" >}}
+{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.cloud/categories/aspose.pdf-cloud-product-family/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud for Go?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< /blocks/products/pf/support-learning-resources >}}
+
 {{< /blocks/products/pf/main-container >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
