@@ -1,6 +1,6 @@
 ---
 title: Get Bookmark by path via Cloud Node.js SDK
-url: nodejs/bookmarks/get-by-path
+url: nodejs/bookmarks/get-by-path/
 description: Retrieve bookmark by path from PDF files in your Node.js apps with Aspose.PDF Cloud SDK.
 lastmod: "2025-08-24"
 ---
@@ -149,5 +149,6 @@ Get the Bookmark by path from PDF documents with [Aspose.PDF Cloud Node.js SDK](
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
