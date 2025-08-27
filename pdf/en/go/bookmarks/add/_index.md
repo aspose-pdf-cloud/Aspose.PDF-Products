@@ -1,6 +1,6 @@
 ---
 title: Add Bookmarks via Cloud Go SDK
-url: go/bookmarks/add
+url: go/bookmarks/add/
 description: Add bookmarks to PDFs using Aspose.PDF Cloud SDK for Go. Enable navigation and structure in documents.
 lastmod: "2025-05-20"
 ---
@@ -142,5 +142,6 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud Go SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
