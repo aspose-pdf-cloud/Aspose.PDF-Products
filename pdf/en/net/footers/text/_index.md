@@ -168,6 +168,4 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 
 {{< /blocks/products/pf/main-container >}}
 
-
-
-
+{{< /blocks/products/pf/main-wrap-class >}}
