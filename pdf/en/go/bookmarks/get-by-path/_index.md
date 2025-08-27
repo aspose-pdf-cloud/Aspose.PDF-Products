@@ -1,6 +1,6 @@
 ---
 title: Get Bookmark via Cloud Go SDK 
-url: go/bookmarks/get-by-path
+url: go/bookmarks/get-by-path/
 description: Retrieve bookmark by path from PDF files using Aspose.PDF Cloud Go SDK.
 lastmod: "2025-08-22"
 ---
@@ -91,3 +91,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
