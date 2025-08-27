@@ -1,6 +1,6 @@
 ---
 title: Extract Links from PDF via Cloud PHP SDK 
-url: php/links/get
+url: php/links/get/
 description: Extract all links from PDF documents in PHP using Aspose.PDF Cloud SDK. Analyze embedded references.
 lastmod: "2025-03-19"
 ---
@@ -170,5 +170,6 @@ Get the links from PDF documents with [Aspose.PDF Cloud PHP SDK](https://product
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
