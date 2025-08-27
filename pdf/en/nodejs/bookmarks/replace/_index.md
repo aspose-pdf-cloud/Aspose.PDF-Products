@@ -1,6 +1,6 @@
 ---
 title: Replace Bookmarks via Cloud Node.js SDK
-url: nodejs/bookmarks/replace
+url: nodejs/bookmarks/replace/
 description: Replace PDF bookmarks using Aspose.PDF Cloud SDK for Node.js. Enable navigation and structure in documents.
 lastmod: "2025-08-24"
 ---
@@ -173,7 +173,7 @@ Replace Bookmarks in the PDF document with [Aspose.PDF Cloud Node.js SDK](https:
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-nodejs" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-node.js" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -195,5 +195,6 @@ Replace Bookmarks in the PDF document with [Aspose.PDF Cloud Node.js SDK](https:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
