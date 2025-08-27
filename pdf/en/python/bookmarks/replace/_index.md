@@ -1,6 +1,6 @@
 ---
 title: Replace Bookmarks in PDF via Cloud Python SDK 
-url: python/bookmarks/replace
+url: python/bookmarks/replace/
 description: Replace PDF bookmarks in Python using Aspose.PDF Cloud SDK. Update or reassign document navigation points.
 lastmod: "2024-10-19"
 ---
@@ -68,7 +68,7 @@ Aspose.PDF Cloud developers can easily load & replace Bookmarks from PDF in just
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -198,5 +198,6 @@ Replace the Bookmarks from PDF documents with [Aspose.PDF Cloud Python SDK](http
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
