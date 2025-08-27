@@ -1,6 +1,6 @@
 ---
 title: Decrypt PDF via Cloud Python SDK
-url: python/decrypt
+url: python/decrypt/
 description: Aspose.PDF Cloud allows you to decrypt PDF Document. Check the Python source code to decrypt PDF file.
 lastmod: "2025-04-19"
 ---
@@ -74,7 +74,7 @@ Aspose.PDF Cloud developers can easily load & decrypt PDF in just a few lines of
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample_encrypted.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -163,5 +163,6 @@ Decrypt PDF documents with [Aspose.PDF Cloud Python SDK](https://products.aspose
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
