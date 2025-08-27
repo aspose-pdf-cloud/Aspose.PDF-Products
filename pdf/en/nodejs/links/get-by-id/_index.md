@@ -1,6 +1,6 @@
 ---
 title: Extract Link by Id from PDF via Cloud Node.js SDK 
-url: nodejs/links/get-by-id
+url: nodejs/links/get-by-id/
 description: Extract hyperlink by Id from a PDF file using Aspose.PDF Cloud SDK for Node.js.
 lastmod: "2025-08-25"
 ---
@@ -140,7 +140,7 @@ Extract the Link by Id from PDF documents with [Aspose.PDF Cloud Node.js SDK](ht
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-nodejs" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-node.js" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -162,5 +162,6 @@ Extract the Link by Id from PDF documents with [Aspose.PDF Cloud Node.js SDK](ht
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
