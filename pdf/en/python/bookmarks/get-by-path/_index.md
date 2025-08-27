@@ -148,7 +148,7 @@ Get the Bookmarks from PDF documents with [Aspose.PDF Cloud Python SDK](https://
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-Python" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -171,3 +171,4 @@ Get the Bookmarks from PDF documents with [Aspose.PDF Cloud Python SDK](https://
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
