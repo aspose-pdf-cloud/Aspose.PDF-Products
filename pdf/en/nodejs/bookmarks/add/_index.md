@@ -1,6 +1,6 @@
 ---
 title: Add Bookmarks via Cloud Node.js SDK
-url: nodejs/bookmarks/add
+url: nodejs/bookmarks/add/
 description: Add bookmarks to PDFs using Aspose.PDF Cloud SDK for Node.js. Enable navigation and structure in documents.
 lastmod: "2025-02-20"
 ---
@@ -180,5 +180,6 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud Node.js SDK](https:/
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
