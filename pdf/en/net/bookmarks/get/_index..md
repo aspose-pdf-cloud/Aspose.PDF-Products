@@ -1,6 +1,6 @@
 ---
 title: Get Bookmarks via Cloud .NET SDK 
-url: net/bookmarks/get
+url: net/bookmarks/get/
 description: Retrieve bookmarks from PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-12"
 ---
@@ -111,3 +111,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
