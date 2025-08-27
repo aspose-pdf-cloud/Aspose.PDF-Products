@@ -1,6 +1,6 @@
 ---
-title: Encrypt PDF via Cloud PHP SDK 
-url: python/encrypt
+title: Encrypt PDF via Cloud Python SDK 
+url: python/encrypt/
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the Python source code to encrypt PDF file.
 lastmod: "2025-04-19"
 ---
@@ -73,7 +73,7 @@ Aspose.PDF Cloud developers can easily load & encrypt PDF in just a few lines of
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -166,5 +166,6 @@ Encrypt PDF documents with [Aspose.PDF Cloud Python SDK](https://products.aspose
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
