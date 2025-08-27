@@ -1,6 +1,6 @@
 ---
 title: Extract Bookmarks from PDF via Cloud Python SDK 
-url: python/bookmarks/get
+url: python/bookmarks/get/
 description: Extract all bookmarks from PDFs using Python with Aspose.PDF Cloud SDK. Analyze and export document structure.
 lastmod: "2024-10-19"
 ---
@@ -71,7 +71,7 @@ Aspose.PDF Cloud developers can easily load & extract Bookmarks from PDF in just
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         BOOKMARK_PATH = "/5"
@@ -144,5 +144,6 @@ Extract the Bookmarks from PDF documents with [Aspose.PDF Cloud Python SDK](http
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
