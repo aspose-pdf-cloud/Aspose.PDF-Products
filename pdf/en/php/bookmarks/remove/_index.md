@@ -1,6 +1,6 @@
 ---
 title: Remove Bookmarks from PDF via Cloud PHP SDK 
-url: php/bookmarks/remove
+url: php/bookmarks/remove/
 description: Remove bookmarks from PDF files using PHP and Aspose.PDF Cloud SDK. Clean up unnecessary navigation elements.
 lastmod: "2024-10-19"
 ---
@@ -184,5 +184,6 @@ Remove the Bookmarks from PDF documents with [Aspose.PDF Cloud PHP SDK](https://
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
