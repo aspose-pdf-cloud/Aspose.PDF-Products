@@ -1,6 +1,6 @@
 ---
 title: Replace Links in PDF via Cloud Node.js SDK 
-url: nodejs/links/replace
+url: nodejs/links/replace/
 description: Replace links in PDFs using Aspose.PDF Cloud SDK for Node.js. Update URLs efficiently.
 lastmod: "2025-02-19"
 ---
@@ -166,7 +166,7 @@ Replace the Links in PDF documents with [Aspose.PDF Cloud Node.js SDK](https://p
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-nodejs" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-node.js" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -188,5 +188,6 @@ Replace the Links in PDF documents with [Aspose.PDF Cloud Node.js SDK](https://p
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
