@@ -1,6 +1,6 @@
 ---
 title: Replace Bookmark in PDF via Cloud PHP SDK 
-url: php/bookmarks/remove
+url: php/bookmarks/remove/
 description: Replace bookmarks in PDF files using PHP and Aspose.PDF Cloud SDK. Clean up unnecessary navigation elements.
 lastmod: "2025-08-24"
 ---
@@ -248,5 +248,6 @@ Replace the Bookmarks in PDF documents with [Aspose.PDF Cloud PHP SDK](https://p
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
