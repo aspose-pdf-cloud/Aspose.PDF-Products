@@ -1,6 +1,6 @@
 ---
 title: Get Link via Cloud Python SDK 
-url: python/links/get-by-id
+url: python/links/get-by-id/
 description: Retrieve link by Id from PDF files using Aspose.PDF Cloud SDK for Python. Enhance discoverability and indexing.
 lastmod: "2025-08-26"
 ---
@@ -146,5 +146,6 @@ Get the link by Id from PDF documents with [Aspose.PDF Cloud Python SDK](https:/
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
