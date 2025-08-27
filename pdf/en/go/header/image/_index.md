@@ -1,6 +1,6 @@
 ---
 title: Add Image in Header of PDF via Cloud Go SDK
-url: go/header/image
+url: go/header/image/
 description: Add image headers to PDFs in Go with Aspose.PDF Cloud. Automate report formatting.
 lastmod: "2025-05-20"
 ---
@@ -150,5 +150,6 @@ Add the Header into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
