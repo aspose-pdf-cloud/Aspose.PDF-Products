@@ -52,10 +52,10 @@ Aspose.PDF Cloud developers can easily load & replace links in PDF in just a few
 
 1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/)
 1. Upload a PDF document to the Aspose Cloud server
-1. Download the processed PDF document from the Aspose Cloud server
 1. Show all hyperlink annotations for a specific PDF document
 1. Get all hyperlink annotations for a specific PDF document
 1. Replace link annotation
+1. Download the processed PDF document from the Aspose Cloud server
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -71,7 +71,7 @@ Aspose.PDF Cloud developers can easily load & replace links in PDF in just a few
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -198,5 +198,6 @@ Replave the links in PDF documents with [Aspose.PDF Cloud Python SDK](https://pr
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}

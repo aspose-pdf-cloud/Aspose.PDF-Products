@@ -73,7 +73,7 @@ Aspose.PDF Cloud developers can easily load & add links to PDF in just a few lin
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -173,5 +173,6 @@ Add the links into PDF documents with [Aspose.PDF Cloud Python SDK](https://prod
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
