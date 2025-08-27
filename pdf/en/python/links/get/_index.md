@@ -51,7 +51,9 @@ Aspose.PDF Cloud developers can easily load & get links from PDF in just a few l
 {{% /blocks/products/pf/agp/text %}}
 
 1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/)
-1. Upload a PDF document to the Aspose Cloud server
+1. Create a new Configuration object with your Application Secret and Key
+1. Create an object to connect to the Cloud API
+1. Upload your document file
 1. Get all hyperlink annotations for a specific PDF document
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -154,4 +156,5 @@ Get the links from PDF documents with [Aspose.PDF Cloud Python SDK](https://prod
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
