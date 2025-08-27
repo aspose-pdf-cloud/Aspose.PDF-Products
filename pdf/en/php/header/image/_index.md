@@ -1,6 +1,6 @@
 ---
 title: Add Image in Header of PDF via Cloud PHP SDK 
-url: php/header/image
+url: php/header/image/
 description: AAdd image headers to PDF documents with PHP and Aspose.PDF Cloud SDK. Automate consistent document branding.
 lastmod: "2025-03-19"
 ---
@@ -199,5 +199,6 @@ Add the Header into PDF documents with [Aspose.PDF Cloud PHP SDK](https://produc
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
