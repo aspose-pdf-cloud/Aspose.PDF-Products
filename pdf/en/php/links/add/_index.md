@@ -1,6 +1,6 @@
 ---
 title: Add Links to PDF via Cloud PHP SDK 
-url: php/links/add
+url: php/links/add/
 description: Add hyperlinks to PDF documents using PHP and Aspose.PDF Cloud SDK. Make content interactive.
 lastmod: "2024-10-19"
 ---
@@ -193,5 +193,6 @@ Add the links into PDF documents with [Aspose.PDF Cloud PHP SDK](https://product
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
