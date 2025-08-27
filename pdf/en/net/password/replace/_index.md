@@ -122,7 +122,7 @@ Aspose.PDF Cloud developers can easily load & change a password in PDF just in a
 
 {{% /blocks/products/pf/agp/code-block %}}
 
-{{% blocks/products/pf/agp/content h2="Password change in PDF" %}}
+{{% blocks/products/pf/agp/content h2="Password change in PDF via .NET SDK" %}}
 
 Change a password in a PDF document is crucial when access to its contents is restricted due to encryption. It allows authorized users to regain full control over the file, enabling editing, viewing, and content extraction. This process is especially important in workflows where secure documents must be accessed programmatically or integrated into larger systems.
 
@@ -174,3 +174,4 @@ Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
