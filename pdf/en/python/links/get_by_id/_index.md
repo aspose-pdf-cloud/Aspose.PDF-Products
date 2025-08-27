@@ -52,6 +52,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
+1. Install [Python SDK](https://pypi.org/project/asposepdfcloud/)
 1. Create a new Configuration object with your Application Secret and Key
 1. Create an object to connect to the Cloud API
 1. Upload your document file
@@ -159,4 +160,5 @@ Get the link by Id from PDF documents with [Aspose.PDF Cloud Python SDK](https:/
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
