@@ -1,6 +1,6 @@
 ---
 title: Extract Bookmark by path from PDF via Cloud PHP SDK 
-url: php/bookmarks/get-by-path
+url: php/bookmarks/get-by-path/
 description: Extract bookmark by path from PDFs using Aspose.PDF Cloud SDK for PHP. Programmatically retrieve document structure.
 lastmod: "2025-08-24"
 ---
@@ -186,5 +186,6 @@ Extract the Bookmark by path from PDF documents with [Aspose.PDF Cloud PHP SDK](
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
