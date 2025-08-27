@@ -105,7 +105,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 Over time, hyperlinks may become obsolete or lead to no longer existing pages. Such broken links can frustrate readers and diminish the document's credibility. Removing these ensures the content remains accurate and reliable.​
 Delete the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/).
 
-**With our Go SDK you can**
+**With our .NET SDK you can**
 
 + Add PDF document's header & footer in text or image format.
 + Add tables & text or image stamps to PDF documents.
@@ -149,5 +149,6 @@ Delete the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pro
 
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
