@@ -1,6 +1,6 @@
 ---
 title: Replace Links in PDF via Cloud PHP SDK 
-url: php/links/replace
+url: php/links/replace/
 description: Aspose.PDF Cloud allows you to replace a Links in a PDF Document. Check the PHP source code to replace a Links in PDF file.
 lastmod: "2024-10-19"
 ---
@@ -223,5 +223,6 @@ Replace the Links in PDF documents with [Aspose.PDF Cloud Node.js SDK](https://p
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
