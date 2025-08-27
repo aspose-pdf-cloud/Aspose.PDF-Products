@@ -22,9 +22,19 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```bash
 
-     
+
     pip install git+https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python.git
 
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+
+```bash
+
+    pip install asposepdfcloud
 
 ```
 
@@ -149,3 +159,4 @@ Get the link by Id from PDF documents with [Aspose.PDF Cloud Python SDK](https:/
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
