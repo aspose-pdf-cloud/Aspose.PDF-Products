@@ -1,6 +1,6 @@
 ---
 title: Get Link via Cloud Go SDK 
-url: go/links/get-by-id
+url: go/links/get-by-id/
 description: Retrieve link from PDF files using Aspose.PDF Cloud SDK for Go. Enhance discoverability and indexing.
 lastmod: "2025-08-25"
 ---
@@ -91,3 +91,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
