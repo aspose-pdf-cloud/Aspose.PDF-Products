@@ -1,6 +1,6 @@
 ---
 title: Extract Bookmarks from PDF via Cloud PHP SDK 
-url: php/bookmarks/get
+url: php/bookmarks/get/
 description: Extract bookmarks from PDFs using Aspose.PDF Cloud SDK for PHP. Programmatically retrieve document structure.
 lastmod: "2025-03-19"
 ---
@@ -171,5 +171,6 @@ Extract the Bookmarks from PDF documents with [Aspose.PDF Cloud PHP SDK](https:/
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
