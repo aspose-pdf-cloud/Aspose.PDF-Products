@@ -1,6 +1,6 @@
 ---
 title: Password changing in PDF via Cloud Node.js SDK 
-url: nodejs/password/replace
+url: nodejs/password/replace/
 description: Aspose.PDF Cloud allows you to change password in PDF Document. Check the Node.js source code to change password in PDF file.
 lastmod: "2025-08-20"
 ---
@@ -172,5 +172,6 @@ Change a password in PDF documents with [Aspose.PDF Cloud Node.js SDK](https://p
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
