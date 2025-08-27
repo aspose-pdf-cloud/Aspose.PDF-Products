@@ -1,6 +1,6 @@
 ---
 title: Encrypt PDF in Node.js SDK 
-url: nodejs/encrypt
+url: nodejs/encrypt/
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the Node.js source code to encrypt PDF file.
 lastmod: "2025-04-19"
 ---
@@ -142,7 +142,7 @@ Encrypt PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspos
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-nodejs" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-node.js" >}}
 {{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
@@ -164,5 +164,6 @@ Encrypt PDF documents with [Aspose.PDF Cloud Node.js SDK](https://products.aspos
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
