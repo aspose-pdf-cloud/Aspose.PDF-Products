@@ -1,6 +1,6 @@
 ---
 title: Add Bookmarks to PDF via Cloud Python SDK 
-url: python/bookmarks/add
+url: python/bookmarks/add/
 description: Add bookmarks to PDF files in Python using Aspose.PDF Cloud SDK. Improve document navigation and structure.
 lastmod: "2024-10-19"
 ---
@@ -178,5 +178,6 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud Python SDK](https://
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
