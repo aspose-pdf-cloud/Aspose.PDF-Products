@@ -1,6 +1,6 @@
 ---
 title: Get Link via Cloud PHP SDK 
-url: go/links/get-by-id
+url: go/links/get-by-id/
 description: Retrieve link from PDF files using Aspose.PDF Cloud SDK for Go. Enhance discoverability and indexing.
 lastmod: "2025-08-25"
 ---
@@ -191,3 +191,4 @@ Get the links from PDF documents with [Aspose.PDF Cloud PHP SDK](https://product
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
