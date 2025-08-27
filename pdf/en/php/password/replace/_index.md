@@ -1,6 +1,6 @@
 ---
 title: Password changing in PDF via Cloud PHP SDK 
-url: php/password/replace
+url: php/password/replace/
 description: Aspose.PDF Cloud allows you to change password in PDF Document. Check the Node.js source code to change password in PDF file.
 lastmod: "2025-08-20"
 ---
@@ -194,5 +194,6 @@ Change a password in PDF documents with [Aspose.PDF Cloud PHP SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
