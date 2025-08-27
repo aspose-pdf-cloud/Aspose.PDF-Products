@@ -1,6 +1,6 @@
 ---
 title: Add Text in Footer of PDF via Cloud PHP SDK 
-url: php/footer/text
+url: php/footer/text/
 description: Add text-based footers to PDF pages in PHP using Aspose.PDF Cloud. Customize reports and document layout.
 lastmod: "2025-03-19"
 ---
@@ -192,5 +192,6 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud PHP SDK](https://produc
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
