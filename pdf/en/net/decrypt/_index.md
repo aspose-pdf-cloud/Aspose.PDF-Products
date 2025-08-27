@@ -1,6 +1,6 @@
 ---
 title: Decrypt PDF via Cloud .NET SDK 
-url: net/decrypt
+url: net/decrypt/
 description: Aspose.PDF Cloud allows you to decrypt PDF Document. Check the .NET source code to decrypt PDF file.
 lastmod: "2025-08-20"
 ---
@@ -169,5 +169,6 @@ Decrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
