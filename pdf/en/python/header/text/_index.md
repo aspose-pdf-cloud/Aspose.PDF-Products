@@ -217,3 +217,4 @@ Add the Header into PDF documents with [Aspose.PDF Cloud Python SDK](https://pro
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

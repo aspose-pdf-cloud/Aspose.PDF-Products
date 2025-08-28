@@ -168,8 +168,5 @@ Get the Bookmarks from PDF documents with [Aspose.PDF Cloud Python SDK](https://
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
 
 
