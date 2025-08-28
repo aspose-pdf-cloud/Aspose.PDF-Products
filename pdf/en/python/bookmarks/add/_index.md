@@ -175,8 +175,53 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud Python SDK](https://
 
 {{% /blocks/products/pf/agp/content %}}
 
+{{% blocks/products/pf/agp/content h2="Work with the bookmarks in PDF via Python SDK" %}}
+
+Adding bookmarks to a PDF significantly improves document usability by enhancing navigation, organization, and accessibility. It is essential for large documents, ensuring users can efficiently find and access relevant content.
+Add the Bookmarks into PDF documents with [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/).
+
+**With our Python SDK you can**
+
++ Add PDF document's header & footer in text or image format.
++ Add tables & text or image stamps to PDF documents.
++ Append multiple PDF documents to an existing file.
++ Work with PDF attachments, annotations, & form fields.
++ Apply encryption or decryption to PDF documents & set a password.
++ Delete all stamps & tables from a page or entire PDF document.
++ Delete a specific stamp or table from the PDF document by its ID.
++ Replace single or multiple instances of text on a PDF page or from the entire document.
++ Extensive support for converting PDF documents to various other file formats.
++ Extract various elements of PDF files & make PDF documents optimized.
++ You can try out our [free App](https://products.aspose.app/pdf/) to add the bookmarks into PDF files online and test the functionality.
+
+{{% /blocks/products/pf/agp/content %}}
+
 {{< /blocks/products/pf/agp/feature-section >}}
 
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+
+{{< blocks/products/pf/support-learning-resources >}}
+{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.cloud/c/pdf/13" >}}
+{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.cloud" >}}
+{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.cloud/categories/aspose.pdf-cloud-product-family/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud for Python?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< /blocks/products/pf/support-learning-resources >}}
 {{< /blocks/products/pf/main-container >}}
 
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
