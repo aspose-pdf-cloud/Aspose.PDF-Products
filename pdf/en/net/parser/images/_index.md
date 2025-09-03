@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for extraction Images via Cloud .NET SDK 
-url: net/parser/images
+url: net/parser/images/
 description: Parse PDF files for extraction Images using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -149,3 +149,4 @@ Parse PDF documents for extracting images with [Aspose.PDF Cloud .NET SDK](https
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
