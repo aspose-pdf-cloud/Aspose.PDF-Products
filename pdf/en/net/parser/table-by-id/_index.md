@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for Table by Id extraction via Cloud .NET SDK 
-url: net/parser/table-by-id
+url: net/parser/table-by-id/
 description: Parse PDF files for Table by Id extraction using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -146,3 +146,4 @@ Parse PDF documents to extraction table by Id with [Aspose.PDF Cloud .NET SDK](h
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
