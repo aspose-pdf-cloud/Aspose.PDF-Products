@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for extraction Texts via Cloud .NET SDK 
-url: net/parser/texts
+url: net/parser/texts/
 description: Parse PDF files for extraction Texts using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -149,3 +149,4 @@ Parse PDF documents to extraction texts with [Aspose.PDF Cloud .NET SDK](https:/
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
