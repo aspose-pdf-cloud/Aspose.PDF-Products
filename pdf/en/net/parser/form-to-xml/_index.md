@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for extraction Form fields as XML via Cloud .NET SDK 
-url: net/parser/form-to-xml
+url: net/parser/form-to-xml/
 description: Parse PDF files for extraction Form fields as XML using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -153,4 +153,5 @@ Parse PDF documents for extracting Form fields as XML with [Aspose.PDF Cloud .NE
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
