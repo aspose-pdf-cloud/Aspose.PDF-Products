@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for Tables extraction via Cloud .NET SDK 
-url: net/parser/tables
+url: net/parser/tables/
 description: Parse PDF files for Tables extraction using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -149,3 +149,4 @@ Parse PDF documents to extraction tables with [Aspose.PDF Cloud .NET SDK](https:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
