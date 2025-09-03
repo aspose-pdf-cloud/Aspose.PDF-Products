@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for extraction Text by name via Cloud .NET SDK 
-url: net/parser/text-by-name
+url: net/parser/text-by-name/
 description: Parse PDF files for extraction Text by name using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -146,3 +146,4 @@ Parse PDF documents to extraction text by name with [Aspose.PDF Cloud .NET SDK](
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
