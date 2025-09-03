@@ -17,7 +17,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
  For adding tables to PDF documents, we'll use
  [Aspose.PDF Cloud Go SDK](https://products.aspose.cloud/pdf/go/)
- This Cloud SDK SDK assists Go programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Go programming language via Aspose.PDF REST API. Use the following command from the Package Manager Console.
+ This Cloud Go SDK assists Go programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Go programming language via Aspose.PDF REST API. Use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
