@@ -1,6 +1,6 @@
 ---
 title: Appending Signature via Cloud .NET SDK 
-url: net/signatures/add
+url: net/signatures/add/
 description: Add signature to PDF files using Aspose.PDF Cloud SDK for .NET. Sign PDF documents.
 lastmod: "2025-08-12"
 ---
@@ -172,3 +172,4 @@ Add the Signature for PDF documents with [Aspose.PDF Cloud .NET SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
