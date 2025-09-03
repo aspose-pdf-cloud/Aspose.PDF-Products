@@ -1,6 +1,6 @@
 ---
 title: Parse Pdf for Image by Id extraction via Cloud .NET SDK 
-url: net/parser/image-by-id
+url: net/parser/image-by-id/
 description: Parse PDF files for Image by Id extraction using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-22"
 ---
@@ -146,3 +146,4 @@ Parse PDF documents for extraction image by Id with [Aspose.PDF Cloud .NET SDK](
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
