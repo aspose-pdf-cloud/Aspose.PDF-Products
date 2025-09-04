@@ -1,5 +1,5 @@
 ---
-title: Adding Images to PDF via Cloud .NET SDK 
+title: Adding Tables to PDF via Cloud .NET SDK 
 url: net/table/add/
 description: Add tables to PDFs using Aspose.PDF Cloud SDK for .NET. Dynamically generate structured layouts in documents.
 lastmod: "2024-11-19"
@@ -123,6 +123,26 @@ Add the Table into PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pro
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+
+{{< blocks/products/pf/support-learning-resources >}}
+{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.cloud/c/pdf/13" >}}
+{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.cloud" >}}
+{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.cloud/categories/aspose.pdf-cloud-product-family/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud for .NET?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< /blocks/products/pf/support-learning-resources >}}
 
 {{< /blocks/products/pf/main-container >}}
 
