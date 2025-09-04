@@ -1,6 +1,6 @@
 ---
 title: Get Tables on page from PDF via Cloud .NET SDK 
-url: net/table/get/
+url: net/table/get-on-page/
 description: Extract tables on page from PDFs using Aspose.PDF Cloud SDK for .NET. Extract all tables on page from documents.
 lastmod: "2025-08-29"
 ---
@@ -148,3 +148,4 @@ Get all Tables on page from PDF documents with [Aspose.PDF Cloud Node.js SDK](ht
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
