@@ -1,6 +1,6 @@
 ---
 title: Get Table by Id from PDF via Cloud .NET SDK 
-url: net/table/get/
+url: net/table/get-by-id/
 description: Extract table by Id from PDFs using Aspose.PDF Cloud SDK for .NET. Extract table from documents using table Id.
 lastmod: "2025-08-29"
 ---
@@ -145,3 +145,4 @@ Get Table by Id from PDF documents with [Aspose.PDF Cloud Node.js SDK](https://p
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
