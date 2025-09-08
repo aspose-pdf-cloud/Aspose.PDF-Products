@@ -64,11 +64,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Create a new Configuration object with your Application Secret and Key
-1. Create an object to connect to the Cloud API
-1. Upload your document file
-1. Perform the creating
-1. Download the result
+1. Create an instance of PdfApi using your AppSid and AppSecret from Aspose Cloud Dashboard.
+1. Check Cloud Storage for File. Retrieve the list of files in cloud storage using GetFilesList(""). If the target file is not found, proceed to upload it.
+1. Upload PDF to Cloud Storage (if needed).
+1. Create a TextBox Field. Instantiate a TextBoxField object for page 1 and set properties.
+1. Add the Field to the PDF. Use PutTextBoxField to insert the field into the document stored in the cloud.
+1. Print Operation Status. Output the result status to the console.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
