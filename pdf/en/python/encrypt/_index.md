@@ -1,5 +1,5 @@
 ---
-title: Encrypt PDF via Cloud PHP SDK 
+title: Encrypt PDF via Cloud Python SDK 
 url: python/encrypt/
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the Python source code to encrypt PDF file.
 lastmod: "2025-04-19"
@@ -73,7 +73,7 @@ Aspose.PDF Cloud developers can easily load & encrypt PDF in just a few lines of
 
     class Config:
         """Configuration parameters."""
-        CREDENTIALS_FILE = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+        CREDENTIALS_FILE = Path(r"..\\credentials.json")
         LOCAL_FOLDER = Path(r"C:\Samples")
         PDF_DOCUMENT_NAME = "sample.pdf"
         LOCAL_RESULT_DOCUMENT_NAME = "output_sample.pdf"
@@ -149,21 +149,49 @@ Aspose.PDF Cloud developers can easily load & encrypt PDF in just a few lines of
 {{% blocks/products/pf/agp/content h2="Encrypt PDF" %}}
 
 Encrypting a PDF document is a simple yet powerful way to protect sensitive content, ensure privacy, and maintain control over how the document is used. Whether you're sharing business contracts, financial reports, or personal records, encryption helps safeguard your information from unauthorized access, tampering, or misuse.
+
 By applying encryption and setting appropriate permissions, you enhance the document's security, ensure compliance with industry regulations, and build trust with your audience. In today's digital world, PDF encryption is not just a feature—it's a necessity for responsible data handling.
 Encrypt PDF documents with [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/).
 
 **With our Python library you can:**
 
-+ Combine PDF documents.
-+ Split PDF Files.
-+ Convert PDF to other formats, and vice versa.
-+ Manipulate Annotations.
-+ Work with Images in PDF, etc.
++ Add PDF document's header & footer in text or image format.
++ Add tables & text or image stamps to PDF documents.
++ Append multiple PDF documents to an existing file.
++ Work with PDF attachments, annotations, & form fields.
++ Apply encryption or decryption to PDF documents & set a password.
++ Delete all stamps & tables from a page or entire PDF document.
++ Delete a specific stamp or table from the PDF document by its ID.
++ Replace single or multiple instances of text on a PDF page or from the entire document.
++ Extensive support for converting PDF documents to various other file formats.
++ Extract various elements of PDF files & make PDF documents optimized.
 + You can try out our [free Apps](https://products.aspose.app/pdf/family/) to test the functionality online.
 
 {{% /blocks/products/pf/agp/content %}}
 
 {{< /blocks/products/pf/agp/feature-section >}}
+
+{{< blocks/products/pf/agp/faq-item question="" answer="" >}}
+
+{{< blocks/products/pf/support-learning-resources >}}
+{{< blocks/products/pf/slr-tab tabTitle="Learning Resources" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
+{{< blocks/products/pf/slr-element name="Source Code" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" >}}
+{{< blocks/products/pf/slr-element name="API References" href="https://reference.aspose.cloud/pdf/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Product Support" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Free Support" href="https://forum.aspose.cloud/c/pdf/13" >}}
+{{< blocks/products/pf/slr-element name="Paid Support" href="https://helpdesk.aspose.cloud" >}}
+{{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.cloud/categories/aspose.pdf-cloud-product-family/" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud for Python ?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< /blocks/products/pf/slr-tab >}}
+
+{{< /blocks/products/pf/support-learning-resources >}}
 
 {{< /blocks/products/pf/main-container >}}
 
