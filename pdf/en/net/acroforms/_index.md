@@ -31,6 +31,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/acroforms/set/">Set PDF Acroforms</a></p>
    </div>
+    </div>
+     </div>
+      </div>
 
 {{% blocks/products/pf/agp/content h2="How to Manage PDF Forms Using Cloud .NET SDK " %}}
 

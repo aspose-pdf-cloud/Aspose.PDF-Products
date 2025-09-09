@@ -19,22 +19,21 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">Most popular actions with Pages in .NET</h2>
-   <div class="col-lg-3">
+   <div class="col-lg-4">
     <em class="fa fa-picture-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/pages/add/">Add Pages to PDF</a></p>
    </div>
-   <div class="col-lg-3">
-    <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/pages/get/">Get Pages in PDF</a></p>
-   </div>
-    <div class="col-lg-3">
+    <div class="col-lg-4">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/pages/delete/">Delete Pages from PDF</a></p>
    </div>
-    <div class="col-lg-3">
+    <div class="col-lg-4">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/pages/move/">Move Pages in PDF</a></p>
    </div>
+    </div>
+     </div>
+      </div>
 
 {{% blocks/products/pf/agp/content h2="How to work with Pages in the PDF documents using Cloud .NET SDK " %}}
 

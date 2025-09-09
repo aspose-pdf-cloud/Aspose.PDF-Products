@@ -25,6 +25,9 @@ lastmod: "2024-10-31"
     <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/get/">Extract Attachments in PDF</a></p>
    </div>
+    </div>
+     </div>
+      </div>
 
 {{% blocks/products/pf/agp/content h2="How to extract or append attachments in PDF documents using C# Cloud API" %}}
 
