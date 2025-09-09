@@ -1,6 +1,6 @@
 ---
 title: Delete Link via Cloud .NET SDK
-url: net/links/remove/
+url: net/links/delete/
 description: Delete Link from PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-08-15"
 ---

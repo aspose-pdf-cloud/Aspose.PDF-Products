@@ -1,12 +1,12 @@
 ---
-title: Set Form Fields from PDF Document via Cloud .NET SDK
+title: Set Form Fields in PDF Document via Cloud .NET SDK
 url: net/acroforms/set/
-description: Set AcroForm fields in PDF documents using Aspose.PDF Cloud SDK for .NET. Automate interactive form creation easily.
+description: Set Form Fields in PDF via Aspose.PDF Cloud SDK for .NET. Automate interactive form creation easily.
 lastmod: "2022-03-19"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Set PDF Forms in .NET SDK" h2="Build your own Cloud apps to set Fillable document files using server-side APIs." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Set Form Fields in PDF via .NET SDK" h2="Build your own Cloud apps to set Fillable document files using server-side APIs." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
@@ -15,7 +15,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% blocks/products/pf/agp/content h2="How to Set Form Fields from PDF Document using Cloud .NET SDK" %}}
 
- In order to set an AcroForm via Cloud .NET SDK , we'll use
+ In order to set Form Fields in PDF via Cloud .NET SDK , we'll use
  [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/)
  This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in C#, ASP.NET, or other .NET languages for various cloud platforms. Open
  [NuGet](https://www.nuget.org/packages/Aspose.Pdf-Cloud)
@@ -40,11 +40,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to set AcroForms via .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to set Form Fields in PDF via via .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud developers can easily load & set acroforms in PDF in just a few lines of code.
+ Aspose.PDF Cloud developers can easily load & set Form Fields in PDF via in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -69,7 +69,7 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows setting an AcroForms in PDF documents" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows setting Form Fields in PDF documents" offSpacer="" %}}
 
 ```cs
 
