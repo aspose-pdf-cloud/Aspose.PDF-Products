@@ -17,11 +17,11 @@ lastmod: "2024-10-31"
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">Most popular actions with Attachments in .NET</h2>
-   <div class="col-lg-4">
+   <div class="col-lg-6">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/add/">Add new Attachments</a></p>
    </div>
-   <div class="col-lg-4">
+   <div class="col-lg-6">
     <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/attachments/get/">Extract Attachments in PDF</a></p>
    </div>

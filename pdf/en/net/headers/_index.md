@@ -19,11 +19,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  <div class="row">
   <div class="container">
    <h2 class="pr-ft">Most popular actions with Headers in .NET</h2>
-   <div class="col-lg-4">
+   <div class="col-lg-6">
     <em class="fa fa-picture-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/headers/image/">Add Image in Header</a></p>
    </div>
-   <div class="col-lg-4">
+   <div class="col-lg-6">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/headers/text/">Add Text in Header</a></p>
    </div>
