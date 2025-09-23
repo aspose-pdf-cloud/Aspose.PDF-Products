@@ -46,7 +46,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 11. Create a new Configuration object with your Application Secret and Key
 1. Create an object to connect to the Cloud API
 1. Upload your document file
-1. Parse PDF documents for extraction Text by name in cloud storage using get_text_box_field function
+1. Parse PDF documents for extraction Texts in PDF document on cloud storage using get_document_text_box_fields function
 1. Checks the response and logs the result
 1. Download Text box info in JSON file locally if needet
 
@@ -87,12 +87,12 @@ class ParseExtractTextBox:
                 logging.error(f"Failed to upload file: {e}")
 
    def Extract(self, documentName: str, texxtboxName: str, localFolder: Path, remoteFolder: Path):
-        self.helper.upload_document(documentName, remoteFolder)
+        self.upload_document(documentName, remoteFolder)
 
         opts = {
             "folder": remoteFolder
         }
-        respTextBoxes = self.helper.pdf_api.get_document_text_box_fields(documentName, **opts)
+        respTextBoxes = self.pdf_api.get_document_text_box_fields(documentName, **opts)
         if respTextBoxes.code != 200:
             logging.error("GetTextBoxes(): Unexpected error!")
         else:
@@ -158,4 +158,5 @@ Parse PDF documents to extraction texts with [Aspose.PDF Cloud Python SDK](https
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
