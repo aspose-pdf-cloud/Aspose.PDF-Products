@@ -16,7 +16,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% blocks/products/pf/agp/content h2="How to parse PDF documents for extraction Form fields as XML using Cloud Go SDK" %}}
 
  For parse PDF documents to extract Form fields as XML via Cloud Go SDK , we'll use
- [Aspose.PDF Cloud Go SDK](https://products.aspose.cloud/pdf/net/)
+ [Aspose.PDF Cloud Go SDK](https://products.aspose.cloud/pdf/go/)
  This Cloud Go SDK assists Go programmers in developing cloud-based PDF creator, annotator, editor, converter and parser apps using Go programming language via Aspose.PDF REST API. Use the following command from the Package Manager Console.
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
@@ -148,5 +148,6 @@ Parse PDF documents for extracting Form fields as XML with [Aspose.PDF Cloud Go 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
