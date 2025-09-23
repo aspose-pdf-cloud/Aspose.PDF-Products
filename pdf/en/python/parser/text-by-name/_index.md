@@ -88,12 +88,12 @@ class ParseExtractTextBox:
                 logging.error(f"Failed to upload file: {e}")
 
    def Extract(self, documentName: str, texxtboxName: str, localFolder: Path, remoteFolder: Path):
-        self.helper.upload_document(documentName, remoteFolder)
+        self.upload_document(documentName, remoteFolder)
 
         opts = {
             "folder": remoteFolder
         }
-	response = pdf_api.get_text_box_field(documentName, textboxName, **opts)
+	response = self.pdf_api.get_text_box_field(documentName, textboxName, **opts)
         if response.code != 200:
             logging.error("ParseExtractTextBox(): Unexpected error!")
         else:
@@ -110,7 +110,7 @@ class ParseExtractTextBox:
 {{% blocks/products/pf/agp/content h2="Work with the Text parsing in PDF via Python SDK" %}}
 
 By parsing PDF documents for text extraction by name, you can modify the content of TextBox field as needed. This maintains the position of the text in the documents while saving time and reducing manual work.
-Parse PDF documents to extraction text by name with [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/net/).
+Parse PDF documents to extraction text by name with [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/).
 
 **With our Python SDK you can**
 
@@ -155,4 +155,5 @@ Parse PDF documents to extraction text by name with [Aspose.PDF Cloud Python SDK
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
