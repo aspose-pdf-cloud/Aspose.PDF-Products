@@ -25,12 +25,22 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
      
     go get -u github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25
-     
-     
+
 
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
+
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+
+```bash
+     
+    pip install asposepdfcloud
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
 
 {{% /blocks/products/pf/agp/content %}}
 
@@ -148,6 +158,7 @@ Parse PDF documents for extracting Form fields as XML with [Aspose.PDF Cloud Go 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
