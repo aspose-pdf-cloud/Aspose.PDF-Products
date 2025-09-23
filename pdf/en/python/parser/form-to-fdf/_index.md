@@ -31,6 +31,16 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/code-block %}}
 
+{{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
+
+```bash
+     
+    pip install asposepdfcloud
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
 {{% /blocks/products/pf/agp/content %}}
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
@@ -164,6 +174,7 @@ Parse PDF documents for extracting Form fields as FDF with [Aspose.PDF Cloud Pyt
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
