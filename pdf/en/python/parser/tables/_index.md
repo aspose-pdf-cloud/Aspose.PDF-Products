@@ -93,7 +93,7 @@ class ParseExtractTables:
         opts = {
             "folder": remoteFolder
         }
-        respTables = self.helper.pdf_api.get_document_tables(documentName, **opts)
+        respTables = self.pdf_api.get_document_tables(documentName, **opts)
         if respTables.code != 200:
             logging.error("GetTables(): Unexpected error!")
         else:
@@ -159,4 +159,3 @@ Parse PDF documents to extraction tables with [Aspose.PDF Cloud Python SDK](http
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
