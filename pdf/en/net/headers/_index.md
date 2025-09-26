@@ -1,12 +1,12 @@
 ---
-title: Work with Headers in PDF via Cloud .NET SDK
-url: net/headers/
-description: Add headers to PDF pages using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
+title: Add Text Header to PDFs via Cloud .NET SDK
+url: net/headers/text/
+description: Add text headers to PDF documents using Aspose.PDF Cloud SDK in .NET. Branding, signatures, images and more.
 lastmod: "2025-08-18"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Add Headers to PDF via .NET SDK" h2="API for adding Headers to PDF documents with Aspose.PDF Cloud .NET SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Add Text Headers to PDF documents via .NET SDK" h2="API for adding Text Headers to PDF documents with Aspose.PDF Cloud .NET SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName=".NET SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
