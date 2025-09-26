@@ -1,6 +1,6 @@
 ---
 title: Work with Headers in PDFs via Cloud .NET SDK
-url: net/headers/text/
+url: net/headers/
 description: Add headers to PDF documents using Aspose.PDF Cloud SDK in .NET. Branding, signatures, images and more.
 lastmod: "2025-08-18"
 ---
