@@ -1,7 +1,7 @@
 ---
 title: Add Text to Headers of PDFs via Cloud Go SDK
 url: go/header/text/
-description: Append text to the Headers to PDF documents using Aspose.PDF Cloud SDK for Go. Automating report formatting.
+description: Append text to the Headers of PDF documents using Aspose.PDF Cloud SDK for Go. Automating report formatting.
 lastmod: "2025-05-20"
 ---
 
@@ -144,9 +144,6 @@ Add the Header into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-
 
 
 
