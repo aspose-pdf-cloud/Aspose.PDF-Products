@@ -1,12 +1,12 @@
 ---
 title: Add Text to Footer of PDFs via Cloud Go SDK
 url: go/footer/text/
-description: Insert text-based footers in PDFs using Go with Aspose.PDF Cloud SDK.
+description: Insert Text to the Footers in PDFs using Go with Aspose.PDF Cloud SDK.
 lastmod: "2025-05-20"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Add Text to the Footer of PDF documents via Go SDK" h2="API for adding Text to the Footer of PDF documents with Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Add Text to the Footers of PDF documents via Go SDK" h2="API for adding Text to the Footers of PDF documents with Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Go SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg"
@@ -143,3 +143,4 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
