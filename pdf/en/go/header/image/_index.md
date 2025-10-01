@@ -1,12 +1,12 @@
 ---
 title: Add Image to Header of PDFs via Cloud Go SDK
 url: go/header/image/
-description: Add images to PDF headers via Go with Aspose.PDF Cloud. Automating report formatting.
+description: Append image to PDF docunent Headers via Go with Aspose.PDF Cloud. Automating report formatting. 
 lastmod: "2025-05-20"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Add Image to the Headers of PDF documents via Go SDK" h2="API for adding Images to the Headers of PDF documents with Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Add Image to the Headers of PDF documents via Go SDK" h2="API for adding Images to PDF document Heders with Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Go SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg"
@@ -150,6 +150,7 @@ Add the Header into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
