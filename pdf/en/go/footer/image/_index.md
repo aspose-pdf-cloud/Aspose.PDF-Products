@@ -1,12 +1,12 @@
 ---
 title: Add Image to Footers of PDF via Cloud Go SDK
 url: go/footer/image/
-description: Add image to the Footers of PDF documents using Aspose.PDF Cloud SDK in Go. Automating report formatting.
+description: Append image to the Footers of PDF documents using Aspose.PDF Cloud SDK in Go. Automating report formatting.
 lastmod: "2025-05-20"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Add Image to PDF document Footers via Go SDK" h2="API for adding image to PDF document footers using Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Add Image to the Footers of PDF documents via Go SDK" h2="API for adding image to PDF document footers using Aspose.PDF Cloud Go SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-go.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Go SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg"
@@ -148,6 +148,7 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
