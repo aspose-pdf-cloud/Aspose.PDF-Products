@@ -1,7 +1,7 @@
 ---
-title: Add Text to Footer of PDFs via Cloud Go SDK
+title: Add Text to Footers of PDFs via Cloud Go SDK
 url: go/footer/text/
-description: Insert Text to the Footers in PDFs using Go with Aspose.PDF Cloud SDK.
+description: Insert Text to the Footers of PDF documents using Go with Aspose.PDF Cloud SDK. Automating report formatting.
 lastmod: "2025-05-20"
 ---
 
@@ -143,5 +143,6 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud Go SDK](https://product
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
