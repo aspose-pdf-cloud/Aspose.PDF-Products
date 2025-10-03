@@ -1,7 +1,7 @@
 ---
 title: Rotate PDF via Cloud .NET SDK 
 url: net/rotate/
-description: Rotate PDF pages using Aspose.PDF Cloud. Check the .NET source code to rotate PDF file.
+description: Rotate PDF pages is performed using Aspose.PDF Cloud. Check the .NET source code to rotate PDF file.
 lastmod: "2025-07-19"
 ---
 
@@ -95,4 +95,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
