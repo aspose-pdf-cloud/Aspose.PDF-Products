@@ -1,7 +1,7 @@
 ---
 title: Add Signature to PDF via Cloud Node.js SDK 
 url: nodejs/signature/add/
-description: Aspose.PDF Cloud allows you to append Signature to a PDF Document. Check the Node.js source code to add a Signature into PDF file.
+description: Insert signature to PDF document using Aspose.PDF Cloud. Check the Node.js source code to signing PDF file.
 lastmod: "2024-11-19"
 ---
 
