@@ -1,7 +1,7 @@
 ---
 title: Replace Tables in PDF via Cloud Node.js SDK 
 url: nodejs/table/replace/
-description: Aspose.PDF Cloud allows you to replace Tables in PDF Document. Check the Node.js source code to replace Tables in PDF files.
+description: Replace or change tables in PDF docuemnt using Aspose.PDF Cloud. Check the Node.js source code to replace Tables in PDF files.
 lastmod: "2024-11-19"
 ---
 
