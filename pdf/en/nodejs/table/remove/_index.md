@@ -1,7 +1,7 @@
 ---
 title: Remove Tables from PDFs via Cloud Node.js SDK 
 url: nodejs/table/remove/
-description: Aspose.PDF Cloud allows you to remove Tables from PDF Documents. Check the Node.js source code to remove Tables from PDF file.
+description: Remove tables from PDF dcouemnt using Aspose.PDF Cloud. Check the Node.js source code to delete tables from PDF file.
 lastmod: "2024-11-19"
 ---
 
