@@ -1,7 +1,7 @@
 ---
 title: Resize PDF docuemnt pages via Cloud .NET SDK 
 url: net/resize/
-description: Aspose.PDF Cloud allows you to resize pages in PDF Document. Check the .NET source code to resize PDF file pages.
+description: Resize PDF document is performed using Aspose.PDF Cloud. Check the .NET source code to resize PDF file pages.
 lastmod: "2025-07-19"
 ---
 
@@ -121,4 +121,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
