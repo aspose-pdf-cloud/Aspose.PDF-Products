@@ -1,12 +1,12 @@
 ---
-title: Remove Tables from PDF via Cloud Node.js SDK 
+title: Remove Tables from PDFs via Cloud Node.js SDK 
 url: nodejs/table/remove/
-description: Aspose.PDF Cloud allows you to remove Tables from PDF Document. Check the Node.js source code to remove Tables from PDF file.
+description: Remove tables from PDF document using Aspose.PDF Cloud. Check the Node.js source code to delete tables from PDF file.
 lastmod: "2024-11-19"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Remove Tables from PDF in Node.js SDK" h2="API for working with Tables in PDF documents using Cloud Node.js SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-node.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Remove Tables from PDF documents via Node.js SDK" h2="API for deleting Tables from PDF documents using Aspose.PDF Cloud Node.js SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-node.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Node.js SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-node.svg"

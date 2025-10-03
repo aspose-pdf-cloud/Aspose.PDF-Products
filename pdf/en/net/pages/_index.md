@@ -1,12 +1,12 @@
 ---
 title: Work with Pages in PDF via Cloud .NET SDK
 url: net/pages/
-description: Add, delete, get, and move Pages in PDF using Aspose.PDF Cloud SDK for .NET.
+description: Add, delete, get, and move Pages in PDF documents using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2025-08-05"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Work with pages in PDF via .NET SDK" h2="API for working with pages in the PDF documents with .NET." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Work with pages in PDF docuemnts via .NET SDK" h2="API for working with pages in the PDF documents via .NET." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
@@ -18,7 +18,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  </a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Most popular actions with Pages in .NET</h2>
+   <h2 class="pr-ft">Work with pages in PDF docuemnts. Most popular actions with Pages in .NET</h2>
    <div class="col-lg-4">
     <em class="fa fa-picture-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/pages/add/">Add Pages to PDF</a></p>
@@ -147,3 +147,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+

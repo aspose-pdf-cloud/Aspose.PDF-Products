@@ -1,12 +1,12 @@
 ---
-title: Verify Signatures via Cloud .NET SDK 
+title: Verify Signatures in PDFs via Cloud .NET SDK 
 url: net/signature/verify/
 description: Verify signatures in PDF documents using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
 lastmod: "2025-08-25"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Verify signatures in PDF via .NET SDK" h2="API for verify signatures in PDF documents using server-side .NET API." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Verify signatures in PDF documents via .NET SDK" h2="API for verify signatures in PDF documents using server-side .NET API." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
@@ -146,3 +146,4 @@ Verify Signatures in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
