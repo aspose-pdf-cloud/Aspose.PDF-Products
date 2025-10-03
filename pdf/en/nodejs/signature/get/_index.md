@@ -1,7 +1,7 @@
 ---
 title: Get Signature from PDFs via Cloud Node.js SDK 
 url: nodejs/signature/get/
-description: Aspose.PDF Cloud allows you to get signatures from PDF Documents. Check the Node.js source code to get signatures from PDF file.
+description: Extract signature from PDF document using Aspose.PDF Cloud. Check the Node.js source code to get signatures from PDF file.
 lastmod: "2024-11-19"
 ---
 
