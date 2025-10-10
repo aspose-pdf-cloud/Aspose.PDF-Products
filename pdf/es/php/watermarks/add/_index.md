@@ -2,7 +2,7 @@
 title: Agregar marcas de agua a PDF | PHP
 description: Agregue marcas de agua de imagen o texto a archivos PDF usando PHP y Aspose.PDF Cloud SDK. Proteja o marque sus documentos.
 weight: 30
-url: php/watermaks/add/
+url: php/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

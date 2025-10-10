@@ -2,7 +2,7 @@
 title: Supprimer les filigranes des PDF | PHP
 description: Supprimez les filigranes des fichiers PDF en PHP en utilisant Aspose.PDF Cloud SDK. Restaurez des versions de documents propres.
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

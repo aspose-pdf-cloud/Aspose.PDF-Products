@@ -2,7 +2,7 @@
 title: Получение водяных знаков из PDF | Python
 description: Получите данные водяных знаков из PDF с помощью Aspose.PDF Cloud SDK на Python. Изучите наложения или брендинг.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -1,6 +1,6 @@
 ---
 title: クラウド .NET SDK を使用した PDF での署名の置換
-url: net/signatures/replace/
+url: net/signature/replace/
 description: Aspose.PDF Cloud SDK for .NET を使用して PDF ドキュメントの署名を置換します。PDF ドキュメントに署名します。
 lastmod: 2025-08-25
 ---

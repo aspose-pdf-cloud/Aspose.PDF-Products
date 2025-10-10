@@ -2,7 +2,7 @@
 title: Ajouter des filigranes au PDF | Node.js
 description: Ajoutez des filigranes aux PDF en utilisant Aspose.PDF Cloud SDK pour Node.js. Prise en charge des filigranes texte et image.
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

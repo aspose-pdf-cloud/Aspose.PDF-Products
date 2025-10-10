@@ -2,7 +2,7 @@
 title: Remover Marcas d'Água de PDF | Node.js
 description: Remova marcas d'água existentes de PDFs usando Node.js e Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

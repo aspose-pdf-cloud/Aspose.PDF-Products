@@ -2,7 +2,7 @@
 title: Hapus Tanda Air dari PDF | Python
 description: Hapus tanda air dari dokumen PDF dalam Python menggunakan Aspose.PDF Cloud SDK.
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

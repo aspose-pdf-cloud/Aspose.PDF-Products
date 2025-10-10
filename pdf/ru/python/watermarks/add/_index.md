@@ -2,7 +2,7 @@
 title: Добавление водяных знаков в PDF | Python
 description: Добавляйте водяные знаки в PDF-файлы с использованием Python и Aspose.PDF Cloud SDK. Поддержка текстовых и графических меток.
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: Dapatkan Watermark dari PDF | PHP
 description: Dapatkan informasi watermark dari PDF menggunakan PHP dengan Aspose.PDF Cloud SDK. Inspeksi overlay visual atau branding.
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

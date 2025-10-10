@@ -2,7 +2,7 @@
 title: PDF から透かしを削除 | Node.js
 description: Node.js と Aspose.PDF Cloud SDK を使用して PDF から既存の透かしを削除します。
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

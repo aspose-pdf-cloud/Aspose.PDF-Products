@@ -2,7 +2,7 @@
 title: Xóa Watermark khỏi PDF | PHP
 description: Xóa watermark khỏi các tập tin PDF trong PHP sử dụng Aspose.PDF Cloud SDK. Khôi phục phiên bản tài liệu sạch.
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

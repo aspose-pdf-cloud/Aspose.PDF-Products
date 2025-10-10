@@ -2,7 +2,7 @@
 title: 在 PDF 中添加水印 | Node.js
 description: 使用 Aspose.PDF Cloud SDK for Node.js 在 PDF 中添加水印。支持文本和图像水印。
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

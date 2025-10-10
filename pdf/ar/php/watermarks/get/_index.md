@@ -2,7 +2,7 @@
 title: احصل على العلامات المائية من PDF | PHP
 description: احصل على معلومات العلامة المائية من ملفات PDF باستخدام PHP مع Aspose.PDF Cloud SDK. تفقد الطبقات البصرية أو العلامات التجارية.
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: 从PDF中移除水印 | PHP
 description: 使用Aspose.PDF Cloud SDK在PHP中从PDF文件中移除水印。恢复干净的文档版本。
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: 从 PDF 获取水印 | PHP
 description: 使用 Aspose.PDF Cloud SDK 和 PHP 从 PDF 获取水印信息。检查视觉覆盖或品牌标识。
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

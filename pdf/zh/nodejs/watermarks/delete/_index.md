@@ -2,7 +2,7 @@
 title: 从PDF中移除水印 | Node.js
 description: 使用Node.js和Aspose.PDF Cloud SDK从PDF中移除现有水印。
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

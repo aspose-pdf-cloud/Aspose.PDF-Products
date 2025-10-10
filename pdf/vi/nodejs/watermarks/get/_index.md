@@ -2,7 +2,7 @@
 title: Lấy Watermark từ PDF | Node.js
 description: Trích xuất chi tiết watermark từ các tệp PDF trong Node.js sử dụng Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: 添加水印到PDF | PHP
 description: 使用PHP和Aspose.PDF Cloud SDK向PDF文件添加图像或文字水印。保护或标记您的文档。
 weight: 30
-url: php/watermaks/add/
+url: php/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

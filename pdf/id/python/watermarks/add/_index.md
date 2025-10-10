@@ -2,7 +2,7 @@
 title: Tambahkan Tanda Air ke PDF | Python
 description: Tambahkan tanda air ke file PDF menggunakan Python dengan Aspose.PDF Cloud SDK. Mendukung tanda teks dan gambar.
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

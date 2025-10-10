@@ -25,11 +25,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/get/">PDF のブックマークを取得</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/extract/">PDF のブックマークを取得</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/delete/">PDF からブックマークを削除</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/remove/">PDF からブックマークを削除</a></p>
 </div>
 </div>
 </div>

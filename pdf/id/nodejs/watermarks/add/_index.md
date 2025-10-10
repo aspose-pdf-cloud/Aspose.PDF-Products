@@ -2,7 +2,7 @@
 title: Tambahkan Watermark ke PDF | Node.js
 description: Tambahkan watermark ke PDF menggunakan Aspose.PDF Cloud SDK untuk Node.js. Dukungan untuk watermark teks dan gambar.
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

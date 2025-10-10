@@ -2,7 +2,7 @@
 title: Hapus Tanda Air dari PDF | PHP
 description: Hapus tanda air dari file PDF di PHP menggunakan Aspose.PDF Cloud SDK. Pulihkan versi dokumen yang bersih.
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

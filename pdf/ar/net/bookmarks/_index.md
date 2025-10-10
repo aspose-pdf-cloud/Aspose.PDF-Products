@@ -25,11 +25,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/get/">الحصول على إشارات مرجعية في PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/extract/">الحصول على إشارات مرجعية في PDF</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/delete/">حذف الإشارات المرجعية من PDF</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/remove/">حذف الإشارات المرجعية من PDF</a></p>
 </div>
 </div>
 </div>

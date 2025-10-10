@@ -1,5 +1,4 @@
 ---
-title: Delete Bookmark via Cloud .NET SDK
 title: Supprimer un signet via Cloud .NET SDK
 url: net/bookmarks/remove
 description: Supprimer un signet des PDF en utilisant Aspose.PDF Cloud SDK pour .NET.

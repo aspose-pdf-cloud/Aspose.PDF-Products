@@ -2,7 +2,7 @@
 title: Obtener marcas de agua de PDF | Node.js
 description: Extraer detalles de marcas de agua de archivos PDF en Node.js usando Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

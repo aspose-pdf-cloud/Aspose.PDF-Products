@@ -2,7 +2,7 @@
 title: Удаление водяных знаков из PDF | PHP
 description: Удалите водяные знаки из PDF-файлов в PHP с использованием Aspose.PDF Cloud SDK. Восстановите чистые версии документов.
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

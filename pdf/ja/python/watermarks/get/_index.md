@@ -2,7 +2,7 @@
 title: PDFから透かしを取得 | Python
 description: Aspose.PDF Cloud SDKを使用して、PDFから透かしデータを取得します。オーバーレイやブランディングを確認。
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

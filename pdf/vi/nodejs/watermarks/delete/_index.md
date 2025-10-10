@@ -2,7 +2,7 @@
 title: Xóa hình mờ khỏi PDF | Node.js
 description: Xóa hình mờ hiện có khỏi PDF bằng cách sử dụng Node.js và Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -1,5 +1,4 @@
 ---
-title: Delete Bookmark via Cloud .NET SDK
 title: Hapus Penanda via Cloud .NET SDK
 url: net/bookmarks/remove
 description: Hapus Penanda dari PDF menggunakan Aspose.PDF Cloud SDK untuk .NET.

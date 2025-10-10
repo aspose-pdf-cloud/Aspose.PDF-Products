@@ -1,5 +1,4 @@
 ---
-title: Delete Bookmark via Cloud .NET SDK
 title: Xóa Dấu trang qua Cloud .NET SDK
 url: net/bookmarks/remove
 description: Xóa Dấu trang khỏi PDF bằng Aspose.PDF Cloud SDK cho .NET.

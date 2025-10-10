@@ -2,7 +2,7 @@
 title: 从PDF中移除水印 | Python
 description: 使用Aspose.PDF Cloud SDK在Python中从PDF文档中移除水印。
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

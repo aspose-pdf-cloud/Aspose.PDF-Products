@@ -25,11 +25,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/get/">获取 PDF 中的书签</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/extract/">获取 PDF 中的书签</a></p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/delete/">从 PDF 中删除书签</a></p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/bookmarks/remove/">从 PDF 中删除书签</a></p>
 </div>
 </div>
 </div>

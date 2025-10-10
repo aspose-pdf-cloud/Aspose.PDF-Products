@@ -2,7 +2,7 @@
 title: الحصول على العلامات المائية من PDF | بايثون
 description: احصل على بيانات العلامات المائية من ملفات PDF باستخدام Aspose.PDF Cloud SDK في بايثون. تفقد الطبقات أو العلامات التجارية.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

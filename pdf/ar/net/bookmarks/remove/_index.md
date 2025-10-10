@@ -1,5 +1,4 @@
 ---
-title: Delete Bookmark via Cloud .NET SDK
 title: حذف الإشارة المرجعية عبر Cloud .NET SDK
 url: net/bookmarks/remove
 description: احذف الإشارة المرجعية من ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET.

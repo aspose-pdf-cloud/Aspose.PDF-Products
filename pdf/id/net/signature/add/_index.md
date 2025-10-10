@@ -1,6 +1,6 @@
 ---
 title: Menambahkan Tanda Tangan melalui Cloud .NET SDK
-url: net/signatures/add/
+url: net/signature/add/
 description: Tambahkan tanda tangan ke file PDF menggunakan Aspose.PDF Cloud SDK untuk .NET. Tandatangani dokumen PDF.
 lastmod: 2025-08-12
 ---

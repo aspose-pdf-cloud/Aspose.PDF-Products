@@ -2,7 +2,7 @@
 title: Obtenir des filigranes à partir de PDF | Node.js
 description: Extraire les détails des filigranes des fichiers PDF en Node.js en utilisant Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

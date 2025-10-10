@@ -2,7 +2,7 @@
 title: Lấy Watermarks từ PDF | PHP
 description: Lấy thông tin watermark từ PDF bằng PHP với Aspose.PDF Cloud SDK. Kiểm tra các lớp phủ hình ảnh hoặc thương hiệu.
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

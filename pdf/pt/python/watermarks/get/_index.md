@@ -2,7 +2,7 @@
 title: Obter Marcas D'água de PDF | Python
 description: Obtenha dados de marcas d'água de PDFs usando Aspose.PDF Cloud SDK em Python. Inspecione sobreposições ou branding.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

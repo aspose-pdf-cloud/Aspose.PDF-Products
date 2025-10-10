@@ -2,7 +2,7 @@
 title: PDFから透かしを取得 | Node.js
 description: Aspose.PDF Cloud SDKを使用してNode.jsでPDFファイルから透かしの詳細を抽出します。
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

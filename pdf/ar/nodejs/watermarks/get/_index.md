@@ -2,7 +2,7 @@
 title: احصل على العلامات المائية من PDF | Node.js
 description: استخراج تفاصيل العلامات المائية من ملفات PDF في Node.js باستخدام Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

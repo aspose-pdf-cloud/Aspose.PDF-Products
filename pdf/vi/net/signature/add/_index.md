@@ -1,6 +1,6 @@
 ---
 title: Thêm Chữ Ký Qua Cloud .NET SDK
-url: net/signatures/add/
+url: net/signature/add/
 description: Thêm chữ ký vào tệp PDF bằng Aspose.PDF Cloud SDK cho .NET. Ký tài liệu PDF.
 lastmod: 2025-08-12
 ---

@@ -2,7 +2,7 @@
 title: Obtenir des filigranes à partir de PDF | Python
 description: Obtenez des données de filigrane à partir de PDF en utilisant Aspose.PDF Cloud SDK en Python. Inspectez les superpositions ou le branding.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

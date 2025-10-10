@@ -2,7 +2,7 @@
 title: Agregar marcas de agua a PDF | Python
 description: Agregue marcas de agua a archivos PDF usando Python con Aspose.PDF Cloud SDK. Soporte para marcas de texto e imagen.
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

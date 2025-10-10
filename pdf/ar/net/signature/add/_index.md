@@ -1,6 +1,6 @@
 ---
 title: إضافة توقيع عبر Cloud .NET SDK
-url: net/signatures/add/
+url: net/signature/add/
 description: إضافة توقيع إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET. توقيع مستندات PDF.
 lastmod: 2025-08-12
 ---

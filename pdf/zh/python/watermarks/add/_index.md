@@ -2,7 +2,7 @@
 title: 向 PDF 添加水印 | Python
 description: 使用 Aspose.PDF Cloud SDK 在 Python 中向 PDF 文件添加水印。支持文字和图像水印。
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

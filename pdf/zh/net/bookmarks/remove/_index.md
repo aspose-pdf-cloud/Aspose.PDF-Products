@@ -1,5 +1,4 @@
 ---
-title: Delete Bookmark via Cloud .NET SDK
 title: 通过 Cloud .NET SDK 删除书签
 url: net/bookmarks/remove
 description: 使用 Aspose.PDF Cloud SDK for .NET 从 PDF 中删除书签。

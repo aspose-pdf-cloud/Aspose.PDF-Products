@@ -2,7 +2,7 @@
 title: Добавить водяные знаки в PDF | PHP
 description: Добавьте водяные знаки с изображением или текстом в файлы PDF с использованием PHP и Aspose.PDF Cloud SDK. Защитите или брендуйте ваши документы.
 weight: 30
-url: php/watermaks/add/
+url: php/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

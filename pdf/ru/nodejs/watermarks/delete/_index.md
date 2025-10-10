@@ -2,7 +2,7 @@
 title: Удаление водяных знаков из PDF | Node.js
 description: Удалите существующие водяные знаки из PDF, используя Node.js и Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

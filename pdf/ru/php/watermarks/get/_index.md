@@ -2,7 +2,7 @@
 title: Получение водяных знаков из PDF | PHP
 description: Получите информацию о водяных знаках из PDF с помощью PHP и Aspose.PDF Cloud SDK. Исследуйте визуальные наложения или брендинг.
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: Get Watermarks from PDF | Python 
 description: Get watermark data from PDFs using Aspose.PDF Cloud SDK in Python. Inspect overlays or branding.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

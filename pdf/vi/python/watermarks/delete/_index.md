@@ -2,7 +2,7 @@
 title: Xóa Watermark khỏi PDF | Python
 description: Xóa watermark khỏi tài liệu PDF bằng Python sử dụng Aspose.PDF Cloud SDK.
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

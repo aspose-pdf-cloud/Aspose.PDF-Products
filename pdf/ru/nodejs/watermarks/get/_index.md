@@ -2,7 +2,7 @@
 title: Получение водяных знаков из PDF | Node.js
 description: Извлечение деталей водяных знаков из PDF-файлов в Node.js с использованием Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

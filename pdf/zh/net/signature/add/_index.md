@@ -1,6 +1,6 @@
 ---
 title: 通过云 .NET SDK 添加签名
-url: net/signatures/add/
+url: net/signature/add/
 description: 使用 Aspose.PDF Cloud SDK for .NET 向 PDF 文件添加签名。签署 PDF 文档。
 lastmod: 2025-08-12
 ---

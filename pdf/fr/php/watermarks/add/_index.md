@@ -2,7 +2,7 @@
 title: Ajouter des filigranes au PDF | PHP
 description: Ajoutez des filigranes d'image ou de texte aux fichiers PDF en utilisant PHP et Aspose.PDF Cloud SDK. Protégez ou marquez vos documents.
 weight: 30
-url: php/watermaks/add/
+url: php/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

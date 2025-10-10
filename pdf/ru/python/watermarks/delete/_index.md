@@ -2,7 +2,7 @@
 title: Удаление водяных знаков из PDF | Python
 description: Удаление водяных знаков из PDF-документов на Python с использованием Aspose.PDF Cloud SDK.
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

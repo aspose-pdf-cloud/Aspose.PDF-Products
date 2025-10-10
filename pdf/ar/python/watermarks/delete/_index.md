@@ -2,7 +2,7 @@
 title: إزالة العلامات المائية من PDF | بايثون
 description: إزالة العلامات المائية من مستندات PDF باستخدام Aspose.PDF Cloud SDK في بايثون.
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

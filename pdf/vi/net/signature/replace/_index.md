@@ -1,6 +1,6 @@
 ---
 title: Thay thế Chữ ký trong PDF qua Cloud .NET SDK
-url: net/signatures/replace/
+url: net/signature/replace/
 description: Thay thế chữ ký trong tài liệu PDF bằng cách sử dụng Aspose.PDF Cloud SDK cho .NET. Ký tài liệu PDF.
 lastmod: 2025-08-25
 ---

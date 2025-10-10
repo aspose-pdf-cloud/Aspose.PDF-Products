@@ -2,7 +2,7 @@
 title: Supprimer les filigranes des PDF | Python
 description: Supprimer les filigranes des documents PDF en Python à l'aide du SDK Aspose.PDF Cloud.
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

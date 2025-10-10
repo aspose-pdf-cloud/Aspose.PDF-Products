@@ -2,7 +2,7 @@
 title: Obtener marcas de agua de PDF | PHP
 description: Obtenga información de marcas de agua de PDFs usando PHP con Aspose.PDF Cloud SDK. Inspeccione superposiciones visuales o marcas.
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

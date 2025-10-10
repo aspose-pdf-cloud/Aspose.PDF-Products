@@ -2,7 +2,7 @@
 title: إزالة العلامات المائية من PDF | Node.js
 description: قم بإزالة العلامات المائية الموجودة من ملفات PDF باستخدام Node.js و Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: Thêm Watermark vào PDF | Python
 description: Thêm watermark vào các tệp PDF bằng Python với Aspose.PDF Cloud SDK. Hỗ trợ dấu văn bản và hình ảnh.
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

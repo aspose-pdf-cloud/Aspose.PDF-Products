@@ -2,7 +2,7 @@
 title: Añadir Marcas de Agua a PDF | Node.js
 description: Añade marcas de agua a PDFs usando Aspose.PDF Cloud SDK para Node.js. Soporte para marcas de agua de texto e imagen.
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

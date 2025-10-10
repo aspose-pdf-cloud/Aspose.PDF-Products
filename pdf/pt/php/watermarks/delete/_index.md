@@ -2,7 +2,7 @@
 title: Remover Marcas d'Água de PDF | PHP
 description: Remova marcas d'água de arquivos PDF em PHP usando Aspose.PDF Cloud SDK. Restaure versões limpas de documentos.
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

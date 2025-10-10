@@ -99,7 +99,7 @@ url: python
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/python/bookmarks/add/">Добавление</a>, <a href="https://products.aspose.cloud/pdf/python/bookmarks/delete/">удаление</a>, <a href="https://products.aspose.cloud/pdf/python/bookmarks/extract/">извлечение</a> и <a href="https://products.aspose.cloud/pdf/python/bookmarks/replace/">замена</a> закладок в PDF</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/python/bookmarks/add/">Добавление</a>, <a href="https://products.aspose.cloud/pdf/python/bookmarks/remove/">удаление</a>, <a href="https://products.aspose.cloud/pdf/python/bookmarks/extract/">извлечение</a> и <a href="https://products.aspose.cloud/pdf/python/bookmarks/replace/">замена</a> закладок в PDF</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>

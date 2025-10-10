@@ -2,7 +2,7 @@
 title: إضافة العلامات المائية إلى PDF | Node.js
 description: إضافة العلامات المائية إلى ملفات PDF باستخدام Aspose.PDF Cloud SDK لNode.js. دعم للعلامات المائية النصية والصورية.
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

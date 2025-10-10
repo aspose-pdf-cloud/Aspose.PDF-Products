@@ -1,6 +1,6 @@
 ---
 title: 通过云端 .NET SDK 替换 PDF 中的签名
-url: net/signatures/replace/
+url: net/signature/replace/
 description: 使用 Aspose.PDF Cloud SDK for .NET 替换 PDF 文档中的签名。签署 PDF 文档。
 lastmod: 2025-08-25
 ---

@@ -2,7 +2,7 @@
 title: PDFに透かしを追加 | PHP
 description: PHPとAspose.PDF Cloud SDKを使用して、PDFファイルに画像またはテキストの透かしを追加します。ドキュメントを保護したり、ブランド化したりします。
 weight: 30
-url: php/watermaks/add/
+url: php/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

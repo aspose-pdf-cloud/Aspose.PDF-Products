@@ -1,6 +1,6 @@
 ---
 title: Anexando Assinatura via Cloud .NET SDK
-url: net/signatures/add/
+url: net/signature/add/
 description: Adicionar assinatura a arquivos PDF usando o Aspose.PDF Cloud SDK para .NET. Assinar documentos PDF.
 lastmod: 2025-08-12
 ---

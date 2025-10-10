@@ -2,7 +2,7 @@
 title: PDFに透かしを追加 | Python
 description: Aspose.PDF Cloud SDKを使用して、PythonでPDFファイルに透かしを追加します。テキストと画像のマークをサポートします。
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

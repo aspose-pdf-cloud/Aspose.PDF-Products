@@ -2,7 +2,7 @@
 title: PDFから透かしを削除 | PHP
 description: Aspose.PDF Cloud SDKを使用してPHPでPDFファイルから透かしを削除します。クリーンなドキュメントバージョンを復元します。
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

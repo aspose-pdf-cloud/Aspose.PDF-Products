@@ -2,7 +2,7 @@
 title: إضافة علامات مائية إلى PDF | PHP
 description: أضف علامات مائية نصية أو صور إلى ملفات PDF باستخدام PHP وAspose.PDF Cloud SDK. احمِ أو ضع علامة على مستنداتك.
 weight: 30
-url: php/watermaks/add/
+url: php/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

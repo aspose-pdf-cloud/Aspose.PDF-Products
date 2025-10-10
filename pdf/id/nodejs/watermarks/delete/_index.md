@@ -2,7 +2,7 @@
 title: Hapus Tanda Air dari PDF | Node.js
 description: Hapus tanda air yang ada dari PDF menggunakan Node.js dan Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

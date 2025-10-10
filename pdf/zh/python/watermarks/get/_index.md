@@ -2,7 +2,7 @@
 title: 从 PDF 获取水印 | Python
 description: 使用 Aspose.PDF Cloud SDK 在 Python 中从 PDF 获取水印数据。检查叠加层或品牌标识。
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

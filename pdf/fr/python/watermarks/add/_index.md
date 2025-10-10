@@ -2,7 +2,7 @@
 title: Ajouter des filigranes au PDF | Python
 description: Ajoutez des filigranes aux fichiers PDF en utilisant Python avec Aspose.PDF Cloud SDK. Supporte les marques de texte et d'image.
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

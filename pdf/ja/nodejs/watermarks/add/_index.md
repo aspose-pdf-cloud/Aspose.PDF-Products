@@ -2,7 +2,7 @@
 title: PDFに透かしを追加 | Node.js
 description: Aspose.PDF Cloud SDK for Node.jsを使用してPDFに透かしを追加します。テキストと画像の透かしをサポート。
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

@@ -2,7 +2,7 @@
 title: Extraire des filigranes d'un PDF | PHP
 description: Obtenez des informations sur les filigranes des PDF en utilisant PHP avec Aspose.PDF Cloud SDK. Inspectez les superpositions visuelles ou le branding.
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

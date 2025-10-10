@@ -2,7 +2,7 @@
 title: PDFからウォーターマークを取得 | PHP
 description: Aspose.PDF Cloud SDKを使用してPHPでPDFからウォーターマーク情報を取得します。視覚的なオーバーレイやブランディングを検査します。
 weight: 30
-url: php/watermaks/get/
+url: php/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

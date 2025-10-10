@@ -1,5 +1,4 @@
 ---
-title: Delete Bookmark via Cloud .NET SDK
 title: Excluir Marcador via Cloud .NET SDK
 url: net/bookmarks/remove
 description: Excluir marcador de PDFs usando Aspose.PDF Cloud SDK para .NET.

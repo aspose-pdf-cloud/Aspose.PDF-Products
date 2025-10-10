@@ -2,7 +2,7 @@
 title: إضافة علامات مائية إلى PDF | بايثون
 description: أضف علامات مائية إلى ملفات PDF باستخدام بايثون مع Aspose.PDF Cloud SDK. دعم علامات النص والصور.
 weight: 30
-url: python/watermaks/add/
+url: python/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

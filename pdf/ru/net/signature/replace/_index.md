@@ -1,6 +1,6 @@
 ---
 title: Замена подписи в PDF через облачный SDK для .NET
-url: net/signatures/replace/
+url: net/signature/replace/
 description: Замена подписи в PDF-документах с использованием Aspose.PDF Cloud SDK для .NET. Подписывайте PDF-документы.
 lastmod: 2025-08-25
 ---

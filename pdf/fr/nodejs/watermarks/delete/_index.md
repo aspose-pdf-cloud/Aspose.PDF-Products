@@ -2,7 +2,7 @@
 title: Supprimer les filigranes d'un PDF | Node.js
 description: Supprimez les filigranes existants des PDF à l'aide de Node.js et du SDK Aspose.PDF Cloud.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

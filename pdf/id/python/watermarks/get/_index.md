@@ -2,7 +2,7 @@
 title: Dapatkan Watermark dari PDF | Python
 description: Dapatkan data watermark dari PDF menggunakan Aspose.PDF Cloud SDK di Python. Inspeksi overlay atau branding.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

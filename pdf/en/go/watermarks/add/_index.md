@@ -2,7 +2,7 @@
 title: Add Watermarks to PDF via Cloud Golang SDK
 description: Add watermarks to PDF files using Go with Aspose.PDF Cloud SDK. Support text and image marks.
 weight: 30
-url: go/watermaks/add/
+url: go/watermarks/add/
 lastmod: "2025-05-20"
 ---
 

@@ -2,7 +2,7 @@
 title: PDFから透かしを削除 | Python
 description: Aspose.PDF Cloud SDKを使用してPythonでPDFドキュメントから透かしを削除します。
 weight: 30
-url: python/watermaks/remove/
+url: python/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

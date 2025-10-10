@@ -1,6 +1,6 @@
 ---
 title: Mengganti Tanda Tangan di PDF melalui Cloud .NET SDK
-url: net/signatures/replace/
+url: net/signature/replace/
 description: Mengganti tanda tangan dalam dokumen PDF menggunakan Aspose.PDF Cloud SDK untuk .NET. Tandatangani dokumen PDF.
 lastmod: 2025-08-25
 ---

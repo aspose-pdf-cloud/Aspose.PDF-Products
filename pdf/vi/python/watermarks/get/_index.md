@@ -2,7 +2,7 @@
 title: Lấy Watermark từ PDF | Python
 description: Lấy dữ liệu watermark từ PDF sử dụng Aspose.PDF Cloud SDK trong Python. Kiểm tra lớp phủ hoặc thương hiệu.
 weight: 30
-url: python/watermaks/get/
+url: python/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

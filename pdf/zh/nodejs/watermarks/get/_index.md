@@ -2,7 +2,7 @@
 title: 从 PDF 获取水印 | Node.js
 description: 使用 Aspose.PDF Cloud SDK 在 Node.js 中从 PDF 文件中提取水印详细信息。
 weight: 30
-url: nodejs/watermaks/get/
+url: nodejs/watermarks/get/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

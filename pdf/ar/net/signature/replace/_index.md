@@ -1,6 +1,6 @@
 ---
 title: استبدال التوقيع في PDF عبر Cloud .NET SDK
-url: net/signatures/replace/
+url: net/signature/replace/
 description: استبدال التوقيع في مستندات PDF باستخدام Aspose.PDF Cloud SDK لـ .NET. توقيع مستندات PDF.
 lastmod: 2025-08-25
 ---

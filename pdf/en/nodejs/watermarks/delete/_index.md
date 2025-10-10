@@ -2,7 +2,7 @@
 title: Remove Watermarks from PDF | Node.js
 description: Remove existing watermarks from PDFs using Node.js and Aspose.PDF Cloud SDK.
 weight: 30
-url: nodejs/watermaks/remove/
+url: nodejs/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

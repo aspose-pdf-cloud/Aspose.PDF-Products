@@ -2,7 +2,7 @@
 title: Добавить водяные знаки в PDF | Node.js
 description: Добавляйте водяные знаки в PDF с помощью Aspose.PDF Cloud SDK для Node.js. Поддержка текстовых и графических водяных знаков.
 weight: 30
-url: nodejs/watermaks/add/
+url: nodejs/watermarks/add/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

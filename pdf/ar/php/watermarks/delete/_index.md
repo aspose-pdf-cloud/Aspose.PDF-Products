@@ -2,7 +2,7 @@
 title: إزالة العلامات المائية من PDF | PHP
 description: إزالة العلامات المائية من ملفات PDF في PHP باستخدام Aspose.PDF Cloud SDK. استعادة نسخ المستند النظيف.
 weight: 30
-url: php/watermaks/remove/
+url: php/watermarks/remove/
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
