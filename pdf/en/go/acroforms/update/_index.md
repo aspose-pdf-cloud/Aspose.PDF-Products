@@ -47,7 +47,7 @@ Aspose.PDF Cloud developers can easily load & update acroforms in PDF in just a 
 
 1. Reads PDF file from local path.
 1. Upload the PDF file to the Aspose.PDF Cloud storage.
-1. Creates a new form field with the name "First Name" and sets its value to "James".
+1. Creates a new form field with the name from "field_name" parameter and sets its value to "spose-pdf-cloud@example.com".
 1. Updates the form fields in the PDF file on the Aspose.PDF Cloud storage.
 1. Download the result if needed it
 
@@ -68,7 +68,7 @@ Aspose.PDF Cloud developers can easily load & update acroforms in PDF in just a 
         asposepdfcloud "github.com/aspose-pdf-cloud/aspose-pdf-cloud-go/v25"
     )
 
-    func appendFormFiled(document_name string, output_name string, local_folder string, remote_folder string) {
+    func appendFormFiled(document_name string, output_name string, field_name string, local_folder string, remote_folder string) {
         // Initialize Credentials and create Pdf.Cloud service object
 	AppSID := "YOUR_APP_SID" // Your Application SID
 	AppKey := "YOUR_APP_KEY" // Your Application Key
@@ -159,5 +159,6 @@ Update the AcroForms into PDF documents with [Aspose.PDF Cloud Go SDK](https://p
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
