@@ -147,8 +147,8 @@ Vérifiez la signature dans les documents PDF avec [Aspose.PDF Cloud PHP SDK](ht
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.PDF Cloud pour PHP ?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Liste des Clients" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Sécurité" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Liste des Clients" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Sécurité" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

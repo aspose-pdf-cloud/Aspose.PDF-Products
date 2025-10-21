@@ -127,8 +127,8 @@ url: python/watermarks/remove/
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="لماذا Aspose.PDF Cloud للبايثون؟" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="قائمة العملاء" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="الأمان" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="قائمة العملاء" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="الأمان" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
