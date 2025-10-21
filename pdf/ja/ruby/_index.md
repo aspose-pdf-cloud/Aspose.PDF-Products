@@ -10,7 +10,7 @@ url: ruby
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Ruby SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-ruby.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-ruby" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-ruby.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-ruby" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Ruby SDKは、クラウドストレージ上でPDF文書を生成し、クラウドPDFページ、フォームフィールド、テキストアイテム、画像、注釈（線、円、四角、下線、波線）、ブックマーク、リンク、添付ファイルを扱うためのクラウドベースのRubyアプリケーションを構築します。</p>
@@ -180,13 +180,13 @@ url: ruby
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="なぜAspose.PDF Cloud Ruby SDKなのか？" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="セキュリティ" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="セキュリティ" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

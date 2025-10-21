@@ -10,7 +10,7 @@ url: swift
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Swift SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Swift SDK allows enhancing your cloud-based Swift apps to create new PDF pages in the cloud or generate cloud PDF documents by converting from various formats, such as JPEG, TIFF, SVG, PCL, XPS, XML, HTML, etc. You can also merge multiple PDF files into one cloud PDF document or split one Acrobat file to multiple smaller PDFs.</p>
@@ -180,13 +180,13 @@ url: swift
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud Swift SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

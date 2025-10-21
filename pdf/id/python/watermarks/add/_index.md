@@ -126,8 +126,8 @@ Dalam beberapa kasus, tanda air ditambahkan sebagai fitur desain halus untuk men
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Mengapa Aspose.PDF Cloud untuk Python?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Keamanan" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Keamanan" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

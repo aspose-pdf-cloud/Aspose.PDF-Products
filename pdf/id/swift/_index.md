@@ -10,7 +10,7 @@ url: swift
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Swift SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Swift SDK memungkinkan peningkatan aplikasi Swift berbasis cloud Anda untuk membuat halaman PDF baru di cloud atau menghasilkan dokumen PDF cloud dengan mengonversi dari berbagai format, seperti JPEG, TIFF, SVG, PCL, XPS, XML, HTML, dll. Anda juga dapat menggabungkan beberapa file PDF menjadi satu dokumen PDF cloud atau membagi satu file Acrobat menjadi beberapa PDF yang lebih kecil.</p>
@@ -180,13 +180,13 @@ url: swift
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Mengapa Aspose.PDF Cloud Swift SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Keamanan" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Keamanan" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

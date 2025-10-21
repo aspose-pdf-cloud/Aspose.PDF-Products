@@ -173,8 +173,8 @@ Aspose.PDF Cloud 开发者可以轻松加载并在仅需几行代码中将书签
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="为什么选择 Aspose.PDF Cloud for PHP?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="客户名单" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="安全性" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="客户名单" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="安全性" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

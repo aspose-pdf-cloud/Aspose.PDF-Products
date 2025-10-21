@@ -116,8 +116,8 @@ APIを使用して、わずか数行のコードで実行できます。
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="なぜ Aspose.PDF Cloud for PHP なのか？" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="セキュリティ" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="セキュリティ" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

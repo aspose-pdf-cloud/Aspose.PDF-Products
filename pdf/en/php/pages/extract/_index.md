@@ -146,8 +146,8 @@ Extracting pages allows users to repurpose content for different applications. F
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud for PHP?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

@@ -74,13 +74,13 @@ Perluas kekuatan kluster AWS Anda sendiri dengan wadah REST API on-premise untuk
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Mengapa Keluarga Produk Aspose.PDF Cloud?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Keamanan" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Keamanan" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 

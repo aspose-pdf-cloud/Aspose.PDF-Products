@@ -10,7 +10,7 @@ url: go
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Go SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-go.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-go" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Go SDK membantu Anda membangun aplikasi pembuat, anotator, dan konverter PDF untuk cloud, menggunakan bahasa pemrograman Go. Aspose.PDF Cloud SDK untuk Go tersedia di bawah lisensi MIT dan didasarkan pada Aspose.PDF REST API.</p>
@@ -181,8 +181,8 @@ url: go
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Mengapa Aspose.PDF Cloud Go SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Keamanan" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Keamanan" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

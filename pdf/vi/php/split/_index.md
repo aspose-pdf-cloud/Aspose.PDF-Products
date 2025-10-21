@@ -156,8 +156,8 @@ Rất dễ để bắt đầu với Aspose.PDF Cloud PHP SDK và không cần c�
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Tại sao chọn Aspose.PDF Cloud cho PHP?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Danh sách khách hàng" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Bảo mật" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Danh sách khách hàng" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Bảo mật" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

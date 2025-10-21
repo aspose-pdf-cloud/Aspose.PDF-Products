@@ -10,7 +10,7 @@ url: curl
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud for cURL" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-curl.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-curl.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud for cURL 专为开发人员设计，帮助他们在云存储中创建 PDF 或从 HTML、XML 或图像中导入云 PDF。您还可以通过简单的 cURL 命令对托管在云存储上的 PDF 文档进行各种操作。无需安装任何第三方软件，即可合并多个 PDF、拆分大型 PDF 文档、追加、水印、注释或保护您的 Acrobat 云文档。</p>
@@ -181,13 +181,13 @@ url: curl
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="为什么选择 Aspose.PDF Cloud for cURL?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="客户列表" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="安全性" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="客户列表" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="安全性" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

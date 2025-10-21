@@ -147,8 +147,8 @@ PDF 内の署名を確認することは、ドキュメントの信頼性と完�
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="なぜAspose.PDF Cloud for PHPなのか？" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="セキュリティ" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="セキュリティ" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

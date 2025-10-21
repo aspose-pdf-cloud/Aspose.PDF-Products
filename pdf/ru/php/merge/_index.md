@@ -125,8 +125,8 @@ API можно выполнить с помощью всего нескольк�
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Почему Aspose.PDF Cloud для PHP?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Список клиентов" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Безопасность" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Список клиентов" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Безопасность" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

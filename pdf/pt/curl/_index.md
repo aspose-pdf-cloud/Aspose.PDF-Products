@@ -10,7 +10,7 @@ url: curl
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud para cURL" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-curl.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-curl.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>O Aspose.PDF Cloud para cURL é projetado para desenvolvedores ajudando-os a criar PDFs no armazenamento em nuvem ou importar PDFs da nuvem a partir de HTML, XML ou imagens. Você também pode realizar várias operações em documentos PDF hospedados no armazenamento em nuvem através de comandos cURL simples. Mescle múltiplos PDFs, divida documentos PDF grandes, anexe, adicione marca d'água, anote ou proteja seus documentos Acrobat na nuvem, sem instalar nenhum software de terceiros.</p>
@@ -181,13 +181,13 @@ url: curl
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Por que Aspose.PDF Cloud para cURL?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Lista de Clientes" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Segurança" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Lista de Clientes" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Segurança" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

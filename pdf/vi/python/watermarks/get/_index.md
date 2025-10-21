@@ -105,8 +105,8 @@ Trong một số trường hợp, watermark được thêm vào như một tính
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Tại Sao Chọn Aspose.PDF Cloud cho Python?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Danh Sách Khách Hàng" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Bảo Mật" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Danh Sách Khách Hàng" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Bảo Mật" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

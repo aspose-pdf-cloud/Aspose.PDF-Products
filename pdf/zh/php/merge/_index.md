@@ -125,8 +125,8 @@ PDF Cloud PHP SDK 提供了一个易于使用且安全的 API，即使在处理�
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="为什么选择 Aspose.PDF Cloud for PHP?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="客户名单" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="安全性" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="客户名单" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="安全性" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}

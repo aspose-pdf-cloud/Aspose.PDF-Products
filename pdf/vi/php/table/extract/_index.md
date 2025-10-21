@@ -147,8 +147,8 @@ Trích xuất Bảng từ tài liệu PDF với [Aspose.PDF Cloud PHP SDK](https
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Tại Sao Chọn Aspose.PDF Cloud cho PHP?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Danh Sách Khách Hàng" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="An Ninh" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Danh Sách Khách Hàng" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="An Ninh" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
