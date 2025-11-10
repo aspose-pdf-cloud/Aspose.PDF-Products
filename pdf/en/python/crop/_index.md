@@ -21,10 +21,8 @@ To crop PDF, we'll use
 {{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
 
 ```bash
-
      
     pip install git+https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python.git
-
 
 ```
 
