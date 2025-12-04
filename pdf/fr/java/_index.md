@@ -1,72 +1,72 @@
 ---
-title: Créateur, éditeur et convertisseur PDF Java via REST SDK
-description: Utilisez Aspose.PDF Cloud SDK pour Java pour travailler avec des fichiers PDF dans vos applications. Convertissez, fusionnez, divisez et éditez des PDF via l'API REST.
+title: Créateur, éditeur et convertisseur PDF Java via SDK REST
+description: Utilisez Aspose.PDF Cloud SDK pour Java afin de travailler avec des fichiers PDF dans vos applications. Convertissez, fusionnez, scindez et modifiez des PDFs via l'API REST.
 weight: 50
 url: java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="Implémentez des workflows PDF dans Java SDK" h2="Améliorez vos applications cloud Java pour créer, éditer, crypter et convertir des documents PDF en DOCX, XLSX, PPTX et image dans le cloud." logoImageSrc="/headers/aspose_pdf-for-java.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Java SDK" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="Implémentez les flux de travail PDF avec le SDK Java" h2="Améliorez vos applications cloud Java pour créer, éditer, chiffrer et convertir des documents PDF en DOCX, XLSX, PPTX et images dans le cloud." logoImageSrc="/headers/aspose_pdf-for-java.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Java SDK" downloadUrl="" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Java SDK" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-java.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>Aspose.PDF Cloud Java SDK est basé sur l'API REST Aspose.PDF sous-jacente et aide les développeurs Java à intégrer de manière transparente des fonctionnalités de traitement et de manipulation de PDF cloud dans vos applications Java conçues pour les plateformes cloud. Aspose.PDF Cloud Java SDK est proposé sous une licence MIT.</p>
-<p>Aspose.PDF Cloud Java SDK permet à vos applications Java basées sur le cloud de créer des documents PDF à partir de zéro ou de convertir divers formats en PDF pour un traitement ultérieur. Vous pouvez convertir les formats EPUB, LaTeX, HTML, PS, XsIFo, XPS, SVG, DOCX, PCL, XML et MD (Markdown) en PDF en utilisant le SDK Java facile. De même, votre code Java amélioré peut convertir des PDF en de nombreux autres formats de fichiers, tels que, images, Word, PowerPoint, Excel et autres.</p>
-<p>Aspose.PDF Cloud Java SDK vous aide à travailler avec des éléments individuels de documents PDF cloud, tels que, texte, annotations, filigranes, signatures, tampons, signets, champs de formulaire, images, hyperliens, pièces jointes, etc. Vous pouvez également diviser, fusionner, signer et crypter des fichiers PDF hébergés sur le stockage cloud.</p>
+<p>Le SDK Aspose.PDF Cloud Java est basé sur l'API REST Aspose.PDF sous-jacente et aide les développeurs Java à intégrer de manière transparente les fonctionnalités de traitement et de manipulation de PDF dans le cloud à leurs applications Java conçues pour les plateformes cloud. Le SDK Aspose.PDF Cloud Java est proposé sous licence MIT.</p>
+<p>Le SDK Aspose.PDF Cloud Java permet à vos applications Java basées sur le cloud de créer des documents PDF à partir de zéro ou de convertir divers formats en PDF pour un traitement ultérieur. Vous pouvez convertir les formats EPUB, LaTeX, HTML, PS, XsIFo, XPS, SVG, DOCX, PCL, XML et MD (Markdown) en PDF à l'aide d'un SDK Java simple. De même, votre code Java amélioré peut convertir les PDF en de nombreux autres formats de fichiers, tels que des images, Word, PowerPoint, Excel et d'autres.</p>
+<p>Le SDK Aspose.PDF Cloud Java vous aide à travailler avec les éléments individuels des documents PDF cloud, tels que le texte, les annotations, les filigranes, les signatures, les cachets, les signets, les champs de formulaire, les images, les hyperliens, les pièces jointes, etc. Vous pouvez également scinder, fusionner, signer et chiffrer les fichiers PDF hébergés dans le stockage cloud.</p>
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="En un coup d'œil"  >}}
+{{< blocks/products/pf/carousel-item h3="At a Glance"  >}}
 <div class="diagram1 d1-cloud">
 <div class="d1-row">
 <div class="d1-col d1-left"> </div>
 <!--/left-->
-<div class="d1-col d1-right"><header><i class="fa fa-barcode"> </i>Vue d'ensemble</header><ul><li>Obtenez des données à partir d'images numérisées</li>
-<li>Traitez des photos en perspective</li>
-<li>Exportez les résultats en CSV</li>
+<div class="d1-col d1-right"><header><i class="fa fa-barcode"> </i>Aperçu</header><ul><li>Obtenir des données à partir d'images scannées</li>
+<li>Traiter des photos en perspective</li>
+<li>Exporter les résultats vers CSV</li>
 <li>Génération de modèles</li>
-<li>Appliquez un balisage de texte</li>
-<li>Recadrez l'image et appliquez le pdf</li>
-<li>Appliquez des règles JSON</li>
-<li>Éditeur pdf basé sur GUI</li>
+<li>Appliquer la mise en forme du texte</li>
+<li>Rogner l'image et appliquer le PDF</li>
+<li>Appliquer des règles JSON</li>
+<li>Éditeur PDF basé sur une interface graphique</li>
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="Java PDF SDK"><header>Aspose.PDF</header><footer>Cloud <small> <em>pour </em> </small>Java</footer></div>
+<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="SDK PDF Java"><header>Aspose.PDF</header><footer>Cloud <small> <em>pour </em> </small>Java</footer></div>
 <!--/logo--></div>
 <!--/diagram1-->
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="Formats de fichiers pris en charge" >}}
+{{< blocks/products/pf/carousel-item h3="Supported File Formats" >}}
 <div class="diagram1 d2  d1-cloud">
 <div class="d1-row">
 <div class="d1-col d1-left"><header><i class="fa fa-arrows-v"> </i> Entrée/Sortie</header><ul><li>PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF, PDF/A</li>
 </ul><header><i class="fa fa-long-arrow-left"> </i> Entrée uniquement</header><ul><li>MHT, PCL, PS, XSLFO, MD</li>
 </ul></div>
 <!--/left-->
-<div class="d1-col d1-right"><header><i class="fa  fa-long-arrow-right"> </i>Sortie uniquement</header><ul><li>XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Texte</li>
+<div class="d1-col d1-right"><header><i class="fa  fa-long-arrow-right"> </i>Sortie uniquement</header><ul><li>XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Text</li>
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="Java Cloud SDK for PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>pour </em> </small>Java</footer></div>
+<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="SDK Cloud Java pour PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>pour </em> </small>Java</footer></div>
 <!--/logo--></div>
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
 
 
-{{< blocks/products/pf/carousel-item h3="Indépendance de la Plateforme" >}}
-<img title="Indépendance de la Plateforme" src="/supported-platform-min.png" alt="Indépendance de la Plateforme">
+{{< blocks/products/pf/carousel-item h3="Indépendance de plateforme" >}}
+<img title="Indépendance de plateforme" src="/supported-platform-min.png" alt="Indépendance de plateforme">
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+<!--Fin des diagrammes-->
 
-<!--Feature-section Start-->
+<!--Début de la section Fonctionnalités-->
 <div class="container-fluid features-section bg-gray singleproduct">
 <a class="anchor" id="features" name="features">
 </a>
@@ -75,7 +75,7 @@ url: java
 <h2 class="pr-ft">Fonctionnalités avancées de manipulation de documents PDF</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Ajouter un en-tête ou pied de page texte ou image au document</p>
+<p class="col-lg-10">Ajouter du texte ou une image d'en-tête et de pied de page au document</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
@@ -83,7 +83,7 @@ url: java
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Supprimer les tampons par ID ou tous les tampons d'une page ou d'un document entier</p>
+<p class="col-lg-10">Supprimer les tampons par ID ou tous les tampons d'une page ou du document entier</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
@@ -95,11 +95,11 @@ url: java
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Supprimer tous les tableaux d'une page spécifique ou d'un document entier</p>
+<p class="col-lg-10">Supprimer tous les tableaux d'une page spécifique ou du document entier</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Lire ou supprimer un tableau de document par ID</p>
+<p class="col-lg-10">Lire ou supprimer le tableau du document par ID</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
@@ -107,7 +107,7 @@ url: java
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Définir et obtenir plusieurs types d'annotations pour les documents</p>
+<p class="col-lg-10">Définir et récupérer plusieurs types d'annotations pour les documents</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
@@ -123,64 +123,64 @@ url: java
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Chiffrer ou déchiffrer le contenu du document &amp; Changer le mot de passe du document</p>
+<p class="col-lg-10">Chiffrer ou déchiffrer le contenu du document &amp; Modifier le mot de passe du document</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Ajouter du texte au document &amp; le récupérer au besoin</p>
+<p class="col-lg-10">Ajouter du texte au document &amp; le récupérer si nécessaire</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">Remplacer une ou plusieurs instances de texte dans une page PDF ou l'ensemble du document</p>
+<p class="col-lg-10">Remplacer une ou plusieurs occurrences de texte dans une page PDF ou l'ensemble du document</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">Commencer avec le SDK de traitement de documents PDF</h2>
-<p>Il est facile de commencer avec Aspose.PDF Cloud Java SDK et il n'y a rien à installer. Créez simplement un compte sur <a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a> et obtenez les informations de votre application. Une fois que vous avez l'App SID &amp; la clé, vous êtes prêt à utiliser Aspose.PDF Cloud Java SDK.</p>
+<h2 class="h2title">Commencez avec le SDK de traitement de documents PDF</h2>
+<p>Il est facile de commencer avec Aspose.PDF Cloud Java SDK et il n'y a rien à installer. Créez simplement un compte sur<a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a>et obtenez les informations de votre application. Une fois que vous avez le SID de l'application &amp; la clé, vous êtes prêt à utiliser le SDK Aspose.PDF Cloud Java.</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">Fonctionnalités étendues pour la conversion de PDF</h2>
-<p>Aspose.PDF Cloud Java SDK vous permet de convertir vers et depuis PDF vers divers autres formats de fichiers populaires. Avec cet outil, vous pouvez convertir EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG et TIFF en PDF.</p>
-<p>Vous pouvez également convertir PDF (avec formulaires XFA) en PDF avec AcroForm. De même, Aspose.PDF Cloud SDK pour Java vous permet de convertir PDF en BMP, EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTex, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML et XPS.</p>
-<p>De plus, Aspose.PDF Cloud Java SDK vous permet de contrôler comment un document PDF est converti en document de traitement de texte. Vous pouvez choisir le mode “Textbox” pour préserver l'aspect original du fichier PDF ou le mode “Flow” pour une analyse multi-niveaux avec un accent sur l'édition maximale.</p>
-<p>Vous pouvez également définir des privilèges d'accès pour les fichiers PDF. Ces privilèges incluent l'impression, l'impression dégradée, la modification de contenu, la copie de contenu, le remplissage de formulaires PDF et bien d'autres.</p>
+<h2 class="h2title">Fonctionnalités étendues pour la conversion PDF</h2>
+<p>Aspose.PDF Cloud Java SDK vous permet de convertir depuis et vers le PDF vers divers autres formats de fichiers populaires. Vous pouvez convertir EPUB, HTML, LaTeX, MHT, PCL, DOC, MOBIXML, PDFA, PPTX, SVG, TIFF, XLS, XLSX, XML, XPS, PS, XSLFo, PCL, BMP, EMF, GIF, JPEG, PNG et TIFF en PDF.</p>
+<p>Vous pouvez également convertir les PDF (avec formulaires XFA) en PDF avec AcroForm. De même, le SDK Aspose.PDF Cloud pour Java vous permet de convertir les PDF en BMP, PDF EMF, GIF, JPEG, PNG, TIFF, DOC, EPUB, HTML, LaTeX, MOBIXML, PDFA, PPTX, SVG, XLS, XLSX, XML et XPS.</p>
+<p>De plus, Aspose.PDF Cloud Java SDK permet de contrôler la façon dont un document PDF est converti en document de traitement de texte. Vous pouvez choisir le mode « Textbox » pour préserver l'apparence originale du fichier PDF ou le mode « Flow » pour une analyse à plusieurs niveaux avec l'objectif d'être le plus éditable possible.</p>
+<p>Vous pouvez également définir les privilèges d'accès aux documents PDF. Ces privilèges comprennent l'impression, l'impression de qualité réduite, la modification du contenu, la copie du contenu, le remplissage des formulaires PDF et bien d'autres.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Annotations personnalisées</h2>
-<p>Aspose.PDF Cloud Java SDK prend en charge divers types d'annotations, telles que l'annotation de texte, l'annotation de cercle, l'annotation de polygone, l'annotation de polyligne, l'annotation de ligne, l'annotation carrée, l'annotation de texte libre, l'annotation de surbrillance, l'annotation de soulignement, l'annotation de zigzag, l'annotation de rature, l'annotation de caret, l'annotation d'encre, l'annotation de lien, l'annotation de popup, l'annotation de pièce jointe de fichier, l'annotation sonore, l'annotation de film, l'annotation d'écran, l'annotation de widget, l'annotation de filigrane, l'annotation de réseau de piège (TrapNet), l'annotation de marque d'imprimante, l'annotation de caviardage, l'annotation de tampon de caoutchouc et l'annotation de média enrichi.</p>
-<p>Vous pouvez définir des drapeaux pour spécifier diverses caractéristiques des annotations prises en charge. Définissez la visibilité, la restriction d'impression, la restriction de grossissement, la restriction de rotation, rendre les annotations en lecture seule et d'autres drapeaux.</p>
-<p>En utilisant Aspose.PDF Cloud Java SDK, les annotations peuvent être définies sur divers états comme marqué, non marqué, accepté, rejeté, annulé, terminé ou aucun. Il vous permet également de définir diverses propriétés des tampons pour les documents PDF. Ces propriétés incluent l'opacité, la rotation, l'alignement, l'indentation, le zoom et diverses autres propriétés.</p>
+<p>Aspose.PDF Cloud Java SDK prend en charge différents types d'annotations, telles que l'annotation texte, l'annotation cercle, l'annotation polygone, l'annotation polyligne, l'annotation ligne, l'annotation carré, l'annotation texte libre, l'annotation surlignage, l'annotation soulignement, l'annotation ondulée, l'annotation barrée, l'annotation curseur, l'annotation encre, l'annotation lien, l'annotation popup, l'annotation pièce jointe, l'annotation son, l'annotation vidéo, l'annotation écran, l'annotation widget, l'annotation filigrane, l'annotation réseau de piégeage (TrapNet), l'annotation marqueur d'imprimante, l'annotation rédaction, l'annotation tampon en caoutchouc et l'annotation multimédia riche.</p>
+<p>Vous pouvez définir des indicateurs pour spécifier diverses caractéristiques des annotations prises en charge. Définissez la visibilité, la restriction d'impression, la restriction de zoom, la restriction de rotation, rendez les annotations en lecture seule, ainsi que d'autres indicateurs.</p>
+<p>Avec Aspose.PDF Cloud Java SDK, les annotations peuvent être définies à différents états tels que : marqué, non marqué, accepté, rejeté, annulé, terminé ou aucun. Il permet également de définir diverses propriétés des tampons pour les documents PDF. Ces propriétés comprennent l'opacité, la rotation, l'alignement, l'indentation, le zoom et d’autres propriétés.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Extraire divers éléments du document PDF</h2>
-<p>Aspose.PDF Cloud Java SDK vous permet d'extraire divers éléments des documents PDF. Vous pouvez extraire des images de documents PDF au format GIF, JPEG, PNG, TIFF et les enregistrer dans un dossier. Il permet également d'extraire des annotations de documents PDF, telles que l'annotation de pièce jointe de fichier, l'annotation d'écran, l'annotation sonore et l'annotation de tampon vers un dossier spécifié.</p>
+<p>Aspose.PDF Cloud Java SDK vous permet d'extraire divers éléments des documents PDF. Vous pouvez extraire les images du document PDF aux formats GIF, JPEG, PNG, TIFF et les enregistrer dans un dossier. Il permet également d'extraire les annotations du document PDF, telles que l'annotation pièce jointe, l'annotation écran, l'annotation son et l'annotation tampon, vers un dossier spécifié.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">Optimiser les documents PDF</h2>
-<p>Aspose.PDF Cloud Java SDK vous permet de définir diverses propriétés pour optimiser les documents PDF. Il vous permet d'optimiser la taille des fichiers PDF en permettant la réutilisation du contenu des pages, de définir le niveau de compression des images intégrées dans le document PDF, de lier les flux de ressources en double en les stockant comme un seul objet, de supprimer les objets de document sans aucune référence, de supprimer les flux non utilisés et de ne pas intégrer les polices de documents PDF.</p>
+<p>Aspose.PDF Cloud Java SDK vous permet de définir diverses propriétés pour optimiser les documents PDF. Il vous permet d'optimiser la taille du fichier PDF en réutilisant le contenu des pages, en définissant le niveau de compression des images intégrées dans le document PDF, en liant les flux de ressources dupliqués en les stockant comme un seul objet, en supprimant les objets du document sans aucune référence, en supprimant les flux inutilisés, et en n'intégrant pas les polices du document PDF.</p>
 </div>
 </div>
 </div>
 </div>
-<!--Feature-section End-->
+<!--Fin de la section Fonctionnalité-->
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Ressources d'apprentissage" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentation" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="Code Source" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java" >}}
+{{< blocks/products/pf/slr-element name="Code source" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java" >}}
 {{< blocks/products/pf/slr-element name="Références API" href="https://apireference.aspose.cloud/pdf/" >}}
-{{< blocks/products/pf/slr-element name="Vidéos Tutoriels" href="https://www.youtube.com/user/asposevideo" >}}
+{{< blocks/products/pf/slr-element name="Vidéos tutorielles" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
-{{< blocks/products/pf/slr-tab tabTitle="Support Produit" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="Support Gratuit" href="https://forum.aspose.cloud/c/pdf" >}}
-{{< blocks/products/pf/slr-element name="Support Payant" href="https://helpdesk.aspose.cloud" >}}
+{{< blocks/products/pf/slr-tab tabTitle="Support produit" tabId="support" >}}
+{{< blocks/products/pf/slr-element name="Support gratuit" href="https://forum.aspose.cloud/c/pdf" >}}
+{{< blocks/products/pf/slr-element name="Support payant" href="https://helpdesk.aspose.cloud" >}}
 {{< blocks/products/pf/slr-element name="Blog" href="https://blog.aspose.cloud/category/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
-{{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.PDF Cloud Java SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Liste des Clients" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-tab tabTitle="Pourquoi le SDK Java Aspose.PDF Cloud ?" tabId="success-stories" >}}
+{{< blocks/products/pf/slr-element name="Liste des clients" href="https://about.aspose.cloud/customers/" >}}
 {{< blocks/products/pf/slr-element name="Sécurité" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
