@@ -162,8 +162,6 @@ Analise documentos PDF para extração de imagem por ID com o [Aspose.PDF Cloud 
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
-{{< blocks/products/pf/faq-item question="" answer="" >}}
-
 {{< blocks/products/pf/support-learning-resources >}}
 {{< blocks/products/pf/slr-tab tabTitle="Recursos de Aprendizagem" tabId="resources" >}}
 {{< blocks/products/pf/slr-element name="Documentação" href="https://docs.aspose.cloud/pdf" >}}
