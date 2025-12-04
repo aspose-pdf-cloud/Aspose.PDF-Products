@@ -1,59 +1,59 @@
 ---
-title: Java PDF Creator, Editor & Converter عبر REST SDK
-description: استخدم Aspose.PDF Cloud SDK لـ Java للعمل مع ملفات PDF في تطبيقاتك. قم بتحويل، دمج، تقسيم، وتحرير ملفات PDF عبر REST API.
+title: مُنشئ PDF ومُحرر ومُحوّل Java عبر REST SDK
+description: استخدم Aspose.PDF Cloud SDK للـ Java للعمل مع ملفات PDF في تطبيقاتك. قم بالتحويل، الدمج، التقسيم، وتعديل ملفات PDF عبر REST API.
 weight: 50
 url: java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/upper-banner h1="تنفيذ عمليات PDF في Java SDK" h2="عزز تطبيقات السحابة Java لإنشاء، تحرير، تشفير وتحويل مستندات PDF إلى DOCX، XLSX، PPTX وصور في السحابة." logoImageSrc="/headers/aspose_pdf-for-java.svg" pfName="Aspose.PDF" subTitlepfName="Cloud Java SDK" downloadUrl="" >}}
+{{< blocks/products/pf/upper-banner h1="تنفيذ عمليات سير عمل PDF في Java SDK" h2="عزّز تطبيقات السحابة Java الخاصة بك لإنشاء وتحرير وتشفير وتحويل مستندات PDF إلى DOCX، XLSX، PPTX وصور في السحابة." logoImageSrc="/headers/aspose_pdf-for-java.svg" pfName="Aspose.PDF" subTitlepfName="SDK Java السحابي" downloadUrl="" >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Java SDK" >}}
+{{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="SDK Java السحابي" >}}
 
 {{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-java.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
-<p>يعتمد Aspose.PDF Cloud Java SDK على Aspose.PDF REST API ويساعد مطوري Java على دمج وظائف معالجة وتلاعب PDF السحابية بسلاسة في تطبيقات Java الخاصة بك المبنية للمنصات السحابية. يتم تقديم Aspose.PDF Cloud Java SDK بموجب ترخيص MIT.</p>
-<p>يمكن لـ Aspose.PDF Cloud Java SDK تمكين تطبيقات Java السحابية الخاصة بك من إنشاء مستند PDF من الصفر أو تحويل صيغ مختلفة إلى PDF لمزيد من المعالجة. يمكنك تحويل EPUB، LaTeX، HTML، PS، XsIFo، XPS، SVG، DOCX، PCL، XML وMD (Markdown) إلى PDF باستخدام Java SDK بسهولة. وبالمثل، يمكن لكود Java المحسن تحويل PDF إلى العديد من صيغ الملفات الأخرى، مثل الصور، وورد، باوربوينت، إكسل وغيرها.</p>
-<p>يساعدك Aspose.PDF Cloud Java SDK في العمل مع العناصر الفردية لمستندات PDF السحابية، مثل النصوص، التعليقات، العلامات المائية، التواقيع، الطوابع، العلامات المرجعية، حقول النماذج، الصور، الروابط، المرفقات وغيرها. يمكنك أيضًا تقسيم، دمج، توقيع وتشفير ملفات PDF المستضافة في التخزين السحابي.</p>
+<p>تستند Aspose.PDF Cloud Java SDK إلى واجهة Aspose.PDF REST API وتساعد مطوري Java على دمج وظائف معالجة وتعديل ملفات PDF السحابية بسلاسة في تطبيقات Java الخاصة بك المبنية للمنصات السحابية. تُقدم Aspose.PDF Cloud Java SDK تحت ترخيص MIT.</p>
+<p>تمكن Aspose.PDF Cloud Java SDK تطبيقات Java المستندة إلى السحابة من إنشاء مستند PDF من الصفر أو تحويل صيغ متعددة إلى PDF لمعالجة إضافية. يمكنك تحويل صيغ EPUB، LaTeX، HTML، PS، XsIFo، XPS، SVG، DOCX، PCL، XML و MD (Markdown) إلى PDF باستخدام SDK Java السهل. وبالمثل، يمكن لكود Java المحسن تحويل PDF إلى العديد من صيغ الملفات الأخرى، مثل الصور، Word، PowerPoint، Excel وغيرها.</p>
+<p>تساعدك Aspose.PDF Cloud Java SDK في التعامل مع عناصر مستندات PDF السحابية الفردية، مثل النصوص، التعليقات، العلامات المائية، التوقيعات، الأختام، العلامات المرجعية، حقول النماذج، الصور، الروابط الفائقة، المرفقات وغيرها. يمكنك أيضًا تقسيم، دمج، توقيع وتشفير ملفات PDF المستضافة على التخزين السحابي.</p>
 {{< /blocks/products/pf/tab-content >}}
 
 <!--Diagrams Start-->
 {{< blocks/products/pf/carousel >}}
 
-{{< blocks/products/pf/carousel-item h3="لمحة سريعة"  >}}
+{{< blocks/products/pf/carousel-item h3="نظرة سريعة"  >}}
 <div class="diagram1 d1-cloud">
 <div class="d1-row">
 <div class="d1-col d1-left"> </div>
 <!--/left-->
-<div class="d1-col d1-right"><header><i class="fa fa-barcode"> </i>نظرة عامة</header><ul><li>احصل على البيانات من الصور الممسوحة ضوئيًا</li>
-<li>معالجة الصور الملتقطة</li>
+<div class="d1-col d1-right"><header><i class="fa fa-barcode"> </i>نظرة عامة</header><ul><li>استخراج البيانات من الصور الممسوحة ضوئيًا</li>
+<li>معالجة الصور ذات المنظور</li>
 <li>تصدير النتائج إلى CSV</li>
-<li>توليد النماذج</li>
+<li>إنشاء القوالب</li>
 <li>تطبيق تنسيق النص</li>
-<li>قص الصورة وتطبيق pdf</li>
+<li>قص الصورة وتطبيق PDF</li>
 <li>تطبيق قواعد JSON</li>
-<li>محرر PDF قائم على واجهة المستخدم الرسومية</li>
+<li>محرر PDF قائم على الواجهة الرسومية</li>
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="Java PDF SDK"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Java</footer></div>
+<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="SDK PDF لجافا"><header>Aspose.PDF</header><footer>السحابة <small> <em>لـ</em> </small>Java</footer></div>
 <!--/logo--></div>
 <!--/diagram1-->
 {{< /blocks/products/pf/carousel-item >}}
 
-{{< blocks/products/pf/carousel-item h3="تنسيقات الملفات المدعومة" >}}
+{{< blocks/products/pf/carousel-item h3="الصيغ المدعومة" >}}
 <div class="diagram1 d2  d1-cloud">
 <div class="d1-row">
-<div class="d1-col d1-left"><header><i class="fa fa-arrows-v"> </i> الإدخال/الإخراج</header><ul><li>PDF، EPUB، HTML، TeX، SVG، XML، XPS، FDF، XFDF، PDF/A</li>
-</ul><header><i class="fa fa-long-arrow-left"> </i> الإدخال فقط</header><ul><li>MHT، PCL، PS، XSLFO، MD</li>
+<div class="d1-col d1-left"><header><i class="fa fa-arrows-v"> </i> الإدخال/الإخراج</header><ul><li>PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF, PDF/A</li>
+</ul><header><i class="fa fa-long-arrow-left"> </i> الإدخال فقط</header><ul><li>MHT, PCL, PS, XSLFO, MD</li>
 </ul></div>
 <!--/left-->
-<div class="d1-col d1-right"><header><i class="fa  fa-long-arrow-right"> </i>الإخراج فقط</header><ul><li>XLS، XLSX، PPTX، DOC، DOCX، MobiXML، JPEG، EMF، PNG، BMP، GIF، TIFF، نص</li>
+<div class="d1-col d1-right"><header><i class="fa  fa-long-arrow-right"> </i>الإخراج فقط</header><ul><li>XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Text</li>
 </ul></div>
 <!--/right--></div>
 <!--/row-->
-<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="Java Cloud SDK for PDF"><header>Aspose.PDF</header><footer>Cloud <small> <em>for </em> </small>Java</footer></div>
+<div class="d1-logo"><img src="/sdk/aspose_pdf-for-java.svg" alt="SDK سحابة Java لملف PDF"><header>Aspose.PDF</header><footer>السحابة <small> <em>لـ</em> </small>Java</footer></div>
 <!--/logo--></div>
 <!--/diagram2-->
 {{< /blocks/products/pf/carousel-item >}}
@@ -64,9 +64,9 @@ url: java
 {{< /blocks/products/pf/carousel-item >}}
 
 {{< /blocks/products/pf/carousel >}}
-<!--Diagrams End-->
+<!--نهاية المخططات-->
 
-<!--Feature-section Start-->
+<!--بدء قسم الميزات-->
 <div class="container-fluid features-section bg-gray singleproduct">
 <a class="anchor" id="features" name="features">
 </a>
@@ -75,19 +75,19 @@ url: java
 <h2 class="pr-ft">ميزات متقدمة لمعالجة مستندات PDF</h2>
 <div class="col-lg-4">
 <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة رأس وتذييل نصي أو صوري للمستند</p>
+<p class="col-lg-10">إضافة نص أو صورة رأس وتذييل للمستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة أختام نصية وصورية للمستندات</p>
+<p class="col-lg-10">إضافة طوابع نصية وصورية إلى المستندات</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">حذف الأختام بواسطة معرف أو جميع الأختام من الصفحة أو المستند بأكمله</p>
+<p class="col-lg-10">حذف الطوابع حسب المعرف أو جميع الطوابع من الصفحة أو المستند بأكمله</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-random ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">قراءة أختام المستند</p>
+<p class="col-lg-10">قراءة طوابع المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-excel-o ico-blue fa-2x col-lg-2"></em>
@@ -95,11 +95,11 @@ url: java
 </div>
 <div class="col-lg-4">
 <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">حذف جميع الجداول من صفحة معينة أو المستند بأكمله</p>
+<p class="col-lg-10">حذف جميع الجداول من صفحة محددة أو المستند بأكمله</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">قراءة أو حذف جدول المستند بواسطة معرف</p>
+<p class="col-lg-10">قراءة أو حذف جدول المستند حسب المعرف</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
@@ -107,75 +107,75 @@ url: java
 </div>
 <div class="col-lg-4">
 <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">تعيين واسترجاع أنواع متعددة من التعليقات التوضيحية للمستندات</p>
+<p class="col-lg-10">إعداد والحصول على عدة أنواع من التعليقات على المستندات</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">قراءة وتنزيل مرفقات المستندات</p>
+<p class="col-lg-10">قراءة وتنزيل مرفقات المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-pencil ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إنشاء وقراءة وتسطير وتحديث حقول النماذج في المستند</p>
+<p class="col-lg-10">إنشاء، قراءة، تسوية وتحديث حقول النماذج في المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة وتحديث وقراءة وحذف خصائص المستند</p>
+<p class="col-lg-10">إضافة، تحديث، قراءة وحذف خصائص المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">تشفير أو فك تشفير محتوى المستند وتغيير كلمة مرور المستند</p>
+<p class="col-lg-10">تشفير أو فك تشفير محتوى المستند &amp; تغيير كلمة مرور المستند</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">إضافة نص إلى المستند واسترجاعه عند الحاجة</p>
+<p class="col-lg-10">إضافة نص إلى المستند &amp; جلبه حسب الحاجة</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-sort-numeric-asc ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10">استبدال نص واحد أو عدة نصوص في صفحة PDF أو المستند بالكامل</p>
+<p class="col-lg-10">استبدال نسخة واحدة أو متعددة من النص في صفحة PDF أو المستند بالكامل</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">ابدأ مع SDK لمعالجة مستندات PDF</h2>
-<p>من السهل البدء باستخدام Aspose.PDF Cloud Java SDK ولا يوجد شيء لتثبيته. ببساطة قم بإنشاء حساب في <a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a> واحصل على معلومات التطبيق الخاصة بك. بمجرد أن تحصل على App SID &amp; المفتاح، تكون جاهزًا لاستخدام Aspose.PDF Cloud Java SDK.</p>
+<h2 class="h2title">ابدأ مع مجموعة تطوير أدوات معالجة مستندات PDF</h2>
+<p>من السهل البدء باستخدام Aspose.PDF Cloud Java SDK ولا يلزم تثبيت أي شيء. ما عليك سوى إنشاء حساب على<a href="https://dashboard.aspose.cloud/#/apps">Aspose for Cloud</a> والحصول على معلومات التطبيق الخاصة بك. بمجرد حصولك على معرف التطبيق (App SID) والمفتاح، ستصبح جاهزًا لاستخدام Aspose.PDF Cloud Java SDK.</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">ميزات واسعة لتحويل ملفات PDF</h2>
-<p>يسمح لك Aspose.PDF Cloud Java SDK بالتحويل من وإلى PDF إلى صيغ ملفات شائعة أخرى. باستخدامه يمكنك تحويل EPUB، HTML، LaTeX، MHT، PCL، DOC، MOBIXML، PDFA، PPTX، SVG، TIFF، XLS، XLSX، XML، XPS، PS، XSLFo، PCL، BMP، EMF، GIF، JPEG، PNG، وTIFF إلى PDF.</p>
-<p>يمكنك أيضًا تحويل PDF (مع نماذج XFA) إلى PDF مع AcroForm. وبالمثل، يتيح لك Aspose.PDF Cloud SDK لـ Java تحويل PDF إلى BMP، PDF EMF، GIF، JPEG، PNG، TIFF، DOC، EPUB، HTML، LaTex، MOBIXML، PDFA، PPTX، SVG، XLS، XLSX، XML، وXPS.</p>
-<p>علاوة على ذلك، يسمح لك Aspose.PDF Cloud Java SDK بالتحكم في كيفية تحويل مستند PDF إلى مستند معالجة نصية. يمكنك الاختيار بين وضع “Textbox” للحفاظ على المظهر الأصلي لملف PDF أو وضع “Flow” للتحليل المتعدد المستويات مع التركيز على أن يكون قابلاً للتحرير إلى أقصى حد.</p>
-<p>يمكنك أيضًا تعيين امتيازات الوصول للمستندات PDF. تشمل هذه الامتيازات الطباعة، الطباعة المتدهورة، تعديل المحتوى، نسخ المحتوى، تعبئة النماذج PDF والعديد من الامتيازات الأخرى.</p>
+<h2 class="h2title">ميزات شاملة لتحويل PDF</h2>
+<p>Aspose.PDF Cloud Java SDK يتيح لك التحويل من وإلى PDF إلى صيغ ملفات شائعة أخرى متعددة. باستخدامه يمكنك تحويل EPUB، HTML، LaTeX، MHT، PCL، DOC، MOBIXML، PDFA، PPTX، SVG، TIFF، XLS، XLSX، XML، XPS، PS، XSLFo، PCL، BMP، EMF، GIF، JPEG، PNG، وTIFF إلى PDF.</p>
+<p>يمكنك أيضًا تحويل PDF (مع نماذج XFA) إلى PDF مع AcroForm. وبالمثل، يتيح لك Aspose.PDF Cloud SDK for Java تحويل PDF إلى BMP، PDF EMF، GIF، JPEG، PNG، TIFF، DOC، EPUB، HTML، LaTex، MOBIXML، PDFA، PPTX، SVG، XLS، XLSX، XML، وXPS.</p>
+<p>علاوة على ذلك، يتيح لك Aspose.PDF Cloud Java SDK التحكم في طريقة تحويل مستند PDF إلى مستند معالجة نصوص. يمكنك اختيار وضع "مربع النص" للحفاظ على الشكل الأصلي لملف PDF أو وضع "تدفق" للتحليل متعدد المستويات مع التركيز على أقصى قدر من القابلية للتحرير.</p>
+<p>يمكنك أيضًا تعيين صلاحيات وصول المستند لملفات PDF. تشمل هذه الصلاحيات الطباعة، الطباعة منخفضة الجودة، تعديل المحتوى، نسخ المحتوى، تعبئة نماذج PDF وغيرها الكثير.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">تعليقات توضيحية مخصصة</h2>
-<p>يدعم Aspose.PDF Cloud Java SDK أنواعًا مختلفة من التعليقات التوضيحية، مثل التعليق التوضيحي النصي، التعليق التوضيحي الدائري، التعليق التوضيحي المضلعي، التعليق التوضيحي لخط متعدد، التعليق التوضيحي الخطي، التعليق التوضيحي المربع، التعليق التوضيحي النصي الحر، التعليق التوضيحي للتسليط، التعليق التوضيحي للتسطير، التعليق التوضيحي المتموج، التعليق التوضيحي للخط العابر، التعليق التوضيحي للإشارة، التعليق التوضيحي للحبر، التعليق التوضيحي للرابط، التعليق التوضيحي للنوافذ المنبثقة، التعليق التوضيحي لمرفقات الملفات، التعليق التوضيحي للصوت، التعليق التوضيحي للفيلم، التعليق التوضيحي للشاشة، التعليق التوضيحي للأداة، التعليق التوضيحي للعلامة المائية، التعليق التوضيحي لشبكة الفخ (TrapNet)، التعليق التوضيحي لعلامات الطباعة، التعليق التوضيحي للإخفاء، التعليق التوضيحي للطوابع المطاطية، والتعليق التوضيحي للوسائط الغنية.</p>
-<p>يمكنك تعيين أعلام لتحديد خصائص مختلفة للتعليقات التوضيحية المدعومة. تعيين الرؤية، تقييد الطباعة، تقييد التكبير، تقييد الدوران، جعل التعليقات التوضيحية للقراءة فقط، وأعلام أخرى.</p>
-<p>باستخدام Aspose.PDF Cloud Java SDK، يمكن تعيين التعليقات التوضيحية لحالات مختلفة مثل، معلمة، غير معلمة، مقبولة، مرفوضة، ملغاة، مكتملة، أو لا شيء. كما يتيح لك تعيين خصائص مختلفة للطوابع للمستندات PDF. تشمل هذه الخصائص الشفافية، التدوير، المحاذاة، التباعد، التكبير، وخصائص أخرى مختلفة.</p>
+<p>Aspose.PDF Cloud Java SDK يدعم أنواعًا مختلفة من التعليقات التوضيحية، مثل تعليق نصي، تعليق دائرة، تعليق متعدد الأضلاع، تعليق خط متعدد، تعليق خط، تعليق مربع، تعليق نص حر، تعليق تمييز، تعليق تحت خط، تعليق تموج، تعليق شطب، تعليق مؤشر، تعليق حبر، تعليق رابط، تعليق منبثق، تعليق مرفق ملف، تعليق صوت، تعليق فيديو، تعليق شاشة، تعليق واجهة، تعليق علامة مائية، تعليق شبكة الفخ (TrapNet)، تعليق علامة طابعة، تعليق إخفاء، تعليق ختم مطاطي، وتعليق وسائط غنية.</p>
+<p>يمكنك تعيين علامات لتحديد خصائص مختلفة للتعليقات التوضيحية المدعومة. اضبط الرؤية، قيد الطباعة، قيد التكبير، قيد الدوران، جعل التعليقات قراءة فقط، وغيرها من العلامات.</p>
+<p>باستخدام Aspose.PDF Cloud Java SDK، يمكن تعيين حالات مختلفة للتعليقات التوضيحية مثل: محدد، غير محدد، مقبول، مرفوض, ملغى، مكتمل أو لا شيء. كما يسمح لك بتعيين خصائص مختلفة للطوابع في مستندات PDF. تشمل هذه الخصائص الشفافية، الدوران، المحاذاة، المسافة البادئة، التكبير، وغيرها من الخصائص.</p>
 </div>
 <div class="col-lg-12">
 <h2 class="h2title">استخراج عناصر مختلفة من مستند PDF</h2>
-<p>يسمح لك Aspose.PDF Cloud Java SDK باستخراج عناصر مختلفة من مستندات PDF. يمكنك استخراج صور مستند PDF بتنسيق GIF، JPEG، PNG، TIFF وحفظها في مجلد. كما يتيح لك استخراج التعليقات التوضيحية لمستند PDF، مثل التعليق التوضيحي لمرفقات الملفات، التعليق التوضيحي للشاشة، التعليق التوضيحي للصوت، والتعليق التوضيحي للطوابع إلى مجلد محدد.</p>
+<p>Aspose.PDF Cloud Java SDK يتيح لك استخراج عناصر متنوعة من مستندات PDF. يمكنك استخراج صور مستند PDF بصيغ GIF، JPEG، PNG، TIFF وحفظها إلى مجلد. كما يتيح لك استخراج تعليقات PDF، مثل تعليق مرفق ملف، تعليق شاشة، تعليق صوت، وتعليق ختم إلى مجلد محدد.</p>
 </div>
 <div class="col-lg-12">
-<h2 class="h2title">جعل مستندات PDF محسّنة</h2>
-<p>يسمح لك Aspose.PDF Cloud Java SDK بتعيين خصائص مختلفة لجعل مستندات PDF محسّنة. يتيح لك تحسين حجم ملف PDF عن طريق السماح بإعادة استخدام محتوى الصفحة، وتعيين مستوى ضغط الصور المضمنة في مستند PDF، وربط تدفقات الموارد المتكررة عن طريق تخزينها ككائن واحد، وإزالة كائنات المستندات بدون أي مرجع، وإزالة التدفقات غير المستخدمة، وعدم تضمين خطوط مستند PDF.</p>
+<h2 class="h2title">جعل مستندات PDF مُحسّنة</h2>
+<p>Aspose.PDF Cloud Java SDK يتيح لك تعيين خصائص مختلفة لجعل مستندات PDF مُحسّنة. يمكنك تحسين حجم ملف PDF عن طريق إعادة استخدام محتوى الصفحات، ضبط مستوى ضغط الصور المدمجة في مستند PDF، ربط تدفقات الموارد المتكررة بتخزينها ككائن واحد، إزالة كائنات المستند بدون أي مرجع، إزالة التدفقات غير المستخدمة، وعدم تضمين خطوط مستند PDF.</p>
 </div>
 </div>
 </div>
 </div>
-<!--Feature-section End-->
+<!--نهاية قسم المميزات-->
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/support-learning-resources >}}
-{{< blocks/products/pf/slr-tab tabTitle="موارد التعلم" tabId="resources" >}}
-{{< blocks/products/pf/slr-element name="التوثيق" href="https://docs.aspose.cloud/pdf" >}}
-{{< blocks/products/pf/slr-element name="كود المصدر" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java" >}}
+{{< blocks/products/pf/slr-tab tabTitle="الموارد التعليمية" tabId="resources" >}}
+{{< blocks/products/pf/slr-element name="الوثائق" href="https://docs.aspose.cloud/pdf" >}}
+{{< blocks/products/pf/slr-element name="شفرة المصدر" href="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-java" >}}
 {{< blocks/products/pf/slr-element name="مراجع API" href="https://apireference.aspose.cloud/pdf/" >}}
 {{< blocks/products/pf/slr-element name="فيديوهات تعليمية" href="https://www.youtube.com/user/asposevideo" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="دعم المنتج" tabId="support" >}}
-{{< blocks/products/pf/slr-element name="الدعم المجاني" href="https://forum.aspose.cloud/c/pdf" >}}
-{{< blocks/products/pf/slr-element name="الدعم المدفوع" href="https://helpdesk.aspose.cloud" >}}
+{{< blocks/products/pf/slr-element name="دعم مجاني" href="https://forum.aspose.cloud/c/pdf" >}}
+{{< blocks/products/pf/slr-element name="دعم مدفوع" href="https://helpdesk.aspose.cloud" >}}
 {{< blocks/products/pf/slr-element name="مدونة" href="https://blog.aspose.cloud/category/pdf/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
