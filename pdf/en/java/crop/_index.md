@@ -1,7 +1,7 @@
 ---
 title: Crop PDFs via Cloud Java SDK 
 url: java/crop/
-description: Crop PDF document is performed using Aspose.PDF Cloud. Check . NET source code for PDF file trimming.
+description: Crop PDF document is performed using Aspose.PDF Cloud. Check Java source code for PDF file trimming.
 lastmod: "2025-12-04"
 ---
 
@@ -190,5 +190,6 @@ To deploy it to a remote Maven repository instead, configure the settings of the
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
