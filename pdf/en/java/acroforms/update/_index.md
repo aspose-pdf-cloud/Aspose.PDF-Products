@@ -18,7 +18,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% blocks/products/pf/agp/content h2="How to Update Form Fields from PDF Document using Cloud Java SDK" %}}
 
  In order to update an AcroForm via Cloud Java SDK , we'll use
- [Aspose.PDF Cloud Java SDK](https://products.aspose.cloud/pdf/net/)
+ [Aspose.PDF Cloud Java SDK](https://products.aspose.cloud/pdf/java/)
  This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in Java language for various cloud platforms. Open
  [Repository](https://releases.aspose.cloud/java/repo/com/aspose/aspose-pdf-cloud/)
  package manager, search for Aspose.PDF Cloud
@@ -194,5 +194,6 @@ Add the AcroForms into PDF documents with [Aspose.PDF Cloud Java SDK](https://pr
 <!-- aboutfile Ends -->
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
