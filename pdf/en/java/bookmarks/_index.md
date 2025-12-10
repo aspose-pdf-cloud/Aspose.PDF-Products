@@ -31,9 +31,13 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/java/bookmarks/extract/by-path/">Get Bookmarks by path in PDF</a></p>
    </div>
-    <div class="col-lg-4">
+   <div class="col-lg-4">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/java/bookmarks/remove/">Delete Bookmarks from PDF</a></p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/java/bookmarks/replace/">Replace Bookmarks in PDF</a></p>
    </div>
     </div>
      </div>
@@ -211,5 +215,6 @@ To install the API client library to your local Maven repository, simply execute
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
