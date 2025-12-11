@@ -1,6 +1,6 @@
 ---
 title: Creating Tables for PDF via Cloud .NET SDK 
-url: net/table/add/
+url: net/table/create/
 description: Create tables for PDFs using Aspose.PDF Cloud SDK for .NET. Dynamically generate extended structured layouts for documents.
 lastmod: "2025-08-29"
 ---
