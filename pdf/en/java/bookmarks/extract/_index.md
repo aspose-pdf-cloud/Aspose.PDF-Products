@@ -79,7 +79,7 @@ To install the API client library to your local Maven repository, simply execute
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud developers can easily load & extract bookmarkd from PDF in just a few lines of code.
+ Aspose.PDF Cloud developers can easily load & extract bookmarks from PDF in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -183,3 +183,4 @@ To install the API client library to your local Maven repository, simply execute
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
