@@ -141,8 +141,8 @@ To deploy it to a remote Maven repository instead, configure the settings of the
 
 {{% blocks/products/pf/agp/content h2="Work with the Links in PDF via Java SDK" %}}
 
-Over time, hyperlinks may become obsolete or lead to no longer existing pages. Such broken links can frustrate readers and diminish the document's credibility. Removing these ensures the content remains accurate and reliable.​
-Delete the Links from PDF documents with [Aspose.PDF Cloud Java SDK](https://products.aspose.cloud/pdf/java/).
+Over time, hyperlinks may become obsolete or lead to no longer existing bookmarks. Such broken bookmarks can frustrate readers and diminish the document's credibility. Removing these ensures the content remains accurate and reliable.​
+Delete the bookmarks from PDF documents with [Aspose.PDF Cloud Java SDK](https://products.aspose.cloud/pdf/java/).
 
 **With our Java SDK you can**
 
@@ -185,5 +185,6 @@ Delete the Links from PDF documents with [Aspose.PDF Cloud Java SDK](https://pro
 {{< /blocks/products/pf/support-learning-resources >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 
 {{< /blocks/products/pf/main-wrap-class >}}
