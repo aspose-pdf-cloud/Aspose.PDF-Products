@@ -6,7 +6,7 @@ lastmod: "2025-11-07"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Delete Pages from PDF via Java SDK" h2="API for moving page from PDF documents to new position with Java." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Move Page to new position in PDF via Java SDK" h2="API for moving page in PDF documents to new position with Java." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for Java" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-java.svg"
@@ -73,31 +73,31 @@ To deploy it to a remote Maven repository instead, configure the settings of the
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to delete pages using .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to move page in PDF to new position using Java SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud developers can easily load & delete pages from PDF documents in just a few lines of code.
+ Aspose.PDF Cloud developers can easily load & move PDF documents page in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
 1. Create a new Configuration object with your Application Secret and Key.
 1. Create an object to connect to the Cloud API.
 1. Uploads the PDF to cloud storage.
-1. Move page from PDF document to new postion in cloud storage.
+1. Move PDF document page to new postion in cloud storage.
 1. Checks the response and logs the result.
 1. Downloads the updated file for local use.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows moving page from PDF document to new postion" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows moving page in PDF document to new postion" offSpacer="" %}}
 
 ```java
 
     import java.io.File;
     import java.nio.file.Path;
     import java.nio.file.StandardCopyOption;
-
+    import com.aspose.asposecloudpdf.api.PdfApi;
     import com.aspose.asposecloudpdf.model.AsposeResponse;
 
     public class PagesMove {
@@ -110,19 +110,20 @@ To deploy it to a remote Maven repository instead, configure the settings of the
             Integer NEW_PAGE_NUMBER = 3;
 
             try {
+                PdfApi pdfApi = new PdfApi(API_KEY, API_SECRET);
 
                 // upload local PDF file to remote storage
                 File file = new File(Path.of(LOCAL_FOLDER, PDF_DOCUMENT).toString());
-                PagesHelper.pdfApi().uploadFile(Path.of(REMOTE_FOLDER , PDF_DOCUMENT).toString(), file, null);
+                pdfApi.uploadFile(Path.of(REMOTE_FOLDER , PDF_DOCUMENT).toString(), file, null);
                 System.out.println(String.format("File '%s' successfully uploaded!", Path.of(LOCAL_FOLDER, PDF_DOCUMENT).toString()));
 
                 //perform action
-                AsposeResponse response = PagesHelper.pdfApi().postMovePage(PDF_DOCUMENT, PAGE_NUMBER, NEW_PAGE_NUMBER, null, REMOTE_FOLDER);
+                AsposeResponse response = pdfApi.postMovePage(PDF_DOCUMENT, PAGE_NUMBER, NEW_PAGE_NUMBER, null, REMOTE_FOLDER);
                 if (response.getCode() != 200)
                     System.err.println("Error: unexpected error when moving page! '" + response.getStatus() + "'");
                 else{
                     // dowmload changed file from remote folder...
-                    File f = PagesHelper.pdfApi().downloadFile(Path.of(REMOTE_FOLDER , PDF_DOCUMENT).toString(), null, null);
+                    File f = pdfApi.downloadFile(Path.of(REMOTE_FOLDER , PDF_DOCUMENT).toString(), null, null);
                     java.nio.file.Files.copy(Path.of(f.getPath()), Path.of(LOCAL_FOLDER, PDF_OUTPUT), StandardCopyOption.REPLACE_EXISTING);
                     System.out.println(String.format("File '%s' successfully dowloaded!", Path.of(LOCAL_FOLDER, PDF_OUTPUT).toString()));
                     System.out.println("Successfully moved page in document ! '" + PDF_OUTPUT + "'");
