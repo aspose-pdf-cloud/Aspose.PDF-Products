@@ -1,6 +1,6 @@
 ---
 title: Work with Annotations in PDF via Cloud Java SDK
-url: javaannotations/
+url: java/annotations/
 description: Manage Annotations in PDFs using Aspose.PDF Cloud SDK for Java.
 lastmod: "2025-07-20"
 ---

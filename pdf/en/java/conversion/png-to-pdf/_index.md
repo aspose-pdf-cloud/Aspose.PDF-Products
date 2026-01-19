@@ -2,7 +2,7 @@
 title: Convert PNG to PDF via Cloud Java SDK
 url: java/conversion/png-to-pdf/ 
 description: Convert PNG images to PDF with Aspose.PDF Cloud SDK for Java. Create portable documents from image assets.
-lastmod: "2025-12=04"
+lastmod: "2025-12-04"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
