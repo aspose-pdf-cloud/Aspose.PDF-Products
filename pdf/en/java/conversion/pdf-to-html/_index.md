@@ -2,7 +2,7 @@
 title: Convert PDF to HTML via Cloud Java SDK
 url: java/conversion/pdf-to-html/
 description: Convert PDF to HTML pages with Aspose.PDF Cloud SDK for Java. Enable web-friendly document viewing.
-lastmod: "2025-12-04x"
+lastmod: "2025-12-04"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
