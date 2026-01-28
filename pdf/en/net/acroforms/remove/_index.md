@@ -74,7 +74,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).       
         var pdfApi = new PdfApi(AppSecret, AppSid);
 
-        var filesOnStorage = pdfApi.GetFilesList("");
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
@@ -100,5 +100,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
