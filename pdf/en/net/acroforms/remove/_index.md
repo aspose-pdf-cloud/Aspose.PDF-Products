@@ -78,14 +78,14 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
 
         var response = await pdfApi.DeleteFieldAsync(storageFileName, "Email");
         Console.WriteLine(response.Status);
 
-        using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
+        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
         using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
         await downloadStream.CopyToAsync(localStream);
     }
@@ -100,6 +100,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
