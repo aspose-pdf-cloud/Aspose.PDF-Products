@@ -69,11 +69,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
         var pdfApi = new PdfApi(AppSecret, AppSid);
 
-        var filesOnStorage = pdfApi.GetFilesList("");
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
         var textBoxField = new TextBoxField(PageIndex: 1)
@@ -87,7 +87,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = await pdfApi.PutTextBoxFieldAsync(storageFileName, "Email", textBoxField);
         Console.WriteLine(response.Status);
 
-        using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
+        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
         using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
         await downloadStream.CopyToAsync(localStream);
     }
@@ -102,4 +102,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
