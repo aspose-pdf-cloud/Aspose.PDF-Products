@@ -82,7 +82,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
 
-        var response =await pdfApi.DeleteFieldAsync(storageFileName, "Email");
+        var response = await pdfApi.DeleteFieldAsync(storageFileName, "Email");
         Console.WriteLine(response.Status);
 
         using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
@@ -100,4 +100,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
