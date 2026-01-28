@@ -2,7 +2,7 @@
 title: Work with AcroForms in PDF via Cloud .NET SDK
 url: net/acroforms/
 description: Working with AcroForms in PDF via Cloud .NET SDK. Check how to add, get, remove, update, and set AcroForms in PDF document.
-lastmod: "2025-03-19"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -30,6 +30,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
    <div class="col-lg-4">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/acroforms/set/">Set PDF Acroforms</a></p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/acroforms/remove/">Set PDF Acroforms</a></p>
    </div>
     </div>
      </div>
@@ -115,3 +119,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
