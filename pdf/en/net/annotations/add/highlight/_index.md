@@ -59,53 +59,63 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Annotations
+    public static async Task AddHighlightAnnotation(PdfApi pdfApi)
     {
-        public class NewHighlightAnnotation
-        {
-            public static async Task Append(AnnotationsHelper helper, string documentName, int pageNumber, string outputName, string remoteFolder)
-            {
-                await helper.UploadFile(documentName);
+         const string localImageFileName = @"C:\Samples\sample.pdf";
+         const string storageFileName = "sample.pdf";
+         const string localFolder = @"C:\\Samples";
+         const string resultFileName = "output_add_hl_annotation.pdf";
+         const int pageNumber = 1;
 
-                List<HighlightAnnotation> annotations = new List<HighlightAnnotation>
-                {
-                    new HighlightAnnotation(
-                        Name: "Highlight_NEW_Annotation",
-                        Rect: new Rectangle(100,350, 450,400),
-                        Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
-                        HorizontalAlignment: HorizontalAlignment.Left,
-                        VerticalAlignment: VerticalAlignment.Top,
-                        RichText: helper.config.NEW_HL_ANNOTATION_TEXT,
-                        Subject: helper.config.NEW_HL_ANNOTATION_SUBJECT,
-                        Contents: helper.config.NEW_HL_ANNOTATION_CONTENTS,
-                        Title: helper.config.NEW_HL_ANNOTATION_DESCRIPTION,
-                        ZIndex: 1,
-                        Color: new Color(A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
-                        QuadPoints: new List<Point>() {
-                            new Point(X: 10, Y: 10),
-                            new Point(X: 20, Y: 10),
-                            new Point(X: 10, Y: 20),
-                            new Point(X: 10, Y: 10)
-                        },
-                        Modified: "03/27/2025 00:00:00.000 AM"
-                    )
-                };
-                AsposeResponse response = await helper.pdfApi.PostPageHighlightAnnotationsAsync(documentName, pageNumber, annotations, folder: remoteFolder);
+         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
+         //var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                if (response == null)
-                    Console.WriteLine("NewHighlightAnnotation(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("NewHighlightAnnotation(): Failed to append highlight annotation to the document.");
-                else
-                {
-                    Console.WriteLine("NewHighlightAnnotation(): annotations '{0}' added to the document '{1}.", helper.config.NEW_HL_ANNOTATION_TEXT, documentName);
-                    await helper.DownloadFile(documentName, outputName, "add_highlight_annotation_");
-                }
-            }
-        }
-    }
+         var filesOnStorage = await pdfApi.GetFilesListAsync("");
+         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+         {
+             using var file = File.OpenRead(localImageFileName);
+             var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+             Console.WriteLine(uploadResult.Uploaded[0]);
+         }
+
+         List<HighlightAnnotation> annotations = new List<HighlightAnnotation>
+             {
+                 new HighlightAnnotation(
+                     Name: "Highlight_NEW_Annotation",
+                     Rect: new Rectangle(100,350, 450,400),
+                     Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
+                     HorizontalAlignment: HorizontalAlignment.Left,
+                     VerticalAlignment: VerticalAlignment.Top,
+                     RichText:       "NEW HIGHLIGHT TEXT ANNOTATION",
+                     Subject:        "Highlight Text Box Subject",
+                     Contents:       "Highlight annotation sample contents",
+                     Title:          "This is a sample highlight annotation",
+                     ZIndex: 1,
+                     Color: new Color(A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
+                     QuadPoints: new List<Point>() {
+                         new Point(X: 10, Y: 10),
+                         new Point(X: 20, Y: 10),
+                         new Point(X: 10, Y: 20),
+                         new Point(X: 10, Y: 10)
+                     },
+                     Modified: "03/27/2025 00:00:00.000 AM"
+                 )
+             };
+         AsposeResponse response = await pdfApi.PostPageHighlightAnnotationsAsync(storageFileName, pageNumber, annotations);
+     
+         if (response == null)
+             Console.WriteLine("NewHighlightAnnotation(): Unexpected error!");
+         else if (response.Code < 200 || response.Code > 299)
+             Console.WriteLine("NewHighlightAnnotation(): Failed to append highlight annotation to the document.");
+         else
+         {
+             using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+             using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+             await downloadStream.CopyToAsync(localStream);
+             Console.WriteLine("NewHighlightAnnotation(): annotation added to the document '{0}.", storageFileName);
+         }
+     }
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -117,5 +127,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
