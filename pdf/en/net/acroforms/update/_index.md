@@ -64,17 +64,21 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void UpdateFormFields()
+    public static async Task UpdateFormFields()
     {
-        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_update_form_filed.pdf";
+
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
         var pdfApi = new PdfApi(AppSecret, AppSid);
-        var filesOnStorage = pdfApi.GetFilesList("");
+
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
         var fieldList = new List<Field>
@@ -88,8 +92,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
         var fields = new Fields(List: fieldList);
 
-        var response = pdfApi.PutUpdateFields(storageFileName, fields);
+        var response = await  pdfApi.PutUpdateFieldsAsync(storageFileName, fields);
         Console.WriteLine(response.Status);
+
+        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        await downloadStream.CopyToAsync(localStream);
     }
 ```
 
@@ -102,3 +110,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
