@@ -59,51 +59,60 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Annotations
+    public static async Task AddStrikeoutAnnotation()
     {
-        public class NewStrikeoutAnnotation
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_add_so_annotation.pdf";
+        const int pageNumber = 1;
+    
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+    
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            public static async Task Append(AnnotationsHelper helper, string documentName, int pageNumber, string outputName, string remoteFolder)
-            {
-                await helper.UploadFile(documentName);
-
-                List<StrikeOutAnnotation> annotations = new List<StrikeOutAnnotation>
-                {
-                    new StrikeOutAnnotation(
-                        Name: "Strikeout_NEW_Annotation",
-                        Rect: new Rectangle(100,350, 450,400),
-                        Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
-                        HorizontalAlignment: HorizontalAlignment.Left,
-                        VerticalAlignment: VerticalAlignment.Top,
-                        RichText: helper.config.NEW_SO_ANNOTATION_TEXT,
-                        Subject: helper.config.NEW_SO_ANNOTATION_SUBJECT,
-                        Contents: helper.config.NEW_SO_ANNOTATION_CONTENTS,
-                        Title: helper.config.NEW_SO_ANNOTATION_DESCRIPTION,
-                        ZIndex: 1,
-                        Color: new Color(A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
-                        QuadPoints: new List<Point>() {
-                            new Point(X: 10, Y: 10),
-                            new Point(X: 20, Y: 10),
-                            new Point(X: 10, Y: 20),
-                            new Point(X: 10, Y: 10)
-                        },
-                        Modified: "03/27/2025 00:00:00.000 AM"
-                    )
-                };
-                AsposeResponse response = await helper.pdfApi.PostPageStrikeOutAnnotationsAsync(documentName, pageNumber, annotations, folder: remoteFolder);
-
-                if (response == null)
-                    Console.WriteLine("NewStrikeoutAnnotation(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("NewStrikeoutAnnotation(): Failed to append strikeout annotation to the document.");
-                else
-                {
-                    Console.WriteLine("NewStrikeoutAnnotation(): annotations '{0}' added to the document '{1}.", helper.config.NEW_SO_ANNOTATION_TEXT, documentName);
-                    await helper.DownloadFile(documentName, outputName, "add_strikeout_annotation_");
-                }
-            }
+            using var file = File.OpenRead(localImageFileName);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+    
+        List<StrikeOutAnnotation> annotations = new List<StrikeOutAnnotation>
+        {
+            new StrikeOutAnnotation(
+                Name: "Strikeout_NEW_Annotation",
+                Rect: new Rectangle(100,350, 450,400),
+                Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
+                HorizontalAlignment: HorizontalAlignment.Left,
+                VerticalAlignment: VerticalAlignment.Top,
+                RichText:                       "NEW STRIKEOUT TEXT ANNOTATION",
+                Subject:                        "Strikeout Text Box Subject",
+                Contents:                       "Strikeout annotation sample content",
+                Title:                          "This is a sample strikeout annotation",
+                ZIndex: 1,
+                Color: new Color(A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
+                QuadPoints: new List<Point>() {
+                    new Point(X: 10, Y: 10),
+                    new Point(X: 20, Y: 10),
+                    new Point(X: 10, Y: 20),
+                    new Point(X: 10, Y: 10)
+                },
+                Modified: "03/27/2025 00:00:00.000 AM"
+            )
+        };
+        AsposeResponse response = await pdfApi.PostPageStrikeOutAnnotationsAsync(storageFileName, pageNumber, annotations);
+    
+        if (response == null)
+            Console.WriteLine("NewStrikeoutAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("NewStrikeoutAnnotation(): Failed to append strikeout annotation to the document.");
+        else
+        {
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("NewStrikeoutAnnotation(): annotation added to the document '{0}.", resultFileName);
         }
     }
 ```
@@ -117,5 +126,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
