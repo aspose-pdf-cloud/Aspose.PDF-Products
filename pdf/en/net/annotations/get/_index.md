@@ -21,11 +21,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
    <h2 class="pr-ft">Most popular actions with Annotations in .NET</h2>
    <div class="col-lg-4">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/get/page/">Get Page Annotations from PDF document page</a></p>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/get/page/">Get Page Annotations from PDF document</a></p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/get/text/">Get Text Annotations By Id from PDF</a></p>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/get/text/">Get Text Annotations By Id from PDF document</a></p>
    </div>
     </div>
      </div>
@@ -112,3 +112,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
