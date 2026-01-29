@@ -58,14 +58,14 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-   public async static Task GetPageAnnotations(PdfApi pdfApi)
+   public async static Task GetPageAnnotations()
    {
        const string localPdfDocument = @"C:\Samples\sample.pdf";
        const string storageFileName = "sample.pdf";
        const int pageNumber = 1;
    
        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
-       //var pdfApi = new PdfApi(AppSecret, AppSid);
+       var pdfApi = new PdfApi(AppSecret, AppSid);
    
        var filesOnStorage = await pdfApi.GetFilesListAsync("");
        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
@@ -81,9 +81,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
        else if (response.Code < 200 || response.Code > 299)
            Console.WriteLine("GetAnnotations(): Failed to get annotations from the document.");
        else
-       {
            Console.WriteLine(JsonConvert.SerializeObject(response.Annotations, Formatting.Indented));
-       }
    }
 ```
 
@@ -96,6 +94,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
