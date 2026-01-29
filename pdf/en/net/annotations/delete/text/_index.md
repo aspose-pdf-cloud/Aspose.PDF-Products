@@ -59,7 +59,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public async static Task DeleteTextAnnotation(PdfApi pdfApi)
+    public async static Task DeleteTextAnnotation()
     {
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
@@ -102,5 +102,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
