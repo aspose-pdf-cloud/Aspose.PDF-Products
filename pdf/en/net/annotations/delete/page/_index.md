@@ -1,6 +1,6 @@
 ---
 title: Delete Annotations from PDF pages via Cloud .NET SDK
-url: net/annotations/page/delete
+url: net/annotations/delete/page/
 description: Delete annotations from PDF document pages using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2026-01-28"
 ---
@@ -101,6 +101,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
