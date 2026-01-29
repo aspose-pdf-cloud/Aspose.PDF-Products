@@ -58,7 +58,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-   public async static Task DeletePageAnnotations(PdfApi pdfApi)
+   public async static Task DeletePageAnnotations()
    {
        const string localImageFileName = @"C:\Samples\sample.pdf";
        const string storageFileName = "sample.pdf";
@@ -87,7 +87,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
            await downloadStream.CopyToAsync(localStream);
-           Console.WriteLine("NewFreetextAnnotation(): annotation added to the document '{0}.", resultFileName);
+           Console.WriteLine("DeletePageAnnotations(): annotations deleted from document '{0} page {1}.", resultFileName, pageNumber);
        }
    }
 ```
@@ -101,6 +101,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
