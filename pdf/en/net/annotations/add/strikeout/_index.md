@@ -61,7 +61,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
     public static async Task AddStrikeoutAnnotation()
     {
-        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string localPdfDocumentName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
         const string localFolder = @"C:\\Samples";
         const string resultFileName = "output_add_so_annotation.pdf";
@@ -73,7 +73,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            using var file = File.OpenRead(localImageFileName);
+            using var file = File.OpenRead(localPdfDocumentName);
             var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
@@ -126,6 +126,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
