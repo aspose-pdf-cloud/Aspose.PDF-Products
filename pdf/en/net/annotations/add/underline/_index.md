@@ -1,6 +1,6 @@
 ---
 title: Add Underline Annotations to PDFs via Cloud .NET SDK
-url: net/annotations/underline/
+url: net/annotations/add/underline/
 description: Insert underline text annotations to PDF documents using Aspose.PDF Cloud .NET SDK.
 lastmod: "2026-01-28"
 ---
@@ -126,6 +126,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
