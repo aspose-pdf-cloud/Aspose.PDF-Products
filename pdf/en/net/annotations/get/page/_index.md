@@ -1,6 +1,6 @@
 ---
 title: Get Page Annotations via Cloud .NET SDK
-url: net/annotations/page/get
+url: net/annotations/get/page/
 description: Get Page Annotations from PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2026-01-28"
 ---
@@ -58,17 +58,15 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-   public static async Task RequestAnnotationsOnPageAsync()
+   public async static Task GetPageAnnotations(PdfApi pdfApi)
    {
-       onst string localPdfDocument = @"C:\Samples\sample.pdf";
+       const string localPdfDocument = @"C:\Samples\sample.pdf";
        const string storageFileName = "sample.pdf";
-       const string localFolder = @"C:\\Samples";
-       const string resultFileName = "output_del_page_annotations.pdf";
        const int pageNumber = 1;
-
+   
        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
-       var pdfApi = new PdfApi(AppSecret, AppSid);
-
+       //var pdfApi = new PdfApi(AppSecret, AppSid);
+   
        var filesOnStorage = await pdfApi.GetFilesListAsync("");
        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
        {
@@ -76,15 +74,16 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
            Console.WriteLine(uploadResult.Uploaded[0]);
        }
-
-       AnnotationsInfoResponse response = await pdfApi.GetPageAnnotationsAsync(storageFileNAme, pageNumber);
-
+   
+       AnnotationsInfoResponse response = await pdfApi.GetPageAnnotationsAsync(storageFileName, pageNumber);
        if (response == null)
-           Console.WriteLine("RequestAnnotationsOnPageAsync(): Unexpected error!");
+           Console.WriteLine("GetAnnotations(): Unexpected error!");
        else if (response.Code < 200 || response.Code > 299)
-           Console.WriteLine("RequestAnnotationsOnPageAsync(): Failed to request annotations from the document.");
+           Console.WriteLine("GetAnnotations(): Failed to get annotations from the document.");
        else
+       {
            Console.WriteLine(JsonConvert.SerializeObject(response.Annotations, Formatting.Indented));
+       }
    }
 ```
 
@@ -97,6 +96,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
