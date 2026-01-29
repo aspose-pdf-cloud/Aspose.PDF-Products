@@ -60,61 +60,61 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 ```cs
 
     public static async Task AddUnderlineAnnotation()
-{
-    const string localImageFileName = @"C:\Samples\sample.pdf";
-    const string storageFileName = "sample.pdf";
-    const string localFolder = @"C:\\Samples";
-    const string resultFileName = "output_add_ul_annotation.pdf";
-    const int pageNumber = 1;
-
-    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
-    var pdfApi = new PdfApi(AppSecret, AppSid);
-
-    var filesOnStorage = await pdfApi.GetFilesListAsync("");
-    if (filesOnStorage.Value.All(f => f.Name != storageFileName))
     {
-        using var file = File.OpenRead(localImageFileName);
-        var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
-        Console.WriteLine(uploadResult.Uploaded[0]);
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_add_ul_annotation.pdf";
+        const int pageNumber = 1;
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+        {
+            using var file = File.OpenRead(localPdfDocument);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+    
+        List<UnderlineAnnotation> annotations = new List<UnderlineAnnotation>
+        {
+            new UnderlineAnnotation(
+                Name: "Underline_NEW_Annotation",
+                Rect: new Rectangle(100,350, 450,400),
+                Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
+                HorizontalAlignment: HorizontalAlignment.Left,
+                VerticalAlignment: VerticalAlignment.Top,
+                RichText:                       "NEW UNDERLINE ANNOTATION 2",
+                Subject:                        "Underline Box Subject 2",
+                Contents:                       "Underline annotation sample contents 2",
+                Title:                          "This is an underline annotation 2",
+                ZIndex: 1,
+                Color: new Color(A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
+                QuadPoints: new List<Point>() {
+                    new Point(X: 10, Y: 10),
+                    new Point(X: 20, Y: 10),
+                    new Point(X: 10, Y: 20),
+                    new Point(X: 10, Y: 10)
+                },
+                Modified: "03/27/2025 00:00:00.000 AM"
+            )
+        };
+        AsposeResponse response = await pdfApi.PostPageUnderlineAnnotationsAsync(storageFileName, pageNumber, annotations);
+    
+        if (response == null)
+            Console.WriteLine("AddUnderlineAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("AddUnderlineAnnotation(): Failed to append underline annotation to the document.");
+        else
+        {
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("NewFreetextAnnotation(): annotation added to the document '{0}.", resultFileName);
+        }
     }
-
-    List<UnderlineAnnotation> annotations = new List<UnderlineAnnotation>
-    {
-        new UnderlineAnnotation(
-            Name: "Underline_NEW_Annotation",
-            Rect: new Rectangle(100,350, 450,400),
-            Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
-            HorizontalAlignment: HorizontalAlignment.Left,
-            VerticalAlignment: VerticalAlignment.Top,
-            RichText:                       "NEW UNDERLINE ANNOTATION 2",
-            Subject:                        "Underline Box Subject 2",
-            Contents:                       "Underline annotation sample contents 2",
-            Title:                          "This is an underline annotation 2",
-            ZIndex: 1,
-            Color: new Color(A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
-            QuadPoints: new List<Point>() {
-                new Point(X: 10, Y: 10),
-                new Point(X: 20, Y: 10),
-                new Point(X: 10, Y: 20),
-                new Point(X: 10, Y: 10)
-            },
-            Modified: "03/27/2025 00:00:00.000 AM"
-        )
-    };
-    AsposeResponse response = await pdfApi.PostPageUnderlineAnnotationsAsync(storageFileName, pageNumber, annotations);
-
-    if (response == null)
-        Console.WriteLine("AddUnderlineAnnotation(): Unexpected error!");
-    else if (response.Code < 200 || response.Code > 299)
-        Console.WriteLine("AddUnderlineAnnotation(): Failed to append underline annotation to the document.");
-    else
-    {
-        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        await downloadStream.CopyToAsync(localStream);
-        Console.WriteLine("NewFreetextAnnotation(): annotation added to the document '{0}.", resultFileName);
-    }
-}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -126,6 +126,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
