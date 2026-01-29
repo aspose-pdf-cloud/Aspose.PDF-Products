@@ -2,7 +2,7 @@
 title: Delete Annotations from PDF pages via Cloud .NET SDK
 url: net/annotations/page/delete
 description: Delete annotations from PDF document pages using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-07-20"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -58,28 +58,38 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+   public async static Task DeletePageAnnotations(PdfApi pdfApi)
+   {
+       const string localImageFileName = @"C:\Samples\sample.pdf";
+       const string storageFileName = "sample.pdf";
+       const string localFolder = @"C:\\Samples";
+       const string resultFileName = "output_del_page_annotations.pdf";
+       const int pageNumber = 1;
 
-    namespace Annotations
-    {
-        public class DeletePageAnnotations
-        {
-            public async static Task MakeDeleteAsync(AnnotationsHelper helper, string documentName, int pageNumber, string outputName, string remoteFolder)
-            {
-                // Delete annotation from the PDF document.
-                await helper.UploadFile(documentName);
-                AsposeResponse response = await helper.pdfApi.DeletePageAnnotationsAsync(documentName, pageNumber, folder: remoteFolder);
-                if (response == null)
-                    Console.WriteLine("DeletePageAnnotations(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("DeletePageAnnotations(): Failed to delete annotation from the document.");
-                else {
-                    Console.WriteLine("DeletePageAnnotations(): annotations on page '{0}' deleted from the document '{1}.", pageNumber, documentName);
-                    await helper.DownloadFile(documentName, outputName, "del_page_annotations_");
-                }
-            }
-        }
-    }
+       // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+       var pdfApi = new PdfApi(AppSecret, AppSid);
+
+       var filesOnStorage = await pdfApi.GetFilesListAsync("");
+       if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+       {
+           using var file = File.OpenRead(localImageFileName);
+           var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+           Console.WriteLine(uploadResult.Uploaded[0]);
+       }
+
+       AsposeResponse response = await pdfApi.DeletePageAnnotationsAsync(storageFileName, pageNumber);
+       if (response == null)
+           Console.WriteLine("DeletePageAnnotations(): Unexpected error!");
+       else if (response.Code < 200 || response.Code > 299)
+           Console.WriteLine("DeletePageAnnotations(): Failed to delete annotation from the document.");
+       else
+       {
+           using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+           using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+           await downloadStream.CopyToAsync(localStream);
+           Console.WriteLine("NewFreetextAnnotation(): annotation added to the document '{0}.", resultFileName);
+       }
+   }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -91,5 +101,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
