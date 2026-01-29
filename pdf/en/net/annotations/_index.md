@@ -1,12 +1,12 @@
 ---
-title: Work with Annotations in PDF via Cloud .NET SDK
-url: net/annotations/
-description: Manage Annotations in PDFs using Aspose.PDF Cloud SDK for .NET.
+title: Add Annotations in PDF via Cloud .NET SDK
+url: net/annotations/add/
+description: Add Annotations in PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Work with Annotations in PDF via .NET SDK" h2="API for manage annotations in PDF documents with .NET." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Add Annotations in PDF via .NET SDK" h2="API for insert annotations in PDF documents with .NET" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
@@ -18,24 +18,28 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
  </a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Most popular actions with Annotations in .NET</h2>
+   <h2 class="pr-ft">Most popular actions with append Annotations in Pdf documents via .NET</h2>
    <div class="col-lg-4">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/text/">Add new Annotations</a></p>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/add/text/">Add new Text Annotations</a></p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
-    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/page/get/">Get Annotations from PDF</a></p>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/add/highlight/">Add new Highlight Annotations</a></p>
    </div>
    <div class="col-lg-4">
     <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
-    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/text/replace/">Replace Annotations in PDF</a></p>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/add/strikout/">Add new Strikout Annotations</a></p>
+   </div>
+   <div class="col-lg-4">
+    <em class="fa fa-file-text ico-blue fa-2x col-lg-2"></em>
+    <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotations/add/underline/">Add new Underline Annotations</a></p>
    </div>
     </div>
      </div>
       </div>
 
-{{% blocks/products/pf/agp/content h2="How to work with annotations in PDF documents using Cloud .NET SDK " %}}
+{{% blocks/products/pf/agp/content h2="How to insert new annotations in PDF documents using Cloud .NET SDK " %}}
 
  In order to work with annotations in PDF documents via Cloud .NET SDK , we'll use
  [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/)
@@ -78,60 +82,51 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static async Task AddFreeTextAnnotation()
+    using Aspose.Pdf.Cloud.Sdk.Model;
+
+    namespace Annotations
     {
-        const string localPdfDocument = @"C:\Samples\sample.pdf";
-        const string storageFileName = "sample.pdf";
-        const string localFolder = @"C:\\Samples";
-        const string resultFileName = "output_add_text_annotation.pdf";
-        const int pageNumber = 1;
-
-        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
-        var pdfApi = new PdfApi(AppSecret, AppSid);
-
-        var filesOnStorage = await pdfApi.GetFilesListAsync("");
-        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+        public class NewFreetextAnnotation
         {
-            using var file = File.OpenRead(localPdfDocument);
-            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
+            public static async Task Append(AnnotationsHelper helper, string documentName, int pageNumber, string outputName, string remoteFolder)
+            {
+                await helper.UploadFile(documentName);
 
-        List<FreeTextAnnotation> annotations = new List<FreeTextAnnotation>
-        {
-            new FreeTextAnnotation(
-                Name: "Freetext_NEW_Annotation",
-                Rect: new Rectangle(100,350, 450,400),
-                Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
-                HorizontalAlignment: HorizontalAlignment.Left,
-                Intent: FreeTextIntent.FreeTextTypeWriter,
-                Justification: Justification.Center,
-                RichText:                       "NEW FREE TEXT ANNOTATION 2",
-                Subject:                        "Free Text Box Subject 2",
-                Contents:                       "Free text annotation sample contents 2",
-                Title:                          "This is a free text annotation 2",
-                ZIndex: 1,
-                TextStyle: new TextStyle(
-                    FontSize:        20,
-                    Font: "Arial",
-                    ForegroundColor: new Color( A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
-                    BackgroundColor: new Color( A: 0xFF, R: 0xFF, G: 0x00, B: 0x00)
-                ),
-                Modified: "03/27/2025 00:00:00.000 AM"
-            )
-        };
-        AsposeResponse response = await pdfApi.PostPageFreeTextAnnotationsAsync(storageFileName, pageNumber, annotations);
+                List<FreeTextAnnotation> annotations = new List<FreeTextAnnotation>
+                {
+                    new FreeTextAnnotation(
+                        Name: "Freetext_NEW_Annotation",
+                        Rect: new Rectangle(100,350, 450,400),
+                        Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
+                        HorizontalAlignment: HorizontalAlignment.Left,
+                        Intent: FreeTextIntent.FreeTextTypeWriter,
+                        Justification: Justification.Center,
+                        RichText: helper.config.NEW_FT_ANNOTATION_TEXT,
+                        Subject: helper.config.NEW_FT_ANNOTATION_SUBJECT,
+                        Contents: helper.config.NEW_FT_ANNOTATION_CONTENTS,
+                        Title: helper.config.NEW_FT_ANNOTATION_DESCRIPTION,
+                        ZIndex: 1,
+                        TextStyle: new TextStyle(
+                            FontSize:        20,
+                            Font: "Arial",
+                            ForegroundColor: new Color( A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
+                            BackgroundColor: new Color( A: 0xFF, R: 0xFF, G: 0x00, B: 0x00)
+                        ),
+                        Modified: "03/27/2025 00:00:00.000 AM"
+                    )
+                };
+                AsposeResponse response = await helper.pdfApi.PostPageFreeTextAnnotationsAsync(documentName, pageNumber, annotations, folder: remoteFolder);
 
-        if (response == null)
-            Console.WriteLine("NewFreetextAnnotation(): Unexpected error!");
-        else if (response.Code < 200 || response.Code > 299)
-            Console.WriteLine("NewFreetextAnnotation(): Failed to append text annotation to the document.");
-        else
-        {
-            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-            await downloadStream.CopyToAsync(localStream);
-            Console.WriteLine("NewFreetextAnnotation(): annotation added to the document '{0}.", resultFileName);
+                if (response == null)
+                    Console.WriteLine("NewFreetextAnnotation(): Unexpected error!");
+                else if (response.Code < 200 || response.Code > 299)
+                    Console.WriteLine("NewFreetextAnnotation(): Failed to append text annotation to the document.");
+                else
+                {
+                    Console.WriteLine("NewFreetextAnnotation(): annotations '{0}' added to the document '{1}.", helper.config.NEW_FT_ANNOTATION_TEXT, documentName);
+                    await helper.DownloadFile(documentName, outputName, "add_text_annotation_");
+                }
+            }
         }
     }
 ```
@@ -145,5 +140,3 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
