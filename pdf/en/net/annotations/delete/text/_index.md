@@ -2,7 +2,7 @@
 title: Delete Text Annotations from PDFs via Cloud .NET SDK
 url: net/annotations/text/delete
 description: Delete text annotations from PDF documents using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-07-20"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -59,28 +59,36 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Annotations
+    public async static Task DeleteTextAnnotation(PdfApi pdfApi)
     {
-        public class DeleteTextAnnotation
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_del_annotations.pdf";
+        const string annotationId = "GE5TMOZRGAYCYMZVGAWDINJQFQ2DAMA";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            public async static Task MakeDeleteAsync(AnnotationsHelper helper, string documentName, string annotationId, string outputName, string remoteFolder)
-            {
-                // Delete annotation from the PDF document.
-                await helper.UploadFile(documentName);
-                AsposeResponse response = await helper.pdfApi.DeleteAnnotationAsync(documentName, annotationId, folder: remoteFolder);
-                if (response == null)
-                    Console.WriteLine("DeleteTextAnnotation(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("DeleteTextAnnotation(): Failed to delete annotation from the document.");
-                else
-                {
-                    await helper.DeletePopupAnnotationsAsync(documentName, annotationId, remoteFolder);
-                    Console.WriteLine("DeleteTextAnnotation(): annotations '{0}' deleted from the document '{1}.", annotationId,  documentName);
-                    await helper.DownloadFile(documentName, outputName, "del_text_annotations_");
-                }
-            }
+            using var file = File.OpenRead(localImageFileName);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+
+        AsposeResponse response = await pdfApi.DeleteAnnotationAsync(storageFileName, annotationId);
+        if (response == null)
+            Console.WriteLine("DeleteTextAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("DeleteTextAnnotation(): Failed to delete annotation from the document.");
+        else
+        {
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("DeleteTextAnnotation(): annotation deleted from the document '{0}.", resultFileName);
         }
     }
 ```
@@ -94,4 +102,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
