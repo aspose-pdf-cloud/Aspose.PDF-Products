@@ -58,7 +58,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static async Task AddTextAnnotation(PdfApi pdfApi)
+    public static async Task AddTextAnnotation()
     {
         const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
@@ -119,6 +119,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
