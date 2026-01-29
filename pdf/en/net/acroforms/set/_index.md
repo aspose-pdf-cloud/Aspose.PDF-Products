@@ -77,7 +77,7 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
     public static async Task SetFormField()
     {
-        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string localPdfDocumentName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
         const string localFolder = @"C:\\Samples";
         const string resultFileName = "output_set_form_filed.pdf";
@@ -88,7 +88,7 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
         var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            using var file = File.OpenRead(localImageFileName);
+            using var file = File.OpenRead(localPdfDocumentName);
             var uploadResult = pdfApi.UploadFile(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
@@ -116,5 +116,6 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
