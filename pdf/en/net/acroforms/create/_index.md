@@ -2,7 +2,7 @@
 title: Creating an AcroForm via Cloud .NET SDK
 url: net/acroforms/add/
 description: Add new form fields to PDFs with Aspose.PDF Cloud for .NET. Create interactive AcroForms in seconds.
-lastmod: "2022-03-19"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -59,17 +59,21 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void AddFormField()
+    public static async Task AddFormField()
     {
-        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_add_form_filed.pdf";
+
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
         var pdfApi = new PdfApi(AppSecret, AppSid);
-        var filesOnStorage = pdfApi.GetFilesList("");
+
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
         var textBoxField = new TextBoxField(PageIndex: 1)
@@ -77,11 +81,15 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             PartialName = "Email",
             Rect = new Rectangle(100, 100, 180, 120),
             Value = "aspose-pdf-cloud@example.com",
-            Border = new Border(Width: 5, Dash: new Dash(1, 1))
+            Border = new Border(Width: 5, Dash: new Dash(1, 1), Color: new Color(255, 0, 255, 0))
         };
 
-        var response = pdfApi.PutTextBoxField(storageFileName, "Email", textBoxField);
+        var response = await pdfApi.PutTextBoxFieldAsync(storageFileName, "Email", textBoxField);
         Console.WriteLine(response.Status);
+
+        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        await downloadStream.CopyToAsync(localStream);
     }
 ```
 
@@ -94,3 +102,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+

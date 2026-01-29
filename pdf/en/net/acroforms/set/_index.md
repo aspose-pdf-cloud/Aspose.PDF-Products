@@ -2,7 +2,7 @@
 title: Set Form Fields in PDF Document via Cloud .NET SDK
 url: net/acroforms/set/
 description: Set Form Fields in PDF via Aspose.PDF Cloud SDK for .NET. Automate interactive form creation easily.
-lastmod: "2022-03-19"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -75,13 +75,17 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
 ```cs
 
-    public static void SetFormField()
+    public static async Task SetFormField()
     {
-        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-        const string storageFileName = "StudentInfoFormElectronic.pdf";
+        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_set_form_filed.pdf";
+
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
         var pdfApi = new PdfApi(AppSecret, AppSid);
-        var filesOnStorage = pdfApi.GetFilesList("");
+
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
@@ -89,13 +93,17 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
 
-        var response = pdfApi.PutUpdateField(storageFileName, "First Name", new Field(
+        var response = await pdfApi.PutUpdateFieldAsync(storageFileName, "First Name", new Field(
             Name: "First Name",
             Type: FieldType.Text,
             Values: ["James"],
             Rect: new Rectangle(125, 735, 200, 752)
         ));
         Console.WriteLine(response.Status);
+
+       using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
+       using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+       await downloadStream.CopyToAsync(localStream);
     }
 ```
 
@@ -108,3 +116,5 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
