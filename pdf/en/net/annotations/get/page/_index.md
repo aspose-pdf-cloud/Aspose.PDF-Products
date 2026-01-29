@@ -60,7 +60,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
    public static async Task RequestAnnotationsOnPageAsync()
    {
-       onst string localImageFileName = @"C:\Samples\sample.pdf";
+       onst string localPdfDocument = @"C:\Samples\sample.pdf";
        const string storageFileName = "sample.pdf";
        const string localFolder = @"C:\\Samples";
        const string resultFileName = "output_del_page_annotations.pdf";
@@ -72,12 +72,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
        var filesOnStorage = await pdfApi.GetFilesListAsync("");
        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
        {
-           using var file = File.OpenRead(localImageFileName);
+           using var file = File.OpenRead(localPdfDocument);
            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
            Console.WriteLine(uploadResult.Uploaded[0]);
        }
 
-       AnnotationsInfoResponse response = await helper.pdfApi.GetPageAnnotationsAsync(storageFileNAme, pageNumber);
+       AnnotationsInfoResponse response = await pdfApi.GetPageAnnotationsAsync(storageFileNAme, pageNumber);
 
        if (response == null)
            Console.WriteLine("RequestAnnotationsOnPageAsync(): Unexpected error!");
@@ -97,5 +97,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
