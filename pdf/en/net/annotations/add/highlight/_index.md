@@ -61,19 +61,19 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
     public static async Task AddHighlightAnnotation(PdfApi pdfApi)
     {
-         const string localImageFileName = @"C:\Samples\sample.pdf";
+         const string localPdfDocumentName = @"C:\Samples\sample.pdf";
          const string storageFileName = "sample.pdf";
          const string localFolder = @"C:\\Samples";
          const string resultFileName = "output_add_hl_annotation.pdf";
          const int pageNumber = 1;
 
          // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
-         //var pdfApi = new PdfApi(AppSecret, AppSid);
+         var pdfApi = new PdfApi(AppSecret, AppSid);
 
          var filesOnStorage = await pdfApi.GetFilesListAsync("");
          if (filesOnStorage.Value.All(f => f.Name != storageFileName))
          {
-             using var file = File.OpenRead(localImageFileName);
+             using var file = File.OpenRead(localPdfDocumentName);
              var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
              Console.WriteLine(uploadResult.Uploaded[0]);
          }
@@ -127,6 +127,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
