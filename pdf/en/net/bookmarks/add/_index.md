@@ -63,7 +63,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static async Task Append()
+    public static async Task AppendBookmark()
     {
         const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
@@ -162,6 +162,7 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
