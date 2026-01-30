@@ -82,48 +82,52 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static async Task ReplaceBookmark()
-	{
-	    const string localPdfDocument = @"C:\Samples\sample.pdf";
-	    const string storageFileName = "sample.pdf";
-	    const string localFolder = @"C:\\Samples";
-	    const string resultFileName = "output_replace_bookmarks.pdf";
-	    const string bookmarkPath = "/5";
-	
-	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-	    pdfApi = new PdfApi(AppSecret, AppSid);
-	
-	    using var file = File.OpenRead(localPdfDocument);
-	    var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
-	
-	    Bookmark bookmark = new Bookmark(
-	        Action: "GoTo",
-	        Bold: true,
-	        Italic: false,
-	        Title: "REPLACED BOOKMARK TITLE",
-	        PageDisplay: "XYZ",
-	        PageDisplayBottom: 10,
-	        PageDisplayLeft: 10,
-	        PageDisplayRight: 10,
-	        PageDisplayTop: 10,
-	        PageDisplayZoom: 2,
-	        PageNumber: 1,
-	        Color: new Color(A: 0x00, R: 0x00, G: 0xFF, B: 0x00)
-	    );
-	
-	    BookmarkResponse response = await pdfApi.PutBookmarkAsync(storageFileName, bookmarkPath, bookmark);
-	
-	    if (response == null)
-	        Console.WriteLine("BookmarksReplace(): Unexpected error!");
-	    else if (response.Code < 200 || response.Code > 299)
-	        Console.WriteLine("BookmarksReplace(): Failed to modify bookmark in the document.");
-	    else
-	    {
-	        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-	        await downloadStream.CopyToAsync(localStream);
-	        Console.WriteLine("BookmarksReplace(): bookmark replaced in the document '{0}.", resultFileName);
-	    }
+    public static async Task AppendBookmark()
+    {
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_add_attachments.pdf";
+        const string parentBookmarkPath =  "/5";
+
+		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+		pdfApi = new PdfApi(AppSecret, AppSid);
+
+        using var file = File.OpenRead(localPdfDocument);
+        var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
+         
+        // Create new bookmark with input parameters for the PDF on cloud storage.
+        Bookmark bookmark = new Bookmark(
+                    Action: "GoTo",
+                    Bold: true,
+                    Italic: false,
+                    Title: 		"NEW BOOKMARK TITLE",
+                    PageDisplay: "XYZ",
+                    PageDisplayBottom: 10,
+                    PageDisplayLeft: 10,
+                    PageDisplayRight: 10,
+                    PageDisplayTop: 10,
+                    PageDisplayZoom: 2,
+                    PageNumber: 1,
+                    Color: new Color(A: 0x00, R: 0x00, G: 0xFF, B: 0x00)
+        );
+        List<Bookmark> newBookmarks = new List<Bookmark>() { bookmark };
+
+        BookmarksResponse response = await pdfApi.PostBookmarkAsync(storageFileName, parentBookmarkPath, newBookmarks);
+
+        if (response == null)
+            Console.WriteLine("ReplaceTextAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("AppendBookmark(): Failed to add bookmark in the document.");
+        else
+        {
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("AppendBookmark(): bookmark added in the document '{0}.", resultFileName);
+        }
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -135,4 +139,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
