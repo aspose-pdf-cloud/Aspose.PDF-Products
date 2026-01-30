@@ -53,7 +53,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="Create PDF using .NET Cloud SDK" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="Create PDF with default parameters using .NET Cloud SDK" offSpacer="" %}}
 
 ```cs
 
@@ -88,12 +88,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
 {{% blocks/products/pf/agp/feature-section-col title="Steps to create PDF with configurating using .NET SDK" %}}
-
-{{% blocks/products/pf/agp/text %}}
-
- Aspose.PDF Cloud developers can easily load & create PDF in just a few lines of code.
-
-{{% /blocks/products/pf/agp/text %}}
 
 1. Initialize PdfApi object.
 1. Define document parameters.
@@ -163,6 +157,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
