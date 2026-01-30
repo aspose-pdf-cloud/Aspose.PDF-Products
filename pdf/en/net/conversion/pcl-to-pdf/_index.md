@@ -70,6 +70,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localPclFileName = @"C:\Samples\Conversion\sample.prn";
         const string storagePclFileName = "sample.prn";
         const string resultFileName = "sample-pcl-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -78,8 +79,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutPclInStorageToPdf(resultFileName, storagePclFileName);
         Console.WriteLine($"PCL to PDF result: {response.Status}");
-        pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+
+        using Stream downloadStream = pdfApi.DownloadFile(resultFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
     }
 ```
 
