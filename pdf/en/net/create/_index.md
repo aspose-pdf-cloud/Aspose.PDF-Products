@@ -2,7 +2,7 @@
 title: Create PDF via Cloud .NET SDK 
 url: net/create/
 description: Aspose.PDF Cloud allows you to create PDF Document. Check the .NET source code to create PDF file.
-lastmod: "2025-07-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,49 +60,26 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace CreateDocument
+    public CreatePdfDocumentSimple()
     {
-        public class CreatePdfDocument
+        string LOCAL_FOLDER = "testData";
+        string PDF_DOCUMENT = "output_created_simple.pdf";
+        string REMOTE_FOLDER = "TempPdfCloud";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        DocumentResponse response = pdfApi.PutCreateDocument(PDF_DOCUMENT, folder: REMOTE_FOLDER);
+        if (response.Code != 200)
+            Console.WriteLine("CreatePdfDocumentSimple(): Unexpected error: {0}", response.Messages[0]);
+        else
         {
-            public CreatePdfDocument(CrateDocumentHelper helper)
-            {
-                DocumentProperties docProps = new DocumentProperties(
-                    List: new List<DocumentProperty>() { 
-                        new DocumentProperty(Name: "prop1", Value: "Value1", BuiltIn: false)
-                    }
-                );
+            Console.WriteLine("CreatePdfDocumentSimple():Document '{0}' successfully created.", PDF_DOCUMENT);
 
-                DisplayProperties dispProps = new DisplayProperties()
-                {
-                    CenterWindow = true,
-                    HideMenuBar = true,
-                    Direction = Direction.L2R,
-                    DisplayDocTitle = true,
-                    HideToolBar = true,
-                    HideWindowUI = true,
-                    NonFullScreenPageMode = PageMode.UseThumbs,
-                    PageLayout = PageLayout.TwoPageLeft,
-                    PageMode = PageMode.UseThumbs
-                };
-
-                DefaultPageConfig pageConfig = new DefaultPageConfig(helper.config.PAGE_HEIGHT, helper.config.PAGE_WIDTH);
-
-                DocumentConfig document_config = new DocumentConfig(
-                    DocumentProperties: docProps,
-                    DisplayProperties: dispProps,
-                    DefaultPageConfig: pageConfig,
-                    PagesCount: helper.config.PAGES_COUNT
-                );
-
-                DocumentResponse response = helper.pdfApi.PostCreateDocument(helper.config.LOCAL_RESULT_DOCUMENT_NAME, document_config, folder: helper.config.TEMP_FOLDER);
-
-                if (response != null && response.Code == 200)
-                    Console.WriteLine("Document #{0} created.", helper.config.LOCAL_RESULT_DOCUMENT_NAME);
-                else
-                    Console.WriteLine("Unexpected error!!!");
-            }
+            using Stream stream = pdfApi.DownloadFile(Path.Combine(REMOTE_FOLDER, PDF_DOCUMENT));
+            using var fileStream = File.Create(Path.Combine(LOCAL_FOLDER, PDF_DOCUMENT));
+            stream.CopyTo(fileStream);
+            Console.WriteLine("CreatePdfDocumentSimple():Document '{0}' successfully downloaded.", PDF_DOCUMENT);
         }
     }
 ```
@@ -116,3 +93,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
