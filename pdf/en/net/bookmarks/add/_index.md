@@ -2,7 +2,7 @@
 title: Appending Bookmark via Cloud .NET SDK 
 url: net/bookmarks/add/
 description: Add bookmark to PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-12"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,29 +63,27 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Bookmarks
+    public static async Task Append()
     {
-        public class BookmarkAdd
-        {
-            public static async Task Append(string documentName, string outputName, string parentBookmarkPath, string title, string localFolder, string remoteFolder)
-            {
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_add_attachments.pdf";
+        const string parentBookmarkPath =  "/5";
+
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
 		pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                // Create new bookmark with input parameters for the PDF on cloud storage.
-                Bookmark bookmark = new Bookmark(
+        using var file = File.OpenRead(localPdfDocument);
+        var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+        Console.WriteLine(uploadResult.Uploaded[0]);
+         
+        // Create new bookmark with input parameters for the PDF on cloud storage.
+        Bookmark bookmark = new Bookmark(
                     Action: "GoTo",
                     Bold: true,
                     Italic: false,
-                    Title: title,
+                    Title: 		"NEW BOOKMARK TITLE",
                     PageDisplay: "XYZ",
                     PageDisplayBottom: 10,
                     PageDisplayLeft: 10,
@@ -94,27 +92,21 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
                     PageDisplayZoom: 2,
                     PageNumber: 1,
                     Color: new Color(A: 0x00, R: 0x00, G: 0xFF, B: 0x00)
-                );
-                List<Bookmark> newBookmarks = new List<Bookmark>() { bookmark };
+        );
+        List<Bookmark> newBookmarks = new List<Bookmark>() { bookmark };
 
-                // Append new bookmark under the parentBookmarkPath in the PDF on cloud storage.
-                BookmarksResponse response = await pdfApi.PostBookmarkAsync(documentName, parentBookmarkPath, newBookmarks, folder: remoteFolder);
+        BookmarksResponse response = await pdfApi.PostBookmarkAsync(storageFileName, parentBookmarkPath, newBookmarks);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("BookmarkAdd(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("BookmarkAdd(): Failed to append bookmark to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("BookmarkAdd(): bookmark successfully appended to the document '{0}.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_bookmark_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("BookmarkAdd(): File '{0}' successfully downloaded.", "append_bookmrk_" + outputName);
-                }
-            }
+        if (response == null)
+            Console.WriteLine("ReplaceTextAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("ReplaceTextAnnotation(): Failed to replace annotations i the document.");
+        else
+        {
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("ReplaceTextAnnotation(): attachment added in the document '{0}.", resultFileName);
         }
     }
 
@@ -170,5 +162,6 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
