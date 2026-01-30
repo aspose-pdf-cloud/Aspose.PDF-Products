@@ -2,7 +2,7 @@
 title: Convert PDF to Microsoft Word DOCX via Cloud .NET SDK
 url: net/conversion/pdf-to-docx/
 description: Convert PDF to editable DOCX documents with Aspose.PDF Cloud SDK for .NET. Preserve layout and text structure.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
