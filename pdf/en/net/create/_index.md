@@ -47,11 +47,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Uploads the PDF.
-1. Retrieve Page Metadata with getPageInfo().
-1. Extract PDF Page as Image.
-1. Create New Blank PDF Canvas with createPdfDocument().
-1. Insert Extracted Image into New PDF.
+1. Initialize PdfApi object.
+1. Create Pdf document with default settings.
 1. Verify Success and Download.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -98,11 +95,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Uploads the PDF.
-1. Retrieve Page Metadata with getPageInfo().
-1. Extract PDF Page as Image.
-1. Create New Blank PDF Canvas with createPdfDocument().
-1. Insert Extracted Image into New PDF.
+1. Initialize PdfApi object.
+1. Define document parameters.
+1. Create Pdf document with settings.
 1. Verify Success and Download.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -168,5 +163,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
