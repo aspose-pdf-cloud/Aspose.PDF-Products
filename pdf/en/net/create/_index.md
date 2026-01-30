@@ -39,7 +39,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to create PDF using .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to simple create PDF using .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -88,9 +88,85 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< /blocks/products/pf/agp/feature-section >}}
 
+{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+
+{{% blocks/products/pf/agp/feature-section-col title="Steps to create PDF with configurating using .NET SDK" %}}
+
+{{% blocks/products/pf/agp/text %}}
+
+ Aspose.PDF Cloud developers can easily load & create PDF in just a few lines of code.
+
+{{% /blocks/products/pf/agp/text %}}
+
+1. Uploads the PDF.
+1. Retrieve Page Metadata with getPageInfo().
+1. Extract PDF Page as Image.
+1. Create New Blank PDF Canvas with createPdfDocument().
+1. Insert Extracted Image into New PDF.
+1. Verify Success and Download.
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/code-block title="Create PDF using .NET Cloud SDK" offSpacer="" %}}
+
+```cs
+
+    public CreatePdfDocument()
+    {
+        const string LOCAL_FOLDER = @"C:\Samples";
+        const string PDF_DOCUMENT = "output_created_document.pdf";
+        const string REMOTE_FOLDER = "TempPdfCloud";
+        const string RESULT_FILE_NAME = "sample.bmp";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        //var pdfApi = new PdfApi(AppSecret, AppSid);
+        var pdfApi = new PdfApi("********", "*********");
+
+        DocumentProperties docProps = new DocumentProperties(
+            List: new List<DocumentProperty>() { 
+                new DocumentProperty(Name: "prop1", Value: "Value1", BuiltIn: false)
+            }
+        );
+
+        DisplayProperties dispProps = new DisplayProperties()
+        {
+            CenterWindow = true,
+            HideMenuBar = true,
+            Direction = Direction.L2R,
+            DisplayDocTitle = true,
+            HideToolBar = true,
+            HideWindowUI = true,
+            NonFullScreenPageMode = PageMode.UseThumbs,
+            PageLayout = PageLayout.TwoPageLeft,
+            PageMode = PageMode.UseThumbs
+        };
+
+        DefaultPageConfig pageConfig = new DefaultPageConfig(Height: 500.0, Width: 200.0);
+
+        DocumentConfig document_config = new DocumentConfig(
+            DocumentProperties: docProps,
+            DisplayProperties: dispProps,
+            DefaultPageConfig: pageConfig,
+            PagesCount: 5
+        );
+
+        DocumentResponse response = pdfApi.PostCreateDocument(RESULT_FILE_NAME, document_config, folder: REMOTE_FOLDER);
+        Console.WriteLine(response.Status);
+
+        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(REMOTE_FOLDER, RESULT_FILE_NAME));
+        using FileStream localStream = File.Create(Path.Combine(LOCAL_FOLDER, RESULT_FILE_NAME));
+        downloadStream.CopyTo(localStream);
+    }
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{< /blocks/products/pf/agp/feature-section >}}
+
 {{< blocks/products/pf/agp/faq-item question="" answer="" >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
