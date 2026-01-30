@@ -69,7 +69,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.bmp";
         const string storageImageFileName = "sample.bmp";
         const string resultFileName = "sample-bmp-to-pdf.pdf";
-        const string localFolder = @"C:\\Samples";
+        const string localFolder = @"C:\Samples";
 
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
