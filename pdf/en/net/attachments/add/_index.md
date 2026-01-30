@@ -2,7 +2,7 @@
 title: Append attachments in PDF documents via Aspose.Pdf Cloud .NET SDK
 url: net/attachments/add/
 description: Add attachments to PDF files with Aspose.PDF Cloud SDK for .NET. Embed documents, images, and more into your PDFs.
-lastmod: "2024-10-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
