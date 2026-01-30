@@ -64,7 +64,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void ConvertLaTeXtoPDF(PdfApi pdfApi)
+    public static void ConvertLaTeXtoPDF()
     {
         var localLatexFileName = @"C:\Samples\Conversion\sample.tex";
         var storageLatexFileName = "sample.tex";
@@ -72,7 +72,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localFolder = @"C:\Samples";
 
         // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-        //var pdfApi = new PdfApi(AppSecret, AppSid);
+        var pdfApi = new PdfApi(AppSecret, AppSid);
 
         using var file = File.OpenRead(localLatexFileName);
         pdfApi.UploadFile(storageLatexFileName, file);
