@@ -2,7 +2,7 @@
 title: Convert PDF to Images BMP via Cloud .NET SDK
 url: net/conversion/pdf-to-bmp/
 description: Convert PDFs to BMP image format with Aspose.PDF Cloud SDK for .NET. High-resolution output for your PDFs.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,14 +69,18 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageImageFileName = "sample.pdf";
         const string resultFileName = "sample.bmp";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
-        var response = pdfApi.GetPageConvertToBmp(storageImageFileName, 1);
-        response.CopyTo(File.OpenWrite(resultFileName));
+        using Stream response = pdfApi.GetPageConvertToBmp(storageImageFileName, 1);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to BMP result: {response.Length} bytes");
     }
 ```
