@@ -123,7 +123,7 @@ url: net
         </div>
         <div class="col-lg-4">
             <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Encrypt or decrypt document content &amp; Change document password</p>
+            <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/encrypt/">Encrypt</a> or <a href="https://products.aspose.cloud/pdf/net/decrypt">decrypt</a> document content &amp; <a href="https://products.aspose.cloud/pdf/net/passwordchange/">Change</a> document password</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
