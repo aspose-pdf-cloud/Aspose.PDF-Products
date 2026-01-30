@@ -69,7 +69,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.bmp";
         const string storageImageFileName = "sample.bmp";
         const string resultFileName = "sample-bmp-to-pdf.pdf";
-        
+        const string localFolder = @"C:\\Samples";
+
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
 
@@ -82,8 +83,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"BMP to PDF result: {response.Status}");
-        pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+
+        using Stream downloadStream = await pdfApi.DownloadFileAsync(resultFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        await downloadStream.CopyToAsync(localStream);
+        
     }
 ```
 
