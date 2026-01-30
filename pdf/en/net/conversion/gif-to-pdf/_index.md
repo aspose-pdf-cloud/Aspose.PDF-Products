@@ -69,7 +69,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\Conversion\sample.gif";
         const string storageImageFileName = "sample.gif";
         const string resultFileName = "sample-gif-to-pdf.pdf";
-        const string localFolder = @"C:\\Samples";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
