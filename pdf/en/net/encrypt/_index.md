@@ -2,7 +2,7 @@
 title: Encrypt PDF via .NET SDK 
 url: net/encrypt/
 description: Aspose.PDF Cloud allows you to encrypt PDF Document. Check the .NET source code to encrypt PDF file.
-lastmod: "2025-08-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -65,58 +65,41 @@ Aspose.PDF Cloud developers can easily load & encrypt PDF in just a few lines of
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace EncryptDecrypt
-    {
-        public class EncryptPdf
-        {
-            private string ToBase64(string str)
-            { // Convert string to Base64. 
-                var bytes = Encoding.UTF8.GetBytes(str);
-                return Convert.ToBase64String(bytes);
-            }
-
-            public static async Task Encrypt(EncryptDecryptHelper helper, string documentName, string outputName, string localFolder, string remoteFolder)
-            { // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local encrypted PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                string userPassword = "User-Password";
-                string ownerPassword = "Owner-Password";
-
-                // Encrypt the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostEncryptDocumentInStorageAsync(
-                    documentName,
-                    ToBase64(userPassword),
-                    ToBase64(ownerPassword),
-                    CryptoAlgorithm.AESx256.ToString(),
-                    folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("EncryptPdf(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("EncryptPdf(): Failed to encrypt document.");
-                else
-                {  // Downloads the updated file for local use.
-                    Console.WriteLine("EncryptPdf(): document '{0} successfully encrypted.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "encrypt_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("EncryptPdf(): File '{0}' successfully downloaded.", "encrypt_" + outputName);
-               }
-            }
-        }
-    }
-
+    public static async Task Encrypt(PdfApi pdfApi)
+	{
+	    const string localPdfDocument = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_encrypted.pdf";
+	    const string userPassword = "User-Password";
+	    const string ownerPassword = "Owner-Password";
+	
+	    string ToBase64(string str) => Convert.ToBase64String(Encoding.UTF8.GetBytes(str));
+	
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    //pdfApi = new PdfApi(AppSecret, AppSid);
+	
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(storageFileName, file);
+	
+	    AsposeResponse response = await pdfApi.PostEncryptDocumentInStorageAsync(
+	        storageFileName,
+	        ToBase64(userPassword),
+	        ToBase64(ownerPassword),
+	        CryptoAlgorithm.AESx256.ToString());
+	
+	    if (response == null)
+	        Console.WriteLine("EncryptPdf(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("EncryptPdf(): Failed to encrypt document.");
+	    else
+	    {
+	        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        await downloadStream.CopyToAsync(localStream);
+	        Console.WriteLine("EncryptPdf(): document '{0} successfully encrypted.", resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -171,3 +154,4 @@ Encrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
