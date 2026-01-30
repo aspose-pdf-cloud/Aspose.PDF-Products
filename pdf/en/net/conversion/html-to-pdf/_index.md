@@ -69,7 +69,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localHtmlFileName = @"C:\Samples\Conversion\sample.html";
         const string storageHtmlFileName = "sample.html";
         const string resultFileName = "sample-html-to-pdf.pdf";
-        const string localFolder = @"C:\\Samples";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
