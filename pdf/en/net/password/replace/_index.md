@@ -2,7 +2,7 @@
 title: Password changing in PDF via Cloud .NET SDK 
 url: net/password/replace/
 description: Aspose.PDF Cloud allows you to change password in PDF Document. Check the .NET source code to change password in PDF file.
-lastmod: "2025-08-20"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -65,60 +65,41 @@ Aspose.PDF Cloud developers can easily load & change a password in PDF just in a
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace EncryptDecrypt
-    {
-        public class PdfPasswordChange
-        {
-            private string ToBase64(string str)
-            { // Convert string to Base64. 
-                var bytes = Encoding.UTF8.GetBytes(str);
-                return Convert.ToBase64String(bytes);
-            }
-
-            public static async Task Modiry(string documentName, string outputName, staring localFolder, string remoteFolder)
-            {
-                // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local encrypted PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                string ownerPassword = "Owner-Password";
-
-                string newOwnerPassword = "NEW-Owner-Password";
-                string newUserPassword = "NEW-User-Password";
-
-                // Password change in PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostChangePasswordDocumentInStorageAsync(
-                    documentName,
-                    helper.ToBase64(ownerPassword),
-                    helper.ToBase64(newUserPassword),
-                    helper.ToBase64(newOwnerPassword),
-                    folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("PdfPasswordChange(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("PdfPasswordChange(): Failed to change a password in document.");
-                else
-                {  // Downloads the updated file for local use.
-                    Console.WriteLine("PdfPasswordChange(): password in document '{0} successfully changed.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "password_change_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("PdfPasswordChange(): File '{0}' successfully downloaded.", "password_change_" + outputName);
-               }
-            }
-        }
-    }
+    public static async Task PasswordsChange()
+	{
+	    const string localPdfDocument = @"C:\Samples\sample_encrypted.pdf";
+	    const string storageFileName = "sample_encrypted.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_change_password.pdf";
+	    const string ownerPassword = "Owner-Password";
+	    const string newOwnerPassword = "NEW-Owner-Password";
+	    const string newUserPassword = "NEW-User-Password";
+	    string ToBase64(string str) => Convert.ToBase64String(Encoding.UTF8.GetBytes(str));
+	
+	    /// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    pdfApi = new PdfApi(AppSecret, AppSid);
+	
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(storageFileName, file);
+	
+	    AsposeResponse response = await pdfApi.PostChangePasswordDocumentInStorageAsync(
+	        storageFileName,
+	        ToBase64(ownerPassword),
+	        ToBase64(newUserPassword),
+	        ToBase64(newOwnerPassword));
+	
+	    if (response == null)
+	        Console.WriteLine("PasswordsChange(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("PasswordsChange(): Failed to change passwords in document.");
+	    else
+	    {
+	        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        await downloadStream.CopyToAsync(localStream);
+	        Console.WriteLine("PasswordsChange(): passwords in document '{0} successfully changed.", resultFileName);
+	    }
+	}
 
 ```
 
@@ -176,4 +157,5 @@ Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
