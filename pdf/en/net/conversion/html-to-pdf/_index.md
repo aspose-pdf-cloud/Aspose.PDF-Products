@@ -2,7 +2,7 @@
 title: Convert HTML to PDF via Cloud .NET SDK
 url: net/conversion/html-to-pdf/
 description: Transform HTML content into PDF with Aspose.PDF Cloud SDK for .NET. Accurate rendering of web pages into PDF files.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,6 +69,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localHtmlFileName = @"C:\Samples\Conversion\sample.html";
         const string storageHtmlFileName = "sample.html";
         const string resultFileName = "sample-html-to-pdf.pdf";
+        const string localFolder = @"C:\\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -77,8 +78,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutHtmlInStorageToPdf(resultFileName, storageHtmlFileName);
         Console.WriteLine($"HTML to PDF result: {response.Status}");
-        pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+
+        using Stream downloadStream = pdfApi.DownloadFile(resultFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
     }
 ```
 
