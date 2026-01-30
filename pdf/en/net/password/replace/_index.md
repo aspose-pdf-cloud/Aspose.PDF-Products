@@ -1,6 +1,6 @@
 ---
 title: Password changing in PDF via Cloud .NET SDK 
-url: net/password/replace/
+url: net/passwordchange/
 description: Aspose.PDF Cloud allows you to change password in PDF Document. Check the .NET source code to change password in PDF file.
 lastmod: "2026-01-29"
 ---
@@ -157,5 +157,6 @@ Change a password in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
