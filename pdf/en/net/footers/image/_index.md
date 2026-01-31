@@ -66,8 +66,7 @@ Aspose.PDF Cloud .NET developers can easily append image in Footer of PDF docume
 
 ```cs
 
-    public static async Task AddImageFooter(PdfApi pdfApi)
-	{
+    public static async Task AddImageFooter(
 	    const string localPdfDocument = @"C:\Samples\sample.pdf";
 	    const string storageFileName = "sample.pdf";
 	    const string localImageFile = @"C:\Samples\sample.png";
@@ -79,7 +78,7 @@ Aspose.PDF Cloud .NET developers can easily append image in Footer of PDF docume
 	    const int endPage = 5;
 	
 	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-	    //pdfApi = new PdfApi(AppSecret, AppSid);
+	    pdfApi = new PdfApi(AppSecret, AppSid);
 
 	    using var file = File.OpenRead(localPdfDocument);
 	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder,storageFileName), file);
@@ -167,4 +166,5 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
