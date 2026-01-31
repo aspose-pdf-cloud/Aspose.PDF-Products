@@ -2,7 +2,7 @@
 title: Work with Footer in PDF via Cloud .NET SDK
 url: net/footers/
 description: Adding footers to PDF pages using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
-lastmod: "2025-08-18"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
