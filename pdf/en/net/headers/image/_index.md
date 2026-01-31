@@ -2,7 +2,7 @@
 title: Add Image to the Headers of PDFs via Cloud .NET SDK
 url: net/headers/image/
 description: Add image headers to PDF documents using Aspose.PDF Cloud SDK in .NET. Branding, signatures, images and more.
-lastmod: "2025-08-18"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -66,68 +66,53 @@ Aspose.PDF Cloud .NET developers can easily append image in Header of PDF docume
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Headers
-    {
-        public class HeadersAddImage
-        {
-            public static async Task Append(string documentName, string outputName, string imageFileName, int startPage, int endPage, string localFolder, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, imageFileName)))
-		{ // Upload the local image file to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, imageFileName), imageFileName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                // Create new Image Header with input parameters for the PDF on cloud storage.
-                ImageHeader header = new ImageHeader(
-                    Background: true,
-                    LeftMargin: 1,
-                    RightMargin: 2,
-                    HorizontalAlignment: HorizontalAlignment.Center,
-                    Opacity: 1,
-                    Rotate: Rotation.None,
-                    RotateAngle: 0,
-                    XIndent: 0,
-                    YIndent: 0,
-                    Zoom: 1,
-                    Width: 24,
-                    Height: 24,
-                    FileName: Path.Combine(remoteFolder, imageFileName)
-                );
-
-                // Append new Image Header in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostDocumentImageHeaderAsync(documentName, header, startPage, endPage, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("HeadersAddImage(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("HeadersAddImage(): Failed to append image header to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("HeadersAddImage(): image header successfully appended to the document '{0}'.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_image_header_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("HeadersAddImage(): File '{0}' successfully downloaded.", "append_image_header_" + outputName);
-                }
-            }
-        }
-    }
-
+    public static async Task AddImageHeader(PdfApi pdfApi)
+	{
+	    const string localPdfDocument = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localImageFile = @"C:\Samples\sample.png";
+	    const string storageImageFile = "sample.png";
+	    const string localFolder = @"C:\Samples";
+	    const string storageTempFolder = "YourTempFolder";
+	    const string resultFileName = "output_add_image_header.pdf";
+	    const int startPage = 2;
+	    const int endPage = 5;
+	
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    //pdfApi = new PdfApi(AppSecret, AppSid);
+	
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
+	
+	    using var imageFile = File.OpenRead(localImageFile);
+	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageImageFile), imageFile);
+	
+	    ImageHeader header = new ImageHeader(
+	        Background: true,
+	        HorizontalAlignment: HorizontalAlignment.Center,
+	        Opacity: 1,
+	        Rotate: Rotation.None,
+	        RotateAngle: 0,
+	        Zoom: 1,
+	        Width: 24,
+	        Height: 24,
+	        FileName: Path.Combine(storageTempFolder, storageImageFile)
+	    );
+	
+	    var response = await pdfApi.PostDocumentImageHeaderAsync(storageFileName, header, startPage, endPage, folder: storageTempFolder);
+	
+	    if (response == null)
+	        Console.WriteLine("HeadersFootersAddImageHeader(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("HeadersFootersAddImageHeader(): Failed to append image header to the page of document.");
+	    else
+	    {
+	        using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        await downloadStream.CopyToAsync(localStream);
+	        Console.WriteLine("HeadersFootersAddImageHeader(): image '{0}' appended as header to the document '{1}.", storageImageFile, resultFileName);
+	    }
+	}
 ```
 
 
@@ -181,6 +166,7 @@ Add the Header into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
