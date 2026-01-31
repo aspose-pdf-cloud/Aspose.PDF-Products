@@ -66,7 +66,7 @@ Aspose.PDF Cloud .NET developers can easily append image in Header of PDF docume
 
 ```cs
 
-    public static async Task AddImageHeader(PdfApi pdfApi)
+    public static async Task AddImageHeader()
 	{
 	    const string localPdfDocument = @"C:\Samples\sample.pdf";
 	    const string storageFileName = "sample.pdf";
@@ -79,7 +79,7 @@ Aspose.PDF Cloud .NET developers can easily append image in Header of PDF docume
 	    const int endPage = 5;
 	
 	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-	    //pdfApi = new PdfApi(AppSecret, AppSid);
+	    pdfApi = new PdfApi(AppSecret, AppSid);
 	
 	    using var file = File.OpenRead(localPdfDocument);
 	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
@@ -166,6 +166,7 @@ Add the Header into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
