@@ -2,7 +2,7 @@
 title: Get Signatures via Cloud .NET SDK 
 url: net/signature/get/
 description: Retrieve signatures from PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-25"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,43 +63,33 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task ExtractSignatureFields()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-namespace Signatures
-{
-    public class GetSignatures
-    {
-        public static async Task Extract(string documentName, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                // Get signatures from the PDF in cloud storage.
-                SignatureFieldsResponse response = await pdfApi.GetDocumentSignatureFieldsAsync(documentName, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("GetSignatures(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("GetSignatures(): Failed to receive signatures from the document.");
-                else if (response.Fields == null ||  response.Fields.List == null ||  response.Fields.List.Count == 0)
-                    Console.WriteLine("GetSignatures(): signatures not found in the document.");
-                else
-                { // Show signatures.
-                    Console.WriteLine("GetSignatures(): Signatures extracted successfully from the Pdf document '{0}'.", documentName);
-                    foreach (var field in response.Fields.List) {
-                        Console.WriteLine(field);
-                    }
-                }
-            }
-        }
-    }
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
+	
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
+	
+	    var response = await pdfApi.GetDocumentSignatureFieldsAsync(storageFileName, folder: storageTempFolder);
+	
+	    if (response == null)
+	        Console.WriteLine("ExtractSignatureFields(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("ExtractSignatureFields(): Failed to receive Pdf document signatures.");
+	    else
+	    {
+	        Console.WriteLine("ExtractSignatureFields(): Signatures extracted successfully from the Pdf document '{0}'.", storageFileName);
+	        foreach (var field in response.Fields.List) {
+	            Console.WriteLine(JsonConvert.SerializeObject(field, Formatting.Indented));
+	        }
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -152,3 +142,4 @@ Extract Signatures from PDF documents with [Aspose.PDF Cloud .NET SDK](https://p
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
