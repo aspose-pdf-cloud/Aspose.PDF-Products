@@ -2,7 +2,7 @@
 title: Work with Pages in PDF via Cloud .NET SDK
 url: net/pages/
 description: Add, delete, get, and move Pages in PDF documents using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-08-05"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -120,5 +120,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
