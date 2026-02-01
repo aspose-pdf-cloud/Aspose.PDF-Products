@@ -88,8 +88,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         else {
             Console.WriteLine("BookmarksExtractByPath(): bookmark '{0}' successfully received from the document '{1}.", bookmarkPath, storageFileName);
             Console.WriteLine(JsonConvert.SerializeObject(response.Bookmark));
-                }
-            }
         }
     }
 
@@ -145,6 +143,7 @@ Get the Bookmarks from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
