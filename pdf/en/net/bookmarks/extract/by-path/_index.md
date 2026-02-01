@@ -2,7 +2,7 @@
 title: Get Bookmarks by path via Cloud .NET SDK 
 url: net/bookmarks/extract/by-path/
 description: Retrieve bookmarks via bookmark path from PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-11-22"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -145,5 +145,6 @@ Get the Bookmarks from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
