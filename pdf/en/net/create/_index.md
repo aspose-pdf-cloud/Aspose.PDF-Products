@@ -108,8 +108,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string RESULT_FILE_NAME = "sample.bmp";
 
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-        //var pdfApi = new PdfApi(AppSecret, AppSid);
-        var pdfApi = new PdfApi("********", "*********");
+        var pdfApi = new PdfApi(AppSecret, AppSid);
 
         DocumentProperties docProps = new DocumentProperties(
             List: new List<DocumentProperty>() { 
@@ -157,6 +156,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
