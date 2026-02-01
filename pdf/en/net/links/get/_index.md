@@ -72,7 +72,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const int pageNumber = 2;
 
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
         using var file = File.OpenRead(localPdfDocument);
         await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
@@ -144,5 +144,6 @@ Extract the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
