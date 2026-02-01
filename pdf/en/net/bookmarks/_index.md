@@ -91,11 +91,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
         const string localFolder = @"C:\\Samples";
-        const string resultFileName = "output_add_attachments.pdf";
+        const string resultFileName = "output_add_bookmark.pdf";
         const string parentBookmarkPath =  "/5";
 
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
         using var file = File.OpenRead(localPdfDocument);
         var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
@@ -143,6 +143,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
