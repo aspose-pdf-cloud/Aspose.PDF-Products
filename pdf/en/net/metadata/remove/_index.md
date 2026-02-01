@@ -2,7 +2,7 @@
 title: Remove Metadata in PDF Document via Cloud .NET SDK 
 url: net/metadata/remove/
 description: Remove metadata from PDFs with Aspose.PDF Cloud SDK for .NET. Protect privacy and control data exposure.
-lastmod: "2022-03-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,24 +64,33 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
     public static void DeleteMetadata()
     {
-        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string localPdfFileName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
-        
+        const string localFolder = @"C:\Samples";
+        const string resultFileName = "output_del_metadata.pdf";
+        const string storageTempFolder = "YourTempFolder";
+        const string propertyName = "xmp:ArchiveDate";
+    
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
-
-        var filesOnStorage = pdfApi.GetFilesList("");
-        if (filesOnStorage.Value.All(f => f.Name != "sample.pdf"))
+    
+        var filesOnStorage = pdfApi.GetFilesList(storageTempFolder);
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            using var file = File.OpenRead(localPdfFileName);
+            var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-        var response = pdfApi.GetDocumentProperty(storageFileName, "xmp:ArchiveType");
+        var response = pdfApi.GetDocumentProperty(storageFileName, propertyName, folder: storageTempFolder);
         if (response.DocumentProperty.Value != null && !response.DocumentProperty.Value.StartsWith("Aspose"))
         {
-            var responseSet = pdfApi.DeleteProperty(storageFileName, "xmp:ArchiveType");
+            var responseSet = pdfApi.DeleteProperty(storageFileName, propertyName, folder: storageTempFolder);
             Console.WriteLine(responseSet.Status);
+    
+            using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            downloadStream.CopyTo(localStream);
+            Console.WriteLine("DeleteMetadata(): new property successfully added to document '{0}' file.", resultFileName);
         }
     }
 ```
@@ -95,3 +104,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
