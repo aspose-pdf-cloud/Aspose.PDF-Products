@@ -58,34 +58,40 @@ PM> Install-Package Aspose.Pdf-Cloud
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Merges
+    public static async Task Merge()
     {
-        public class MergeDocuments
-        {
-            public static async Task Merge(MergesHelper helper, List<string> files, string outputName, string remoteFolder)
-            {
-                Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments documetItems = new(new List<string>());
-    
-                foreach (var file in files)
-                {
-                    await helper.UploadFile(Path.GetFileName(file));
-                    documetItems.List.Add(Path.Combine( remoteFolder, file));
-                }
-    
-                DocumentResponse response = await helper.pdfApi.PutMergeDocumentsAsync(outputName, documetItems, folder: remoteFolder);
+        const string localFolder = @"C:\Samples";
+        const string storageTempFolder = "YourTempFolder";
+        const string resultFileName = "output_merged.pdf";
+        List<string> pdfFileNames = new List<string> {
+            "sample.pdf", "PdfWithLayers.pdf", "PdfWithLinks.pdf"
+        };
 
-                if (response == null)
-                    Console.WriteLine("MergeDocuments(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("MergeDocuments(): Failed to documents.");
-                else
-                {
-                    Console.WriteLine("MergeDocuments(): documents successfully merged to '{0}' file.", outputName);
-                    await helper.DownloadFile(outputName);
-                }
-            }
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+    
+        Aspose.Pdf.Cloud.Sdk.Model.MergeDocuments documetItems = new(new List<string>());
+       
+        foreach (var fileName in pdfFileNames)
+        {
+            using var file = File.OpenRead(Path.Combine(localFolder, fileName));
+            await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, fileName), file);
+            
+            documetItems.List.Add(Path.Combine( storageTempFolder, fileName));
+        }
+      
+        DocumentResponse response = await pdfApi.PutMergeDocumentsAsync(resultFileName, documetItems, folder: storageTempFolder);
+    
+        if (response == null)
+            Console.WriteLine("MergeDocuments(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("MergeDocuments(): Failed to documents.");
+        else
+        {
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, resultFileName));
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("MergeDocuments(): documents successfully merged to '{0}' file.", resultFileName);
         }
     }
 ```
