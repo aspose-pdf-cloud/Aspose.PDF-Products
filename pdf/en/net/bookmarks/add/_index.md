@@ -72,7 +72,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string parentBookmarkPath =  "/5";
 
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
         using var file = File.OpenRead(localPdfDocument);
         var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
@@ -162,6 +162,7 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
