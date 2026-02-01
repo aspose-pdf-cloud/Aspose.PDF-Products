@@ -1,12 +1,12 @@
 ---
-title: Creating an AcroForm via Cloud .NET SDK
-url: net/acroforms/add/
-description: Add new form fields to PDFs with Aspose.PDF Cloud for .NET. Create interactive AcroForms in seconds.
+title: Get Text Annotations via Cloud .NET SDK
+url: net/annotations/get/text/
+description: Get Text Annotations from PDFs using Aspose.PDF Cloud SDK for .NET.
 lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Create PDF Forms in .NET SDK" h2="Add Form Fields to a PDF Document on .NET apps to create Fillable document." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Get Text Annotation by Id from PDF via .NET SDK" h2="API for getting annotations by Id from PDF documents with with Aspose.PDF Cloud .NET SDK." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
@@ -15,9 +15,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/program-languages-navigation programLanguages="net,php,python,go,nodejs" >}}
 
-{{% blocks/products/pf/agp/content h2="How to create an AcroForm via Cloud .NET SDK " %}}
+{{% blocks/products/pf/agp/content h2="How to get annotations by Id from PDF documents using Cloud .NET SDK " %}}
 
- In order to create an AcroForm via Cloud .NET SDK , we'll use
+ For getting page annotations from PDF documents, we'll use
  [Aspose.PDF Cloud .NET SDK](https://products.aspose.cloud/pdf/net/)
  This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in C#, ASP.NET, or other .NET languages for various cloud platforms. Open
  [NuGet](https://www.nuget.org/packages/Aspose.Pdf-Cloud)
@@ -39,32 +39,29 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to create AcroForms via .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to get annotations by Id using .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud developers can easily load & create acroforms in PDF in just a few lines of code.
+ Aspose.PDF Cloud developers can easily load & get annotations from PDF documents in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Create a new Configuration object with your Application Secret and Key
-1. Create an object to connect to the Cloud API
-1. Upload your document file
-1. Perform the creating
-1. Download the result
+1. Uploads a document.
+1. Retrieves annotation by Id from Pdf document.
+1. Logs details of Annotation.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows creating an AcroForms in PDF documents" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows getting Annotations by Id from PDF document via C#" offSpacer="" %}}
 
 ```cs
 
-    public static async Task AddFormField()
+    public async static Task GetTextAnnotation()
     {
-        const string localPdfDocumentName = @"C:\Samples\sample.pdf";
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
-        const string localFolder = @"C:\\Samples";
-        const string resultFileName = "output_add_form_filed.pdf";
+        const string annotationId = "GE5TAOZRGAYCYNBVGAWDINJQFQ2TAMA";
 
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -72,24 +69,20 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            using var file = File.OpenRead(localPdfDocumentName);
+            using var file = File.OpenRead(localPdfDocument);
             var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-        var textBoxField = new TextBoxField(PageIndex: 1)
+
+        TextAnnotationResponse response = await pdfApi.GetTextAnnotationAsync(storageFileName, annotationId);
+        if (response == null)
+            Console.WriteLine("GetTextAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("GetTextAnnotation(): Failed to get annotations from the document.");
+        else
         {
-            PartialName = "Email",
-            Rect = new Rectangle(100, 100, 180, 120),
-            Value = "aspose-pdf-cloud@example.com",
-            Border = new Border(Width: 5, Dash: new Dash(1, 1), Color: new Color(255, 0, 255, 0))
-        };
-
-        var response = await pdfApi.PutTextBoxFieldAsync(storageFileName, "Email", textBoxField);
-        Console.WriteLine(response.Status);
-
-        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine(JsonConvert.SerializeObject(response.Annotation, Formatting.Indented));
+        }
     }
 ```
 
@@ -102,7 +95,3 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-
-

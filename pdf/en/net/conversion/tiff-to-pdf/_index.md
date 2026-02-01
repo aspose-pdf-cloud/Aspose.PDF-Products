@@ -2,7 +2,7 @@
 title: Convert TIFF to PDF via Cloud .NET SDK 
 url: net/conversion/tiff-to-pdf/ 
 description: Convert TIFF image files into PDF using Aspose.PDF Cloud SDK for .NET. Reliable for scanned document archiving.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,9 +69,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.tif";
         const string storageImageFileName = "sample.tif";
         const string resultFileName = "sample-tiff-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
@@ -81,8 +83,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"TIFF to PDF result: {response.Status}");
-        pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+
+        using Stream downloadStream = pdfApi.DownloadFile(resultFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
     }
 ```
 

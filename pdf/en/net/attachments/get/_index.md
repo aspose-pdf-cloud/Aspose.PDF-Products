@@ -74,7 +74,13 @@ Aspose.PDF Cloud .NET developers can easily extract attachments from PDF documen
     {
         var STORAGE_FILE_NAME = "sample_attachment.pdf";
         var LOCAL_FILE_NAME = @"C:\Samples\Attachments\sample_attachment.pdf";
-        PdfApi.UploadFile(STORAGE_FILE_NAME, File.OpenRead(LOCAL_FILE_NAME));
+
+        //Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+       using var file = File.OpenRead(LOCAL_FILE_NAME);
+       pdfApi.UploadFile(STORAGE_FILE_NAME, file);
+
         var attachmentsResponse = PdfApi.GetDocumentAttachmentByIndex(STORAGE_FILE_NAME,1);        
         Console.WriteLine(attachmentsResponse.Attachment.Name);
     }

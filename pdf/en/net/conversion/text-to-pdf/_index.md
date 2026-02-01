@@ -2,7 +2,7 @@
 title: Convert Text to PDF via Cloud .NET SDK
 url: net/conversion/text-to-pdf/ 
 description: Turn plain text files into formatted PDFs with Aspose.PDF Cloud SDK for .NET.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,6 +69,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localTextFileName = @"C:\Samples\Conversion\sample.txt";
         const string storageTextFileName = "sample.txt";
         const string resultFileName = "sample-txt-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -78,9 +79,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutMarkdownInStorageToPdf(resultFileName, storageTextFileName);
         Console.WriteLine($"TEXT to PDF result: {response.Status}");
-        pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
-    }
+
+        using Stream downloadStream = pdfApi.DownloadFile(resultFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
+            }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

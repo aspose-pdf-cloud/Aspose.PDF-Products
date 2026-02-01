@@ -2,7 +2,7 @@
 title: Extract & Append attachments in PDF documents via Aspose.Pdf Cloud .NET SDK
 url: net/attachments/
 description: Manage file attachments in PDF documents using Aspose.PDF Cloud SDK for .NET. Add, retrieve, and organize embedded files.
-lastmod: "2024-10-31"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -90,16 +90,33 @@ Aspose.PDF Cloud .NET developers can easily extract, and append attachments in P
 
     internal static void GetAllAttachments()
     {
-        throw new NotImplementedException();
+        var STORAGE_FILE_NAME = "sample_attachment.pdf";
+        var LOCAL_FILE_NAME = @"C:\Samples\Attachments\sample_attachment.pdf";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        using var file = File.OpenRead(LOCAL_FILE_NAME);
+        var uploadResult = pdfApi.UploadFile(STORAGE_FILE_NAME, file);
+
+        var attachmentsResponse  = pdfApi.GetDocumentAttachments(STORAGE_FILE_NAME)
+
+        Console.WriteLine(JsonConvert.SerializeObject(attachmentsResponse.Attachments, Formatting.Indented));
     }
 
     internal static void GetSingleAttachments()
     {
         var STORAGE_FILE_NAME = "sample_attachment.pdf";
         var LOCAL_FILE_NAME = @"C:\Samples\Attachments\sample_attachment.pdf";
-        PdfApi.UploadFile(STORAGE_FILE_NAME, File.OpenRead(LOCAL_FILE_NAME));
-        var attachmentsResponse = PdfApi.GetDocumentAttachmentByIndex(STORAGE_FILE_NAME,1);        
-        Console.WriteLine(attachmentsResponse.Attachment.Name);
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        using var file = File.OpenRead(LOCAL_FILE_NAME);
+        var uploadResult = pdfApi.UploadFile(STORAGE_FILE_NAME, file);
+
+        var attachmentsResponse = pdfApi.GetDocumentAttachmentByIndex(STORAGE_FILE_NAME, 1);
+        Console.WriteLine(JsonConvert.SerializeObject(attachmentsResponse.Attachment, Formatting.Indented));
     }
 ```
 

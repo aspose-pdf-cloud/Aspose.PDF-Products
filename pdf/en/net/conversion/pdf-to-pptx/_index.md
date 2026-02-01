@@ -2,7 +2,7 @@
 title: Convert PDF to Microsoft PowerPoint PPTX File via Cloud .NET SDK
 url: net/conversion/pdf-to-pptx/
 description: Convert PDF documents to PowerPoint PPTX with Aspose.PDF Cloud SDK for .NET. Turn reports into presentations.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,14 +69,18 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageImageFileName = "sample.pdf";
         const string resultFileName = "sample.pptx";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
-        var response = pdfApi.GetPdfInStorageToPptx(storageImageFileName);
-        response.CopyTo(File.OpenWrite(resultFileName));
+        using Stream response = pdfApi.GetPdfInStorageToPptx(storageImageFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to PPTX result: {response.Length} bytes");
     }
 ```
