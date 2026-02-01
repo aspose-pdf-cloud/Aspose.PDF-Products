@@ -63,7 +63,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static async Task LinksExtractById(string documentName, string LinkID, string remoteFolder)
+    public static async Task LinksExtractById()
     {
         const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
@@ -142,6 +142,7 @@ Extract the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
