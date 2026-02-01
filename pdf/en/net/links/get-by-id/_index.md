@@ -68,6 +68,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
         const string localFolder = @"C:\Samples";
+        const string storageTempFolder = "YourTempFolder";
         const string LinkId = "GE5UYYLVNZRWQQLDORUW63R3HA4CYNRZGQWDCMZQFQ3TAOI";
 
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
@@ -77,7 +78,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
 
         // Get link annotations from the PDF in cloud storage.
-        LinkAnnotationResponse response = await pdfApi.GetLinkAnnotationAsync(storageFileName, linkID, folder: remoteFolder);
+        LinkAnnotationResponse response = await pdfApi.GetLinkAnnotationAsync(storageFileName, linkID, folder: storageTempFolder);
 
         // Checks the response and logs the result.
         if (response == null)
@@ -142,6 +143,7 @@ Extract the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
