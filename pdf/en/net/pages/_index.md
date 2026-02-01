@@ -70,9 +70,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Create a new Configuration object with your Application Secret and Key.
 1. Create an object to connect to the Cloud API.
 1. Uploads the PDF to cloud storage.
-1. Upload image file to cloud storage.
-1. Create an ImageStamp object with your settings.
-1. Perform append ImageStamp object to page of the PDF on cloud storage.
+1. Perform append page in the PDF on cloud storage.
 1. Checks the response and logs the result.
 1. Downloads the updated file for local use.
 
@@ -82,60 +80,35 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task AddPage()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_add_page.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-    namespace Pages
-    {
-        public class PagesAddImageStamp
-        {
-            public static async Task Append(string documentName, string outputName, int pageNumber, string imageFileName, float width, float height, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-                using (var file = File.OpenRead(Path.Combine(localFolder, imageFileName)))
-		{ // Upload the local image file to cloud storage folder name.
-                    FilesUploadResult uploadImageResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, imageFileName), imageFileName);
-                    Console.WriteLine(uploadImageResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                ImageStamp stamp = new ImageStamp(
-                    Background: true,
-                    HorizontalAlignment: HorizontalAlignment.Center,
-                    VerticalAlignment: VerticalAlignment.Top,
-                    Opacity: 0.3,
-                    Rotate: Rotation.None,
-                    RotateAngle: 45,
-                    Width: width,
-                    Height: height,
-                    Zoom: 1,
-                    FileName: Path.Combine(remoteFolder, imageFileName));
+	    DocumentPagesResponse response = await pdfApi.PutAddNewPageAsync(storageFileName, folder: storageTempFolder);
 
-                // Append new image stamp to page of the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostPageImageStampsAsync(documentName, pageNumber, new List<ImageStamp> { stamp }, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("PagesAddImageStamp(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("PagesAddImageStamp(): Failed to append image stamp to the page of document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("PagesAddImageStamp(): image '{0}' appended as stamp to the page '{1}' of the document '{2}.", imageFileName, pageNumber, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "add_page_image_stamp_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("PagesAddImageStamp(): File '{0}' successfully downloaded.", "add_page_image_stamp_" + outputName);
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("PagesAdd(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("PagesAdd(): Failed to append page to the document.");
+	    else
+	    {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("PagesAdd(): page successfully appended to the document '{0}.", resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -147,4 +120,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
