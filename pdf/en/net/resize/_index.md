@@ -2,7 +2,7 @@
 title: Resize PDF docuemnt pages via Cloud .NET SDK 
 url: net/resize/
 description: Resize PDF document is performed using Aspose.PDF Cloud. Check the .NET source code to resize PDF file pages.
-lastmod: "2025-07-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -58,59 +58,34 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-
-    namespace ChangeLayout
+    public static async Task ResizeDocumentPages()
     {
-        public class ResizeDocumentAllPages
+        const string localPdfFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\Samples";
+        const string resultFileName = "output_resize_pages.pdf";
+        const string storageTempFolder = "YourTempFolder";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+        pdfApi = new PdfApi(AppSecret, AppSid);
+
+        using var file = File.OpenRead(localPdfFileName);
+        await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
+
+        var response = await pdfApi.PostDocumentPagesResizeAsync(storageFileName, 300, 200, "1,3-5,8", folder: storageTempFolder);
+
+        if (response == null)
+            Console.WriteLine("ResizeDocumentPages(): Unexpected error!");
+        else if (response.Code != 200)
+            Console.WriteLine("ResizeDocumentPages(): Error -> Code {0} -> Status '{1}'", [response.Code, response.Status]);
+        else
         {
-            private ChangeLayoutHelper _helper;
-
-            public ResizeDocumentAllPages(ChangeLayoutHelper helper)
-            {
-                _helper = helper;
-            }
-
-            public async Task MakeResizeDocumentAllPages(string document, string htmlTempDoc, int pageWidth, int pageHeight)
-            {
-                await _helper.UploadFile(document);
-                string htmlTempPath = Path.Combine(_helper.config.REMOTE_TEMP_FOLDER, htmlTempDoc);
-                AsposeResponse response = await _helper.pdfApi.PutPdfInStorageToHtmlAsync(
-                    document, htmlTempPath,
-                    documentType: HtmlDocumentType.Xhtml.ToString(),
-                    outputFormat: OutputFormat.Folder.ToString(),
-                    folder: _helper.config.REMOTE_TEMP_FOLDER
-                );
-                if (response == null)
-                    Console.WriteLine("MakeResizeDocumentAllPages(): Unexpected error - no response in Pdf to Html convert!");
-                else if (response.Code != 200)
-                    Console.WriteLine("MakeResizeDocumentAllPages(): Error -> Code {0} -> Status '{1}'", [response.Code, response.Status]);
-                else
-                {
-                    Console.WriteLine("MakeResizeDocumentAllPages(): temporary file '{0}' successfully created.", htmlTempDoc);
-                    string outputDocument = "resized_" + document;
-                    await _helper.pdfApi.PutHtmlInStorageToPdfAsync(
-                        outputDocument, htmlTempPath,
-                        dstFolder: _helper.config.REMOTE_TEMP_FOLDER,
-                        htmlFileName: htmlTempDoc,
-                        height: pageHeight,
-                        width: pageWidth
-                    );
-
-                    if (response == null)
-                        Console.WriteLine("MakeResizeDocumentAllPages(): Unexpected error - no response in html to Pdf convert!");
-                    else if (response.Code != 200)
-                        Console.WriteLine("MakeResizeDocumentAllPages(): Error -> Code {0} -> Status '{1}'", [response.Code, response.Status]);
-                    else
-                    {
-                        Console.WriteLine("resizePages(): Pages successfully resized.");
-                        await _helper.DownloadFile(outputDocument, "resized_doc_");
-                    }
-                }
-
-            }
+            using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            downloadStream.CopyTo(localStream);
+            Console.WriteLine("ResizeDocumentPages(): pages successfully resized in the document '{0}.", resultFileName);
         }
+    
     }
 ```
 
@@ -123,5 +98,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
