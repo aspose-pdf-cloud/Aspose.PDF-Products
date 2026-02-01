@@ -60,7 +60,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static async Task DeletePage(P)
+    public static async Task DeletePage()
 	{
 	    const string localPdfFileName = @"C:\Samples\sample.pdf";
 	    const string storageFileName = "sample.pdf";
@@ -100,4 +100,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
