@@ -2,7 +2,7 @@
 title: Appending Signature via Cloud .NET SDK 
 url: net/signature/add/
 description: Add signature to PDF files using Aspose.PDF Cloud SDK for .NET. Sign PDF documents.
-lastmod: "2025-08-12"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,65 +63,54 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% blocks/products/pf/agp/code-block title="This sample code shows appending signature in PDF documents" offSpacer="" %}}
 
 ```cs
+    
+	public static async Task AddSignatureField()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_add_signature.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-    namespace Signatures
-    {
-        public class AddSignature
-        {
-            public static async Task Append(string documentName, string fieldName, string outputName, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    Signature signature = new Signature(
+	        SignaturePath: Path.Combine(storageTempFolder, SIGNATURE_PFX),
+	        SignatureType: SignatureType.PKCS7,
+	        Password: SIGNATURE_PASSWORD,
+	        Contact: SIGNATURE_CONTACT,
+	        Location: SIGNATURE_LOCATION,
+	        Visible: true,
+	        Rectangle: new Rectangle(100, 100, 500, 500),
+	        FormFieldName: SIGNATURE_FORM_FIELD,
+	        Authority: SIGNATURE_AUTHORITY,
+	        Date: SIGNATURE_DATE,
+	        ShowProperties: true);
 
-                // Create new signature with parameters for the PDF document on cloud storage.
-                Signature signature = new Signature(
-                    SignaturePath: CERTIFICATE_PFX,
-                    SignatureType: SignatureType.PKCS7,
-                    Password: YOUR_CERTIFICATE_PASSWORD,
-                    Contact: YOUR_CERTIFICATE_CONTACT,
-                    Location: YOUR_CERTIFICATE_LOCATION,
-                    Visible: true,
-                    Rectangle: new Rectangle(100, 100, 200, 200),
-                    FormFieldName: YOUR_SIGNATURE_FORM_FIELD,
-                    Authority: YOUR_CERTIFICATE_ISSUER,
-                    Date: "08/22/2025 12:15:21.000 PM",
-                    ShowProperties: false);
+	    SignatureField field = new SignatureField(
+	        PageIndex: 1,
+	        Signature: signature,
+	        PartialName: fieldName,
+	        Rect: config.SIGNATURE_RECT);
 
-                SignatureField field = new SignatureField(
-                    PageIndex: 1,
-                    Signature: signature,
-                    PartialName: fieldName,
-                    Rect: new Rectangle(100, 100, 200, 200));
+	    var response = await pdfApi.PostSignatureFieldAsync(storageFileName, field, folder: storageTempFolder);
 
-                // Append signature for the PDF document on cloud storage.
-                AsposeResponse response = await pdfApi.PostSignatureFieldAsync(documentName, field, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("AddSignature(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("AddSignature(): Failed to append Pdf document signature.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("AddSignature(): Signature appended successfully to the Pdf document '{0}'.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("AddSignature(): File '{0}' successfully downloaded.", outputName);
-                }
-            }
-        }
-    }
-
+	    if (response == null)
+	        Console.WriteLine("AddSignatureField(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("AddSignatureField(): Failed to append Pdf document signature.");
+	    else {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("AddSignatureField(): Signature appended successfully to the Pdf document '{0}'.", resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -174,4 +163,5 @@ Add the Signature for PDF documents with [Aspose.PDF Cloud .NET SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
