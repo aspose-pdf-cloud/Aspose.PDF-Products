@@ -75,7 +75,7 @@ Aspose.PDF Cloud developers can easily load & decrypt PDF in just a few lines of
 	    string ToBase64(string str) => Convert.ToBase64String(Encoding.UTF8.GetBytes(str));
 
 	    /// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-	    pdfApi = new PdfApi(AppSecret, AppSid);
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
 	    using var file = File.OpenRead(localPdfDocument);
 	    await pdfApi.UploadFileAsync(storageFileName, file);
@@ -153,5 +153,6 @@ Decrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
