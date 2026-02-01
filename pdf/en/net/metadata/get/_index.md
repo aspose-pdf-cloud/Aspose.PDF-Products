@@ -2,7 +2,7 @@
 title: Get Metadata from PDF Documents via Cloud .NET SDK 
 url: net/metadata/get/
 description: Extract PDF metadata using Aspose.PDF Cloud SDK for .NET. Analyze document details easily via API.
-lastmod: "2022-03-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -66,23 +66,23 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
     {
         const string localPdfFileName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
-
-
+        const string localFolder = @"C:\Samples";
+        const string storageTempFolder = "YourTempFolder";
+    
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
-
-        if (pdfApi.GetFilesList("").Value.All(f => f.Name != "sample.pdf"))
+    
+        if (pdfApi.GetFilesList(storageTempFolder).Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localPdfFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
+    
+        var response = pdfApi.GetDocumentProperties(storageFileName, folder: storageTempFolder);
 
-        var response = pdfApi.GetDocumentProperties(storageFileName);
         foreach (var item in response.DocumentProperties.List)
-        {
             Console.WriteLine($"Name: {item.Name} Value: {item.Value}");
-        }
     }
 ```
 
@@ -95,4 +95,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
