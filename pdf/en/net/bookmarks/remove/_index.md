@@ -65,7 +65,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localPdfDocument = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
         const string localFolder = @"C:\\Samples";
-        const string resultFileName = "output_delete_booknark.pdf";
+        const string resultFileName = "output_delete_bookmark.pdf";
         const string bookmarkPath = "/5";
 
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
@@ -143,6 +143,7 @@ Delete the Bookmarks from PDF documents with [Aspose.PDF Cloud .NET SDK](https:/
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
