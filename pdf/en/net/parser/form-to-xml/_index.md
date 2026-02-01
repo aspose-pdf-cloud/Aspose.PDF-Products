@@ -2,7 +2,7 @@
 title: Parse Pdf for extraction Form fields as XML via Cloud .NET SDK 
 url: net/parser/form-to-xml/
 description: Parse PDF files for extraction Form fields as XML using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-22"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,46 +63,35 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task ParseToXml()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_parse.xml";
+	    const string storageTempFolder = "YourTempFolder";
 
-namespace Parser
-{
-    public class ExportFormToXML
-    {
-        public static async Task Extract(string documentName, string outputXMLName, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-                
-                string xmlPath = Path.Combine(remoteFolder, outputXMLName);
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Parse PDF to extract Form fields as XML in cloud storage.
-                AsposeResponse response = await pdfApi.PutExportFieldsFromPdfToXmlInStorageAsync(documentName, xmlPath, folder: remoteFolder);
+	    string xmlPath = Path.Combine(storageTempFolder, resultFileName);
+	    AsposeResponse response = await pdfApi.PutExportFieldsFromPdfToXmlInStorageAsync(storageFileName, xmlPath, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("ExportFormToXML(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("ExportFormToXML(): Failed to export Pdf document form fields.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("ExportFormToXML(): Pdf document '{0}' form fields successfully exported to '{1} file.", documentName, outputXMLName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, outputXMLName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, outputXMLName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("ExportFormToXML(): File '{0}' successfully downloaded.", outputXMLName);
-
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("ExportFormToXML(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("ExportFormToXML(): Failed to export Pdf document form fields.");
+	    else {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, resultFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("ExportFormToXML(): Pdf document '{0}' form fields successfully exported to '{1} file.", storageFileName, resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -155,5 +144,6 @@ Parse PDF documents for extracting Form fields as XML with [Aspose.PDF Cloud .NE
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
