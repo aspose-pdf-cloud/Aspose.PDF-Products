@@ -2,7 +2,7 @@
 title: Replace Link via Cloud .NET SDK 
 url: net/links/replace
 description: Replace link in PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-16"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,65 +63,43 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Links
+    public static async Task LinksReplace()
     {
-        public class LinksReplace
-        {
-            public static async Task Modify(string documentName, string outputName, string LinkID, string LinkAction, string remoteFolder)
-            {
+		const string localPdfDocument = @"C:\Samples\sample.pdf";
+		const string storageFileName = "sample.pdf";
+		const string localFolder = @"C:\Samples";
+		const string resultFileName = "output_add_link.pdf";
+		const string storageTempFolder = "YourTempFolder";
+		const string linkId = "GE5UYYLVNZRWQQLDORUW63R3HA4CYNRZGQWDCMZQFQ3TAOI";
+		const string newLinkAction = "https://reference.aspose.cloud/pdf/";
+		
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
 		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                // Extract Link annotation by Id
-                LinkAnnotationResponse getResponse = await pdfApi.GetLinkAnnotationAsync(documentName, LinkID, folder: remoteFolder);
-
-                if (getResponse == null)
-                    Console.WriteLine("LinksReplace(): Unexpected error in GetLink!");
-                else if (getResponse.Code < 200 || getResponse.Code > 299)
-                    Console.WriteLine("LinksReplace(): Failed to receive link from the document.");
-                else if (getResponse.Link == null)
-                     Console.WriteLine("LinksReplace(): link '{0}' not found in the document '{1]'.", LinkID, documentName);
-                else {
-                     Console.WriteLine("LinksReplace(): link '{0}' successfully received from the document '{1}.", LinkID, documentName);
-                     Console.WriteLine(getResponse.Link.ToString());
-
-                     Link link = new Link(LinkAction);
-
-                     LinkAnnotation newLink = new LinkAnnotation(
-                         new List<Link>() { link },
-                         ActionType: getResponse.Link.ActionType,
-                         Action: LinkAction,
-                         Highlighting: getResponse.Link.Highlighting,
-                         Color: new Color(A: 0xFF, R: 0xAA, G: 0x00, B: 0x00),
-                         Rect: getResponse.Link.Rect
-                     );
-
-                     // Replace a link annotation with LinkId in the PDF on cloud storage.
-                     AsposeResponse response = await pdfApi.PutLinkAnnotationAsync(documentName, LinkID, newLink, folder: remoteFolder);
-
-                    if (response == null)
-                        Console.WriteLine("LinksReplace(): Unexpected error in Modify!");
-                    else if (response.Code < 200 || response.Code > 299)
-                        Console.WriteLine("LinksReplace(): Failed to replaced link in the document.");
-                    else { // Downloads the updated file for local use.
-                        Console.WriteLine("LinksReplace(): link '{0}' successfully replaced in the document '{1}.", LinkID, documentName);
-                        Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                        using var fileStream = File.Create(Path.Combine(localFolder, "replace_linkk_" + outputName));
-                        stream.Position = 0;
-                        await stream.CopyToAsync(fileStream);
-                        Console.WriteLine("LinksReplace(): File '{0}' successfully downloaded.", "replace_link_" + outputName);
-                    }
-                }
-            }
-        }
+		
+		using var file = File.OpenRead(localPdfDocument);
+		await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
+		
+		LinkAnnotation newLink = new LinkAnnotation(
+		    Links: new List<Link>() { new Link(newLinkAction) },
+		    ActionType: LinkActionType.GoToURIAction,
+		    Action: newLinkAction,
+		    Highlighting: LinkHighlightingMode.Invert,
+		    Color: new Color(A: 0xFF, R: 0xAA, G: 0x00, B: 0x00),
+		    Rect: new Rectangle(LLX: 238, LLY: 488.622, URX: 305, URY: 498.588)
+		);
+		
+		LinkAnnotationResponse getResponse = await pdfApi.PutLinkAnnotationAsync(storageFileName, linkId, newLink, folder: storageTempFolder);
+		
+		if (getResponse == null)
+		    Console.WriteLine("LinksReplace(): Unexpected error in GetLink!");
+		else if (getResponse.Code < 200 || getResponse.Code > 299)
+		    Console.WriteLine("LinksReplace(): Failed to receive link from the document.");
+		else  {
+		    using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
+		    using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+		    await downloadStream.CopyToAsync(localStream);
+		    Console.WriteLine("LinksReplace(): link '{0}' successfully replaced in the document '{1}.", linkId, resultFileName);
+		}
     }
 
 ```
@@ -135,3 +113,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
