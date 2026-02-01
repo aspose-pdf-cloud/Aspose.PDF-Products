@@ -2,7 +2,7 @@
 title: Parse Pdf for Table by Id extraction via Cloud .NET SDK 
 url: net/parser/table-by-id/
 description: Parse PDF files for Table by Id extraction using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-22"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,39 +63,31 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task ParseTable()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string storageTempFolder = "YourTempFolder";
+	    const string tableId = "GE5TCOZRGYYSYNBSHAWDIMZWFQ2DKMY";
 
-namespace Parser
-{
-    public class GetTable
-    {
-        public static async Task Extract(string documentName, string tableId, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Parse PDF for table by Id extraction in cloud storage.
-                TableRecognizedResponse response = await pdfApi.GetTableAsync(documentName, tableId, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("GetTable(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("GetTable(): Failed to receive Table from the document.");
-                else
-                { // Show tables.
-                    Console.WriteLine("GetTable(): Table '{0}' successfully received from the document '{1}.", tableId, documentName);
-                    Console.WriteLine(response.Table.ToString());
-                }
-            }
-        }
-    }
+	    TableRecognizedResponse response = await pdfApi.GetTableAsync(storageFileName, tableId, folder: storageTempFolder);
+	    if (response == null)
+	        Console.WriteLine("GetTables(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("GetTables(): Failed to receive Tables from the document.");
+	    else
+	    {
+	        Console.WriteLine("GetTables(): Table '{0}' successfully received from the document '{1}.", tableId, storageFileName);
+	        Console.WriteLine(JsonConvert.SerializeObject(response.Table, Formatting.Indented));
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -148,4 +140,5 @@ Parse PDF documents to extraction table by Id with [Aspose.PDF Cloud .NET SDK](h
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
