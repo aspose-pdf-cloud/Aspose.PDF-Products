@@ -74,7 +74,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 		const string newLinkAction = "https://reference.aspose.cloud/pdf/";
 		
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 		
 		using var file = File.OpenRead(localPdfDocument);
 		await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
@@ -113,4 +113,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
