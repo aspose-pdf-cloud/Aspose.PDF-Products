@@ -68,26 +68,28 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string storageFileName = "sample.pdf";
         const string localFolder = @"C:\Samples";
         const string resultFileName = "output_add_metadata.pdf";
-        
+        const string storageTempFolder = "YourTempFolder";
+
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
 
-        var filesOnStorage = pdfApi.GetFilesList("");
+        var filesOnStorage = pdfApi.GetFilesList(storageTempFolder);
         if (filesOnStorage.Value.All(f => f.Name != "sample.pdf"))
         {
             using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-        var response = pdfApi.PutSetProperty(storageFileName, "xmp:ArchiveDate", 
-            DateTime.Today.ToString(CultureInfo.InvariantCulture));
+        var response = pdfApi.PutSetProperty(storageFileName, "xmp:ArchiveDate",
+            DateTime.Today.ToString(CultureInfo.InvariantCulture), folder: storageTempFolder);
         Console.WriteLine(response.Status);
-
+    
         using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
         using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
         downloadStream.CopyTo(localStream);
         Console.WriteLine("AddMetadata(): new property successfully added to document '{0}' file.", resultFileName);
     }
+    
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -99,4 +101,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
