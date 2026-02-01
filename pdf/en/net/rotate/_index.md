@@ -2,7 +2,7 @@
 title: Rotate PDF via Cloud .NET SDK 
 url: net/rotate/
 description: Rotate PDF pages is performed using Aspose.PDF Cloud. Check the .NET source code to rotate PDF file.
-lastmod: "2025-07-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -58,33 +58,30 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace ChangeLayout
+    public static async Task RotatePages()
     {
-        public class RotateDocumentsPages
-        {
-            private ChangeLayoutHelper _helper;
-
-            public RotateDocumentsPages(ChangeLayoutHelper helper)
-            {
-                _helper = helper;
-            }
-
-            public async Task MakeRotateDocumentsPages(string document, string rotateAngle, string pages)
-            { 
-                await _helper.UploadFile(document);
-                AsposeResponse response = await _helper.pdfApi.PostDocumentPagesRotateAsync(document, rotateAngle, pages, folder: _helper.config.REMOTE_TEMP_FOLDER);
-                if (response.Code != 200)
-                    Console.WriteLine("MakeRotateDocumentsPages(): Unexpected error!");
-                else {
-                    Console.WriteLine("MakeRotateDocumentsPages(): Pages '{0}' successfully rotated!");
-
-                    await _helper.DownloadFile(document, "rotated_");
-                } 
-            }
-        }
+        const string localPdfFileName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\Samples";
+        const string resultFileName = "output_rotate.pdf";
+        const string storageTempFolder = "YourTempFolder";
+        const string rotationPages = "1, 3 - 5, 8";
+    
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+        pdfApi = new PdfApi(AppSecret, AppSid);
+    
+        using var file = File.OpenRead(localPdfFileName);
+        await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
+    
+        AsposeResponse response = await pdfApi.PostDocumentPagesRotateAsync(storageFileName, Rotation.On90.ToString(), rotationPages, folder: storageTempFolder);
+        if (response.Code != 200)
+            Console.WriteLine("RotatePages(): Unexpected error!");
+        else {
+            using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            downloadStream.CopyTo(localStream);
+            Console.WriteLine("RotatePages(): Pages '{0}' successfully rotated!", rotationPages);
+        } 
     }
 ```
 
@@ -97,5 +94,6 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
