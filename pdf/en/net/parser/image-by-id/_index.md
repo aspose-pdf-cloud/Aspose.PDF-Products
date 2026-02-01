@@ -2,7 +2,7 @@
 title: Parse Pdf for Image by Id extraction via Cloud .NET SDK 
 url: net/parser/image-by-id/
 description: Parse PDF files for Image by Id extraction using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-22"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,39 +63,37 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
-
-namespace Parser
-{
-    public class GetImage
-    {
-        public static async Task Extract(string documentName, string imageId, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                // Parse PDF for image by Id extraction in cloud storage.
-                ImageResponse response = await helper.pdfApi.GetImageAsync(documentName, imageId, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("GetImage(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("GetImage(): Failed to receive Image from the document.");
-                else
-                { // Show images.
-                    Console.WriteLine("GetImage(): Image '{0}' successfully received from the document '{1}.", imageId, documentName);
-                    Console.WriteLine(response.Image.ToString());
-                }
-            }
-        }
-    }
+	public static async Task ParseImageById()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_parse_image.jpg";
+	    const string storageTempFolder = "YourTempFolder";
+	    string imageId = string.Empty;
+	
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
+	
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
+	
+	    // Parse PDF for image by Id extraction in cloud storage.
+	    ImagesResponse response = await pdfApi.GetImagesAsync(storageFileName, 2, folder: storageTempFolder);
+	    imageId = response.Images.List[0].Id;
+	    using (Stream downloadStream = await pdfApi.GetImageExtractAsJpegAsync(storageFileName, imageId, folder: storageTempFolder))
+	    {  // Checks the response and logs the result.
+	        if (downloadStream == null)
+	            Console.WriteLine("GetImage(): Unexpected error!");
+	        else
+	        { // DownLoad image.
+	            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	            downloadStream.CopyTo(localStream);
+	            Console.WriteLine("GetImage(): Image '{0}' successfully received from the document '{1}.", imageId, resultFileName);
+	        }
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -148,4 +146,5 @@ Parse PDF documents for extraction image by Id with [Aspose.PDF Cloud .NET SDK](
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
