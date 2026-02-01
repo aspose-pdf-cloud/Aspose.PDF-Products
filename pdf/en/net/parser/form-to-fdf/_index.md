@@ -63,7 +63,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-	public static async Task ParseToFdf(PdfApi pdfApi)
+	public static async Task ParseToFdf()
 	{
 	    const string localPdfFileName = @"C:\Samples\sample.pdf";
 	    const string storageFileName = "sample.pdf";
@@ -72,7 +72,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 	    const string storageTempFolder = "YourTempFolder";
 
 	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
-	    //var pdfApi = new PdfApi(AppSecret, AppSid);
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
 	    using var file = File.OpenRead(localPdfFileName);
 	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
@@ -144,5 +144,6 @@ Parse PDF documents for extracting Form fields as FDF with [Aspose.PDF Cloud .NE
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
