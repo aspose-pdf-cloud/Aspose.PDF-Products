@@ -2,7 +2,7 @@
 title: Parse Pdf for extraction Texts via Cloud .NET SDK 
 url: net/parser/texts/
 description: Parse PDF files for extraction Texts using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-22"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,42 +63,36 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task ParseTexts()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-namespace Parser
-{
-    public class GetTextBoxes
-    {
-        public static async Task Extract(string documentName, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Parse PDF to extract text boxes in cloud storage.
-                TextBoxFieldsResponse response = await pdfApi.GetDocumentTextBoxFieldsAsync(documentName, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("GetTextBoxes(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("GetTextBoxes():  Failed to receive TextBox fields from the document.");
-                else
-                { // Show text boxes.
-                    Console.WriteLine("GetTextBoxes(): TextBox fields successfully received from the document '{0}.", documentName);
-                    foreach (TextBoxField textBox in response.Fields.List)
-                    {
-                        Console.WriteLine(textBox.ToString());
-                    }
-                }
-            }
-        }
-    }
+	    TextBoxFieldsResponse response = await pdfApi.GetDocumentTextBoxFieldsAsync(storageFileName, folder: storageTempFolder);
+	    if (response == null)
+	        Console.WriteLine("GetTextBoxes(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("GetTextBoxes(): Failed to receive TextBox fields from the document.");
+	    else if (response.Fields == null || response.Fields.List == null || response.Fields.List.Count == 0)
+	        Console.WriteLine("GetTextBoxes(): TextBox fields not found in the document '{0]'.", storageFileName);
+	    else
+	    {
+	        Console.WriteLine("GetTextBoxes(): TextBox fields successfully received from the document '{0}.", storageFileName);
+	        foreach (var textBox in response.Fields.List)
+	        {
+	            var respText = await pdfApi.GetTextBoxFieldAsync(storageFileName, textBox.FullName, folder: storageTempFolder);
+	            Console.WriteLine(JsonConvert.SerializeObject(respText.Field, Formatting.Indented));
+	        }
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -151,4 +145,5 @@ Parse PDF documents to extraction texts with [Aspose.PDF Cloud .NET SDK](https:/
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
