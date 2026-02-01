@@ -70,8 +70,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 	    const string localFolder = @"C:\Samples";
 	    const string resultFileName = "output_parse_image.jpg";
 	    const string storageTempFolder = "YourTempFolder";
-	    string imageId = string.Empty;
-	
+
 	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
 	    var pdfApi = new PdfApi(AppSecret, AppSid);
 	
@@ -80,8 +79,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 	    Console.WriteLine(uploadResult.Uploaded[0]);
 	
 	    // Parse PDF for image by Id extraction in cloud storage.
-	    ImagesResponse response = await pdfApi.GetImagesAsync(storageFileName, 2, folder: storageTempFolder);
-	    imageId = response.Images.List[0].Id;
+	    ImagesResponse response = await pdfApi.GetImagesAsync(storageFileName, pageNumber: 2, folder: storageTempFolder);
+	    string imageId = response.Images.List[0].Id;
+
 	    using (Stream downloadStream = await pdfApi.GetImageExtractAsJpegAsync(storageFileName, imageId, folder: storageTempFolder))
 	    {  // Checks the response and logs the result.
 	        if (downloadStream == null)
@@ -146,5 +146,6 @@ Parse PDF documents for extraction image by Id with [Aspose.PDF Cloud .NET SDK](
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
