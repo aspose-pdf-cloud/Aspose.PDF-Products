@@ -2,7 +2,7 @@
 title: Adding Metadata via Cloud .NET SDK 
 url: net/metadata/add/
 description: Add metadata to PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2022-03-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -66,9 +66,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
     {
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\Samples";
+        const string resultFileName = "output_add_metadata.pdf";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         var filesOnStorage = pdfApi.GetFilesList("");
         if (filesOnStorage.Value.All(f => f.Name != "sample.pdf"))
         {
@@ -79,6 +82,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutSetProperty(storageFileName, "xmp:ArchiveDate", 
             DateTime.Today.ToString(CultureInfo.InvariantCulture));
         Console.WriteLine(response.Status);
+
+        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
+        Console.WriteLine("AddMetadata(): new property successfully added to document '{0}' file.", resultFileName);
     }
 ```
 
@@ -91,3 +99,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
