@@ -2,7 +2,7 @@
 title: Add Links via Cloud .NET SDK
 url: net/links/add
 description: Add New Links to PDFs using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-08-14"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -61,55 +61,45 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task AddLink(PdfApi pdfApi)
+	{
+	    const string localPdfDocument = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_add_link.pdf";
+	    const string storageTempFolder = "YourTempFolder";
+	    const int pageNumber = 2;
+	    const string newLinkAction = "https://reference.aspose.cloud/pdf/";
 
-namespace Links
-{
-    public class LinksAdd
-    {
-        public static async Task Append(string documentName, string outputName, int pageNumber, string LinkAction, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    //pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
+	
+	    LinkAnnotation newLink = new LinkAnnotation(
+	        Links: new List<Link>() { new Link(newLinkAction) },
+	        ActionType: LinkActionType.GoToURIAction,
+	        Action: newLinkAction,
+	        Highlighting: LinkHighlightingMode.Invert,
+	        Color: new Color(A: 0xFF, R: 0xAA, G: 0x00, B: 0x00),
+	        Rect: new Rectangle(LLX: 238, LLY: 488.622, URX: 305, URY: 498.588)
+	    );
 
-                // Create link annotation object with supported parameters
-                Link link = new Link(LinkAction);
+	    AsposeResponse response = await pdfApi.PostPageLinkAnnotationsAsync(storageFileName, pageNumber, new List<LinkAnnotation>() { newLink }, folder: storageTempFolder);
 
-                LinkAnnotation newLink = new LinkAnnotation(
-                    new List<Link>() { link },
-                    ActionType: LinkActionType.GoToURIAction,
-                    Action: LinkAction,
-                    Highlighting: LinkHighlightingMode.Invert,
-                    Color: new Color(A: 0xFF, R: 0xAA, G: 0x00, B: 0x00),
-                    Rect: new Rectangle(LLX: 238, LLY: 488.622, URX: 305, URY: 498.588)
-                );
+	    if (response == null)
+	        Console.WriteLine("LinksAdd(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("LinksAdd(): Failed to add link to the document.");
+	    else {
+	        using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        await downloadStream.CopyToAsync(localStream);
+	        Console.WriteLine("LinksAdd(): link '{0}' successfully appended to the document '{1}.", newLinkAction, resultFileName);
+	    }
+	}
 
-                // Append new link annotation to the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostPageLinkAnnotationsAsync(documentName, pageNumber, new List<LinkAnnotation>() { newLink }, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("LinksAdd(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("LinksAdd(): Failed to append link to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("PagesAdd(): page successfully appended to the document '{0}.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_links_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("PagesAdd(): File '{0}' successfully downloaded.", "append_links_" + outputName);
-                }
-            }
-        }
-    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -162,5 +152,6 @@ Add the Links into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produc
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
