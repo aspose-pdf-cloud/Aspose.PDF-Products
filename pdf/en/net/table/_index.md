@@ -1,6 +1,6 @@
 ---
 title: Working with Tables in PDF documents via Cloud .NET SDK
-url: net/parser/
+url: net/table/
 description: Working with Tables in PDF documents via Cloud .NET SDK. Extract tables, Add tables, Replace tables and Delete tables from PDF document.
 lastmod: "2026-01-29"
 ---
@@ -144,3 +144,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
