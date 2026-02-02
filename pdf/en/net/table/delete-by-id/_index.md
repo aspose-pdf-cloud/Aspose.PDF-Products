@@ -65,7 +65,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 	    const string localPdfFileName = @"C:\Samples\sample.pdf";
 	    const string storageFileName = "sample.pdf";
 	    const string localFolder = @"C:\Samples";
-	    const string resultFileName = "output_del_page.pdf";
+	    const string resultFileName = "output_del_table.pdf";
 	    const string storageTempFolder = "YourTempFolder";
 	    const string tableId = "GE5TIMJ3HEYCYOBTFQ2TANZMG43TA";
 
@@ -141,4 +141,5 @@ Delete Table by Id from PDF documents with [Aspose.PDF Cloud Node.js SDK](https:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
