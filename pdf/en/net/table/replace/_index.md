@@ -62,48 +62,48 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 ```cs
 
     public static void ReplaceDocumentTable()
-    {
-        const string localImageFileName = @"C:\Samples\sample-test.pdf";
-        const string storageFileName = "Sample-Document-02.pdf";
-        const string resultFileName = "Sample-Document-02.pdf";
+	{
+	    const string localImageFileName = @"C:\Samples\sample-test.pdf";
+	    const string storageFileName = "Sample-Document-02.pdf";
+	    const string resultFileName = "Sample-Document-02.pdf";
 	    const string tableId = "GE5TCOZSGAYCYNRQGUWDINZVFQ3DGMA";
-        const string localFolder = @"C:\Samples";
+	    const string localFolder = @"C:\Samples";
 
-        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
-        var pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-        if (pdfApi.GetFilesList(".").Value.All(f => f.Name != storageFileName))
-        {
-            using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
-            Console.WriteLine(uploadResult.Uploaded[0]);
-        }
-        var decor = new GraphInfo(
-            Color: new Color(255, 0, 0, 255),
-            LineWidth: 2,
-            IsDoubled: true);
+	    if (pdfApi.GetFilesList(".").Value.All(f => f.Name != storageFileName))
+	    {
+	        using var file = File.OpenRead(localImageFileName);
+	        var uploadResult = pdfApi.UploadFile(storageFileName, file);
+	        Console.WriteLine(uploadResult.Uploaded[0]);
+	    }
+	    var decor = new GraphInfo(
+	        Color: new Color(255, 0, 0, 255),
+	        LineWidth: 2,
+	        IsDoubled: true);
 
-        List<Cell> cells = [
-            new(HtmlFragment : "<strong>Cell 1</strong>"),
-            new(HtmlFragment : "<strong>Cell 2</strong>")];
+	    List<Cell> cells = [
+	        new(HtmlFragment : "<strong>Cell 1</strong>"),
+	    new(HtmlFragment : "<strong>Cell 2</strong>")];
+	
+	    var rows = new List<Row>()
+	    {
+	        new(Cells:cells)
+	    };
 
-		var rows = new List<Row>()
-		{
-			new(Cells:cells)
-		};
+	    Table demoTable = new(Rows: rows, Top: 600, Left: 10)
+	    {
+	        Border = new BorderInfo(decor, decor, decor, decor),
+	        ColumnWidths = "150 300"
+	    };
 
-        Table demoTable = new(Rows: rows, Top: 600, Left: 10)
-        {
-            Border = new BorderInfo(decor, decor, decor, decor),
-            ColumnWidths = "150 300"
-        };
+	    pdfApi.PutTableAsync(storageFileName, tableId, demoTable);
 
-        pdfApi.PutTableAsync(storageFileName, tableId, demoTable);
-
-        using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        downloadStream.CopyTo(localStream);
-    }
+	    using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
+	    using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	    downloadStream.CopyTo(localStream);
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -156,5 +156,6 @@ Add the Table into PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
