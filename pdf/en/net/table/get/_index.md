@@ -2,7 +2,7 @@
 title: Get Tables from PDF via Cloud .NET SDK 
 url: net/table/get/
 description: Extract tables from PDFs using Aspose.PDF Cloud SDK for .NET. Extract all tables from documents.
-lastmod: "2025-08-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,42 +60,37 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task GetDocumentTables()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-    namespace Tables
-    {
-        public class GetTables
-        {
-            public static async Task Extract(string documentName, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Get all tables from the PDF on cloud storage.
-                TablesRecognizedResponse response = await pdfApi.GetDocumentTablesAsync(documentName, folder: remoteFolder);
+	    TablesRecognizedResponse response = await pdfApi.GetDocumentTablesAsync(storageFileName, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-		if (response == null)
-                    Console.WriteLine("GetTables(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("GetTables(): Failed to extract tables from the document.");
-                else
-                { // If the operation was successful, print the tables or make some other actions
-                    Console.WriteLine("GetTables(): All tables successfully extracted from the document '{0}.", documentName);
-                    foreach (var table in response.Tables.List)
-                    {
-                        Console.WriteLine(table.ToString());
-                    }
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("GetDocumentTables(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("GetDocumentTables(): Failed to extract Tables from the document.");
+	    else if (response.Tables == null || response.Tables.List == null || response.Tables.List.Count == 0)
+	        Console.WriteLine("GetDocumentTables(): Tables not found in the document '{0]'.", storageFileName);
+	    else
+	    {
+	        Console.WriteLine("GetDocumentTables(): Tables successfully extracted from the document '{0}.", storageFileName);
+	        foreach (var table in response.Tables.List)
+	        {
+	            var tabResp = await pdfApi.GetTableAsync(storageFileName, table.Id, folder: storageTempFolder);
+	            Console.WriteLine(JsonConvert.SerializeObject(tabResp.Table, Formatting.Indented));
+	        }
+	    }
+	}
 
 ```
 
@@ -150,3 +145,4 @@ Get all Tables from PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
