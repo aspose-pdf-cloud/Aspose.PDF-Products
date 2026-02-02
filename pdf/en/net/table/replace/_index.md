@@ -2,7 +2,7 @@
 title: Replacing Tables in PDF via Cloud .NET SDK 
 url: net/table/replace/
 description: Replace tables in PDFs using Aspose.PDF Cloud SDK for .NET. Dynamically generate structured layouts in documents.
-lastmod: "2024-11-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -61,15 +61,17 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void Replace()
+    public static void ReplaceDocumentTable()
     {
         const string localImageFileName = @"C:\Samples\sample-test.pdf";
         const string storageFileName = "Sample-Document-02.pdf";
         const string resultFileName = "Sample-Document-02.pdf";
-	const string tableId = "GE5TCOZSGAYCYNRQGUWDINZVFQ3DGMA"
+	    const string tableId = "GE5TCOZSGAYCYNRQGUWDINZVFQ3DGMA";
+        const string localFolder = @"C:\Samples";
 
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         if (pdfApi.GetFilesList(".").Value.All(f => f.Name != storageFileName))
         {
             using var file = File.OpenRead(localImageFileName);
@@ -84,10 +86,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         List<Cell> cells = [
             new(HtmlFragment : "<strong>Cell 1</strong>"),
             new(HtmlFragment : "<strong>Cell 2</strong>")];
-        var rows = new List<Row>()
-        {
-            new(Cells:cells)
-        };
+
+		var rows = new List<Row>()
+		{
+			new(Cells:cells)
+		};
 
         Table demoTable = new(Rows: rows, Top: 600, Left: 10)
         {
@@ -96,8 +99,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         };
 
         pdfApi.PutTableAsync(storageFileName, tableId, demoTable);
-        pdfApi.DownloadFile(storageFileName)
-            .CopyTo(File.Create(resultFileName));
+
+        using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
     }
 ```
 
@@ -151,4 +156,5 @@ Add the Table into PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
