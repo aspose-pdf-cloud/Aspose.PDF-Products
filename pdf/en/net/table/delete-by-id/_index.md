@@ -2,7 +2,7 @@
 title: Deleting Table by Id from PDF via Cloud .NET SDK 
 url: net/table/delete-by-id/
 description: Delete table by Id from PDFs using Aspose.PDF Cloud SDK for .NET. Remove table using Id from documents.
-lastmod: "2025-08-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,44 +60,34 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task DeleTableById()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_del_page.pdf";
+	    const string storageTempFolder = "YourTempFolder";
+	    const string tableId = "GE5TIMJ3HEYCYOBTFQ2TANZMG43TA";
 
-    namespace Tables
-    {
-        public class DeleteTable
-        {
-            public static async Task Remove(string documentName, string tableId, string outputName, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Delete table by Id from the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.DeleteTableAsync(documentName, tableId, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-		if (response == null)
-                    Console.WriteLine("DeleteTable(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("DeleteTable(): Failed to remove table from the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("DeleteTables(): Table '{0}' successfully deleted from the document '{1}.", tableId, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "delete_table_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("DeleteTables(): File '{0}' successfully downloaded.", "delete_table_" + outputName);
-                }
-            }
-        }
-    }
-
+	    AsposeResponse response = await pdfApi.DeleteTableAsync(storageFileName, tableId, folder: storageTempFolder);
+	    if (response == null)
+	        Console.WriteLine("DeleTableById(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("DeleTableById(): Failed to remove Table '{0}' from the document.", tableId);
+	    else {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("DeleTableById(): Table '{0}' successfully deleted from the document '{1}.", tableId, resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -151,3 +141,4 @@ Delete Table by Id from PDF documents with [Aspose.PDF Cloud Node.js SDK](https:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
