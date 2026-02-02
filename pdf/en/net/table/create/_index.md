@@ -55,7 +55,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows adding Table to PDF documents" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows creating Table for PDF documents" offSpacer="" %}}
 
 ```cs
 
@@ -191,5 +191,6 @@ Create the Table with extended properties for PDF documents with [Aspose.PDF Clo
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
