@@ -2,7 +2,7 @@
 title: Deleting Tables on page in PDF via Cloud .NET SDK 
 url: net/table/delete-on-page/
 description: Delete tables on page in PDFs using Aspose.PDF Cloud SDK for .NET. Remove table on page in documents.
-lastmod: "2025-08-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,44 +60,34 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task DeletePageTables()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_del_page_tables.pdf";
+	    const string storageTempFolder = "YourTempFolder";
+	    const int pageNumber = 1;
 
-    namespace Tables
-    {
-        public class DeleteTablesOnPage
-        {
-            public static async Task Remove(string documentName, int pageNumber, string outputName, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Delete tables on page in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.DeletePageTablesAsync(documentName, pageNumber, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-		if (response == null)
-                    Console.WriteLine("DeleteTablesOnPage(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("DeleteTablesOnPage(): Failed to remove tables from the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("DeleteTables(): Tables on page '{0}' successfully deleted from the document '{1}.", pageNumber, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "delete_page_tables_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("DeleteTables(): File '{0}' successfully downloaded.", "delete_page_tables_" + outputName);
-                }
-            }
-        }
+	    AsposeResponse response = await pdfApi.DeletePageTablesAsync(storageFileName, pageNumber, folder: storageTempFolder);
+	    if (response == null)
+	        Console.WriteLine("DeletePageTables(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("DeletePageTables(): Failed to remove Tables from the document.");
+	    else {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("DeletePageTables(): Tables successfully deleted from '{0}' page of the document '{1}.", pageNumber, resultFileName);
+	    }
     }
-
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -151,3 +141,4 @@ Delete Tables on page in PDF documents with [Aspose.PDF Cloud Node.js SDK](https
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
