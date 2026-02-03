@@ -59,7 +59,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void Add()
+    public static void AddTable()
     {
         const string localImageFileName = @"C:\Samples\sample-test.pdf";
         const string storageFileName = "Sample-Document-02.pdf";
@@ -152,4 +152,5 @@ Add the Table into PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
