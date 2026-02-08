@@ -1,7 +1,7 @@
 ---
 title: Convert BMP to PDF via Python Cloud SDK
 url: python/conversion/bmp-to-pdf/
-description: Convert Html files to PDF documents in Python using Aspose.PDF Cloud SDK. Ideal for visual content sharing.
+description: Convert BMP image files to PDF documents in Python using Aspose.PDF Cloud SDK. Ideal for visual content sharing.
 lastmod: "2026-02-03"
 ---
 
@@ -153,6 +153,7 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
