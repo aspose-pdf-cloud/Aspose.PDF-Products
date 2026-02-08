@@ -2,7 +2,7 @@
 title: Delete Annotations from PDF pages via Cloud Python SDK
 url: python/annotations/page/delete
 description: Delete annotations from PDF document pages using Aspose.PDF Cloud SDK for Python.
-lastmod: "2025-07-20"
+lastmod: "2026-02-02"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,28 +64,42 @@ Aspose.PDF Cloud developers can easily load & delete page annotations from PDF i
 
 ```python
 
-    from annotations_helper import Config, PdfAnnotationsHelper, logging
-    from asposepdfcloud import PdfApi
+    from asposepdfcloud import PdfApi, ApiClient
+    import shutil
+    import os
+    import json
+    from pathlib import Path
+    import logging
+
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
     class PdfDelPageAnnotations:
         """Class for managing PDF annotations using Aspose PDF Cloud API."""
-        def __init__(self, pdf_api: PdfApi, helper: PdfAnnotationsHelper):
-            self.pdfApi = pdf_api
-            self.helper = helper
-
         def delete_page_annotations(self):
             """Delete annotation from the PDF document."""
-            if self.pdfApi:
-                self.helper.uploadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER)
+            localFolder = "C:\Samples"
+            storageDocumentName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
+            outputFileName = "output_del_annotation.pdf"
 
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
+            
+            if self.pdf_api:
+                file_path = localFolder + "/" + storageDocumentName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storageDocumentName), file_path)
+                    
                 args = {
-                    "folder": Config.REMOTE_FOLDER
+                    "folder": storageTempFolder
                 }
 
-                response = self.pdfApi.delete_page_annotations(Config.PDF_DOCUMENT_NAME, Config.PAGE_NUMBER, **args)
+                response = self.pdf_api.delete_page_annotations(storageDocumentName, page_number=1, **args)
                 if response.code == 200:
-                    logging.info(f"delete_annotation(): annotations on page '{Config.PAGE_NUMBER}' deleted from the document '{Config.PDF_DOCUMENT_NAME}'.")
-                    self.helper.downloadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_RESULT_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER, "del_page_annotations_")
+                    temp_file = self.pdf_api.download_file(storageTempFolder + '/' + storageDocumentName)
+                    local_path = localFolder + '/' + outputFileName
+                    shutil.move(temp_file, local_path)
+                    logging.info(f"delete_annotation(): annotations deleted from the document '{outputFileName}' page.")
                 else:
                     logging.error(f"delete_annotation(): Failed to delete annotation from the document. Response code: {response.code}")
 ```

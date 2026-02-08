@@ -64,33 +64,42 @@ Aspose.PDF Cloud developers can easily load & delete text annotations from PDF i
 
 ```python
 
-    from annotations_helper import Config, PdfAnnotationsHelper, logging
-    from asposepdfcloud import PdfApi
+    from asposepdfcloud import PdfApi, ApiClient
+    import os
+    import json
+    from pathlib import Path
+    import logging
 
-    class PdfDalTextAnnotations:
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+    class PdfGetAnnotationById:
         """Class for managing PDF annotations using Aspose PDF Cloud API."""
-        def __init__(self, pdf_api: PdfApi, helper: PdfAnnotationsHelper):
-            self.pdfApi = pdf_api
-            self.helper = helper
+        def request_annotation(self):
+            """Get annotation from the page in the PDF document."""
+            localFolder = "C:\Samples"
+            storageDocumentName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
+            annotationID = "GE5TAOZTHA2CYMRZGUWDIMBZFQZTEMA"
 
-        def delete_annotation(self):
-            """Delete annotation from the PDF document."""
-            if self.pdfApi:
-                if Config.ANNOTATION_ID is None:
-                    logging.info(f"delete_annotation(): annotation id not defined!")
-                    return
-                self.helper.uploadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER)
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
 
+            if self.pdf_api:
+                file_path = localFolder + "/" + storageDocumentName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storageDocumentName), file_path)
+                    
                 args = {
-                    "folder": Config.REMOTE_FOLDER
+                    "folder": storageTempFolder
                 }
-                response = self.pdfApi.delete_annotation(Config.PDF_DOCUMENT_NAME, Config.ANNOTATION_ID, **args)
-                self.helper.delete_popup_annotations(Config.ANNOTATION_ID)
+
+                response = self.pdf_api.get_text_annotation(storageDocumentName, annotationID, **args)
+
                 if response.code == 200:
-                    logging.info(f"delete_annotation(): annotation '{Config.ANNOTATION_ID}' deleted from the document '{Config.PDF_DOCUMENT_NAME}'.")
-                    self.helper.downloadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_RESULT_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER, "del_annotation_")
+                    logging.info(f"get_annotationn(): annotation '{annotationID}' successfully found '{response.annotation.contents}' in the document '{storageDocumentName}'.")
                 else:
-                    logging.error(f"delete_annotation(): Failed to delete annotation from the document. Response code: {response.code}")
+                    logging.error(f"get_annotation(): Failed to get annotation in the document. Response code: {response.code}")
+
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
