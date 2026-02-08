@@ -1,12 +1,12 @@
 ---
-title: Convert PDF to JPEG via Python Cloud SDK
-url: python/conversion/pdf-to-jpeg/
-description: Convert PDF files to JPEG images in Python using Aspose.PDF Cloud SDK. Ideal for visual content sharing.
+title: Convert PDF to SVG via Python Cloud SDK
+url: python/conversion/pdf-to-svg/
+description: Transform PDFs into SVG vector graphics using Python with Aspose.PDF Cloud SDK. Present documents visually.
 lastmod: "2026-02-03"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Convert PDF to JPEG  in Python SDK" h2="Export PDF Documents to multiple formats including JPEG with Aspose.PDF Cloud Python SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOC" >}}
+{{< blocks/products/pf/upper-banner h1="Convert PDF to SVG in Python SDK" h2="Export PDF Documents to multiple formats including SVG (Scalable Vector Graphics) two-dimensional vector graphics with Aspose.PDF Cloud Python SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOC" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Python SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-python.svg"
@@ -15,11 +15,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/program-languages-navigation programLanguages="net,php,python,go,nodejs" >}}
 
-{{% blocks/products/pf/agp/content h2="How to Convert PDF to JPEG Using Python SDK" %}}
+{{% blocks/products/pf/agp/content h2="How to Convert PDF to SVG Using Python SDK" %}}
 
-To convert PDF to JPEG, we'll use
-[Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
-This Cloud SDK assists Python programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Python programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK. If the python package is hosted on Github, you can install directly from Github: 
+ To convert PDF to SVG, we'll use
+ [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
+ This Cloud SDK assists Python programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Python programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK. If the python package is hosted on Github, you can install directly from Github:
 
 {{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
 
@@ -39,8 +39,8 @@ This Cloud SDK assists Python programmers in developing cloud-based PDF creator,
 
      
     pip install asposepdfcloud
-
-
+     
+     
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -49,11 +49,11 @@ This Cloud SDK assists Python programmers in developing cloud-based PDF creator,
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PDF to JPEG via Python" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to Convert PDF to SVG via Python" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud Python developers can easily load & convert PDF files to JPEG in just a few lines of code.
+ Aspose.PDF Cloud Python developers can easily load & convert PDF files to SVG in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
@@ -61,7 +61,7 @@ This Cloud SDK assists Python programmers in developing cloud-based PDF creator,
 1. Set Output File Name
 1. Create Options Dictionary
 1. Call API Method
-1. Downloads the JPEG file for local use
+1. Downloads the SVG file for local use
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -77,11 +77,11 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
-{{% blocks/products/pf/agp/code-block title="This sample code shows PDF to JPEG Cloud Python SDK Conversion" offSpacer="" %}}
+{{% blocks/products/pf/agp/code-block title="This sample code shows PDF to SVG via Cloud Python SDK Conversion" offSpacer="" %}}
 
 ```python
 
-    from asposepdfcloud import PdfApi, ApiClient, ImageTemplate, ImageSrcType, ImageTemplatesRequest
+    from asposepdfcloud import PdfApi, ApiClient
     import shutil
     import os
     import json
@@ -91,40 +91,36 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
     # Configure logging
     logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-    class PdfJpegToPdfConvert:
-        """Class for converting to PDF using Aspose PDF Cloud API."""
+    class PdfToSvgConvert:
+        """Class for converting from PDF to SVG using Aspose PDF Cloud API."""
         def convert(self):
-            """Convert Jpeg to PDF document."""
+            """Convert PDF to SVG (zip)."""
             localFolder = "C:\Samples"
-            storageImageName = "sample.jpg"
+            storagePdfName = "sample.pdf"
             storageTempFolder = "TempPdfCloud"
-            outputFileName = "output_convert_jpg.pdf"
+            outputFileName = "output_svg_convert.zip"
 
             # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
             self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
 
             if self.pdf_api:
-                file_path = localFolder + "/" + storageImageName
-                self.pdf_api.upload_file(os.path.join(storageTempFolder, storageImageName), file_path)
-
-                imageTemplate = ImageTemplate(image_path=storageTempFolder + '/' + storageImageName, image_src_type=ImageSrcType.COMMON)
-                imageRequest = ImageTemplatesRequest(is_ocr=True, ocr_langs="eng", images_list=[imageTemplate])
+                file_path = localFolder + "/" + storagePdfName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storagePdfName), file_path)
                     
-                opts = { "dst_folder": storageTempFolder }
+                opts = { "folder": storageTempFolder }
 
                 try:
-                    response = self.pdf_api.put_image_in_storage_to_pdf(outputFileName, imageRequest, **opts)
+                    response = self.pdf_api.put_pdf_in_storage_to_svg(storagePdfName, os.path.join(storageTempFolder, outputFileName), **opts)
 
                     if response.code == 200:
                         temp_file = self.pdf_api.download_file(storageTempFolder + '/' + outputFileName)
                         local_path = localFolder + '/' + outputFileName
                         shutil.move(temp_file, local_path)
-                        logging.info(f"jpeg_convert(): Image successfully converted to PDF: '{outputFileName}'.")
+                        logging.info(f"pdf_svg_convert(): PDF successfully converted to SVG: '{outputFileName}'.")
                     else:
-                        logging.error(f"jpeg_convert(): Failed to convert image to PDF. Response code: {response.code}")
+                        logging.error(f"pdf_svg_convert(): Failed to convert PDF to SVG. Response code: {response.code}")
                 except Exception as e:
-                    logging.error(f"jpeg_convert(): Error while converting image: {e}")
-
+                    logging.error(f"pdf_svg_convert(): Error while converting PDF: {e}")
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -153,5 +149,4 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 

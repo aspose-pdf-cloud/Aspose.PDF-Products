@@ -2,7 +2,7 @@
 title: Convert PDF to PPTX via Python Cloud SDK
 url: python/conversion/pdf-to-pptx/
 description: Transform PDFs into PPTX presentations using Python with Aspose.PDF Cloud SDK. Present documents visually.
-lastmod: "2024-10-17"
+lastmod: "2026-02-03"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -61,6 +61,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Set Output File Name
 1. Create Options Dictionary
 1. Call API Method
+1. Downloads the PPTX file for local use
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,15 +81,46 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 
 ```python
 
-    file_name = 'pages.pdf'
-    result_file_name = "result.pptx"
+    from asposepdfcloud import PdfApi, ApiClient
+    import shutil
+    import os
+    import json
+    from pathlib import Path
+    import logging
 
-    opts = {
-        "file": test_data_path + file_name
-    }
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-    response = pdf_api.put_pdf_in_request_to_pptx(
-        temp_folder + '/' + result_file_name, **opts)
+    class PdfToPowerpointConvert:
+        """Class for converting from PDF to PPTX using Aspose PDF Cloud API."""
+        def convert(self):
+            """Convert PDF to PPTX."""
+            localFolder = "C:\Samples"
+            storagePdfName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
+            outputFileName = "output_powerpoint_convert.pptx"
+
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
+
+            if self.pdf_api:
+                file_path = localFolder + "/" + storagePdfName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storagePdfName), file_path)
+                    
+                opts = { "folder": storageTempFolder }
+
+                try:
+                    response = self.pdf_api.put_pdf_in_storage_to_pptx(storagePdfName, os.path.join(storageTempFolder, outputFileName), **opts)
+
+                    if response.code == 200:
+                        temp_file = self.pdf_api.download_file(storageTempFolder + '/' + outputFileName)
+                        local_path = localFolder + '/' + outputFileName
+                        shutil.move(temp_file, local_path)
+                        logging.info(f"pdf_powerpoint_convert(): PDF successfully converted to PPTX: '{outputFileName}'.")
+                    else:
+                        logging.error(f"pdf_powerpoint_convert(): Failed to convert PDF to PPTX. Response code: {response.code}")
+                except Exception as e:
+                    logging.error(f"pdf_powerpoint_convert(): Error while converting PDF: {e}")
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -99,11 +131,18 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOC" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOCX" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-excel/" name="PDF TO EXCEL" description="Microsoft Excel" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-jpeg/" name="PDF TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/jpeg-to-pdf/" name="JPEG TO PDF" description="PDF document" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/bmp-to-pdf/" name="BMP TO PDF" description="PDF document" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-html/" name="PDF TO HTML" description="HTML format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/html-to-pdf/" name="HTML TO PDF" description="PDF document" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-xps/" name="PDF TO XPS" description="XPS - XML Paper Specification" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/ps-to-pdf/" name="PS To PDF" description="PDF document from PostScript vector graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-svg/" name="PDF TO SVG" description="SVG - two-dimensional Scalable Vector Graphics" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 
