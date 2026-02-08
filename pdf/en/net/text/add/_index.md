@@ -61,7 +61,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void Add()
+    public static void AddText()
     {
         const string localImageFileName = @"C:\Samples\Sample-Document-01.pdf";
         const string storageFileName = "Sample-Document-01.pdf";
