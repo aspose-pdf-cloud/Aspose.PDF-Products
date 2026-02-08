@@ -46,21 +46,25 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% blocks/products/pf/agp/content h2="How to work with images via Cloud Python SDK " %}}
 
  In order to work with images in PDF via Cloud Python SDK , we'll use
- [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/)
- This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in C#, ASPPython, or other Python languages for various cloud platforms. Open
- [NuGet](https://www.nuget.org/packages/Aspose.Pdf-Cloud)
- package manager, search for
- Aspose.PDF Cloud
- and install. You may also use the following command from the Package Manager Console.
+ [Aspose.PDF Cloud Python SDK](https://products.aspose.cloud/pdf/python/). This Cloud SDK assists Python programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Python programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Python SDK. If the python package is hosted on Github, you can install directly from Github:
+
+{{% blocks/products/pf/agp/code-block title="Installation from Github" offSpacer="true" %}}
+
+```bash
+
+     
+    pip install git+https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python.git
+
+
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
 
 {{% blocks/products/pf/agp/code-block title="Package Manager Console Command" offSpacer="true" %}}
 
-```powershell
-
+```bash
      
-    PM> Install-Package Aspose.Pdf-Cloud
-     
-     
+    pip install asposepdfcloud
 
 ```
 
@@ -183,3 +187,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
