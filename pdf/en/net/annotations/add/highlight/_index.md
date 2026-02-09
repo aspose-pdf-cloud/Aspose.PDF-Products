@@ -109,9 +109,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
              Console.WriteLine("NewHighlightAnnotation(): Failed to append highlight annotation to the document.");
          else
          {
-             using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-             using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-             await downloadStream.CopyToAsync(localStream);
+             await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
              Console.WriteLine("NewHighlightAnnotation(): annotation added to the document '{0}.", storageFileName);
          }
      }
@@ -127,6 +126,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
