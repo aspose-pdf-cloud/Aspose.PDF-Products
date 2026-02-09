@@ -79,8 +79,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutHtmlInStorageToPdf(resultFileName, storageHtmlFileName);
         Console.WriteLine($"HTML to PDF result: {response.Status}");
 
-        pdfApi.DownloadFile(resultFileName))
-                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));
+        pdfApi.DownloadFile(resultFileName)
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 
