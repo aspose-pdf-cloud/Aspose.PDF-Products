@@ -87,7 +87,8 @@ Aspose.PDF Cloud developers can easily load & add images into PDF in just a few 
         double urx = 100;
         double ury = 100;
 
-        AsposeResponse response = await pdfApi.PostInsertImageAsync(storageFileName,
+        AsposeResponse response = await pdfApi.PostInsertImageAsync(
+                storageFileName,
                 pageNumber, 
                 llx, lly, urx, ury,
                 Path.Combine(storageTempFolder, storageImageFile),
@@ -99,9 +100,8 @@ Aspose.PDF Cloud developers can easily load & add images into PDF in just a few 
             Console.WriteLine("AddImage(): Failed to insert image in the document.");
         else
         {
-            using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
-            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-            await downloadStream.CopyToAsync(localStream);
+            await (await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName)))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
             Console.WriteLine("AddImage(): image '{0}' successfully inserted in the document '{1}.", storageImageFile, resultFileName);
         }
     }
@@ -159,5 +159,6 @@ Add the Images into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
