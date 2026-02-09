@@ -102,9 +102,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         else if (response.Code < 200 || response.Code > 299)
             Console.WriteLine("BookmarksReplace(): Failed to append bookmark to the document.");
         else { // Downloads the updated file for local use.
-            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-            await downloadStream.CopyToAsync(localStream);
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
             Console.WriteLine("BookmarksReplace(): File '{0}' successfully downloaded.", "replace_bookmrk_" + outputName);
         }
     }
@@ -156,6 +155,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
