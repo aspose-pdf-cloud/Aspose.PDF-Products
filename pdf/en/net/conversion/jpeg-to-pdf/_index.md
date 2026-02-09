@@ -83,8 +83,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"JPEG to PDF result: {response.Status}");
 
-        pdfApi.DownloadFile(resultFileName))
-                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));
+        pdfApi.DownloadFile(resultFileName)
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 
