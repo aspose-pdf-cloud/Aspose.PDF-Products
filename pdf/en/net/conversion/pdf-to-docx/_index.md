@@ -79,6 +79,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
         }
 
+        
         using Stream response = pdfApi.GetPdfInStorageToDoc(storageImageFileName, format: "DocX", mode: "Flow");
         using FileStream localStream = File.Create(Path.Combine(localFolder, "sample.docx"));
         response.CopyTo(localStream);
