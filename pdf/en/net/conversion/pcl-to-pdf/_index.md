@@ -80,8 +80,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutPclInStorageToPdf(resultFileName, storagePclFileName);
         Console.WriteLine($"PCL to PDF result: {response.Status}");
 
-        pdfApi.DownloadFile(resultFileName))
-                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));
+        pdfApi.DownloadFile(resultFileName)
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 
