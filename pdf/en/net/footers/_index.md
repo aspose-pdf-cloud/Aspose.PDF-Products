@@ -124,9 +124,9 @@ Aspose.PDF Cloud .NET developers can easily append image in Footer of PDF docume
 	        Console.WriteLine("HeadersFootersAddImageFooter(): Failed to append image footer to the page of document.");
 	    else
 	    {
-	        using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
-	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-	        await downloadStream.CopyToAsync(localStream);
+            await (await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName)))
+ 				.CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+	        
 	        Console.WriteLine("HeadersFootersAddImageFooter(): image '{0}' appended as footer to the document '{1}.", storageImageFile, resultFileName);
 	    }
 	}
