@@ -84,9 +84,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"EMF to PDF result: {response.Status}");
 
-        using Stream downloadStream = pdfApi.DownloadFile(resultFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        downloadStream.CopyTo(localStream);
+        pdfApi.DownloadFileAsync(resultFileName)
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));
     }
 ```
 
