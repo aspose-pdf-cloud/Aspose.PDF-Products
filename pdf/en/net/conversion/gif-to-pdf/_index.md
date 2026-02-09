@@ -84,7 +84,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         Console.WriteLine($"GIF to PDF result: {response.Status}");
 
         pdfApi.DownloadFile(resultFileName)
-                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 
