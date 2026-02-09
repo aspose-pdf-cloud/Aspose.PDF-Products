@@ -98,9 +98,8 @@ public static void AddAttachment()
     Console.WriteLine(response.Code);
     if (response.Code == 200)
     {
-        using Stream downloadStream = pdfApi.DownloadFile(STORAGE_FILE_NAME);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, RESULT_FILE_NAME));
-        downloadStream.CopyTo(localStream);
+        pdfApi.DownloadFile(STORAGE_FILE_NAME))
+                .CopyTo(File.Create(Path.Combine(localFolder, RESULT_FILE_NAME));
     }
 }
 ```
