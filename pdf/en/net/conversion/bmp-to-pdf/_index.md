@@ -84,10 +84,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"BMP to PDF result: {response.Status}");
 
-        using Stream downloadStream = await pdfApi.DownloadFileAsync(resultFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        await downloadStream.CopyToAsync(localStream);
-        
+        await (await pdfApi.DownloadFileAsync(resultFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 
