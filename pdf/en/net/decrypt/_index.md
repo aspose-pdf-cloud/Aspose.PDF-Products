@@ -90,9 +90,9 @@ Aspose.PDF Cloud developers can easily load & decrypt PDF in just a few lines of
 	        Console.WriteLine("DecryptPdf(): Failed to decrypt document.");
 	    else
 	    {
-	        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-	        await downloadStream.CopyToAsync(localStream);
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync( File.Create(Path.Combine(localFolder, resultFileName)));
+
 	        Console.WriteLine("DecryptPdf(): document '{0} successfully decrypted.", resultFileName);
 	    }
 	}
@@ -153,6 +153,7 @@ Decrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
