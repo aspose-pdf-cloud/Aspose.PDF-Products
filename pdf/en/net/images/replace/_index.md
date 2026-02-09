@@ -88,9 +88,10 @@ Aspose.PDF Cloud developers can easily load & replace PDF images in just a few l
             Console.WriteLine("ImagesReplace(): Failed to replace image in the document.");
         else {
             Console.WriteLine("ImagesReplace(): image '{0}' successfully replaced in the document '{1}.", response.Image.Id, PDF_DOCUMENT);
-            using Stream stream = pdfApi.DownloadFile(Path.Combine(REMOTE_TEMP_FOLDER, PDF_DOCUMENT));
-            using var fileStream = File.Create(Path.Combine(LOCAL_FOLDER, PDF_OUTPUT));
-            await stream.CopyToAsync(fileStream);
+
+            await ( await pdfApi.DownloadFileAsync(Path.Combine(REMOTE_TEMP_FOLDER, PDF_DOCUMENT)))
+                .CopyToAsync(File.Create(Path.Combine(LOCAL_FOLDER, PDF_OUTPUT))));
+
             Console.WriteLine("DownloadFile(): File '{0}' successfully downloaded.", PDF_OUTPUT);
         }
     }
@@ -148,5 +149,6 @@ Add the Images into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
