@@ -103,9 +103,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             Console.WriteLine("AppendBookmark(): Failed to add bookmark in the document.");
         else
         {
-            using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-            await downloadStream.CopyToAsync(localStream);
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
             Console.WriteLine("AppendBookmark(): bookmark added in the document '{0}.", resultFileName);
         }
     }
@@ -162,6 +161,7 @@ Add the Bookmarks into PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
