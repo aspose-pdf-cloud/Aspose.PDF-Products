@@ -84,9 +84,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
            Console.WriteLine("DeletePageAnnotations(): Failed to delete annotation from the document.");
        else
        {
-           using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-           using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-           await downloadStream.CopyToAsync(localStream);
+           await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
            Console.WriteLine("DeletePageAnnotations(): annotations deleted from document '{0} page {1}.", resultFileName, pageNumber);
        }
    }
@@ -101,6 +100,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
