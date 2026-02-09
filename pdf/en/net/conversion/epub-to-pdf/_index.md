@@ -78,7 +78,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutEpubInStorageToPdf(resultFileName, storageImageFileName);
         Console.WriteLine($"EPUB to PDF result: {response.Status}");
 
-        aawait pdfApi.DownloadFileAsync(resultFileName)
+        pdfApi.DownloadFile(resultFileName)
                 .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));
     }
 ```
