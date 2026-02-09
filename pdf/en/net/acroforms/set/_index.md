@@ -104,7 +104,7 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
         await (await pdfApi.DownloadFileAsync(storageFileName))
             .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
 
-        Console.WriteLine("SetFormField(): Field values in document '{0} have been setю", resultFileName);
+        Console.WriteLine("SetFormField(): Form field values in document '{0} have been setю", resultFileName);
     }
 ```
 
@@ -117,6 +117,7 @@ It is easy to set started with Aspose.PDF Cloud .NET SDK and there is nothing to
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
