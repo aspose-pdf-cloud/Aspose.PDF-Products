@@ -76,20 +76,21 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
-        var textBoxField = new TextBoxField(PageIndex: 1)
-        {
-            PartialName = "Email",
-            Rect = new Rectangle(100, 100, 180, 120),
-            Value = "aspose-pdf-cloud@example.com",
-            Border = new Border(Width: 5, Dash: new Dash(1, 1), Color: new Color(255, 0, 255, 0))
-        };
+        var textBoxField = new TextBoxField(
+            PageIndex: 1,            
+            PartialName: "First Name",
+            Rect: new Rectangle(100, 100, 180, 120),
+            Value: "Your text box field value",
+            Border: new Border(Width: 5, Dash: new Dash(1, 1), Color: new Color(255, 0, 255, 0))
+        );
 
         var response = await pdfApi.PutTextBoxFieldAsync(storageFileName, "Email", textBoxField);
         Console.WriteLine(response.Status);
 
-        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        await downloadStream.CopyToAsync(localStream);
+        await (await pdfApi.DownloadFileAsync(storageFileName))
+            .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+
+        Console.WriteLine("AddFormField(): TextBox field added to the document '{0}.", resultFileName);
     }
 ```
 
@@ -102,6 +103,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
