@@ -80,10 +80,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         var response = pdfApi.PutMarkdownInStorageToPdf(resultFileName, storageTextFileName);
         Console.WriteLine($"TEXT to PDF result: {response.Status}");
 
-        using Stream downloadStream = pdfApi.DownloadFile(resultFileName);
-        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-        downloadStream.CopyTo(localStream);
-            }
+        pdfApi.DownloadFile(resultFileName)
+             .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
+    }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
