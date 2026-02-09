@@ -94,9 +94,9 @@ Aspose.PDF Cloud developers can easily load & encrypt PDF in just a few lines of
 	        Console.WriteLine("EncryptPdf(): Failed to encrypt document.");
 	    else
 	    {
-	        using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-	        await downloadStream.CopyToAsync(localStream);
+	        await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync( File.Create(Path.Combine(localFolder, resultFileName)));
+
 	        Console.WriteLine("EncryptPdf(): document '{0} successfully encrypted.", resultFileName);
 	    }
 	}
@@ -154,6 +154,7 @@ Encrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
