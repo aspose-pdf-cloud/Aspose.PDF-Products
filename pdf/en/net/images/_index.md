@@ -128,7 +128,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         else
         {
             await( await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName)))
-                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName))));
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
 
             Console.WriteLine("AddImage(): image '{0}' successfully inserted in the document '{1}.", storageImageFile, resultFileName);
         }
@@ -181,4 +181,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
