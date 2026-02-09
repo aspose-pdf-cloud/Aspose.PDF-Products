@@ -57,7 +57,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public CreatePdfDocumentSimple()
+    public void CreatePdfDocumentSimple()
     {
         string LOCAL_FOLDER = "testData";
         string PDF_DOCUMENT = "output_created_simple.pdf";
@@ -156,6 +156,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
