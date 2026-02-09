@@ -73,9 +73,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         {
             Console.WriteLine("CreatePdfDocumentSimple():Document '{0}' successfully created.", PDF_DOCUMENT);
 
-            using Stream stream = pdfApi.DownloadFile(Path.Combine(REMOTE_FOLDER, PDF_DOCUMENT));
-            using var fileStream = File.Create(Path.Combine(LOCAL_FOLDER, PDF_DOCUMENT));
-            stream.CopyTo(fileStream);
+            pdfApi.DownloadFile(Path.Combine(REMOTE_FOLDER, PDF_DOCUMENT))
+               .CopyTo(File.Create(Path.Combine(LOCAL_FOLDER, PDF_DOCUMENT)));
+
             Console.WriteLine("CreatePdfDocumentSimple():Document '{0}' successfully downloaded.", PDF_DOCUMENT);
         }
     }
@@ -156,6 +156,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
