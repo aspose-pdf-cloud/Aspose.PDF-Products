@@ -84,9 +84,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             Console.WriteLine("BookmarksRemove(): Failed to remove bookmark from the document.");
         else
 		{
-		    using Stream downloadStream = await pdfApi.DownloadFileAsync(storageFileName);
-		    using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-		    await downloadStream.CopyToAsync(localStream);
+		    await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
 		    Console.WriteLine("BookmarksRemove(): bookmark deleted in the document '{0}.", resultFileName);
 		}
     }
@@ -143,6 +142,7 @@ Delete the Bookmarks from PDF documents with [Aspose.PDF Cloud .NET SDK](https:/
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
