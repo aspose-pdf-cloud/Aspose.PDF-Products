@@ -90,7 +90,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         await (await pdfApi.DownloadFileAsync(storageFileName))
             .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
 
-        Console.WriteLine("AddFormField(): TextBox field added to the document '{0}.", resultFileName);
+        Console.WriteLine("AddFormField(): TextBox form field added to the document '{0}.", resultFileName);
     }
 ```
 
@@ -103,6 +103,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
