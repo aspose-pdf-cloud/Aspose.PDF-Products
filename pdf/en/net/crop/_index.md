@@ -81,7 +81,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         else
         {
             await (await pdfApi.DownloadFileAsync(storageFileName))
- .              CopyToAsync( File.Create(Path.Combine(localFolder, resultFileName)));
+                .CopyToAsync( File.Create(Path.Combine(localFolder, resultFileName)));
 
             Console.WriteLine("CropDocumentPages(): successfully cropped PDF document '{0}' pages.", resultFileName);
         }
@@ -97,6 +97,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
 
