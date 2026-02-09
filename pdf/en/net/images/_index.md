@@ -127,9 +127,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             Console.WriteLine("AddImage(): Failed to insert image in the document.");
         else
         {
-            using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
-            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
-            await downloadStream.CopyToAsync(localStream);
+            await( await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName)))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName))));
+
             Console.WriteLine("AddImage(): image '{0}' successfully inserted in the document '{1}.", storageImageFile, resultFileName);
         }
     }
@@ -181,3 +181,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
