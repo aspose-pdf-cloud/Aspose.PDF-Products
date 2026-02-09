@@ -98,8 +98,8 @@ public static void AddAttachment()
     Console.WriteLine(response.Code);
     if (response.Code == 200)
     {
-        pdfApi.DownloadFile(STORAGE_FILE_NAME))
-                .CopyTo(File.Create(Path.Combine(localFolder, RESULT_FILE_NAME));
+        pdfApi.DownloadFile(STORAGE_FILE_NAME)
+                .CopyTo(File.Create(Path.Combine(localFolder, RESULT_FILE_NAME)));
     }
 }
 ```
