@@ -92,9 +92,10 @@ Aspose.PDF Cloud developers can easily load & delete images from PDF in just a f
             Console.WriteLine("ImagesDelete(): Failed to remove image from the document.");
         else {
             Console.WriteLine("ImagesDelete(): image '{0}' successfully removed from the document '{1}.", IMAGE_ID, PDF_DOCUMENT);
-            using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(REMOTE_TEMP_FOLDER, PDF_DOCUMENT));
-            using var fileStream = File.Create(Path.Combine(LOCAL_FOLDER, PDF_OUTPUT));
-            await downloadStream.CopyToAsync(fileStream);
+
+            await (await pdfApi.DownloadFileAsync(Path.Combine(REMOTE_TEMP_FOLDER, PDF_DOCUMENT)))
+                .CopyToAsync(File.Create(Path.Combine(LOCAL_FOLDER, PDF_OUTPUT)));
+
             Console.WriteLine("DownloadFile(): File '{0}' successfully downloaded.", PDF_OUTPUT);
         }
     }
@@ -152,5 +153,6 @@ Delete the Images from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 
 
