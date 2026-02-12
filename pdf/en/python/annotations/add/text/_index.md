@@ -2,7 +2,7 @@
 title: Add Text Annotation Annotations via Cloud Python SDK
 url: python/annotations/text/
 description: Insert Text Annotations to PDF documents using Aspose.PDF Cloud SDK for Python.
-lastmod: "2025-07-20"
+lastmod: "2026-02-02"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,54 +64,57 @@ Aspose.PDF Cloud developers can easily load & add annotations to PDF in just a f
 
 ```python
 
-    from annotations_helper import Config, PdfAnnotationsHelper, logging
-    from asposepdfcloud import ApiClient, PdfApi, FreeTextAnnotation, Rectangle, TextStyle, Color, FreeTextIntent, Justification, AnnotationFlags, HorizontalAlignment
+    from asposepdfcloud import PdfApi, ApiClient, TextAnnotation, Rectangle, TextIcon, Color, AnnotationFlags, HorizontalAlignment
+    import shutil
+    import os
+    import json
+    from pathlib import Path
+    import logging
 
-    class PdfAddFreeTextAnnotations:
-        """Class for managing PDF annotations using Aspose PDF Cloud API."""
-        def __init__(self, pdf_api: PdfApi, helper: PdfAnnotationsHelper):
-            self.pdfApi = pdf_api
-            self.helper = helper
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
+    class PdfAddTextAnnotations:
+        """Class for adding PDF text annotations using Aspose PDF Cloud API."""
         def append_text_annotation(self):
-            """Append a new free text annotation to the PDF document."""
-            if self.pdfApi:
-                self.helper.uploadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER)
-                
+            """Append a new text annotation to the PDF document."""
+            localFolder = "C:\Samples"
+            storageDocumentName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
+            outputFileName = "output_add_text_annotation.pdf"
+
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
+
+            if self.pdf_api:
+                file_path = localFolder + "/" + storageDocumentName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storageDocumentName), file_path)
+                    
                 args = {
-                    "folder": Config.REMOTE_FOLDER
+                    "folder": storageTempFolder
                 }
 
-                text_style = TextStyle(
-                    font_size=20,
-                    font='Arial', 
-                    foreground_color=Color(a=0xFF, r=0, g=0xFF, b=0),
-                    background_color=Color(a=0xFF, r=0xFF, g=0, b=0)
-                )
-
-                new_annotation = FreeTextAnnotation(
+                new_annotation = TextAnnotation(
                     rect = Rectangle(llx=100, lly=350, urx=450, ury=400),
-                    text_style = text_style,
+                    color = Color(a=0xFF, r=0xFF, g=0, b=0),
                     name = 'Free Text Annotation',
                     flags = [AnnotationFlags.DEFAULT],
                     horizontal_alignment = HorizontalAlignment.CENTER,
-                    intent = FreeTextIntent.FREETEXTTYPEWRITER,
-                    rich_text = Config.NEW_FT_ANNOTATION_TEXT,
-                    subject = Config.NEW_FT_ANNOTATION_SUBJECT,
-                    contents = Config.NEW_FT_ANNOTATION_CONTENTS,
-                    title = Config.NEW_FT_ANNOTATION_DESCRIPTION,
+                    rich_text = "Your annotation text here",
+                    subject = "Your annotation subject here",
+                    contents = "Your annotation contents here",
+                    title = "Your annotation title here",
                     z_index = 1,
-                    justification = Justification.CENTER,
+                    icon = TextIcon.STAR
                 )
-                new_annotation.attribute_map["icon"] = "Icon"
-                new_annotation.swagger_types["icon"] = "TextIcon"
-                new_annotation.icon = "Help"
-
+                
                 try:
-                    response = self.pdfApi.post_page_free_text_annotations(Config.PDF_DOCUMENT_NAME, Config.PAGE_NUMBER, [new_annotation], **args)
+                    response = self.pdf_api.post_page_text_annotations(storageDocumentName, page_number=1, annotations=[new_annotation], **args)
                     if response.code == 200:
-                        logging.info(f"append_text_annotation(): annotation '{Config.NEW_FT_ANNOTATION_TEXT}' added to the document '{Config.PDF_DOCUMENT_NAME}'.")
-                        self.helper.downloadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_RESULT_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER, "add_freetext_")
+                        temp_file = self.pdf_api.download_file(storageTempFolder + '/' + storageDocumentName)
+                        local_path = localFolder + '/' + outputFileName
+                        shutil.move(temp_file, local_path)
+                        logging.info(f"append_text_annotation(): annotation added to the document '{outputFileName}'.")
                     else:
                         logging.error(f"append_text_annotation(): Failed to add annotation to the document. Response code: {response.code}")
                 except Exception as e:

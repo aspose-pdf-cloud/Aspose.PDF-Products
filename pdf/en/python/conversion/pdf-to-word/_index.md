@@ -2,11 +2,11 @@
 title: Convert PDF to DOC via Python Cloud SDK
 url: python/conversion/pdf-to-word/
 description: Convert PDFs to editable DOCX format in Python using Aspose.PDF Cloud SDK. Enable easy editing and reuse.
-lastmod: "2024-10-17"
+lastmod: "2026-02-03"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Convert PDF to DOC  in Python SDK" h2="Export PDF documents to multiple formats including DOC with Aspose.PDF Cloud Python SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOC" >}}
+{{< blocks/products/pf/upper-banner h1="Convert PDF to DOC  in Python SDK" h2="Export PDF documents to multiple formats including DOC with Aspose.PDF Cloud Python SDK" logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="DOC" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOC" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud" subTitlepfName="Python SDK" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-python.svg"
@@ -61,6 +61,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 1. Set Output File Name
 1. Create Options Dictionary
 1. Call API Method
+1. Downloads the DOC file for local use
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
 
@@ -80,15 +81,49 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 
 ```python
 
-    file_name = 'pages.pdf'
-    result_file_name = "result.doc"
+    from asposepdfcloud import PdfApi, ApiClient, DocFormat
+    import shutil
+    import os
+    import json
+    from pathlib import Path
+    import logging
 
-    opts = {
-        "file": test_data_path + file_name
-    }
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-    response = pdf_api.put_pdf_in_request_to_doc(
-        temp_folder + '/' + result_file_name, **opts)
+    class PdfToWordsConvert:
+        """Class for converting from PDF to DOC using Aspose PDF Cloud API."""
+        def convert(self):
+            """Convert PDF to Doc."""
+            localFolder = "C:\Samples"
+            storagePdfName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
+            outputFileName = "output_docx_convert.doc"
+
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
+
+            if self.pdf_api:
+                file_path = localFolder + "/" + storagePdfName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storagePdfName), file_path)
+                    
+                opts = { 
+                    "folder": storageTempFolder,
+                    "format": DocFormat.DOC
+                }
+
+                try:
+                    response = self.pdf_api.put_pdf_in_storage_to_doc(storagePdfName, os.path.join(storageTempFolder, outputFileName), **opts)
+
+                    if response.code == 200:
+                        temp_file = self.pdf_api.download_file(storageTempFolder + '/' + outputFileName)
+                        local_path = localFolder + '/' + outputFileName
+                        shutil.move(temp_file, local_path)
+                        logging.info(f"pdf_doc_convert(): PDF successfully converted to DOC: '{outputFileName}'.")
+                    else:
+                        logging.error(f"pdf_doc_convert(): Failed to convert PDF to DOC. Response code: {response.code}")
+                except Exception as e:
+                    logging.error(f"pdf_doc_convert(): Error while converting PDF: {e}")
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -99,11 +134,25 @@ It is easy to get started with Aspose.PDF Cloud Python SDK:
 
 {{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="You can also convert PDF into many other file formats including few listed below." >}}
 
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOC" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-excel/" name="PDF TO EXCEL" description="Microsoft Excel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-word/" name="PDF TO WORD" description="Microsoft Word DOC & DOCX" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-xlsx/" name="PDF TO EXCEL" description="Microsoft Excel" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/epub-to-pdf/" name="EPUB TO PDF" description="E-book Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-jpeg/" name="PDF TO JPEG" description="JPEG Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/jpeg-to-pdf/" name="JPEG TO PDF" description="JPEG Image" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-png/" name="PDF TO PNG" description="Portable Network Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/gif-to-pdf/" name="GIF TO PDF" description="Graphical Interchange Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/bmp-to-pdf/" name="BMP TO PDF" description="Bitmap Image" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/emf-to-pdf/" name="EMF TO PDF" description="Enhanced Metafile Format" >}}
 {{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-pptx/" name="PDF TO PPTX" description="Open XML presentation Format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-html/" name="PDF TO MHT" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/mht-to-pdf/" name="PDF TO MHT" description="MIME HTML web archive file format" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/html-to-pdf/" name="MHT TO PDF" description="Hyper Text Markup Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-xps/" name="PDF TO XPS" description="XML Paper Specifications" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/ps-to-pdf/" name="PS To PDF" description="PostScript vector graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-svg/" name="PDF TO SVG" description="Scalable Vector Graphics" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/md-to-pdf/" name="MD to PDF" description="Markdown" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pcl-to-pdf/" name="PCL to PDF" description="Printer Command Language" >}}
+{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.cloud/pdf/python/conversion/pdf-to-tex/" name="PDF TO TeX" description="LaTeX Output Text" >}}
 
 {{< /blocks/products/pf/agp/other-supported-section >}}
 

@@ -1,6 +1,6 @@
 ---
 title: Get Page Annotations via Cloud Python SDK
-url: python/annotations/page/get
+url: python/annotations/get/page/
 description: Get Page Annotations from PDFs using Aspose.PDF Cloud SDK for Python.
 lastmod: "2025-07-24"
 ---
@@ -64,34 +64,50 @@ Aspose.PDF Cloud developers can easily load & get page annotations from PDF in j
 
 ```python
 
-    from annotations_helper import Config, PdfAnnotationsHelper, logging
-    from asposepdfcloud import PdfApi, AnnotationsInfoResponse
+    from asposepdfcloud import PdfApi, ApiClient, AnnotationsInfoResponse
+    import os
+    import json
+    from pathlib import Path
+    import logging
+
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
     class PdfGetAnnotations:
         """Class for managing PDF annotations using Aspose PDF Cloud API."""
-        def __init__(self, pdf_api: PdfApi, helper: PdfAnnotationsHelper):
-            self.pdfApi = pdf_api
-            self.helper = helper
+        def __init__(self):
+            """Initialize the API client."""
+            credentials_file = Path(r"C:\\Projects\\ASPOSE\\Pdf.Cloud\\Credentials\\credentials.json")
+            with credentials_file.open("r", encoding="utf-8") as file:
+                credentials = json.load(file)
+            api_key, app_id = credentials.get("key"), credentials.get("id")
+            self.pdf_api = PdfApi(ApiClient(api_key, app_id))
 
         def request_annotations(self):
             """Get annotations from the page in the PDF document."""
-            if self.pdfApi:
-                self.helper.uploadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER)
+            localFolder = "C:\Samples"
+            storageDocumentName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
 
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
+
+            if self.pdf_api:
+                file_path = localFolder + "/" + storageDocumentName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storageDocumentName), file_path)
+                    
                 args = {
-                    "folder": Config.REMOTE_FOLDER
+                    "folder": storageTempFolder
                 }
-                annotation_result = ''
-                response: AnnotationsInfoResponse = self.pdfApi.get_page_annotations(Config.PDF_DOCUMENT_NAME, Config.PAGE_NUMBER, **args)
+                response: AnnotationsInfoResponse = self.pdf_api.get_page_annotations(storageDocumentName, page_number = 1, **args)
+
                 if response.code == 200:
                     for annotation in response.annotations.list:
                         if annotation.annotation_type == "Text":
-                            logging.info(f"get_annotations(): annotation id={annotation.id} with '{annotation.contents}' content get from the document '{Config.PDF_DOCUMENT_NAME}' on {annotation.page_index} page.")
-                            annotation_result = annotation.id
-                    return annotation_result
+                            logging.info(f"get_annotations(): annotation id={annotation.id} type={annotation.annotation_type} with '{annotation.contents}' content get from the document '{storageDocumentName}' on 1 page.")
+
                 else:
                     logging.error(f"get_annotations(): Failed to get annotation in the document. Response code: {response.code}")
-                    return annotation_result
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}

@@ -2,7 +2,7 @@
 title: Add Strikeout Annotations to PDFs via Cloud Python SDK
 url: python/annotations/strikeout/
 description: Insert Strikeout Annotations to PDF documents using Aspose.PDF Cloud Python SDK.
-lastmod: "2025-07-20"
+lastmod: "2026-02-02"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -65,22 +65,34 @@ Aspose.PDF Cloud developers can easily load & add annotations to PDF in just a f
 
 ```python
 
-    from annotations_helper import Config, PdfAnnotationsHelper, logging
-    from asposepdfcloud import PdfApi, StrikeOutAnnotation, Rectangle, Color, Point, AnnotationFlags, HorizontalAlignment, VerticalAlignment
+    from asposepdfcloud import PdfApi, ApiClient, StrikeOutAnnotation, Rectangle, Color, AnnotationFlags, HorizontalAlignment, Point, VerticalAlignment
+    import shutil
+    import os
+    import json
+    from pathlib import Path
+    import logging
+
+    # Configure logging
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
     class PdfAddStrikeoutAnnotations:
         """Class for managing PDF annotations using Aspose PDF Cloud API."""
-        def __init__(self, pdf_api: PdfApi, helper: PdfAnnotationsHelper):
-            self.pdfApi = pdf_api
-            self.helper = helper
-
         def append_strikeout_annotation(self):
             """Append a new strikeout text annotation to the PDF document."""
-            if self.pdfApi:
-                self.helper.uploadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER)
-                
+            localFolder = "C:\Samples"
+            storageDocumentName = "sample.pdf"
+            storageTempFolder = "TempPdfCloud"
+            outputFileName = "output_add_strikeout_annotation.pdf"
+
+            # Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+            self.pdf_api = PdfApi(ApiClient(AppSecret, AppSid))
+
+            if self.pdf_api:
+                file_path = localFolder + "/" + storageDocumentName
+                self.pdf_api.upload_file(os.path.join(storageTempFolder, storageDocumentName), file_path)
+                    
                 args = {
-                    "folder": Config.REMOTE_FOLDER
+                    "folder": storageTempFolder
                 }
                 
                 new_annotation = StrikeOutAnnotation(
@@ -89,10 +101,10 @@ Aspose.PDF Cloud developers can easily load & add annotations to PDF in just a f
                     flags = [AnnotationFlags.DEFAULT],
                     horizontal_alignment = HorizontalAlignment.LEFT,
                     vertical_alignment = VerticalAlignment.TOP,
-                    rich_text = Config.NEW_SO_ANNOTATION_TEXT,
-                    subject = Config.NEW_SO_ANNOTATION_SUBJECT,
-                    title = Config.NEW_SO_ANNOTATION_DESCRIPTION,
-                    contents= Config.NEW_SO_ANNOTATION_CONTENTS,
+                    rich_text = "Your annotation text here",
+                    subject = "Your annotation subject here",
+                    contents = "Your annotation contents here",
+                    title = "Your annotation title here",
                     z_index = 1,
                     color= Color(a=0xFF, r=0, g=0xFF, b=0),
                     quad_points = [
@@ -101,13 +113,16 @@ Aspose.PDF Cloud developers can easily load & add annotations to PDF in just a f
                         Point(10, 20),
                         Point(10, 10)
                     ],
-                    modified = '03/27/2025 00:00:00.000 AM',
+                    modified = '02/02/2026 00:00:00.000 AM',
                 )
                 try:
-                    response = self.pdfApi.post_page_strike_out_annotations(Config.PDF_DOCUMENT_NAME, Config.PAGE_NUMBER, [new_annotation], **args)
+                    response = self.pdf_api.post_page_strike_out_annotations(storageDocumentName, page_number=1, annotations=[new_annotation], **args)
+
                     if response.code == 200:
-                        logging.info(f"append_strikeout_annotation(): annotation '{Config.NEW_SO_ANNOTATION_TEXT}' added to the document '{Config.PDF_DOCUMENT_NAME}'.")
-                        self.helper.downloadFile(Config.PDF_DOCUMENT_NAME, Config.LOCAL_RESULT_DOCUMENT_NAME, Config.LOCAL_FOLDER, Config.REMOTE_FOLDER, "add_strikeout_")
+                        temp_file = self.pdf_api.download_file(storageTempFolder + '/' + storageDocumentName)
+                        local_path = localFolder + '/' + outputFileName
+                        shutil.move(temp_file, local_path)
+                        logging.info(f"append_strikeout_annotation(): annotation added to the document '{outputFileName}'.")
                     else:
                         logging.error(f"append_strikeout_annotation(): Failed to add annotation to the document. Response code: {response.code}")
                 except Exception as e:
