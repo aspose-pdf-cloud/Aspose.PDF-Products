@@ -2,7 +2,7 @@
 title: Crop PDFs via Cloud .NET SDK 
 url: net/crop/
 description: Crop PDF document is performed using Aspose.PDF Cloud. Check . NET source code for PDF file trimming.
-lastmod: "202-01-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}

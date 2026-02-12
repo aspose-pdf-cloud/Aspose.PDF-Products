@@ -2,7 +2,7 @@
 title: Move Page to New Position via Cloud .NET SDK
 url: net/pages/move/
 description: Move Page from PDFs to new position using Aspose.PDF Cloud SDK for .NET.
-lastmod: "202-01-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
