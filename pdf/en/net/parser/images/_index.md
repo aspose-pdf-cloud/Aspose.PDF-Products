@@ -2,7 +2,7 @@
 title: Parse Pdf for extraction Images via Cloud .NET SDK 
 url: net/parser/images/
 description: Parse PDF files for extraction Images using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-22"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,42 +63,46 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task ParseToImages(PdfApi pdfApi)
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string storageTempFolder = "YourTempFolder";
+	    const int pageNumber = 3;
 
-namespace Parser
-{
-    public class GetImages
-    {
-        public static async Task Extract(string documentName, int pageNumber, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    //var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Parse PDF to extract images in cloud storage.
-                ImagesResponse response = await pdfApi.GetImagesAsync(documentName, pageNumber, folder: remoteFolder);
+	    ImagesResponse response = await pdfApi.GetImagesAsync(storageFileName, pageNumber, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("GetImages(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("GetImages(): Failed to receive Images from '{0}' page of the document.", pageNumber);
-                else
-                { // Show images.
-                    Console.WriteLine("GetImages(): Images successfully received from the document '{0}.", documentName);
-                    foreach (var image in response.Images.List)
-                    {
-                        Console.WriteLine(image.ToString());
-                    }
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("GetImages(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("GetImages(): Failed to receive Images from '{0}' page of the document.", pageNumber);
+	    else if (response.Images == null || response.Images.List == null || response.Images.List.Count == 0)
+	        Console.WriteLine("GetImages(): Images not found in the document '{0]'.", storageFileName);
+	    else
+	    {
+	        Console.WriteLine("GetImages(): Images successfully received from the document '{0}.", storageFileName);
+	        foreach (var image in response.Images.List)
+	        {
+	            using (var respImage = await pdfApi.GetImageExtractAsPngAsync(storageFileName, image.Id, folder: storageTempFolder))
+	            {
+	                Console.WriteLine(image.ToString());
+	                string fileName = Path.Combine(localFolder, image.Id + ".png");
+	                using (var imageStream = File.Create(fileName)) {
+	                    await respImage.CopyToAsync(imageStream);
+	                    Console.WriteLine("GetImages(): File '{0}' successfully downloaded.", fileName);
+	                }
+	            }
+	        }
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -151,4 +155,5 @@ Parse PDF documents for extracting images with [Aspose.PDF Cloud .NET SDK](https
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 

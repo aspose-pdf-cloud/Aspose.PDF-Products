@@ -2,7 +2,7 @@
 title: Convert TEX to PDF via Cloud .NET SDK
 url: net/conversion/tex-to-pdf/
 description: Convert LaTeX .tex files into PDF using Aspose.PDF Cloud SDK for .NET. Ideal for scientific and academic publishing.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -66,20 +66,22 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
     public static void ConvertLaTeXtoPDF()
     {
-        var localHtmlFileName = @"C:\Samples\Conversion\sample.tex";
-        var storageHtmlFileName = "sample.tex";
+        var localLatexFileName = @"C:\Samples\Conversion\sample.tex";
+        var storageLatexFileName = "sample.tex";
+        const string resultFileName = "sample-TeX-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
 
         // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
-        var config = new Configuration(AppSecret, AppKey);
+        var pdfApi = new PdfApi(AppSecret, AppSid);
 
-        var pdfApi = new PdfApi(config);
+        using var file = File.OpenRead(localLatexFileName);
+        pdfApi.UploadFile(storageLatexFileName, file);
 
-        using (var file = File.OpenRead(localHtmlFileName))
-        {
-            var uploadResult = pdfApi.UploadFile(storageHtmlFileName, file);
-        }
-        var response = pdfApi.PutTeXInStorageToPdf("sample-TeX-to-pdf.pdf", storageHtmlFileName);
+        var response = pdfApi.PutTeXInStorageToPdf(resultFileName, storageLatexFileName);
         Console.WriteLine($"TeX to PDF result: {response.Status}");
+
+        pdfApi.DownloadFile(resultFileName)
+             .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 

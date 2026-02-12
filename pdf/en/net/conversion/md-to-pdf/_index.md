@@ -3,7 +3,7 @@ title: Convert Markdown to PDF via Cloud .NET SDK
 weight: 1640
 url: net/conversion/md-to-pdf/
 description: Convert Markdown (MD) files to clean, professional PDFs with Aspose.PDF Cloud SDK for .NET.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -70,6 +70,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localMarkdownFileName = @"C:\Samples\Conversion\sample.md";
         const string storageMarkdownFileName = "sample.md";
         const string resultFileName = "sample-md-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -78,8 +79,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutMarkdownInStorageToPdf(resultFileName, storageMarkdownFileName);
         Console.WriteLine($"MD to PDF result: {response.Status}");
+
         pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 

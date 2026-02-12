@@ -2,7 +2,7 @@
 title: Decrypt PDF via Cloud .NET SDK 
 url: net/decrypt/
 description: Aspose.PDF Cloud allows you to decrypt PDF Document. Check the .NET source code to decrypt PDF file.
-lastmod: "2025-08-20"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -65,55 +65,37 @@ Aspose.PDF Cloud developers can easily load & decrypt PDF in just a few lines of
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task Decrypt()
+	{
+	    const string localPdfDocument = @"C:\Samples\sample_encrypted.pdf";
+	    const string storageFileName = "sample_encrypted.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_decrypted.pdf";
+	    const string ownerPassword = "Owner-Password";
+	    string ToBase64(string str) => Convert.ToBase64String(Encoding.UTF8.GetBytes(str));
 
-    namespace EncryptDecrypt
-    {
-        public class DecryptPdf
-        {
-            private string ToBase64(string str)
-            { // Convert string to Base64. 
-                var bytes = Encoding.UTF8.GetBytes(str);
-                return Convert.ToBase64String(bytes);
-            }
+	    /// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-            public static async Task Decrypt(string documentName, string outputName, staring localFolder, string remoteFolder)
-            {
-                // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(storageFileName, file);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local encrypted PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    AsposeResponse response = await pdfApi.PostDecryptDocumentInStorageAsync(
+	        storageFileName,
+	        ToBase64(ownerPassword));
 
-                string ownerPassword = "Owner-Password";
+	    if (response == null)
+	        Console.WriteLine("DecryptPdf(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("DecryptPdf(): Failed to decrypt document.");
+	    else
+	    {
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync( File.Create(Path.Combine(localFolder, resultFileName)));
 
-                // Decrypt the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostDecryptDocumentInStorageAsync(
-                    documentName,
-                    ToBase64(ownerPassword),
-                    folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("DecryptPdf(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("DecryptPdf(): Failed to decrypt document.");
-                else
-                {  // Downloads the updated file for local use.
-                    Console.WriteLine("DecryptPdf(): document '{0} successfully decrypted.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "decrypt_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("EncryptPdf(): File '{0}' successfully downloaded.", "decrypt_" + outputName);
-               }
-            }
-        }
-    }
+	        Console.WriteLine("DecryptPdf(): document '{0} successfully decrypted.", resultFileName);
+	    }
+	}
 
 ```
 
@@ -171,3 +153,7 @@ Decrypt PDF documents with [Aspose.PDF Cloud .NET SDK](https://products.aspose.c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+

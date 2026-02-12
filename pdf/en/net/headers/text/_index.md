@@ -2,7 +2,7 @@
 title: Add Text to Headers of PDFs via Cloud .NET SDK
 url: net/headers/text/
 description: Add text headers to PDF documents using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
-lastmod: "2025-08-18"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,59 +64,49 @@ Aspose.PDF Cloud .NET developers can easily append text in Header of PDF documen
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task AddTextHeader()
+	{
+	    const string localPdfDocument = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string headerText = "NEW TEXT HEADER";
+	    const string localFolder = @"C:\Samples";
+	    const string storageTempFolder = "YourTempFolder";
+	    const string resultFileName = "output_add_text_header.pdf";
+	    const int startPage = 2;
+	    const int endPage = 5;
 
-    namespace Headers
-    {
-        public class HeadersAddText
-        {
-            public static async Task Append(string documentName, string outputName, string headerText, int startPage, int endPage, string localFolder, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
 
-                // Create new Text Header with input parameters for the PDF on cloud storage.
-                TextHeader header = new TextHeader(
-                    Background: true,
-                    LeftMargin: 1,
-                    RightMargin: 2,
-                    HorizontalAlignment: HorizontalAlignment.Center,
-                    Opacity: 1,
-                    Rotate: Rotation.None,
-                    RotateAngle: 15,
-                    XIndent: 0,
-                    YIndent: 0,
-                    Zoom: 1,
-                    Value: headerText
-                );
+	    TextHeader footer = new TextHeader(
+	        Background: true,
+	        HorizontalAlignment: HorizontalAlignment.Center,
+	        Opacity: 1,
+	        Rotate: Rotation.None,
+	        RotateAngle: 15,
+	        XIndent: 0,
+	        YIndent: 0,
+	        Zoom: 1,
+	        Value: headerText
+	    );
 
-                // Append new Text Header in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostDocumentTextHeaderAsync(documentName, header, startPage, endPage, folder: remoteFolder);
+	    var response = await pdfApi.PostDocumentTextHeaderAsync(storageFileName, footer, startPage, endPage, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("HeadersAddText(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("HeadersAddText(): Failed to append text header to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("HeadersAddText(): text header '{0}' successfully appended to the document '{1}'.", headerText, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_text_headerr_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("HeadersAddText(): File '{0}' successfully downloaded.", "append_text_header_" + outputName);
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("HeadersFootersAddTextHeader(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("HeadersFootersAddTextHeader(): Failed to append text header to the page of document.");
+	    else
+	    {
+	        await (await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName)))
+				.CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+
+	        Console.WriteLine("HeadersFootersAddTextFooter(): text '{0}' appended as header to the document '{1}.", headerText, resultFileName);
+	    }
+	}
 
 ```
 
@@ -171,6 +161,9 @@ Add the Header into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 
 

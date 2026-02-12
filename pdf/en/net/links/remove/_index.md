@@ -2,7 +2,7 @@
 title: Delete Link via Cloud .NET SDK
 url: net/links/remove/
 description: Delete Link from PDFs using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-08-15"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,42 +60,33 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-   using Aspose.Pdf.Cloud.Sdk.Model;
+     public static async Task DeleteLink()
+     {
+		const string localPdfDocument = @"C:\Samples\sample.pdf";
+		const string storageFileName = "sample.pdf";
+		const string localFolder = @"C:\Samples";
+		const string resultFileName = "output_add_link.pdf";
+		const string storageTempFolder = "YourTempFolder";
+		const string linkId = "GE5UYYLVNZRWQQLDORUW63R3HA4CYNRZGQWDCMZQFQ3TAOI";
 
-    namespace Links
-    {
-        public class LinksRemove
-        {
-            public static async Task Delete(string documentName, string outputName, string LinkID, string remoteFolder)
-            {
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+		using var file = File.OpenRead(localPdfDocument);
+		await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
 
-                // Delete link annotation with Id in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.DeleteBookmarkAsync(documentName, bookmarkPath, folder: remoteFolder);
+		AsposeResponse response = await pdfApi.DeleteLinkAnnotationAsync(storageFileName, linkId, folder: storageFileName);
 
-                // Checks the response and logs the result.
 		if (response == null)
-                    Console.WriteLine("LinksRemove(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("LinksRemove(): Failed to remove link from the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("LinksRemove(): link annotation '{0}' successfully removed from the document '{1}.", LinkID, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "delete_link_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("LinksRemove(): File '{0}' successfully downloaded.", "delete_link_" + outputName);
-                }
-            }
-        }
+		    Console.WriteLine("LinksRemove(): Unexpected error!");
+		else if (response.Code < 200 || response.Code > 299)
+		    Console.WriteLine("LinksRemove(): Failed to remove link from the document.");
+		else {
+		    using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
+		    using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+		    await downloadStream.CopyToAsync(localStream);
+		    Console.WriteLine("LinksRemove(): link '{0}' successfully removed from the document '{1}.", linkId, storageFileName);
+		}
     }
  
 ```
@@ -150,6 +141,8 @@ Delete the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
 
 
 

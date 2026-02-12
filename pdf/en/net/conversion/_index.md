@@ -70,8 +70,10 @@ The ConvertPDFtoDOCX() method uploads a local PDF file to Aspose Cloud Storage a
             var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
         }
 
-        var response = pdfApi.GetPdfInStorageToDoc(storageImageFileName, format: "DocX", mode: "Flow");
-        response.CopyTo(System.IO.File.OpenWrite("sample.docx"));
+        using Stream response = pdfApi.GetPdfInStorageToDoc(storageImageFileName, format: "DocX", mode: "Flow");
+        using FileStream localStream = File.Create(Path.Combine(localFolder, "sample.docx"));
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to DOCX result: {response.Length} bytes");
     }
 ```
@@ -103,8 +105,10 @@ The ConvertPdfToXlsx() method uploads a local PDF file to Aspose Cloud Storage a
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
         
-        var response = pdfApi.GetPdfInStorageToXlsx(storageImageFileName);
-        response.CopyTo(File.OpenWrite(resultFileName));
+        using Stream response = pdfApi.GetPdfInStorageToXlsx(storageImageFileName);
+        using FileStream localStream = ile.OpenWrite(resultFileName)
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to Excel result: {response.Length} bytes");
     }
 ```
@@ -136,8 +140,10 @@ The ConvertPdfToPptx() method uploads a local PDF file to Aspose Cloud Storage a
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
-        var response = pdfApi.GetPdfInStorageToPptx(storageImageFileName);
-        response.CopyTo(File.OpenWrite(resultFileName));
+        using Stream response = pdfApi.GetPdfInStorageToPptx(storageImageFileName);
+        using FileStream localStream = File.OpenWrite(resultFileName);
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to PPTX result: {response.Length} bytes");
     }
 ```
@@ -169,8 +175,10 @@ The ConvertPdfToHtml() method uploads a local PDF file to Aspose Cloud Storage a
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
-        var response = pdfApi.GetPdfInStorageToHtml(storageImageFileName);
-        response.CopyTo(File.OpenWrite(resultFileName));
+        using Stream response = pdfApi.GetPdfInStorageToHtml(storageImageFileName);
+        using FileStream localStream = File.OpenWrite(resultFileName);
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to HTML result: {response.Length} bytes");
     }
 ```

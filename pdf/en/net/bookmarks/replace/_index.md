@@ -2,7 +2,7 @@
 title: Replace Bookmark via Cloud .NET SDK 
 url: net/bookmarks/replace/
 description: Replace bookmark in PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-13"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,25 +63,22 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Bookmarks
+    public static async Task BookmarkReplace()
     {
-        public class BookmarksReplace
-        {
-            public static async Task Modify(string documentName, string outputName, string bookmarkPath, string title, string localFolder, string remoteFolder)
-            {
+		const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_replace_bookmark.pdf";
+        const string bookmarkPath =  "/5";
+
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+        using var file = File.OpenRead(localPdfDocument);
+        var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
 
-                // Create new bookmark with input parameters for the PDF on cloud storage.
-                Bookmark bookmark = new Bookmark(
+        // Create new bookmark with input parameters for the PDF on cloud storage.
+        Bookmark bookmark = new Bookmark(
                     Action: "GoTo",
                     Bold: true,
                     Italic: false,
@@ -94,26 +91,20 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
                     PageDisplayZoom: 2,
                     PageNumber: 1,
                     Color: new Color(A: 0x00, R: 0x00, G: 0xFF, B: 0x00)
-                );
+        );
 
-                // Replace a bookmark with bookmarkPath in the PDF on cloud storage.
-                BookmarkResponse response = await pdfApi.PutBookmarkAsync(documentName, bookmarkPath, bookmark, folder: remoteFolder);
+        // Replace a bookmark with bookmarkPath in the PDF on cloud storage.
+        BookmarkResponse response = await pdfApi.PutBookmarkAsync(storageFileName, bookmarkPath, bookmark);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("BookmarksReplace(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("BookmarksReplace(): Failed to append bookmark to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("BookmarksReplace(): bookmark successfully replaced in the document '{0}.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "replace_bookmark_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("BookmarksReplace(): File '{0}' successfully downloaded.", "replace_bookmrk_" + outputName);
-                }
-            }
+        // Checks the response and logs the result.
+        if (response == null)
+            Console.WriteLine("BookmarksReplace(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("BookmarksReplace(): Failed to append bookmark to the document.");
+        else { // Downloads the updated file for local use.
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+            Console.WriteLine("BookmarksReplace(): File '{0}' successfully downloaded.", "replace_bookmrk_" + outputName);
         }
     }
 
@@ -164,5 +155,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
 
 

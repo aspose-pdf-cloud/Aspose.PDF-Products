@@ -2,7 +2,7 @@
 title: Add Pages via Cloud .NET SDK
 url: net/pages/add/
 description: Add New Pages to PDFs using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-08-05"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,43 +60,35 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task AddPage()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_add_page.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-    namespace Pages
-    {
-        public class PagesAdd
-        {
-            public static async Task Append(string documentName, string outputName, string localFolder, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Append new page to the PDF on cloud storage.
-                DocumentPagesResponse response = await pdfApi.PutAddNewPageAsync(documentName, folder: remoteFolder);
+	    DocumentPagesResponse response = await pdfApi.PutAddNewPageAsync(storageFileName, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("PagesAdd(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("PagesAdd(): Failed to append page to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("PagesAdd(): page successfully appended to the document '{0}.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_pages_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("PagesAdd(): File '{0}' successfully downloaded.", "append_pages_" + outputName);
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("PagesAdd(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("PagesAdd(): Failed to append page to the document.");
+	    else
+	    {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("PagesAdd(): page successfully appended to the document '{0}.", resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -108,3 +100,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+

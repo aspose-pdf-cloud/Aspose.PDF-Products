@@ -2,7 +2,7 @@
 title: Extract Bookmarks from PDF via Cloud .NET SDK 
 url: net/bookmarks/extract/
 description: Extracting bookmarks from PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2026-01-03"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -79,44 +79,29 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task GetBookmarkByPath()
+	{
+	    const string localPdfDocument = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string bookmarkPath = "/5";
 
-    namespace Bookmarks
-    {
-        public class BookmarksExtract
-        {
-            public static async Task ShowInfo(string documentName, string localFolder, string remoteFolder)
-            {
-                // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-                pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		        { // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfDocument);
+	    var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
 
-                // Extract bookmarks from the PDF on cloud storage.
-                BookmarksResponse response = await pdfApi.GetDocumentBookmarksAsync(documentName, folder: remoteFolder);
+	    BookmarkResponse response = await pdfApi.GetBookmarkAsync(storageFileName, bookmarkPath);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("BookmarksExtract(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("BookmarksExtract(): Failed to receive bookmarks from the document.");
-                else if (response.Bookmarks == null || response.Bookmarks.List == null || response.Bookmarks.List.Count == 0)
-                    Console.WriteLine("BookmarksExtract(): bookmarks not found in the document.");
-                else
-                {  // Show bookmarks from PDF documents
-                    Console.WriteLine("BookmarksExtract(): all bookmarks successfully received from the document '{0}.", documentName);
-                    foreach (Bookmark bookmark in response.Bookmarks.List) {
-                        Console.WriteLine("BookmarksExtract(): ID = {0}", bookmark.Links[0].Href);
-                        Console.WriteLine(bookmark.ToString());
-                    }
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("BookmarksExtractByPath(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("BookmarksExtractByPath(): Failed to receive bookmark from the document.");
+	    else if (response.Bookmark == null)
+	        Console.WriteLine("BookmarksExtractByPath(): bookmark '{0}' not found in the document '{1}'.", bookmarkPath, documentName);
+	    else
+	        Console.WriteLine(JsonConvert.SerializeObject(response.Bookmark, Formatting.Indented));
+	}
 
 ```
 
@@ -166,3 +151,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+

@@ -2,7 +2,7 @@
 title: Adding Tables to PDF via Cloud .NET SDK 
 url: net/table/add/
 description: Add tables to PDFs using Aspose.PDF Cloud SDK for .NET. Dynamically generate structured layouts in documents.
-lastmod: "2024-11-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -59,11 +59,12 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void Add()
+    public static void AddTable()
     {
         const string localImageFileName = @"C:\Samples\sample-test.pdf";
         const string storageFileName = "Sample-Document-02.pdf";
         const string resultFileName = "Sample-Document-02.pdf";
+        const string localFolder = @"C:\Samples";
 
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -94,8 +95,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
         List<Table> tables = [demoTable];
         pdfApi.PostPageTables(storageFileName, pageNumber: 1, tables);
-        pdfApi.DownloadFile(storageFileName)
-            .CopyTo(File.Create(resultFileName));
+
+        using Stream downloadStream = pdfApi.DownloadFile(storageFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        downloadStream.CopyTo(localStream);
     }
 ```
 
@@ -149,3 +152,5 @@ Add the Table into PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+

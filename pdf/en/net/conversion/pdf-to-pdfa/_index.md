@@ -2,7 +2,7 @@
 title: Convert PDF to PDF/A via Cloud .NET SDK
 url: net/conversion/pdf-to-pdfa/ 
 description: Convert PDF to PDF/A format for archiving using Aspose.PDF Cloud SDK for .NET. Compliant with long-term storage.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,15 +69,19 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageImageFileName = "sample.pdf";
         const string resultFileName = "sample-pdfa.pdf";
+        const string localFolder = @"C:\Samples";
 
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
-        var response = pdfApi.GetPdfInStorageToPdfA(storageImageFileName,
+        using Stream response = pdfApi.GetPdfInStorageToPdfA(storageImageFileName,
             type: Aspose.Pdf.Cloud.Sdk.Model.PdfAType.PDFA1A.ToString());
-        response.CopyTo(File.OpenWrite(resultFileName));
+
+         using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+         response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to PDF/A result: {response.Length} bytes");
     }
 ```

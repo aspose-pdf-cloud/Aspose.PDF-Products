@@ -2,7 +2,7 @@
 title: Convert PDF to Microsoft Excel XLSX via Cloud .NET SDK
 url: net/conversion/pdf-to-xlsx/
 description: Convert PDF to Excel XLSX with Aspose.PDF Cloud SDK for .NET. Structured data extraction made simple.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,14 +69,18 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\sample.pdf";
         const string storageImageFileName = "sample.pdf";
         const string resultFileName = "sample.xlsx";
+        const string localFolder = @"C:\Samples";
 
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
         
-        var response = pdfApi.GetPdfInStorageToXlsx(storageImageFileName);
-        response.CopyTo(File.OpenWrite(resultFileName));
+        using Stream response = pdfApi.GetPdfInStorageToXlsx(storageImageFileName);
+        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to Excel result: {response.Length} bytes");
     }
 ```

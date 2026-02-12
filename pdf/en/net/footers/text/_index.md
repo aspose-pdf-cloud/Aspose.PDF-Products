@@ -2,7 +2,7 @@
 title: Add Text to the Footers of PDFs via Cloud .NET SDK
 url: net/footers/text/
 description: Add text footers to PDF files using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
-lastmod: "2025-08-18"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,60 +64,49 @@ Aspose.PDF Cloud .NET developers can easily append text in Footer of PDF documen
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Footers
+    public static async Task AddTextFooter()
     {
-        public class FootersAddText
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string footerText = "NEW TEXT FOOTER";
+        const string localFolder = @"C:\Samples";
+        const string storageTempFolder = "YourTempFolder";
+        const string resultFileName = "output_add_text_footer.pdf";
+        const int startPage = 2;
+        const int endPage = 5;
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        using var file = File.OpenRead(localPdfDocument);
+        await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
+
+        TextFooter footer = new TextFooter(
+            Background: true,
+            HorizontalAlignment: HorizontalAlignment.Center,
+            Opacity: 1,
+            Rotate: Rotation.None,
+            RotateAngle: 15,
+            XIndent: 0,
+            YIndent: 0,
+            Zoom: 1,
+            Value: footerText
+        );
+
+        var response = await pdfApi.PostDocumentTextFooterAsync(storageFileName, footer, startPage, endPage, folder: storageTempFolder);
+
+        if (response == null)
+            Console.WriteLine("HeadersFootersAddTextFooter(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("HeadersFootersAddTextFooter(): Failed to append text footer to the page of document.");
+        else
         {
-            public static async Task Append(string documentName, string outputName, string footerText, int startPage, int endPage, string localFolder, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
-
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
-
-                // Create new Text Footer with input parameters for the PDF on cloud storage.
-                TextFooter footer = new TextFooter(
-                    Background: true,
-                    LeftMargin: 1,
-                    RightMargin: 2,
-                    HorizontalAlignment: HorizontalAlignment.Center,
-                    Opacity: 1,
-                    Rotate: Rotation.None,
-                    RotateAngle: 15,
-                    XIndent: 0,
-                    YIndent: 0,
-                    Zoom: 1,
-                    Value: footerText
-                );
-
-                // Append new Text Footer in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostDocumentTextFooterAsync(documentName, footer, startPage, endPage, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("FootersAddImage(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("FootersAddText(): Failed to append text footer to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("FootersAddText(): text footer '{0}' successfully appended to the document '{1}'.", footerText, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_text_footer_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("FootersAddText(): File '{0}' successfully downloaded.", "append_text_footer_" + outputName);
-                }
-            }
+            using Stream downloadStream = await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName));
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            await downloadStream.CopyToAsync(localStream);
+            Console.WriteLine("HeadersFootersAddTextFooter(): text '{0}' appended as footer to the document '{1}.", footerText, resultFileName);
         }
     }
-
 ```
 
 
@@ -170,5 +159,8 @@ Add the Footer into PDF documents with [Aspose.PDF Cloud .NET SDK](https://produ
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 

@@ -2,7 +2,7 @@
 title: Append attachments in PDF documents via Aspose.Pdf Cloud .NET SDK
 url: net/attachments/add/
 description: Add attachments to PDF files with Aspose.PDF Cloud SDK for .NET. Embed documents, images, and more into your PDFs.
-lastmod: "2024-10-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -85,14 +85,21 @@ public static void AddAttachment()
         Path.GetFileName(LOCAL_ATTACHMENT_FILE_NAME),
         "audio/mpeg");
 
-    PdfApi.UploadFile(STORAGE_FILE_NAME, File.OpenRead(LOCAL_FILE_NAME));
-    PdfApi.UploadFile(STORAGE_ATTACHMENT_FILE_NAME, File.OpenRead(LOCAL_ATTACHMENT_FILE_NAME));
-    var response = PdfApi.PostAddDocumentAttachment(STORAGE_FILE_NAME, attachmentInfo);
+    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+    var pdfApi = new PdfApi(AppSecret, AppSid);
+
+    using var filePdf = File.OpenRead(LOCAL_FILE_NAME);
+    await pdfApi.UploadFile(STORAGE_FILE_NAME, filePdf);
+
+    using var fileAttach = File.OpenRead(LOCAL_ATTACHMENT_FILE_NAME);
+    await pdfApi.UploadFile(STORAGE_ATTACHMENT_FILE_NAME, fileAttach);
+
+    var response = pdfApi.PostAddDocumentAttachment(STORAGE_FILE_NAME, attachmentInfo);
     Console.WriteLine(response.Code);
     if (response.Code == 200)
     {
-        PdfApi.DownloadFile(STORAGE_FILE_NAME)
-            .CopyTo(File.OpenWrite(RESULT_FILE_NAME));
+        pdfApi.DownloadFile(STORAGE_FILE_NAME)
+                .CopyTo(File.Create(Path.Combine(localFolder, RESULT_FILE_NAME)));
     }
 }
 ```

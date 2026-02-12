@@ -2,7 +2,7 @@
 title: Crop PDFs via Cloud .NET SDK 
 url: net/crop/
 description: Crop PDF document is performed using Aspose.PDF Cloud. Check . NET source code for PDF file trimming.
-lastmod: "2025-07-19"
+lastmod: "202-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -59,44 +59,31 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{% blocks/products/pf/agp/code-block title="Crop PDF using .NET Cloud SDK" offSpacer="" %}}
 
 ```cs
-
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace ChangeLayout
+    public async Task CropDocumentPages()
     {
-        public class CropDocumentPage
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\Samples";
+        const string resultFileName = "output_cropped.pdf";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+        pdfApi = new PdfApi(AppSecret, AppSid);
+    
+        using var file = File.OpenRead(localPdfDocument);
+        await pdfApi.UploadFileAsync(storageFileName, file);
+    
+        var response = await pdfApi.PostDocumentPagesCropAsync(storageFileName, "1,3-5,8", new Rectangle(300.0, 150.0, 500.0, 200.0));
+    
+        if (response == null)
+            Console.WriteLine("CropDocumentPages(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("CropDocumentPages(): Failed to crop Pdf document pages.");
+        else
         {
-            private ChangeLayoutHelper _helper;
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync( File.Create(Path.Combine(localFolder, resultFileName)));
 
-            public CropDocumentPage(ChangeLayoutHelper helper)
-            {
-                _helper = helper;
-            }
-
-            public async Task MakeCropDocumentPage(string document, string outputDocument, int pageNumber, int llx, int lly, int width, int height)
-            {
-                await _helper.UploadFile(document);
-                await _helper.GetPageInfo(document, pageNumber);
-                string imageFile = await _helper.ExtractPdfPage(document, pageNumber, _helper.config.CROP_PAGE_WIDTH, _helper.config.CROP_PAGE_HEIGHT);
-                DocumentResponse? newPdf = await _helper.CreatePdfDocument(outputDocument, width, height);
-                if (newPdf == null)
-                    Console.WriteLine("MakeCropDocumentPage(): Unexpected error - new document is NULL");
-                else if (newPdf.Code != 200)
-                    Console.WriteLine("MakeCropDocumentPage(): Failed to create new PDF document!");
-                else
-                {
-                    AsposeResponse? response = await _helper.InsertPageAsImage(outputDocument, imageFile, llx, lly);
-                    if (response == null)
-                        Console.WriteLine("MakeCropDocumentPage(): Unexpected error - insert image return NULL");
-                    else if (newPdf.Code != 200)
-                        Console.WriteLine("MakeCropDocumentPage(): Failed to insert image to the new PDF document!");
-                    else
-                    {
-                        Console.WriteLine("cropPage(): Page successfully cropped.");
-                        await _helper.DownloadFile(outputDocument, "cropped_");
-                    }
-                }
-            }
+            Console.WriteLine("CropDocumentPages(): successfully cropped PDF document '{0}' pages.", resultFileName);
         }
     }
 ```
@@ -110,5 +97,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 

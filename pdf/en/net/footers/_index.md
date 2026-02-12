@@ -2,7 +2,7 @@
 title: Work with Footer in PDF via Cloud .NET SDK
 url: net/footers/
 description: Adding footers to PDF pages using Aspose.PDF Cloud SDK in .NET. Branding, signatures, and more.
-lastmod: "2025-08-18"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -82,68 +82,54 @@ Aspose.PDF Cloud .NET developers can easily append image in Footer of PDF docume
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Api;
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task AddImageFooter()
+	{
+	    const string localPdfDocument = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localImageFile = @"C:\Samples\sample.png";
+	    const string storageImageFile = "sample.png";
+	    const string localFolder = @"C:\Samples";
+	    const string storageTempFolder = "YourTempFolder";
+	    const string resultFileName = "output_add_image_footer.pdf";
+	    const int startPage = 2;
+	    const int endPage = 5;
 
-    namespace Footers
-    {
-        public class FootersAddImage
-        {
-            public static async Task Append(string documentName, string outputName, string imageFileName, int startPage, int endPage, string localFolder, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfDocument);
+	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder,storageFileName), file);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, imageFileName)))
-		{ // Upload the local image file to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, imageFileName), imageFileName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var imageFile = File.OpenRead(localImageFile);
+	    await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder,storageImageFile), imageFile);
 
-                // Create new Image Footer with input parameters for the PDF on cloud storage.
-                ImageFooter footer = new ImageFooter(
-                    Background: true,
-                    LeftMargin: 1,
-                    RightMargin: 2,
-                    HorizontalAlignment: HorizontalAlignment.Center,
-                    Opacity: 1,
-                    Rotate: Rotation.None,
-                    RotateAngle: 0,
-                    XIndent: 0,
-                    YIndent: 0,
-                    Zoom: 1,
-                    Width: 24,
-                    Height: 24,
-                    FileName: Path.Combine(remoteFolder, imageFileName)
-                );
+	    ImageFooter footer = new ImageFooter(
+	        Background: true,
+	        HorizontalAlignment: HorizontalAlignment.Center,
+	        Opacity: 1,
+	        Rotate: Rotation.None,
+	        RotateAngle: 0,
+	        Zoom: 1,
+	        Width: 24,
+	        Height: 24,
+	        FileName: Path.Combine(storageTempFolder, storageImageFile)
+	    );
 
-                // Append new Image Footer in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.PostDocumentImageFooterAsync(documentName, footer, startPage, endPage, folder: remoteFolder);
+	    var response = await pdfApi.PostDocumentImageFooterAsync(storageFileName,
+	        footer, startPage, endPage, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("FootersAddImage(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("FootersAddImage(): Failed to append image footer to the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("FootersAddImage(): image footer successfully appended to the document '{0}'.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_image_footer_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("FootersAddImage(): File '{0}' successfully downloaded.", "append_image_footer_" + outputName);
-                }
-            }
-        }
-    }
-
+	    if (response == null)
+	        Console.WriteLine("HeadersFootersAddImageFooter(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("HeadersFootersAddImageFooter(): Failed to append image footer to the page of document.");
+	    else
+	    {
+            await (await pdfApi.DownloadFileAsync(Path.Combine(storageTempFolder, storageFileName)))
+ 				.CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+	        
+	        Console.WriteLine("HeadersFootersAddImageFooter(): image '{0}' appended as footer to the document '{1}.", storageImageFile, resultFileName);
+	    }
+	}
 ```
 
 

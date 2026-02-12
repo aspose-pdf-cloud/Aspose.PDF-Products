@@ -2,7 +2,7 @@
 title: Get Links via Cloud .NET SDK 
 url: net/links/get/
 description: Retrieve links from PDF files using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-14"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,40 +63,33 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
-
-namespace Links
-{
-    public class LinksExtract
+    public static async Task LinksExtract()
     {
-        public static async Task ShowInfo(string documentName, int pageNumber, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\Samples";
+        const string storageTempFolder = "YourTempFolder";
+        const int pageNumber = 2;
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                // Get link annotations from the PDF in cloud storage.
-                LinkAnnotationsResponse response = await pdfApi.GetPageLinkAnnotationsAsync(documentName, pageNumber, folder: remoteFolder);
+        using var file = File.OpenRead(localPdfDocument);
+        await pdfApi.UploadFileAsync(Path.Combine(storageTempFolder, storageFileName), file);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("LinksExtract(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("LinksExtract(): Failed to receive links from the document.");
-                else if (response.Links == null || response.Links.List == null || response.Links.List.Count == 0)
-                    Console.WriteLine("LinksExtract(): links not found in the document.");
-                else
-                { // Show links.
-                    Console.WriteLine("LinksExtract(): all links successfully received from the document '{0}.", documentName);
-                    foreach (LinkAnnotation link in response.Links.List)
-                        Console.WriteLine(link.ToString());
-                }
-            }
+        // Get link annotations from the PDF in cloud storage.
+        LinkAnnotationsResponse response = await pdfApi.GetPageLinkAnnotationsAsync(storageFileName, pageNumber, folder: storageTempFolder);
+
+        // Checks the response and logs the result.
+        if (response == null)
+            Console.WriteLine("LinksExtract(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("LinksExtract(): Failed to receive links from the document.");
+         else if (response.Links == null || response.Links.List == null || response.Links.List.Count == 0)
+             Console.WriteLine("LinksExtract(): links not found in the document.");
+         else  { // Show links.
+             Console.WriteLine("LinksExtract(): all links successfully received from the document '{0}.", documentName);
+             Console.WriteLine(JsonConvert.SerializeObject(response.Links.List));
         }
     }
 ```
@@ -151,4 +144,6 @@ Extract the Links from PDF documents with [Aspose.PDF Cloud .NET SDK](https://pr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
 

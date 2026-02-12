@@ -2,7 +2,7 @@
 title: Delete Bookmark via Cloud .NET SDK
 url: net/bookmarks/remove
 description: Delete Bookmark from PDFs using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-08-13"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,42 +60,34 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-   using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Bookmarks
+    public static async Task DeleteBookmark()
     {
-        public class BookmarksRemove
-        {
-            public static async Task Delete(string documentName, string outputName, string bookmarkPath, string localFolder, string remoteFolder)
-            {
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_delete_bookmark.pdf";
+        const string bookmarkPath = "/5";
+
 		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+		var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+        using var file = File.OpenRead(localPdfDocument);
+        await pdfApi.UploadFileAsync(storageFileName, file);
 
-                // Delete bookmark with bookmarkPath in the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.DeleteBookmarkAsync(documentName, bookmarkPath, folder: remoteFolder);
+        // Delete bookmark with bookmarkPath in the PDF on cloud storage.
+        AsposeResponse response = await pdfApi.DeleteBookmarkAsync(storageFileName, bookmarkPath);
 
-                // Checks the response and logs the result.
+        // Checks the response and logs the result.
 		if (response == null)
-                    Console.WriteLine("BookmarksRemove(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("BookmarksRemove(): Failed to remove bookmark from the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("BookmarksRemove(): bookmark '{0}' successfully removed from the document '{1}.", bookmarkPath, documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "append_pages_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("BookmarksRemove(): File '{0}' successfully downloaded.", "delete_bookmrk_" + outputName);
-                }
-            }
-        }
+            Console.WriteLine("BookmarksRemove(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("BookmarksRemove(): Failed to remove bookmark from the document.");
+        else
+		{
+		    await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+		    Console.WriteLine("BookmarksRemove(): bookmark deleted in the document '{0}.", resultFileName);
+		}
     }
  
 ```
@@ -150,5 +142,10 @@ Delete the Bookmarks from PDF documents with [Aspose.PDF Cloud .NET SDK](https:/
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
+
 
 

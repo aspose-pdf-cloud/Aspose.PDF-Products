@@ -2,7 +2,7 @@
 title: Update Metadata in PDF Document via Cloud .NET SDK 
 url: net/metadata/update/
 description: Update PDF metadata with Aspose.PDF Cloud SDK for .NET. Modify document properties programmatically.
-lastmod: "2022-03-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -66,21 +66,31 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
     public static void UpdateMetadata()
     {
-        const string localImageFileName = @"C:\Samples\sample.pdf";
+        const string localPdfFileName = @"C:\Samples\sample.pdf";
         const string storageFileName = "sample.pdf";
-
+        const string localFolder = @"C:\Samples";
+        const string resultFileName = "output_upd_metadata.pdf";
+        const string storageTempFolder = "YourTempFolder";
+        const string propertyName = "xmp:ArchiveDate";
+        string propertyNewValue = DateTime.Today.ToString(CultureInfo.InvariantCulture);
 
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
 
-        using var file = File.OpenRead(localImageFileName);
-        var uploadResult = pdfApi.UploadFile(storageFileName, file);
+        using var file = File.OpenRead(localPdfFileName);
+        var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
         Console.WriteLine(uploadResult.Uploaded[0]);
-        var response = pdfApi.GetDocumentProperty(storageFileName, "xmp:ArchiveType");
+
+        var response = pdfApi.GetDocumentProperty(storageFileName, propertyName, folder: storageTempFolder);
         if (response.DocumentProperty.Value != null && !response.DocumentProperty.Value.StartsWith("Aspose"))
         {
-            var responseSet = pdfApi.PutSetProperty(storageFileName, "xmp:ArchiveType", "Aspose Sample Document");
+            var responseSet = pdfApi.PutSetProperty(storageFileName, propertyName, propertyNewValue, folder: storageTempFolder);
             Console.WriteLine(responseSet.Status);
+
+            using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+            downloadStream.CopyTo(localStream);
+            Console.WriteLine("UpdateMetadata(): property successfully changed in document '{0}' file.", resultFileName);
         }
     }
 ```
@@ -94,3 +104,4 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+

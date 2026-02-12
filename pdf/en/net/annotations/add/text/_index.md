@@ -1,8 +1,8 @@
 ---
 title: Add Text Annotations to PDFs via Cloud .NET SDK
-url: net/annotations/text/
+url: net/annotations/add/text/
 description: Add text annotations to PDF documents using Aspose.PDF Cloud .NET SDK.
-lastmod: "2025-07-20"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -58,51 +58,53 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Annotations
+    public static async Task AddTextAnnotation()
     {
-        public class NewFreetextAnnotation
+        const string localPdfDocument = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_add_text_annotation.pdf";
+        const int pageNumber = 1;
+    
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+    
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
+        if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            public static async Task Append(AnnotationsHelper helper, string documentName, int pageNumber, string outputName, string remoteFolder)
-            {
-                await helper.UploadFile(documentName);
-
-                List<FreeTextAnnotation> annotations = new List<FreeTextAnnotation>
-                {
-                    new FreeTextAnnotation(
-                        Name: "Freetext_NEW_Annotation",
-                        Rect: new Rectangle(100,350, 450,400),
-                        Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
-                        HorizontalAlignment: HorizontalAlignment.Left,
-                        Intent: FreeTextIntent.FreeTextTypeWriter,
-                        Justification: Justification.Center,
-                        RichText: helper.config.NEW_FT_ANNOTATION_TEXT,
-                        Subject: helper.config.NEW_FT_ANNOTATION_SUBJECT,
-                        Contents: helper.config.NEW_FT_ANNOTATION_CONTENTS,
-                        Title: helper.config.NEW_FT_ANNOTATION_DESCRIPTION,
-                        ZIndex: 1,
-                        TextStyle: new TextStyle(
-                            FontSize:        20,
-                            Font: "Arial",
-                            ForegroundColor: new Color( A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
-                            BackgroundColor: new Color( A: 0xFF, R: 0xFF, G: 0x00, B: 0x00)
-                        ),
-                        Modified: "03/27/2025 00:00:00.000 AM"
-                    )
-                };
-                AsposeResponse response = await helper.pdfApi.PostPageFreeTextAnnotationsAsync(documentName, pageNumber, annotations, folder: remoteFolder);
-
-                if (response == null)
-                    Console.WriteLine("NewFreetextAnnotation(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("NewFreetextAnnotation(): Failed to append text annotation to the document.");
-                else
-                {
-                    Console.WriteLine("NewFreetextAnnotation(): annotations '{0}' added to the document '{1}.", helper.config.NEW_FT_ANNOTATION_TEXT, documentName);
-                    await helper.DownloadFile(documentName, outputName, "add_text_annotation_");
-                }
-            }
+            using var file = File.OpenRead(localPdfDocument);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+            Console.WriteLine(uploadResult.Uploaded[0]);
+        }
+    
+        List<TextAnnotation> annotations = new List<TextAnnotation>
+        {
+            new TextAnnotation(
+                Rect: new Rectangle(100, 450, 450,500),
+                Color: new Color( A: 0xFF, R: 0x00, G: 0xFF, B: 0x00),
+                Flags: new List<AnnotationFlags>() { AnnotationFlags.Default },
+                HorizontalAlignment: HorizontalAlignment.Left,
+                RichText:                       "NEW TEXT ANNOTATION 2",
+                Subject:                        "Text Box Subject 2",
+                Contents:                       "Text annotation sample contents 2",
+                Title:                          "This is a text annotation 2",
+                ZIndex: 1,
+                Icon: TextIcon.Key,
+                Modified: "03/27/2025 00:00:00.000 AM"
+            )
+        };
+    
+        AsposeResponse response = await pdfApi.PostPageTextAnnotationsAsync(storageFileName, pageNumber, annotations);
+    
+        if (response == null)
+            Console.WriteLine("NewTextAnnotation(): Unexpected error!");
+        else if (response.Code < 200 || response.Code > 299)
+            Console.WriteLine("NewTextAnnotation(): Failed to append text annotation to the document.");
+        else
+        {
+            await (await pdfApi.DownloadFileAsync(storageFileName))
+                .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+            Console.WriteLine("NewTextAnnotation(): annotation added to the document '{0}.", resultFileName);
         }
     }
 ```
@@ -116,5 +118,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
+
 
 

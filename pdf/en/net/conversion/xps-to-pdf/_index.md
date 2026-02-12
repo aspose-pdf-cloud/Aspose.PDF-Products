@@ -2,7 +2,7 @@
 title: Convert XPS to PDF via Cloud .NET SDK
 url: net/conversion/xps-to-pdf/
 description: Turn XPS documents into PDFs using Aspose.PDF Cloud SDK for .NET. Simplify cross-platform compatibility.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,16 +69,19 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localXpsFileName = @"C:\Samples\Conversion\sample.oxps";
         const string storageXpsFileName = "sample.oxps";
         const string resultFileName = "sample-xps-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
 
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         using var file = File.OpenRead(localXpsFileName);
         pdfApi.UploadFile(storageXpsFileName, file);
         
         var response = pdfApi.PutXpsInStorageToPdf(resultFileName, storageXpsFileName);
         Console.WriteLine($"XPS to PDF result: {response.Status}");
+
         pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+            .CopyTo(File.Create(Path.Combine(localFolder, resultFileName));)
     }
 ```
 

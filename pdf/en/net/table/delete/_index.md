@@ -2,7 +2,7 @@
 title: Deleting Tables from PDF via Cloud .NET SDK 
 url: net/table/delete/
 description: Delete tables from PDFs using Aspose.PDF Cloud SDK for .NET. Remove all tables from documents.
-lastmod: "2025-08-29"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,44 +60,33 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task DeleteDocumentTables()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_del_tables.pdf";
+	    const string storageTempFolder = "YourTempFolder";
 
-    namespace Tables
-    {
-        public class DeleteTables
-        {
-            public static async Task Remove(string documentName, string outputName, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Delete tables from the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.DeleteDocumentTablesAsync(documentName, folder: remoteFolder);
-
-                // Checks the response and logs the result.
-		if (response == null)
-                    Console.WriteLine("DeleteTables(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("DeleteTables(): Failed to remove tables from the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("DeleteTables(): All tables successfully removed from the document '{0}.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "delete_tables_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("DeleteTables(): File '{0}' successfully downloaded.", "delete_tables_" + outputName);
-                }
-            }
-        }
-    }
-
+	    AsposeResponse response = await pdfApi.DeleteDocumentTablesAsync(storageFileName, folder: storageTempFolder);
+	    if (response == null)
+	        Console.WriteLine("DeleteDocumentTables(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("DeleteDocumentTables(): Failed to remove Tables from the document.");
+	    else {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("DeleteDocumentTables(): Tables successfully deleted from the document '{0}.", resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -151,3 +140,4 @@ Delete Tables from PDF documents with [Aspose.PDF Cloud Node.js SDK](https://pro
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+

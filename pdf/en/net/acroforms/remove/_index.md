@@ -2,7 +2,7 @@
 title: Remove Form Fields in PDF Document via Cloud .NET SDK
 url: net/acroforms/remove/
 description: Remove AcroForm fields from PDF files with Aspose.PDF Cloud SDK for .NET. Clean up interactive forms programmatically.
-lastmod: "2022-03-19"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -64,22 +64,31 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    public static void RemoveFormField()
+    public static async Task RemoveFormField()
     {
-        const string localImageFileName = @"C:\Samples\StudentInfoFormElectronic.pdf";
-        const string storageFileName = "StudentInfoFormElectronic.pdf";
-        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+        const string localPdfDocumentName = @"C:\Samples\sample.pdf";
+        const string storageFileName = "sample.pdf";
+        const string localFolder = @"C:\\Samples";
+        const string resultFileName = "output_del_form_filed.pdf";
+
+        // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).       
         var pdfApi = new PdfApi(AppSecret, AppSid);
-        var filesOnStorage = pdfApi.GetFilesList("");
+
+        var filesOnStorage = await pdfApi.GetFilesListAsync("");
         if (filesOnStorage.Value.All(f => f.Name != storageFileName))
         {
-            using var file = File.OpenRead(localImageFileName);
-            var uploadResult = pdfApi.UploadFile(storageFileName, file);
+            using var file = File.OpenRead(localPdfDocumentName);
+            var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
             Console.WriteLine(uploadResult.Uploaded[0]);
         }
 
-        var response = pdfApi.DeleteField(storageFileName, "First Name");
+        var response = await pdfApi.DeleteFieldAsync(storageFileName, "Email");
         Console.WriteLine(response.Status);
+
+        await (await pdfApi.DownloadFileAsync(storageFileName))
+            .CopyToAsync(File.Create(Path.Combine(localFolder, resultFileName)));
+
+        Console.WriteLine("RemoveFormField(): Form field deleted from the document '{0}.", resultFileName);
     }
 ```
 
@@ -92,3 +101,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
+
+
+
+

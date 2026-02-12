@@ -2,7 +2,7 @@
 title: Create PDF via Cloud .NET SDK 
 url: net/create/
 description: Aspose.PDF Cloud allows you to create PDF Document. Check the .NET source code to create PDF file.
-lastmod: "2025-07-19"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -39,7 +39,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to create PDF using .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to simple create PDF using .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
@@ -47,11 +47,51 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{% /blocks/products/pf/agp/text %}}
 
-1. Uploads the PDF.
-1. Retrieve Page Metadata with getPageInfo().
-1. Extract PDF Page as Image.
-1. Create New Blank PDF Canvas with createPdfDocument().
-1. Insert Extracted Image into New PDF.
+1. Initialize PdfApi object.
+1. Create Pdf document with default settings.
+1. Verify Success and Download.
+
+{{% /blocks/products/pf/agp/feature-section-col %}}
+
+{{% blocks/products/pf/agp/code-block title="Create PDF with default parameters using .NET Cloud SDK" offSpacer="" %}}
+
+```cs
+
+    public void CreatePdfDocumentSimple()
+    {
+        string LOCAL_FOLDER = "testData";
+        string PDF_DOCUMENT = "output_created_simple.pdf";
+        string REMOTE_FOLDER = "TempPdfCloud";
+
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
+
+        DocumentResponse response = pdfApi.PutCreateDocument(PDF_DOCUMENT, folder: REMOTE_FOLDER);
+        if (response.Code != 200)
+            Console.WriteLine("CreatePdfDocumentSimple(): Unexpected error: {0}", response.Messages[0]);
+        else
+        {
+            Console.WriteLine("CreatePdfDocumentSimple():Document '{0}' successfully created.", PDF_DOCUMENT);
+
+            pdfApi.DownloadFile(Path.Combine(REMOTE_FOLDER, PDF_DOCUMENT))
+               .CopyTo(File.Create(Path.Combine(LOCAL_FOLDER, PDF_DOCUMENT)));
+
+            Console.WriteLine("CreatePdfDocumentSimple():Document '{0}' successfully downloaded.", PDF_DOCUMENT);
+        }
+    }
+```
+
+{{% /blocks/products/pf/agp/code-block %}}
+
+{{< /blocks/products/pf/agp/feature-section >}}
+
+{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+
+{{% blocks/products/pf/agp/feature-section-col title="Steps to create PDF with configurating using .NET SDK" %}}
+
+1. Initialize PdfApi object.
+1. Define document parameters.
+1. Create Pdf document with settings.
 1. Verify Success and Download.
 
 {{% /blocks/products/pf/agp/feature-section-col %}}
@@ -60,50 +100,50 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace CreateDocument
+    public CreatePdfDocument()
     {
-        public class CreatePdfDocument
-        {
-            public CreatePdfDocument(CrateDocumentHelper helper)
-            {
-                DocumentProperties docProps = new DocumentProperties(
-                    List: new List<DocumentProperty>() { 
-                        new DocumentProperty(Name: "prop1", Value: "Value1", BuiltIn: false)
-                    }
-                );
+        const string LOCAL_FOLDER = @"C:\Samples";
+        const string PDF_DOCUMENT = "output_created_document.pdf";
+        const string REMOTE_FOLDER = "TempPdfCloud";
+        const string RESULT_FILE_NAME = "sample.bmp";
 
-                DisplayProperties dispProps = new DisplayProperties()
-                {
-                    CenterWindow = true,
-                    HideMenuBar = true,
-                    Direction = Direction.L2R,
-                    DisplayDocTitle = true,
-                    HideToolBar = true,
-                    HideWindowUI = true,
-                    NonFullScreenPageMode = PageMode.UseThumbs,
-                    PageLayout = PageLayout.TwoPageLeft,
-                    PageMode = PageMode.UseThumbs
-                };
+        // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+        var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                DefaultPageConfig pageConfig = new DefaultPageConfig(helper.config.PAGE_HEIGHT, helper.config.PAGE_WIDTH);
-
-                DocumentConfig document_config = new DocumentConfig(
-                    DocumentProperties: docProps,
-                    DisplayProperties: dispProps,
-                    DefaultPageConfig: pageConfig,
-                    PagesCount: helper.config.PAGES_COUNT
-                );
-
-                DocumentResponse response = helper.pdfApi.PostCreateDocument(helper.config.LOCAL_RESULT_DOCUMENT_NAME, document_config, folder: helper.config.TEMP_FOLDER);
-
-                if (response != null && response.Code == 200)
-                    Console.WriteLine("Document #{0} created.", helper.config.LOCAL_RESULT_DOCUMENT_NAME);
-                else
-                    Console.WriteLine("Unexpected error!!!");
+        DocumentProperties docProps = new DocumentProperties(
+            List: new List<DocumentProperty>() { 
+                new DocumentProperty(Name: "prop1", Value: "Value1", BuiltIn: false)
             }
-        }
+        );
+
+        DisplayProperties dispProps = new DisplayProperties()
+        {
+            CenterWindow = true,
+            HideMenuBar = true,
+            Direction = Direction.L2R,
+            DisplayDocTitle = true,
+            HideToolBar = true,
+            HideWindowUI = true,
+            NonFullScreenPageMode = PageMode.UseThumbs,
+            PageLayout = PageLayout.TwoPageLeft,
+            PageMode = PageMode.UseThumbs
+        };
+
+        DefaultPageConfig pageConfig = new DefaultPageConfig(Height: 500.0, Width: 200.0);
+
+        DocumentConfig document_config = new DocumentConfig(
+            DocumentProperties: docProps,
+            DisplayProperties: dispProps,
+            DefaultPageConfig: pageConfig,
+            PagesCount: 5
+        );
+
+        DocumentResponse response = pdfApi.PostCreateDocument(RESULT_FILE_NAME, document_config, folder: REMOTE_FOLDER);
+        Console.WriteLine(response.Status);
+
+        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(REMOTE_FOLDER, RESULT_FILE_NAME));
+        using FileStream localStream = File.Create(Path.Combine(LOCAL_FOLDER, RESULT_FILE_NAME));
+        downloadStream.CopyTo(localStream);
     }
 ```
 
@@ -116,3 +156,10 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
+
+
+

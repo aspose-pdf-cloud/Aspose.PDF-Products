@@ -1,8 +1,8 @@
 ---
 title: Get Page Annotations via Cloud .NET SDK
-url: net/annotations/page/get
+url: net/annotations/get/page/
 description: Get Page Annotations from PDFs using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-07-20"
+lastmod: "2026-01-28"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -58,40 +58,31 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
-
-    namespace Annotations
-    {
-        public class GetAnnotations
-        {
-            public static async Task<string> RequestAnnotationsOnPageAsync(AnnotationsHelper helper, string documentName, int pageNumber, string remoteFolder)
-            {
-                // Get annotations from the page in the PDF document.
-                await helper.UploadFile(documentName);
-
-                string annotationResult = string.Empty;
-                AnnotationsInfoResponse response = await helper.pdfApi.GetPageAnnotationsAsync(documentName, pageNumber, folder: remoteFolder);
-
-                if (response == null)
-                    Console.WriteLine("RequestAnnotationsOnPageAsync(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("RequestAnnotationsOnPageAsync(): Failed to request annotations from the document.");
-                else
-                {
-                    foreach (AnnotationInfo annotation in response.Annotations.List)
-                    {
-                        Console.WriteLine("RequestAnnotationsOnPageAsync(): annotation '{0}' with '{1}' contents get from the '{2}' page of the document '{3}.", [annotation.Id, annotation.Contents, pageNumber, documentName]);
-                        if (string.IsNullOrEmpty(annotationResult) &&
-                            annotation.AnnotationType == AnnotationType.Text)
-                        {
-                            annotationResult = annotation.Id;
-                        }
-                    }
-                }
-                return annotationResult;
-            }
-        }
-}
+   public async static Task GetPageAnnotations()
+   {
+       const string localPdfDocument = @"C:\Samples\sample.pdf";
+       const string storageFileName = "sample.pdf";
+       const int pageNumber = 1;
+   
+       // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).            
+       var pdfApi = new PdfApi(AppSecret, AppSid);
+   
+       var filesOnStorage = await pdfApi.GetFilesListAsync("");
+       if (filesOnStorage.Value.All(f => f.Name != storageFileName))
+       {
+           using var file = File.OpenRead(localPdfDocument);
+           var uploadResult = await pdfApi.UploadFileAsync(storageFileName, file);
+           Console.WriteLine(uploadResult.Uploaded[0]);
+       }
+   
+       AnnotationsInfoResponse response = await pdfApi.GetPageAnnotationsAsync(storageFileName, pageNumber);
+       if (response == null)
+           Console.WriteLine("GetAnnotations(): Unexpected error!");
+       else if (response.Code < 200 || response.Code > 299)
+           Console.WriteLine("GetAnnotations(): Failed to get annotations from the document.");
+       else
+           Console.WriteLine(JsonConvert.SerializeObject(response.Annotations, Formatting.Indented));
+   }
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -103,3 +94,8 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
+

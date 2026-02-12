@@ -2,7 +2,7 @@
 title: Verify Signatures in PDFs via Cloud .NET SDK 
 url: net/signature/verify/
 description: Verify signatures in PDF documents using Aspose.PDF Cloud SDK for .NET. Enhance discoverability and indexing.
-lastmod: "2025-08-25"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -63,39 +63,32 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-using Aspose.Pdf.Cloud.Sdk.Model;
+	public static async Task SignatureVerify()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string storageTempFolder = "YourTempFolder";
+	    const string signatureFormField = "Signature1";
 
-namespace Signatures
-{
-    public class VerifySignatures
-    {
-        public static async Task Check(string documentName, string fieldName, string remoteFolder)
-        {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Verify signatures in PDF via cloud storage.
-                SignatureVerifyResponse response = await pdfApi.GetVerifySignatureAsync(documentName, fieldName, folder: remoteFolder);
+	    var response = await pdfApi.GetVerifySignatureAsync(storageFileName, signatureFormField, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("VerifySignatures(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("VerifySignatures(): Failed to verify signatures in the document.");
-                else
-                { // Show signatures validation.
-                    Console.WriteLine("VerifySignature(): Signature verified successfully in the Pdf document '{0}'. Status: '{1}'", 
-                        documentName, response.Valid);
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("SignatureVerify(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("SignatureVerify(): Failed to verify Pdf document signature.");
+	    else
+	    {
+	        Console.WriteLine("SignatureVerify(): Signature verified successfully in the Pdf document '{0}'. Status: '{1}'", 
+	            storageFileName, response.Valid);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -148,4 +141,5 @@ Verify Signatures in PDF documents with [Aspose.PDF Cloud .NET SDK](https://prod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
 

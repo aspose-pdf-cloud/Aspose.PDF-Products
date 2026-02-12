@@ -2,7 +2,7 @@
 title: Convert EMF to PDF via Cloud .NET SDK
 url: net/conversion/emf-to-pdf/ 
 description: Convert EMF files to PDF format using Aspose.PDF Cloud SDK for .NET. Retain vector quality and layout in every file.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,9 +69,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\Conversion\sample.emf";
         const string storageImageFileName = "sample.emf";
         const string resultFileName = "sample-emf-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
+
         using var file = File.OpenRead(localImageFileName);
         pdfApi.UploadFile(storageImageFileName, file);
 
@@ -81,8 +83,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"EMF to PDF result: {response.Status}");
+
         pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 

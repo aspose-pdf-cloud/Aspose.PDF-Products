@@ -2,7 +2,7 @@
 title: Convert PDF to Microsoft Word DOCX via Cloud .NET SDK
 url: net/conversion/pdf-to-docx/
 description: Convert PDF to editable DOCX documents with Aspose.PDF Cloud SDK for .NET. Preserve layout and text structure.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -68,6 +68,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
     {
         var localImageFileName = @"C:\Samples\sample.pdf";
         var storageImageFileName = "sample.pdf";
+        const string localFolder = @"C:\Samples";
 
         // Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
         var config = new Configuration(AppSecret, AppKey);
@@ -78,8 +79,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
             var uploadResult = pdfApi.UploadFile(storageImageFileName, file);
         }
 
-        var response = pdfApi.GetPdfInStorageToDoc(storageImageFileName, format: "DocX", mode: "Flow");
-        response.CopyTo(System.IO.File.OpenWrite("sample.docx"));
+        
+        using Stream response = pdfApi.GetPdfInStorageToDoc(storageImageFileName, format: "DocX", mode: "Flow");
+        using FileStream localStream = File.Create(Path.Combine(localFolder, "sample.docx"));
+        response.CopyTo(localStream);
+
         Console.WriteLine($"PDF to DOCX result: {response.Length} bytes");
     }
 ```

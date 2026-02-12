@@ -2,7 +2,7 @@
 title: Delete Pages via Cloud .NET SDK
 url: net/pages/delete/
 description: Delete Pages from PDFs using Aspose.PDF Cloud SDK for .NET.
-lastmod: "2025-08-06"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -60,43 +60,35 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 ```cs
 
-    using Aspose.Pdf.Cloud.Sdk.Model;
+    public static async Task DeletePage()
+	{
+	    const string localPdfFileName = @"C:\Samples\sample.pdf";
+	    const string storageFileName = "sample.pdf";
+	    const string localFolder = @"C:\Samples";
+	    const string resultFileName = "output_del_page.pdf";
+	    const string storageTempFolder = "YourTempFolder";
+	    const int pageNumber = 3;
 
-    namespace Pages
-    {
-        public class PagesDelete
-        {
-            public static async Task Delete(string documentName, string outputName, int pageNumber, string localFolder, string remoteFolder)
-            {
-		// Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required). 
-		pdfApi = new PdfApi(AppSecret, AppSid);
+	    // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
+	    var pdfApi = new PdfApi(AppSecret, AppSid);
 
-                using (var file = File.OpenRead(Path.Combine(localFolder, documentName)))
-		{ // Upload the local PDF to cloud storage folder name.
-                    FilesUploadResult uploadResponse = await pdfApi.UploadFileAsync(Path.Combine(remoteFolder, documentName), documentName);
-                    Console.WriteLine(uploadResponse.Uploaded[0]);
-                }
+	    using var file = File.OpenRead(localPdfFileName);
+	    var uploadResult = pdfApi.UploadFile(Path.Combine(storageTempFolder, storageFileName), file);
+	    Console.WriteLine(uploadResult.Uploaded[0]);
 
-                // Delete page from the PDF on cloud storage.
-                AsposeResponse response = await pdfApi.DeletePageAsync(documentName, pageNumber, folder: remoteFolder);
+	    AsposeResponse response = await pdfApi.DeletePageAsync(storageFileName, pageNumber, folder: storageTempFolder);
 
-                // Checks the response and logs the result.
-                if (response == null)
-                    Console.WriteLine("PagesDelete(): Unexpected error!");
-                else if (response.Code < 200 || response.Code > 299)
-                    Console.WriteLine("PagesDelete(): Failed to delete page from the document.");
-                else
-                { // Downloads the updated file for local use.
-                    Console.WriteLine("PagesDelete(): page successfully deleted from the document '{0}.", documentName);
-                    Stream stream = pdfApi.DownloadFile(Path.Combine(remoteFolder, documentName));
-                    using var fileStream = File.Create(Path.Combine(localFolder, "delete_pages_" + outputName));
-                    stream.Position = 0;
-                    await stream.CopyToAsync(fileStream);
-                    Console.WriteLine("PagesDelete(): File '{0}' successfully downloaded.", "delete_pages_" + outputName);
-                }
-            }
-        }
-    }
+	    if (response == null)
+	        Console.WriteLine("PagesDelete(): Unexpected error!");
+	    else if (response.Code < 200 || response.Code > 299)
+	        Console.WriteLine("PagesDelete(): Failed to delete page from the document.");
+	    else {
+	        using Stream downloadStream = pdfApi.DownloadFile(Path.Combine(storageTempFolder, storageFileName));
+	        using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName));
+	        downloadStream.CopyTo(localStream);
+	        Console.WriteLine("PagesDelete(): page '{0}' successfully deleted from the document '{1}'.", pageNumber, resultFileName);
+	    }
+	}
 ```
 
 {{% /blocks/products/pf/agp/code-block %}}
@@ -108,3 +100,5 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+

@@ -2,7 +2,7 @@
 title: Convert GIF to PDF via Cloud .NET SDK
 url: net/conversion/gif-to-pdf/
 description: Easily convert GIF animations or images to PDF using Aspose.PDF Cloud SDK for .NET. Preserve content in PDF format.
-lastmod: "2022-03-17"
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -69,6 +69,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         const string localImageFileName = @"C:\Samples\Conversion\sample.gif";
         const string storageImageFileName = "sample.gif";
         const string resultFileName = "sample-gif-to-pdf.pdf";
+        const string localFolder = @"C:\Samples";
         
         // Get your AppSid and AppSecret https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
@@ -81,8 +82,9 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
         
         var response = pdfApi.PutImageInStorageToPdf(resultFileName, imageTemplatesRequest);
         Console.WriteLine($"GIF to PDF result: {response.Status}");
+
         pdfApi.DownloadFile(resultFileName)
-            .CopyTo(File.Create(resultFileName));
+                .CopyTo(File.Create(Path.Combine(localFolder, resultFileName)));
     }
 ```
 
