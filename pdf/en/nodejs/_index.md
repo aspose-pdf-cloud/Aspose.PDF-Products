@@ -71,7 +71,7 @@ url: nodejs
  </a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Advanced PDF documents processing Features</h2>
+   <h2 class="pr-ft">Advanced PDF Documents Processing Features for Node.JS SDK</h2>
    <div class="col-lg-4">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10">Add document text or <a href="https://products.aspose.cloud/pdf/nodejs/header/image/">image</a> <a href="https://products.aspose.cloud/pdf/nodejs/header/text/">header</a> and <a href="https://products.aspose.cloud/pdf/nodejs/footer/text/">footer</a></p>
