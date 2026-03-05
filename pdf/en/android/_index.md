@@ -71,7 +71,7 @@ url: android
  <a class="anchor" id="features" name="features"></a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Advanced PDF documents processing Features</h2>
+   <h2 class="pr-ft">Advanced PDF documents Processing Features for Android SDK</h2>
    <div class="col-lg-4">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10">Add document text or image header and footer</p>

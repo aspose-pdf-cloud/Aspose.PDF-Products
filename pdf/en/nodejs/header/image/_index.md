@@ -15,7 +15,7 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/program-languages-navigation programLanguages="net,php,python,go,nodejs" >}}
 
-{{% blocks/products/pf/agp/content h2="How to add Header via Node.js SDK" %}}
+{{% blocks/products/pf/agp/content h2="How to add Image in Header via Node.js SDK" %}}
 
 In order to add Image Header to PDF, we'll use
 [Aspose.PDF Cloud Node.js SDK](https://products.aspose.cloud/pdf/nodejs/). This Cloud SDK assists Node.js programmers in developing cloud-based PDF creator, annotator, editor, and converter apps using Node.js programming language via Aspose.PDF REST API. Simply create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. Once you have the App SID & key, you are ready to give the Aspose.PDF Cloud Node.js SDK.
@@ -37,7 +37,7 @@ In order to add Image Header to PDF, we'll use
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to add Header via Cloud Node.js" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to add Image to Header via Cloud Node.js" %}}
 
 {{% blocks/products/pf/agp/text %}}
 

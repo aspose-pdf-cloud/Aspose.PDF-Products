@@ -6,7 +6,7 @@ lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Delete Pages from PDF via .NET SDK" h2="API for moving page from PDF documents to new position with .NET." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
+{{< blocks/products/pf/upper-banner h1="Move Pages from PDF via .NET SDK" h2="API for moving page from PDF documents to new position with .NET." logoImageSrc="https://products.aspose.cloud/headers/aspose_pdf-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PDF" pfName="" subTitlepfName="" downloadUrl="" fileiconsmall1="HTML" fileiconsmall2="JPG" fileiconsmall3="PDF" fileiconsmall4="XML" fileiconsmall5="DOCX" >}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF Cloud " subTitlepfName="SDK for .NET" >}}
 {{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg"
@@ -39,11 +39,11 @@ liveDemosLink="https://products.aspose.app/pdf/family/" PricingLink="https://pur
 
 {{< blocks/products/pf/agp/feature-section isGrey="true" >}}
 
-{{% blocks/products/pf/agp/feature-section-col title="Steps to delete pages using .NET SDK" %}}
+{{% blocks/products/pf/agp/feature-section-col title="Steps to move pages using .NET SDK" %}}
 
 {{% blocks/products/pf/agp/text %}}
 
- Aspose.PDF Cloud developers can easily load & delete pages from PDF documents in just a few lines of code.
+ Aspose.PDF Cloud developers can easily load & move pages from PDF documents in just a few lines of code.
 
 {{% /blocks/products/pf/agp/text %}}
 
