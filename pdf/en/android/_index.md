@@ -10,7 +10,7 @@ url: android
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Android SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-android.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-android" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-android.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-android" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Android SDK seamlessly integrates PDF generation and processing capabilities into your Android mobile apps to access & manipulate the Acrobat files hosted on cloud storage. It is offered under an MIT license.</p>
@@ -71,7 +71,7 @@ url: android
  <a class="anchor" id="features" name="features"></a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Advanced PDF documents processing Features</h2>
+   <h2 class="pr-ft">Advanced PDF documents Processing Features for Android SDK</h2>
    <div class="col-lg-4">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10">Add document text or image header and footer</p>
@@ -179,13 +179,13 @@ url: android
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud SDK for Android?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

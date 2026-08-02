@@ -10,7 +10,7 @@ url: swift
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Swift SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-swift.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Swift SDK cho phép nâng cao các ứng dụng Swift trên đám mây của bạn để tạo ra các trang PDF mới trên đám mây hoặc tạo tài liệu PDF đám mây bằng cách chuyển đổi từ các định dạng khác nhau, như JPEG, TIFF, SVG, PCL, XPS, XML, HTML, vv. Bạn cũng có thể ghép nối nhiều tệp PDF thành một tài liệu PDF đám mây hoặc tách một tệp Acrobat thành nhiều tệp PDF nhỏ hơn.</p>
@@ -180,13 +180,13 @@ url: swift
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Tại Sao Chọn Aspose.PDF Cloud Swift SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Danh Sách Khách Hàng" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Bảo Mật" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Danh Sách Khách Hàng" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Bảo Mật" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

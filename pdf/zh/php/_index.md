@@ -10,7 +10,7 @@ url: php
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud PHP SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud PHP SDK 允许云应用程序开发人员构建基于云的 PDF 生成器、编辑器和转换器应用程序，以访问和处理托管在云存储上的 PDF 文件，无需安装任何第三方软件。Aspose.PDF Cloud PHP SDK 在 MIT 许可证下提供，并基于 Aspose.PDF REST API 构建。</p>
@@ -180,13 +180,13 @@ url: php
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="为什么选择 Aspose.PDF Cloud PHP SDK？" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="客户名单" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="安全性" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="客户名单" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="安全性" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

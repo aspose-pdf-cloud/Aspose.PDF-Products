@@ -2,6 +2,7 @@
 title: Split PDF Files via Cloud .NET SDK 
 url: net/split/single/
 description: Split single PDF into multiple parts with Aspose.PDF Cloud SDK for .NET. Automate document separation.
+lastmod: "2026-01-29"
 ---
 
 {{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
@@ -75,7 +76,9 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
     {
         const string localImageFileName = @"C:\Samples\Sample-Document-01.pdf";
         const string storageFileName = "Sample-Document-01.pdf";
-        
+        const string resultFileName = "output-splitted";
+        const string localFolder = @"C:\Samples";
+
         // Get your AppSid and AppSecret from https://dashboard.aspose.cloud (free registration required).
         var pdfApi = new PdfApi(AppSecret, AppSid);
 
@@ -88,10 +91,11 @@ It is easy to get started with Aspose.PDF Cloud .NET SDK and there is nothing to
 
         var response = pdfApi.PostSplitDocument(storageFileName);
         uint index = 1;
-        foreach (var fileName in response.Result.Documents.Select(document=>document.Href))
+        foreach (var fileName in response.Result.Documents.Select(document => document.Href))
         {
-            pdfApi.DownloadFile(fileName)
-                .CopyTo(File.OpenWrite($"page{index++}.pdf"));
+            using Stream downloadStream = pdfApi.DownloadFile(fileName);
+            using FileStream localStream = File.Create(Path.Combine(localFolder, resultFileName + $"-page{index++}.pdf"));
+            downloadStream.CopyTo(localStream);
         }
     }
 ```

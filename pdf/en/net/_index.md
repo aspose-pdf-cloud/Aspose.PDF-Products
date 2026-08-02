@@ -10,7 +10,7 @@ url: net
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud .NET SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://products.aspose.cloud/sdk/aspose_pdf-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud .NET SDK enables developers to program PDF editor, converter and creator apps for cloud platforms. Aspose.PDF Cloud SDK for .NET is distributed under an MIT license and is based on Aspose.PDF REST API. PDF .NET SDK enhances your C#, ASP.NET and other .NET supported language code to access and customize images, annotations, watermarks, stamps, form fields, and OCR layers of PDF documents saved on the cloud storage.</p>
@@ -72,10 +72,14 @@ url: net
  </a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Advanced PDF documents processing Features</h2>
+   <h2 class="pr-ft">Advanced PDF documents Processing Features for .NET SDK</h2>
         <div class="col-lg-4">
             <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Add document text or image header and footer</p>
+            <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/footers/">Add document text or image footer</p>
+        </div>
+		<div class="col-lg-4">
+            <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
+            <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/headers/">Add document text or image header</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-file ico-blue fa-2x col-lg-2"></em>
@@ -95,11 +99,7 @@ url: net
         </div>
         <div class="col-lg-4">
             <em class="fa fa-file-image-o ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Delete all tables from a specific page or entire document</p>
-        </div>
-        <div class="col-lg-4">
-            <em class="fa fa-html5 ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Read or delete document table by ID</p>
+            <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/table/">Working with tables in the PDF document</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
@@ -107,7 +107,7 @@ url: net
         </div>
         <div class="col-lg-4">
             <em class="fa fa-font ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Set and get multiple types of annotations to documents</p>
+            <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/annotattions/">Set and get multiple types of annotations to documents</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-tag ico-blue fa-2x col-lg-2"></em>
@@ -123,7 +123,7 @@ url: net
         </div>
         <div class="col-lg-4">
             <em class="fa fa-edit ico-blue fa-2x col-lg-2"></em>
-            <p class="col-lg-10">Encrypt or decrypt document content &amp; Change document password</p>
+            <p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/net/encrypt/">Encrypt</a> or <a href="https://products.aspose.cloud/pdf/net/decrypt">decrypt</a> document content &amp; <a href="https://products.aspose.cloud/pdf/net/passwordchange/">Change</a> document password</p>
         </div>
         <div class="col-lg-4">
             <em class="fa fa-th ico-blue fa-2x col-lg-2"></em>
@@ -191,13 +191,13 @@ url: net
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud .NET SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

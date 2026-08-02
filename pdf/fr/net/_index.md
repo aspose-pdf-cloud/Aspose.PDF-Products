@@ -10,7 +10,7 @@ url: net
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud .NET SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-net.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud .NET SDK permet aux développeurs de programmer des applications d'éditeur, de convertisseur et de créateur de PDF pour les plateformes cloud. Aspose.PDF Cloud SDK pour .NET est distribué sous une licence MIT et est basé sur l'API REST Aspose.PDF. PDF .NET SDK améliore votre code C#, ASP.NET et autres langages pris en charge par .NET pour accéder et personnaliser les images, annotations, filigranes, tampons, champs de formulaire et couches OCR des documents PDF enregistrés sur le stockage cloud.</p>
@@ -191,13 +191,13 @@ Console.WriteLine(response);
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Pourquoi Aspose.PDF Cloud .NET SDK ?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Liste de Clients" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Sécurité" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Liste de Clients" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Sécurité" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

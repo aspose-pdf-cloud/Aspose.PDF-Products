@@ -10,7 +10,7 @@ url: python
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud Python SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-python.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-python.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud Python SDKは、ウェブ開発者がPythonプログラミング言語を介してクラウドベースのPDF処理および操作アプリを迅速に構築および展開するのを支援します。</p>
@@ -99,7 +99,7 @@ url: python
 </div>
 <div class="col-lg-4">
 <em class="fa fa-bookmark ico-blue fa-2x col-lg-2"></em>
-<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/python/bookmarks/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/python/bookmarks/delete/">削除</a>、<a href="https://products.aspose.cloud/pdf/python/bookmarks/extract/">抽出</a>、および<a href="https://products.aspose.cloud/pdf/python/bookmarks/replace/">置換</a>をPDFのブックマークに対して行う</p>
+<p class="col-lg-10"><a href="https://products.aspose.cloud/pdf/python/bookmarks/add/">追加</a>、<a href="https://products.aspose.cloud/pdf/python/bookmarks/remove/">削除</a>、<a href="https://products.aspose.cloud/pdf/python/bookmarks/extract/">抽出</a>、および<a href="https://products.aspose.cloud/pdf/python/bookmarks/replace/">置換</a>をPDFのブックマークに対して行う</p>
 </div>
 <div class="col-lg-4">
 <em class="fa fa-object-group ico-blue fa-2x col-lg-2"></em>
@@ -181,13 +181,13 @@ url: python
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Aspose.PDF Cloud Python SDKの理由" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="顧客リスト" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="セキュリティ" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="顧客リスト" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="セキュリティ" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

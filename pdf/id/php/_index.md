@@ -10,7 +10,7 @@ url: php
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud PHP SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud PHP SDK memungkinkan pengembang aplikasi cloud untuk membangun aplikasi generator, editor & konverter PDF berbasis cloud untuk mengakses dan memproses file PDF yang disimpan di penyimpanan cloud, tanpa menginstal perangkat lunak pihak ketiga. Aspose.PDF Cloud PHP SDK tersedia di bawah lisensi MIT dan dibangun di atas Aspose.PDF REST API.</p>
@@ -180,13 +180,13 @@ url: php
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Mengapa Aspose.PDF Cloud PHP SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Keamanan" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Daftar Pelanggan" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Keamanan" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 

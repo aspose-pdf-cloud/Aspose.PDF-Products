@@ -10,7 +10,7 @@ url: php
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="Cloud PHP SDK" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/pricing" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php" liveDemosLink="https://products.aspose.app/pdf/family" >}}
+{{< blocks/products/pf/sub-menu logoImageSrc="/sdk/aspose_pdf-for-php.svg" liveDemosLink="" PricingLink="https://purchase.aspose.cloud/cloud/pricing/" buyLink="https://dashboard.aspose.cloud" docsLink="https://docs.aspose.cloud/pdf" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php" liveDemosLink="https://products.aspose.app/pdf/family" >}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>Aspose.PDF Cloud PHP SDK allows cloud application developers to build cloud-based PDF generator, editor & converter apps to access and process PDF files hosted on a cloud storage, without installing any third-party software. Aspose.PDF Cloud PHP SDK is available under an MIT license and is built on top of Aspose.PDF REST API.</p>
@@ -72,7 +72,7 @@ url: php
  </a>
  <div class="row">
   <div class="container">
-   <h2 class="pr-ft">Advanced PDF documents Manipulation features</h2>
+   <h2 class="pr-ft">Advanced PDF documents Manipulation Features for PHP SDK</h2>
    <div class="col-lg-4">
     <em class="fa fa-file-pdf-o ico-blue fa-2x col-lg-2"></em>
     <p class="col-lg-10">Add document text or image <a href="https://products.aspose.cloud/pdf/php/header/image/">header</a> and <a href="https://products.aspose.cloud/pdf/php/footer/image/">footer</a></p>
@@ -180,13 +180,13 @@ url: php
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< blocks/products/pf/slr-tab tabTitle="Why Aspose.PDF Cloud PHP SDK?" tabId="success-stories" >}}
-{{< blocks/products/pf/slr-element name="Customers List" href="https://company.aspose.cloud/customers" >}}
-{{< blocks/products/pf/slr-element name="Security" href="https://company.aspose.cloud/legal/security" >}}
+{{< blocks/products/pf/slr-element name="Customers List" href="https://about.aspose.cloud/customers/" >}}
+{{< blocks/products/pf/slr-element name="Security" href="https://about.aspose.cloud/security/" >}}
 {{< /blocks/products/pf/slr-tab >}}
 
 {{< /blocks/products/pf/support-learning-resources >}}
 
-{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/pricing" >}}
+{{< blocks/products/pf/download-section downloadFreeTrialLink="" pricingInformationLink="https://purchase.aspose.cloud/cloud/pricing/" >}}
 
 {{< blocks/products/pf/offers-section pfName="Aspose.PDF" >}}
 
