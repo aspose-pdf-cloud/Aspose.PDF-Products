@@ -51,7 +51,7 @@ Crie ou importe arquivos PDF na nuvem via Swift REST SDK & realize várias opera
 Permita que o código de seu aplicativo Go utilize recursos de processamento de PDF na nuvem do básico ao avançado.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF para AWS" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF para AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
 Expanda o poder de seu próprio cluster AWS com um contêiner de API REST on-premise para processamento de PDF.
 {{< /blocks/products/pf/product >}}
 

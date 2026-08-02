@@ -51,7 +51,7 @@ Tạo hoặc nhập tệp PDF trên đám mây qua Swift REST SDK & thực hiệ
 Cho phép mã ứng dụng Go của bạn sử dụng các tính năng xử lý PDF đám mây từ cơ bản đến nâng cao.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF cho AWS" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF cho AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
 Mở rộng sức mạnh của cụm AWS riêng của bạn với một container API REST tại chỗ cho xử lý PDF.
 {{< /blocks/products/pf/product >}}
 

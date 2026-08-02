@@ -51,7 +51,7 @@ url: family
 Позвольте вашему коду на языке Go использовать от базовых до продвинутых функций облачной обработки PDF.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF для AWS" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF для AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
 Расширьте возможности вашего собственного AWS кластера с помощью контейнера REST API для обработки PDF на месте.
 {{< /blocks/products/pf/product >}}
 
