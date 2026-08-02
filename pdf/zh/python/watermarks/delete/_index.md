@@ -157,7 +157,7 @@ API进行编程删除PDF中的水印，只需几行代码即可完成。
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" platform="AWS" >}}
+{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

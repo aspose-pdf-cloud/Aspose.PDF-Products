@@ -51,7 +51,7 @@ url: family
 مكّن كود تطبيق Go الخاص بك للاستفادة من ميزات معالجة PDF السحابية من الأساسية إلى المتقدمة.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
 قم بتوسيع قوة الكتلة الخاصة بك في AWS مع حاوية REST API محلية لمعالجة PDF.
 {{< /blocks/products/pf/product >}}
 

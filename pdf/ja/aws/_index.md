@@ -9,14 +9,14 @@ url: aws
 {{< blocks/products/pf/upper-banner
 h1="あなたのクラウドの柔軟性でAspose.PDFをAWSにホスト"
 h2="ECSまたはEKSクラスター内に完全なPDF REST APIをデプロイします。需要の急増に瞬時に対応し、安全性を維持し、コンテナが稼働するときのみ支払います。"
-logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws-l.svg"
+logoImageSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws-l.svg"
 pfName="Aspose.PDF"
 subTitlepfName="for AWS"
 downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
 
 {{< blocks/products/pf/main-container pfName="Aspose.PDF" subTitlepfName="for AWS" >}}
 
-{{< blocks/products/pf/sub-menu logoImageSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" liveDemosLink="https://products.aspose.app/pdf/" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/seller-profile?id=24936347-2ced-4b2a-a28d-c55b1a54df77" docsLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk">}}
+{{< blocks/products/pf/sub-menu logoImageSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" liveDemosLink="https://products.aspose.app/pdf/" PricingLink="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo#heading:Rjq9t:" buyLink="https://aws.amazon.com/marketplace/seller-profile?id=24936347-2ced-4b2a-a28d-c55b1a54df77" docsLink="https://docs.aspose.cloud/pdf/aspose-pdf-for-aws/" directDownloadLink="https://github.com/aspose-pdf-cloud/aspose-pdf-for-aws-sdk">}}
 
 {{< blocks/products/pf/tab-content >}}
 <p>エンタープライズチームは、予測不可能なワークロードに適応できない厳格なSDKライセンスにしばしば苦労します。監査、四半期末のサイクル、大量のユーザーオンボーディングなど、急速に変化する環境では、これらの制限がコストと複雑さを引き起こします。</p>
@@ -56,7 +56,7 @@ downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
 </div>
 </div>
 <div class="d1-logo">
-<img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+<img src="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
 <header>Aspose.PDF</header>
 <footer>for AWS</footer>
 </div>
@@ -89,7 +89,7 @@ downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
 </div>
 </div>
 <div class="d1-logo">
-<img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+<img src="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
 <header>Aspose.PDF</header>
 <footer>for AWS</footer>
 </div>
@@ -122,7 +122,7 @@ downloadUrl="https://aws.amazon.com/marketplace/pp/prodview-zc64pent6p6lo">}}
 </div>
 </div>
 <div class="d1-logo">
-<img src="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
+<img src="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" alt="Aspose.PDF for AWS">
 <header>Aspose.PDF</header>
 <footer>for AWS</footer>
 </div>

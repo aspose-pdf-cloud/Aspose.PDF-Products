@@ -51,7 +51,7 @@ url: family
 使您的 Go 语言应用代码能够利用从基础到高级的云 PDF 处理功能。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
+{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
 通过本地 REST API 容器扩展您自己的 AWS 集群的功能，用于 PDF 处理。
 {{< /blocks/products/pf/product >}}
 

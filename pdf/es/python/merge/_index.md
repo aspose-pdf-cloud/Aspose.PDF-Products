@@ -160,7 +160,7 @@ Ofrecemos capacidades de procesamiento de documentos de primer nivel a través d
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://products-qa.aspose.app/pdf/installer/aspose_pdf-for-aws.svg" platform="AWS" >}}
+{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
