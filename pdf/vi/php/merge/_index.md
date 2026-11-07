@@ -155,7 +155,6 @@ Chúng tôi cung cấp khả năng xử lý tài liệu hàng đầu thông qua 
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

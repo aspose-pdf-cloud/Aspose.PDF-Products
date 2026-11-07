@@ -221,7 +221,6 @@ Aspose.PDF Cloud开发者可以轻松地在几行代码中加载和替换PDF中�
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

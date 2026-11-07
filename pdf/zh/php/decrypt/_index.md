@@ -199,7 +199,6 @@ Aspose.PDF Cloud 开发人员只需几行代码即可轻松加载和解密 PDF�
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

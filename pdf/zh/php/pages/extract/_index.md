@@ -176,7 +176,6 @@ Aspose.PDF Cloud 开发者可以通过几行代码轻松加载并获取 PDF 中�
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 

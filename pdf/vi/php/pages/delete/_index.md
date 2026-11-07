@@ -170,7 +170,6 @@ Các nhà phát triển Aspose.PDF Cloud có thể dễ dàng tải & xóa các 
 
 {{< blocks/products/pf/offers-section-item link="/pdf/go/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="Go" >}}
 
-{{< blocks/products/pf/offers-section-item link="/pdf/aws/" imgSrc="/sdk/aspose_pdf-for-go.svg" platform="AWS" >}}
 
 {{< /blocks/products/pf/offers-section >}}
 
