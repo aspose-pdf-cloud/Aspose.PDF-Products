@@ -51,9 +51,6 @@ Swift REST SDK を通じてクラウドで PDF ファイルを作成またはイ
 Go 言語アプリコードを有効にして、基本から高度なクラウド PDF 処理機能を利用します。
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF for AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
-オンプレミスの REST API コンテナを使用して、PDF 処理のために独自の AWS クラスターの機能を拡張します。
-{{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 {{< /blocks/products/pf/main-container >}}

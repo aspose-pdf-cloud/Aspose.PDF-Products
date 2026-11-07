@@ -51,9 +51,6 @@ Buat atau impor file PDF di cloud melalui Swift REST SDK & lakukan berbagai oper
 Aktifkan kode aplikasi Go lang Anda untuk memanfaatkan fitur pemrosesan PDF cloud dari dasar hingga lanjutan.
 {{< /blocks/products/pf/product >}}
 
-{{< blocks/products/pf/product pfName="Aspose.PDF" title="Aspose.PDF untuk AWS" imgSrc="https://s3.dynabic.com/main-marketplace-billing-pdf/marketplace/aspose_pdf-for-aws.svg" productLink="/pdf/aws/" >}}
-Perluas kekuatan kluster AWS Anda sendiri dengan wadah REST API on-premise untuk pemrosesan PDF.
-{{< /blocks/products/pf/product >}}
 
 {{< /blocks/products/pf/product-card-row >}}
 {{< /blocks/products/pf/main-container >}}
